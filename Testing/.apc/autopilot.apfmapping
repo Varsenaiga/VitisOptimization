@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="parameters.h" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\parameters.h"/>
+    <originFiles name="model_functions.h" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\model_functions.h"/>
+    <originFiles name="master.h" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\master.h"/>
+    <originFiles name="master.cpp" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\master.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\main.cpp"/>
+    <originFiles name="file.h" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\file.h"/>
+    <originFiles name="file.cpp" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\file.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

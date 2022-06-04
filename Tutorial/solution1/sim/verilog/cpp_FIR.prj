@@ -1,0 +1,9 @@
+sv work "glbl.v"
+sv xil_defaultlib "cpp_FIR.autotb.v"
+sv xil_defaultlib "cpp_FIR.v"
+sv xil_defaultlib "cpp_FIR_CFir_int_int_int_c.v"
+sv xil_defaultlib "cpp_FIR_fir1_shift_reg.v"
+sv xil_defaultlib "cpp_FIR_flow_control_loop_pipe.v"
+sv xil_defaultlib "cpp_FIR_mul_16s_32s_32_1_1.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+

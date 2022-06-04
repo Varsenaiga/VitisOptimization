@@ -1,0 +1,69 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2021.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'tiago' on host 'desktop-g74gfk5' (Windows NT_amd64 version 6.2) on Fri Jun 03 17:16:34 +0100 2022
+INFO: [HLS 200-10] In directory 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/csim/build'
+In file included from ../../../../file.c:3:
+In file included from D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed.h:55:
+In file included from D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_common.h:57:
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:93:2: error: "AP data type can only be used in C++"
+#error "AP data type can only be used in C++"
+ ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:179:1: error: unknown type name 'template'
+template <int _AP_W, bool _AP_S>
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:179:10: error: expected identifier or '('
+template <int _AP_W, bool _AP_S>
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:182:1: error: unknown type name 'template'
+template <int _AP_W>
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:182:10: error: expected identifier or '('
+template <int _AP_W>
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:185:1: error: unknown type name 'template'
+template <int _AP_W>
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:185:10: error: expected identifier or '('
+template <int _AP_W>
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:188:1: error: unknown type name 'template'
+template <int _AP_W, bool _AP_S>
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:188:10: error: expected identifier or '('
+template <int _AP_W, bool _AP_S>
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:191:1: error: unknown type name 'template'
+template <int _AP_W, bool _AP_S>
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:191:10: error: expected identifier or '('
+template <int _AP_W, bool _AP_S>
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:194:1: error: unknown type name 'template'
+template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2>
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:194:10: error: expected identifier or '('
+template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2>
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:197:1: error: unknown type name 'template'
+template <int _AP_W, int _AP_I, bool _AP_S = true, ap_q_mode _AP_Q = AP_TRN,
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:197:10: error: expected identifier or '('
+template <int _AP_W, int _AP_I, bool _AP_S = true, ap_q_mode _AP_Q = AP_TRN,
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:201:1: error: unknown type name 'template'
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q = AP_TRN,
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:201:10: error: expected identifier or '('
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q = AP_TRN,
+         ^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:205:1: error: unknown type name 'template'
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q = AP_TRN,
+^
+D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_decl.h:205:10: error: expected identifier or '('
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q = AP_TRN,
+         ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ERROR: [APCC 202-10] clang compile failed: child process exited abnormally
+ERROR: [APCC 202-1] ProcessSources failed
+INFO: [APCC 202-3] Tmp directory is apcc_db
+ERROR: [APCC 202-1] APCC failed.

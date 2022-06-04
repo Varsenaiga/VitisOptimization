@@ -1,0 +1,326 @@
+Test passed !
+
+C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\Tutorial\solution1\sim\verilog>set PATH= 
+
+C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\Tutorial\solution1\sim\verilog>call D:/Xilinx/Vivado/2021.1/bin/xelab xil_defaultlib.apatb_cpp_FIR_top glbl -Oenable_linking_all_libraries  -prj cpp_FIR.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_19 -L floating_point_v7_1_12 --lib "ieee_proposed=./ieee_proposed" -s cpp_FIR  
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_cpp_FIR_top glbl -Oenable_linking_all_libraries -prj cpp_FIR.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_19 -L floating_point_v7_1_12 --lib ieee_proposed=./ieee_proposed -s cpp_FIR 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_cpp_FIR_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpp_FIR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR_CFir_int_int_int_c.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpp_FIR_CFir_int_int_int_c
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR_fir1_shift_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpp_FIR_fir1_shift_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR_flow_control_loop_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpp_FIR_flow_control_loop_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR_mul_16s_32s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpp_FIR_mul_16s_32s_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.cpp_FIR_fir1_shift_reg
+Compiling module xil_defaultlib.cpp_FIR_CFir_int_int_int_c
+Compiling module xil_defaultlib.cpp_FIR_mul_16s_32s_32_1_1(NUM_S...
+Compiling module xil_defaultlib.cpp_FIR_flow_control_loop_pipe
+Compiling module xil_defaultlib.cpp_FIR
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.upc_loop_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_cpp_FIR_top
+Compiling module work.glbl
+Built simulation snapshot cpp_FIR
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/xsim.dir/cpp_FIR/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/xsim.dir/cpp_FIR/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 18 12:14:54 2022. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 18 12:14:54 2022...
+
+****** xsim v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/cpp_FIR/xsim_script.tcl
+# xsim {cpp_FIR} -autoloadwcfg -tclbatch {cpp_FIR.tcl}
+Time resolution is 1 ps
+source cpp_FIR.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 251 [0.00%] @ "125000"
+// RTL Simulation : 1 / 251 [100.00%] @ "1855000"
+// RTL Simulation : 2 / 251 [100.00%] @ "3575000"
+// RTL Simulation : 3 / 251 [100.00%] @ "5295000"
+// RTL Simulation : 4 / 251 [100.00%] @ "7015000"
+// RTL Simulation : 5 / 251 [100.00%] @ "8735000"
+// RTL Simulation : 6 / 251 [100.00%] @ "10455000"
+// RTL Simulation : 7 / 251 [100.00%] @ "12175000"
+// RTL Simulation : 8 / 251 [100.00%] @ "13895000"
+// RTL Simulation : 9 / 251 [100.00%] @ "15615000"
+// RTL Simulation : 10 / 251 [100.00%] @ "17335000"
+// RTL Simulation : 11 / 251 [100.00%] @ "19055000"
+// RTL Simulation : 12 / 251 [100.00%] @ "20775000"
+// RTL Simulation : 13 / 251 [100.00%] @ "22495000"
+// RTL Simulation : 14 / 251 [100.00%] @ "24215000"
+// RTL Simulation : 15 / 251 [100.00%] @ "25935000"
+// RTL Simulation : 16 / 251 [100.00%] @ "27655000"
+// RTL Simulation : 17 / 251 [100.00%] @ "29375000"
+// RTL Simulation : 18 / 251 [100.00%] @ "31095000"
+// RTL Simulation : 19 / 251 [100.00%] @ "32815000"
+// RTL Simulation : 20 / 251 [100.00%] @ "34535000"
+// RTL Simulation : 21 / 251 [100.00%] @ "36255000"
+// RTL Simulation : 22 / 251 [100.00%] @ "37975000"
+// RTL Simulation : 23 / 251 [100.00%] @ "39695000"
+// RTL Simulation : 24 / 251 [100.00%] @ "41415000"
+// RTL Simulation : 25 / 251 [100.00%] @ "43135000"
+// RTL Simulation : 26 / 251 [100.00%] @ "44855000"
+// RTL Simulation : 27 / 251 [100.00%] @ "46575000"
+// RTL Simulation : 28 / 251 [100.00%] @ "48295000"
+// RTL Simulation : 29 / 251 [100.00%] @ "50015000"
+// RTL Simulation : 30 / 251 [100.00%] @ "51735000"
+// RTL Simulation : 31 / 251 [100.00%] @ "53455000"
+// RTL Simulation : 32 / 251 [100.00%] @ "55175000"
+// RTL Simulation : 33 / 251 [100.00%] @ "56895000"
+// RTL Simulation : 34 / 251 [100.00%] @ "58615000"
+// RTL Simulation : 35 / 251 [100.00%] @ "60335000"
+// RTL Simulation : 36 / 251 [100.00%] @ "62055000"
+// RTL Simulation : 37 / 251 [100.00%] @ "63775000"
+// RTL Simulation : 38 / 251 [100.00%] @ "65495000"
+// RTL Simulation : 39 / 251 [100.00%] @ "67215000"
+// RTL Simulation : 40 / 251 [100.00%] @ "68935000"
+// RTL Simulation : 41 / 251 [100.00%] @ "70655000"
+// RTL Simulation : 42 / 251 [100.00%] @ "72375000"
+// RTL Simulation : 43 / 251 [100.00%] @ "74095000"
+// RTL Simulation : 44 / 251 [100.00%] @ "75815000"
+// RTL Simulation : 45 / 251 [100.00%] @ "77535000"
+// RTL Simulation : 46 / 251 [100.00%] @ "79255000"
+// RTL Simulation : 47 / 251 [100.00%] @ "80975000"
+// RTL Simulation : 48 / 251 [100.00%] @ "82695000"
+// RTL Simulation : 49 / 251 [100.00%] @ "84415000"
+// RTL Simulation : 50 / 251 [100.00%] @ "86135000"
+// RTL Simulation : 51 / 251 [100.00%] @ "87855000"
+// RTL Simulation : 52 / 251 [100.00%] @ "89575000"
+// RTL Simulation : 53 / 251 [100.00%] @ "91295000"
+// RTL Simulation : 54 / 251 [100.00%] @ "93015000"
+// RTL Simulation : 55 / 251 [100.00%] @ "94735000"
+// RTL Simulation : 56 / 251 [100.00%] @ "96455000"
+// RTL Simulation : 57 / 251 [100.00%] @ "98175000"
+// RTL Simulation : 58 / 251 [100.00%] @ "99895000"
+// RTL Simulation : 59 / 251 [100.00%] @ "101615000"
+// RTL Simulation : 60 / 251 [100.00%] @ "103335000"
+// RTL Simulation : 61 / 251 [100.00%] @ "105055000"
+// RTL Simulation : 62 / 251 [100.00%] @ "106775000"
+// RTL Simulation : 63 / 251 [100.00%] @ "108495000"
+// RTL Simulation : 64 / 251 [100.00%] @ "110215000"
+// RTL Simulation : 65 / 251 [100.00%] @ "111935000"
+// RTL Simulation : 66 / 251 [100.00%] @ "113655000"
+// RTL Simulation : 67 / 251 [100.00%] @ "115375000"
+// RTL Simulation : 68 / 251 [100.00%] @ "117095000"
+// RTL Simulation : 69 / 251 [100.00%] @ "118815000"
+// RTL Simulation : 70 / 251 [100.00%] @ "120535000"
+// RTL Simulation : 71 / 251 [100.00%] @ "122255000"
+// RTL Simulation : 72 / 251 [100.00%] @ "123975000"
+// RTL Simulation : 73 / 251 [100.00%] @ "125695000"
+// RTL Simulation : 74 / 251 [100.00%] @ "127415000"
+// RTL Simulation : 75 / 251 [100.00%] @ "129135000"
+// RTL Simulation : 76 / 251 [100.00%] @ "130855000"
+// RTL Simulation : 77 / 251 [100.00%] @ "132575000"
+// RTL Simulation : 78 / 251 [100.00%] @ "134295000"
+// RTL Simulation : 79 / 251 [100.00%] @ "136015000"
+// RTL Simulation : 80 / 251 [100.00%] @ "137735000"
+// RTL Simulation : 81 / 251 [100.00%] @ "139455000"
+// RTL Simulation : 82 / 251 [100.00%] @ "141175000"
+// RTL Simulation : 83 / 251 [100.00%] @ "142895000"
+// RTL Simulation : 84 / 251 [100.00%] @ "144615000"
+// RTL Simulation : 85 / 251 [100.00%] @ "146335000"
+// RTL Simulation : 86 / 251 [100.00%] @ "148055000"
+// RTL Simulation : 87 / 251 [100.00%] @ "149775000"
+// RTL Simulation : 88 / 251 [100.00%] @ "151495000"
+// RTL Simulation : 89 / 251 [100.00%] @ "153215000"
+// RTL Simulation : 90 / 251 [100.00%] @ "154935000"
+// RTL Simulation : 91 / 251 [100.00%] @ "156655000"
+// RTL Simulation : 92 / 251 [100.00%] @ "158375000"
+// RTL Simulation : 93 / 251 [100.00%] @ "160095000"
+// RTL Simulation : 94 / 251 [100.00%] @ "161815000"
+// RTL Simulation : 95 / 251 [100.00%] @ "163535000"
+// RTL Simulation : 96 / 251 [100.00%] @ "165255000"
+// RTL Simulation : 97 / 251 [100.00%] @ "166975000"
+// RTL Simulation : 98 / 251 [100.00%] @ "168695000"
+// RTL Simulation : 99 / 251 [100.00%] @ "170415000"
+// RTL Simulation : 100 / 251 [100.00%] @ "172135000"
+// RTL Simulation : 101 / 251 [100.00%] @ "173855000"
+// RTL Simulation : 102 / 251 [100.00%] @ "175575000"
+// RTL Simulation : 103 / 251 [100.00%] @ "177295000"
+// RTL Simulation : 104 / 251 [100.00%] @ "179015000"
+// RTL Simulation : 105 / 251 [100.00%] @ "180735000"
+// RTL Simulation : 106 / 251 [100.00%] @ "182455000"
+// RTL Simulation : 107 / 251 [100.00%] @ "184175000"
+// RTL Simulation : 108 / 251 [100.00%] @ "185895000"
+// RTL Simulation : 109 / 251 [100.00%] @ "187615000"
+// RTL Simulation : 110 / 251 [100.00%] @ "189335000"
+// RTL Simulation : 111 / 251 [100.00%] @ "191055000"
+// RTL Simulation : 112 / 251 [100.00%] @ "192775000"
+// RTL Simulation : 113 / 251 [100.00%] @ "194495000"
+// RTL Simulation : 114 / 251 [100.00%] @ "196215000"
+// RTL Simulation : 115 / 251 [100.00%] @ "197935000"
+// RTL Simulation : 116 / 251 [100.00%] @ "199655000"
+// RTL Simulation : 117 / 251 [100.00%] @ "201375000"
+// RTL Simulation : 118 / 251 [100.00%] @ "203095000"
+// RTL Simulation : 119 / 251 [100.00%] @ "204815000"
+// RTL Simulation : 120 / 251 [100.00%] @ "206535000"
+// RTL Simulation : 121 / 251 [100.00%] @ "208255000"
+// RTL Simulation : 122 / 251 [100.00%] @ "209975000"
+// RTL Simulation : 123 / 251 [100.00%] @ "211695000"
+// RTL Simulation : 124 / 251 [100.00%] @ "213415000"
+// RTL Simulation : 125 / 251 [100.00%] @ "215135000"
+// RTL Simulation : 126 / 251 [100.00%] @ "216855000"
+// RTL Simulation : 127 / 251 [100.00%] @ "218575000"
+// RTL Simulation : 128 / 251 [100.00%] @ "220295000"
+// RTL Simulation : 129 / 251 [100.00%] @ "222015000"
+// RTL Simulation : 130 / 251 [100.00%] @ "223735000"
+// RTL Simulation : 131 / 251 [100.00%] @ "225455000"
+// RTL Simulation : 132 / 251 [100.00%] @ "227175000"
+// RTL Simulation : 133 / 251 [100.00%] @ "228895000"
+// RTL Simulation : 134 / 251 [100.00%] @ "230615000"
+// RTL Simulation : 135 / 251 [100.00%] @ "232335000"
+// RTL Simulation : 136 / 251 [100.00%] @ "234055000"
+// RTL Simulation : 137 / 251 [100.00%] @ "235775000"
+// RTL Simulation : 138 / 251 [100.00%] @ "237495000"
+// RTL Simulation : 139 / 251 [100.00%] @ "239215000"
+// RTL Simulation : 140 / 251 [100.00%] @ "240935000"
+// RTL Simulation : 141 / 251 [100.00%] @ "242655000"
+// RTL Simulation : 142 / 251 [100.00%] @ "244375000"
+// RTL Simulation : 143 / 251 [100.00%] @ "246095000"
+// RTL Simulation : 144 / 251 [100.00%] @ "247815000"
+// RTL Simulation : 145 / 251 [100.00%] @ "249535000"
+// RTL Simulation : 146 / 251 [100.00%] @ "251255000"
+// RTL Simulation : 147 / 251 [100.00%] @ "252975000"
+// RTL Simulation : 148 / 251 [100.00%] @ "254695000"
+// RTL Simulation : 149 / 251 [100.00%] @ "256415000"
+// RTL Simulation : 150 / 251 [100.00%] @ "258135000"
+// RTL Simulation : 151 / 251 [100.00%] @ "259855000"
+// RTL Simulation : 152 / 251 [100.00%] @ "261575000"
+// RTL Simulation : 153 / 251 [100.00%] @ "263295000"
+// RTL Simulation : 154 / 251 [100.00%] @ "265015000"
+// RTL Simulation : 155 / 251 [100.00%] @ "266735000"
+// RTL Simulation : 156 / 251 [100.00%] @ "268455000"
+// RTL Simulation : 157 / 251 [100.00%] @ "270175000"
+// RTL Simulation : 158 / 251 [100.00%] @ "271895000"
+// RTL Simulation : 159 / 251 [100.00%] @ "273615000"
+// RTL Simulation : 160 / 251 [100.00%] @ "275335000"
+// RTL Simulation : 161 / 251 [100.00%] @ "277055000"
+// RTL Simulation : 162 / 251 [100.00%] @ "278775000"
+// RTL Simulation : 163 / 251 [100.00%] @ "280495000"
+// RTL Simulation : 164 / 251 [100.00%] @ "282215000"
+// RTL Simulation : 165 / 251 [100.00%] @ "283935000"
+// RTL Simulation : 166 / 251 [100.00%] @ "285655000"
+// RTL Simulation : 167 / 251 [100.00%] @ "287375000"
+// RTL Simulation : 168 / 251 [100.00%] @ "289095000"
+// RTL Simulation : 169 / 251 [100.00%] @ "290815000"
+// RTL Simulation : 170 / 251 [100.00%] @ "292535000"
+// RTL Simulation : 171 / 251 [100.00%] @ "294255000"
+// RTL Simulation : 172 / 251 [100.00%] @ "295975000"
+// RTL Simulation : 173 / 251 [100.00%] @ "297695000"
+// RTL Simulation : 174 / 251 [100.00%] @ "299415000"
+// RTL Simulation : 175 / 251 [100.00%] @ "301135000"
+// RTL Simulation : 176 / 251 [100.00%] @ "302855000"
+// RTL Simulation : 177 / 251 [100.00%] @ "304575000"
+// RTL Simulation : 178 / 251 [100.00%] @ "306295000"
+// RTL Simulation : 179 / 251 [100.00%] @ "308015000"
+// RTL Simulation : 180 / 251 [100.00%] @ "309735000"
+// RTL Simulation : 181 / 251 [100.00%] @ "311455000"
+// RTL Simulation : 182 / 251 [100.00%] @ "313175000"
+// RTL Simulation : 183 / 251 [100.00%] @ "314895000"
+// RTL Simulation : 184 / 251 [100.00%] @ "316615000"
+// RTL Simulation : 185 / 251 [100.00%] @ "318335000"
+// RTL Simulation : 186 / 251 [100.00%] @ "320055000"
+// RTL Simulation : 187 / 251 [100.00%] @ "321775000"
+// RTL Simulation : 188 / 251 [100.00%] @ "323495000"
+// RTL Simulation : 189 / 251 [100.00%] @ "325215000"
+// RTL Simulation : 190 / 251 [100.00%] @ "326935000"
+// RTL Simulation : 191 / 251 [100.00%] @ "328655000"
+// RTL Simulation : 192 / 251 [100.00%] @ "330375000"
+// RTL Simulation : 193 / 251 [100.00%] @ "332095000"
+// RTL Simulation : 194 / 251 [100.00%] @ "333815000"
+// RTL Simulation : 195 / 251 [100.00%] @ "335535000"
+// RTL Simulation : 196 / 251 [100.00%] @ "337255000"
+// RTL Simulation : 197 / 251 [100.00%] @ "338975000"
+// RTL Simulation : 198 / 251 [100.00%] @ "340695000"
+// RTL Simulation : 199 / 251 [100.00%] @ "342415000"
+// RTL Simulation : 200 / 251 [100.00%] @ "344135000"
+// RTL Simulation : 201 / 251 [100.00%] @ "345855000"
+// RTL Simulation : 202 / 251 [100.00%] @ "347575000"
+// RTL Simulation : 203 / 251 [100.00%] @ "349295000"
+// RTL Simulation : 204 / 251 [100.00%] @ "351015000"
+// RTL Simulation : 205 / 251 [100.00%] @ "352735000"
+// RTL Simulation : 206 / 251 [100.00%] @ "354455000"
+// RTL Simulation : 207 / 251 [100.00%] @ "356175000"
+// RTL Simulation : 208 / 251 [100.00%] @ "357895000"
+// RTL Simulation : 209 / 251 [100.00%] @ "359615000"
+// RTL Simulation : 210 / 251 [100.00%] @ "361335000"
+// RTL Simulation : 211 / 251 [100.00%] @ "363055000"
+// RTL Simulation : 212 / 251 [100.00%] @ "364775000"
+// RTL Simulation : 213 / 251 [100.00%] @ "366495000"
+// RTL Simulation : 214 / 251 [100.00%] @ "368215000"
+// RTL Simulation : 215 / 251 [100.00%] @ "369935000"
+// RTL Simulation : 216 / 251 [100.00%] @ "371655000"
+// RTL Simulation : 217 / 251 [100.00%] @ "373375000"
+// RTL Simulation : 218 / 251 [100.00%] @ "375095000"
+// RTL Simulation : 219 / 251 [100.00%] @ "376815000"
+// RTL Simulation : 220 / 251 [100.00%] @ "378535000"
+// RTL Simulation : 221 / 251 [100.00%] @ "380255000"
+// RTL Simulation : 222 / 251 [100.00%] @ "381975000"
+// RTL Simulation : 223 / 251 [100.00%] @ "383695000"
+// RTL Simulation : 224 / 251 [100.00%] @ "385415000"
+// RTL Simulation : 225 / 251 [100.00%] @ "387135000"
+// RTL Simulation : 226 / 251 [100.00%] @ "388855000"
+// RTL Simulation : 227 / 251 [100.00%] @ "390575000"
+// RTL Simulation : 228 / 251 [100.00%] @ "392295000"
+// RTL Simulation : 229 / 251 [100.00%] @ "394015000"
+// RTL Simulation : 230 / 251 [100.00%] @ "395735000"
+// RTL Simulation : 231 / 251 [100.00%] @ "397455000"
+// RTL Simulation : 232 / 251 [100.00%] @ "399175000"
+// RTL Simulation : 233 / 251 [100.00%] @ "400895000"
+// RTL Simulation : 234 / 251 [100.00%] @ "402615000"
+// RTL Simulation : 235 / 251 [100.00%] @ "404335000"
+// RTL Simulation : 236 / 251 [100.00%] @ "406055000"
+// RTL Simulation : 237 / 251 [100.00%] @ "407775000"
+// RTL Simulation : 238 / 251 [100.00%] @ "409495000"
+// RTL Simulation : 239 / 251 [100.00%] @ "411215000"
+// RTL Simulation : 240 / 251 [100.00%] @ "412935000"
+// RTL Simulation : 241 / 251 [100.00%] @ "414655000"
+// RTL Simulation : 242 / 251 [100.00%] @ "416375000"
+// RTL Simulation : 243 / 251 [100.00%] @ "418095000"
+// RTL Simulation : 244 / 251 [100.00%] @ "419815000"
+// RTL Simulation : 245 / 251 [100.00%] @ "421535000"
+// RTL Simulation : 246 / 251 [100.00%] @ "423255000"
+// RTL Simulation : 247 / 251 [100.00%] @ "424975000"
+// RTL Simulation : 248 / 251 [100.00%] @ "426695000"
+// RTL Simulation : 249 / 251 [100.00%] @ "428415000"
+// RTL Simulation : 250 / 251 [100.00%] @ "430135000"
+// RTL Simulation : 251 / 251 [100.00%] @ "431855000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 431915 ns : File "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/sim/verilog/cpp_FIR.autotb.v" Line 258
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Apr 18 12:15:02 2022...
+Test passed !
