@@ -3,6 +3,28 @@
   <errorLogs>
     <logs>
       <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T18:35:35.494+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T18:27:13.890+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T18:19:12.099+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T18:18:30.714+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T18:17:52.940+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T18:17:00.517+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:52:51.643+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:52:35.328+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:51:00.532+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:49:31.994+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:47:18.172+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:46:54.236+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:46:05.389+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:44:30.750+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:40:08.591+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:37:03.723+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:36:19.159+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:30:52.826+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:30:03.079+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:29:44.770+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:28:15.989+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-04T17:27:42.412+0100"/>
         <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-03T17:58:12.808+0100"/>
         <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-03T17:57:12.002+0100"/>
         <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-03T17:16:35.507+0100"/>

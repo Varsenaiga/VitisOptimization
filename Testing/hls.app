@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="com.autoesl.autopilot.project" name="Testing" top="">
   <files>
-    <file name="../../main.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false" csimflags=" -Wno-unknown-pragmas"/>
-    <file name="../../file.h" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false" csimflags=" -Wno-unknown-pragmas"/>
     <file name="../../file.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false" csimflags=" -Wno-unknown-pragmas"/>
-    <file name="parameters.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
-    <file name="model_functions.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
-    <file name="master.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
+    <file name="../../file.h" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false" csimflags=" -Wno-unknown-pragmas"/>
+    <file name="../../main.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false" csimflags=" -Wno-unknown-pragmas"/>
     <file name="master.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
+    <file name="master.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
+    <file name="model_functions.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
+    <file name="parameters.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
   </files>
   <solutions>
     <solution name="solution1" status="active"/>

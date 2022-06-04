@@ -2,7 +2,7 @@
 #define MAGICWAND_PARAMETERS_H
 
 #include <ap_fixed.h>
-typedef ap_fixed<32,13,AP_TRN_ZERO> fix1_t;
+#include "model_functions.h"
 
 float firstKernel[8][4][3] =
         {{{-0.12031957507133484, -0.005763742607086897, 0.19427894055843353},

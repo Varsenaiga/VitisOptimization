@@ -1,7 +1,6 @@
 //#include "parameters.h"
 #include <ap_fixed.h>
-
-typedef ap_fixed<32,13,AP_TRN_ZERO> fix1_t;
+#include "model_functions.h"
 
 float master(float num) {
 

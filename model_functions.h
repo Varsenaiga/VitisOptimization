@@ -1,6 +1,8 @@
 #ifndef MAGICWAND_MODEL_FUNCTIONS_H
 #define MAGICWAND_MODEL_FUNCTIONS_H
 
+typedef ap_fixed<32,13> fix1_t;
+
 #define BATCH 128
 #define DATA_SIZE 3
 #define FIRST_NUM_ROWS 4

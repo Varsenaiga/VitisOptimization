@@ -16,7 +16,7 @@ __SIM_DDS__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../main.cpp ../../../../file.cpp ../../../../master.cpp
+HLS_SOURCES = ../../../../file.cpp ../../../../main.cpp ../../../../master.cpp
 
 override TARGET := csim.exe
 
@@ -68,17 +68,17 @@ all: $(TARGET)
 
 
 
-$(ObjDir)/main.o: ../../../../main.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../main.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
-
--include $(ObjDir)/main.d
-
 $(ObjDir)/file.o: ../../../../file.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../file.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/file.d
+
+$(ObjDir)/main.o: ../../../../main.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../main.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
+
+-include $(ObjDir)/main.d
 
 $(ObjDir)/master.o: ../../../../master.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../master.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)

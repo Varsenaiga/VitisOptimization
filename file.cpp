@@ -6,42 +6,36 @@
 #include "file.h"
 #include "model_functions.h"
 
-FILE* openFile(char name[], const char * mode) {
-    FILE * file;
+ifstream openFile(string name) {
 
-    file = fopen(name, mode);
+	ifstream file(name);
 
-    if (NULL == file) {
+    if (!file.is_open()) {
         printf("File can't be opened \n");
     }
 
     return file;
 }
 
-void closeFile(FILE* file) {
-    fclose(file);
-}
+void readFile(istream &file, int mode) {
 
-/*void readFile(FILE* file, int mode = 0) {
-
-    char buff[BUFFER_SIZE];
-    bool init = true, isReading = false, wasReading = false;
-    if(mode == 0)
-    	float dt[BATCH][DATA_SIZE];
-    else if (mode == 1)
-    	ap_fixed<32,13> dt[BATCH][DATA_SIZE];
-    else {
+    if (mode < 0 || mode > 1) {
     	printf("Error on readFile: mode has incorrect value!");
     	exit(1);
     }
 
+    string buff;
+    bool init = true, isReading = false, wasReading = false;
+
+  	float dt[BATCH][DATA_SIZE];
+    fix1_t dt_f[BATCH][DATA_SIZE];
+
     int i, cnt = 0;
 
-    FILE *out = fopen("test.txt", "w");
-    if (out == NULL)
-    {
-        printf("Error opening file!\n");
-        exit(2);
+	ofstream out("test.txt");
+
+    if (!out.is_open()) {
+        printf("File can't be opened \n");
     }
 
     for (i = 0; i < BATCH; i++) {
@@ -50,12 +44,11 @@ void closeFile(FILE* file) {
         dt[i][2] = 0;
     }
 
-    while (fgets(buff, BUFFER_SIZE, file) != NULL) {
+    while (getline(file, buff)) {
         if (wasReading && !isReading) {
-            if(mode == 0)
-            	float data[BATCH][DATA_SIZE];
-            else if (mode == 1)
-            	ap_fixed<32,13> data[BATCH][DATA_SIZE];
+
+            float data[BATCH][DATA_SIZE];
+            fix1_t data_f[BATCH][DATA_SIZE];
 
             for (i = 0; i < cnt; i++) {
                 data[BATCH-cnt+i][0] = dt[i][0];
@@ -68,7 +61,7 @@ void closeFile(FILE* file) {
                 data[i-cnt][2] = 0;
             }
 
-            if(mode == 0) {
+            /*if(mode == 0) {
             	float sMax[1][4];
             	master(data, sMax);
 
@@ -76,69 +69,57 @@ void closeFile(FILE* file) {
 				printData2D(1, 4, sMax);
 				printf("\n\n\n\n");
 				for(i = 0; i < 4; i++) {
-					fprintf(out, "%.30f\n", sMax[0][i]);
+					out << to_string(sMax[0][i]) << endl;
 				}
-				fprintf(out, "\n");
+				out << endl;
             }
             else if (mode == 1){
-            	ap_fixed<32,13> sMax[1][4];
-            	master_fix(data, sMax);
+            	fix1_t sMax[1][4];
+            	master_fix(data_f, sMax);
 
             	for(i = 0; i < 4; i++) {
-					fprintf(out, "%s\n", sMax[0][i].to_string(10));
+            		out << sMax[0][i].to_string(10) << endl;
 				}
-				fprintf(out, "\n");
-            }
+            	out << endl;
+            }*/
 
-            /*int d, j;
-            for(d = 0; d < FIRST_NUM_KERNELS; d++) {
-            	for(i = 0; i < BATCH; i++) {
-            		for(j = 0; j < DATA_SIZE; j++) {
-            			fprintf(out, "%.30f\t", conv[i][j][d]);
-            		}
-            		fprintf(out, "\n");
-            	}
-            	fprintf(out, "\n");
-            }
-            fprintf(out, "\n");*/
-
-           /* for (i = 0; i < DATA_SIZE; i++) {
+            for (i = 0; i < DATA_SIZE; i++) {
                 dt[0][i] = 0;
                 dt[1][i] = 0;
                 dt[2][i] = 0;
+                dt_f[0][i] = 0;
+                dt_f[1][i] = 0;
+                dt_f[2][i] = 0;
             }
             cnt = 0;
         }
         wasReading = isReading;
 
-        if (strcmp(buff, " -,-,-\n") == 0 || strcmp(buff, "-,-,-\n") == 0) init = true, isReading = true;
-        else if (strcmp(buff, "\n") == 0) isReading = false;
+        if (buff.compare(" -,-,-") == 0 || buff.compare("-,-,-") == 0) init = true, isReading = true;
+        else if (buff.empty()) isReading = false;
         else if (isReading){
-            float f1, f2, f3;
+        	float f1, f2, f3;
+        	fix1_t f1_f, f2_f, f3_f;
             isReading = false;
 
-            char *pt = strtok(buff, ",");
-            if (pt != NULL) {
-                f1 = strtof(pt, NULL);
-            } else continue;
-            pt = strtok(NULL, ",");
-            if (pt != NULL) {
-                f2 = strtof(pt, NULL);
-            } else continue;
-            pt = strtok(NULL, ",");
-            if (pt != NULL) {
-                f3 = strtof(pt, NULL);
-            } else continue;
+            istringstream tmp(buff);
+            if (mode == 0) {
+				tmp >> dt[cnt][0];
+				tmp >> dt[cnt][1];
+				tmp >> dt[cnt][2];
+				cout << dt[cnt][0] << "\t" << dt[cnt][1] << "\t" << dt[cnt][2] << endl;
+            } else if (mode == 1) {
+				tmp >> dt_f[cnt][0];
+				tmp >> dt_f[cnt][1];
+				tmp >> dt_f[cnt][2];
+				cout << dt_f[cnt][0] << "\t" << dt_f[cnt][1] << "\t" << dt_f[cnt][2] << endl;
+            }
 
             if (init) init = false;
-
-            dt[cnt][0] = f1;
-            dt[cnt][1] = f2;
-            dt[cnt][2] = f3;
             cnt++;
             if (cnt == 128) isReading = false;
             else isReading = true;
         }
     }
-    fclose(out);
-}*/
+    out.close();
+}
