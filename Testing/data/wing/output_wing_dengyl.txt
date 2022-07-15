@@ -1958,6 +1958,7 @@ bash-3.2$ screen ${DEVICENAME} 115200
 -515.0,209.0,872.0
 -540.0,290.0,916.0
 -516.0,248.0,848.0
+
 [7mReally kill this window [y/n][27m[K
 �                                                                               [24;2H[?1l>[24;1H
 [?1049l[screen is terminating]

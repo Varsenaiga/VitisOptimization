@@ -191,6 +191,36 @@
                         					
                     </fileInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1012987213.1630262934" name="utils.cpp" rcbsApplicability="disable" resourcePath="testbench/utils.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2012060012.2034213229">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2012060012.2034213229" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2012060012">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.27432861" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.315803797" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Users/tiago/AppData/Roaming/Xilinx/Vitis"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/win64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/win64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.469832369" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.612035" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1012987213.1935467370" name="file.cpp" rcbsApplicability="disable" resourcePath="testbench/file.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2012060012.578832805">
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2012060012.578832805" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2012060012">
@@ -222,6 +252,8 @@
                     </fileInfo>
                     					
                     <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1012987213.51214609" name="file.h" rcbsApplicability="disable" resourcePath="testbench/file.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1012987213.1191324391" name="utils.h" rcbsApplicability="disable" resourcePath="testbench/utils.h" toolsToInvoke=""/>
                     					
                     <sourceEntries>
                         						
@@ -405,6 +437,36 @@
                         					
                     </fileInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1171016511.365277982" name="utils.cpp" rcbsApplicability="disable" resourcePath="testbench/utils.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1399876448.2066423994">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1399876448.2066423994" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1399876448">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.22735541" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1618753949" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Users/tiago/AppData/Roaming/Xilinx/Vitis"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/win64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/Xilinx/Vitis_HLS/2021.1/win64/tools/auto_cc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1321254508" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1921083816" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1171016511.1429593579" name="file.cpp" rcbsApplicability="disable" resourcePath="testbench/file.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1399876448.127155136">
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1399876448.127155136" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1399876448">
@@ -436,6 +498,8 @@
                     </fileInfo>
                     					
                     <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1171016511.985222381" name="file.h" rcbsApplicability="disable" resourcePath="testbench/file.h" toolsToInvoke=""/>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1171016511.2085203253" name="utils.h" rcbsApplicability="disable" resourcePath="testbench/utils.h" toolsToInvoke=""/>
                     					
                     <sourceEntries>
                         						

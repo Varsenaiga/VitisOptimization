@@ -16,7 +16,7 @@ __SIM_DDS__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../../../../../.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR_test.cpp ../../../../../../../../.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR.cpp
+HLS_SOURCES = ../../../main.cpp ../../../master.cpp
 
 override TARGET := csim.exe
 
@@ -68,14 +68,14 @@ all: $(TARGET)
 
 
 
-$(ObjDir)/cpp_FIR_test.o: ../../../../../../../../.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR_test.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../../../../../.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR_test.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/main.o: ../../../main.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../main.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
--include $(ObjDir)/cpp_FIR_test.d
+-include $(ObjDir)/main.d
 
-$(ObjDir)/cpp_FIR.o: ../../../../../../../../.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../../../../../.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/master.o: ../../../master.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../master.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
--include $(ObjDir)/cpp_FIR.d
+-include $(ObjDir)/master.d

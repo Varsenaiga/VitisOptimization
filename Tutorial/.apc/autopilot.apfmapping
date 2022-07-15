@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="cpp_FIR.cpp" path="C:\Users\tiago\.Xilinx\vitis_hls\2021.1\vitis_hls_examples\HLS-Tiny-Tutorials\algorithm_template_fir_filter\cpp_FIR.cpp"/>
+    <originFiles name="master.h" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\Tutorial\master.h"/>
+    <originFiles name="master.cpp" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\Tutorial\master.cpp"/>
   </source>
   <testbench>
-    <originFiles name="result.golden.dat" path="C:\Users\tiago\.Xilinx\vitis_hls\2021.1\vitis_hls_examples\HLS-Tiny-Tutorials\algorithm_template_fir_filter\result.golden.dat"/>
-    <originFiles name="cpp_FIR_test.cpp" path="C:\Users\tiago\.Xilinx\vitis_hls\2021.1\vitis_hls_examples\HLS-Tiny-Tutorials\algorithm_template_fir_filter\cpp_FIR_test.cpp"/>
+    <originFiles name="main.cpp" path="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis\Tutorial\main.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

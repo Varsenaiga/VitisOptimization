@@ -1984,6 +1984,7 @@ Script started on Sun Aug  4 20:20:29 2019
 -546.0,282.0,850.0
 -539.0,346.0,750.0
 -544.0,332.0,872.0
+
 [7mReally kill this window [y/n][27m[K
 �                                                                                                                                                                                                                                             [74;2H[?1l>[74;1H
 [?1049l[screen is terminating]

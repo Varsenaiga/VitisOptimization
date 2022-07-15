@@ -1,6 +1,0 @@
-   Build using "D:/Xilinx/Vitis_HLS/2021.1/tps/win64/msys64/mingw64/bin/g++"
-   Compiling apatb_cpp_FIR.cpp
-   Compiling cpp_FIR_test.cpp_pre.cpp.tb.cpp
-   Compiling cpp_FIR.cpp_pre.cpp.tb.cpp
-   Compiling apatb_cpp_FIR_ir.ll
-   Generating cosim.tv.exe

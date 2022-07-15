@@ -1,4 +1,4 @@
-obj/master.o: ../../../../master.cpp \
+obj/master.o: ../../../../master.cpp ../../../../parameters.h \
  D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h \
  D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h \
  D:/Xilinx/Vitis_HLS/2021.1/include/ap_decl.h \

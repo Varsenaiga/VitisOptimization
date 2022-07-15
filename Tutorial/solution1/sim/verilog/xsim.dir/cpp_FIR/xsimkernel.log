@@ -1,7 +1,0 @@
-Running: xsim.dir/cpp_FIR/xsimk.exe -simmode gui -wdb cpp_FIR.wdb -simrunnum 0 -socket 53986
-Design successfully loaded
-Design Loading Memory Usage: 7228 KB (Peak: 7228 KB)
-Design Loading CPU Usage: 61 ms
-Simulation completed
-Simulation Memory Usage: 11016 KB (Peak: 11016 KB)
-Simulation CPU Usage: 421 ms

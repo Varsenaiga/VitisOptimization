@@ -1493,6 +1493,7 @@ Script started on Thu Jul 25 16:36:46 2019
 -266.0,538.0,820.0
 -278.0,484.0,862.0
 -286.0,486.0,829.0
+
 [7mReally kill this window [y/n][27m[K
 �                                                                               [24;2H[7mReally kill this window [y/n][27m[K
 �                                                                               [24;2H[?1l>[24;1H

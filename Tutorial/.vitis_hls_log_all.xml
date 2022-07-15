@@ -9,7 +9,18 @@
         <logs message="ERROR: [IMPL 213-28] Failed to generate IP." projectName="Tutorial" solutionName="solution1" date="2022-04-18T14:44:07.354+0100"/>
         <logs message="ERROR: '2204181444' is an invalid argument. Please specify an integer value.&#xD;&#xD;&#xA;    while executing&#xD;&#xD;&#xA;&quot;rdi::set_property core_revision 2204181444 {component component_1}&quot;&#xD;&#xD;&#xA;    invoked from within&#xD;&#xD;&#xA;&quot;set_property core_revision $Revision $core&quot;&#xD;&#xD;&#xA;    (file &quot;run_ippack.tcl&quot; line 784)&#xD;" projectName="Tutorial" solutionName="solution1" date="2022-04-18T14:44:07.335+0100"/>
       </packageLog>
-      <csimLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T16:08:31.634+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:56:21.204+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:55:44.201+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:55:13.724+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:54:35.408+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:54:05.374+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:50:52.057+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:49:54.167+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:38:16.675+0100"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Tutorial" solutionName="solution1" date="2022-06-17T15:36:17.814+0100"/>
+      </csimLog>
     </logs>
   </errorLogs>
   <warningLogs>

@@ -4,8 +4,9 @@
 #include <ap_fixed.h>
 #include "model_functions.h"
 
-float master(float num);
-fix1_t master_fix(fix1_t num);
+//void master_print();
+void master(float input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]);
+void master_fix(fix_input input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]);
 
 #endif //MAGICWAND_MASTER_H
 

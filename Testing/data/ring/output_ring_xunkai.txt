@@ -2099,6 +2099,7 @@ Script started on Tue Aug 13 13:32:28 2019
 -628.0,146.0,892.0
 -620.0,150.0,860.0
 -627.0,195.0,844.0
+
 [7mReally kill this window [y/n][27m[K
 �                                                                                                                                                                                                                                             [74;2H[?1l>[74;1H
 [?1049l[screen is terminating]

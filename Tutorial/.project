@@ -42,19 +42,19 @@
 			<location>C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/solution1/.tcls</location>
 		</link>
 		<link>
-			<name>source/cpp_FIR.cpp</name>
+			<name>source/master.cpp</name>
 			<type>1</type>
-			<location>C:/Users/tiago/.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR.cpp</location>
+			<location>C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/master.cpp</location>
 		</link>
 		<link>
-			<name>testbench/cpp_FIR_test.cpp</name>
+			<name>source/master.h</name>
 			<type>1</type>
-			<location>C:/Users/tiago/.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/cpp_FIR_test.cpp</location>
+			<location>C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/master.h</location>
 		</link>
 		<link>
-			<name>testbench/result.golden.dat</name>
+			<name>testbench/main.cpp</name>
 			<type>1</type>
-			<location>C:/Users/tiago/.Xilinx/vitis_hls/2021.1/vitis_hls_examples/HLS-Tiny-Tutorials/algorithm_template_fir_filter/result.golden.dat</location>
+			<location>C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Tutorial/main.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>

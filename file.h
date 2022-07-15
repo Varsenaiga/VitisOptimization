@@ -5,9 +5,8 @@
 #include<fstream>
 using namespace std;
 
-#define BUFFER_SIZE 500
-
 ifstream openFile(string name);
-void readFile(istream &file, int mode = 0);
+void readFile(istream &file, string outFile, int mode = 0);
+int compareFiles(string file1, string file2, string type, string name);
 
 #endif //MAGICWAND_FILE_H

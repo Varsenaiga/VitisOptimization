@@ -1,0 +1,218 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../utils.cpp in debug mode
+   Compiling ../../../../main.cpp in debug mode
+   Compiling ../../../../file.cpp in debug mode
+   Compiling ../../../../model_functions.cpp in debug mode
+   Compiling ../../../../master.cpp in debug mode
+   Generating csim.exe
+
+
+
+Mismatch in file lsj (wing):
+Original:	0.241741
+Custom:	0.300786
+
+Original:	0.295148
+Custom:	0.417932
+
+Original:	0.0449658
+Custom:	0.0495748
+
+Original:	0.418145
+Custom:	0.231707
+
+
+
+
+
+Mismatch in file dengyl (slope):
+Original:	5.9859e-007
+Custom:	7.38711e-008
+
+Original:	1.98248e-010
+Custom:	5.18343e-011
+
+Original:	0.561735
+Custom:	0.371949
+
+Original:	0.438265
+Custom:	0.628051
+
+
+
+
+
+Mismatch in file hyw (slope):
+Original:	0.279479
+Custom:	0.413335
+
+Original:	0.0357432
+Custom:	0.027609
+
+Original:	0.379413
+Custom:	0.335015
+
+Original:	0.305365
+Custom:	0.224041
+
+
+
+
+
+Mismatch in file hyw (slope):
+Original:	0.000196315
+Custom:	7.38107e-005
+
+Original:	5.89e-006
+Custom:	3.26267e-006
+
+Original:	0.595695
+Custom:	0.479528
+
+Original:	0.404103
+Custom:	0.520395
+
+
+
+
+
+Mismatch in file lsj (slope):
+Original:	4.64583e-006
+Custom:	1.14774e-006
+
+Original:	1.14764e-008
+Custom:	6.4261e-009
+
+Original:	0.644923
+Custom:	0.495437
+
+Original:	0.355072
+Custom:	0.504562
+
+
+
+
+
+Mismatch in file pengxl (slope):
+Original:	2.738e-006
+Custom:	6.03061e-007
+
+Original:	1.43853e-009
+Custom:	6.75342e-010
+
+Original:	0.595809
+Custom:	0.480265
+
+Original:	0.404188
+Custom:	0.519734
+
+
+
+
+
+Mismatch in file tangsy (slope):
+Original:	1.48243e-009
+Custom:	7.28492e-011
+
+Original:	1.14342e-015
+Custom:	2.62185e-016
+
+Original:	0.565003
+Custom:	0.340718
+
+Original:	0.434997
+Custom:	0.659282
+
+
+
+
+
+Mismatch in file xunkai (slope):
+Original:	5.18779e-009
+Custom:	6.3583e-010
+
+Original:	4.57946e-013
+Custom:	1.78282e-013
+
+Original:	0.662085
+Custom:	0.344747
+
+Original:	0.337915
+Custom:	0.655253
+
+
+
+
+
+Mismatch in file zhangxy (slope):
+Original:	1.18176e-005
+Custom:	2.96509e-006
+
+Original:	2.2e-007
+Custom:	8.48142e-008
+
+Original:	0.524033
+Custom:	0.384044
+
+Original:	0.475954
+Custom:	0.615953
+
+
+
+
+
+Mismatch in file ccw_1 (negative):
+Original:	0.468328
+Custom:	0.51807
+
+Original:	1.38296e-005
+Custom:	3.78524e-005
+
+Original:	0.000699335
+Custom:	0.000616488
+
+Original:	0.530959
+Custom:	0.481276
+
+
+
+
+
+Mismatch in file ccw_1 (negative):
+Original:	0.731045
+Custom:	0.38969
+
+Original:	1.8369e-010
+Custom:	2.95665e-010
+
+Original:	9.01936e-006
+Custom:	4.82814e-006
+
+Original:	0.268947
+Custom:	0.610305
+
+
+
+
+
+Mismatch in file teste (negative):
+Original:	0.0436473
+Custom:	0.0207124
+
+Original:	0.438047
+Custom:	0.314335
+
+Original:	0.086015
+Custom:	0.0915827
+
+Original:	0.43229
+Custom:	0.57337
+
+
+
+
+
+Number of mismatches: 12
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
