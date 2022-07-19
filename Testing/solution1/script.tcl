@@ -16,8 +16,8 @@ add_files -tb main.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-p
 add_files -tb utils.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 add_files -tb utils.h -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution1" -flow_target vivado
-set_part {xc7z010clg400-1}
-create_clock -period 10 -name default
+set_part {xc7z020clg400-1}
+create_clock -period 10.5 -name default
 source "./Testing/solution1/directives.tcl"
 csim_design
 csynth_design

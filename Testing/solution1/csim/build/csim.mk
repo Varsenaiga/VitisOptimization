@@ -51,7 +51,7 @@ IFLAG += -D__SIM_FIR__
 
 IFLAG += -D__SIM_DDS__
 
-IFLAG += -D__DSP48E2__
+IFLAG += -D__DSP48E1__
 IFLAG += -Wno-unknown-pragmas 
 IFLAG += -g
 IFLAG += -DNT
