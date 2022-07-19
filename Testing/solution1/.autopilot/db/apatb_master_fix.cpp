@@ -189,10 +189,10 @@ unsigned __xlx_offset_byte_param_input = 0;
 {
   sprintf(__xlx_sprintf_buffer.data(), "[[transaction]] %d\n", AESL_transaction);
   aesl_fh.write(AUTOTB_TVIN_input, __xlx_sprintf_buffer.data());
-  {  __xlx_offset_byte_param_input = 0*4;
+  {  __xlx_offset_byte_param_input = 0*2;
   if (__xlx_apatb_param_input) {
     for (int j = 0  - 0, e = 384 - 0; j != e; ++j) {
-sc_bv<32> __xlx_tmp_lv = ((int*)__xlx_apatb_param_input)[j];
+sc_bv<16> __xlx_tmp_lv = ((short*)__xlx_apatb_param_input)[j];
 
     std::string s(__xlx_tmp_lv.to_string(SC_HEX));
     aesl_fh.write(AUTOTB_TVIN_input, s.append("\n")); 

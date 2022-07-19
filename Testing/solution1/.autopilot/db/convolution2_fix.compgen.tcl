@@ -1,19 +1,19 @@
 # This script segment is generated automatically by AutoPilot
 
-set name master_fix_mul_20s_32s_51_1_1
+set name master_fix_mul_20s_36s_55_2_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
 }
 
 
-set name master_fix_mul_21s_32s_51_1_1
+set name master_fix_mul_21s_36s_55_2_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
 }
 
 
 # Memory (RAM/ROM)  definition:
-set ID 43
+set ID 98
 set hasByteEnable 0
 set MemName master_fix_convolution2_fix_secondBias_f_V
 set CoreName ap_simcore_mem
@@ -28,8 +28,8 @@ set ROMData { "000101101110001010111" "010010101011001110011" "11110001110101101
 set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
-set DelayBudget 0.614
-set ClkPeriod 10
+set DelayBudget 2.322
+set ClkPeriod 10.5
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -95,7 +95,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 44
+set ID 99
 set hasByteEnable 0
 set MemName master_fix_convolution2_fix_secondKernel_f_V_1
 set CoreName ap_simcore_mem
@@ -110,8 +110,8 @@ set ROMData { "11100101010001100010" "00111011010000101111" "1101111111100001010
 set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
-set DelayBudget 1.099
-set ClkPeriod 10
+set DelayBudget 3.254
+set ClkPeriod 10.5
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -177,7 +177,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 45
+set ID 100
 set hasByteEnable 0
 set MemName master_fix_convolution2_fix_secondKernel_f_V_0
 set CoreName ap_simcore_mem
@@ -192,8 +192,8 @@ set ROMData { "10110111110000101110" "11001100110000111010" "1011000100111011110
 set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
-set DelayBudget 1.099
-set ClkPeriod 10
+set DelayBudget 3.254
+set ClkPeriod 10.5
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -259,7 +259,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 46
+set ID 101
 set hasByteEnable 0
 set MemName master_fix_convolution2_fix_secondKernel_f_V_2
 set CoreName ap_simcore_mem
@@ -274,8 +274,8 @@ set ROMData { "000000101010000000111" "000001011000111010011" "11111010000101011
 set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
-set DelayBudget 1.099
-set ClkPeriod 10
+set DelayBudget 3.254
+set ClkPeriod 10.5
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -341,7 +341,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 47
+set ID 102
 set hasByteEnable 0
 set MemName master_fix_convolution2_fix_secondKernel_f_V_3
 set CoreName ap_simcore_mem
@@ -356,8 +356,8 @@ set ROMData { "000001110110001110001" "000000111000011110110" "00000100111001000
 set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
-set DelayBudget 1.099
-set ClkPeriod 10
+set DelayBudget 3.254
+set ClkPeriod 10.5
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -433,14 +433,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 48 \
+    id 103 \
     name m_0_0_0_0 \
     reset_level 1 \
     sync_rst true \
     dir I \
     corename m_0_0_0_0 \
     op interface \
-    ports { m_0_0_0_0_address0 { O 9 vector } m_0_0_0_0_ce0 { O 1 bit } m_0_0_0_0_q0 { I 32 vector } m_0_0_0_0_address1 { O 9 vector } m_0_0_0_0_ce1 { O 1 bit } m_0_0_0_0_q1 { I 32 vector } } \
+    ports { m_0_0_0_0_address0 { O 9 vector } m_0_0_0_0_ce0 { O 1 bit } m_0_0_0_0_q0 { I 36 vector } m_0_0_0_0_address1 { O 9 vector } m_0_0_0_0_ce1 { O 1 bit } m_0_0_0_0_q1 { I 36 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'm_0_0_0_0'"
@@ -452,17 +452,17 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 49 \
-    name out_0_0_0_0 \
+    id 104 \
+    name out_0 \
     reset_level 1 \
     sync_rst true \
     dir O \
-    corename out_0_0_0_0 \
+    corename out_0 \
     op interface \
-    ports { out_0_0_0_0_address0 { O 10 vector } out_0_0_0_0_ce0 { O 1 bit } out_0_0_0_0_we0 { O 1 bit } out_0_0_0_0_d0 { O 32 vector } } \
+    ports { out_0_address0 { O 10 vector } out_0_ce0 { O 1 bit } out_0_we0 { O 1 bit } out_0_d0 { O 36 vector } } \
 } "
 } else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_0_0_0_0'"
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_0'"
 }
 }
 

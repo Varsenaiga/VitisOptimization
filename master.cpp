@@ -2,7 +2,7 @@
 #include <ap_fixed.h>
 #include "model_functions.h"
 
-void master(float input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]) {
+/*void master(float input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]) {
 
 	float conv1[BATCH][DATA_SIZE][FIRST_NUM_KERNELS];
 	float max1[42][1][FIRST_NUM_KERNELS];
@@ -19,7 +19,7 @@ void master(float input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]) {
 	dense2(THIRD_NUM_KERNELS, den1[0], FOURTH_NUM_KERNELS, secondDense, fourthBias, den2[0]);
 	softmax(FOURTH_NUM_KERNELS, den2[0], out[0]);
 
-}
+}*/
 
 
 void master_fix(fix_input input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]) {
@@ -31,7 +31,7 @@ void master_fix(fix_input input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNE
 	fix_ds1 den1[1][THIRD_NUM_KERNELS];
 	fix_ds2 den2[1][FOURTH_NUM_KERNELS];
 
-	convolution1_fix(BATCH, DATA_SIZE, input, FIRST_NUM_KERNELS, firstKernel_f, firstBias_f, conv1);
+	convolution1_fix(input, firstKernel_f, firstBias_f, conv1);
 	maxPool1_fix(BATCH, DATA_SIZE, FIRST_NUM_KERNELS, conv1, 42, max1, 3);
 	convolution2_fix(42, 1, FIRST_NUM_KERNELS, max1, SECOND_NUM_KERNELS, secondKernel_f, secondBias_f, conv2);
 	maxPool2_fix(42, 1, SECOND_NUM_KERNELS, conv2, 14, max2, 3);

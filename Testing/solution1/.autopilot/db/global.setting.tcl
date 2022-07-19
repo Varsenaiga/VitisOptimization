@@ -1,6 +1,6 @@
 
 set TopModule "master_fix"
-set ClockPeriod 10
+set ClockPeriod 10.5
 set ClockList ap_clk
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0
@@ -8,7 +8,7 @@ set PipelineFlag 0
 set DataflowTaskPipelineFlag 1
 set TrivialPipelineFlag 0
 set noPortSwitchingFlag 0
-set FloatingPointFlag 0
+set FloatingPointFlag 1
 set FftOrFirFlag 0
 set NbRWValue 0
 set intNbAccess 0
@@ -41,7 +41,7 @@ set ExportMCPathFlag 0
 set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
-set TargetInfo xczu7ev:-ffvf1517:-3-e
+set TargetInfo xc7z010:-clg400:-1
 set SourceFiles {sc {} c {../../model_functions.cpp ../../master.cpp}}
 set SourceFlags {sc {} c {{} {}}}
 set DirectiveFile C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/solution1.directive
@@ -61,5 +61,5 @@ set DefaultPlatform DefaultPlatform
 set multiClockList {}
 set SCPortClockMap {}
 set intNbAccess 0
-set PlatformFiles {{DefaultPlatform {xilinx/zynquplus/zynquplus}}}
+set PlatformFiles {{DefaultPlatform {xilinx/zynq/zynq}}}
 set HPFPO 0

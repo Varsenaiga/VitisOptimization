@@ -6,83 +6,19 @@
       <simLog/>
       <mgLog/>
       <packageLog/>
-      <csimLog>
-        <logs message="Error in file ccw_1 (negative):&#xD;&#xA;Original:&#x9;0.468328&#xD;&#xA;Custom:&#x9;0.499767&#xD;&#xA;&#xD;&#xA;Original:&#x9;1.38296e-005&#xD;&#xA;Custom:&#x9;1.07177e-005&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.000699335&#xD;&#xA;Custom:&#x9;0.000455728&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.530959&#xD;&#xA;Custom:&#x9;0.499767&#xD;&#xA;&#xD;&#xA;Number of errors: 7" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:57.014+0100"/>
-        <logs message="Error in file jiangyh (slope):&#xD;&#xA;Original:&#x9;2.41278e-007&#xD;&#xA;Custom:&#x9;3.23798e-007&#xD;&#xA;&#xD;&#xA;Original:&#x9;2.87044e-011&#xD;&#xA;Custom:&#x9;3.11207e-011&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.452389&#xD;&#xA;Custom:&#x9;0.5&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.547611&#xD;&#xA;Custom:&#x9;0.5&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:56.467+0100"/>
-        <logs message="Error in file hyw (slope):&#xD;&#xA;Original:&#x9;0.00953416&#xD;&#xA;Custom:&#x9;0.0070178&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.0102457&#xD;&#xA;Custom:&#x9;0.00901103&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.470894&#xD;&#xA;Custom:&#x9;0.491986&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.509326&#xD;&#xA;Custom:&#x9;0.491986&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:53.394+0100"/>
-        <logs message="Error in file hyw (slope):&#xD;&#xA;Original:&#x9;0.228809&#xD;&#xA;Custom:&#x9;0.232097&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.00266808&#xD;&#xA;Custom:&#x9;0.00257836&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.340085&#xD;&#xA;Custom:&#x9;0.382663&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.428437&#xD;&#xA;Custom:&#x9;0.382663&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:52.883+0100"/>
-        <logs message="Error in file hyw (slope):&#xD;&#xA;Original:&#x9;0.00520513&#xD;&#xA;Custom:&#x9;0.00377356&#xD;&#xA;&#xD;&#xA;Original:&#x9;1.72357e-005&#xD;&#xA;Custom:&#x9;1.54217e-005&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.416665&#xD;&#xA;Custom:&#x9;0.560046&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.578112&#xD;&#xA;Custom:&#x9;0.436165&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:52.868+0100"/>
-        <logs message="Error in file dengyl (ring):&#xD;&#xA;Original:&#x9;0.0226779&#xD;&#xA;Custom:&#x9;0.0242406&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.480191&#xD;&#xA;Custom:&#x9;0.486885&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.00192327&#xD;&#xA;Custom:&#x9;0.00198979&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.495207&#xD;&#xA;Custom:&#x9;0.486885&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:52.857+0100"/>
-        <logs message="Error in file liucx (wing):&#xD;&#xA;Original:&#x9;0.364423&#xD;&#xA;Custom:&#x9;0.346717&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.375077&#xD;&#xA;Custom:&#x9;0.346717&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.0302162&#xD;&#xA;Custom:&#x9;0.0365437&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.230284&#xD;&#xA;Custom:&#x9;0.270023&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T17:04:48.207+0100"/>
-        <logs message="Error in file ccw_1 (negative):&#xD;&#xA;Original:&#x9;0.468328&#xD;&#xA;Custom:&#x9;0.499767&#xD;&#xA;&#xD;&#xA;Original:&#x9;1.38296e-005&#xD;&#xA;Custom:&#x9;1.07177e-005&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.000699335&#xD;&#xA;Custom:&#x9;0.000455728&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.530959&#xD;&#xA;Custom:&#x9;0.499767&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:59.538+0100"/>
-        <logs message="Error in file jiangyh (slope):&#xD;&#xA;Original:&#x9;2.41278e-007&#xD;&#xA;Custom:&#x9;3.23798e-007&#xD;&#xA;&#xD;&#xA;Original:&#x9;2.87044e-011&#xD;&#xA;Custom:&#x9;3.11207e-011&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.452389&#xD;&#xA;Custom:&#x9;0.5&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.547611&#xD;&#xA;Custom:&#x9;0.5&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:58.873+0100"/>
-        <logs message="Error in file hyw (slope):&#xD;&#xA;Original:&#x9;0.00953416&#xD;&#xA;Custom:&#x9;0.0070178&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.0102457&#xD;&#xA;Custom:&#x9;0.00901103&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.470894&#xD;&#xA;Custom:&#x9;0.491986&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.509326&#xD;&#xA;Custom:&#x9;0.491986&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:55.629+0100"/>
-        <logs message="Error in file hyw (slope):&#xD;&#xA;Original:&#x9;0.228809&#xD;&#xA;Custom:&#x9;0.232097&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.00266808&#xD;&#xA;Custom:&#x9;0.00257836&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.340085&#xD;&#xA;Custom:&#x9;0.382663&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.428437&#xD;&#xA;Custom:&#x9;0.382663&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:55.084+0100"/>
-        <logs message="Error in file hyw (slope):&#xD;&#xA;Original:&#x9;0.00520513&#xD;&#xA;Custom:&#x9;0.00377356&#xD;&#xA;&#xD;&#xA;Original:&#x9;1.72357e-005&#xD;&#xA;Custom:&#x9;1.54217e-005&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.416665&#xD;&#xA;Custom:&#x9;0.560046&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.578112&#xD;&#xA;Custom:&#x9;0.436165&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:55.064+0100"/>
-        <logs message="Error in file dengyl (ring):&#xD;&#xA;Original:&#x9;0.0226779&#xD;&#xA;Custom:&#x9;0.0242406&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.480191&#xD;&#xA;Custom:&#x9;0.486885&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.00192327&#xD;&#xA;Custom:&#x9;0.00198979&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.495207&#xD;&#xA;Custom:&#x9;0.486885&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:55.048+0100"/>
-        <logs message="Error in file liucx (wing):&#xD;&#xA;Original:&#x9;0.364423&#xD;&#xA;Custom:&#x9;0.346717&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.375077&#xD;&#xA;Custom:&#x9;0.346717&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.0302162&#xD;&#xA;Custom:&#x9;0.0365437&#xD;&#xA;&#xD;&#xA;Original:&#x9;0.230284&#xD;&#xA;Custom:&#x9;0.270023&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-09T16:46:50.043+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-07-05T16:53:44.188+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors.&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-05T16:43:57.574+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-07-05T16:33:33.604+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-07-05T16:19:06.457+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-07-05T16:17:08.743+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-07-05T16:15:42.111+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors.&#xD;&#xA;" projectName="Testing" solutionName="solution1" date="2022-07-05T16:13:19.723+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-28T15:51:36.520+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-28T15:51:22.945+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-28T15:10:58.028+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-27T20:04:26.894+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-23T15:42:29.193+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T18:32:08.141+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T18:15:44.908+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T18:10:37.974+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:50:43.007+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:44:56.150+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:43:25.352+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:41:13.573+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:40:26.281+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:37:18.736+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-21T17:36:40.015+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T17:30:23.953+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T17:26:10.742+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T17:25:22.625+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T17:24:59.024+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T17:24:27.807+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T17:19:18.682+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-21T16:11:06.613+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T18:21:16.004+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T18:21:01.780+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-20T18:14:24.526+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-20T17:52:20.866+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="Testing" solutionName="solution1" date="2022-06-20T17:37:02.807+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:32:43.853+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:29:27.382+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:27:26.541+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:24:41.284+0100"/>
-        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Testing" solutionName="solution1" date="2022-06-20T17:23:26.770+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:19:39.419+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:15:43.000+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:09:59.243+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:06:18.560+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:03:14.074+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T17:00:22.359+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T16:55:41.906+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T16:42:22.216+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T16:40:38.632+0100"/>
-        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Testing" solutionName="solution1" date="2022-06-20T16:30:33.937+0100"/>
-      </csimLog>
+      <csimLog/>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'mux_42_32_1_1' is changed to 'mux_42_32_1_1_x' due to conflict." projectName="Testing" solutionName="solution1" date="2022-06-19T18:34:18.943+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-06-19T18:33:55.866+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-06-19T18:33:55.725+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-103] Legalizing function name 'exp&lt;32, 13>' to 'exp_32_13_s'." projectName="Testing" solutionName="solution1" date="2022-06-19T18:33:55.600+0100" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 1 to 42 for loop 'VITIS_LOOP_272_2' in function 'master_fix'." projectName="Testing" solutionName="solution1" date="2022-06-19T18:33:51.352+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-06-19T18:25:11.671+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-06-19T18:25:05.601+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'mux_42_36_1_1' is changed to 'mux_42_36_1_1_x' due to conflict." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:47.356+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:24.348+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:24.274+0100" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 1 to 42 for loop 'VITIS_LOOP_392_2' in function 'master_fix'." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:18.784+0100" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:13.404+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-19T17:04:34.944+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-19T17:04:29.340+0100" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

@@ -116,7 +116,7 @@ void readFile(istream &file, string outFile, int mode) {
 
             if(mode == 0) {
             	float sMax[1][FOURTH_NUM_KERNELS];
-            	master(data, sMax);
+            	//master(data, sMax);
 
             	//cout << "\nOut (Float):" << endl;
 				//printData2D(1, FOURTH_NUM_KERNELS, sMax);

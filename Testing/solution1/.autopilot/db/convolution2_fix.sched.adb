@@ -34,10 +34,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2020501868</coreId>
+						<coreId>1528853351</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<direction>0</direction>
 				<if_type>1</if_type>
@@ -52,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>out_0_0_0_0</name>
+						<name>out_0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -70,10 +70,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<direction>1</direction>
 				<if_type>1</if_type>
@@ -110,7 +110,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>539778358</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -134,10 +134,10 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>d_write_ln213</name>
+						<name>d_write_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -153,7 +153,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -166,7 +166,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -182,7 +182,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>2</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -191,10 +191,10 @@
 					<Obj>
 						<type>0</type>
 						<id>10</id>
-						<name>br_ln213</name>
+						<name>br_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -210,7 +210,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -223,7 +223,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1629498461</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -251,8 +251,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -264,7 +264,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -279,7 +279,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -304,10 +304,10 @@
 					<Obj>
 						<type>0</type>
 						<id>13</id>
-						<name>zext_ln213</name>
+						<name>zext_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -323,7 +323,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -336,7 +336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>741553980</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -364,8 +364,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -377,7 +377,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -392,7 +392,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741553980</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -420,8 +420,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -433,7 +433,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -448,7 +448,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>1629498461</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -475,7 +475,7 @@
 						<name>tmp_cast</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -491,7 +491,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -504,7 +504,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1629498461</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -530,10 +530,10 @@
 					<Obj>
 						<type>0</type>
 						<id>17</id>
-						<name>icmp_ln213</name>
+						<name>icmp_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -549,7 +549,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -562,7 +562,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -578,7 +578,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.69</m_delay>
+				<m_delay>1.36</m_delay>
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -587,10 +587,10 @@
 					<Obj>
 						<type>0</type>
 						<id>19</id>
-						<name>add_ln213</name>
+						<name>add_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -606,7 +606,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -619,7 +619,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741880892</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -635,7 +635,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.78</m_delay>
 				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -644,10 +644,10 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>br_ln213</name>
+						<name>br_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -663,7 +663,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -676,7 +676,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -705,7 +705,7 @@
 						<name>secondBias_f_V_addr</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -721,7 +721,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -734,7 +734,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487932</coreId>
+						<coreId>539778358</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -763,7 +763,7 @@
 						<name>secondBias_f_V_load</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -779,7 +779,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -792,7 +792,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>21</bitwidth>
@@ -807,7 +807,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.61</m_delay>
+				<m_delay>2.32</m_delay>
 				<m_topoIndex>13</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -816,10 +816,10 @@
 					<Obj>
 						<type>0</type>
 						<id>25</id>
-						<name>sext_ln215</name>
+						<name>sext_ln334</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>215</lineNumber>
+						<lineNumber>334</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -835,7 +835,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>215</second>
+										<second>334</second>
 									</item>
 								</second>
 							</item>
@@ -848,10 +848,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -872,10 +872,10 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>br_ln215</name>
+						<name>br_ln334</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>215</lineNumber>
+						<lineNumber>334</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -891,7 +891,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>215</second>
+										<second>334</second>
 									</item>
 								</second>
 							</item>
@@ -904,7 +904,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -919,7 +919,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>16</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -946,7 +946,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749308</coreId>
+						<coreId>741553980</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -977,8 +977,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -990,7 +990,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -1005,7 +1005,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -1031,10 +1031,10 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>tmp_1</name>
+						<name>tmp_9</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>220</lineNumber>
+						<lineNumber>339</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1050,7 +1050,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>220</second>
+										<second>339</second>
 									</item>
 								</second>
 							</item>
@@ -1063,7 +1063,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>741880892</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -1089,10 +1089,10 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>add_ln220</name>
+						<name>add_ln339</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>220</lineNumber>
+						<lineNumber>339</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1108,7 +1108,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>220</second>
+										<second>339</second>
 									</item>
 								</second>
 							</item>
@@ -1121,7 +1121,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -1137,7 +1137,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.73</m_delay>
+				<m_delay>1.73</m_delay>
 				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1146,10 +1146,10 @@
 					<Obj>
 						<type>0</type>
 						<id>32</id>
-						<name>zext_ln220</name>
+						<name>zext_ln339</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>220</lineNumber>
+						<lineNumber>339</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1165,7 +1165,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>220</second>
+										<second>339</second>
 									</item>
 								</second>
 							</item>
@@ -1178,7 +1178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539778358</coreId>
+						<coreId>741553980</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1202,10 +1202,10 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>out_0_0_0_0_addr</name>
+						<name>out_0_addr</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>220</lineNumber>
+						<lineNumber>339</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1221,7 +1221,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>220</second>
+										<second>339</second>
 									</item>
 								</second>
 							</item>
@@ -1234,7 +1234,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -1278,7 +1278,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>539778358</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1294,7 +1294,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.42</m_delay>
 				<m_topoIndex>23</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1321,7 +1321,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>741553980</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -1337,7 +1337,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>24</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1346,10 +1346,10 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>br_ln215</name>
+						<name>br_ln334</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>215</lineNumber>
+						<lineNumber>334</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1365,7 +1365,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>215</second>
+										<second>334</second>
 									</item>
 								</second>
 							</item>
@@ -1378,7 +1378,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741684796</coreId>
+						<coreId>1629498461</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1404,10 +1404,10 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>br_ln221</name>
+						<name>br_ln340</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>221</lineNumber>
+						<lineNumber>340</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1423,7 +1423,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>221</second>
+										<second>340</second>
 									</item>
 								</second>
 							</item>
@@ -1436,7 +1436,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741552700</coreId>
+						<coreId>741880892</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1451,7 +1451,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>26</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1463,7 +1463,7 @@
 						<name>h</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>221</lineNumber>
+						<lineNumber>340</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1479,7 +1479,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>221</second>
+										<second>340</second>
 									</item>
 								</second>
 							</item>
@@ -1492,7 +1492,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1522,7 +1522,7 @@
 						<name>lhs</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>215</lineNumber>
+						<lineNumber>334</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1538,7 +1538,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>215</second>
+										<second>334</second>
 									</item>
 								</second>
 							</item>
@@ -1551,10 +1551,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487932</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -1582,8 +1582,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1595,7 +1595,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -1610,7 +1610,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -1638,8 +1638,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1651,7 +1651,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -1666,7 +1666,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>858857516</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1694,8 +1694,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1707,7 +1707,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -1722,7 +1722,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1738,7 +1738,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.70</m_delay>
+				<m_delay>1.87</m_delay>
 				<m_topoIndex>33</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1751,8 +1751,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1764,7 +1764,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -1779,7 +1779,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1807,8 +1807,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1820,7 +1820,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -1835,7 +1835,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1865,8 +1865,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1878,7 +1878,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -1893,7 +1893,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -1909,7 +1909,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>36</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1922,8 +1922,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1935,7 +1935,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -1950,7 +1950,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1978,8 +1978,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1991,7 +1991,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -2006,7 +2006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -2032,10 +2032,10 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>icmp_ln221</name>
+						<name>icmp_ln340</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>221</lineNumber>
+						<lineNumber>340</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2051,7 +2051,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>221</second>
+										<second>340</second>
 									</item>
 								</second>
 							</item>
@@ -2064,7 +2064,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2080,7 +2080,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.65</m_delay>
+				<m_delay>1.30</m_delay>
 				<m_topoIndex>39</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2089,10 +2089,10 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>add_ln221</name>
+						<name>add_ln340</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>221</lineNumber>
+						<lineNumber>340</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2108,7 +2108,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>221</second>
+										<second>340</second>
 									</item>
 								</second>
 							</item>
@@ -2121,7 +2121,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2137,7 +2137,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.73</m_delay>
 				<m_topoIndex>40</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2146,10 +2146,10 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>br_ln221</name>
+						<name>br_ln340</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>221</lineNumber>
+						<lineNumber>340</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2165,7 +2165,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>221</second>
+										<second>340</second>
 									</item>
 								</second>
 							</item>
@@ -2178,7 +2178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2208,8 +2208,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2221,7 +2221,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -2236,10 +2236,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -2251,7 +2251,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>42</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2264,8 +2264,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2277,7 +2277,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1168</second>
 									</item>
@@ -2292,10 +2292,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -2320,8 +2320,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2333,7 +2333,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -2348,7 +2348,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -2363,7 +2363,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>43</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2376,8 +2376,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2389,7 +2389,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -2404,10 +2404,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -2428,12 +2428,12 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>r_V_20</name>
+						<name>r_V_15</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2445,7 +2445,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -2460,10 +2460,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2476,7 +2476,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.02</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>57</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2489,8 +2489,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>737</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2502,7 +2502,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>737</second>
 									</item>
@@ -2517,10 +2517,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
@@ -2535,7 +2535,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>58</m_topoIndex>
+				<m_topoIndex>59</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_47">
@@ -2547,8 +2547,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1245</lineNumber>
-						<contextFuncName>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_add_64_26_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_add_72_34_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2560,7 +2560,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1245</second>
 									</item>
@@ -2575,10 +2575,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487932</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2591,8 +2591,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>59</m_topoIndex>
+				<m_delay>3.28</m_delay>
+				<m_topoIndex>60</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_48">
@@ -2604,8 +2604,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>717</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2617,7 +2617,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>717</second>
 									</item>
@@ -2632,10 +2632,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539778358</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -2651,7 +2651,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>60</m_topoIndex>
+				<m_topoIndex>61</m_topoIndex>
 				<m_clusterGroupNumber>1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_49">
@@ -2663,8 +2663,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2676,7 +2676,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -2691,7 +2691,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2709,7 +2709,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>61</m_topoIndex>
+				<m_topoIndex>62</m_topoIndex>
 				<m_clusterGroupNumber>1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_50">
@@ -2717,12 +2717,12 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>p_Result_18</name>
+						<name>p_Result_19</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2734,7 +2734,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -2749,7 +2749,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2767,7 +2767,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>62</m_topoIndex>
+				<m_topoIndex>63</m_topoIndex>
 				<m_clusterGroupNumber>1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_51">
@@ -2779,8 +2779,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2792,7 +2792,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -2807,7 +2807,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -2823,7 +2823,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>63</m_topoIndex>
+				<m_topoIndex>58</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_52">
@@ -2835,8 +2835,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -2848,7 +2848,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -2863,7 +2863,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2879,7 +2879,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.94</m_delay>
+				<m_delay>2.43</m_delay>
 				<m_topoIndex>64</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2920,7 +2920,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741355836</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2977,7 +2977,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3034,10 +3034,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -3090,10 +3090,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767328</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -3106,7 +3106,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.95</m_delay>
+				<m_delay>2.71</m_delay>
 				<m_topoIndex>68</m_topoIndex>
 				<m_clusterGroupNumber>1</m_clusterGroupNumber>
 			</item>
@@ -3133,7 +3133,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3157,7 +3157,7 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>empty_68</name>
+						<name>empty_59</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3175,7 +3175,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741744684</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -3191,7 +3191,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>44</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3200,12 +3200,12 @@
 					<Obj>
 						<type>0</type>
 						<id>77</id>
-						<name>tmp_2</name>
+						<name>tmp_10</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3217,7 +3217,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -3232,7 +3232,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -3276,7 +3276,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3292,7 +3292,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.42</m_delay>
 				<m_topoIndex>46</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3301,12 +3301,12 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>tmp_3</name>
+						<name>tmp_11</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3318,7 +3318,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -3333,7 +3333,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767328</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -3377,7 +3377,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3393,7 +3393,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.42</m_delay>
 				<m_topoIndex>48</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3420,7 +3420,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3436,7 +3436,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.42</m_delay>
 				<m_topoIndex>49</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3445,12 +3445,12 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>out_0_0_0_0_addr_write_ln736</name>
+						<name>out_0_addr_write_ln736</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>736</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3462,7 +3462,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>736</second>
 									</item>
@@ -3477,7 +3477,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539778358</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3493,7 +3493,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>50</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3502,10 +3502,10 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>br_ln225</name>
+						<name>br_ln344</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>225</lineNumber>
+						<lineNumber>344</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3521,7 +3521,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>225</second>
+										<second>344</second>
 									</item>
 								</second>
 							</item>
@@ -3534,7 +3534,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767072</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3551,7 +3551,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>51</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3564,8 +3564,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3577,7 +3577,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -3592,7 +3592,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -3608,7 +3608,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>52</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3617,12 +3617,12 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>tmp_4</name>
+						<name>tmp_12</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3634,7 +3634,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -3649,7 +3649,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -3675,10 +3675,10 @@
 					<Obj>
 						<type>0</type>
 						<id>87</id>
-						<name>br_ln226</name>
+						<name>br_ln345</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>226</lineNumber>
+						<lineNumber>345</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3694,7 +3694,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>226</second>
+										<second>345</second>
 									</item>
 								</second>
 							</item>
@@ -3707,7 +3707,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3722,7 +3722,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>54</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3734,7 +3734,7 @@
 						<name>h_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>226</lineNumber>
+						<lineNumber>345</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3750,7 +3750,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>226</second>
+										<second>345</second>
 									</item>
 								</second>
 							</item>
@@ -3763,7 +3763,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749308</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -3808,10 +3808,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -3839,8 +3839,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3852,7 +3852,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -3867,7 +3867,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -3895,8 +3895,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3908,7 +3908,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -3923,7 +3923,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741486908</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -3951,8 +3951,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -3964,7 +3964,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -3979,7 +3979,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>858857516</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -3995,7 +3995,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.70</m_delay>
+				<m_delay>1.87</m_delay>
 				<m_topoIndex>74</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4008,8 +4008,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4021,7 +4021,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -4036,7 +4036,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4064,8 +4064,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4077,7 +4077,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -4092,7 +4092,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741355836</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -4122,8 +4122,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4135,7 +4135,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -4150,7 +4150,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539768892</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -4166,7 +4166,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>77</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4175,12 +4175,12 @@
 					<Obj>
 						<type>0</type>
 						<id>97</id>
-						<name>zext_ln1169_3</name>
+						<name>zext_ln1169_1</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4192,7 +4192,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -4207,7 +4207,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4235,8 +4235,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4248,7 +4248,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -4263,7 +4263,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741618236</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -4289,10 +4289,10 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>icmp_ln226</name>
+						<name>icmp_ln345</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>226</lineNumber>
+						<lineNumber>345</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4308,7 +4308,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>226</second>
+										<second>345</second>
 									</item>
 								</second>
 							</item>
@@ -4321,7 +4321,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -4337,7 +4337,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.65</m_delay>
+				<m_delay>1.30</m_delay>
 				<m_topoIndex>80</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4346,10 +4346,10 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>add_ln226</name>
+						<name>add_ln345</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>226</lineNumber>
+						<lineNumber>345</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4365,7 +4365,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>226</second>
+										<second>345</second>
 									</item>
 								</second>
 							</item>
@@ -4378,7 +4378,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -4394,7 +4394,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.73</m_delay>
 				<m_topoIndex>81</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4403,10 +4403,10 @@
 					<Obj>
 						<type>0</type>
 						<id>102</id>
-						<name>br_ln226</name>
+						<name>br_ln345</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>226</lineNumber>
+						<lineNumber>345</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4422,7 +4422,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>226</second>
+										<second>345</second>
 									</item>
 								</second>
 							</item>
@@ -4435,7 +4435,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4461,12 +4461,12 @@
 					<Obj>
 						<type>0</type>
 						<id>105</id>
-						<name>r_V_12</name>
+						<name>r_V_7</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4478,7 +4478,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -4493,10 +4493,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -4508,7 +4508,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>83</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4521,8 +4521,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4534,7 +4534,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1168</second>
 									</item>
@@ -4549,10 +4549,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741815356</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -4577,8 +4577,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4590,7 +4590,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -4605,7 +4605,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -4620,7 +4620,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>84</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4633,8 +4633,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4646,7 +4646,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -4661,10 +4661,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741552700</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -4685,12 +4685,12 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>r_V_21</name>
+						<name>r_V_16</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4702,7 +4702,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -4717,10 +4717,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741684796</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -4733,7 +4733,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.02</m_delay>
+				<m_delay>6.91</m_delay>
 				<m_topoIndex>94</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4746,8 +4746,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>737</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4759,7 +4759,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>737</second>
 									</item>
@@ -4774,10 +4774,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
@@ -4792,7 +4792,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>95</m_topoIndex>
+				<m_topoIndex>96</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_88">
@@ -4800,12 +4800,12 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>ret_V_7</name>
+						<name>ret_V_3</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1245</lineNumber>
-						<contextFuncName>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_add_64_26_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_add_72_34_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4817,7 +4817,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1245</second>
 									</item>
@@ -4832,10 +4832,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -4848,8 +4848,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>96</m_topoIndex>
+				<m_delay>3.28</m_delay>
+				<m_topoIndex>97</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_89">
@@ -4861,8 +4861,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>717</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4874,7 +4874,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>717</second>
 									</item>
@@ -4889,10 +4889,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -4908,7 +4908,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>97</m_topoIndex>
+				<m_topoIndex>98</m_topoIndex>
 				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_90">
@@ -4916,12 +4916,12 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>p_Result_13</name>
+						<name>p_Result_14</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4933,7 +4933,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -4948,7 +4948,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539768892</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -4966,7 +4966,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>98</m_topoIndex>
+				<m_topoIndex>99</m_topoIndex>
 				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_91">
@@ -4974,12 +4974,12 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>p_Result_19</name>
+						<name>p_Result_20</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -4991,7 +4991,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -5006,7 +5006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741684796</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -5024,7 +5024,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>99</m_topoIndex>
+				<m_topoIndex>100</m_topoIndex>
 				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_92">
@@ -5036,8 +5036,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5049,7 +5049,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -5064,7 +5064,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>997485606</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -5080,7 +5080,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>100</m_topoIndex>
+				<m_topoIndex>95</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_93">
@@ -5092,8 +5092,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5105,7 +5105,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -5120,7 +5120,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>858860852</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -5136,7 +5136,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.94</m_delay>
+				<m_delay>2.43</m_delay>
 				<m_topoIndex>101</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5177,7 +5177,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -5234,7 +5234,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1629888623</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -5291,10 +5291,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1226980729</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -5347,10 +5347,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1868834916</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -5363,7 +5363,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.95</m_delay>
+				<m_delay>2.71</m_delay>
 				<m_topoIndex>105</m_topoIndex>
 				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
@@ -5390,7 +5390,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>639659631</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5414,12 +5414,12 @@
 					<Obj>
 						<type>0</type>
 						<id>123</id>
-						<name>out_0_0_0_0_addr_write_ln736</name>
+						<name>out_0_addr_write_ln736</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>736</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5431,7 +5431,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>736</second>
 									</item>
@@ -5446,7 +5446,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741619260</coreId>
+						<coreId>840979276</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5462,7 +5462,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>85</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5471,10 +5471,10 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>br_ln230</name>
+						<name>br_ln349</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>230</lineNumber>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5490,7 +5490,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>230</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -5503,7 +5503,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741486908</coreId>
+						<coreId>171847458</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5518,7 +5518,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>86</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5527,7 +5527,7 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>V1_i_i_i_i_i67279_promoted</name>
+						<name>V1_i_i_i_i_i67280_promoted</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -5545,10 +5545,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1834970975</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -5572,10 +5572,10 @@
 					<Obj>
 						<type>0</type>
 						<id>127</id>
-						<name>br_ln230</name>
+						<name>br_ln349</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>230</lineNumber>
+						<lineNumber>349</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5591,7 +5591,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>230</second>
+										<second>349</second>
 									</item>
 								</second>
 							</item>
@@ -5604,7 +5604,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741553980</coreId>
+						<coreId>1852402798</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5630,10 +5630,10 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>br_ln234</name>
+						<name>br_ln353</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>234</lineNumber>
+						<lineNumber>353</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5649,7 +5649,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>234</second>
+										<second>353</second>
 									</item>
 								</second>
 							</item>
@@ -5662,7 +5662,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1869182069</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5679,7 +5679,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.44</m_delay>
+				<m_delay>1.70</m_delay>
 				<m_topoIndex>89</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5692,8 +5692,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5705,7 +5705,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -5720,7 +5720,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1769104758</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5735,7 +5735,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>90</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5747,7 +5747,7 @@
 						<name>h_3</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>235</lineNumber>
+						<lineNumber>354</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5763,7 +5763,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>235</second>
+										<second>354</second>
 									</item>
 								</second>
 							</item>
@@ -5776,7 +5776,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741684796</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -5835,10 +5835,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539768380</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -5866,8 +5866,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5879,7 +5879,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -5894,7 +5894,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741552444</coreId>
+						<coreId>673197108</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -5922,8 +5922,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5935,7 +5935,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -5950,7 +5950,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>1735289198</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -5978,8 +5978,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -5991,7 +5991,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -6006,7 +6006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1953067621</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -6022,7 +6022,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.70</m_delay>
+				<m_delay>1.87</m_delay>
 				<m_topoIndex>111</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6035,8 +6035,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6048,7 +6048,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -6063,7 +6063,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741683772</coreId>
+						<coreId>544175214</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -6091,8 +6091,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6104,7 +6104,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -6119,7 +6119,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539768124</coreId>
+						<coreId>1634956133</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -6149,8 +6149,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6162,7 +6162,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -6177,7 +6177,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1030185332</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -6193,7 +6193,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>114</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6202,12 +6202,12 @@
 					<Obj>
 						<type>0</type>
 						<id>141</id>
-						<name>zext_ln1169_6</name>
+						<name>zext_ln1169_4</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6219,7 +6219,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -6234,7 +6234,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1970234408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -6262,8 +6262,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6275,7 +6275,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -6290,7 +6290,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1629893678</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -6316,10 +6316,10 @@
 					<Obj>
 						<type>0</type>
 						<id>143</id>
-						<name>icmp_ln235</name>
+						<name>icmp_ln354</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>235</lineNumber>
+						<lineNumber>354</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -6335,7 +6335,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>235</second>
+										<second>354</second>
 									</item>
 								</second>
 							</item>
@@ -6348,7 +6348,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>1919251557</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6364,7 +6364,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.65</m_delay>
+				<m_delay>1.30</m_delay>
 				<m_topoIndex>117</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6373,10 +6373,10 @@
 					<Obj>
 						<type>0</type>
 						<id>145</id>
-						<name>add_ln235</name>
+						<name>add_ln354</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>235</lineNumber>
+						<lineNumber>354</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -6392,7 +6392,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>235</second>
+										<second>354</second>
 									</item>
 								</second>
 							</item>
@@ -6405,7 +6405,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>576532787</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -6421,7 +6421,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
+				<m_delay>1.73</m_delay>
 				<m_topoIndex>118</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6430,10 +6430,10 @@
 					<Obj>
 						<type>0</type>
 						<id>146</id>
-						<name>br_ln235</name>
+						<name>br_ln354</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>235</lineNumber>
+						<lineNumber>354</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -6449,7 +6449,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>235</second>
+										<second>354</second>
 									</item>
 								</second>
 							</item>
@@ -6462,7 +6462,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1597731695</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6488,12 +6488,12 @@
 					<Obj>
 						<type>0</type>
 						<id>149</id>
-						<name>r_V_18</name>
+						<name>r_V_13</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6505,7 +6505,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -6520,10 +6520,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>1767862881</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -6535,7 +6535,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>120</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6548,8 +6548,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6561,7 +6561,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1168</second>
 									</item>
@@ -6576,10 +6576,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1668183398</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -6592,7 +6592,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>150</m_topoIndex>
+				<m_topoIndex>124</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_120">
@@ -6604,8 +6604,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6617,7 +6617,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -6632,7 +6632,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>1717530721</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>21</bitwidth>
@@ -6647,7 +6647,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>121</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6660,8 +6660,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6673,7 +6673,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -6688,10 +6688,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1013281633</coreId>
+						<coreId>997420912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -6704,7 +6704,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>151</m_topoIndex>
+				<m_topoIndex>125</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_122">
@@ -6712,12 +6712,12 @@
 					<Obj>
 						<type>0</type>
 						<id>153</id>
-						<name>r_V_24</name>
+						<name>r_V_19</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6729,7 +6729,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -6744,10 +6744,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1835102817</coreId>
+						<coreId>875903592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -6760,8 +6760,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.02</m_delay>
-				<m_topoIndex>152</m_topoIndex>
+				<m_delay>6.91</m_delay>
+				<m_topoIndex>126</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_123">
@@ -6773,8 +6773,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>737</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6786,7 +6786,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>737</second>
 									</item>
@@ -6801,10 +6801,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>858860852</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
@@ -6819,7 +6819,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>153</m_topoIndex>
+				<m_topoIndex>128</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_124">
@@ -6827,12 +6827,12 @@
 					<Obj>
 						<type>0</type>
 						<id>155</id>
-						<name>ret_V_10</name>
+						<name>ret_V_6</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1245</lineNumber>
-						<contextFuncName>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_add_64_26_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_add_72_34_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6844,7 +6844,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1245</second>
 									</item>
@@ -6859,10 +6859,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>997420912</coreId>
+						<coreId>779381102</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -6875,8 +6875,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>154</m_topoIndex>
+				<m_delay>3.28</m_delay>
+				<m_topoIndex>129</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_125">
@@ -6888,8 +6888,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>717</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6901,7 +6901,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>717</second>
 									</item>
@@ -6916,10 +6916,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1279810338</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -6935,7 +6935,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>155</m_topoIndex>
+				<m_topoIndex>130</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_126">
@@ -6943,12 +6943,12 @@
 					<Obj>
 						<type>0</type>
 						<id>157</id>
-						<name>p_Result_17</name>
+						<name>p_Result_18</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -6960,7 +6960,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -6975,7 +6975,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1734439968</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6993,7 +6993,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>156</m_topoIndex>
+				<m_topoIndex>131</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_127">
@@ -7001,12 +7001,12 @@
 					<Obj>
 						<type>0</type>
 						<id>158</id>
-						<name>p_Result_21</name>
+						<name>p_Result_22</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -7018,7 +7018,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -7033,7 +7033,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1313415741</coreId>
+						<coreId>1030647657</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7051,7 +7051,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>157</m_topoIndex>
+				<m_topoIndex>132</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_128">
@@ -7063,8 +7063,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -7076,7 +7076,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -7091,7 +7091,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>893020206</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -7107,7 +7107,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>158</m_topoIndex>
+				<m_topoIndex>127</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_129">
@@ -7119,8 +7119,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -7132,7 +7132,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -7147,7 +7147,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1914708521</coreId>
+						<coreId>976974951</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7163,8 +7163,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.94</m_delay>
-				<m_topoIndex>159</m_topoIndex>
+				<m_delay>2.43</m_delay>
+				<m_topoIndex>133</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_130">
@@ -7204,7 +7204,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1969627239</coreId>
+						<coreId>1818321519</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7221,7 +7221,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>160</m_topoIndex>
+				<m_topoIndex>134</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_131">
@@ -7261,7 +7261,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1818321519</coreId>
+						<coreId>2036689696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7278,7 +7278,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>161</m_topoIndex>
+				<m_topoIndex>135</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_132">
@@ -7318,10 +7318,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701273971</coreId>
+						<coreId>1563505457</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -7334,7 +7334,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>162</m_topoIndex>
+				<m_topoIndex>136</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_133">
@@ -7374,10 +7374,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1651469415</coreId>
+						<coreId>1852383291</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -7390,8 +7390,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.95</m_delay>
-				<m_topoIndex>163</m_topoIndex>
+				<m_delay>2.71</m_delay>
+				<m_topoIndex>137</m_topoIndex>
 				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_134">
@@ -7417,7 +7417,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701978146</coreId>
+						<coreId>1600076659</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7433,7 +7433,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>164</m_topoIndex>
+				<m_topoIndex>138</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_135">
@@ -7441,12 +7441,12 @@
 					<Obj>
 						<type>0</type>
 						<id>167</id>
-						<name>out_0_0_0_0_addr_write_ln736</name>
+						<name>out_0_addr_write_ln736</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>736</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -7458,7 +7458,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>736</second>
 									</item>
@@ -7473,7 +7473,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1969627239</coreId>
+						<coreId>997484326</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7489,7 +7489,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>122</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -7516,7 +7516,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936683105</coreId>
+						<coreId>574449505</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7531,7 +7531,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.44</m_delay>
+				<m_delay>1.70</m_delay>
 				<m_topoIndex>123</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -7544,8 +7544,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -7557,7 +7557,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -7572,7 +7572,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852402798</coreId>
+						<coreId>825368659</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7587,7 +7587,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>91</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -7599,7 +7599,7 @@
 						<name>h_2</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>231</lineNumber>
+						<lineNumber>350</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -7615,7 +7615,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>231</second>
+										<second>350</second>
 									</item>
 								</second>
 							</item>
@@ -7628,7 +7628,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1882140200</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -7647,7 +7647,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>124</m_topoIndex>
+				<m_topoIndex>139</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_139">
@@ -7687,10 +7687,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702126957</coreId>
+						<coreId>1853187616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -7706,7 +7706,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>125</m_topoIndex>
+				<m_topoIndex>140</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_140">
@@ -7718,8 +7718,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -7731,350 +7731,9 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1043276322</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>474</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>126</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_141">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>175</id>
-						<name>zext_ln1171_14</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1171</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1953391988</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>7</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>475</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>127</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_142">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>176</id>
-						<name>add_ln1171_4</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1171</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1601265520</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>7</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>476</item>
-					<item>477</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.70</m_delay>
-				<m_topoIndex>128</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_143">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>177</id>
-						<name>zext_ln1171_15</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1171</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1931502951</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>64</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>478</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>129</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_144">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>178</id>
-						<name>secondKernel_f_V_2_addr</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1171</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>825046065</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>7</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>479</item>
-					<item>480</item>
-					<item>481</item>
-				</oprand_edges>
-				<opcode>getelementptr</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>130</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_145">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>179</id>
-						<name>secondKernel_f_V_3_addr</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1171</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1031301478</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>7</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>482</item>
-					<item>483</item>
-					<item>484</item>
-				</oprand_edges>
-				<opcode>getelementptr</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>131</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_146">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>180</id>
-						<name>add_ln1169_3</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
 									</item>
 								</second>
 							</item>
@@ -8093,66 +7752,9 @@
 					<bitwidth>9</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>485</item>
-					<item>486</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
-				<m_topoIndex>132</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_147">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>181</id>
-						<name>zext_ln1169_4</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1869182069</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>64</bitwidth>
-				</Value>
-				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>487</item>
+					<item>474</item>
 				</oprand_edges>
 				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
@@ -8160,533 +7762,20 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>133</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_148">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>182</id>
-						<name>m_0_0_0_0_addr_2</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1730555936</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>488</item>
-					<item>489</item>
-					<item>490</item>
-				</oprand_edges>
-				<opcode>getelementptr</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>134</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_149">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>183</id>
-						<name>add_ln1169_4</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1869438833</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>491</item>
-					<item>492</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.71</m_delay>
-				<m_topoIndex>135</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_150">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>184</id>
-						<name>zext_ln1169_5</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1397508130</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>64</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>493</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>136</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_151">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>185</id>
-						<name>m_0_0_0_0_addr_3</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>875639328</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>494</item>
-					<item>495</item>
-					<item>496</item>
-				</oprand_edges>
-				<opcode>getelementptr</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>137</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_152">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>186</id>
-						<name>icmp_ln231</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>231</lineNumber>
-						<contextFuncName>convolution2_fix</contextFuncName>
-						<contextNormFuncName>convolution2_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution2_fix</second>
-										</first>
-										<second>231</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>790766141</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>497</item>
-					<item>498</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.65</m_delay>
-				<m_topoIndex>138</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_153">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>188</id>
-						<name>add_ln231</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>231</lineNumber>
-						<contextFuncName>convolution2_fix</contextFuncName>
-						<contextNormFuncName>convolution2_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution2_fix</second>
-										</first>
-										<second>231</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1936876916</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>4</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>499</item>
-					<item>500</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.72</m_delay>
-				<m_topoIndex>139</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_154">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>189</id>
-						<name>br_ln231</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>231</lineNumber>
-						<contextFuncName>convolution2_fix</contextFuncName>
-						<contextNormFuncName>convolution2_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution2_fix</second>
-										</first>
-										<second>231</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>501</item>
-					<item>502</item>
-					<item>503</item>
-				</oprand_edges>
-				<opcode>br</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>140</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_155">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>192</id>
-						<name>r_V_14</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1169</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>r.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>875459689</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>504</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
 				<m_topoIndex>141</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_156">
+			<item class_id_reference="9" object_id="_141">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>193</id>
-						<name>sext_ln1168_2</name>
-						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1168</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>825438509</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>51</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>505</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>165</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_157">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>194</id>
-						<name>secondKernel_f_V_2_load</name>
+						<id>175</id>
+						<name>zext_ln1171_14</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -8698,7 +7787,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -8713,36 +7802,36 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769239916</coreId>
+						<coreId>741814560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>21</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>506</item>
+					<item>475</item>
 				</oprand_edges>
-				<opcode>load</opcode>
+				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>142</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_158">
+			<item class_id_reference="9" object_id="_142">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>195</id>
-						<name>sext_ln1171_3</name>
+						<id>176</id>
+						<name>add_ln1171_4</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -8754,7 +7843,64 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1171</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1814455397</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>7</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>476</item>
+					<item>477</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.87</m_delay>
+				<m_topoIndex>143</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_143">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>177</id>
+						<name>zext_ln1171_15</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1171</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -8772,33 +7918,33 @@
 						<coreId>1601331574</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>64</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>507</item>
+					<item>478</item>
 				</oprand_edges>
-				<opcode>sext</opcode>
+				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>166</m_topoIndex>
+				<m_topoIndex>144</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_159">
+			<item class_id_reference="9" object_id="_144">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>196</id>
-						<name>r_V_22</name>
+						<id>178</id>
+						<name>secondKernel_f_V_2_addr</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -8810,9 +7956,639 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>825438509</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>7</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>479</item>
+					<item>480</item>
+					<item>481</item>
+				</oprand_edges>
+				<opcode>getelementptr</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>145</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_145">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>179</id>
+						<name>secondKernel_f_V_3_addr</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1171</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1171</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741749563</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>7</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>482</item>
+					<item>483</item>
+					<item>484</item>
+				</oprand_edges>
+				<opcode>getelementptr</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>146</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_146">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>180</id>
+						<name>add_ln1169_3</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>942945594</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>485</item>
+					<item>486</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.82</m_delay>
+				<m_topoIndex>147</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_147">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>181</id>
+						<name>zext_ln1169_2</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>151666223</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>64</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>487</item>
+				</oprand_edges>
+				<opcode>zext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>148</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_148">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>182</id>
+						<name>m_0_0_0_0_addr_2</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>539119430</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>488</item>
+					<item>489</item>
+					<item>490</item>
+				</oprand_edges>
+				<opcode>getelementptr</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>149</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_149">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>183</id>
+						<name>add_ln1169_4</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>691353402</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>491</item>
+					<item>492</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.82</m_delay>
+				<m_topoIndex>150</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_150">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>184</id>
+						<name>zext_ln1169_3</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1768318322</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>64</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>493</item>
+				</oprand_edges>
+				<opcode>zext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>151</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_151">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>185</id>
+						<name>m_0_0_0_0_addr_3</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1210203513</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>494</item>
+					<item>495</item>
+					<item>496</item>
+				</oprand_edges>
+				<opcode>getelementptr</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>152</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_152">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>186</id>
+						<name>icmp_ln350</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>350</lineNumber>
+						<contextFuncName>convolution2_fix</contextFuncName>
+						<contextNormFuncName>convolution2_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution2_fix</second>
+										</first>
+										<second>350</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1702129263</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>497</item>
+					<item>498</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.30</m_delay>
+				<m_topoIndex>153</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_153">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>188</id>
+						<name>add_ln350</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>350</lineNumber>
+						<contextFuncName>convolution2_fix</contextFuncName>
+						<contextNormFuncName>convolution2_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution2_fix</second>
+										</first>
+										<second>350</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1918988335</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>4</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>499</item>
+					<item>500</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.73</m_delay>
+				<m_topoIndex>154</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_154">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>189</id>
+						<name>br_ln350</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>350</lineNumber>
+						<contextFuncName>convolution2_fix</contextFuncName>
+						<contextNormFuncName>convolution2_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution2_fix</second>
+										</first>
+										<second>350</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1953852527</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>501</item>
+					<item>502</item>
+					<item>503</item>
+				</oprand_edges>
+				<opcode>br</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>155</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_155">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>192</id>
+						<name>r_V_9</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1169</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1169</second>
 									</item>
 								</second>
 							</item>
@@ -8825,37 +8601,36 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953067621</coreId>
+						<coreId>1702126957</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item>508</item>
-					<item>509</item>
+					<item>504</item>
 				</oprand_edges>
-				<opcode>mul</opcode>
+				<opcode>load</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.02</m_delay>
-				<m_topoIndex>167</m_topoIndex>
+				<m_delay>3.25</m_delay>
+				<m_topoIndex>156</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_160">
+			<item class_id_reference="9" object_id="_156">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>197</id>
-						<name>trunc_ln1168</name>
+						<id>193</id>
+						<name>sext_ln1168_2</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -8867,7 +8642,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1168</second>
 									</item>
@@ -8882,7 +8657,232 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953244772</coreId>
+						<coreId>1635000354</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>55</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>505</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>162</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_157">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>194</id>
+						<name>secondKernel_f_V_2_load</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1171</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1171</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1919230000</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>21</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>506</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>3.25</m_delay>
+				<m_topoIndex>157</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_158">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>195</id>
+						<name>sext_ln1171_3</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1171</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1171</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1769239916</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>55</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>507</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>163</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_159">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>196</id>
+						<name>r_V_17</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1171</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1171</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>r.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1747874674</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>55</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>508</item>
+					<item>509</item>
+				</oprand_edges>
+				<opcode>mul</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>6.91</m_delay>
+				<m_topoIndex>164</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_160">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>197</id>
+						<name>trunc_ln1168</name>
+						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>1168</lineNumber>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1168</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>542329928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -8906,12 +8906,12 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>r_V_16</name>
+						<name>r_V_11</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1169</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -8923,7 +8923,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1169</second>
 									</item>
@@ -8938,10 +8938,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1948262961</coreId>
+						<coreId>1313818964</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -8953,8 +8953,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>143</m_topoIndex>
+				<m_delay>3.25</m_delay>
+				<m_topoIndex>158</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_162">
@@ -8966,8 +8966,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -8979,7 +8979,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1168</second>
 									</item>
@@ -8994,10 +8994,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1179535650</coreId>
+						<coreId>825046065</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -9010,7 +9010,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>169</m_topoIndex>
+				<m_topoIndex>165</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_163">
@@ -9022,8 +9022,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9035,7 +9035,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -9050,7 +9050,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769104758</coreId>
+						<coreId>790766141</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>21</bitwidth>
@@ -9065,8 +9065,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>144</m_topoIndex>
+				<m_delay>3.25</m_delay>
+				<m_topoIndex>159</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_164">
@@ -9078,8 +9078,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9091,7 +9091,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -9106,10 +9106,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1734310008</coreId>
+						<coreId>791554080</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -9122,7 +9122,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>170</m_topoIndex>
+				<m_topoIndex>166</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_165">
@@ -9130,12 +9130,12 @@
 					<Obj>
 						<type>0</type>
 						<id>202</id>
-						<name>r_V_23</name>
+						<name>r_V_18</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1171</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9147,7 +9147,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1171</second>
 									</item>
@@ -9162,10 +9162,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869635878</coreId>
+						<coreId>1885420403</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -9178,8 +9178,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.02</m_delay>
-				<m_topoIndex>171</m_topoIndex>
+				<m_delay>6.91</m_delay>
+				<m_topoIndex>167</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_166">
@@ -9191,8 +9191,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1168</lineNumber>
-						<contextFuncName>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9204,7 +9204,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator*&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1168</second>
 									</item>
@@ -9219,7 +9219,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768713801</coreId>
+						<coreId>1734439795</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -9235,7 +9235,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>172</m_topoIndex>
+				<m_topoIndex>169</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_167">
@@ -9243,12 +9243,12 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>ret_V_8</name>
+						<name>ret_V_4</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1245</lineNumber>
-						<contextFuncName>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_add_64_26_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_add_72_34_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9260,7 +9260,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator+&amp;lt;64, 26, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator+&amp;lt;72, 34, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1245</second>
 									</item>
@@ -9275,10 +9275,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2020173407</coreId>
+						<coreId>825046065</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -9291,8 +9291,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>173</m_topoIndex>
+				<m_delay>3.28</m_delay>
+				<m_topoIndex>170</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_168">
@@ -9304,8 +9304,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>737</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9317,7 +9317,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>737</second>
 									</item>
@@ -9332,10 +9332,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>791554080</coreId>
+						<coreId>2037672306</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
@@ -9350,7 +9350,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>174</m_topoIndex>
+				<m_topoIndex>173</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_169">
@@ -9358,12 +9358,12 @@
 					<Obj>
 						<type>0</type>
 						<id>206</id>
-						<name>ret_V_9</name>
+						<name>ret_V_5</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>1245</lineNumber>
-						<contextFuncName>operator+&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_add_65_27_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator+&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_add_73_35_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9375,7 +9375,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator+&amp;lt;65, 27, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator+&amp;lt;73, 35, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1245</second>
 									</item>
@@ -9390,10 +9390,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>1313415741</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>51</bitwidth>
+					<bitwidth>55</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -9406,8 +9406,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>175</m_topoIndex>
+				<m_delay>3.28</m_delay>
+				<m_topoIndex>174</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_170">
@@ -9419,8 +9419,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>717</lineNumber>
-						<contextFuncName>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_66_28_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_74_36_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9432,7 +9432,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>717</second>
 									</item>
@@ -9447,10 +9447,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1952917040</coreId>
+						<coreId>539768625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
@@ -9466,7 +9466,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>176</m_topoIndex>
+				<m_topoIndex>175</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_171">
@@ -9474,12 +9474,12 @@
 					<Obj>
 						<type>0</type>
 						<id>208</id>
-						<name>p_Result_15</name>
+						<name>p_Result_16</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_66_28_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_74_36_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9491,7 +9491,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -9506,7 +9506,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>840979276</coreId>
+						<coreId>1936028192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9524,7 +9524,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>177</m_topoIndex>
+				<m_topoIndex>176</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_172">
@@ -9532,12 +9532,12 @@
 					<Obj>
 						<type>0</type>
 						<id>209</id>
-						<name>p_Result_20</name>
+						<name>p_Result_21</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>722</lineNumber>
-						<contextFuncName>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_66_28_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_74_36_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9549,7 +9549,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>722</second>
 									</item>
@@ -9564,7 +9564,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>694510703</coreId>
+						<coreId>1313818964</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9582,7 +9582,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>178</m_topoIndex>
+				<m_topoIndex>177</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_173">
@@ -9594,8 +9594,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_66_28_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_74_36_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9607,7 +9607,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -9622,7 +9622,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701601909</coreId>
+						<coreId>1986360096</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -9638,8 +9638,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.85</m_delay>
-				<m_topoIndex>179</m_topoIndex>
+				<m_delay>2.13</m_delay>
+				<m_topoIndex>171</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_174">
@@ -9651,8 +9651,8 @@
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>727</lineNumber>
-						<contextFuncName>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_66_28_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_74_36_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9664,7 +9664,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;66, 28, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;74, 36, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>727</second>
 									</item>
@@ -9679,7 +9679,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953244772</coreId>
+						<coreId>539767849</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9695,8 +9695,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.94</m_delay>
-				<m_topoIndex>180</m_topoIndex>
+				<m_delay>2.43</m_delay>
+				<m_topoIndex>172</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_175">
@@ -9736,7 +9736,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9753,7 +9753,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>181</m_topoIndex>
+				<m_topoIndex>178</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_176">
@@ -9793,7 +9793,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869901417</coreId>
+						<coreId>1985965153</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9810,7 +9810,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>182</m_topoIndex>
+				<m_topoIndex>179</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_177">
@@ -9850,10 +9850,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>673197108</coreId>
+						<coreId>1629888622</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -9866,7 +9866,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>183</m_topoIndex>
+				<m_topoIndex>180</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_178">
@@ -9906,10 +9906,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>1734439968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -9922,8 +9922,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.95</m_delay>
-				<m_topoIndex>184</m_topoIndex>
+				<m_delay>2.71</m_delay>
+				<m_topoIndex>181</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_179">
@@ -9949,7 +9949,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>673197108</coreId>
+						<coreId>1814455397</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -9965,7 +9965,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>185</m_topoIndex>
+				<m_topoIndex>182</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_180">
@@ -9973,12 +9973,12 @@
 					<Obj>
 						<type>0</type>
 						<id>218</id>
-						<name>out_0_0_0_0_addr_write_ln736</name>
+						<name>out_0_addr_write_ln736</name>
 						<fileName>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>736</lineNumber>
-						<contextFuncName>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_32_13_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_assign_36_17_true_AP_RND_CONV_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -9990,7 +9990,7 @@
 									<item>
 										<first>
 											<first>D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator=&amp;lt;32, 13, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
+											<second>operator=&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>736</second>
 									</item>
@@ -10005,7 +10005,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544175214</coreId>
+						<coreId>1601200442</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10021,8 +10021,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>145</m_topoIndex>
+				<m_delay>3.25</m_delay>
+				<m_topoIndex>160</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_181">
@@ -10030,10 +10030,10 @@
 					<Obj>
 						<type>0</type>
 						<id>219</id>
-						<name>br_ln240</name>
+						<name>br_ln359</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>240</lineNumber>
+						<lineNumber>359</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -10049,7 +10049,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>240</second>
+										<second>359</second>
 									</item>
 								</second>
 							</item>
@@ -10062,7 +10062,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1767862881</coreId>
+						<coreId>858350948</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10077,8 +10077,8 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.44</m_delay>
-				<m_topoIndex>146</m_topoIndex>
+				<m_delay>1.70</m_delay>
+				<m_topoIndex>161</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_182">
@@ -10086,7 +10086,7 @@
 					<Obj>
 						<type>0</type>
 						<id>221</id>
-						<name>empty_72</name>
+						<name>empty_63</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -10104,10 +10104,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868525665</coreId>
+						<coreId>1834971487</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>6</count>
@@ -10125,7 +10125,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>147</m_topoIndex>
+				<m_topoIndex>183</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_183">
@@ -10165,7 +10165,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2019778399</coreId>
+						<coreId>1869901417</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10183,7 +10183,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>148</m_topoIndex>
+				<m_topoIndex>184</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_184">
@@ -10191,10 +10191,10 @@
 					<Obj>
 						<type>0</type>
 						<id>223</id>
-						<name>br_ln240</name>
+						<name>br_ln359</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>240</lineNumber>
+						<lineNumber>359</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -10210,7 +10210,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>240</second>
+										<second>359</second>
 									</item>
 								</second>
 							</item>
@@ -10223,7 +10223,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>825046065</coreId>
+						<coreId>1919252069</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10241,7 +10241,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>149</m_topoIndex>
+				<m_topoIndex>185</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_185">
@@ -10249,10 +10249,10 @@
 					<Obj>
 						<type>0</type>
 						<id>225</id>
-						<name>out_0_0_0_0_addr_write_ln240</name>
+						<name>out_0_addr_write_ln359</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>240</lineNumber>
+						<lineNumber>359</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -10268,7 +10268,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>240</second>
+										<second>359</second>
 									</item>
 								</second>
 							</item>
@@ -10281,7 +10281,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1948262961</coreId>
+						<coreId>1869375327</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10301,7 +10301,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>3.25</m_delay>
 				<m_topoIndex>186</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -10310,10 +10310,10 @@
 					<Obj>
 						<type>0</type>
 						<id>226</id>
-						<name>br_ln240</name>
+						<name>br_ln359</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>240</lineNumber>
+						<lineNumber>359</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -10329,7 +10329,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>240</second>
+										<second>359</second>
 									</item>
 								</second>
 							</item>
@@ -10342,7 +10342,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1295780106</coreId>
+						<coreId>758395186</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10384,7 +10384,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953067621</coreId>
+						<coreId>997485606</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10408,10 +10408,10 @@
 					<Obj>
 						<type>0</type>
 						<id>230</id>
-						<name>d_write_ln213</name>
+						<name>d_write_ln332</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>213</lineNumber>
+						<lineNumber>332</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -10427,7 +10427,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>213</second>
+										<second>332</second>
 									</item>
 								</second>
 							</item>
@@ -10440,7 +10440,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885414944</coreId>
+						<coreId>1936683105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10458,7 +10458,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.40</m_delay>
+				<m_delay>1.58</m_delay>
 				<m_topoIndex>27</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -10485,7 +10485,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936683105</coreId>
+						<coreId>1969627239</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10509,10 +10509,10 @@
 					<Obj>
 						<type>0</type>
 						<id>233</id>
-						<name>_ln244</name>
+						<name>_ln363</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>244</lineNumber>
+						<lineNumber>363</lineNumber>
 						<contextFuncName>convolution2_fix</contextFuncName>
 						<contextNormFuncName>convolution2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -10528,7 +10528,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution2_fix</second>
 										</first>
-										<second>244</second>
+										<second>363</second>
 									</item>
 								</second>
 							</item>
@@ -10541,7 +10541,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1279795773</coreId>
+						<coreId>1702390118</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -10586,7 +10586,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>792347688</coreId>
+						<coreId>1763716195</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -10617,7 +10617,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>792347688</coreId>
+						<coreId>1818177631</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -10648,7 +10648,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -10679,7 +10679,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1445951598</coreId>
+						<coreId>1668246623</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -10710,7 +10710,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>1701080941</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -10741,7 +10741,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -10772,7 +10772,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>846228852</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10803,7 +10803,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>1763716195</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -10834,7 +10834,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>846228852</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10865,7 +10865,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768712536</coreId>
+						<coreId>846228852</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -10896,7 +10896,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>792347688</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -10927,7 +10927,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2020501868</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -10958,7 +10958,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869901417</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -10989,7 +10989,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953849647</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11020,13 +11020,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>858857516</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>50</content>
+				<content>54</content>
 			</item>
 			<item class_id_reference="16" object_id="_206">
 				<Value>
@@ -11051,7 +11051,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11082,7 +11082,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>893007415</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>18</bitwidth>
@@ -11113,7 +11113,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601265520</coreId>
+						<coreId>43</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -11144,7 +11144,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>645165934</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -11175,13 +11175,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1834971487</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>31</content>
+				<content>35</content>
 			</item>
 			<item class_id_reference="16" object_id="_211">
 				<Value>
@@ -11206,10 +11206,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767601</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -11240,7 +11240,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1214215017</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11273,7 +11273,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>808595283</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11311,7 +11311,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>793988168</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11345,7 +11345,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>808595283</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11384,7 +11384,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1397508191</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11397,7 +11397,7 @@
 				<Obj>
 					<type>3</type>
 					<id>56</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i213</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i213</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11415,7 +11415,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1397508191</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11440,7 +11440,7 @@
 				<Obj>
 					<type>3</type>
 					<id>75</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i213.split</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i213.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11458,7 +11458,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>808595283</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11505,7 +11505,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1953060399</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11525,7 +11525,7 @@
 				<Obj>
 					<type>3</type>
 					<id>88</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i153.preheader</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i153.preheader</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11543,7 +11543,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1214215017</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11558,7 +11558,7 @@
 				<Obj>
 					<type>3</type>
 					<id>103</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i153</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i153</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11576,7 +11576,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>808595283</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11601,7 +11601,7 @@
 				<Obj>
 					<type>3</type>
 					<id>122</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i153.split</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i153.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11619,7 +11619,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1397508191</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11666,7 +11666,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>793988168</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11698,7 +11698,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>808595283</coreId>
+					<coreId>1869438831</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11730,7 +11730,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>793988168</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11743,7 +11743,7 @@
 				<Obj>
 					<type>3</type>
 					<id>132</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.preheader</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.preheader</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11761,7 +11761,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1214215017</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11774,7 +11774,7 @@
 				<Obj>
 					<type>3</type>
 					<id>147</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11792,7 +11792,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>793988168</coreId>
+					<coreId>75919544</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11817,7 +11817,7 @@
 				<Obj>
 					<type>3</type>
 					<id>166</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi32ELi13ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.split</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11835,7 +11835,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>793988168</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11882,7 +11882,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1953060399</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11896,7 +11896,7 @@
 				<Obj>
 					<type>3</type>
 					<id>171</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi64ELi26ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.preheader</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi72ELi34ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.preheader</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11914,7 +11914,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1214215017</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11927,7 +11927,7 @@
 				<Obj>
 					<type>3</type>
 					<id>190</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi64ELi26ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi72ELi34ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11945,7 +11945,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>793988168</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -11974,7 +11974,7 @@
 				<Obj>
 					<type>3</type>
 					<id>217</id>
-					<name>_ZN13ap_fixed_baseILi65ELi27ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi64ELi26ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.split</name>
+					<name>_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi72ELi34ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -11992,7 +11992,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1397508191</coreId>
+					<coreId>75940024</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -12029,7 +12029,7 @@
 				<Obj>
 					<type>3</type>
 					<id>220</id>
-					<name>_ZltILi32ELi13ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.loopexit</name>
+					<name>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.loopexit</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -12047,7 +12047,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>825372722</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -12061,7 +12061,7 @@
 				<Obj>
 					<type>3</type>
 					<id>224</id>
-					<name>_ZltILi32ELi13ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</name>
+					<name>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -12079,7 +12079,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1397508191</coreId>
+					<coreId>75935032</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -12094,7 +12094,7 @@
 				<Obj>
 					<type>3</type>
 					<id>227</id>
-					<name>_ZN8ap_fixedILi32ELi13EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit</name>
+					<name>_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -12112,7 +12112,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1397508191</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -12126,7 +12126,7 @@
 				<Obj>
 					<type>3</type>
 					<id>229</id>
-					<name>_ZltILi32ELi13ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit._crit_edge</name>
+					<name>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit._crit_edge</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -12144,7 +12144,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1953060399</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -12175,7 +12175,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>842019375</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -15024,8 +15024,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>14161</mMinLatency>
-			<mMaxLatency>35665</mMaxLatency>
+			<mMinLatency>30289</mMinLatency>
+			<mMaxLatency>90097</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15054,8 +15054,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_638">
 			<mId>3</mId>
-			<mTag>VITIS_LOOP_213_1</mTag>
-			<mNormTag>VITIS_LOOP_213_1</mNormTag>
+			<mTag>VITIS_LOOP_332_1</mTag>
+			<mNormTag>VITIS_LOOP_332_1</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>3</count>
@@ -15072,8 +15072,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>16</mMinTripCount>
 			<mMaxTripCount>16</mMaxTripCount>
-			<mMinLatency>14160</mMinLatency>
-			<mMaxLatency>35664</mMaxLatency>
+			<mMinLatency>30288</mMinLatency>
+			<mMaxLatency>90096</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15103,8 +15103,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_640">
 			<mId>5</mId>
-			<mTag>VITIS_LOOP_215_2</mTag>
-			<mNormTag>VITIS_LOOP_215_2</mNormTag>
+			<mTag>VITIS_LOOP_334_2</mTag>
+			<mNormTag>VITIS_LOOP_334_2</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>11</count>
@@ -15129,8 +15129,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>42</mMinTripCount>
 			<mMaxTripCount>42</mMaxTripCount>
-			<mMinLatency>882</mMinLatency>
-			<mMaxLatency>2226</mMaxLatency>
+			<mMinLatency>1890</mMinLatency>
+			<mMaxLatency>5628</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15160,8 +15160,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_642">
 			<mId>7</mId>
-			<mTag>VITIS_LOOP_221_4</mTag>
-			<mNormTag>VITIS_LOOP_221_4</mNormTag>
+			<mTag>VITIS_LOOP_340_4</mTag>
+			<mNormTag>VITIS_LOOP_340_4</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -15177,8 +15177,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>8</mMinTripCount>
 			<mMaxTripCount>8</mMaxTripCount>
-			<mMinLatency>16</mMinLatency>
-			<mMaxLatency>16</mMaxLatency>
+			<mMinLatency>40</mMinLatency>
+			<mMaxLatency>40</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15208,8 +15208,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_644">
 			<mId>9</mId>
-			<mTag>VITIS_LOOP_226_5</mTag>
-			<mNormTag>VITIS_LOOP_226_5</mNormTag>
+			<mTag>VITIS_LOOP_345_5</mTag>
+			<mNormTag>VITIS_LOOP_345_5</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -15225,8 +15225,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>8</mMinTripCount>
 			<mMaxTripCount>8</mMaxTripCount>
-			<mMinLatency>16</mMinLatency>
-			<mMaxLatency>16</mMaxLatency>
+			<mMinLatency>40</mMinLatency>
+			<mMaxLatency>40</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15281,8 +15281,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_647">
 			<mId>12</mId>
-			<mTag>VITIS_LOOP_235_7</mTag>
-			<mNormTag>VITIS_LOOP_235_7</mNormTag>
+			<mTag>VITIS_LOOP_354_7</mTag>
+			<mNormTag>VITIS_LOOP_354_7</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -15298,8 +15298,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>8</mMinTripCount>
 			<mMaxTripCount>8</mMaxTripCount>
-			<mMinLatency>16</mMinLatency>
-			<mMaxLatency>16</mMaxLatency>
+			<mMinLatency>40</mMinLatency>
+			<mMaxLatency>40</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15328,8 +15328,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_649">
 			<mId>14</mId>
-			<mTag>VITIS_LOOP_231_6</mTag>
-			<mNormTag>VITIS_LOOP_231_6</mNormTag>
+			<mTag>VITIS_LOOP_350_6</mTag>
+			<mNormTag>VITIS_LOOP_350_6</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -15345,8 +15345,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>8</mMinTripCount>
 			<mMaxTripCount>8</mMaxTripCount>
-			<mMinLatency>16</mMinLatency>
-			<mMaxLatency>16</mMaxLatency>
+			<mMinLatency>48</mMinLatency>
+			<mMaxLatency>48</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -15726,7 +15726,7 @@
 		<item>
 			<first>59</first>
 			<second>
-				<first>5</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -15740,98 +15740,98 @@
 		<item>
 			<first>61</first>
 			<second>
-				<first>5</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>62</first>
 			<second>
-				<first>5</first>
-				<second>0</second>
+				<first>6</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>63</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>64</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>65</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>66</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>67</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>68</first>
 			<second>
-				<first>5</first>
+				<first>7</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>69</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>70</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>71</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>72</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>73</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>74</first>
 			<second>
-				<first>5</first>
+				<first>8</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -15915,833 +15915,833 @@
 		<item>
 			<first>89</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>90</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>91</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>92</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>93</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>94</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>95</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>96</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>97</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>98</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>99</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>101</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>102</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>105</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>106</first>
 			<second>
-				<first>7</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>107</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>108</first>
 			<second>
-				<first>7</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>109</first>
 			<second>
-				<first>7</first>
-				<second>0</second>
+				<first>11</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>110</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>111</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>112</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>113</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>114</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>115</first>
 			<second>
-				<first>7</first>
+				<first>12</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>116</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>117</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>118</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>119</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>120</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>121</first>
 			<second>
-				<first>7</first>
+				<first>13</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>123</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>124</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>126</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>127</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>129</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>131</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>133</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>134</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>135</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>136</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>137</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>138</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>139</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>140</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>141</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>142</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>143</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>145</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>146</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>149</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>150</first>
 			<second>
-				<first>9</first>
+				<first>16</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>151</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>152</first>
 			<second>
-				<first>9</first>
+				<first>16</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>153</first>
 			<second>
-				<first>9</first>
-				<second>0</second>
+				<first>16</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>154</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>155</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>156</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>157</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>158</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>159</first>
 			<second>
-				<first>9</first>
+				<first>17</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>160</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>161</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>162</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>163</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>164</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>165</first>
 			<second>
-				<first>9</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>167</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>168</first>
 			<second>
-				<first>8</first>
+				<first>14</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>170</first>
 			<second>
-				<first>6</first>
+				<first>9</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>172</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>173</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>174</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>175</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>176</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>177</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>178</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>179</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>180</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>181</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>182</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>183</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>184</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>185</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>186</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>188</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>189</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>192</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>193</first>
 			<second>
-				<first>10</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>194</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>195</first>
 			<second>
-				<first>10</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>196</first>
 			<second>
-				<first>10</first>
-				<second>0</second>
+				<first>21</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>197</first>
 			<second>
-				<first>10</first>
+				<first>22</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>198</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>199</first>
 			<second>
-				<first>10</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>200</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>201</first>
 			<second>
-				<first>10</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>202</first>
 			<second>
-				<first>10</first>
-				<second>0</second>
+				<first>21</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>203</first>
 			<second>
-				<first>10</first>
+				<first>22</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>204</first>
 			<second>
-				<first>10</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>205</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>206</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>207</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>208</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>209</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>210</first>
 			<second>
-				<first>10</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>211</first>
 			<second>
-				<first>10</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>212</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>213</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>214</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>215</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>216</first>
 			<second>
-				<first>10</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>218</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>219</first>
 			<second>
-				<first>8</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>221</first>
 			<second>
-				<first>8</first>
+				<first>25</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>222</first>
 			<second>
-				<first>8</first>
+				<first>25</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>223</first>
 			<second>
-				<first>8</first>
+				<first>25</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>225</first>
 			<second>
-				<first>11</first>
+				<first>26</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>226</first>
 			<second>
-				<first>11</first>
+				<first>26</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>228</first>
 			<second>
-				<first>11</first>
+				<first>26</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -16816,7 +16816,7 @@
 			<first>75</first>
 			<second>
 				<first>4</first>
-				<second>5</second>
+				<second>8</second>
 			</second>
 		</item>
 		<item>
@@ -16844,7 +16844,7 @@
 			<first>122</first>
 			<second>
 				<first>5</first>
-				<second>6</second>
+				<second>9</second>
 			</second>
 		</item>
 		<item>
@@ -16886,7 +16886,7 @@
 			<first>166</first>
 			<second>
 				<first>6</first>
-				<second>7</second>
+				<second>10</second>
 			</second>
 		</item>
 		<item>
@@ -16914,7 +16914,7 @@
 			<first>217</first>
 			<second>
 				<first>6</first>
-				<second>7</second>
+				<second>11</second>
 			</second>
 		</item>
 		<item>
@@ -16927,22 +16927,22 @@
 		<item>
 			<first>224</first>
 			<second>
-				<first>6</first>
-				<second>6</second>
+				<first>7</first>
+				<second>7</second>
 			</second>
 		</item>
 		<item>
 			<first>227</first>
 			<second>
-				<first>6</first>
-				<second>7</second>
+				<first>7</first>
+				<second>8</second>
 			</second>
 		</item>
 		<item>
 			<first>229</first>
 			<second>
-				<first>7</first>
-				<second>7</second>
+				<first>8</first>
+				<second>8</second>
 			</second>
 		</item>
 		<item>

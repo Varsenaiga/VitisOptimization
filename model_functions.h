@@ -3,12 +3,12 @@
 #include <ap_fixed.h>
 
 typedef ap_fixed<36,17, AP_RND_CONV> fix1_t;
-typedef ap_fixed<10,3, AP_RND_CONV> fix_par;
+typedef ap_fixed<36,17, AP_RND_CONV> fix_par;
 typedef ap_fixed<12,12, AP_RND_CONV> fix_input;
-typedef ap_fixed<13,13, AP_RND_CONV> fix_cv1;
-typedef ap_fixed<14,14, AP_RND_CONV> fix_cv2;
-typedef ap_fixed<13,13, AP_RND_CONV> fix_mp1;
-typedef ap_fixed<14,14, AP_RND_CONV> fix_mp2;
+typedef ap_fixed<36,17, AP_RND_CONV> fix_cv1;
+typedef ap_fixed<36,17, AP_RND_CONV> fix_cv2;
+typedef ap_fixed<36,17, AP_RND_CONV> fix_mp1;
+typedef ap_fixed<36,17, AP_RND_CONV> fix_mp2;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds1;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds2;
 
@@ -34,7 +34,7 @@ void dense1(int mRow, int mCol, int mDep, float (*m)[1][SECOND_NUM_KERNELS], int
 void dense2(int mSize, const float *m, int kNum, float (*k)[FOURTH_NUM_SIZE], const float *bias, float *out);
 void softmax(int mSize, float *m, float *out);
 
-void convolution1_fix(int mRow, int mCol, fix_input (*m)[DATA_SIZE], int kNum, fix_par (*k)[FIRST_NUM_ROWS][FIRST_NUM_COLS], fix_par *bias, fix_cv1 (*out)[DATA_SIZE][FIRST_NUM_KERNELS]);
+void convolution1_fix(fix_input (*m)[DATA_SIZE], fix_par (*k)[FIRST_NUM_ROWS][FIRST_NUM_COLS], fix_par *bias, fix_cv1 (*out)[DATA_SIZE][FIRST_NUM_KERNELS]);
 void convolution2_fix(int mRow, int mCol, int mDep, fix_mp1 (*m)[1][FIRST_NUM_KERNELS], int kNum, fix_par (*k)[SECOND_NUM_ROWS][SECOND_NUM_COLS], fix_par *bias, fix_cv2 (*out)[1][SECOND_NUM_KERNELS]);
 void maxPool1_fix(int mRow, int mCol, int mDep, fix_cv1 (*m)[DATA_SIZE][FIRST_NUM_KERNELS], int oRow, fix_mp1 (*out)[1][FIRST_NUM_KERNELS], int kRow);
 void maxPool2_fix(int mRow, int mCol, int mDep, fix_cv2 (*m)[1][SECOND_NUM_KERNELS], int oRow, fix_mp2 (*out)[1][SECOND_NUM_KERNELS], int kRow);
