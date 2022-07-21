@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix'
 ================================================================
-* Date:           Tue Jul 19 17:08:42 2022
+* Date:           Thu Jul 21 16:46:28 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: zynq
-* Target device:  xc7z010-clg400-1
+* Target device:  xc7z020-clg400-1
 
 
 ================================================================
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.50 ns|  7.561 ns|     2.84 ns|
+    |ap_clk  |  10.40 ns|  7.561 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     3097|     3097|  32.519 us|  32.519 us|  3097|  3097|       no|
+    |     3097|     3097|  32.209 us|  32.209 us|  3097|  3097|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -38,8 +38,8 @@
         |                                                       |                                            |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
         |                        Instance                       |                   Module                   |   min   |   max   |    min    |    max    |  min |  max |   Type  |
         +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
-        |grp_convolution1_fix_Pipeline_VITIS_LOOP_221_1_fu_152  |convolution1_fix_Pipeline_VITIS_LOOP_221_1  |        9|        9|  94.500 ns|  94.500 ns|     9|     9|       no|
-        |grp_convolution1_fix_Pipeline_Conv_loop_fu_180         |convolution1_fix_Pipeline_Conv_loop         |     3083|     3083|  32.371 us|  32.371 us|  3083|  3083|       no|
+        |grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152  |convolution1_fix_Pipeline_VITIS_LOOP_181_1  |        9|        9|  93.600 ns|  93.600 ns|     9|     9|       no|
+        |grp_convolution1_fix_Pipeline_Conv_loop_fu_180         |convolution1_fix_Pipeline_Conv_loop         |     3083|     3083|  32.063 us|  32.063 us|  3083|  3083|       no|
         +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 
         * Loop: 
@@ -51,33 +51,33 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+-----------------+---------+----+-------+-------+-----+
-|       Name      | BRAM_18K| DSP|   FF  |  LUT  | URAM|
-+-----------------+---------+----+-------+-------+-----+
-|DSP              |        -|   -|      -|      -|    -|
-|Expression       |        -|   -|      -|      -|    -|
-|FIFO             |        -|   -|      -|      -|    -|
-|Instance         |        0|  24|   5514|   4883|    -|
-|Memory           |        -|   -|      -|      -|    -|
-|Multiplexer      |        -|   -|      -|     77|    -|
-|Register         |        -|   -|     20|      -|    -|
-+-----------------+---------+----+-------+-------+-----+
-|Total            |        0|  24|   5534|   4960|    0|
-+-----------------+---------+----+-------+-------+-----+
-|Available        |      120|  80|  35200|  17600|    0|
-+-----------------+---------+----+-------+-------+-----+
-|Utilization (%)  |        0|  30|     15|     28|    0|
-+-----------------+---------+----+-------+-------+-----+
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       -|      -|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|   24|    5523|   4891|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     77|    -|
+|Register         |        -|    -|      20|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|   24|    5543|   4968|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|   10|       5|      9|    0|
++-----------------+---------+-----+--------+-------+-----+
 
 + Detail: 
     * Instance: 
     +-------------------------------------------------------+--------------------------------------------+---------+----+------+------+-----+
     |                        Instance                       |                   Module                   | BRAM_18K| DSP|  FF  |  LUT | URAM|
     +-------------------------------------------------------+--------------------------------------------+---------+----+------+------+-----+
-    |grp_convolution1_fix_Pipeline_Conv_loop_fu_180         |convolution1_fix_Pipeline_Conv_loop         |        0|  24|  5217|  3639|    0|
-    |grp_convolution1_fix_Pipeline_VITIS_LOOP_221_1_fu_152  |convolution1_fix_Pipeline_VITIS_LOOP_221_1  |        0|   0|   297|  1244|    0|
+    |grp_convolution1_fix_Pipeline_Conv_loop_fu_180         |convolution1_fix_Pipeline_Conv_loop         |        0|  24|  5226|  3671|    0|
+    |grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152  |convolution1_fix_Pipeline_VITIS_LOOP_181_1  |        0|   0|   297|  1220|    0|
     +-------------------------------------------------------+--------------------------------------------+---------+----+------+------+-----+
-    |Total                                                  |                                            |        0|  24|  5514|  4883|    0|
+    |Total                                                  |                                            |        0|  24|  5523|  4891|    0|
     +-------------------------------------------------------+--------------------------------------------+---------+----+------+------+-----+
 
     * DSP: 
@@ -109,8 +109,8 @@
     +--------------------------------------------------------------------+----+----+-----+-----------+
     |ap_CS_fsm                                                           |   6|   0|    6|          0|
     |grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start_reg         |   1|   0|    1|          0|
-    |grp_convolution1_fix_Pipeline_VITIS_LOOP_221_1_fu_152_ap_start_reg  |   1|   0|    1|          0|
-    |tmp1_V_6_reg_466                                                    |  12|   0|   12|          0|
+    |grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg  |   1|   0|    1|          0|
+    |tmp1_V_9_reg_466                                                    |  12|   0|   12|          0|
     +--------------------------------------------------------------------+----+----+-----+-----------+
     |Total                                                               |  20|   0|   20|          0|
     +--------------------------------------------------------------------+----+----+-----+-----------+
@@ -191,42 +191,42 @@ ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%tmp2_V_8_0_loc = alloca i64 1"   -
 ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp2_V_9_0_loc = alloca i64 1"   --->   Operation 15 'alloca' 'tmp2_V_9_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%tmp2_V_10_0_loc = alloca i64 1"   --->   Operation 16 'alloca' 'tmp2_V_10_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%tmp2_V_11_0_loc = alloca i64 1"   --->   Operation 17 'alloca' 'tmp2_V_11_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%tmp1_V_0_0_loc = alloca i64 1"   --->   Operation 18 'alloca' 'tmp1_V_0_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp1_V_1_0_loc = alloca i64 1"   --->   Operation 19 'alloca' 'tmp1_V_1_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%tmp1_V_2_0_loc = alloca i64 1"   --->   Operation 20 'alloca' 'tmp1_V_2_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%tmp1_V_3_0_loc = alloca i64 1"   --->   Operation 21 'alloca' 'tmp1_V_3_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%tmp1_V_4_0_loc = alloca i64 1"   --->   Operation 22 'alloca' 'tmp1_V_4_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%tmp1_V_5_0_loc = alloca i64 1"   --->   Operation 23 'alloca' 'tmp1_V_5_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%tmp1_V_11_8_loc = alloca i64 1"   --->   Operation 24 'alloca' 'tmp1_V_11_8_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%tmp1_V_11_11_loc = alloca i64 1"   --->   Operation 18 'alloca' 'tmp1_V_11_11_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp1_V_11_9_loc = alloca i64 1"   --->   Operation 19 'alloca' 'tmp1_V_11_9_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%tmp1_V_0_0_loc = alloca i64 1"   --->   Operation 20 'alloca' 'tmp1_V_0_0_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%tmp1_V_1_0_loc = alloca i64 1"   --->   Operation 21 'alloca' 'tmp1_V_1_0_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%tmp1_V_2_0_loc = alloca i64 1"   --->   Operation 22 'alloca' 'tmp1_V_2_0_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%tmp1_V_4_0_loc = alloca i64 1"   --->   Operation 23 'alloca' 'tmp1_V_4_0_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%tmp1_V_5_0_loc = alloca i64 1"   --->   Operation 24 'alloca' 'tmp1_V_5_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%tmp1_V_11_6_loc = alloca i64 1"   --->   Operation 25 'alloca' 'tmp1_V_11_6_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%tmp1_V_11_4_loc = alloca i64 1"   --->   Operation 26 'alloca' 'tmp1_V_11_4_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%tmp1_V_10_0_loc = alloca i64 1"   --->   Operation 27 'alloca' 'tmp1_V_10_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc = alloca i64 1"   --->   Operation 28 'alloca' 'tmp1_V_11_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 29 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_221_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_11_8_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_3_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 29 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 29 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_181_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 29 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 30 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_221_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_11_8_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_3_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 30 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 30 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_181_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 30 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 3.25>
-ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:231]   --->   Operation 31 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 32 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:231]   --->   Operation 32 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:193]   --->   Operation 31 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:193]   --->   Operation 32 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 33 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:231]   --->   Operation 33 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
-ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_6 = trunc i16 %input_load" [model_functions.cpp:231]   --->   Operation 34 'trunc' 'tmp1_V_6' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:193]   --->   Operation 33 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:193]   --->   Operation 34 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 1.58>
 ST_5 : Operation 35 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc_load = load i12 %tmp1_V_11_0_loc"   --->   Operation 35 'load' 'tmp1_V_11_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 36 [1/1] (0.00ns)   --->   "%tmp1_V_10_0_loc_load = load i12 %tmp1_V_10_0_loc"   --->   Operation 36 'load' 'tmp1_V_10_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 37 [1/1] (0.00ns)   --->   "%tmp1_V_11_4_loc_load = load i12 %tmp1_V_11_4_loc"   --->   Operation 37 'load' 'tmp1_V_11_4_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 38 [1/1] (0.00ns)   --->   "%tmp1_V_11_6_loc_load = load i12 %tmp1_V_11_6_loc"   --->   Operation 38 'load' 'tmp1_V_11_6_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 39 [1/1] (0.00ns)   --->   "%tmp1_V_11_8_loc_load = load i12 %tmp1_V_11_8_loc"   --->   Operation 39 'load' 'tmp1_V_11_8_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 40 [1/1] (0.00ns)   --->   "%tmp1_V_5_0_loc_load = load i12 %tmp1_V_5_0_loc"   --->   Operation 40 'load' 'tmp1_V_5_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 41 [1/1] (0.00ns)   --->   "%tmp1_V_4_0_loc_load = load i12 %tmp1_V_4_0_loc"   --->   Operation 41 'load' 'tmp1_V_4_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 42 [1/1] (0.00ns)   --->   "%tmp1_V_3_0_loc_load = load i12 %tmp1_V_3_0_loc"   --->   Operation 42 'load' 'tmp1_V_3_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 43 [1/1] (0.00ns)   --->   "%tmp1_V_2_0_loc_load = load i12 %tmp1_V_2_0_loc"   --->   Operation 43 'load' 'tmp1_V_2_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 44 [1/1] (0.00ns)   --->   "%tmp1_V_1_0_loc_load = load i12 %tmp1_V_1_0_loc"   --->   Operation 44 'load' 'tmp1_V_1_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 45 [1/1] (0.00ns)   --->   "%tmp1_V_0_0_loc_load = load i12 %tmp1_V_0_0_loc"   --->   Operation 45 'load' 'tmp1_V_0_0_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 39 [1/1] (0.00ns)   --->   "%tmp1_V_5_0_loc_load = load i12 %tmp1_V_5_0_loc"   --->   Operation 39 'load' 'tmp1_V_5_0_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 40 [1/1] (0.00ns)   --->   "%tmp1_V_4_0_loc_load = load i12 %tmp1_V_4_0_loc"   --->   Operation 40 'load' 'tmp1_V_4_0_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 41 [1/1] (0.00ns)   --->   "%tmp1_V_2_0_loc_load = load i12 %tmp1_V_2_0_loc"   --->   Operation 41 'load' 'tmp1_V_2_0_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 42 [1/1] (0.00ns)   --->   "%tmp1_V_1_0_loc_load = load i12 %tmp1_V_1_0_loc"   --->   Operation 42 'load' 'tmp1_V_1_0_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 43 [1/1] (0.00ns)   --->   "%tmp1_V_0_0_loc_load = load i12 %tmp1_V_0_0_loc"   --->   Operation 43 'load' 'tmp1_V_0_0_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 44 [1/1] (0.00ns)   --->   "%tmp1_V_11_9_loc_load = load i12 %tmp1_V_11_9_loc"   --->   Operation 44 'load' 'tmp1_V_11_9_loc_load' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 45 [1/1] (0.00ns)   --->   "%tmp1_V_11_11_loc_load = load i12 %tmp1_V_11_11_loc"   --->   Operation 45 'load' 'tmp1_V_11_11_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 46 [1/1] (0.00ns)   --->   "%tmp2_V_11_0_loc_load = load i12 %tmp2_V_11_0_loc"   --->   Operation 46 'load' 'tmp2_V_11_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 47 [1/1] (0.00ns)   --->   "%tmp2_V_10_0_loc_load = load i12 %tmp2_V_10_0_loc"   --->   Operation 47 'load' 'tmp2_V_10_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 48 [1/1] (0.00ns)   --->   "%tmp2_V_9_0_loc_load = load i12 %tmp2_V_9_0_loc"   --->   Operation 48 'load' 'tmp2_V_9_0_loc_load' <Predicate = true> <Delay = 0.00>
@@ -238,12 +238,12 @@ ST_5 : Operation 53 [1/1] (0.00ns)   --->   "%tmp2_V_3_0_loc_load = load i12 %tm
 ST_5 : Operation 54 [1/1] (0.00ns)   --->   "%tmp2_V_2_0_loc_load = load i12 %tmp2_V_2_0_loc"   --->   Operation 54 'load' 'tmp2_V_2_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 55 [1/1] (0.00ns)   --->   "%tmp2_V_1_0_loc_load = load i12 %tmp2_V_1_0_loc"   --->   Operation 55 'load' 'tmp2_V_1_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 56 [1/1] (0.00ns)   --->   "%tmp2_V_0_0_loc_load = load i12 %tmp2_V_0_0_loc"   --->   Operation 56 'load' 'tmp2_V_0_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 57 [2/2] (1.58ns)   --->   "%call_ln231 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_8_loc_load, i12 %tmp1_V_6, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_3_0_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:231]   --->   Operation 57 'call' 'call_ln231' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 57 [2/2] (1.58ns)   --->   "%call_ln193 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:193]   --->   Operation 57 'call' 'call_ln193' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 58 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_3, i32 0, i32 0, void @empty_0, i32 4294967295, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 58 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 59 [1/2] (0.00ns)   --->   "%call_ln231 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_8_loc_load, i12 %tmp1_V_6, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_3_0_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:231]   --->   Operation 59 'call' 'call_ln231' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_6 : Operation 60 [1/1] (0.00ns)   --->   "%ret_ln326 = ret" [model_functions.cpp:326]   --->   Operation 60 'ret' 'ret_ln326' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 58 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty, i32 0, i32 0, void @empty_0, i32 4294967295, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 58 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 59 [1/2] (0.00ns)   --->   "%call_ln193 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:193]   --->   Operation 59 'call' 'call_ln193' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 60 [1/1] (0.00ns)   --->   "%ret_ln277 = ret" [model_functions.cpp:277]   --->   Operation 60 'ret' 'ret_ln277' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -278,57 +278,57 @@ Port [ firstBias_f_V]:  wired=0; compound=1; hidden=1; nouse=1; global=1; static
 
 <LifeTime>
 <method=bitvector/>
-tmp2_V_0_0_loc       (alloca       ) [ 0111110]
-tmp2_V_1_0_loc       (alloca       ) [ 0111110]
-tmp2_V_2_0_loc       (alloca       ) [ 0111110]
-tmp2_V_3_0_loc       (alloca       ) [ 0111110]
-tmp2_V_5_0_loc       (alloca       ) [ 0111110]
-tmp2_V_6_0_loc       (alloca       ) [ 0111110]
-tmp2_V_7_0_loc       (alloca       ) [ 0111110]
-tmp2_V_8_0_loc       (alloca       ) [ 0111110]
-tmp2_V_9_0_loc       (alloca       ) [ 0111110]
-tmp2_V_10_0_loc      (alloca       ) [ 0111110]
-tmp2_V_11_0_loc      (alloca       ) [ 0111110]
-tmp1_V_0_0_loc       (alloca       ) [ 0111110]
-tmp1_V_1_0_loc       (alloca       ) [ 0111110]
-tmp1_V_2_0_loc       (alloca       ) [ 0111110]
-tmp1_V_3_0_loc       (alloca       ) [ 0111110]
-tmp1_V_4_0_loc       (alloca       ) [ 0111110]
-tmp1_V_5_0_loc       (alloca       ) [ 0111110]
-tmp1_V_11_8_loc      (alloca       ) [ 0111110]
-tmp1_V_11_6_loc      (alloca       ) [ 0111110]
-tmp1_V_11_4_loc      (alloca       ) [ 0111110]
-tmp1_V_10_0_loc      (alloca       ) [ 0111110]
-tmp1_V_11_0_loc      (alloca       ) [ 0111110]
-call_ln0             (call         ) [ 0000000]
-input_addr           (getelementptr) [ 0000100]
-input_load           (load         ) [ 0000000]
-tmp1_V_6             (trunc        ) [ 0000011]
-tmp1_V_11_0_loc_load (load         ) [ 0000001]
-tmp1_V_10_0_loc_load (load         ) [ 0000001]
-tmp1_V_11_4_loc_load (load         ) [ 0000001]
-tmp1_V_11_6_loc_load (load         ) [ 0000001]
-tmp1_V_11_8_loc_load (load         ) [ 0000001]
-tmp1_V_5_0_loc_load  (load         ) [ 0000001]
-tmp1_V_4_0_loc_load  (load         ) [ 0000001]
-tmp1_V_3_0_loc_load  (load         ) [ 0000001]
-tmp1_V_2_0_loc_load  (load         ) [ 0000001]
-tmp1_V_1_0_loc_load  (load         ) [ 0000001]
-tmp1_V_0_0_loc_load  (load         ) [ 0000001]
-tmp2_V_11_0_loc_load (load         ) [ 0000001]
-tmp2_V_10_0_loc_load (load         ) [ 0000001]
-tmp2_V_9_0_loc_load  (load         ) [ 0000001]
-tmp2_V_8_0_loc_load  (load         ) [ 0000001]
-tmp2_V_7_0_loc_load  (load         ) [ 0000001]
-tmp2_V_6_0_loc_load  (load         ) [ 0000001]
-tmp2_V_5_0_loc_load  (load         ) [ 0000001]
-tmp2_V_3_0_loc_load  (load         ) [ 0000001]
-tmp2_V_2_0_loc_load  (load         ) [ 0000001]
-tmp2_V_1_0_loc_load  (load         ) [ 0000001]
-tmp2_V_0_0_loc_load  (load         ) [ 0000001]
-specinterface_ln0    (specinterface) [ 0000000]
-call_ln231           (call         ) [ 0000000]
-ret_ln326            (ret          ) [ 0000000]
+tmp2_V_0_0_loc        (alloca       ) [ 0111110]
+tmp2_V_1_0_loc        (alloca       ) [ 0111110]
+tmp2_V_2_0_loc        (alloca       ) [ 0111110]
+tmp2_V_3_0_loc        (alloca       ) [ 0111110]
+tmp2_V_5_0_loc        (alloca       ) [ 0111110]
+tmp2_V_6_0_loc        (alloca       ) [ 0111110]
+tmp2_V_7_0_loc        (alloca       ) [ 0111110]
+tmp2_V_8_0_loc        (alloca       ) [ 0111110]
+tmp2_V_9_0_loc        (alloca       ) [ 0111110]
+tmp2_V_10_0_loc       (alloca       ) [ 0111110]
+tmp2_V_11_0_loc       (alloca       ) [ 0111110]
+tmp1_V_11_11_loc      (alloca       ) [ 0111110]
+tmp1_V_11_9_loc       (alloca       ) [ 0111110]
+tmp1_V_0_0_loc        (alloca       ) [ 0111110]
+tmp1_V_1_0_loc        (alloca       ) [ 0111110]
+tmp1_V_2_0_loc        (alloca       ) [ 0111110]
+tmp1_V_4_0_loc        (alloca       ) [ 0111110]
+tmp1_V_5_0_loc        (alloca       ) [ 0111110]
+tmp1_V_11_6_loc       (alloca       ) [ 0111110]
+tmp1_V_11_4_loc       (alloca       ) [ 0111110]
+tmp1_V_10_0_loc       (alloca       ) [ 0111110]
+tmp1_V_11_0_loc       (alloca       ) [ 0111110]
+call_ln0              (call         ) [ 0000000]
+input_addr            (getelementptr) [ 0000100]
+input_load            (load         ) [ 0000000]
+tmp1_V_9              (trunc        ) [ 0000011]
+tmp1_V_11_0_loc_load  (load         ) [ 0000001]
+tmp1_V_10_0_loc_load  (load         ) [ 0000001]
+tmp1_V_11_4_loc_load  (load         ) [ 0000001]
+tmp1_V_11_6_loc_load  (load         ) [ 0000001]
+tmp1_V_5_0_loc_load   (load         ) [ 0000001]
+tmp1_V_4_0_loc_load   (load         ) [ 0000001]
+tmp1_V_2_0_loc_load   (load         ) [ 0000001]
+tmp1_V_1_0_loc_load   (load         ) [ 0000001]
+tmp1_V_0_0_loc_load   (load         ) [ 0000001]
+tmp1_V_11_9_loc_load  (load         ) [ 0000001]
+tmp1_V_11_11_loc_load (load         ) [ 0000001]
+tmp2_V_11_0_loc_load  (load         ) [ 0000001]
+tmp2_V_10_0_loc_load  (load         ) [ 0000001]
+tmp2_V_9_0_loc_load   (load         ) [ 0000001]
+tmp2_V_8_0_loc_load   (load         ) [ 0000001]
+tmp2_V_7_0_loc_load   (load         ) [ 0000001]
+tmp2_V_6_0_loc_load   (load         ) [ 0000001]
+tmp2_V_5_0_loc_load   (load         ) [ 0000001]
+tmp2_V_3_0_loc_load   (load         ) [ 0000001]
+tmp2_V_2_0_loc_load   (load         ) [ 0000001]
+tmp2_V_1_0_loc_load   (load         ) [ 0000001]
+tmp2_V_0_0_loc_load   (load         ) [ 0000001]
+specinterface_ln0     (specinterface) [ 0000000]
+call_ln193            (call         ) [ 0000000]
+ret_ln277             (ret          ) [ 0000000]
 </LifeTime>
 
 <model>
@@ -498,7 +498,7 @@ ret_ln326            (ret          ) [ 0000000]
 <pin id="33" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="convolution1_fix_Pipeline_VITIS_LOOP_221_1"/></StgValue>
+<StgValue><ssdm name="convolution1_fix_Pipeline_VITIS_LOOP_181_1"/></StgValue>
 </bind>
 </comp>
 
@@ -543,7 +543,7 @@ ret_ln326            (ret          ) [ 0000000]
 <pin id="43" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_3"/></StgValue>
+<StgValue><ssdm name="empty"/></StgValue>
 </bind>
 </comp>
 
@@ -695,10 +695,32 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="94" class="1004" name="tmp1_V_0_0_loc_fu_94">
+<comp id="94" class="1004" name="tmp1_V_11_11_loc_fu_94">
 <pin_list>
 <pin id="95" dir="0" index="0" bw="1" slack="0"/>
 <pin id="96" dir="1" index="1" bw="12" slack="0"/>
+</pin_list>
+<bind>
+<opcode="alloca(26) " fcode="alloca"/>
+<opset="tmp1_V_11_11_loc/1 "/>
+</bind>
+</comp>
+
+<comp id="98" class="1004" name="tmp1_V_11_9_loc_fu_98">
+<pin_list>
+<pin id="99" dir="0" index="0" bw="1" slack="0"/>
+<pin id="100" dir="1" index="1" bw="12" slack="0"/>
+</pin_list>
+<bind>
+<opcode="alloca(26) " fcode="alloca"/>
+<opset="tmp1_V_11_9_loc/1 "/>
+</bind>
+</comp>
+
+<comp id="102" class="1004" name="tmp1_V_0_0_loc_fu_102">
+<pin_list>
+<pin id="103" dir="0" index="0" bw="1" slack="0"/>
+<pin id="104" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
@@ -706,10 +728,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="98" class="1004" name="tmp1_V_1_0_loc_fu_98">
+<comp id="106" class="1004" name="tmp1_V_1_0_loc_fu_106">
 <pin_list>
-<pin id="99" dir="0" index="0" bw="1" slack="0"/>
-<pin id="100" dir="1" index="1" bw="12" slack="0"/>
+<pin id="107" dir="0" index="0" bw="1" slack="0"/>
+<pin id="108" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
@@ -717,10 +739,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="102" class="1004" name="tmp1_V_2_0_loc_fu_102">
+<comp id="110" class="1004" name="tmp1_V_2_0_loc_fu_110">
 <pin_list>
-<pin id="103" dir="0" index="0" bw="1" slack="0"/>
-<pin id="104" dir="1" index="1" bw="12" slack="0"/>
+<pin id="111" dir="0" index="0" bw="1" slack="0"/>
+<pin id="112" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
@@ -728,21 +750,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="106" class="1004" name="tmp1_V_3_0_loc_fu_106">
+<comp id="114" class="1004" name="tmp1_V_4_0_loc_fu_114">
 <pin_list>
-<pin id="107" dir="0" index="0" bw="1" slack="0"/>
-<pin id="108" dir="1" index="1" bw="12" slack="0"/>
-</pin_list>
-<bind>
-<opcode="alloca(26) " fcode="alloca"/>
-<opset="tmp1_V_3_0_loc/1 "/>
-</bind>
-</comp>
-
-<comp id="110" class="1004" name="tmp1_V_4_0_loc_fu_110">
-<pin_list>
-<pin id="111" dir="0" index="0" bw="1" slack="0"/>
-<pin id="112" dir="1" index="1" bw="12" slack="0"/>
+<pin id="115" dir="0" index="0" bw="1" slack="0"/>
+<pin id="116" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
@@ -750,25 +761,14 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="114" class="1004" name="tmp1_V_5_0_loc_fu_114">
-<pin_list>
-<pin id="115" dir="0" index="0" bw="1" slack="0"/>
-<pin id="116" dir="1" index="1" bw="12" slack="0"/>
-</pin_list>
-<bind>
-<opcode="alloca(26) " fcode="alloca"/>
-<opset="tmp1_V_5_0_loc/1 "/>
-</bind>
-</comp>
-
-<comp id="118" class="1004" name="tmp1_V_11_8_loc_fu_118">
+<comp id="118" class="1004" name="tmp1_V_5_0_loc_fu_118">
 <pin_list>
 <pin id="119" dir="0" index="0" bw="1" slack="0"/>
 <pin id="120" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
-<opset="tmp1_V_11_8_loc/1 "/>
+<opset="tmp1_V_5_0_loc/1 "/>
 </bind>
 </comp>
 
@@ -842,7 +842,7 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="152" class="1004" name="grp_convolution1_fix_Pipeline_VITIS_LOOP_221_1_fu_152">
+<comp id="152" class="1004" name="grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152">
 <pin_list>
 <pin id="153" dir="0" index="0" bw="0" slack="0"/>
 <pin id="154" dir="0" index="1" bw="16" slack="0"/>
@@ -881,10 +881,10 @@ ret_ln326            (ret          ) [ 0000000]
 <pin id="181" dir="0" index="0" bw="0" slack="0"/>
 <pin id="182" dir="0" index="1" bw="12" slack="0"/>
 <pin id="183" dir="0" index="2" bw="12" slack="0"/>
-<pin id="184" dir="0" index="3" bw="12" slack="0"/>
+<pin id="184" dir="0" index="3" bw="12" slack="1"/>
 <pin id="185" dir="0" index="4" bw="12" slack="0"/>
 <pin id="186" dir="0" index="5" bw="12" slack="0"/>
-<pin id="187" dir="0" index="6" bw="12" slack="1"/>
+<pin id="187" dir="0" index="6" bw="12" slack="0"/>
 <pin id="188" dir="0" index="7" bw="12" slack="0"/>
 <pin id="189" dir="0" index="8" bw="12" slack="0"/>
 <pin id="190" dir="0" index="9" bw="12" slack="0"/>
@@ -921,18 +921,18 @@ ret_ln326            (ret          ) [ 0000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln231/5 "/>
+<opset="call_ln193/5 "/>
 </bind>
 </comp>
 
-<comp id="237" class="1004" name="tmp1_V_6_fu_237">
+<comp id="237" class="1004" name="tmp1_V_9_fu_237">
 <pin_list>
 <pin id="238" dir="0" index="0" bw="16" slack="0"/>
 <pin id="239" dir="1" index="1" bw="12" slack="1"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="tmp1_V_6/4 "/>
+<opset="tmp1_V_9/4 "/>
 </bind>
 </comp>
 
@@ -980,21 +980,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="257" class="1004" name="tmp1_V_11_8_loc_load_load_fu_257">
+<comp id="257" class="1004" name="tmp1_V_5_0_loc_load_load_fu_257">
 <pin_list>
 <pin id="258" dir="0" index="0" bw="12" slack="4"/>
 <pin id="259" dir="1" index="1" bw="12" slack="0"/>
-</pin_list>
-<bind>
-<opcode="load(27) " fcode="load"/>
-<opset="tmp1_V_11_8_loc_load/5 "/>
-</bind>
-</comp>
-
-<comp id="261" class="1004" name="tmp1_V_5_0_loc_load_load_fu_261">
-<pin_list>
-<pin id="262" dir="0" index="0" bw="12" slack="4"/>
-<pin id="263" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
@@ -1002,10 +991,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="265" class="1004" name="tmp1_V_4_0_loc_load_load_fu_265">
+<comp id="261" class="1004" name="tmp1_V_4_0_loc_load_load_fu_261">
 <pin_list>
-<pin id="266" dir="0" index="0" bw="12" slack="4"/>
-<pin id="267" dir="1" index="1" bw="12" slack="0"/>
+<pin id="262" dir="0" index="0" bw="12" slack="4"/>
+<pin id="263" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
@@ -1013,21 +1002,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="269" class="1004" name="tmp1_V_3_0_loc_load_load_fu_269">
+<comp id="265" class="1004" name="tmp1_V_2_0_loc_load_load_fu_265">
 <pin_list>
-<pin id="270" dir="0" index="0" bw="12" slack="4"/>
-<pin id="271" dir="1" index="1" bw="12" slack="0"/>
-</pin_list>
-<bind>
-<opcode="load(27) " fcode="load"/>
-<opset="tmp1_V_3_0_loc_load/5 "/>
-</bind>
-</comp>
-
-<comp id="273" class="1004" name="tmp1_V_2_0_loc_load_load_fu_273">
-<pin_list>
-<pin id="274" dir="0" index="0" bw="12" slack="4"/>
-<pin id="275" dir="1" index="1" bw="12" slack="0"/>
+<pin id="266" dir="0" index="0" bw="12" slack="4"/>
+<pin id="267" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
@@ -1035,10 +1013,10 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="277" class="1004" name="tmp1_V_1_0_loc_load_load_fu_277">
+<comp id="269" class="1004" name="tmp1_V_1_0_loc_load_load_fu_269">
 <pin_list>
-<pin id="278" dir="0" index="0" bw="12" slack="4"/>
-<pin id="279" dir="1" index="1" bw="12" slack="0"/>
+<pin id="270" dir="0" index="0" bw="12" slack="4"/>
+<pin id="271" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
@@ -1046,14 +1024,36 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="281" class="1004" name="tmp1_V_0_0_loc_load_load_fu_281">
+<comp id="273" class="1004" name="tmp1_V_0_0_loc_load_load_fu_273">
+<pin_list>
+<pin id="274" dir="0" index="0" bw="12" slack="4"/>
+<pin id="275" dir="1" index="1" bw="12" slack="0"/>
+</pin_list>
+<bind>
+<opcode="load(27) " fcode="load"/>
+<opset="tmp1_V_0_0_loc_load/5 "/>
+</bind>
+</comp>
+
+<comp id="277" class="1004" name="tmp1_V_11_9_loc_load_load_fu_277">
+<pin_list>
+<pin id="278" dir="0" index="0" bw="12" slack="4"/>
+<pin id="279" dir="1" index="1" bw="12" slack="0"/>
+</pin_list>
+<bind>
+<opcode="load(27) " fcode="load"/>
+<opset="tmp1_V_11_9_loc_load/5 "/>
+</bind>
+</comp>
+
+<comp id="281" class="1004" name="tmp1_V_11_11_loc_load_load_fu_281">
 <pin_list>
 <pin id="282" dir="0" index="0" bw="12" slack="4"/>
 <pin id="283" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="tmp1_V_0_0_loc_load/5 "/>
+<opset="tmp1_V_11_11_loc_load/5 "/>
 </bind>
 </comp>
 
@@ -1288,73 +1288,73 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="395" class="1005" name="tmp1_V_0_0_loc_reg_395">
+<comp id="395" class="1005" name="tmp1_V_11_11_loc_reg_395">
 <pin_list>
 <pin id="396" dir="0" index="0" bw="12" slack="0"/>
 <pin id="397" dir="1" index="1" bw="12" slack="0"/>
+</pin_list>
+<bind>
+<opset="tmp1_V_11_11_loc "/>
+</bind>
+</comp>
+
+<comp id="401" class="1005" name="tmp1_V_11_9_loc_reg_401">
+<pin_list>
+<pin id="402" dir="0" index="0" bw="12" slack="0"/>
+<pin id="403" dir="1" index="1" bw="12" slack="0"/>
+</pin_list>
+<bind>
+<opset="tmp1_V_11_9_loc "/>
+</bind>
+</comp>
+
+<comp id="407" class="1005" name="tmp1_V_0_0_loc_reg_407">
+<pin_list>
+<pin id="408" dir="0" index="0" bw="12" slack="0"/>
+<pin id="409" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opset="tmp1_V_0_0_loc "/>
 </bind>
 </comp>
 
-<comp id="401" class="1005" name="tmp1_V_1_0_loc_reg_401">
+<comp id="413" class="1005" name="tmp1_V_1_0_loc_reg_413">
 <pin_list>
-<pin id="402" dir="0" index="0" bw="12" slack="0"/>
-<pin id="403" dir="1" index="1" bw="12" slack="0"/>
+<pin id="414" dir="0" index="0" bw="12" slack="0"/>
+<pin id="415" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opset="tmp1_V_1_0_loc "/>
 </bind>
 </comp>
 
-<comp id="407" class="1005" name="tmp1_V_2_0_loc_reg_407">
+<comp id="419" class="1005" name="tmp1_V_2_0_loc_reg_419">
 <pin_list>
-<pin id="408" dir="0" index="0" bw="12" slack="0"/>
-<pin id="409" dir="1" index="1" bw="12" slack="0"/>
+<pin id="420" dir="0" index="0" bw="12" slack="0"/>
+<pin id="421" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opset="tmp1_V_2_0_loc "/>
 </bind>
 </comp>
 
-<comp id="413" class="1005" name="tmp1_V_3_0_loc_reg_413">
+<comp id="425" class="1005" name="tmp1_V_4_0_loc_reg_425">
 <pin_list>
-<pin id="414" dir="0" index="0" bw="12" slack="0"/>
-<pin id="415" dir="1" index="1" bw="12" slack="0"/>
-</pin_list>
-<bind>
-<opset="tmp1_V_3_0_loc "/>
-</bind>
-</comp>
-
-<comp id="419" class="1005" name="tmp1_V_4_0_loc_reg_419">
-<pin_list>
-<pin id="420" dir="0" index="0" bw="12" slack="0"/>
-<pin id="421" dir="1" index="1" bw="12" slack="0"/>
+<pin id="426" dir="0" index="0" bw="12" slack="0"/>
+<pin id="427" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opset="tmp1_V_4_0_loc "/>
 </bind>
 </comp>
 
-<comp id="425" class="1005" name="tmp1_V_5_0_loc_reg_425">
-<pin_list>
-<pin id="426" dir="0" index="0" bw="12" slack="0"/>
-<pin id="427" dir="1" index="1" bw="12" slack="0"/>
-</pin_list>
-<bind>
-<opset="tmp1_V_5_0_loc "/>
-</bind>
-</comp>
-
-<comp id="431" class="1005" name="tmp1_V_11_8_loc_reg_431">
+<comp id="431" class="1005" name="tmp1_V_5_0_loc_reg_431">
 <pin_list>
 <pin id="432" dir="0" index="0" bw="12" slack="0"/>
 <pin id="433" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
-<opset="tmp1_V_11_8_loc "/>
+<opset="tmp1_V_5_0_loc "/>
 </bind>
 </comp>
 
@@ -1408,13 +1408,13 @@ ret_ln326            (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="466" class="1005" name="tmp1_V_6_reg_466">
+<comp id="466" class="1005" name="tmp1_V_9_reg_466">
 <pin_list>
 <pin id="467" dir="0" index="0" bw="12" slack="1"/>
 <pin id="468" dir="1" index="1" bw="12" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp1_V_6 "/>
+<opset="tmp1_V_9 "/>
 </bind>
 </comp>
 
@@ -1515,23 +1515,23 @@ ret_ln326            (ret          ) [ 0000000]
 
 <net id="248"><net_src comp="245" pin="1"/><net_sink comp="180" pin=2"/></net>
 
-<net id="252"><net_src comp="249" pin="1"/><net_sink comp="180" pin=3"/></net>
+<net id="252"><net_src comp="249" pin="1"/><net_sink comp="180" pin=4"/></net>
 
-<net id="256"><net_src comp="253" pin="1"/><net_sink comp="180" pin=4"/></net>
+<net id="256"><net_src comp="253" pin="1"/><net_sink comp="180" pin=5"/></net>
 
-<net id="260"><net_src comp="257" pin="1"/><net_sink comp="180" pin=5"/></net>
+<net id="260"><net_src comp="257" pin="1"/><net_sink comp="180" pin=7"/></net>
 
-<net id="264"><net_src comp="261" pin="1"/><net_sink comp="180" pin=7"/></net>
+<net id="264"><net_src comp="261" pin="1"/><net_sink comp="180" pin=8"/></net>
 
-<net id="268"><net_src comp="265" pin="1"/><net_sink comp="180" pin=8"/></net>
+<net id="268"><net_src comp="265" pin="1"/><net_sink comp="180" pin=10"/></net>
 
-<net id="272"><net_src comp="269" pin="1"/><net_sink comp="180" pin=9"/></net>
+<net id="272"><net_src comp="269" pin="1"/><net_sink comp="180" pin=11"/></net>
 
-<net id="276"><net_src comp="273" pin="1"/><net_sink comp="180" pin=10"/></net>
+<net id="276"><net_src comp="273" pin="1"/><net_sink comp="180" pin=12"/></net>
 
-<net id="280"><net_src comp="277" pin="1"/><net_sink comp="180" pin=11"/></net>
+<net id="280"><net_src comp="277" pin="1"/><net_sink comp="180" pin=6"/></net>
 
-<net id="284"><net_src comp="281" pin="1"/><net_sink comp="180" pin=12"/></net>
+<net id="284"><net_src comp="281" pin="1"/><net_sink comp="180" pin=9"/></net>
 
 <net id="288"><net_src comp="285" pin="1"/><net_sink comp="180" pin=13"/></net>
 
@@ -1693,7 +1693,7 @@ ret_ln326            (ret          ) [ 0000000]
 
 <net id="469"><net_src comp="237" pin="1"/><net_sink comp="466" pin=0"/></net>
 
-<net id="470"><net_src comp="466" pin="1"/><net_sink comp="180" pin=6"/></net>
+<net id="470"><net_src comp="466" pin="1"/><net_sink comp="180" pin=3"/></net>
 
 </net_list>
 
@@ -1739,9 +1739,9 @@ ret_ln326            (ret          ) [ 0000000]
 	State 3
 		input_load : 1
 	State 4
-		tmp1_V_6 : 1
+		tmp1_V_9 : 1
 	State 5
-		call_ln231 : 1
+		call_ln193 : 1
 	State 6
 
 
@@ -1753,48 +1753,48 @@ ret_ln326            (ret          ) [ 0000000]
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
 | Operation|                    Functional Unit                    |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   call   | grp_convolution1_fix_Pipeline_VITIS_LOOP_221_1_fu_152 |    0    |  1.588  |   298   |   1193  |
-|          |     grp_convolution1_fix_Pipeline_Conv_loop_fu_180    |    24   | 61.0598 |   5251  |   3367  |
+|   call   | grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152 |    0    |  1.588  |   298   |   1169  |
+|          |     grp_convolution1_fix_Pipeline_Conv_loop_fu_180    |    24   | 61.0598 |   5260  |   3399  |
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   trunc  |                    tmp1_V_6_fu_237                    |    0    |    0    |    0    |    0    |
+|   trunc  |                    tmp1_V_9_fu_237                    |    0    |    0    |    0    |    0    |
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   Total  |                                                       |    24   | 62.6478 |   5549  |   4560  |
+|   Total  |                                                       |    24   | 62.6478 |   5558  |   4568  |
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
 
 Memories:
 N/A
 
 * Register list:
-+-----------------------+--------+
-|                       |   FF   |
-+-----------------------+--------+
-|   input_addr_reg_461  |    9   |
-| tmp1_V_0_0_loc_reg_395|   12   |
-|tmp1_V_10_0_loc_reg_449|   12   |
-|tmp1_V_11_0_loc_reg_455|   12   |
-|tmp1_V_11_4_loc_reg_443|   12   |
-|tmp1_V_11_6_loc_reg_437|   12   |
-|tmp1_V_11_8_loc_reg_431|   12   |
-| tmp1_V_1_0_loc_reg_401|   12   |
-| tmp1_V_2_0_loc_reg_407|   12   |
-| tmp1_V_3_0_loc_reg_413|   12   |
-| tmp1_V_4_0_loc_reg_419|   12   |
-| tmp1_V_5_0_loc_reg_425|   12   |
-|    tmp1_V_6_reg_466   |   12   |
-| tmp2_V_0_0_loc_reg_329|   12   |
-|tmp2_V_10_0_loc_reg_383|   12   |
-|tmp2_V_11_0_loc_reg_389|   12   |
-| tmp2_V_1_0_loc_reg_335|   12   |
-| tmp2_V_2_0_loc_reg_341|   12   |
-| tmp2_V_3_0_loc_reg_347|   12   |
-| tmp2_V_5_0_loc_reg_353|   12   |
-| tmp2_V_6_0_loc_reg_359|   12   |
-| tmp2_V_7_0_loc_reg_365|   12   |
-| tmp2_V_8_0_loc_reg_371|   12   |
-| tmp2_V_9_0_loc_reg_377|   12   |
-+-----------------------+--------+
-|         Total         |   285  |
-+-----------------------+--------+
++------------------------+--------+
+|                        |   FF   |
++------------------------+--------+
+|   input_addr_reg_461   |    9   |
+| tmp1_V_0_0_loc_reg_407 |   12   |
+| tmp1_V_10_0_loc_reg_449|   12   |
+| tmp1_V_11_0_loc_reg_455|   12   |
+|tmp1_V_11_11_loc_reg_395|   12   |
+| tmp1_V_11_4_loc_reg_443|   12   |
+| tmp1_V_11_6_loc_reg_437|   12   |
+| tmp1_V_11_9_loc_reg_401|   12   |
+| tmp1_V_1_0_loc_reg_413 |   12   |
+| tmp1_V_2_0_loc_reg_419 |   12   |
+| tmp1_V_4_0_loc_reg_425 |   12   |
+| tmp1_V_5_0_loc_reg_431 |   12   |
+|    tmp1_V_9_reg_466    |   12   |
+| tmp2_V_0_0_loc_reg_329 |   12   |
+| tmp2_V_10_0_loc_reg_383|   12   |
+| tmp2_V_11_0_loc_reg_389|   12   |
+| tmp2_V_1_0_loc_reg_335 |   12   |
+| tmp2_V_2_0_loc_reg_341 |   12   |
+| tmp2_V_3_0_loc_reg_347 |   12   |
+| tmp2_V_5_0_loc_reg_353 |   12   |
+| tmp2_V_6_0_loc_reg_359 |   12   |
+| tmp2_V_7_0_loc_reg_365 |   12   |
+| tmp2_V_8_0_loc_reg_371 |   12   |
+| tmp2_V_9_0_loc_reg_377 |   12   |
++------------------------+--------+
+|          Total         |   285  |
++------------------------+--------+
 
 * Multiplexer (MUX) list: 
 |-------------------|------|------|------|--------||---------||---------|
@@ -1811,10 +1811,10 @@ N/A
 +-----------+--------+--------+--------+--------+
 |           |   DSP  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |   24   |   62   |  5549  |  4560  |
+|  Function |   24   |   62   |  5558  |  4568  |
 |   Memory  |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    1   |    -   |    9   |
 |  Register |    -   |    -   |   285  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |   24   |   64   |  5834  |  4569  |
+|   Total   |   24   |   64   |  5843  |  4577  |
 +-----------+--------+--------+--------+--------+

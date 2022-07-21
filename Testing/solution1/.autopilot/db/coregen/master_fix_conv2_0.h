@@ -18,7 +18,7 @@ using namespace sc_dt;
 
 struct master_fix_conv2_0_ram : public sc_core::sc_module {
 
-  static const unsigned DataWidth = 36;
+  static const unsigned DataWidth = 35;
   static const unsigned AddressRange = 672;
   static const unsigned AddressWidth = 10;
 
@@ -75,7 +75,7 @@ void prc_write_0()
 SC_MODULE(master_fix_conv2_0) {
 
 
-static const unsigned DataWidth = 36;
+static const unsigned DataWidth = 35;
 static const unsigned AddressRange = 672;
 static const unsigned AddressWidth = 10;
 

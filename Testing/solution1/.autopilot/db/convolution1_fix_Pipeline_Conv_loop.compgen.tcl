@@ -106,7 +106,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -188,7 +188,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -270,7 +270,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -352,7 +352,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -434,7 +434,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -516,7 +516,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -598,7 +598,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -680,7 +680,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -762,7 +762,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -844,7 +844,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -926,7 +926,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1008,7 +1008,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1090,7 +1090,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.5
+set ClkPeriod 10.4
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1234,6 +1234,21 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 66 \
+    name tmp1_V_9 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_tmp1_V_9 \
+    op interface \
+    ports { tmp1_V_9 { I 12 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 67 \
     name tmp1_V_11_4_reload \
     type other \
     dir I \
@@ -1248,7 +1263,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 67 \
+    id 68 \
     name tmp1_V_11_6_reload \
     type other \
     dir I \
@@ -1263,30 +1278,15 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 68 \
-    name tmp1_V_11_8_reload \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_tmp1_V_11_8_reload \
-    op interface \
-    ports { tmp1_V_11_8_reload { I 12 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
     id 69 \
-    name tmp1_V_6 \
+    name tmp1_V_11_9_reload \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_tmp1_V_6 \
+    corename dc_tmp1_V_11_9_reload \
     op interface \
-    ports { tmp1_V_6 { I 12 vector } } \
+    ports { tmp1_V_11_9_reload { I 12 vector } } \
 } "
 }
 
@@ -1324,14 +1324,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 72 \
-    name tmp1_V_3_0_reload \
+    name tmp1_V_11_11_reload \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_tmp1_V_3_0_reload \
+    corename dc_tmp1_V_11_11_reload \
     op interface \
-    ports { tmp1_V_3_0_reload { I 12 vector } } \
+    ports { tmp1_V_11_11_reload { I 12 vector } } \
 } "
 }
 

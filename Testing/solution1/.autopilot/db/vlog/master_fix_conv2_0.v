@@ -5,7 +5,7 @@
 `timescale 1 ns / 1 ps
 module master_fix_conv2_0 (address0, ce0, d0, we0, q0,  reset,clk);
 
-parameter DataWidth = 36;
+parameter DataWidth = 35;
 parameter AddressWidth = 10;
 parameter AddressRange = 672;
 

@@ -12,13 +12,17 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'mux_42_36_1_1' is changed to 'mux_42_36_1_1_x' due to conflict." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:47.356+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:24.348+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:24.274+0100" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 1 to 42 for loop 'VITIS_LOOP_392_2' in function 'master_fix'." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:18.784+0100" type="Warning"/>
-        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-07-19T17:08:13.404+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-19T17:04:34.944+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-19T17:04:29.340+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'mux_42_36_1_1' is changed to 'mux_42_36_1_1_x' due to conflict." projectName="Testing" solutionName="solution1" date="2022-07-21T16:46:40.273+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-21T16:46:04.291+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-21T16:46:04.159+0100" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 1 to 42 for loop 'VITIS_LOOP_445_2' in function 'master_fix'." projectName="Testing" solutionName="solution1" date="2022-07-21T16:45:58.884+0100" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-07-21T16:45:49.095+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-21T16:42:02.634+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'kNum': model_functions.cpp:316:77" projectName="Testing" solutionName="solution1" date="2022-07-21T16:41:55.418+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'mDep': model_functions.cpp:316:47" projectName="Testing" solutionName="solution1" date="2022-07-21T16:41:55.408+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'mCol': model_functions.cpp:316:37" projectName="Testing" solutionName="solution1" date="2022-07-21T16:41:55.398+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'mRow': model_functions.cpp:316:27" projectName="Testing" solutionName="solution1" date="2022-07-21T16:41:55.388+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-21T16:41:55.379+0100" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

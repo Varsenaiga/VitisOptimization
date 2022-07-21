@@ -20,4 +20,4 @@ obj/master.o: ../../../../master.cpp ../../../../parameters.h \
  D:/Xilinx/Vitis_HLS/2021.1/include/ap_int_special.h \
  D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed_ref.h \
  D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed_special.h \
- ../../../../model_functions.h
+ ../../../../model_functions.h ../../../../utils.h

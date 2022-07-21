@@ -1,6 +1,7 @@
 #include "parameters.h"
 #include <ap_fixed.h>
 #include "model_functions.h"
+#include "utils.h"
 
 void master_fix(fix_input input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNELS]) {
 

@@ -9,7 +9,7 @@
   "ResetStyle": "control",
   "Target": {
     "Family": "zynq",
-    "Device": "xc7z010",
+    "Device": "xc7z020",
     "Package": "-clg400",
     "Speed": "-1",
     "Triple": "fpga64-xilinx-none"
@@ -94,13 +94,13 @@
   },
   "ClockInfo": {
     "ClockName": "ap_clk",
-    "ClockPeriod": "10.5",
-    "Uncertainty": "2.835",
+    "ClockPeriod": "10.4",
+    "Uncertainty": "2.808",
     "IsCombinational": "0",
-    "II": "55238 ~ 135366",
-    "Latency": "55237"
+    "II": "25679 ~ 45999",
+    "Latency": "25678"
   },
-  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.500 [get_ports ap_clk]"]},
+  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.400 [get_ports ap_clk]"]},
   "Ipx": {
     "Vendor": "xilinx.com",
     "Library": "hls",
@@ -171,6 +171,7 @@
       "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_176_1_VITIS_LOOP_177_2_VITIS_LOOP_178_3_lbW.vhd",
       "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_176_1_VITIS_LOOP_177_2_VITIS_LOOP_178_3_mb6.vhd",
       "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_176_1_VITIS_LOOP_177_2_VITIS_LOOP_178_3_ncg.vhd",
+      "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_181_1.vhd",
       "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_218_1.vhd",
       "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_221_1.vhd",
       "impl\/vhdl\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_232_2.vhd",
@@ -191,6 +192,41 @@
       "impl\/vhdl\/master_fix_convolution1_fix_tmp2_V.vhd",
       "impl\/vhdl\/master_fix_convolution1_fix_tmp_V.vhd",
       "impl\/vhdl\/master_fix_convolution2_fix.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondBias_f_V.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_0.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_1.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_2.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_3.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_4.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_5.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_6.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_7.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_0.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_1.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_2.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_3.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_4.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_5.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_6.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_7.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_0.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_1.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_2.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_3.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_4.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_5.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_6.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_7.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_0.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_1.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_2.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_3.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_4.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_5.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_6.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_7.vhd",
+      "impl\/vhdl\/master_fix_convolution2_fix_Pipeline_VITIS_LOOP_326_1.vhd",
       "impl\/vhdl\/master_fix_convolution2_fix_secondBias_f_V.vhd",
       "impl\/vhdl\/master_fix_convolution2_fix_secondKernel_f_V_0.vhd",
       "impl\/vhdl\/master_fix_convolution2_fix_secondKernel_f_V_1.vhd",
@@ -240,6 +276,8 @@
       "impl\/vhdl\/master_fix_master_fix_Pipeline_VITIS_LOOP_453_3.vhd",
       "impl\/vhdl\/master_fix_master_fix_Pipeline_VITIS_LOOP_454_3.vhd",
       "impl\/vhdl\/master_fix_master_fix_Pipeline_VITIS_LOOP_456_3.vhd",
+      "impl\/vhdl\/master_fix_master_fix_Pipeline_VITIS_LOOP_498_1.vhd",
+      "impl\/vhdl\/master_fix_master_fix_Pipeline_VITIS_LOOP_509_3.vhd",
       "impl\/vhdl\/master_fix_max1_V_0.vhd",
       "impl\/vhdl\/master_fix_max2_V_0.vhd",
       "impl\/vhdl\/master_fix_mul_7ns_9ns_15_1_1.vhd",
@@ -250,6 +288,7 @@
       "impl\/vhdl\/master_fix_mul_20s_36s_55_1_1.vhd",
       "impl\/vhdl\/master_fix_mul_20s_36s_55_2_1.vhd",
       "impl\/vhdl\/master_fix_mul_21s_32s_51_1_1.vhd",
+      "impl\/vhdl\/master_fix_mul_21s_35ns_55_2_1.vhd",
       "impl\/vhdl\/master_fix_mul_21s_36s_55_1_1.vhd",
       "impl\/vhdl\/master_fix_mul_21s_36s_55_2_1.vhd",
       "impl\/vhdl\/master_fix_mul_32s_18s_49_1_1.vhd",
@@ -258,6 +297,7 @@
       "impl\/vhdl\/master_fix_mul_32s_20s_51_1_1.vhd",
       "impl\/vhdl\/master_fix_mul_36s_12s_36_1_1.vhd",
       "impl\/vhdl\/master_fix_mul_36s_12s_36_2_1.vhd",
+      "impl\/vhdl\/master_fix_mul_36s_36s_55_2_1.vhd",
       "impl\/vhdl\/master_fix_mul_44ns_42ns_86_1_1.vhd",
       "impl\/vhdl\/master_fix_mul_50ns_48ns_98_1_1.vhd",
       "impl\/vhdl\/master_fix_mul_50ns_50ns_100_1_1.vhd",
@@ -269,6 +309,8 @@
       "impl\/vhdl\/master_fix_mux_42_64_1_1.vhd",
       "impl\/vhdl\/master_fix_mux_124_12_1_1.vhd",
       "impl\/vhdl\/master_fix_mux_164_12_1_1.vhd",
+      "impl\/vhdl\/master_fix_mux_164_36_1_1.vhd",
+      "impl\/vhdl\/master_fix_mux_325_36_1_1.vhd",
       "impl\/vhdl\/master_fix_sdiv_51ns_32s_32_55_1.vhd",
       "impl\/vhdl\/master_fix_secondDense_f_V.vhd",
       "impl\/vhdl\/master_fix_thirdBias_f_V.vhd",
@@ -371,6 +413,7 @@
       "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_176_1_VITIS_LOOP_177_2_VITIS_LOOP_178_3_mb6.v",
       "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_176_1_VITIS_LOOP_177_2_VITIS_LOOP_178_3_ncg.dat",
       "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_176_1_VITIS_LOOP_177_2_VITIS_LOOP_178_3_ncg.v",
+      "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_181_1.v",
       "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_218_1.v",
       "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_221_1.v",
       "impl\/verilog\/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_232_2.v",
@@ -404,6 +447,74 @@
       "impl\/verilog\/master_fix_convolution1_fix_tmp2_V.v",
       "impl\/verilog\/master_fix_convolution1_fix_tmp_V.v",
       "impl\/verilog\/master_fix_convolution2_fix.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondBias_f_V.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondBias_f_V.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_0.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_0.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_1.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_1.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_2.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_2.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_3.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_3.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_4.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_4.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_5.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_5.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_6.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_6.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_7.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_7.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_0.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_0.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_1.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_1.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_2.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_2.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_3.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_3.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_4.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_4.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_5.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_5.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_6.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_6.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_7.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_7.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_0.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_0.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_1.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_1.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_2.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_2.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_3.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_3.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_4.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_4.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_5.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_5.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_6.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_6.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_7.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_7.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_0.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_0.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_1.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_1.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_2.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_2.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_3.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_3.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_4.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_4.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_5.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_5.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_6.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_6.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_7.dat",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_7.v",
+      "impl\/verilog\/master_fix_convolution2_fix_Pipeline_VITIS_LOOP_326_1.v",
       "impl\/verilog\/master_fix_convolution2_fix_secondBias_f_V.dat",
       "impl\/verilog\/master_fix_convolution2_fix_secondBias_f_V.v",
       "impl\/verilog\/master_fix_convolution2_fix_secondKernel_f_V_0.dat",
@@ -466,6 +577,8 @@
       "impl\/verilog\/master_fix_master_fix_Pipeline_VITIS_LOOP_453_3.v",
       "impl\/verilog\/master_fix_master_fix_Pipeline_VITIS_LOOP_454_3.v",
       "impl\/verilog\/master_fix_master_fix_Pipeline_VITIS_LOOP_456_3.v",
+      "impl\/verilog\/master_fix_master_fix_Pipeline_VITIS_LOOP_498_1.v",
+      "impl\/verilog\/master_fix_master_fix_Pipeline_VITIS_LOOP_509_3.v",
       "impl\/verilog\/master_fix_max1_V_0.v",
       "impl\/verilog\/master_fix_max2_V_0.v",
       "impl\/verilog\/master_fix_mul_7ns_9ns_15_1_1.v",
@@ -476,6 +589,7 @@
       "impl\/verilog\/master_fix_mul_20s_36s_55_1_1.v",
       "impl\/verilog\/master_fix_mul_20s_36s_55_2_1.v",
       "impl\/verilog\/master_fix_mul_21s_32s_51_1_1.v",
+      "impl\/verilog\/master_fix_mul_21s_35ns_55_2_1.v",
       "impl\/verilog\/master_fix_mul_21s_36s_55_1_1.v",
       "impl\/verilog\/master_fix_mul_21s_36s_55_2_1.v",
       "impl\/verilog\/master_fix_mul_32s_18s_49_1_1.v",
@@ -484,6 +598,7 @@
       "impl\/verilog\/master_fix_mul_32s_20s_51_1_1.v",
       "impl\/verilog\/master_fix_mul_36s_12s_36_1_1.v",
       "impl\/verilog\/master_fix_mul_36s_12s_36_2_1.v",
+      "impl\/verilog\/master_fix_mul_36s_36s_55_2_1.v",
       "impl\/verilog\/master_fix_mul_44ns_42ns_86_1_1.v",
       "impl\/verilog\/master_fix_mul_50ns_48ns_98_1_1.v",
       "impl\/verilog\/master_fix_mul_50ns_50ns_100_1_1.v",
@@ -495,6 +610,8 @@
       "impl\/verilog\/master_fix_mux_42_64_1_1.v",
       "impl\/verilog\/master_fix_mux_124_12_1_1.v",
       "impl\/verilog\/master_fix_mux_164_12_1_1.v",
+      "impl\/verilog\/master_fix_mux_164_36_1_1.v",
+      "impl\/verilog\/master_fix_mux_325_36_1_1.v",
       "impl\/verilog\/master_fix_sdiv_51ns_32s_32_55_1.v",
       "impl\/verilog\/master_fix_secondDense_f_V.dat",
       "impl\/verilog\/master_fix_secondDense_f_V.v",
@@ -738,11 +855,11 @@
       "Instances": [
         {
           "ModuleName": "convolution1_fix",
-          "InstanceName": "grp_convolution1_fix_fu_564",
+          "InstanceName": "grp_convolution1_fix_fu_620",
           "Instances": [
             {
-              "ModuleName": "convolution1_fix_Pipeline_VITIS_LOOP_221_1",
-              "InstanceName": "grp_convolution1_fix_Pipeline_VITIS_LOOP_221_1_fu_152"
+              "ModuleName": "convolution1_fix_Pipeline_VITIS_LOOP_181_1",
+              "InstanceName": "grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152"
             },
             {
               "ModuleName": "convolution1_fix_Pipeline_Conv_loop",
@@ -752,20 +869,30 @@
         },
         {
           "ModuleName": "convolution2_fix",
-          "InstanceName": "grp_convolution2_fix_fu_598"
+          "InstanceName": "grp_convolution2_fix_fu_654",
+          "Instances": [
+            {
+              "ModuleName": "convolution2_fix_Pipeline_VITIS_LOOP_326_1",
+              "InstanceName": "grp_convolution2_fix_Pipeline_VITIS_LOOP_326_1_fu_268"
+            },
+            {
+              "ModuleName": "convolution2_fix_Pipeline_Conv_loop",
+              "InstanceName": "grp_convolution2_fix_Pipeline_Conv_loop_fu_322"
+            }
+          ]
         },
         {
-          "ModuleName": "master_fix_Pipeline_VITIS_LOOP_445_1",
-          "InstanceName": "grp_master_fix_Pipeline_VITIS_LOOP_445_1_fu_614"
+          "ModuleName": "master_fix_Pipeline_VITIS_LOOP_498_1",
+          "InstanceName": "grp_master_fix_Pipeline_VITIS_LOOP_498_1_fu_726"
         },
         {
-          "ModuleName": "master_fix_Pipeline_VITIS_LOOP_456_3",
-          "InstanceName": "grp_master_fix_Pipeline_VITIS_LOOP_456_3_fu_626"
+          "ModuleName": "master_fix_Pipeline_VITIS_LOOP_509_3",
+          "InstanceName": "grp_master_fix_Pipeline_VITIS_LOOP_509_3_fu_738"
         }
       ]
     },
     "Info": {
-      "convolution1_fix_Pipeline_VITIS_LOOP_221_1": {
+      "convolution1_fix_Pipeline_VITIS_LOOP_181_1": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
@@ -786,6 +913,20 @@
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
+      "convolution2_fix_Pipeline_VITIS_LOOP_326_1": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "convolution2_fix_Pipeline_Conv_loop": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
       "convolution2_fix": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
@@ -793,14 +934,14 @@
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "master_fix_Pipeline_VITIS_LOOP_445_1": {
+      "master_fix_Pipeline_VITIS_LOOP_498_1": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "master_fix_Pipeline_VITIS_LOOP_456_3": {
+      "master_fix_Pipeline_VITIS_LOOP_509_3": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
@@ -816,7 +957,7 @@
       }
     },
     "Metrics": {
-      "convolution1_fix_Pipeline_VITIS_LOOP_221_1": {
+      "convolution1_fix_Pipeline_VITIS_LOOP_181_1": {
         "Latency": {
           "LatencyBest": "9",
           "LatencyAvg": "9",
@@ -826,12 +967,12 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
+          "Target": "10.40",
+          "Uncertainty": "2.81",
           "Estimate": "6.952"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_221_1",
+            "Name": "VITIS_LOOP_181_1",
             "TripCount": "6",
             "Latency": "7",
             "PipelineII": "1",
@@ -839,16 +980,16 @@
           }],
         "Area": {
           "FF": "297",
-          "AVAIL_FF": "35200",
+          "AVAIL_FF": "106400",
           "UTIL_FF": "~0",
-          "LUT": "1244",
-          "AVAIL_LUT": "17600",
-          "UTIL_LUT": "7",
+          "LUT": "1220",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "2",
           "BRAM_18K": "0",
-          "AVAIL_BRAM": "120",
+          "AVAIL_BRAM": "280",
           "UTIL_BRAM": "0",
           "DSP": "0",
-          "AVAIL_DSP": "80",
+          "AVAIL_DSP": "220",
           "UTIL_DSP": "0",
           "URAM": "0",
           "AVAIL_URAM": "0",
@@ -865,8 +1006,8 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
+          "Target": "10.40",
+          "Uncertainty": "2.81",
           "Estimate": "7.561"
         },
         "Loops": [{
@@ -878,17 +1019,17 @@
           }],
         "Area": {
           "BRAM_18K": "0",
-          "AVAIL_BRAM": "120",
+          "AVAIL_BRAM": "280",
           "UTIL_BRAM": "0",
           "DSP": "24",
-          "AVAIL_DSP": "80",
-          "UTIL_DSP": "30",
-          "FF": "5217",
-          "AVAIL_FF": "35200",
-          "UTIL_FF": "14",
-          "LUT": "3639",
-          "AVAIL_LUT": "17600",
-          "UTIL_LUT": "20",
+          "AVAIL_DSP": "220",
+          "UTIL_DSP": "10",
+          "FF": "5226",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "4",
+          "LUT": "3671",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "6",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -904,23 +1045,101 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
+          "Target": "10.40",
+          "Uncertainty": "2.81",
           "Estimate": "7.561"
         },
         "Area": {
           "BRAM_18K": "0",
-          "AVAIL_BRAM": "120",
+          "AVAIL_BRAM": "280",
           "UTIL_BRAM": "0",
           "DSP": "24",
-          "AVAIL_DSP": "80",
-          "UTIL_DSP": "30",
-          "FF": "5534",
-          "AVAIL_FF": "35200",
-          "UTIL_FF": "15",
-          "LUT": "4960",
-          "AVAIL_LUT": "17600",
-          "UTIL_LUT": "28",
+          "AVAIL_DSP": "220",
+          "UTIL_DSP": "10",
+          "FF": "5543",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "5",
+          "LUT": "4968",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "9",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "convolution2_fix_Pipeline_VITIS_LOOP_326_1": {
+        "Latency": {
+          "LatencyBest": "18",
+          "LatencyAvg": "18",
+          "LatencyWorst": "18",
+          "PipelineII": "18",
+          "PipelineDepth": "",
+          "PipelineType": "no"
+        },
+        "Timing": {
+          "Target": "10.40",
+          "Uncertainty": "2.81",
+          "Estimate": "6.136"
+        },
+        "Loops": [{
+            "Name": "VITIS_LOOP_326_1",
+            "TripCount": "16",
+            "Latency": "16",
+            "PipelineII": "1",
+            "PipelineDepth": "2"
+          }],
+        "Area": {
+          "FF": "1756",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "1",
+          "LUT": "4054",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "7",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "280",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "220",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "convolution2_fix_Pipeline_Conv_loop": {
+        "Latency": {
+          "LatencyBest": "709",
+          "LatencyAvg": "709",
+          "LatencyWorst": "709",
+          "PipelineII": "709",
+          "PipelineDepth": "",
+          "PipelineType": "no"
+        },
+        "Timing": {
+          "Target": "10.40",
+          "Uncertainty": "2.81",
+          "Estimate": "7.473"
+        },
+        "Loops": [{
+            "Name": "Conv_loop",
+            "TripCount": "672",
+            "Latency": "707",
+            "PipelineII": "1",
+            "PipelineDepth": "37"
+          }],
+        "Area": {
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "280",
+          "UTIL_BRAM": "0",
+          "DSP": "128",
+          "AVAIL_DSP": "220",
+          "UTIL_DSP": "58",
+          "FF": "17616",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "16",
+          "LUT": "10116",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "19",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -928,91 +1147,37 @@
       },
       "convolution2_fix": {
         "Latency": {
-          "LatencyBest": "30289",
-          "LatencyAvg": "63889",
-          "LatencyWorst": "90097",
-          "PipelineIIMin": "30289",
-          "PipelineIIMax": "90097",
-          "PipelineII": "30289 ~ 90097",
+          "LatencyBest": "730",
+          "LatencyAvg": "730",
+          "LatencyWorst": "730",
+          "PipelineII": "730",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
-          "Estimate": "6.912"
+          "Target": "10.40",
+          "Uncertainty": "2.81",
+          "Estimate": "7.473"
         },
-        "Loops": [{
-            "Name": "VITIS_LOOP_332_1",
-            "TripCount": "16",
-            "LatencyMin": "30288",
-            "LatencyMax": "90096",
-            "Latency": "30288 ~ 90096",
-            "PipelineII": "",
-            "PipelineDepthMin": "1893",
-            "PipelineDepthMax": "5631",
-            "PipelineDepth": "1893 ~ 5631",
-            "Loops": [{
-                "Name": "VITIS_LOOP_334_2",
-                "TripCount": "42",
-                "LatencyMin": "1890",
-                "LatencyMax": "5628",
-                "Latency": "1890 ~ 5628",
-                "PipelineII": "",
-                "PipelineDepthMin": "45",
-                "PipelineDepthMax": "134",
-                "PipelineDepth": "45 ~ 134",
-                "Loops": [
-                  {
-                    "Name": "VITIS_LOOP_340_4",
-                    "TripCount": "8",
-                    "Latency": "40",
-                    "PipelineII": "",
-                    "PipelineDepth": "5"
-                  },
-                  {
-                    "Name": "VITIS_LOOP_345_5",
-                    "TripCount": "8",
-                    "Latency": "40",
-                    "PipelineII": "",
-                    "PipelineDepth": "5"
-                  },
-                  {
-                    "Name": "VITIS_LOOP_350_6",
-                    "TripCount": "8",
-                    "Latency": "48",
-                    "PipelineII": "",
-                    "PipelineDepth": "6"
-                  },
-                  {
-                    "Name": "VITIS_LOOP_354_7",
-                    "TripCount": "8",
-                    "Latency": "40",
-                    "PipelineII": "",
-                    "PipelineDepth": "5"
-                  }
-                ]
-              }]
-          }],
         "Area": {
-          "BRAM_18K": "4",
-          "AVAIL_BRAM": "120",
-          "UTIL_BRAM": "3",
-          "DSP": "8",
-          "AVAIL_DSP": "80",
-          "UTIL_DSP": "10",
-          "FF": "1784",
-          "AVAIL_FF": "35200",
-          "UTIL_FF": "5",
-          "LUT": "1579",
-          "AVAIL_LUT": "17600",
-          "UTIL_LUT": "8",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "280",
+          "UTIL_BRAM": "0",
+          "DSP": "128",
+          "AVAIL_DSP": "220",
+          "UTIL_DSP": "58",
+          "FF": "19378",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "18",
+          "LUT": "14358",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "26",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
         }
       },
-      "master_fix_Pipeline_VITIS_LOOP_445_1": {
+      "master_fix_Pipeline_VITIS_LOOP_498_1": {
         "Latency": {
           "LatencyBest": "9",
           "LatencyAvg": "9",
@@ -1022,12 +1187,12 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
+          "Target": "10.40",
+          "Uncertainty": "2.81",
           "Estimate": "7.574"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_445_1",
+            "Name": "VITIS_LOOP_498_1",
             "TripCount": "4",
             "Latency": "7",
             "PipelineII": "1",
@@ -1035,23 +1200,23 @@
           }],
         "Area": {
           "FF": "853",
-          "AVAIL_FF": "35200",
-          "UTIL_FF": "2",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "~0",
           "LUT": "1883",
-          "AVAIL_LUT": "17600",
-          "UTIL_LUT": "10",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "3",
           "BRAM_18K": "0",
-          "AVAIL_BRAM": "120",
+          "AVAIL_BRAM": "280",
           "UTIL_BRAM": "0",
           "DSP": "0",
-          "AVAIL_DSP": "80",
+          "AVAIL_DSP": "220",
           "UTIL_DSP": "0",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
         }
       },
-      "master_fix_Pipeline_VITIS_LOOP_456_3": {
+      "master_fix_Pipeline_VITIS_LOOP_509_3": {
         "Latency": {
           "LatencyBest": "84",
           "LatencyAvg": "84",
@@ -1061,12 +1226,12 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
+          "Target": "10.40",
+          "Uncertainty": "2.81",
           "Estimate": "7.524"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_456_3",
+            "Name": "VITIS_LOOP_509_3",
             "TripCount": "4",
             "Latency": "82",
             "PipelineII": "1",
@@ -1074,16 +1239,16 @@
           }],
         "Area": {
           "FF": "421",
-          "AVAIL_FF": "35200",
-          "UTIL_FF": "1",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "~0",
           "LUT": "110",
-          "AVAIL_LUT": "17600",
+          "AVAIL_LUT": "53200",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
-          "AVAIL_BRAM": "120",
+          "AVAIL_BRAM": "280",
           "UTIL_BRAM": "0",
           "DSP": "0",
-          "AVAIL_DSP": "80",
+          "AVAIL_DSP": "220",
           "UTIL_DSP": "0",
           "URAM": "0",
           "AVAIL_URAM": "0",
@@ -1092,23 +1257,23 @@
       },
       "master_fix": {
         "Latency": {
-          "LatencyBest": "55237",
-          "LatencyAvg": "98917",
-          "LatencyWorst": "135365",
-          "PipelineIIMin": "55238",
-          "PipelineIIMax": "135366",
-          "PipelineII": "55238 ~ 135366",
+          "LatencyBest": "25678",
+          "LatencyAvg": "35758",
+          "LatencyWorst": "45998",
+          "PipelineIIMin": "25679",
+          "PipelineIIMax": "45999",
+          "PipelineII": "25679 ~ 45999",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.50",
-          "Uncertainty": "2.84",
+          "Target": "10.40",
+          "Uncertainty": "2.81",
           "Estimate": "7.574"
         },
         "Loops": [
           {
-            "Name": "VITIS_LOOP_369_1",
+            "Name": "VITIS_LOOP_422_1",
             "TripCount": "8",
             "LatencyMin": "176",
             "LatencyMax": "20496",
@@ -1118,7 +1283,7 @@
             "PipelineDepthMax": "2562",
             "PipelineDepth": "22 ~ 2562",
             "Loops": [{
-                "Name": "VITIS_LOOP_371_2",
+                "Name": "VITIS_LOOP_424_2",
                 "TripCount": "",
                 "LatencyMin": "20",
                 "LatencyMax": "2560",
@@ -1126,7 +1291,7 @@
                 "PipelineII": "",
                 "PipelineDepth": "20",
                 "Loops": [{
-                    "Name": "VITIS_LOOP_377_3",
+                    "Name": "VITIS_LOOP_430_3",
                     "TripCount": "3",
                     "Latency": "6",
                     "PipelineII": "",
@@ -1135,13 +1300,13 @@
               }]
           },
           {
-            "Name": "VITIS_LOOP_390_1",
+            "Name": "VITIS_LOOP_443_1",
             "TripCount": "16",
             "Latency": "2720",
             "PipelineII": "",
             "PipelineDepth": "170",
             "Loops": [{
-                "Name": "VITIS_LOOP_392_2",
+                "Name": "VITIS_LOOP_445_2",
                 "TripCount": "42",
                 "Latency": "168",
                 "PipelineII": "",
@@ -1149,19 +1314,19 @@
               }]
           },
           {
-            "Name": "VITIS_LOOP_411_1",
+            "Name": "VITIS_LOOP_464_1",
             "TripCount": "16",
             "Latency": "18416",
             "PipelineII": "",
             "PipelineDepth": "1151",
             "Loops": [{
-                "Name": "VITIS_LOOP_414_2",
+                "Name": "VITIS_LOOP_467_2",
                 "TripCount": "14",
                 "Latency": "1148",
                 "PipelineII": "",
                 "PipelineDepth": "82",
                 "Loops": [{
-                    "Name": "VITIS_LOOP_418_4",
+                    "Name": "VITIS_LOOP_471_4",
                     "TripCount": "16",
                     "Latency": "80",
                     "PipelineII": "",
@@ -1170,13 +1335,13 @@
               }]
           },
           {
-            "Name": "VITIS_LOOP_432_1",
+            "Name": "VITIS_LOOP_485_1",
             "TripCount": "4",
             "Latency": "328",
             "PipelineII": "",
             "PipelineDepth": "82",
             "Loops": [{
-                "Name": "VITIS_LOOP_435_2",
+                "Name": "VITIS_LOOP_488_2",
                 "TripCount": "16",
                 "Latency": "80",
                 "PipelineII": "",
@@ -1184,7 +1349,7 @@
               }]
           },
           {
-            "Name": "VITIS_LOOP_451_2",
+            "Name": "VITIS_LOOP_504_2",
             "TripCount": "4",
             "Latency": "108",
             "PipelineII": "",
@@ -1192,18 +1357,18 @@
           }
         ],
         "Area": {
-          "BRAM_18K": "24",
-          "AVAIL_BRAM": "120",
-          "UTIL_BRAM": "20",
-          "DSP": "65",
-          "AVAIL_DSP": "80",
-          "UTIL_DSP": "81",
-          "FF": "12542",
-          "AVAIL_FF": "35200",
-          "UTIL_FF": "35",
-          "LUT": "14149",
-          "AVAIL_LUT": "17600",
-          "UTIL_LUT": "80",
+          "BRAM_18K": "48",
+          "AVAIL_BRAM": "280",
+          "UTIL_BRAM": "17",
+          "DSP": "185",
+          "AVAIL_DSP": "220",
+          "UTIL_DSP": "84",
+          "FF": "30128",
+          "AVAIL_FF": "106400",
+          "UTIL_FF": "28",
+          "LUT": "27008",
+          "AVAIL_LUT": "53200",
+          "UTIL_LUT": "50",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -1214,7 +1379,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2022-07-19 17:08:56 +0100",
+    "Time": "2022-07-21 16:46:56 +0100",
     "ToolName": "vitis_hls",
     "ToolVersion": "2021.1"
   }
