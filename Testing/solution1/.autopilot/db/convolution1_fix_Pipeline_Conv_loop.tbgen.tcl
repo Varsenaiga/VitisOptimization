@@ -36,7 +36,7 @@ set C_modelArgList {
 	{ tmp2_V_1_0_reload int 12 regular  }
 	{ tmp2_V_0_0_reload int 12 regular  }
 	{ input_r int 16 regular {array 384 { 1 3 } 1 1 }  }
-	{ out_r int 35 regular {array 3072 { 0 3 } 0 1 }  }
+	{ out_r int 35 regular {array 3072 { 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 } 0 1 }  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "tmp1_V_11_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 

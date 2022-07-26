@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix'" level="0">
-<item name = "Date">Thu Jul 21 16:46:20 2022
+<item name = "Date">Tue Jul 26 15:14:44 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">25678, 45998, 0.267 ms, 0.478 ms, 25679, 45999, no</column>
+<column name="">26526, 26526, 0.276 ms, 0.276 ms, 26527, 26527, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,17 +35,14 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_422_1">176, 20496, 22 ~ 2562, -, -, 8, no</column>
-<column name=" + VITIS_LOOP_424_2">20, 2560, 20, -, -, 1 ~ 128, no</column>
-<column name="  ++ VITIS_LOOP_430_3">6, 6, 2, -, -, 3, no</column>
-<column name="- VITIS_LOOP_443_1">2720, 2720, 170, -, -, 16, no</column>
-<column name=" + VITIS_LOOP_445_2">168, 168, 4, -, -, 42, no</column>
-<column name="- VITIS_LOOP_464_1">18416, 18416, 1151, -, -, 16, no</column>
-<column name=" + VITIS_LOOP_467_2">1148, 1148, 82, -, -, 14, no</column>
-<column name="  ++ VITIS_LOOP_471_4">80, 80, 5, -, -, 16, no</column>
-<column name="- VITIS_LOOP_485_1">328, 328, 82, -, -, 4, no</column>
-<column name=" + VITIS_LOOP_488_2">80, 80, 5, -, -, 16, no</column>
-<column name="- VITIS_LOOP_504_2">108, 108, 27, -, -, 4, no</column>
+<column name="- VITIS_LOOP_321_1">2720, 2720, 170, -, -, 16, no</column>
+<column name=" + VITIS_LOOP_323_2">168, 168, 4, -, -, 42, no</column>
+<column name="- VITIS_LOOP_342_1">18416, 18416, 1151, -, -, 16, no</column>
+<column name=" + VITIS_LOOP_345_2">1148, 1148, 82, -, -, 14, no</column>
+<column name="  ++ VITIS_LOOP_349_4">80, 80, 5, -, -, 16, no</column>
+<column name="- VITIS_LOOP_363_1">328, 328, 82, -, -, 4, no</column>
+<column name=" + VITIS_LOOP_366_2">80, 80, 5, -, -, 16, no</column>
+<column name="- VITIS_LOOP_382_2">108, 108, 27, -, -, 4, no</column>
 </table>
 </item>
 </section>

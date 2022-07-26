@@ -7,7 +7,7 @@
 #include "file.h"
 
 #define FIXED 1		// 0 -> FLOATING POINT; 1 -> FIXED POINT
-#define TESTING 0		// 0 -> NOT TESTING; 1 -> TESTING
+#define TESTING 1		// 0 -> NOT TESTING; 1 -> TESTING
 
 int main() {
 

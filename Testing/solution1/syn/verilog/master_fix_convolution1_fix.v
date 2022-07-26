@@ -56,56 +56,56 @@ wire    ap_CS_fsm_state3;
 wire   [11:0] tmp1_V_9_fu_237_p1;
 reg   [11:0] tmp1_V_9_reg_466;
 wire    ap_CS_fsm_state4;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_done;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_idle;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_ready;
-wire   [8:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_input_r_address0;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_input_r_ce0;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_10_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_10_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_4_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_4_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_6_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_6_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_5_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_5_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_4_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_4_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_2_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_2_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_1_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_1_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_0_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_0_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_9_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_9_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_11_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_11_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_11_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_11_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_10_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_10_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_9_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_9_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_8_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_8_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_7_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_7_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_6_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_6_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_5_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_5_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_3_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_3_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_2_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_2_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_1_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_1_0_out_ap_vld;
-wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_0_0_out;
-wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_0_0_out_ap_vld;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_done;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_idle;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_ready;
+wire   [8:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_input_r_address0;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_input_r_ce0;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_10_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_10_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_4_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_4_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_6_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_6_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_5_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_5_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_4_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_4_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_2_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_2_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_1_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_1_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_0_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_0_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_9_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_9_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_11_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_11_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_11_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_11_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_10_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_10_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_9_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_9_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_8_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_8_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_7_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_7_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_6_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_6_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_5_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_5_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_3_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_3_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_2_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_2_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_1_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_1_0_out_ap_vld;
+wire   [11:0] grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_0_0_out;
+wire    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_0_0_out_ap_vld;
 wire    grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start;
 wire    grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_done;
 wire    grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_idle;
@@ -116,7 +116,7 @@ wire   [11:0] grp_convolution1_fix_Pipeline_Conv_loop_fu_180_out_r_address0;
 wire    grp_convolution1_fix_Pipeline_Conv_loop_fu_180_out_r_ce0;
 wire    grp_convolution1_fix_Pipeline_Conv_loop_fu_180_out_r_we0;
 wire   [34:0] grp_convolution1_fix_Pipeline_Conv_loop_fu_180_out_r_d0;
-reg    grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg;
+reg    grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg;
 wire    ap_CS_fsm_state2;
 reg    grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start_reg;
 wire    ap_CS_fsm_state5;
@@ -133,64 +133,64 @@ wire    ap_ce_reg;
 // power-on initialization
 initial begin
 #0 ap_CS_fsm = 6'd1;
-#0 grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg = 1'b0;
+#0 grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg = 1'b0;
 #0 grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start_reg = 1'b0;
 end
 
-master_fix_convolution1_fix_Pipeline_VITIS_LOOP_181_1 grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152(
+master_fix_convolution1_fix_Pipeline_VITIS_LOOP_107_1 grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152(
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
-    .ap_start(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start),
-    .ap_done(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_done),
-    .ap_idle(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_idle),
-    .ap_ready(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_ready),
-    .input_r_address0(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_input_r_address0),
-    .input_r_ce0(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_input_r_ce0),
+    .ap_start(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start),
+    .ap_done(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_done),
+    .ap_idle(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_idle),
+    .ap_ready(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_ready),
+    .input_r_address0(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_input_r_address0),
+    .input_r_ce0(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_input_r_ce0),
     .input_r_q0(input_r_q0),
-    .tmp1_V_11_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_0_out),
-    .tmp1_V_11_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_0_out_ap_vld),
-    .tmp1_V_10_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_10_0_out),
-    .tmp1_V_10_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_10_0_out_ap_vld),
-    .tmp1_V_11_4_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_4_out),
-    .tmp1_V_11_4_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_4_out_ap_vld),
-    .tmp1_V_11_6_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_6_out),
-    .tmp1_V_11_6_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_6_out_ap_vld),
-    .tmp1_V_5_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_5_0_out),
-    .tmp1_V_5_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_5_0_out_ap_vld),
-    .tmp1_V_4_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_4_0_out),
-    .tmp1_V_4_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_4_0_out_ap_vld),
-    .tmp1_V_2_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_2_0_out),
-    .tmp1_V_2_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_2_0_out_ap_vld),
-    .tmp1_V_1_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_1_0_out),
-    .tmp1_V_1_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_1_0_out_ap_vld),
-    .tmp1_V_0_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_0_0_out),
-    .tmp1_V_0_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_0_0_out_ap_vld),
-    .tmp1_V_11_9_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_9_out),
-    .tmp1_V_11_9_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_9_out_ap_vld),
-    .tmp1_V_11_11_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_11_out),
-    .tmp1_V_11_11_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_11_out_ap_vld),
-    .tmp2_V_11_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_11_0_out),
-    .tmp2_V_11_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_11_0_out_ap_vld),
-    .tmp2_V_10_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_10_0_out),
-    .tmp2_V_10_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_10_0_out_ap_vld),
-    .tmp2_V_9_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_9_0_out),
-    .tmp2_V_9_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_9_0_out_ap_vld),
-    .tmp2_V_8_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_8_0_out),
-    .tmp2_V_8_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_8_0_out_ap_vld),
-    .tmp2_V_7_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_7_0_out),
-    .tmp2_V_7_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_7_0_out_ap_vld),
-    .tmp2_V_6_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_6_0_out),
-    .tmp2_V_6_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_6_0_out_ap_vld),
-    .tmp2_V_5_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_5_0_out),
-    .tmp2_V_5_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_5_0_out_ap_vld),
-    .tmp2_V_3_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_3_0_out),
-    .tmp2_V_3_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_3_0_out_ap_vld),
-    .tmp2_V_2_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_2_0_out),
-    .tmp2_V_2_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_2_0_out_ap_vld),
-    .tmp2_V_1_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_1_0_out),
-    .tmp2_V_1_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_1_0_out_ap_vld),
-    .tmp2_V_0_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_0_0_out),
-    .tmp2_V_0_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_0_0_out_ap_vld)
+    .tmp1_V_11_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_0_out),
+    .tmp1_V_11_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_0_out_ap_vld),
+    .tmp1_V_10_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_10_0_out),
+    .tmp1_V_10_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_10_0_out_ap_vld),
+    .tmp1_V_11_4_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_4_out),
+    .tmp1_V_11_4_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_4_out_ap_vld),
+    .tmp1_V_11_6_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_6_out),
+    .tmp1_V_11_6_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_6_out_ap_vld),
+    .tmp1_V_5_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_5_0_out),
+    .tmp1_V_5_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_5_0_out_ap_vld),
+    .tmp1_V_4_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_4_0_out),
+    .tmp1_V_4_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_4_0_out_ap_vld),
+    .tmp1_V_2_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_2_0_out),
+    .tmp1_V_2_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_2_0_out_ap_vld),
+    .tmp1_V_1_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_1_0_out),
+    .tmp1_V_1_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_1_0_out_ap_vld),
+    .tmp1_V_0_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_0_0_out),
+    .tmp1_V_0_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_0_0_out_ap_vld),
+    .tmp1_V_11_9_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_9_out),
+    .tmp1_V_11_9_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_9_out_ap_vld),
+    .tmp1_V_11_11_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_11_out),
+    .tmp1_V_11_11_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_11_out_ap_vld),
+    .tmp2_V_11_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_11_0_out),
+    .tmp2_V_11_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_11_0_out_ap_vld),
+    .tmp2_V_10_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_10_0_out),
+    .tmp2_V_10_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_10_0_out_ap_vld),
+    .tmp2_V_9_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_9_0_out),
+    .tmp2_V_9_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_9_0_out_ap_vld),
+    .tmp2_V_8_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_8_0_out),
+    .tmp2_V_8_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_8_0_out_ap_vld),
+    .tmp2_V_7_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_7_0_out),
+    .tmp2_V_7_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_7_0_out_ap_vld),
+    .tmp2_V_6_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_6_0_out),
+    .tmp2_V_6_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_6_0_out_ap_vld),
+    .tmp2_V_5_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_5_0_out),
+    .tmp2_V_5_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_5_0_out_ap_vld),
+    .tmp2_V_3_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_3_0_out),
+    .tmp2_V_3_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_3_0_out_ap_vld),
+    .tmp2_V_2_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_2_0_out),
+    .tmp2_V_2_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_2_0_out_ap_vld),
+    .tmp2_V_1_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_1_0_out),
+    .tmp2_V_1_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_1_0_out_ap_vld),
+    .tmp2_V_0_0_out(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_0_0_out),
+    .tmp2_V_0_0_out_ap_vld(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_0_0_out_ap_vld)
 );
 
 master_fix_convolution1_fix_Pipeline_Conv_loop grp_convolution1_fix_Pipeline_Conv_loop_fu_180(
@@ -200,29 +200,29 @@ master_fix_convolution1_fix_Pipeline_Conv_loop grp_convolution1_fix_Pipeline_Con
     .ap_done(grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_done),
     .ap_idle(grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_idle),
     .ap_ready(grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_ready),
-    .tmp1_V_11_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_0_out),
-    .tmp1_V_10_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_10_0_out),
+    .tmp1_V_11_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_0_out),
+    .tmp1_V_10_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_10_0_out),
     .tmp1_V_9(tmp1_V_9_reg_466),
-    .tmp1_V_11_4_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_4_out),
-    .tmp1_V_11_6_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_6_out),
-    .tmp1_V_11_9_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_9_out),
-    .tmp1_V_5_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_5_0_out),
-    .tmp1_V_4_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_4_0_out),
-    .tmp1_V_11_11_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_11_11_out),
-    .tmp1_V_2_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_2_0_out),
-    .tmp1_V_1_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_1_0_out),
-    .tmp1_V_0_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp1_V_0_0_out),
-    .tmp2_V_11_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_11_0_out),
-    .tmp2_V_10_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_10_0_out),
-    .tmp2_V_9_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_9_0_out),
-    .tmp2_V_8_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_8_0_out),
-    .tmp2_V_7_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_7_0_out),
-    .tmp2_V_6_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_6_0_out),
-    .tmp2_V_5_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_5_0_out),
-    .tmp2_V_3_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_3_0_out),
-    .tmp2_V_2_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_2_0_out),
-    .tmp2_V_1_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_1_0_out),
-    .tmp2_V_0_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_tmp2_V_0_0_out),
+    .tmp1_V_11_4_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_4_out),
+    .tmp1_V_11_6_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_6_out),
+    .tmp1_V_11_9_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_9_out),
+    .tmp1_V_5_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_5_0_out),
+    .tmp1_V_4_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_4_0_out),
+    .tmp1_V_11_11_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_11_11_out),
+    .tmp1_V_2_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_2_0_out),
+    .tmp1_V_1_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_1_0_out),
+    .tmp1_V_0_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp1_V_0_0_out),
+    .tmp2_V_11_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_11_0_out),
+    .tmp2_V_10_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_10_0_out),
+    .tmp2_V_9_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_9_0_out),
+    .tmp2_V_8_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_8_0_out),
+    .tmp2_V_7_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_7_0_out),
+    .tmp2_V_6_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_6_0_out),
+    .tmp2_V_5_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_5_0_out),
+    .tmp2_V_3_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_3_0_out),
+    .tmp2_V_2_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_2_0_out),
+    .tmp2_V_1_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_1_0_out),
+    .tmp2_V_0_0_reload(grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_tmp2_V_0_0_out),
     .input_r_address0(grp_convolution1_fix_Pipeline_Conv_loop_fu_180_input_r_address0),
     .input_r_ce0(grp_convolution1_fix_Pipeline_Conv_loop_fu_180_input_r_ce0),
     .input_r_q0(input_r_q0),
@@ -254,12 +254,12 @@ end
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg <= 1'b0;
+        grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg <= 1'b0;
     end else begin
         if (((1'b1 == ap_CS_fsm_state1) & (ap_start == 1'b1))) begin
-            grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg <= 1'b1;
-        end else if ((grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_ready == 1'b1)) begin
-            grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg <= 1'b0;
+            grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg <= 1'b1;
+        end else if ((grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_ready == 1'b1)) begin
+            grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg <= 1'b0;
         end
     end
 end
@@ -279,7 +279,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_done == 1'b0)) begin
+    if ((grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_done == 1'b0)) begin
         ap_ST_fsm_state2_blk = 1'b1;
     end else begin
         ap_ST_fsm_state2_blk = 1'b0;
@@ -301,7 +301,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((((1'b1 == ap_CS_fsm_state1) & (ap_start == 1'b0)) | ((1'b1 == ap_CS_fsm_state6) & (grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_done == 1'b1)))) begin
+    if ((((1'b1 == ap_CS_fsm_state6) & (grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_done == 1'b1)) | ((1'b1 == ap_CS_fsm_state1) & (ap_start == 1'b0)))) begin
         ap_done = 1'b1;
     end else begin
         ap_done = 1'b0;
@@ -330,7 +330,7 @@ always @ (*) begin
     end else if ((1'b1 == ap_CS_fsm_state6)) begin
         input_r_address0 = grp_convolution1_fix_Pipeline_Conv_loop_fu_180_input_r_address0;
     end else if ((1'b1 == ap_CS_fsm_state2)) begin
-        input_r_address0 = grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_input_r_address0;
+        input_r_address0 = grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_input_r_address0;
     end else begin
         input_r_address0 = 'bx;
     end
@@ -342,7 +342,7 @@ always @ (*) begin
     end else if ((1'b1 == ap_CS_fsm_state6)) begin
         input_r_ce0 = grp_convolution1_fix_Pipeline_Conv_loop_fu_180_input_r_ce0;
     end else if ((1'b1 == ap_CS_fsm_state2)) begin
-        input_r_ce0 = grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_input_r_ce0;
+        input_r_ce0 = grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_input_r_ce0;
     end else begin
         input_r_ce0 = 1'b0;
     end
@@ -358,7 +358,7 @@ always @ (*) begin
             end
         end
         ap_ST_fsm_state2 : begin
-            if (((grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_done == 1'b1) & (1'b1 == ap_CS_fsm_state2))) begin
+            if (((grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_done == 1'b1) & (1'b1 == ap_CS_fsm_state2))) begin
                 ap_NS_fsm = ap_ST_fsm_state3;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state2;
@@ -400,7 +400,7 @@ assign ap_CS_fsm_state6 = ap_CS_fsm[32'd5];
 
 assign grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start = grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start_reg;
 
-assign grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start = grp_convolution1_fix_Pipeline_VITIS_LOOP_181_1_fu_152_ap_start_reg;
+assign grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start = grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg;
 
 assign out_r_address0 = grp_convolution1_fix_Pipeline_Conv_loop_fu_180_out_r_address0;
 
