@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix'
 ================================================================
-* Date:           Tue Jul 26 16:15:20 2022
+* Date:           Tue Jul 26 16:54:28 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -38,7 +38,7 @@
         |                                                       |                                            |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
         |                        Instance                       |                   Module                   |   min   |   max   |    min   |    max   | min | max |   Type  |
         +-------------------------------------------------------+--------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
-        |grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_175_1  |       18|       18|  0.187 us|  0.187 us|   18|   18|       no|
+        |grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_125_1  |       18|       18|  0.187 us|  0.187 us|   18|   18|       no|
         |grp_convolution2_fix_Pipeline_Conv_loop_fu_322         |convolution2_fix_Pipeline_Conv_loop         |      709|      709|  7.374 us|  7.374 us|  709|  709|       no|
         +-------------------------------------------------------+--------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
 
@@ -75,7 +75,7 @@
     |                        Instance                       |                   Module                   | BRAM_18K| DSP |   FF  |  LUT  | URAM|
     +-------------------------------------------------------+--------------------------------------------+---------+-----+-------+-------+-----+
     |grp_convolution2_fix_Pipeline_Conv_loop_fu_322         |convolution2_fix_Pipeline_Conv_loop         |        0|  128|  18293|  10180|    0|
-    |grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_175_1  |        0|    0|   1740|   4054|    0|
+    |grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_125_1  |        0|    0|   1740|   4054|    0|
     +-------------------------------------------------------+--------------------------------------------+---------+-----+-------+-------+-----+
     |Total                                                  |                                            |        0|  128|  20033|  14234|    0|
     +-------------------------------------------------------+--------------------------------------------+---------+-----+-------+-------+-----+
@@ -124,7 +124,7 @@
     +--------------------------------------------------------------------+---+----+-----+-----------+
     |ap_CS_fsm                                                           |  4|   0|    4|          0|
     |grp_convolution2_fix_Pipeline_Conv_loop_fu_322_ap_start_reg         |  1|   0|    1|          0|
-    |grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268_ap_start_reg  |  1|   0|    1|          0|
+    |grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268_ap_start_reg  |  1|   0|    1|          0|
     +--------------------------------------------------------------------+---+----+-----+-----------+
     |Total                                                               |  6|   0|    6|          0|
     +--------------------------------------------------------------------+---+----+-----+-----------+

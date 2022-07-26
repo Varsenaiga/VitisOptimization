@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix'" level="0">
-<item name = "Date">Tue Jul 26 16:15:06 2022
+<item name = "Date">Tue Jul 26 16:54:15 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,28 +24,27 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">9819, 9819, 0.102 ms, 0.102 ms, 9820, 9820, no</column>
+<column name="">9523, 9523, 99.039 us, 99.039 us, 9524, 9524, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_convolution1_fix_fu_360">convolution1_fix, 3097, 3097, 32.209 us, 32.209 us, 3097, 3097, no</column>
-<column name="grp_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2_fu_394">master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2, 1022, 1022, 10.629 us, 10.629 us, 1022, 1022, no</column>
-<column name="grp_convolution2_fix_fu_400">convolution2_fix, 730, 730, 7.592 us, 7.592 us, 730, 730, no</column>
-<column name="grp_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2_fu_472">master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2, 684, 684, 7.114 us, 7.114 us, 684, 684, no</column>
-<column name="grp_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_fu_478">master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3, 230, 230, 2.392 us, 2.392 us, 230, 230, no</column>
-<column name="grp_master_fix_Pipeline_VITIS_LOOP_335_1_fu_489">master_fix_Pipeline_VITIS_LOOP_335_1, 9, 9, 93.600 ns, 93.600 ns, 9, 9, no</column>
-<column name="grp_master_fix_Pipeline_VITIS_LOOP_346_3_fu_501">master_fix_Pipeline_VITIS_LOOP_346_3, 84, 84, 0.874 us, 0.874 us, 84, 84, no</column>
+<column name="grp_convolution1_fix_fu_433">convolution1_fix, 3097, 3097, 32.209 us, 32.209 us, 3097, 3097, no</column>
+<column name="grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467">master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2, 1022, 1022, 10.629 us, 10.629 us, 1022, 1022, no</column>
+<column name="grp_convolution2_fix_fu_473">convolution2_fix, 730, 730, 7.592 us, 7.592 us, 730, 730, no</column>
+<column name="grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545">master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2, 684, 684, 7.114 us, 7.114 us, 684, 684, no</column>
+<column name="grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551">master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3, 230, 230, 2.392 us, 2.392 us, 230, 230, no</column>
+<column name="grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562">master_fix_Pipeline_VITIS_LOOP_276_1, 23, 23, 0.239 us, 0.239 us, 23, 23, no</column>
+<column name="grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588">master_fix_Pipeline_VITIS_LOOP_291_1, 9, 9, 93.600 ns, 93.600 ns, 9, 9, no</column>
+<column name="grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600">master_fix_Pipeline_VITIS_LOOP_302_3, 84, 84, 0.874 us, 0.874 us, 84, 84, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_304_1">3744, 3744, 234, -, -, 16, no</column>
-<column name="- VITIS_LOOP_322_1">328, 328, 82, -, -, 4, no</column>
-<column name=" + VITIS_LOOP_325_2">80, 80, 5, -, -, 16, no</column>
-<column name="- VITIS_LOOP_341_2">108, 108, 27, -, -, 4, no</column>
+<column name="- VITIS_LOOP_254_1">3744, 3744, 234, -, -, 16, no</column>
+<column name="- VITIS_LOOP_297_2">108, 108, 27, -, -, 4, no</column>
 </table>
 </item>
 </section>

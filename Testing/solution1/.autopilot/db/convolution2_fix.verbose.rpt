@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix'
 ================================================================
-* Date:           Tue Jul 26 16:15:20 2022
+* Date:           Tue Jul 26 16:54:28 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -38,7 +38,7 @@
         |                                                       |                                            |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
         |                        Instance                       |                   Module                   |   min   |   max   |    min   |    max   | min | max |   Type  |
         +-------------------------------------------------------+--------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
-        |grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_175_1  |       18|       18|  0.187 us|  0.187 us|   18|   18|       no|
+        |grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_125_1  |       18|       18|  0.187 us|  0.187 us|   18|   18|       no|
         |grp_convolution2_fix_Pipeline_Conv_loop_fu_322         |convolution2_fix_Pipeline_Conv_loop         |      709|      709|  7.374 us|  7.374 us|  709|  709|       no|
         +-------------------------------------------------------+--------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
 
@@ -75,7 +75,7 @@
     |                        Instance                       |                   Module                   | BRAM_18K| DSP |   FF  |  LUT  | URAM|
     +-------------------------------------------------------+--------------------------------------------+---------+-----+-------+-------+-----+
     |grp_convolution2_fix_Pipeline_Conv_loop_fu_322         |convolution2_fix_Pipeline_Conv_loop         |        0|  128|  18293|  10180|    0|
-    |grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_175_1  |        0|    0|   1740|   4054|    0|
+    |grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268  |convolution2_fix_Pipeline_VITIS_LOOP_125_1  |        0|    0|   1740|   4054|    0|
     +-------------------------------------------------------+--------------------------------------------+---------+-----+-------+-------+-----+
     |Total                                                  |                                            |        0|  128|  20033|  14234|    0|
     +-------------------------------------------------------+--------------------------------------------+---------+-----+-------+-------+-----+
@@ -124,7 +124,7 @@
     +--------------------------------------------------------------------+---+----+-----+-----------+
     |ap_CS_fsm                                                           |  4|   0|    4|          0|
     |grp_convolution2_fix_Pipeline_Conv_loop_fu_322_ap_start_reg         |  1|   0|    1|          0|
-    |grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268_ap_start_reg  |  1|   0|    1|          0|
+    |grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268_ap_start_reg  |  1|   0|    1|          0|
     +--------------------------------------------------------------------+---+----+-----+-----------+
     |Total                                                               |  6|   0|    6|          0|
     +--------------------------------------------------------------------+---+----+-----+-----------+
@@ -285,10 +285,10 @@ ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%tmp2_V_28_0_loc = alloca i64 1"   
 ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%tmp2_V_29_0_loc = alloca i64 1"   --->   Operation 50 'alloca' 'tmp2_V_29_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%tmp2_V_30_0_loc = alloca i64 1"   --->   Operation 51 'alloca' 'tmp2_V_30_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%tmp2_V_31_0_loc = alloca i64 1"   --->   Operation 52 'alloca' 'tmp2_V_31_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 53 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_VITIS_LOOP_175_1, i35 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 53 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 53 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_VITIS_LOOP_125_1, i35 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 53 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 2.95>
-ST_2 : Operation 54 [1/2] (2.95ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_VITIS_LOOP_175_1, i35 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 54 'call' 'call_ln0' <Predicate = true> <Delay = 2.95> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 54 [1/2] (2.95ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_VITIS_LOOP_125_1, i35 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 54 'call' 'call_ln0' <Predicate = true> <Delay = 2.95> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 1.58>
 ST_3 : Operation 55 [1/1] (0.00ns)   --->   "%tmp2_V_31_0_loc_load = load i36 %tmp2_V_31_0_loc"   --->   Operation 55 'load' 'tmp2_V_31_0_loc_load' <Predicate = true> <Delay = 0.00>
@@ -343,7 +343,7 @@ ST_3 : Operation 103 [2/2] (1.58ns)   --->   "%call_ln0 = call void @convolution
 
 State 4 <SV = 3> <Delay = 0.00>
 ST_4 : Operation 104 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Conv_loop, i36 %tmp2_V_31_0_loc_load, i36 %tmp2_V_30_0_loc_load, i36 %tmp2_V_29_0_loc_load, i36 %tmp2_V_28_0_loc_load, i36 %tmp2_V_27_0_loc_load, i36 %tmp2_V_26_0_loc_load, i36 %tmp2_V_25_0_loc_load, i36 %tmp2_V_24_0_loc_load, i36 %tmp2_V_23_0_loc_load, i36 %tmp2_V_22_0_loc_load, i36 %tmp2_V_21_0_loc_load, i36 %tmp2_V_20_0_loc_load, i36 %tmp2_V_19_0_loc_load, i36 %tmp2_V_18_0_loc_load, i36 %tmp2_V_17_0_loc_load, i36 %tmp2_V_16_0_loc_load, i36 %tmp2_V_7_0_loc_load, i36 %tmp2_V_6_0_loc_load, i36 %tmp2_V_5_0_loc_load, i36 %tmp2_V_4_0_loc_load, i36 %tmp2_V_3_0_loc_load, i36 %tmp2_V_2_0_loc_load, i36 %tmp2_V_1_0_loc_load, i36 %tmp2_V_0_0_loc_load, i36 %tmp1_V_31_0_loc_load, i36 %tmp1_V_30_0_loc_load, i36 %tmp1_V_29_0_loc_load, i36 %tmp1_V_28_0_loc_load, i36 %tmp1_V_27_0_loc_load, i36 %tmp1_V_26_0_loc_load, i36 %tmp1_V_25_0_loc_load, i36 %tmp1_V_24_0_loc_load, i36 %tmp1_V_23_0_loc_load, i36 %tmp1_V_22_0_loc_load, i36 %tmp1_V_21_0_loc_load, i36 %tmp1_V_20_0_loc_load, i36 %tmp1_V_19_0_loc_load, i36 %tmp1_V_18_0_loc_load, i36 %tmp1_V_17_0_loc_load, i36 %tmp1_V_16_0_loc_load, i36 %tmp1_V_15_0_loc_load, i36 %tmp1_V_14_0_loc_load, i36 %tmp1_V_13_0_loc_load, i36 %tmp1_V_12_0_loc_load, i36 %tmp1_V_11_0_loc_load, i36 %tmp1_V_10_0_loc_load, i36 %tmp1_V_9_0_loc_load, i36 %tmp1_V_8_0_loc_load, i35 %m_0, i35 %out_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V"   --->   Operation 104 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%ret_ln254 = ret" [model_functions.cpp:254]   --->   Operation 105 'ret' 'ret_ln254' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%ret_ln204 = ret" [model_functions.cpp:204]   --->   Operation 105 'ret' 'ret_ln204' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -496,7 +496,7 @@ tmp1_V_10_0_loc_load (load  ) [ 00001]
 tmp1_V_9_0_loc_load  (load  ) [ 00001]
 tmp1_V_8_0_loc_load  (load  ) [ 00001]
 call_ln0             (call  ) [ 00000]
-ret_ln254            (ret   ) [ 00000]
+ret_ln204            (ret   ) [ 00000]
 </LifeTime>
 
 <model>
@@ -866,7 +866,7 @@ ret_ln254            (ret   ) [ 00000]
 <pin id="73" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="convolution2_fix_Pipeline_VITIS_LOOP_175_1"/></StgValue>
+<StgValue><ssdm name="convolution2_fix_Pipeline_VITIS_LOOP_125_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1407,7 +1407,7 @@ ret_ln254            (ret   ) [ 00000]
 </bind>
 </comp>
 
-<comp id="268" class="1004" name="grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268">
+<comp id="268" class="1004" name="grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268">
 <pin_list>
 <pin id="269" dir="0" index="0" bw="0" slack="0"/>
 <pin id="270" dir="0" index="1" bw="35" slack="0"/>
@@ -3221,7 +3221,7 @@ ret_ln254            (ret   ) [ 00000]
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
 | Operation|                    Functional Unit                    |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   call   | grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268 |    0    |  1.588  |   1763  |   4006  |
+|   call   | grp_convolution2_fix_Pipeline_VITIS_LOOP_125_1_fu_268 |    0    |  1.588  |   1763  |   4006  |
 |          |     grp_convolution2_fix_Pipeline_Conv_loop_fu_322    |   128   | 179.444 |  18738  |   9132  |
 |----------|-------------------------------------------------------|---------|---------|---------|---------|
 |   Total  |                                                       |   128   | 181.032 |  20501  |  13138  |

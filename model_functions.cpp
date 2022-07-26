@@ -4,56 +4,6 @@
 #include <math.h>
 #include <hls_math.h>
 
-/*
-void dense1(int mRow, int mCol, int mDep, float (*m)[1][SECOND_NUM_KERNELS], int kNum, float (*k)[THIRD_NUM_ROWS][THIRD_NUM_COLS], float *bias, float *out){
-
-    int d, h, i, j;
-
-    for (d = 0; d < kNum; d++) {
-		#pragma HLS pipeline off
-        out[d] = bias[d];
-        for (i = 0; i < mRow; i++) {
-			#pragma HLS pipeline off
-            for (j = 0; j < mCol; j++) {
-				#pragma HLS pipeline off
-            	for (h = 0; h < mDep; h++) {
-					#pragma HLS pipeline off
-            		out[d] += m[i][j][h] * k[d][i][h];
-                }
-            }
-        }
-        if (out[d] < 0) out[d] = 0;
-    }
-}
-
-void dense2(int mSize, const float *m, int kNum, float (*k)[FOURTH_NUM_SIZE], const float *bias, float *out){
-
-    int d, i;
-
-    for (d = 0; d < kNum; d++) {
-		#pragma HLS pipeline off
-        out[d] = bias[d];
-        for (i = 0; i < mSize; i++) {
-        	out[d] += m[i] * k[d][i];
-        }
-    }
-}
-
-void softmax(int mSize, float *m, float *out) {
-
-    int i;
-    double sum = 0;
-
-    for (i = 0; i < mSize; i++){
-		#pragma HLS pipeline off
-        sum += exp((double)m[i]);
-    }
-
-    for (i = 0; i < mSize; i++){
-        out[i] = (float)(exp((double)m[i])/sum);
-    }
-}*/
-
 void convolution1_fix(fix_input (*m)[DATA_SIZE], fix_par (*k)[FIRST_NUM_ROWS][FIRST_NUM_COLS], fix_par *bias, fix_cv1 (*out)[DATA_SIZE][FIRST_NUM_KERNELS]){
 
 	short id, r, i = -1, j, d;
@@ -315,16 +265,22 @@ void dense1_fix(fix_mp2 (*m)[1][SECOND_NUM_KERNELS], fix_par (*k)[THIRD_NUM_ROWS
     }
 }
 
-void dense2_fix(int mSize, const fix_ds1 *m, int kNum, fix_par (*k)[FOURTH_NUM_SIZE], const fix_par *bias, fix_ds2 *out){
+void dense2_fix(const fix_ds1 *m, fix_par (*k)[FOURTH_NUM_SIZE], const fix_par *bias, fix_ds2 *out){
 
     int d, i;
+    fix_ds2 num;
+    fix_ds1 aux1;
+    fix_par aux2;
 
-    for (d = 0; d < kNum; d++) {
-		#pragma HLS pipeline off
-        out[d] = bias[d];
-        for (i = 0; i < mSize; i++) {
-        	out[d] += m[i] * k[d][i];
+
+    for (d = 0; d < FOURTH_NUM_KERNELS; d++) {
+    	num = bias[d];
+        for (i = 0; i < THIRD_NUM_KERNELS; i++) {
+        	aux1 = m[i];
+        	aux2 = k[d][i];
+        	num += aux1 * aux2;
         }
+        out[d] = num;
     }
 }
 

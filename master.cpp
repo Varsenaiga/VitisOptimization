@@ -17,7 +17,7 @@ void master_fix(fix_input input[BATCH][DATA_SIZE], float out[1][FOURTH_NUM_KERNE
 	convolution2_fix(max1, secondKernel_f, secondBias_f, conv2);
 	maxPool2_fix(conv2, max2);
 	dense1_fix(max2, firstDense_f, thirdBias_f, den1[0]);
-	dense2_fix(THIRD_NUM_KERNELS, den1[0], FOURTH_NUM_KERNELS, secondDense_f, fourthBias_f, den2[0]);
+	dense2_fix(den1[0], secondDense_f, fourthBias_f, den2[0]);
 	softmax_fix(FOURTH_NUM_KERNELS, den2[0], out[0]);
 
 }
