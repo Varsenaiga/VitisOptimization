@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2'" level="0">
-<item name = "Date">Tue Jul 26 15:38:33 2022
+<item name = "Date">Tue Jul 26 16:15:14 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -88,7 +88,7 @@
 <column name="add_ln269_3_fu_305_p2">+, 0, 0, 12, 12, 5</column>
 <column name="add_ln269_4_fu_310_p2">+, 0, 0, 12, 12, 12</column>
 <column name="add_ln269_fu_279_p2">+, 0, 0, 12, 12, 12</column>
-<column name="empty_38_fu_328_p2">+, 0, 0, 14, 9, 9</column>
+<column name="empty_37_fu_328_p2">+, 0, 0, 14, 9, 9</column>
 <column name="sub_ln269_fu_220_p2">-, 0, 0, 12, 12, 12</column>
 <column name="icmp_ln1548_1_fu_366_p2">icmp, 0, 0, 19, 35, 35</column>
 <column name="icmp_ln1548_2_fu_376_p2">icmp, 0, 0, 19, 35, 35</column>
@@ -151,7 +151,7 @@
 <column name="conv1_load_2_reg_483">35, 0, 35, 0</column>
 <column name="conv1_load_reg_471">35, 0, 35, 0</column>
 <column name="d_fu_78">4, 0, 4, 0</column>
-<column name="empty_38_reg_466">9, 0, 9, 0</column>
+<column name="empty_37_reg_466">9, 0, 9, 0</column>
 <column name="empty_fu_70">35, 0, 35, 0</column>
 <column name="i_fu_74">7, 0, 7, 0</column>
 <column name="icmp_ln265_reg_489">1, 0, 1, 0</column>
@@ -164,7 +164,7 @@
 <column name="conv1_load_1_reg_477">64, 32, 35, 0</column>
 <column name="conv1_load_2_reg_483">64, 32, 35, 0</column>
 <column name="conv1_load_reg_471">64, 32, 35, 0</column>
-<column name="empty_38_reg_466">64, 32, 9, 0</column>
+<column name="empty_37_reg_466">64, 32, 9, 0</column>
 </table>
 </item>
 </section>

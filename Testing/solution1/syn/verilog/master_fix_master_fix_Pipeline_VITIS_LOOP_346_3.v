@@ -23,10 +23,10 @@ module master_fix_master_fix_Pipeline_VITIS_LOOP_346_3 (
         out_r_ce0,
         out_r_we0,
         out_r_d0,
-        grp_fu_579_p_din0,
-        grp_fu_579_p_din1,
-        grp_fu_579_p_dout0,
-        grp_fu_579_p_ce
+        grp_fu_516_p_din0,
+        grp_fu_516_p_din1,
+        grp_fu_516_p_dout0,
+        grp_fu_516_p_ce
 );
 
 parameter    ap_ST_fsm_pp0_stage0 = 1'd1;
@@ -46,10 +46,10 @@ output  [1:0] out_r_address0;
 output   out_r_ce0;
 output   out_r_we0;
 output  [31:0] out_r_d0;
-output  [63:0] grp_fu_579_p_din0;
-output  [63:0] grp_fu_579_p_din1;
-input  [63:0] grp_fu_579_p_dout0;
-output   grp_fu_579_p_ce;
+output  [63:0] grp_fu_516_p_din0;
+output  [63:0] grp_fu_516_p_din1;
+input  [63:0] grp_fu_516_p_dout0;
+output   grp_fu_516_p_ce;
 
 reg ap_idle;
 reg out_r_ce0;
@@ -492,7 +492,7 @@ master_fix_fptrunc_64ns_32_2_no_dsp_1 #(
     .NUM_STAGE( 2 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 32 ))
-fptrunc_64ns_32_2_no_dsp_1_U321(
+fptrunc_64ns_32_2_no_dsp_1_U328(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(div_i_reg_192),
@@ -506,7 +506,7 @@ master_fix_ddiv_64ns_64ns_64_59_no_dsp_1 #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-ddiv_64ns_64ns_64_59_no_dsp_1_U322(
+ddiv_64ns_64ns_64_59_no_dsp_1_U329(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_3_reg_187),
@@ -524,7 +524,7 @@ master_fix_mux_42_64_1_1 #(
     .din3_WIDTH( 64 ),
     .din4_WIDTH( 2 ),
     .dout_WIDTH( 64 ))
-mux_42_64_1_1_U324(
+mux_42_64_1_1_U331(
     .din0(m_3_10_reload),
     .din1(m_3_7_reload),
     .din2(m_2_03_reload),
@@ -1526,7 +1526,7 @@ always @ (posedge ap_clk) begin
         i_1_reg_173_pp0_iter7_reg <= i_1_reg_173_pp0_iter6_reg;
         i_1_reg_173_pp0_iter8_reg <= i_1_reg_173_pp0_iter7_reg;
         i_1_reg_173_pp0_iter9_reg <= i_1_reg_173_pp0_iter8_reg;
-        tmp_3_reg_187 <= grp_fu_579_p_dout0;
+        tmp_3_reg_187 <= grp_fu_516_p_dout0;
     end
 end
 
@@ -1796,11 +1796,11 @@ assign ap_enable_reg_pp0_iter0 = ap_start_int;
 
 assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
-assign grp_fu_579_p_ce = 1'b1;
+assign grp_fu_516_p_ce = 1'b1;
 
-assign grp_fu_579_p_din0 = 64'd0;
+assign grp_fu_516_p_din0 = 64'd0;
 
-assign grp_fu_579_p_din1 = tmp_6_reg_182;
+assign grp_fu_516_p_din1 = tmp_6_reg_182;
 
 assign i_6_cast_fu_152_p1 = i_1_reg_173_pp0_iter78_reg;
 

@@ -391,7 +391,7 @@ newFuncRoot:23 %i = alloca i32 1
 
 <Node id="48" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-newFuncRoot:24 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_9, i32 0, i32 0, void @empty_8, i32 4294967295, i32 0, void @empty_8, void @empty_8, void @empty_8, i32 0, i32 0, i32 0, i32 0, void @empty_8, void @empty_8
+newFuncRoot:24 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_11, i32 0, i32 0, void @empty_10, i32 4294967295, i32 0, void @empty_10, void @empty_10, void @empty_10, i32 0, i32 0, i32 0, i32 0, void @empty_10, void @empty_10
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -451,10 +451,10 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="53" bw="3" op_0_bw="3" op_1_bw="0">
 <![CDATA[
-:0 %r_3 = load i3 %r
+:0 %r_2 = load i3 %r
 
 ]]></Node>
-<StgValue><ssdm name="r_3"/></StgValue>
+<StgValue><ssdm name="r_2"/></StgValue>
 </operation>
 
 <operation id="35" st_id="1" stage="1" lat="1">
@@ -466,7 +466,7 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="54" bw="2" op_0_bw="3">
 <![CDATA[
-:1 %empty = trunc i3 %r_3
+:1 %empty = trunc i3 %r_2
 
 ]]></Node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -496,7 +496,7 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="56" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-:3 %icmp_ln67 = icmp_eq  i3 %r_3, i3 6
+:3 %icmp_ln67 = icmp_eq  i3 %r_2, i3 6
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln67"/></StgValue>
@@ -511,10 +511,10 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="57" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-:4 %empty_44 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 6, i64 6, i64 6
+:4 %empty_41 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 6, i64 6, i64 6
 
 ]]></Node>
-<StgValue><ssdm name="empty_44"/></StgValue>
+<StgValue><ssdm name="empty_41"/></StgValue>
 </operation>
 
 <operation id="39" st_id="1" stage="1" lat="1">
@@ -526,7 +526,7 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="58" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-:5 %add_ln67 = add i3 %r_3, i3 1
+:5 %add_ln67 = add i3 %r_2, i3 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln67"/></StgValue>
@@ -557,7 +557,7 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="61" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split11:0 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_11
+.split11:0 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln59"/></StgValue>
@@ -573,7 +573,7 @@ newFuncRoot:27 %br_ln0 = br void
 
 <Node id="62" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-.split11:1 %icmp_ln68 = icmp_ult  i3 %r_3, i3 3
+.split11:1 %icmp_ln68 = icmp_ult  i3 %r_2, i3 3
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln68"/></StgValue>
@@ -1050,7 +1050,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:10 %tmp2_
 
 <Node id="105" bw="4" op_0_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:23 %zext_ln71 = zext i3 %r_3
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:23 %zext_ln71 = zext i3 %r_2
 
 ]]></Node>
 <StgValue><ssdm name="zext_ln71"/></StgValue>
@@ -1497,10 +1497,10 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:42 %trunc
 
 <Node id="125" bw="9" op_0_bw="9" op_1_bw="7" op_2_bw="2">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:43 %tmp_46_cast = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i7.i2, i7 %trunc_ln72_1, i2 0
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:43 %tmp_47_cast = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i7.i2, i7 %trunc_ln72_1, i2 0
 
 ]]></Node>
-<StgValue><ssdm name="tmp_46_cast"/></StgValue>
+<StgValue><ssdm name="tmp_47_cast"/></StgValue>
 </operation>
 
 <operation id="100" st_id="2" stage="1" lat="1">
@@ -1512,7 +1512,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:43 %tmp_4
 
 <Node id="126" bw="9" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:44 %sub_ln72 = sub i9 %tmp_46_cast, i9 %trunc_ln72
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:44 %sub_ln72 = sub i9 %tmp_47_cast, i9 %trunc_ln72
 
 ]]></Node>
 <StgValue><ssdm name="sub_ln72"/></StgValue>
@@ -2490,7 +2490,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:21 %tmp1_
 
 <Node id="106" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:24 %icmp_ln71 = icmp_eq  i3 %r_3, i3 4
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:24 %icmp_ln71 = icmp_eq  i3 %r_2, i3 4
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln71"/></StgValue>
@@ -2505,7 +2505,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:24 %icmp_
 
 <Node id="107" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:25 %icmp_ln71_1 = icmp_eq  i3 %r_3, i3 3
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:25 %icmp_ln71_1 = icmp_eq  i3 %r_2, i3 3
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln71_1"/></StgValue>
@@ -2520,7 +2520,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:25 %icmp_
 
 <Node id="108" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:26 %icmp_ln71_2 = icmp_eq  i3 %r_3, i3 2
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:26 %icmp_ln71_2 = icmp_eq  i3 %r_2, i3 2
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln71_2"/></StgValue>
@@ -2535,7 +2535,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:26 %icmp_
 
 <Node id="109" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:27 %icmp_ln71_3 = icmp_eq  i3 %r_3, i3 1
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:27 %icmp_ln71_3 = icmp_eq  i3 %r_2, i3 1
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln71_3"/></StgValue>
@@ -2550,7 +2550,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:27 %icmp_
 
 <Node id="110" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:28 %icmp_ln71_4 = icmp_eq  i3 %r_3, i3 0
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv:28 %icmp_ln71_4 = icmp_eq  i3 %r_2, i3 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln71_4"/></StgValue>

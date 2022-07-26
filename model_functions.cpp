@@ -162,7 +162,7 @@ void convolution1_fix(fix_input (*m)[DATA_SIZE], fix_par (*k)[FIRST_NUM_ROWS][FI
 
 }
 
-void convolution2_fix(int mRow, int mCol, int mDep, fix_mp1 (*m)[1][FIRST_NUM_KERNELS], int kNum, fix_par (*k)[SECOND_NUM_ROWS][SECOND_NUM_COLS], fix_par *bias, fix_cv2 (*out)[1][SECOND_NUM_KERNELS]){
+void convolution2_fix(fix_mp1 (*m)[1][FIRST_NUM_KERNELS], fix_par (*k)[SECOND_NUM_ROWS][SECOND_NUM_COLS], fix_par *bias, fix_cv2 (*out)[1][SECOND_NUM_KERNELS]){
 
 	short id, r, i = -1, d, h;
     fix_cv1 num;
@@ -294,24 +294,24 @@ void maxPool2_fix(fix_cv2 (*m)[1][SECOND_NUM_KERNELS], fix_mp2 (*out)[1][SECOND_
     }
 }
 
-void dense1_fix(int mRow, int mCol, int mDep, fix_mp2 (*m)[1][SECOND_NUM_KERNELS], int kNum, fix_par (*k)[THIRD_NUM_ROWS][THIRD_NUM_COLS], fix_par *bias, fix_ds1 *out){
+void dense1_fix(fix_mp2 (*m)[1][SECOND_NUM_KERNELS], fix_par (*k)[THIRD_NUM_ROWS][THIRD_NUM_COLS], fix_par *bias, fix_ds1 *out){
 
-    int d, h, i, j;
+    int d, h, i;
+    fix_ds1 num;
+    fix_mp2 aux1;
+    fix_par aux2;
 
-    for (d = 0; d < kNum; d++) {
-		#pragma HLS pipeline off
-        out[d] = bias[d];
-        for (i = 0; i < mRow; i++) {
-			#pragma HLS pipeline off
-            for (j = 0; j < mCol; j++) {
-				#pragma HLS pipeline off
-            	for (h = 0; h < mDep; h++) {
-					#pragma HLS pipeline off
-            		out[d] += m[i][j][h] * k[d][i][h];
-                }
-            }
+    for (d = 0; d < THIRD_NUM_KERNELS; d++) {
+    	num = bias[d];
+        for (i = 0; i < 14; i++) {
+			for (h = 0; h < SECOND_NUM_KERNELS; h++) {
+				aux1 = m[i][0][h];
+				aux2 = k[d][i][h];
+				num += aux1 * aux2;
+			}
         }
-        if (out[d] < 0) out[d] = 0;
+        if (num < 0) num = 0;
+        out[d] = num;
     }
 }
 

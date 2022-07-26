@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1658846314159">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1658848514514">
   <ports id="1" name="conv1" type="PortType" coreName="RAM_1WnR" coreId="1953394531" bitwidth="35" iftype="IfTypeRegister" arraysize="3072">
     <dataOutputObjs>getelementptr</dataOutputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
     <dataOutputObjs>getelementptr</dataOutputObjs>
   </ports>
-  <ports id="2" name="max1_V_0" type="PortType" coreName="RAM_1WnR" coreId="1869373232" bitwidth="35" direction="DirOut" iftype="IfTypeRegister" arraysize="336">
+  <ports id="2" name="max1_V_0" type="PortType" coreName="RAM_1WnR" coreId="1886221349" bitwidth="35" direction="DirOut" iftype="IfTypeRegister" arraysize="336">
     <dataInputObjs>getelementptr</dataInputObjs>
   </ports>
   <edges id="83" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.4"/>
@@ -112,34 +112,34 @@
   <edges id="262" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.46"/>
   <blocks id="11" name="newFuncRoot" type="BlockType">
     <controlOutputObjs>_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.i</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="empty" coreId="1629498461" bitwidth="35" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="empty" coreId="539778358" bitwidth="35" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="i" originalName="i" coreId="741749564" bitwidth="7" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
-      <dataOutputObjs>store</dataOutputObjs>
-      <dataOutputObjs>load</dataOutputObjs>
-      <dataOutputObjs>store</dataOutputObjs>
-      <constName>empty</constName>
-    </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="d" originalName="d" coreId="539778358" bitwidth="4" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="i" originalName="i" coreId="539778358" bitwidth="7" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="indvar_flatten" coreId="539778358" bitwidth="10" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="d" originalName="d" coreId="741488444" bitwidth="4" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="indvar_flatten_write_ln0" coreId="741488444" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="indvar_flatten" coreId="741749564" bitwidth="10" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="indvar_flatten_write_ln0" coreId="741880892" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="5" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="8" name="d_write_ln0" coreId="741487420" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="6" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="8" name="d_write_ln0" coreId="741749564" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="6" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
@@ -154,7 +154,7 @@
   <blocks id="75" name="_Z12maxPool1_fixPA3_A8_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA1_S3_.exit.exitStub" type="BlockType">
     <controlInputObjs>_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.i</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="_ln0" coreId="0" opcode="ret" nodeLabel="12.0" m_display="0" m_topoIndex="60" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="_ln0" coreId="344" opcode="ret" nodeLabel="12.0" m_display="0" m_topoIndex="60" m_clusterGroupNumber="-1"/>
   </blocks>
   <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="336" pipe_depth="14" RegionName="VITIS_LOOP_263_1_VITIS_LOOP_264_2">
     <basic_blocks id="17" name="_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.i" type="BlockType">
@@ -164,7 +164,7 @@
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>_Z12maxPool1_fixPA3_A8_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA1_S3_.exit.exitStub</controlOutputObjs>
       <controlOutputObjs>.split25</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="indvar_flatten_load" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="741488444" contextFuncName="maxPool1_fix" bitwidth="10" opcode="load" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="indvar_flatten_load" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="1629498461" contextFuncName="maxPool1_fix" bitwidth="10" opcode="load" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>alloca</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -182,7 +182,7 @@
         <dataOutputObjs>store</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="br_ln263" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="741487420" contextFuncName="maxPool1_fix" opcode="br" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="br_ln263" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="1629498461" contextFuncName="maxPool1_fix" opcode="br" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>icmp</dataInputObjs>
         <controlInputObjs>.split25</controlInputObjs>
@@ -196,12 +196,12 @@
       <controlInputObjs>_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.i</controlInputObjs>
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.i</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="p_load" lineNumber="265" fileName="model_functions.cpp" fileDirectory=".." coreId="741880892" contextFuncName="maxPool1_fix" bitwidth="35" opcode="load" nodeLabel="11.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="p_load" lineNumber="265" fileName="model_functions.cpp" fileDirectory=".." coreId="1629498461" contextFuncName="maxPool1_fix" bitwidth="35" opcode="load" nodeLabel="11.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="265" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>alloca</dataInputObjs>
         <dataOutputObjs>select</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="i_load" lineNumber="264" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="maxPool1_fix" bitwidth="7" opcode="load" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="i_load" lineNumber="264" fileName="model_functions.cpp" fileDirectory=".." coreId="1629498461" contextFuncName="maxPool1_fix" bitwidth="7" opcode="load" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="264" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>alloca</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -246,31 +246,31 @@
         <dataOutputObjs>zext</dataOutputObjs>
         <dataOutputObjs>store</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="select_ln263_1_cast1" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="select_ln263_1_cast1_fu_273_p1" coreId="0" contextFuncName="maxPool1_fix" bitwidth="9" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="select_ln263_1_cast1" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="select_ln263_1_cast1_fu_273_p1" coreId="3449218288" contextFuncName="maxPool1_fix" bitwidth="9" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="select_ln263_1_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="select_ln263_1_cast_fu_276_p1" coreId="0" contextFuncName="maxPool1_fix" bitwidth="12" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="select_ln263_1_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="select_ln263_1_cast_fu_276_p1" coreId="3449209888" contextFuncName="maxPool1_fix" bitwidth="12" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
         <dataOutputObjs>add</dataOutputObjs>
         <dataOutputObjs>add</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="tmp_4" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_4_fu_200_p3" coreId="0" contextFuncName="maxPool1_fix" bitwidth="12" opcode="bitconcatenate" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="tmp_4" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_4_fu_200_p3" coreId="345" contextFuncName="maxPool1_fix" bitwidth="12" opcode="bitconcatenate" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="269" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>sub</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="tmp_8" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_8_fu_208_p3" coreId="0" contextFuncName="maxPool1_fix" bitwidth="10" opcode="bitconcatenate" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="tmp_8" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_8_fu_208_p3" coreId="3449193472" contextFuncName="maxPool1_fix" bitwidth="10" opcode="bitconcatenate" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="269" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="zext_ln269" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln269_fu_216_p1" coreId="0" contextFuncName="maxPool1_fix" bitwidth="12" opcode="zext" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="zext_ln269" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln269_fu_216_p1" coreId="3449222608" contextFuncName="maxPool1_fix" bitwidth="12" opcode="zext" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="269" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>bitconcatenate</dataInputObjs>
         <dataOutputObjs>sub</dataOutputObjs>
@@ -289,12 +289,12 @@
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="zext_ln269_1" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln269_1_fu_284_p1" coreId="0" contextFuncName="maxPool1_fix" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="zext_ln269_1" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln269_1_fu_284_p1" coreId="3449202592" contextFuncName="maxPool1_fix" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="269" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="conv1_addr" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" bitwidth="12" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="conv1_addr" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." coreId="3449212672" contextFuncName="maxPool1_fix" bitwidth="12" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="269" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>conv1</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -318,7 +318,7 @@
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="conv1_addr_1" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" bitwidth="12" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="conv1_addr_1" lineNumber="269" fileName="model_functions.cpp" fileDirectory=".." coreId="3449194192" contextFuncName="maxPool1_fix" bitwidth="12" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="269" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>conv1</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
@@ -355,7 +355,7 @@
         <dataOutputObjs>trunc</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="trunc_ln265" lineNumber="265" fileName="model_functions.cpp" fileDirectory=".." rtlName="trunc_ln265_fu_334_p1" coreId="0" contextFuncName="maxPool1_fix" bitwidth="2" opcode="trunc" nodeLabel="10.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="trunc_ln265" lineNumber="265" fileName="model_functions.cpp" fileDirectory=".." rtlName="trunc_ln265_fu_334_p1" coreId="3449198752" contextFuncName="maxPool1_fix" bitwidth="2" opcode="trunc" nodeLabel="10.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="265" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>urem</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
@@ -434,7 +434,7 @@
         <dataOutputObjs>store</dataOutputObjs>
         <dataOutputObjs>store</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="select_ln263_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_fu_236_p00" coreId="0" contextFuncName="maxPool1_fix" bitwidth="15" opcode="zext" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="select_ln263_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_fu_236_p00" coreId="3449198368" contextFuncName="maxPool1_fix" bitwidth="15" opcode="zext" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataOutputObjs>mul</dataOutputObjs>
@@ -445,30 +445,30 @@
         <dataOutputObjs>partselect</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="tmp" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_reg_446" coreId="0" contextFuncName="maxPool1_fix" bitwidth="6" opcode="partselect" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="tmp" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_reg_446" coreId="537" contextFuncName="maxPool1_fix" bitwidth="6" opcode="partselect" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>mul</dataInputObjs>
         <dataOutputObjs>bitconcatenate</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="tmp_10_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_10_cast_fu_321_p3" coreId="0" contextFuncName="maxPool1_fix" bitwidth="9" opcode="bitconcatenate" nodeLabel="1.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="tmp_10_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_10_cast_fu_321_p3" coreId="3361854000" contextFuncName="maxPool1_fix" bitwidth="9" opcode="bitconcatenate" nodeLabel="1.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>partselect</dataInputObjs>
         <dataOutputObjs>add</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="empty_38" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="empty_38_fu_328_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="maxPool1_fix" bitwidth="9" opcode="add" nodeLabel="1.0" m_display="0" m_delay="1.82" m_topoIndex="48" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="empty_37" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="empty_37_fu_328_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="maxPool1_fix" bitwidth="9" opcode="add" nodeLabel="1.0" m_display="0" m_delay="1.82" m_topoIndex="48" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>bitconcatenate</dataInputObjs>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="p_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="p_cast_fu_393_p1" coreId="0" contextFuncName="maxPool1_fix" bitwidth="64" opcode="zext" nodeLabel="13.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="p_cast" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." rtlName="p_cast_fu_393_p1" coreId="336" contextFuncName="maxPool1_fix" bitwidth="64" opcode="zext" nodeLabel="13.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>add</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="65" name="max1_V_0_addr" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" bitwidth="9" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="62" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="65" name="max1_V_0_addr" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="3361854000" contextFuncName="maxPool1_fix" bitwidth="9" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="62" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>max1_V_0</dataOutputObjs>
@@ -486,27 +486,27 @@
         <dataOutputObjs>store</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="indvar_flatten_write_ln263" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="28" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="indvar_flatten_write_ln263" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="3449220976" contextFuncName="maxPool1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="28" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>add</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="d_write_ln263" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="29" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="d_write_ln263" lineNumber="263" fileName="model_functions.cpp" fileDirectory=".." coreId="3449206528" contextFuncName="maxPool1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="29" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="70" name="i_write_ln264" lineNumber="264" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="30" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="70" name="i_write_ln264" lineNumber="264" fileName="model_functions.cpp" fileDirectory=".." coreId="3449222752" contextFuncName="maxPool1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="30" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="264" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>add</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="empty_write_ln270" lineNumber="270" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="maxPool1_fix" opcode="store" nodeLabel="12.0" m_display="0" m_topoIndex="59" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="empty_write_ln270" lineNumber="270" fileName="model_functions.cpp" fileDirectory=".." coreId="349" contextFuncName="maxPool1_fix" opcode="store" nodeLabel="12.0" m_display="0" m_topoIndex="59" m_clusterGroupNumber="-1">
         <inlineStackInfo fileName="model_functions.cpp" linenumber="270" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="maxPool1_fix"/>
         <dataInputObjs>select</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="br_ln0" coreId="0" opcode="br" nodeLabel="13.0" m_display="0" m_topoIndex="64" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="br_ln0" coreId="3449223520" opcode="br" nodeLabel="13.0" m_display="0" m_topoIndex="64" m_clusterGroupNumber="-1">
         <controlInputObjs>_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.i</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="model_functions.cpp">
@@ -563,6 +563,9 @@
   <regnodes realName="d_reg_410">
     <nodeIds>5</nodeIds>
   </regnodes>
+  <regnodes realName="empty_37_reg_466">
+    <nodeIds>63</nodeIds>
+  </regnodes>
   <regnodes realName="select_ln270_2_reg_500">
     <nodeIds>58</nodeIds>
   </regnodes>
@@ -580,9 +583,6 @@
   </regnodes>
   <regnodes realName="select_ln263_reg_428">
     <nodeIds>25</nodeIds>
-  </regnodes>
-  <regnodes realName="empty_38_reg_466">
-    <nodeIds>63</nodeIds>
   </regnodes>
   <regnodes realName="icmp_ln265_reg_489">
     <nodeIds>48</nodeIds>
@@ -620,11 +620,11 @@
   <expressionNodes realName="zext_ln269_1_fu_284">
     <nodeIds>35</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="empty_38_fu_328">
-    <nodeIds>63</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="add_ln269_4_fu_310">
     <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_37_fu_328">
+    <nodeIds>63</nodeIds>
   </expressionNodes>
   <expressionNodes realName="icmp_ln265_fu_338">
     <nodeIds>48</nodeIds>

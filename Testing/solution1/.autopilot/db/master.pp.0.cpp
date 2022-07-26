@@ -5683,7 +5683,7 @@ void convolution1_fix(fix_input (*m)[3], fix_par (*k)[4][3], fix_par *bias, fix_
 void convolution2_fix(int mRow, int mCol, int mDep, fix_mp1 (*m)[1][8], int kNum, fix_par (*k)[4][8], fix_par *bias, fix_cv2 (*out)[1][16]);
 void maxPool1_fix(fix_cv1 (*m)[3][8], fix_mp1 (*out)[1][8]);
 void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]);
-void dense1_fix(int mRow, int mCol, int mDep, fix_mp2 (*m)[1][16], int kNum, fix_par (*k)[14][16], fix_par *bias, fix_ds1 *out);
+void dense1_fix(fix_mp2 (*m)[1][16], fix_par (*k)[14][16], fix_par *bias, fix_ds1 *out);
 void dense2_fix(int mSize, const fix_ds1 *m, int kNum, fix_par (*k)[16], const fix_par *bias, fix_ds2 *out);
 void softmax_fix(int mSize, fix_ds2 *m, float *out);
 # 6 "./parameters.h" 2
@@ -7386,7 +7386,7 @@ __attribute__((sdx_kernel("master_fix", 0))) void master_fix(fix_input input[128
  maxPool1_fix(conv1, max1);
  convolution2_fix(42, 1, 8, max1, 16, secondKernel_f, secondBias_f, conv2);
  maxPool2_fix(conv2, max2);
- dense1_fix(14, 1, 16, max2, 16, firstDense_f, thirdBias_f, den1[0]);
+ dense1_fix(max2, firstDense_f, thirdBias_f, den1[0]);
  dense2_fix(16, den1[0], 4, secondDense_f, fourthBias_f, den2[0]);
  softmax_fix(4, den2[0], out[0]);
 

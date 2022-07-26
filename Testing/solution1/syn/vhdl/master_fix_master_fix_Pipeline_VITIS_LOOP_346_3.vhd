@@ -26,10 +26,10 @@ port (
     out_r_ce0 : OUT STD_LOGIC;
     out_r_we0 : OUT STD_LOGIC;
     out_r_d0 : OUT STD_LOGIC_VECTOR (31 downto 0);
-    grp_fu_579_p_din0 : OUT STD_LOGIC_VECTOR (63 downto 0);
-    grp_fu_579_p_din1 : OUT STD_LOGIC_VECTOR (63 downto 0);
-    grp_fu_579_p_dout0 : IN STD_LOGIC_VECTOR (63 downto 0);
-    grp_fu_579_p_ce : OUT STD_LOGIC );
+    grp_fu_516_p_din0 : OUT STD_LOGIC_VECTOR (63 downto 0);
+    grp_fu_516_p_din1 : OUT STD_LOGIC_VECTOR (63 downto 0);
+    grp_fu_516_p_dout0 : IN STD_LOGIC_VECTOR (63 downto 0);
+    grp_fu_516_p_ce : OUT STD_LOGIC );
 end;
 
 
@@ -486,7 +486,7 @@ attribute shreg_extract : string;
 
 
 begin
-    fptrunc_64ns_32_2_no_dsp_1_U321 : component master_fix_fptrunc_64ns_32_2_no_dsp_1
+    fptrunc_64ns_32_2_no_dsp_1_U328 : component master_fix_fptrunc_64ns_32_2_no_dsp_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -499,7 +499,7 @@ begin
         ce => ap_const_logic_1,
         dout => grp_fu_97_p1);
 
-    ddiv_64ns_64ns_64_59_no_dsp_1_U322 : component master_fix_ddiv_64ns_64ns_64_59_no_dsp_1
+    ddiv_64ns_64ns_64_59_no_dsp_1_U329 : component master_fix_ddiv_64ns_64ns_64_59_no_dsp_1
     generic map (
         ID => 1,
         NUM_STAGE => 59,
@@ -514,7 +514,7 @@ begin
         ce => ap_const_logic_1,
         dout => grp_fu_100_p2);
 
-    mux_42_64_1_1_U324 : component master_fix_mux_42_64_1_1
+    mux_42_64_1_1_U331 : component master_fix_mux_42_64_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1857,7 +1857,7 @@ begin
                 i_1_reg_173_pp0_iter7_reg <= i_1_reg_173_pp0_iter6_reg;
                 i_1_reg_173_pp0_iter8_reg <= i_1_reg_173_pp0_iter7_reg;
                 i_1_reg_173_pp0_iter9_reg <= i_1_reg_173_pp0_iter8_reg;
-                tmp_3_reg_187 <= grp_fu_579_p_dout0;
+                tmp_3_reg_187 <= grp_fu_516_p_dout0;
             end if;
         end if;
     end process;
@@ -2038,9 +2038,9 @@ begin
         end if; 
     end process;
 
-    grp_fu_579_p_ce <= ap_const_logic_1;
-    grp_fu_579_p_din0 <= ap_const_lv64_0;
-    grp_fu_579_p_din1 <= tmp_6_reg_182;
+    grp_fu_516_p_ce <= ap_const_logic_1;
+    grp_fu_516_p_din0 <= ap_const_lv64_0;
+    grp_fu_516_p_din1 <= tmp_6_reg_182;
     i_6_cast_fu_152_p1 <= std_logic_vector(IEEE.numeric_std.resize(unsigned(i_1_reg_173_pp0_iter78_reg),64));
     icmp_ln346_fu_117_p2 <= "1" when (ap_sig_allocacmp_i_1 = ap_const_lv3_4) else "0";
     out_r_address0 <= i_6_cast_fu_152_p1(2 - 1 downto 0);

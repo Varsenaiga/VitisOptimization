@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix_Pipeline_VITIS_LOOP_175_1'
 ================================================================
-* Date:           Tue Jul 26 15:38:34 2022
+* Date:           Tue Jul 26 16:15:15 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -139,7 +139,7 @@
     |ap_done_int              |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
     |ap_sig_allocacmp_i_load  |   9|          2|   16|         32|
-    |ap_sig_allocacmp_r_2     |   9|          2|    5|         10|
+    |ap_sig_allocacmp_r_1     |   9|          2|    5|         10|
     |i_fu_174                 |   9|          2|   16|         32|
     |r_fu_178                 |   9|          2|    5|         10|
     +-------------------------+----+-----------+-----+-----------+

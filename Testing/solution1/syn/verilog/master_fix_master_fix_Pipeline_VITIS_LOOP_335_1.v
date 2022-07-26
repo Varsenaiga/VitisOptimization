@@ -162,7 +162,7 @@ wire   [63:0] p_Result_8_fu_480_p5;
 wire   [63:0] bitcast_ln741_fu_492_p1;
 wire   [0:0] icmp_ln336_fu_515_p2;
 wire   [0:0] icmp_ln336_1_fu_527_p2;
-wire   [63:0] m_3_36_fu_520_p3;
+wire   [63:0] m_3_35_fu_520_p3;
 wire   [0:0] icmp_ln336_2_fu_540_p2;
 wire   [63:0] m_3_13_fu_532_p3;
 wire   [63:0] m_3_15_fu_553_p3;
@@ -198,7 +198,7 @@ master_fix_mux_42_36_1_1 #(
     .din3_WIDTH( 36 ),
     .din4_WIDTH( 2 ),
     .dout_WIDTH( 36 ))
-mux_42_36_1_1_U311(
+mux_42_36_1_1_U318(
     .din0(den2_V_0_0_05),
     .din1(den2_V_0_1_06),
     .din2(den2_V_0_2_07),
@@ -517,7 +517,7 @@ assign m_3_04_out = m_3_04_fu_124;
 
 assign m_3_10_out = m_3_1_fu_112;
 
-assign m_3_13_fu_532_p3 = ((icmp_ln336_1_fu_527_p2[0:0] == 1'b1) ? m_3_04_fu_124 : m_3_36_fu_520_p3);
+assign m_3_13_fu_532_p3 = ((icmp_ln336_1_fu_527_p2[0:0] == 1'b1) ? m_3_04_fu_124 : m_3_35_fu_520_p3);
 
 assign m_3_14_fu_545_p3 = ((icmp_ln336_2_fu_540_p2[0:0] == 1'b1) ? m_3_04_fu_124 : m_3_13_fu_532_p3);
 
@@ -535,7 +535,7 @@ assign m_3_20_fu_591_p3 = ((icmp_ln336_2_fu_540_p2[0:0] == 1'b1) ? m_3_21_reg_74
 
 assign m_3_21_fu_496_p3 = ((icmp_ln938_reg_680_pp0_iter2_reg[0:0] == 1'b1) ? 64'd0 : bitcast_ln741_fu_492_p1);
 
-assign m_3_36_fu_520_p3 = ((icmp_ln336_fu_515_p2[0:0] == 1'b1) ? m_3_04_fu_124 : m_3_21_reg_740);
+assign m_3_35_fu_520_p3 = ((icmp_ln336_fu_515_p2[0:0] == 1'b1) ? m_3_04_fu_124 : m_3_21_reg_740);
 
 assign m_3_7_out = m_3_7_fu_116;
 

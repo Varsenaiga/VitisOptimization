@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix_Pipeline_VITIS_LOOP_335_1'" level="0">
-<item name = "Date">Tue Jul 26 15:38:41 2022
+<item name = "Date">Tue Jul 26 16:15:23 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -62,7 +62,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mux_42_36_1_1_U311">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
+<column name="mux_42_36_1_1_U318">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -113,7 +113,7 @@
 <column name="m_3_19_fu_583_p3">select, 0, 0, 64, 1, 64</column>
 <column name="m_3_20_fu_591_p3">select, 0, 0, 64, 1, 64</column>
 <column name="m_3_21_fu_496_p3">select, 0, 0, 64, 1, 1</column>
-<column name="m_3_36_fu_520_p3">select, 0, 0, 64, 1, 64</column>
+<column name="m_3_35_fu_520_p3">select, 0, 0, 64, 1, 64</column>
 <column name="select_ln946_fu_455_p3">select, 0, 0, 10, 1, 10</column>
 <column name="tmp_V_2_fu_238_p3">select, 0, 0, 36, 1, 36</column>
 <column name="shl_ln962_fu_404_p2">shl, 0, 0, 182, 64, 64</column>

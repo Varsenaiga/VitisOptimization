@@ -127,7 +127,7 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_579_p_din0</name>
+<name>grp_fu_516_p_din0</name>
 <Object>master_fix_Pipeline_VITIS_LOOP_346_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -138,7 +138,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_579_p_din1</name>
+<name>grp_fu_516_p_din1</name>
 <Object>master_fix_Pipeline_VITIS_LOOP_346_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -149,7 +149,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_579_p_dout0</name>
+<name>grp_fu_516_p_dout0</name>
 <Object>master_fix_Pipeline_VITIS_LOOP_346_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -160,7 +160,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_579_p_ce</name>
+<name>grp_fu_516_p_ce</name>
 <Object>master_fix_Pipeline_VITIS_LOOP_346_3</Object>
 <Type>return value</Type>
 <Scope></Scope>

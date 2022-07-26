@@ -3,7 +3,7 @@
 // Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // ==============================================================
 `timescale 1 ns / 1 ps
-module master_fix_firstDense_f_V (
+module master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V (
 address0, ce0, q0, reset,clk);
 
 parameter DataWidth = 21;
@@ -19,7 +19,7 @@ input clk;
 reg [DataWidth-1:0] ram[0:AddressRange-1];
 
 initial begin
-    $readmemh("./master_fix_firstDense_f_V.dat", ram);
+    $readmemh("./master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V.dat", ram);
 end
 
 

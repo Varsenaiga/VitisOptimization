@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_VITIS_LOOP_346_3'
 ================================================================
-* Date:           Tue Jul 26 15:38:25 2022
+* Date:           Tue Jul 26 16:15:04 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -164,7 +164,7 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 3.23>
 ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 83 'alloca' 'i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_9, i32 0, i32 0, void @empty_8, i32 4294967295, i32 0, void @empty_8, void @empty_8, void @empty_8, i32 0, i32 0, i32 0, i32 0, void @empty_8, void @empty_8"   --->   Operation 84 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_11, i32 0, i32 0, void @empty_10, i32 4294967295, i32 0, void @empty_10, void @empty_10, void @empty_10, i32 0, i32 0, i32 0, i32 0, void @empty_10, void @empty_10"   --->   Operation 84 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%sum_read = read i64 @_ssdm_op_Read.ap_auto.double, i64 %sum"   --->   Operation 85 'read' 'sum_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%m_3_04_reload_read = read i64 @_ssdm_op_Read.ap_auto.double, i64 %m_3_04_reload"   --->   Operation 86 'read' 'm_3_04_reload_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 87 [1/1] (0.00ns)   --->   "%m_2_03_reload_read = read i64 @_ssdm_op_Read.ap_auto.double, i64 %m_2_03_reload"   --->   Operation 87 'read' 'm_2_03_reload_read' <Predicate = true> <Delay = 0.00>
@@ -419,7 +419,7 @@ ST_79 : Operation 186 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operatio
 
 State 80 <SV = 79> <Delay = 7.52>
 ST_80 : Operation 179 [1/1] (0.00ns)   --->   "%i_6_cast = zext i3 %i_1" [model_functions.cpp:347]   --->   Operation 179 'zext' 'i_6_cast' <Predicate = true> <Delay = 0.00>
-ST_80 : Operation 180 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0" [model_functions.cpp:334]   --->   Operation 180 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
+ST_80 : Operation 180 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5" [model_functions.cpp:334]   --->   Operation 180 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
 ST_80 : Operation 181 [1/2] (5.20ns)   --->   "%conv_i = fptrunc i64 %div_i" [model_functions.cpp:347]   --->   Operation 181 'fptrunc' 'conv_i' <Predicate = true> <Delay = 5.20> <CoreInst = "Double2Float">   --->   Core 67 'Double2Float' <Latency = 1> <II = 1> <Delay = 5.20> <FuncUnit> <Opcode : 'fptrunc'> <InPorts = 1> <OutPorts = 1>
 ST_80 : Operation 182 [1/1] (0.00ns)   --->   "%bitcast_ln347 = bitcast i32 %conv_i" [model_functions.cpp:347]   --->   Operation 182 'bitcast' 'bitcast_ln347' <Predicate = true> <Delay = 0.00>
 ST_80 : Operation 183 [1/1] (0.00ns)   --->   "%out_addr = getelementptr i32 %out_r, i64 0, i64 %i_6_cast" [model_functions.cpp:347]   --->   Operation 183 'getelementptr' 'out_addr' <Predicate = true> <Delay = 0.00>

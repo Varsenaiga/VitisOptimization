@@ -820,10 +820,10 @@ newFuncRoot:52 %br_ln0 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mod
 
 <Node id="104" bw="5" op_0_bw="5" op_1_bw="0">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:0 %r_2 = load i5 %r
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:0 %r_1 = load i5 %r
 
 ]]></Node>
-<StgValue><ssdm name="r_2"/></StgValue>
+<StgValue><ssdm name="r_1"/></StgValue>
 </operation>
 
 <operation id="59" st_id="1" stage="1" lat="1">
@@ -850,7 +850,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:1 %specpipeline_
 
 <Node id="106" bw="1" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:2 %icmp_ln175 = icmp_eq  i5 %r_2, i5 16
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:2 %icmp_ln175 = icmp_eq  i5 %r_1, i5 16
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln175"/></StgValue>
@@ -880,7 +880,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:3 %empty = specl
 
 <Node id="108" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:4 %add_ln175 = add i5 %r_2, i5 1
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:4 %add_ln175 = add i5 %r_1, i5 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln175"/></StgValue>
@@ -1055,7 +1055,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:8 %tmp1_V_
 
 <Node id="121" bw="3" op_0_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:10 %d = trunc i5 %r_2
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:10 %d = trunc i5 %r_1
 
 ]]></Node>
 <StgValue><ssdm name="d"/></StgValue>
@@ -1119,7 +1119,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:13 %i_5 = 
 
 <Node id="125" bw="4" op_0_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:14 %trunc_ln179 = trunc i5 %r_2
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:14 %trunc_ln179 = trunc i5 %r_1
 
 ]]></Node>
 <StgValue><ssdm name="trunc_ln179"/></StgValue>
@@ -4257,7 +4257,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split1170:82 %br
 
 <Node id="120" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:9 %specloopname_ln167 = specloopname void @_ssdm_op_SpecLoopName, void @empty_12
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:9 %specloopname_ln167 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln167"/></StgValue>

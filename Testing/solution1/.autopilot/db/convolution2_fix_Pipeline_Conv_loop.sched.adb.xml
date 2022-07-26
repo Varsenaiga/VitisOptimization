@@ -3081,7 +3081,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="293" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split18:1 %specloopname_ln169 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4
+.split18:1 %specloopname_ln169 = specloopname void @_ssdm_op_SpecLoopName, void @empty
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln169"/></StgValue>
@@ -5232,10 +5232,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1095" bw="10" op_0_bw="10" op_1_bw="6" op_2_bw="4">
 <![CDATA[
-._crit_edge_ifconv:649 %tmp_40_cast = bitconcatenate i10 @_ssdm_op_BitConcatenate.i10.i6.i4, i6 %trunc_ln201, i4 0
+._crit_edge_ifconv:649 %tmp_41_cast = bitconcatenate i10 @_ssdm_op_BitConcatenate.i10.i6.i4, i6 %trunc_ln201, i4 0
 
 ]]></Node>
-<StgValue><ssdm name="tmp_40_cast"/></StgValue>
+<StgValue><ssdm name="tmp_41_cast"/></StgValue>
 </operation>
 
 <operation id="363" st_id="3" stage="1" lat="1">
@@ -5264,7 +5264,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1097" bw="10" op_0_bw="10" op_1_bw="10">
 <![CDATA[
-._crit_edge_ifconv:651 %add_ln251 = add i10 %tmp_40_cast, i10 %trunc_ln251
+._crit_edge_ifconv:651 %add_ln251 = add i10 %tmp_41_cast, i10 %trunc_ln251
 
 ]]></Node>
 <StgValue><ssdm name="add_ln251"/></StgValue>
@@ -5611,10 +5611,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="643" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:197 %sext_ln1171_2 = sext i36 %kr_V_0_05232_load
+._crit_edge_ifconv:197 %sext_ln1171_1 = sext i36 %kr_V_0_05232_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_2"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_1"/></StgValue>
 </operation>
 
 <operation id="386" st_id="4" stage="2" lat="2">
@@ -5627,7 +5627,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="644" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:198 %mul_ln1171 = mul i55 %sext_ln1171_2, i55 %sext_ln1171
+._crit_edge_ifconv:198 %mul_ln1171 = mul i55 %sext_ln1171_1, i55 %sext_ln1171
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171"/></StgValue>
@@ -5975,7 +5975,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="644" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:198 %mul_ln1171 = mul i55 %sext_ln1171_2, i55 %sext_ln1171
+._crit_edge_ifconv:198 %mul_ln1171 = mul i55 %sext_ln1171_1, i55 %sext_ln1171
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171"/></StgValue>
@@ -6007,10 +6007,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="656" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:210 %sext_ln1171_3 = sext i36 %select_ln232_14
+._crit_edge_ifconv:210 %sext_ln1171_2 = sext i36 %select_ln232_14
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_3"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_2"/></StgValue>
 </operation>
 
 <operation id="410" st_id="5" stage="1" lat="1">
@@ -6023,10 +6023,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="657" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:211 %sext_ln1171_4 = sext i36 %kr_V_1_05233_load
+._crit_edge_ifconv:211 %sext_ln1171_3 = sext i36 %kr_V_1_05233_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_4"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_3"/></StgValue>
 </operation>
 
 <operation id="411" st_id="5" stage="2" lat="2">
@@ -6039,7 +6039,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="658" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:212 %mul_ln1171_1 = mul i55 %sext_ln1171_4, i55 %sext_ln1171_3
+._crit_edge_ifconv:212 %mul_ln1171_1 = mul i55 %sext_ln1171_3, i55 %sext_ln1171_2
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_1"/></StgValue>
@@ -6512,7 +6512,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="658" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:212 %mul_ln1171_1 = mul i55 %sext_ln1171_4, i55 %sext_ln1171_3
+._crit_edge_ifconv:212 %mul_ln1171_1 = mul i55 %sext_ln1171_3, i55 %sext_ln1171_2
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_1"/></StgValue>
@@ -6528,10 +6528,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="664" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:218 %trunc_ln727_2 = trunc i55 %mul_ln1171_1
+._crit_edge_ifconv:218 %trunc_ln727_1 = trunc i55 %mul_ln1171_1
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_2"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_1"/></StgValue>
 </operation>
 
 <operation id="442" st_id="6" stage="1" lat="1">
@@ -6544,10 +6544,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="670" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:224 %sext_ln1171_5 = sext i36 %select_ln232_13
+._crit_edge_ifconv:224 %sext_ln1171_4 = sext i36 %select_ln232_13
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_5"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_4"/></StgValue>
 </operation>
 
 <operation id="443" st_id="6" stage="1" lat="1">
@@ -6560,10 +6560,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="671" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:225 %sext_ln1171_6 = sext i36 %kr_V_2_05234_load
+._crit_edge_ifconv:225 %sext_ln1171_5 = sext i36 %kr_V_2_05234_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_6"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_5"/></StgValue>
 </operation>
 
 <operation id="444" st_id="6" stage="2" lat="2">
@@ -6576,7 +6576,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="672" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:226 %mul_ln1171_2 = mul i55 %sext_ln1171_6, i55 %sext_ln1171_5
+._crit_edge_ifconv:226 %mul_ln1171_2 = mul i55 %sext_ln1171_5, i55 %sext_ln1171_4
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_2"/></StgValue>
@@ -6953,7 +6953,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="665" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:219 %icmp_ln727_1 = icmp_ne  i18 %trunc_ln727_2, i18 0
+._crit_edge_ifconv:219 %icmp_ln727_1 = icmp_ne  i18 %trunc_ln727_1, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_1"/></StgValue>
@@ -7017,10 +7017,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="669" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:223 %add_ln415_2 = add i36 %trunc_ln717_1, i36 %zext_ln415_1
+._crit_edge_ifconv:223 %add_ln415_1 = add i36 %trunc_ln717_1, i36 %zext_ln415_1
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_2"/></StgValue>
+<StgValue><ssdm name="add_ln415_1"/></StgValue>
 </operation>
 
 <operation id="472" st_id="7" stage="1" lat="2">
@@ -7033,7 +7033,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="672" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:226 %mul_ln1171_2 = mul i55 %sext_ln1171_6, i55 %sext_ln1171_5
+._crit_edge_ifconv:226 %mul_ln1171_2 = mul i55 %sext_ln1171_5, i55 %sext_ln1171_4
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_2"/></StgValue>
@@ -7049,10 +7049,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="678" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:232 %trunc_ln727_3 = trunc i55 %mul_ln1171_2
+._crit_edge_ifconv:232 %trunc_ln727_2 = trunc i55 %mul_ln1171_2
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_3"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_2"/></StgValue>
 </operation>
 
 <operation id="474" st_id="7" stage="1" lat="1">
@@ -7065,10 +7065,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="684" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:238 %sext_ln1171_7 = sext i36 %select_ln232_12
+._crit_edge_ifconv:238 %sext_ln1171_6 = sext i36 %select_ln232_12
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_7"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_6"/></StgValue>
 </operation>
 
 <operation id="475" st_id="7" stage="1" lat="1">
@@ -7081,10 +7081,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="685" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:239 %sext_ln1171_8 = sext i36 %kr_V_3_05235_load
+._crit_edge_ifconv:239 %sext_ln1171_7 = sext i36 %kr_V_3_05235_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_8"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_7"/></StgValue>
 </operation>
 
 <operation id="476" st_id="7" stage="2" lat="2">
@@ -7097,7 +7097,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="686" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:240 %mul_ln1171_3 = mul i55 %sext_ln1171_8, i55 %sext_ln1171_7
+._crit_edge_ifconv:240 %mul_ln1171_3 = mul i55 %sext_ln1171_7, i55 %sext_ln1171_6
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_3"/></StgValue>
@@ -7427,7 +7427,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="673" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:227 %shl_ln737_2 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_2, i19 0
+._crit_edge_ifconv:227 %shl_ln737_2 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_1, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_2"/></StgValue>
@@ -7507,7 +7507,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="679" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:233 %icmp_ln727_2 = icmp_ne  i18 %trunc_ln727_3, i18 0
+._crit_edge_ifconv:233 %icmp_ln727_2 = icmp_ne  i18 %trunc_ln727_2, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_2"/></StgValue>
@@ -7571,10 +7571,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="683" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:237 %add_ln415_3 = add i36 %trunc_ln717_2, i36 %zext_ln415_2
+._crit_edge_ifconv:237 %add_ln415_2 = add i36 %trunc_ln717_2, i36 %zext_ln415_2
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_3"/></StgValue>
+<StgValue><ssdm name="add_ln415_2"/></StgValue>
 </operation>
 
 <operation id="506" st_id="8" stage="1" lat="2">
@@ -7587,7 +7587,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="686" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:240 %mul_ln1171_3 = mul i55 %sext_ln1171_8, i55 %sext_ln1171_7
+._crit_edge_ifconv:240 %mul_ln1171_3 = mul i55 %sext_ln1171_7, i55 %sext_ln1171_6
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_3"/></StgValue>
@@ -7603,10 +7603,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="692" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:246 %trunc_ln727_4 = trunc i55 %mul_ln1171_3
+._crit_edge_ifconv:246 %trunc_ln727_3 = trunc i55 %mul_ln1171_3
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_4"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_3"/></StgValue>
 </operation>
 
 <operation id="508" st_id="8" stage="1" lat="1">
@@ -7619,10 +7619,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="698" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:252 %sext_ln1171_9 = sext i36 %select_ln232_11
+._crit_edge_ifconv:252 %sext_ln1171_8 = sext i36 %select_ln232_11
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_9"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_8"/></StgValue>
 </operation>
 
 <operation id="509" st_id="8" stage="1" lat="1">
@@ -7635,10 +7635,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="699" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:253 %sext_ln1171_10 = sext i36 %kr_V_4_05236_load
+._crit_edge_ifconv:253 %sext_ln1171_9 = sext i36 %kr_V_4_05236_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_10"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_9"/></StgValue>
 </operation>
 
 <operation id="510" st_id="8" stage="2" lat="2">
@@ -7651,7 +7651,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="700" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:254 %mul_ln1171_4 = mul i55 %sext_ln1171_10, i55 %sext_ln1171_9
+._crit_edge_ifconv:254 %mul_ln1171_4 = mul i55 %sext_ln1171_9, i55 %sext_ln1171_8
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_4"/></StgValue>
@@ -7964,7 +7964,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="687" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:241 %shl_ln737_3 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_3, i19 0
+._crit_edge_ifconv:241 %shl_ln737_3 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_2, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_3"/></StgValue>
@@ -8044,7 +8044,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="693" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:247 %icmp_ln727_3 = icmp_ne  i18 %trunc_ln727_4, i18 0
+._crit_edge_ifconv:247 %icmp_ln727_3 = icmp_ne  i18 %trunc_ln727_3, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_3"/></StgValue>
@@ -8108,10 +8108,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="697" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:251 %add_ln415_4 = add i36 %trunc_ln717_3, i36 %zext_ln415_3
+._crit_edge_ifconv:251 %add_ln415_3 = add i36 %trunc_ln717_3, i36 %zext_ln415_3
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_4"/></StgValue>
+<StgValue><ssdm name="add_ln415_3"/></StgValue>
 </operation>
 
 <operation id="539" st_id="9" stage="1" lat="2">
@@ -8124,7 +8124,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="700" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:254 %mul_ln1171_4 = mul i55 %sext_ln1171_10, i55 %sext_ln1171_9
+._crit_edge_ifconv:254 %mul_ln1171_4 = mul i55 %sext_ln1171_9, i55 %sext_ln1171_8
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_4"/></StgValue>
@@ -8140,10 +8140,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="706" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:260 %trunc_ln727_5 = trunc i55 %mul_ln1171_4
+._crit_edge_ifconv:260 %trunc_ln727_4 = trunc i55 %mul_ln1171_4
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_5"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_4"/></StgValue>
 </operation>
 
 <operation id="541" st_id="9" stage="1" lat="1">
@@ -8156,10 +8156,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="712" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:266 %sext_ln1171_11 = sext i36 %select_ln232_10
+._crit_edge_ifconv:266 %sext_ln1171_10 = sext i36 %select_ln232_10
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_11"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_10"/></StgValue>
 </operation>
 
 <operation id="542" st_id="9" stage="1" lat="1">
@@ -8172,10 +8172,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="713" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:267 %sext_ln1171_12 = sext i36 %kr_V_5_05237_load
+._crit_edge_ifconv:267 %sext_ln1171_11 = sext i36 %kr_V_5_05237_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_12"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_11"/></StgValue>
 </operation>
 
 <operation id="543" st_id="9" stage="2" lat="2">
@@ -8188,7 +8188,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="714" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:268 %mul_ln1171_5 = mul i55 %sext_ln1171_12, i55 %sext_ln1171_11
+._crit_edge_ifconv:268 %mul_ln1171_5 = mul i55 %sext_ln1171_11, i55 %sext_ln1171_10
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_5"/></StgValue>
@@ -8746,7 +8746,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="701" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:255 %shl_ln737_4 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_4, i19 0
+._crit_edge_ifconv:255 %shl_ln737_4 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_3, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_4"/></StgValue>
@@ -8826,7 +8826,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="707" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:261 %icmp_ln727_4 = icmp_ne  i18 %trunc_ln727_5, i18 0
+._crit_edge_ifconv:261 %icmp_ln727_4 = icmp_ne  i18 %trunc_ln727_4, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_4"/></StgValue>
@@ -8890,10 +8890,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="711" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:265 %add_ln415_5 = add i36 %trunc_ln717_4, i36 %zext_ln415_4
+._crit_edge_ifconv:265 %add_ln415_4 = add i36 %trunc_ln717_4, i36 %zext_ln415_4
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_5"/></StgValue>
+<StgValue><ssdm name="add_ln415_4"/></StgValue>
 </operation>
 
 <operation id="587" st_id="10" stage="1" lat="2">
@@ -8906,7 +8906,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="714" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:268 %mul_ln1171_5 = mul i55 %sext_ln1171_12, i55 %sext_ln1171_11
+._crit_edge_ifconv:268 %mul_ln1171_5 = mul i55 %sext_ln1171_11, i55 %sext_ln1171_10
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_5"/></StgValue>
@@ -8922,10 +8922,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="720" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:274 %trunc_ln727_6 = trunc i55 %mul_ln1171_5
+._crit_edge_ifconv:274 %trunc_ln727_5 = trunc i55 %mul_ln1171_5
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_6"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_5"/></StgValue>
 </operation>
 
 <operation id="589" st_id="10" stage="1" lat="1">
@@ -8938,10 +8938,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="726" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:280 %sext_ln1171_13 = sext i36 %select_ln232_9
+._crit_edge_ifconv:280 %sext_ln1171_12 = sext i36 %select_ln232_9
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_13"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_12"/></StgValue>
 </operation>
 
 <operation id="590" st_id="10" stage="1" lat="1">
@@ -8954,10 +8954,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="727" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:281 %sext_ln1171_14 = sext i36 %kr_V_6_05238_load
+._crit_edge_ifconv:281 %sext_ln1171_13 = sext i36 %kr_V_6_05238_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_14"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_13"/></StgValue>
 </operation>
 
 <operation id="591" st_id="10" stage="2" lat="2">
@@ -8970,7 +8970,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="728" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:282 %mul_ln1171_6 = mul i55 %sext_ln1171_14, i55 %sext_ln1171_13
+._crit_edge_ifconv:282 %mul_ln1171_6 = mul i55 %sext_ln1171_13, i55 %sext_ln1171_12
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_6"/></StgValue>
@@ -9259,7 +9259,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="715" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:269 %shl_ln737_5 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_5, i19 0
+._crit_edge_ifconv:269 %shl_ln737_5 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_4, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_5"/></StgValue>
@@ -9334,7 +9334,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="721" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:275 %icmp_ln727_5 = icmp_ne  i18 %trunc_ln727_6, i18 0
+._crit_edge_ifconv:275 %icmp_ln727_5 = icmp_ne  i18 %trunc_ln727_5, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_5"/></StgValue>
@@ -9394,10 +9394,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="725" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:279 %add_ln415_6 = add i36 %trunc_ln717_5, i36 %zext_ln415_5
+._crit_edge_ifconv:279 %add_ln415_5 = add i36 %trunc_ln717_5, i36 %zext_ln415_5
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_6"/></StgValue>
+<StgValue><ssdm name="add_ln415_5"/></StgValue>
 </operation>
 
 <operation id="619" st_id="11" stage="1" lat="2">
@@ -9409,7 +9409,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="728" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:282 %mul_ln1171_6 = mul i55 %sext_ln1171_14, i55 %sext_ln1171_13
+._crit_edge_ifconv:282 %mul_ln1171_6 = mul i55 %sext_ln1171_13, i55 %sext_ln1171_12
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_6"/></StgValue>
@@ -9424,10 +9424,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="734" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:288 %trunc_ln727_7 = trunc i55 %mul_ln1171_6
+._crit_edge_ifconv:288 %trunc_ln727_6 = trunc i55 %mul_ln1171_6
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_7"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_6"/></StgValue>
 </operation>
 
 <operation id="621" st_id="11" stage="1" lat="1">
@@ -9439,10 +9439,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="740" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:294 %sext_ln1171_15 = sext i36 %select_ln232_8
+._crit_edge_ifconv:294 %sext_ln1171_14 = sext i36 %select_ln232_8
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_15"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_14"/></StgValue>
 </operation>
 
 <operation id="622" st_id="11" stage="1" lat="1">
@@ -9454,10 +9454,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="741" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:295 %sext_ln1171_16 = sext i36 %kr_V_7_05239_load
+._crit_edge_ifconv:295 %sext_ln1171_15 = sext i36 %kr_V_7_05239_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_16"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_15"/></StgValue>
 </operation>
 
 <operation id="623" st_id="11" stage="2" lat="2">
@@ -9469,7 +9469,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="742" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:296 %mul_ln1171_7 = mul i55 %sext_ln1171_16, i55 %sext_ln1171_15
+._crit_edge_ifconv:296 %mul_ln1171_7 = mul i55 %sext_ln1171_15, i55 %sext_ln1171_14
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_7"/></StgValue>
@@ -9582,7 +9582,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="729" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:283 %shl_ln737_6 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_6, i19 0
+._crit_edge_ifconv:283 %shl_ln737_6 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_5, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_6"/></StgValue>
@@ -9657,7 +9657,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="735" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:289 %icmp_ln727_6 = icmp_ne  i18 %trunc_ln727_7, i18 0
+._crit_edge_ifconv:289 %icmp_ln727_6 = icmp_ne  i18 %trunc_ln727_6, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_6"/></StgValue>
@@ -9717,10 +9717,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="739" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:293 %add_ln415_7 = add i36 %trunc_ln717_6, i36 %zext_ln415_6
+._crit_edge_ifconv:293 %add_ln415_6 = add i36 %trunc_ln717_6, i36 %zext_ln415_6
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_7"/></StgValue>
+<StgValue><ssdm name="add_ln415_6"/></StgValue>
 </operation>
 
 <operation id="640" st_id="12" stage="1" lat="2">
@@ -9732,7 +9732,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="742" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:296 %mul_ln1171_7 = mul i55 %sext_ln1171_16, i55 %sext_ln1171_15
+._crit_edge_ifconv:296 %mul_ln1171_7 = mul i55 %sext_ln1171_15, i55 %sext_ln1171_14
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_7"/></StgValue>
@@ -9747,10 +9747,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="748" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:302 %trunc_ln727_8 = trunc i55 %mul_ln1171_7
+._crit_edge_ifconv:302 %trunc_ln727_7 = trunc i55 %mul_ln1171_7
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_8"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_7"/></StgValue>
 </operation>
 
 <operation id="642" st_id="12" stage="1" lat="1">
@@ -9762,10 +9762,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="754" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:308 %sext_ln1171_17 = sext i36 %tmp1_V_8_1
+._crit_edge_ifconv:308 %sext_ln1171_16 = sext i36 %tmp1_V_8_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_17"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_16"/></StgValue>
 </operation>
 
 <operation id="643" st_id="12" stage="1" lat="1">
@@ -9777,10 +9777,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="755" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:309 %sext_ln1171_18 = sext i36 %kr_V_8_05240_load
+._crit_edge_ifconv:309 %sext_ln1171_17 = sext i36 %kr_V_8_05240_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_18"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_17"/></StgValue>
 </operation>
 
 <operation id="644" st_id="12" stage="2" lat="2">
@@ -9792,7 +9792,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="756" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:310 %mul_ln1171_8 = mul i55 %sext_ln1171_18, i55 %sext_ln1171_17
+._crit_edge_ifconv:310 %mul_ln1171_8 = mul i55 %sext_ln1171_17, i55 %sext_ln1171_16
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_8"/></StgValue>
@@ -9905,7 +9905,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="743" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:297 %shl_ln737_7 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_7, i19 0
+._crit_edge_ifconv:297 %shl_ln737_7 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_6, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_7"/></StgValue>
@@ -9980,7 +9980,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="749" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:303 %icmp_ln727_7 = icmp_ne  i18 %trunc_ln727_8, i18 0
+._crit_edge_ifconv:303 %icmp_ln727_7 = icmp_ne  i18 %trunc_ln727_7, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_7"/></StgValue>
@@ -10040,10 +10040,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="753" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:307 %add_ln415_8 = add i36 %trunc_ln717_7, i36 %zext_ln415_7
+._crit_edge_ifconv:307 %add_ln415_7 = add i36 %trunc_ln717_7, i36 %zext_ln415_7
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_8"/></StgValue>
+<StgValue><ssdm name="add_ln415_7"/></StgValue>
 </operation>
 
 <operation id="661" st_id="13" stage="1" lat="2">
@@ -10055,7 +10055,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="756" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:310 %mul_ln1171_8 = mul i55 %sext_ln1171_18, i55 %sext_ln1171_17
+._crit_edge_ifconv:310 %mul_ln1171_8 = mul i55 %sext_ln1171_17, i55 %sext_ln1171_16
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_8"/></StgValue>
@@ -10070,10 +10070,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="762" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:316 %trunc_ln727_9 = trunc i55 %mul_ln1171_8
+._crit_edge_ifconv:316 %trunc_ln727_8 = trunc i55 %mul_ln1171_8
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_9"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_8"/></StgValue>
 </operation>
 
 <operation id="663" st_id="13" stage="1" lat="1">
@@ -10085,10 +10085,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="768" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:322 %sext_ln1171_19 = sext i36 %tmp1_V_9_1
+._crit_edge_ifconv:322 %sext_ln1171_18 = sext i36 %tmp1_V_9_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_19"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_18"/></StgValue>
 </operation>
 
 <operation id="664" st_id="13" stage="1" lat="1">
@@ -10100,10 +10100,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="769" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:323 %sext_ln1171_20 = sext i36 %kr_V_9_05241_load
+._crit_edge_ifconv:323 %sext_ln1171_19 = sext i36 %kr_V_9_05241_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_20"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_19"/></StgValue>
 </operation>
 
 <operation id="665" st_id="13" stage="2" lat="2">
@@ -10115,7 +10115,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="770" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:324 %mul_ln1171_9 = mul i55 %sext_ln1171_20, i55 %sext_ln1171_19
+._crit_edge_ifconv:324 %mul_ln1171_9 = mul i55 %sext_ln1171_19, i55 %sext_ln1171_18
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_9"/></StgValue>
@@ -10228,7 +10228,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="757" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:311 %shl_ln737_8 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_8, i19 0
+._crit_edge_ifconv:311 %shl_ln737_8 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_7, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_8"/></StgValue>
@@ -10303,7 +10303,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="763" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:317 %icmp_ln727_8 = icmp_ne  i18 %trunc_ln727_9, i18 0
+._crit_edge_ifconv:317 %icmp_ln727_8 = icmp_ne  i18 %trunc_ln727_8, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_8"/></StgValue>
@@ -10363,10 +10363,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="767" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:321 %add_ln415_9 = add i36 %trunc_ln717_8, i36 %zext_ln415_8
+._crit_edge_ifconv:321 %add_ln415_8 = add i36 %trunc_ln717_8, i36 %zext_ln415_8
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_9"/></StgValue>
+<StgValue><ssdm name="add_ln415_8"/></StgValue>
 </operation>
 
 <operation id="682" st_id="14" stage="1" lat="2">
@@ -10378,7 +10378,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="770" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:324 %mul_ln1171_9 = mul i55 %sext_ln1171_20, i55 %sext_ln1171_19
+._crit_edge_ifconv:324 %mul_ln1171_9 = mul i55 %sext_ln1171_19, i55 %sext_ln1171_18
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_9"/></StgValue>
@@ -10393,10 +10393,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="776" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:330 %trunc_ln727_10 = trunc i55 %mul_ln1171_9
+._crit_edge_ifconv:330 %trunc_ln727_9 = trunc i55 %mul_ln1171_9
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_10"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_9"/></StgValue>
 </operation>
 
 <operation id="684" st_id="14" stage="1" lat="1">
@@ -10408,10 +10408,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="782" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:336 %sext_ln1171_21 = sext i36 %tmp1_V_10_1
+._crit_edge_ifconv:336 %sext_ln1171_20 = sext i36 %tmp1_V_10_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_21"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_20"/></StgValue>
 </operation>
 
 <operation id="685" st_id="14" stage="1" lat="1">
@@ -10423,10 +10423,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="783" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:337 %sext_ln1171_22 = sext i36 %kr_V_10_05242_load
+._crit_edge_ifconv:337 %sext_ln1171_21 = sext i36 %kr_V_10_05242_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_22"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_21"/></StgValue>
 </operation>
 
 <operation id="686" st_id="14" stage="2" lat="2">
@@ -10438,7 +10438,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="784" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:338 %mul_ln1171_10 = mul i55 %sext_ln1171_22, i55 %sext_ln1171_21
+._crit_edge_ifconv:338 %mul_ln1171_10 = mul i55 %sext_ln1171_21, i55 %sext_ln1171_20
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_10"/></StgValue>
@@ -10551,7 +10551,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="771" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:325 %shl_ln737_9 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_9, i19 0
+._crit_edge_ifconv:325 %shl_ln737_9 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_8, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_9"/></StgValue>
@@ -10626,7 +10626,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="777" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:331 %icmp_ln727_9 = icmp_ne  i18 %trunc_ln727_10, i18 0
+._crit_edge_ifconv:331 %icmp_ln727_9 = icmp_ne  i18 %trunc_ln727_9, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_9"/></StgValue>
@@ -10686,10 +10686,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="781" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:335 %add_ln415_10 = add i36 %trunc_ln717_9, i36 %zext_ln415_9
+._crit_edge_ifconv:335 %add_ln415_9 = add i36 %trunc_ln717_9, i36 %zext_ln415_9
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_10"/></StgValue>
+<StgValue><ssdm name="add_ln415_9"/></StgValue>
 </operation>
 
 <operation id="703" st_id="15" stage="1" lat="2">
@@ -10701,7 +10701,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="784" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:338 %mul_ln1171_10 = mul i55 %sext_ln1171_22, i55 %sext_ln1171_21
+._crit_edge_ifconv:338 %mul_ln1171_10 = mul i55 %sext_ln1171_21, i55 %sext_ln1171_20
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_10"/></StgValue>
@@ -10716,10 +10716,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="790" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:344 %trunc_ln727_11 = trunc i55 %mul_ln1171_10
+._crit_edge_ifconv:344 %trunc_ln727_10 = trunc i55 %mul_ln1171_10
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_11"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_10"/></StgValue>
 </operation>
 
 <operation id="705" st_id="15" stage="1" lat="1">
@@ -10731,10 +10731,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="796" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:350 %sext_ln1171_23 = sext i36 %tmp1_V_11_1
+._crit_edge_ifconv:350 %sext_ln1171_22 = sext i36 %tmp1_V_11_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_23"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_22"/></StgValue>
 </operation>
 
 <operation id="706" st_id="15" stage="1" lat="1">
@@ -10746,10 +10746,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="797" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:351 %sext_ln1171_24 = sext i36 %kr_V_11_05243_load
+._crit_edge_ifconv:351 %sext_ln1171_23 = sext i36 %kr_V_11_05243_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_24"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_23"/></StgValue>
 </operation>
 
 <operation id="707" st_id="15" stage="2" lat="2">
@@ -10761,7 +10761,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="798" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:352 %mul_ln1171_11 = mul i55 %sext_ln1171_24, i55 %sext_ln1171_23
+._crit_edge_ifconv:352 %mul_ln1171_11 = mul i55 %sext_ln1171_23, i55 %sext_ln1171_22
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_11"/></StgValue>
@@ -10874,7 +10874,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="785" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:339 %shl_ln737_s = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_10, i19 0
+._crit_edge_ifconv:339 %shl_ln737_s = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_9, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_s"/></StgValue>
@@ -10949,7 +10949,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="791" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:345 %icmp_ln727_10 = icmp_ne  i18 %trunc_ln727_11, i18 0
+._crit_edge_ifconv:345 %icmp_ln727_10 = icmp_ne  i18 %trunc_ln727_10, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_10"/></StgValue>
@@ -11009,10 +11009,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="795" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:349 %add_ln415_11 = add i36 %trunc_ln717_s, i36 %zext_ln415_10
+._crit_edge_ifconv:349 %add_ln415_10 = add i36 %trunc_ln717_s, i36 %zext_ln415_10
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_11"/></StgValue>
+<StgValue><ssdm name="add_ln415_10"/></StgValue>
 </operation>
 
 <operation id="724" st_id="16" stage="1" lat="2">
@@ -11024,7 +11024,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="798" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:352 %mul_ln1171_11 = mul i55 %sext_ln1171_24, i55 %sext_ln1171_23
+._crit_edge_ifconv:352 %mul_ln1171_11 = mul i55 %sext_ln1171_23, i55 %sext_ln1171_22
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_11"/></StgValue>
@@ -11039,10 +11039,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="804" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:358 %trunc_ln727_12 = trunc i55 %mul_ln1171_11
+._crit_edge_ifconv:358 %trunc_ln727_11 = trunc i55 %mul_ln1171_11
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_12"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_11"/></StgValue>
 </operation>
 
 <operation id="726" st_id="16" stage="1" lat="1">
@@ -11054,10 +11054,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="810" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:364 %sext_ln1171_25 = sext i36 %tmp1_V_12_1
+._crit_edge_ifconv:364 %sext_ln1171_24 = sext i36 %tmp1_V_12_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_25"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_24"/></StgValue>
 </operation>
 
 <operation id="727" st_id="16" stage="1" lat="1">
@@ -11069,10 +11069,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="811" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:365 %sext_ln1171_26 = sext i36 %kr_V_12_05244_load
+._crit_edge_ifconv:365 %sext_ln1171_25 = sext i36 %kr_V_12_05244_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_26"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_25"/></StgValue>
 </operation>
 
 <operation id="728" st_id="16" stage="2" lat="2">
@@ -11084,7 +11084,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="812" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:366 %mul_ln1171_12 = mul i55 %sext_ln1171_26, i55 %sext_ln1171_25
+._crit_edge_ifconv:366 %mul_ln1171_12 = mul i55 %sext_ln1171_25, i55 %sext_ln1171_24
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_12"/></StgValue>
@@ -11197,7 +11197,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="799" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:353 %shl_ln737_10 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_11, i19 0
+._crit_edge_ifconv:353 %shl_ln737_10 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_10, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_10"/></StgValue>
@@ -11272,7 +11272,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="805" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:359 %icmp_ln727_11 = icmp_ne  i18 %trunc_ln727_12, i18 0
+._crit_edge_ifconv:359 %icmp_ln727_11 = icmp_ne  i18 %trunc_ln727_11, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_11"/></StgValue>
@@ -11332,10 +11332,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="809" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:363 %add_ln415_12 = add i36 %trunc_ln717_10, i36 %zext_ln415_11
+._crit_edge_ifconv:363 %add_ln415_11 = add i36 %trunc_ln717_10, i36 %zext_ln415_11
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_12"/></StgValue>
+<StgValue><ssdm name="add_ln415_11"/></StgValue>
 </operation>
 
 <operation id="745" st_id="17" stage="1" lat="2">
@@ -11347,7 +11347,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="812" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:366 %mul_ln1171_12 = mul i55 %sext_ln1171_26, i55 %sext_ln1171_25
+._crit_edge_ifconv:366 %mul_ln1171_12 = mul i55 %sext_ln1171_25, i55 %sext_ln1171_24
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_12"/></StgValue>
@@ -11362,10 +11362,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="818" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:372 %trunc_ln727_13 = trunc i55 %mul_ln1171_12
+._crit_edge_ifconv:372 %trunc_ln727_12 = trunc i55 %mul_ln1171_12
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_13"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_12"/></StgValue>
 </operation>
 
 <operation id="747" st_id="17" stage="1" lat="1">
@@ -11377,10 +11377,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="824" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:378 %sext_ln1171_27 = sext i36 %tmp1_V_13_1
+._crit_edge_ifconv:378 %sext_ln1171_26 = sext i36 %tmp1_V_13_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_27"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_26"/></StgValue>
 </operation>
 
 <operation id="748" st_id="17" stage="1" lat="1">
@@ -11392,10 +11392,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="825" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:379 %sext_ln1171_28 = sext i36 %kr_V_13_05245_load
+._crit_edge_ifconv:379 %sext_ln1171_27 = sext i36 %kr_V_13_05245_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_28"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_27"/></StgValue>
 </operation>
 
 <operation id="749" st_id="17" stage="2" lat="2">
@@ -11407,7 +11407,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="826" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:380 %mul_ln1171_13 = mul i55 %sext_ln1171_28, i55 %sext_ln1171_27
+._crit_edge_ifconv:380 %mul_ln1171_13 = mul i55 %sext_ln1171_27, i55 %sext_ln1171_26
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_13"/></StgValue>
@@ -11520,7 +11520,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="813" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:367 %shl_ln737_11 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_12, i19 0
+._crit_edge_ifconv:367 %shl_ln737_11 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_11, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_11"/></StgValue>
@@ -11595,7 +11595,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="819" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:373 %icmp_ln727_12 = icmp_ne  i18 %trunc_ln727_13, i18 0
+._crit_edge_ifconv:373 %icmp_ln727_12 = icmp_ne  i18 %trunc_ln727_12, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_12"/></StgValue>
@@ -11655,10 +11655,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="823" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:377 %add_ln415_13 = add i36 %trunc_ln717_11, i36 %zext_ln415_12
+._crit_edge_ifconv:377 %add_ln415_12 = add i36 %trunc_ln717_11, i36 %zext_ln415_12
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_13"/></StgValue>
+<StgValue><ssdm name="add_ln415_12"/></StgValue>
 </operation>
 
 <operation id="766" st_id="18" stage="1" lat="2">
@@ -11670,7 +11670,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="826" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:380 %mul_ln1171_13 = mul i55 %sext_ln1171_28, i55 %sext_ln1171_27
+._crit_edge_ifconv:380 %mul_ln1171_13 = mul i55 %sext_ln1171_27, i55 %sext_ln1171_26
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_13"/></StgValue>
@@ -11685,10 +11685,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="832" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:386 %trunc_ln727_14 = trunc i55 %mul_ln1171_13
+._crit_edge_ifconv:386 %trunc_ln727_13 = trunc i55 %mul_ln1171_13
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_14"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_13"/></StgValue>
 </operation>
 
 <operation id="768" st_id="18" stage="1" lat="1">
@@ -11700,10 +11700,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="838" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:392 %sext_ln1171_29 = sext i36 %tmp1_V_14_1
+._crit_edge_ifconv:392 %sext_ln1171_28 = sext i36 %tmp1_V_14_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_29"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_28"/></StgValue>
 </operation>
 
 <operation id="769" st_id="18" stage="1" lat="1">
@@ -11715,10 +11715,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="839" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:393 %sext_ln1171_30 = sext i36 %kr_V_14_05246_load
+._crit_edge_ifconv:393 %sext_ln1171_29 = sext i36 %kr_V_14_05246_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_30"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_29"/></StgValue>
 </operation>
 
 <operation id="770" st_id="18" stage="2" lat="2">
@@ -11730,7 +11730,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="840" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:394 %mul_ln1171_14 = mul i55 %sext_ln1171_30, i55 %sext_ln1171_29
+._crit_edge_ifconv:394 %mul_ln1171_14 = mul i55 %sext_ln1171_29, i55 %sext_ln1171_28
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_14"/></StgValue>
@@ -11843,7 +11843,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="827" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:381 %shl_ln737_12 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_13, i19 0
+._crit_edge_ifconv:381 %shl_ln737_12 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_12, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_12"/></StgValue>
@@ -11918,7 +11918,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="833" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:387 %icmp_ln727_13 = icmp_ne  i18 %trunc_ln727_14, i18 0
+._crit_edge_ifconv:387 %icmp_ln727_13 = icmp_ne  i18 %trunc_ln727_13, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_13"/></StgValue>
@@ -11978,10 +11978,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="837" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:391 %add_ln415_14 = add i36 %trunc_ln717_12, i36 %zext_ln415_13
+._crit_edge_ifconv:391 %add_ln415_13 = add i36 %trunc_ln717_12, i36 %zext_ln415_13
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_14"/></StgValue>
+<StgValue><ssdm name="add_ln415_13"/></StgValue>
 </operation>
 
 <operation id="787" st_id="19" stage="1" lat="2">
@@ -11993,7 +11993,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="840" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:394 %mul_ln1171_14 = mul i55 %sext_ln1171_30, i55 %sext_ln1171_29
+._crit_edge_ifconv:394 %mul_ln1171_14 = mul i55 %sext_ln1171_29, i55 %sext_ln1171_28
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_14"/></StgValue>
@@ -12008,10 +12008,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="846" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:400 %trunc_ln727_15 = trunc i55 %mul_ln1171_14
+._crit_edge_ifconv:400 %trunc_ln727_14 = trunc i55 %mul_ln1171_14
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_15"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_14"/></StgValue>
 </operation>
 
 <operation id="789" st_id="19" stage="1" lat="1">
@@ -12023,10 +12023,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="852" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:406 %sext_ln1171_31 = sext i36 %tmp1_V_15_1
+._crit_edge_ifconv:406 %sext_ln1171_30 = sext i36 %tmp1_V_15_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_31"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_30"/></StgValue>
 </operation>
 
 <operation id="790" st_id="19" stage="1" lat="1">
@@ -12038,10 +12038,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="853" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:407 %sext_ln1171_32 = sext i36 %kr_V_15_05247_load
+._crit_edge_ifconv:407 %sext_ln1171_31 = sext i36 %kr_V_15_05247_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_32"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_31"/></StgValue>
 </operation>
 
 <operation id="791" st_id="19" stage="2" lat="2">
@@ -12053,7 +12053,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="854" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:408 %mul_ln1171_15 = mul i55 %sext_ln1171_32, i55 %sext_ln1171_31
+._crit_edge_ifconv:408 %mul_ln1171_15 = mul i55 %sext_ln1171_31, i55 %sext_ln1171_30
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_15"/></StgValue>
@@ -12166,7 +12166,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="841" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:395 %shl_ln737_13 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_14, i19 0
+._crit_edge_ifconv:395 %shl_ln737_13 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_13, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_13"/></StgValue>
@@ -12241,7 +12241,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="847" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:401 %icmp_ln727_14 = icmp_ne  i18 %trunc_ln727_15, i18 0
+._crit_edge_ifconv:401 %icmp_ln727_14 = icmp_ne  i18 %trunc_ln727_14, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_14"/></StgValue>
@@ -12301,10 +12301,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="851" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:405 %add_ln415_15 = add i36 %trunc_ln717_13, i36 %zext_ln415_14
+._crit_edge_ifconv:405 %add_ln415_14 = add i36 %trunc_ln717_13, i36 %zext_ln415_14
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_15"/></StgValue>
+<StgValue><ssdm name="add_ln415_14"/></StgValue>
 </operation>
 
 <operation id="808" st_id="20" stage="1" lat="2">
@@ -12316,7 +12316,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="854" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:408 %mul_ln1171_15 = mul i55 %sext_ln1171_32, i55 %sext_ln1171_31
+._crit_edge_ifconv:408 %mul_ln1171_15 = mul i55 %sext_ln1171_31, i55 %sext_ln1171_30
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_15"/></StgValue>
@@ -12331,10 +12331,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="860" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:414 %trunc_ln727_16 = trunc i55 %mul_ln1171_15
+._crit_edge_ifconv:414 %trunc_ln727_15 = trunc i55 %mul_ln1171_15
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_16"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_15"/></StgValue>
 </operation>
 
 <operation id="810" st_id="20" stage="1" lat="1">
@@ -12346,10 +12346,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="866" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:420 %sext_ln1171_33 = sext i36 %select_ln232_7
+._crit_edge_ifconv:420 %sext_ln1171_32 = sext i36 %select_ln232_7
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_33"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_32"/></StgValue>
 </operation>
 
 <operation id="811" st_id="20" stage="1" lat="1">
@@ -12361,10 +12361,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="867" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:421 %sext_ln1171_34 = sext i36 %kr_V_16_05248_load
+._crit_edge_ifconv:421 %sext_ln1171_33 = sext i36 %kr_V_16_05248_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_34"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_33"/></StgValue>
 </operation>
 
 <operation id="812" st_id="20" stage="2" lat="2">
@@ -12376,7 +12376,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="868" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:422 %mul_ln1171_16 = mul i55 %sext_ln1171_34, i55 %sext_ln1171_33
+._crit_edge_ifconv:422 %mul_ln1171_16 = mul i55 %sext_ln1171_33, i55 %sext_ln1171_32
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_16"/></StgValue>
@@ -12489,7 +12489,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="855" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:409 %shl_ln737_14 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_15, i19 0
+._crit_edge_ifconv:409 %shl_ln737_14 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_14, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_14"/></StgValue>
@@ -12564,7 +12564,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="861" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:415 %icmp_ln727_15 = icmp_ne  i18 %trunc_ln727_16, i18 0
+._crit_edge_ifconv:415 %icmp_ln727_15 = icmp_ne  i18 %trunc_ln727_15, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_15"/></StgValue>
@@ -12624,10 +12624,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="865" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:419 %add_ln415_16 = add i36 %trunc_ln717_14, i36 %zext_ln415_15
+._crit_edge_ifconv:419 %add_ln415_15 = add i36 %trunc_ln717_14, i36 %zext_ln415_15
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_16"/></StgValue>
+<StgValue><ssdm name="add_ln415_15"/></StgValue>
 </operation>
 
 <operation id="829" st_id="21" stage="1" lat="2">
@@ -12639,7 +12639,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="868" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:422 %mul_ln1171_16 = mul i55 %sext_ln1171_34, i55 %sext_ln1171_33
+._crit_edge_ifconv:422 %mul_ln1171_16 = mul i55 %sext_ln1171_33, i55 %sext_ln1171_32
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_16"/></StgValue>
@@ -12654,10 +12654,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="874" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:428 %trunc_ln727_17 = trunc i55 %mul_ln1171_16
+._crit_edge_ifconv:428 %trunc_ln727_16 = trunc i55 %mul_ln1171_16
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_17"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_16"/></StgValue>
 </operation>
 
 <operation id="831" st_id="21" stage="1" lat="1">
@@ -12669,10 +12669,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="880" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:434 %sext_ln1171_35 = sext i36 %select_ln232_6
+._crit_edge_ifconv:434 %sext_ln1171_34 = sext i36 %select_ln232_6
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_35"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_34"/></StgValue>
 </operation>
 
 <operation id="832" st_id="21" stage="1" lat="1">
@@ -12684,10 +12684,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="881" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:435 %sext_ln1171_36 = sext i36 %kr_V_17_05249_load
+._crit_edge_ifconv:435 %sext_ln1171_35 = sext i36 %kr_V_17_05249_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_36"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_35"/></StgValue>
 </operation>
 
 <operation id="833" st_id="21" stage="2" lat="2">
@@ -12699,7 +12699,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="882" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:436 %mul_ln1171_17 = mul i55 %sext_ln1171_36, i55 %sext_ln1171_35
+._crit_edge_ifconv:436 %mul_ln1171_17 = mul i55 %sext_ln1171_35, i55 %sext_ln1171_34
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_17"/></StgValue>
@@ -12812,7 +12812,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="869" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:423 %shl_ln737_15 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_16, i19 0
+._crit_edge_ifconv:423 %shl_ln737_15 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_15, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_15"/></StgValue>
@@ -12887,7 +12887,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="875" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:429 %icmp_ln727_16 = icmp_ne  i18 %trunc_ln727_17, i18 0
+._crit_edge_ifconv:429 %icmp_ln727_16 = icmp_ne  i18 %trunc_ln727_16, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_16"/></StgValue>
@@ -12947,10 +12947,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="879" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:433 %add_ln415_17 = add i36 %trunc_ln717_15, i36 %zext_ln415_16
+._crit_edge_ifconv:433 %add_ln415_16 = add i36 %trunc_ln717_15, i36 %zext_ln415_16
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_17"/></StgValue>
+<StgValue><ssdm name="add_ln415_16"/></StgValue>
 </operation>
 
 <operation id="850" st_id="22" stage="1" lat="2">
@@ -12962,7 +12962,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="882" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:436 %mul_ln1171_17 = mul i55 %sext_ln1171_36, i55 %sext_ln1171_35
+._crit_edge_ifconv:436 %mul_ln1171_17 = mul i55 %sext_ln1171_35, i55 %sext_ln1171_34
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_17"/></StgValue>
@@ -12977,10 +12977,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="888" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:442 %trunc_ln727_18 = trunc i55 %mul_ln1171_17
+._crit_edge_ifconv:442 %trunc_ln727_17 = trunc i55 %mul_ln1171_17
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_18"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_17"/></StgValue>
 </operation>
 
 <operation id="852" st_id="22" stage="1" lat="1">
@@ -12992,10 +12992,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="894" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:448 %sext_ln1171_37 = sext i36 %select_ln232_5
+._crit_edge_ifconv:448 %sext_ln1171_36 = sext i36 %select_ln232_5
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_37"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_36"/></StgValue>
 </operation>
 
 <operation id="853" st_id="22" stage="1" lat="1">
@@ -13007,10 +13007,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="895" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:449 %sext_ln1171_38 = sext i36 %kr_V_18_05250_load
+._crit_edge_ifconv:449 %sext_ln1171_37 = sext i36 %kr_V_18_05250_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_38"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_37"/></StgValue>
 </operation>
 
 <operation id="854" st_id="22" stage="2" lat="2">
@@ -13022,7 +13022,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="896" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:450 %mul_ln1171_18 = mul i55 %sext_ln1171_38, i55 %sext_ln1171_37
+._crit_edge_ifconv:450 %mul_ln1171_18 = mul i55 %sext_ln1171_37, i55 %sext_ln1171_36
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_18"/></StgValue>
@@ -13135,7 +13135,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="883" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:437 %shl_ln737_16 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_17, i19 0
+._crit_edge_ifconv:437 %shl_ln737_16 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_16, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_16"/></StgValue>
@@ -13210,7 +13210,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="889" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:443 %icmp_ln727_17 = icmp_ne  i18 %trunc_ln727_18, i18 0
+._crit_edge_ifconv:443 %icmp_ln727_17 = icmp_ne  i18 %trunc_ln727_17, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_17"/></StgValue>
@@ -13270,10 +13270,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="893" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:447 %add_ln415_18 = add i36 %trunc_ln717_16, i36 %zext_ln415_17
+._crit_edge_ifconv:447 %add_ln415_17 = add i36 %trunc_ln717_16, i36 %zext_ln415_17
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_18"/></StgValue>
+<StgValue><ssdm name="add_ln415_17"/></StgValue>
 </operation>
 
 <operation id="871" st_id="23" stage="1" lat="2">
@@ -13285,7 +13285,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="896" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:450 %mul_ln1171_18 = mul i55 %sext_ln1171_38, i55 %sext_ln1171_37
+._crit_edge_ifconv:450 %mul_ln1171_18 = mul i55 %sext_ln1171_37, i55 %sext_ln1171_36
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_18"/></StgValue>
@@ -13300,10 +13300,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="902" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:456 %trunc_ln727_19 = trunc i55 %mul_ln1171_18
+._crit_edge_ifconv:456 %trunc_ln727_18 = trunc i55 %mul_ln1171_18
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_19"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_18"/></StgValue>
 </operation>
 
 <operation id="873" st_id="23" stage="1" lat="1">
@@ -13315,10 +13315,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="908" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:462 %sext_ln1171_39 = sext i36 %select_ln232_4
+._crit_edge_ifconv:462 %sext_ln1171_38 = sext i36 %select_ln232_4
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_39"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_38"/></StgValue>
 </operation>
 
 <operation id="874" st_id="23" stage="1" lat="1">
@@ -13330,10 +13330,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="909" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:463 %sext_ln1171_40 = sext i36 %kr_V_19_05251_load
+._crit_edge_ifconv:463 %sext_ln1171_39 = sext i36 %kr_V_19_05251_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_40"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_39"/></StgValue>
 </operation>
 
 <operation id="875" st_id="23" stage="2" lat="2">
@@ -13345,7 +13345,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="910" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:464 %mul_ln1171_19 = mul i55 %sext_ln1171_40, i55 %sext_ln1171_39
+._crit_edge_ifconv:464 %mul_ln1171_19 = mul i55 %sext_ln1171_39, i55 %sext_ln1171_38
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_19"/></StgValue>
@@ -13458,7 +13458,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="897" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:451 %shl_ln737_17 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_18, i19 0
+._crit_edge_ifconv:451 %shl_ln737_17 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_17, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_17"/></StgValue>
@@ -13533,7 +13533,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="903" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:457 %icmp_ln727_18 = icmp_ne  i18 %trunc_ln727_19, i18 0
+._crit_edge_ifconv:457 %icmp_ln727_18 = icmp_ne  i18 %trunc_ln727_18, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_18"/></StgValue>
@@ -13593,10 +13593,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="907" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:461 %add_ln415_19 = add i36 %trunc_ln717_17, i36 %zext_ln415_18
+._crit_edge_ifconv:461 %add_ln415_18 = add i36 %trunc_ln717_17, i36 %zext_ln415_18
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_19"/></StgValue>
+<StgValue><ssdm name="add_ln415_18"/></StgValue>
 </operation>
 
 <operation id="892" st_id="24" stage="1" lat="2">
@@ -13608,7 +13608,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="910" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:464 %mul_ln1171_19 = mul i55 %sext_ln1171_40, i55 %sext_ln1171_39
+._crit_edge_ifconv:464 %mul_ln1171_19 = mul i55 %sext_ln1171_39, i55 %sext_ln1171_38
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_19"/></StgValue>
@@ -13623,10 +13623,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="916" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:470 %trunc_ln727_20 = trunc i55 %mul_ln1171_19
+._crit_edge_ifconv:470 %trunc_ln727_19 = trunc i55 %mul_ln1171_19
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_20"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_19"/></StgValue>
 </operation>
 
 <operation id="894" st_id="24" stage="1" lat="1">
@@ -13638,10 +13638,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="922" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:476 %sext_ln1171_41 = sext i36 %select_ln232_3
+._crit_edge_ifconv:476 %sext_ln1171_40 = sext i36 %select_ln232_3
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_41"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_40"/></StgValue>
 </operation>
 
 <operation id="895" st_id="24" stage="1" lat="1">
@@ -13653,10 +13653,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="923" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:477 %sext_ln1171_42 = sext i36 %kr_V_20_05252_load
+._crit_edge_ifconv:477 %sext_ln1171_41 = sext i36 %kr_V_20_05252_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_42"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_41"/></StgValue>
 </operation>
 
 <operation id="896" st_id="24" stage="2" lat="2">
@@ -13668,7 +13668,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="924" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:478 %mul_ln1171_20 = mul i55 %sext_ln1171_42, i55 %sext_ln1171_41
+._crit_edge_ifconv:478 %mul_ln1171_20 = mul i55 %sext_ln1171_41, i55 %sext_ln1171_40
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_20"/></StgValue>
@@ -13781,7 +13781,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="911" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:465 %shl_ln737_18 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_19, i19 0
+._crit_edge_ifconv:465 %shl_ln737_18 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_18, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_18"/></StgValue>
@@ -13856,7 +13856,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="917" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:471 %icmp_ln727_19 = icmp_ne  i18 %trunc_ln727_20, i18 0
+._crit_edge_ifconv:471 %icmp_ln727_19 = icmp_ne  i18 %trunc_ln727_19, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_19"/></StgValue>
@@ -13916,10 +13916,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="921" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:475 %add_ln415_20 = add i36 %trunc_ln717_18, i36 %zext_ln415_19
+._crit_edge_ifconv:475 %add_ln415_19 = add i36 %trunc_ln717_18, i36 %zext_ln415_19
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_20"/></StgValue>
+<StgValue><ssdm name="add_ln415_19"/></StgValue>
 </operation>
 
 <operation id="913" st_id="25" stage="1" lat="2">
@@ -13931,7 +13931,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="924" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:478 %mul_ln1171_20 = mul i55 %sext_ln1171_42, i55 %sext_ln1171_41
+._crit_edge_ifconv:478 %mul_ln1171_20 = mul i55 %sext_ln1171_41, i55 %sext_ln1171_40
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_20"/></StgValue>
@@ -13946,10 +13946,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="930" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:484 %trunc_ln727_21 = trunc i55 %mul_ln1171_20
+._crit_edge_ifconv:484 %trunc_ln727_20 = trunc i55 %mul_ln1171_20
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_21"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_20"/></StgValue>
 </operation>
 
 <operation id="915" st_id="25" stage="1" lat="1">
@@ -13961,10 +13961,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="936" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:490 %sext_ln1171_43 = sext i36 %select_ln232_2
+._crit_edge_ifconv:490 %sext_ln1171_42 = sext i36 %select_ln232_2
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_43"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_42"/></StgValue>
 </operation>
 
 <operation id="916" st_id="25" stage="1" lat="1">
@@ -13976,10 +13976,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="937" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:491 %sext_ln1171_44 = sext i36 %kr_V_21_05253_load
+._crit_edge_ifconv:491 %sext_ln1171_43 = sext i36 %kr_V_21_05253_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_44"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_43"/></StgValue>
 </operation>
 
 <operation id="917" st_id="25" stage="2" lat="2">
@@ -13991,7 +13991,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="938" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:492 %mul_ln1171_21 = mul i55 %sext_ln1171_44, i55 %sext_ln1171_43
+._crit_edge_ifconv:492 %mul_ln1171_21 = mul i55 %sext_ln1171_43, i55 %sext_ln1171_42
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_21"/></StgValue>
@@ -14104,7 +14104,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="925" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:479 %shl_ln737_19 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_20, i19 0
+._crit_edge_ifconv:479 %shl_ln737_19 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_19, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_19"/></StgValue>
@@ -14179,7 +14179,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="931" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:485 %icmp_ln727_20 = icmp_ne  i18 %trunc_ln727_21, i18 0
+._crit_edge_ifconv:485 %icmp_ln727_20 = icmp_ne  i18 %trunc_ln727_20, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_20"/></StgValue>
@@ -14239,10 +14239,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="935" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:489 %add_ln415_21 = add i36 %trunc_ln717_19, i36 %zext_ln415_20
+._crit_edge_ifconv:489 %add_ln415_20 = add i36 %trunc_ln717_19, i36 %zext_ln415_20
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_21"/></StgValue>
+<StgValue><ssdm name="add_ln415_20"/></StgValue>
 </operation>
 
 <operation id="934" st_id="26" stage="1" lat="2">
@@ -14254,7 +14254,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="938" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:492 %mul_ln1171_21 = mul i55 %sext_ln1171_44, i55 %sext_ln1171_43
+._crit_edge_ifconv:492 %mul_ln1171_21 = mul i55 %sext_ln1171_43, i55 %sext_ln1171_42
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_21"/></StgValue>
@@ -14269,10 +14269,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="944" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:498 %trunc_ln727_22 = trunc i55 %mul_ln1171_21
+._crit_edge_ifconv:498 %trunc_ln727_21 = trunc i55 %mul_ln1171_21
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_22"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_21"/></StgValue>
 </operation>
 
 <operation id="936" st_id="26" stage="1" lat="1">
@@ -14284,10 +14284,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="950" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:504 %sext_ln1171_45 = sext i36 %select_ln232_1
+._crit_edge_ifconv:504 %sext_ln1171_44 = sext i36 %select_ln232_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_45"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_44"/></StgValue>
 </operation>
 
 <operation id="937" st_id="26" stage="1" lat="1">
@@ -14299,10 +14299,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="951" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:505 %sext_ln1171_46 = sext i36 %kr_V_22_05254_load
+._crit_edge_ifconv:505 %sext_ln1171_45 = sext i36 %kr_V_22_05254_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_46"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_45"/></StgValue>
 </operation>
 
 <operation id="938" st_id="26" stage="2" lat="2">
@@ -14314,7 +14314,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="952" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:506 %mul_ln1171_22 = mul i55 %sext_ln1171_46, i55 %sext_ln1171_45
+._crit_edge_ifconv:506 %mul_ln1171_22 = mul i55 %sext_ln1171_45, i55 %sext_ln1171_44
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_22"/></StgValue>
@@ -14474,7 +14474,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="939" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:493 %shl_ln737_20 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_21, i19 0
+._crit_edge_ifconv:493 %shl_ln737_20 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_20, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_20"/></StgValue>
@@ -14549,7 +14549,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="945" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:499 %icmp_ln727_21 = icmp_ne  i18 %trunc_ln727_22, i18 0
+._crit_edge_ifconv:499 %icmp_ln727_21 = icmp_ne  i18 %trunc_ln727_21, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_21"/></StgValue>
@@ -14609,10 +14609,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="949" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:503 %add_ln415_22 = add i36 %trunc_ln717_20, i36 %zext_ln415_21
+._crit_edge_ifconv:503 %add_ln415_21 = add i36 %trunc_ln717_20, i36 %zext_ln415_21
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_22"/></StgValue>
+<StgValue><ssdm name="add_ln415_21"/></StgValue>
 </operation>
 
 <operation id="958" st_id="27" stage="1" lat="2">
@@ -14624,7 +14624,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="952" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:506 %mul_ln1171_22 = mul i55 %sext_ln1171_46, i55 %sext_ln1171_45
+._crit_edge_ifconv:506 %mul_ln1171_22 = mul i55 %sext_ln1171_45, i55 %sext_ln1171_44
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_22"/></StgValue>
@@ -14639,10 +14639,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="958" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:512 %trunc_ln727_23 = trunc i55 %mul_ln1171_22
+._crit_edge_ifconv:512 %trunc_ln727_22 = trunc i55 %mul_ln1171_22
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_23"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_22"/></StgValue>
 </operation>
 
 <operation id="960" st_id="27" stage="1" lat="1">
@@ -14654,10 +14654,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="964" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:518 %sext_ln1171_47 = sext i36 %select_ln232
+._crit_edge_ifconv:518 %sext_ln1171_46 = sext i36 %select_ln232
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_47"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_46"/></StgValue>
 </operation>
 
 <operation id="961" st_id="27" stage="1" lat="1">
@@ -14669,10 +14669,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="965" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:519 %sext_ln1171_48 = sext i36 %kr_V_23_05255_load
+._crit_edge_ifconv:519 %sext_ln1171_47 = sext i36 %kr_V_23_05255_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_48"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_47"/></StgValue>
 </operation>
 
 <operation id="962" st_id="27" stage="2" lat="2">
@@ -14684,7 +14684,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="966" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:520 %mul_ln1171_23 = mul i55 %sext_ln1171_48, i55 %sext_ln1171_47
+._crit_edge_ifconv:520 %mul_ln1171_23 = mul i55 %sext_ln1171_47, i55 %sext_ln1171_46
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_23"/></StgValue>
@@ -14859,7 +14859,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="953" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:507 %shl_ln737_21 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_22, i19 0
+._crit_edge_ifconv:507 %shl_ln737_21 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_21, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_21"/></StgValue>
@@ -14934,7 +14934,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="959" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:513 %icmp_ln727_22 = icmp_ne  i18 %trunc_ln727_23, i18 0
+._crit_edge_ifconv:513 %icmp_ln727_22 = icmp_ne  i18 %trunc_ln727_22, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_22"/></StgValue>
@@ -14994,10 +14994,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="963" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:517 %add_ln415_23 = add i36 %trunc_ln717_21, i36 %zext_ln415_22
+._crit_edge_ifconv:517 %add_ln415_22 = add i36 %trunc_ln717_21, i36 %zext_ln415_22
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_23"/></StgValue>
+<StgValue><ssdm name="add_ln415_22"/></StgValue>
 </operation>
 
 <operation id="983" st_id="28" stage="1" lat="2">
@@ -15009,7 +15009,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="966" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:520 %mul_ln1171_23 = mul i55 %sext_ln1171_48, i55 %sext_ln1171_47
+._crit_edge_ifconv:520 %mul_ln1171_23 = mul i55 %sext_ln1171_47, i55 %sext_ln1171_46
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_23"/></StgValue>
@@ -15024,10 +15024,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="972" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:526 %trunc_ln727_24 = trunc i55 %mul_ln1171_23
+._crit_edge_ifconv:526 %trunc_ln727_23 = trunc i55 %mul_ln1171_23
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_24"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_23"/></StgValue>
 </operation>
 
 <operation id="985" st_id="28" stage="1" lat="1">
@@ -15039,10 +15039,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="978" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:532 %sext_ln1171_49 = sext i36 %select_ln237_7
+._crit_edge_ifconv:532 %sext_ln1171_48 = sext i36 %select_ln237_7
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_49"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_48"/></StgValue>
 </operation>
 
 <operation id="986" st_id="28" stage="1" lat="1">
@@ -15054,10 +15054,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="979" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:533 %sext_ln1171_50 = sext i36 %kr_V_24_05256_load
+._crit_edge_ifconv:533 %sext_ln1171_49 = sext i36 %kr_V_24_05256_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_50"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_49"/></StgValue>
 </operation>
 
 <operation id="987" st_id="28" stage="2" lat="2">
@@ -15069,7 +15069,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="980" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:534 %mul_ln1171_24 = mul i55 %sext_ln1171_50, i55 %sext_ln1171_49
+._crit_edge_ifconv:534 %mul_ln1171_24 = mul i55 %sext_ln1171_49, i55 %sext_ln1171_48
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_24"/></StgValue>
@@ -15244,7 +15244,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="967" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:521 %shl_ln737_22 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_23, i19 0
+._crit_edge_ifconv:521 %shl_ln737_22 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_22, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_22"/></StgValue>
@@ -15319,7 +15319,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="973" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:527 %icmp_ln727_23 = icmp_ne  i18 %trunc_ln727_24, i18 0
+._crit_edge_ifconv:527 %icmp_ln727_23 = icmp_ne  i18 %trunc_ln727_23, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_23"/></StgValue>
@@ -15379,10 +15379,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="977" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:531 %add_ln415_24 = add i36 %trunc_ln717_22, i36 %zext_ln415_23
+._crit_edge_ifconv:531 %add_ln415_23 = add i36 %trunc_ln717_22, i36 %zext_ln415_23
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_24"/></StgValue>
+<StgValue><ssdm name="add_ln415_23"/></StgValue>
 </operation>
 
 <operation id="1008" st_id="29" stage="1" lat="2">
@@ -15394,7 +15394,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="980" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:534 %mul_ln1171_24 = mul i55 %sext_ln1171_50, i55 %sext_ln1171_49
+._crit_edge_ifconv:534 %mul_ln1171_24 = mul i55 %sext_ln1171_49, i55 %sext_ln1171_48
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_24"/></StgValue>
@@ -15409,10 +15409,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="986" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:540 %trunc_ln727_25 = trunc i55 %mul_ln1171_24
+._crit_edge_ifconv:540 %trunc_ln727_24 = trunc i55 %mul_ln1171_24
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_25"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_24"/></StgValue>
 </operation>
 
 <operation id="1010" st_id="29" stage="1" lat="1">
@@ -15424,10 +15424,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="992" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:546 %sext_ln1171_51 = sext i36 %select_ln237_6
+._crit_edge_ifconv:546 %sext_ln1171_50 = sext i36 %select_ln237_6
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_51"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_50"/></StgValue>
 </operation>
 
 <operation id="1011" st_id="29" stage="1" lat="1">
@@ -15439,10 +15439,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="993" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:547 %sext_ln1171_52 = sext i36 %kr_V_25_05257_load
+._crit_edge_ifconv:547 %sext_ln1171_51 = sext i36 %kr_V_25_05257_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_52"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_51"/></StgValue>
 </operation>
 
 <operation id="1012" st_id="29" stage="2" lat="2">
@@ -15454,7 +15454,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="994" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:548 %mul_ln1171_25 = mul i55 %sext_ln1171_52, i55 %sext_ln1171_51
+._crit_edge_ifconv:548 %mul_ln1171_25 = mul i55 %sext_ln1171_51, i55 %sext_ln1171_50
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_25"/></StgValue>
@@ -15725,7 +15725,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="981" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:535 %shl_ln737_23 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_24, i19 0
+._crit_edge_ifconv:535 %shl_ln737_23 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_23, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_23"/></StgValue>
@@ -15800,7 +15800,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="987" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:541 %icmp_ln727_24 = icmp_ne  i18 %trunc_ln727_25, i18 0
+._crit_edge_ifconv:541 %icmp_ln727_24 = icmp_ne  i18 %trunc_ln727_24, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_24"/></StgValue>
@@ -15860,10 +15860,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="991" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:545 %add_ln415_25 = add i36 %trunc_ln717_23, i36 %zext_ln415_24
+._crit_edge_ifconv:545 %add_ln415_24 = add i36 %trunc_ln717_23, i36 %zext_ln415_24
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_25"/></StgValue>
+<StgValue><ssdm name="add_ln415_24"/></StgValue>
 </operation>
 
 <operation id="1039" st_id="30" stage="1" lat="2">
@@ -15875,7 +15875,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="994" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:548 %mul_ln1171_25 = mul i55 %sext_ln1171_52, i55 %sext_ln1171_51
+._crit_edge_ifconv:548 %mul_ln1171_25 = mul i55 %sext_ln1171_51, i55 %sext_ln1171_50
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_25"/></StgValue>
@@ -15890,10 +15890,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1000" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:554 %trunc_ln727_26 = trunc i55 %mul_ln1171_25
+._crit_edge_ifconv:554 %trunc_ln727_25 = trunc i55 %mul_ln1171_25
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_26"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_25"/></StgValue>
 </operation>
 
 <operation id="1041" st_id="30" stage="1" lat="1">
@@ -15905,10 +15905,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1006" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:560 %sext_ln1171_53 = sext i36 %select_ln237_5
+._crit_edge_ifconv:560 %sext_ln1171_52 = sext i36 %select_ln237_5
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_53"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_52"/></StgValue>
 </operation>
 
 <operation id="1042" st_id="30" stage="1" lat="1">
@@ -15920,10 +15920,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1007" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:561 %sext_ln1171_54 = sext i36 %kr_V_26_05258_load
+._crit_edge_ifconv:561 %sext_ln1171_53 = sext i36 %kr_V_26_05258_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_54"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_53"/></StgValue>
 </operation>
 
 <operation id="1043" st_id="30" stage="2" lat="2">
@@ -15935,7 +15935,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1008" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:562 %mul_ln1171_26 = mul i55 %sext_ln1171_54, i55 %sext_ln1171_53
+._crit_edge_ifconv:562 %mul_ln1171_26 = mul i55 %sext_ln1171_53, i55 %sext_ln1171_52
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_26"/></StgValue>
@@ -16126,7 +16126,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="995" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:549 %shl_ln737_24 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_25, i19 0
+._crit_edge_ifconv:549 %shl_ln737_24 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_24, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_24"/></StgValue>
@@ -16201,7 +16201,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1001" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:555 %icmp_ln727_25 = icmp_ne  i18 %trunc_ln727_26, i18 0
+._crit_edge_ifconv:555 %icmp_ln727_25 = icmp_ne  i18 %trunc_ln727_25, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_25"/></StgValue>
@@ -16261,10 +16261,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1005" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:559 %add_ln415_26 = add i36 %trunc_ln717_24, i36 %zext_ln415_25
+._crit_edge_ifconv:559 %add_ln415_25 = add i36 %trunc_ln717_24, i36 %zext_ln415_25
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_26"/></StgValue>
+<StgValue><ssdm name="add_ln415_25"/></StgValue>
 </operation>
 
 <operation id="1065" st_id="31" stage="1" lat="2">
@@ -16276,7 +16276,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1008" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:562 %mul_ln1171_26 = mul i55 %sext_ln1171_54, i55 %sext_ln1171_53
+._crit_edge_ifconv:562 %mul_ln1171_26 = mul i55 %sext_ln1171_53, i55 %sext_ln1171_52
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_26"/></StgValue>
@@ -16291,10 +16291,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1014" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:568 %trunc_ln727_27 = trunc i55 %mul_ln1171_26
+._crit_edge_ifconv:568 %trunc_ln727_26 = trunc i55 %mul_ln1171_26
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_27"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_26"/></StgValue>
 </operation>
 
 <operation id="1067" st_id="31" stage="1" lat="1">
@@ -16306,10 +16306,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1020" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:574 %sext_ln1171_55 = sext i36 %select_ln237_4
+._crit_edge_ifconv:574 %sext_ln1171_54 = sext i36 %select_ln237_4
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_55"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_54"/></StgValue>
 </operation>
 
 <operation id="1068" st_id="31" stage="1" lat="1">
@@ -16321,10 +16321,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1021" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:575 %sext_ln1171_56 = sext i36 %kr_V_27_05259_load
+._crit_edge_ifconv:575 %sext_ln1171_55 = sext i36 %kr_V_27_05259_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_56"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_55"/></StgValue>
 </operation>
 
 <operation id="1069" st_id="31" stage="2" lat="2">
@@ -16336,7 +16336,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1022" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:576 %mul_ln1171_27 = mul i55 %sext_ln1171_56, i55 %sext_ln1171_55
+._crit_edge_ifconv:576 %mul_ln1171_27 = mul i55 %sext_ln1171_55, i55 %sext_ln1171_54
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_27"/></StgValue>
@@ -16463,7 +16463,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1009" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:563 %shl_ln737_25 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_26, i19 0
+._crit_edge_ifconv:563 %shl_ln737_25 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_25, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_25"/></StgValue>
@@ -16538,7 +16538,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1015" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:569 %icmp_ln727_26 = icmp_ne  i18 %trunc_ln727_27, i18 0
+._crit_edge_ifconv:569 %icmp_ln727_26 = icmp_ne  i18 %trunc_ln727_26, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_26"/></StgValue>
@@ -16598,10 +16598,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1019" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:573 %add_ln415_27 = add i36 %trunc_ln717_25, i36 %zext_ln415_26
+._crit_edge_ifconv:573 %add_ln415_26 = add i36 %trunc_ln717_25, i36 %zext_ln415_26
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_27"/></StgValue>
+<StgValue><ssdm name="add_ln415_26"/></StgValue>
 </operation>
 
 <operation id="1087" st_id="32" stage="1" lat="2">
@@ -16613,7 +16613,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1022" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:576 %mul_ln1171_27 = mul i55 %sext_ln1171_56, i55 %sext_ln1171_55
+._crit_edge_ifconv:576 %mul_ln1171_27 = mul i55 %sext_ln1171_55, i55 %sext_ln1171_54
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_27"/></StgValue>
@@ -16628,10 +16628,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1028" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:582 %trunc_ln727_28 = trunc i55 %mul_ln1171_27
+._crit_edge_ifconv:582 %trunc_ln727_27 = trunc i55 %mul_ln1171_27
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_28"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_27"/></StgValue>
 </operation>
 
 <operation id="1089" st_id="32" stage="1" lat="1">
@@ -16643,10 +16643,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1034" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:588 %sext_ln1171_57 = sext i36 %select_ln237_3
+._crit_edge_ifconv:588 %sext_ln1171_56 = sext i36 %select_ln237_3
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_57"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_56"/></StgValue>
 </operation>
 
 <operation id="1090" st_id="32" stage="1" lat="1">
@@ -16658,10 +16658,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1035" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:589 %sext_ln1171_58 = sext i36 %kr_V_28_05260_load
+._crit_edge_ifconv:589 %sext_ln1171_57 = sext i36 %kr_V_28_05260_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_58"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_57"/></StgValue>
 </operation>
 
 <operation id="1091" st_id="32" stage="2" lat="2">
@@ -16673,7 +16673,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1036" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:590 %mul_ln1171_28 = mul i55 %sext_ln1171_58, i55 %sext_ln1171_57
+._crit_edge_ifconv:590 %mul_ln1171_28 = mul i55 %sext_ln1171_57, i55 %sext_ln1171_56
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_28"/></StgValue>
@@ -16895,7 +16895,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1023" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:577 %shl_ln737_26 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_27, i19 0
+._crit_edge_ifconv:577 %shl_ln737_26 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_26, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_26"/></StgValue>
@@ -16970,7 +16970,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1029" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:583 %icmp_ln727_27 = icmp_ne  i18 %trunc_ln727_28, i18 0
+._crit_edge_ifconv:583 %icmp_ln727_27 = icmp_ne  i18 %trunc_ln727_27, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_27"/></StgValue>
@@ -17030,10 +17030,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1033" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:587 %add_ln415_28 = add i36 %trunc_ln717_26, i36 %zext_ln415_27
+._crit_edge_ifconv:587 %add_ln415_27 = add i36 %trunc_ln717_26, i36 %zext_ln415_27
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_28"/></StgValue>
+<StgValue><ssdm name="add_ln415_27"/></StgValue>
 </operation>
 
 <operation id="1115" st_id="33" stage="1" lat="2">
@@ -17045,7 +17045,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1036" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:590 %mul_ln1171_28 = mul i55 %sext_ln1171_58, i55 %sext_ln1171_57
+._crit_edge_ifconv:590 %mul_ln1171_28 = mul i55 %sext_ln1171_57, i55 %sext_ln1171_56
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_28"/></StgValue>
@@ -17060,10 +17060,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1042" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:596 %trunc_ln727_29 = trunc i55 %mul_ln1171_28
+._crit_edge_ifconv:596 %trunc_ln727_28 = trunc i55 %mul_ln1171_28
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_29"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_28"/></StgValue>
 </operation>
 
 <operation id="1117" st_id="33" stage="1" lat="1">
@@ -17075,10 +17075,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1048" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:602 %sext_ln1171_59 = sext i36 %select_ln237_2
+._crit_edge_ifconv:602 %sext_ln1171_58 = sext i36 %select_ln237_2
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_59"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_58"/></StgValue>
 </operation>
 
 <operation id="1118" st_id="33" stage="1" lat="1">
@@ -17090,10 +17090,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1049" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:603 %sext_ln1171_60 = sext i36 %kr_V_29_05261_load
+._crit_edge_ifconv:603 %sext_ln1171_59 = sext i36 %kr_V_29_05261_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_60"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_59"/></StgValue>
 </operation>
 
 <operation id="1119" st_id="33" stage="2" lat="2">
@@ -17105,7 +17105,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1050" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:604 %mul_ln1171_29 = mul i55 %sext_ln1171_60, i55 %sext_ln1171_59
+._crit_edge_ifconv:604 %mul_ln1171_29 = mul i55 %sext_ln1171_59, i55 %sext_ln1171_58
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_29"/></StgValue>
@@ -17183,7 +17183,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1037" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:591 %shl_ln737_27 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_28, i19 0
+._crit_edge_ifconv:591 %shl_ln737_27 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_27, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_27"/></StgValue>
@@ -17258,7 +17258,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1043" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:597 %icmp_ln727_28 = icmp_ne  i18 %trunc_ln727_29, i18 0
+._crit_edge_ifconv:597 %icmp_ln727_28 = icmp_ne  i18 %trunc_ln727_28, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_28"/></StgValue>
@@ -17318,10 +17318,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1047" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:601 %add_ln415_29 = add i36 %trunc_ln717_27, i36 %zext_ln415_28
+._crit_edge_ifconv:601 %add_ln415_28 = add i36 %trunc_ln717_27, i36 %zext_ln415_28
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_29"/></StgValue>
+<StgValue><ssdm name="add_ln415_28"/></StgValue>
 </operation>
 
 <operation id="1134" st_id="34" stage="1" lat="2">
@@ -17333,7 +17333,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1050" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:604 %mul_ln1171_29 = mul i55 %sext_ln1171_60, i55 %sext_ln1171_59
+._crit_edge_ifconv:604 %mul_ln1171_29 = mul i55 %sext_ln1171_59, i55 %sext_ln1171_58
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_29"/></StgValue>
@@ -17348,10 +17348,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1056" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:610 %trunc_ln727_30 = trunc i55 %mul_ln1171_29
+._crit_edge_ifconv:610 %trunc_ln727_29 = trunc i55 %mul_ln1171_29
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_30"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_29"/></StgValue>
 </operation>
 
 <operation id="1136" st_id="34" stage="1" lat="1">
@@ -17363,10 +17363,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1062" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:616 %sext_ln1171_61 = sext i36 %select_ln237_1
+._crit_edge_ifconv:616 %sext_ln1171_60 = sext i36 %select_ln237_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_61"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_60"/></StgValue>
 </operation>
 
 <operation id="1137" st_id="34" stage="1" lat="1">
@@ -17378,10 +17378,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1063" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:617 %sext_ln1171_62 = sext i36 %kr_V_30_05262_load
+._crit_edge_ifconv:617 %sext_ln1171_61 = sext i36 %kr_V_30_05262_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_62"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_61"/></StgValue>
 </operation>
 
 <operation id="1138" st_id="34" stage="2" lat="2">
@@ -17393,7 +17393,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1064" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:618 %mul_ln1171_30 = mul i55 %sext_ln1171_62, i55 %sext_ln1171_61
+._crit_edge_ifconv:618 %mul_ln1171_30 = mul i55 %sext_ln1171_61, i55 %sext_ln1171_60
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_30"/></StgValue>
@@ -17408,10 +17408,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1076" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:630 %sext_ln1171_63 = sext i36 %select_ln237
+._crit_edge_ifconv:630 %sext_ln1171_62 = sext i36 %select_ln237
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_63"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_62"/></StgValue>
 </operation>
 
 <operation id="1140" st_id="34" stage="1" lat="1">
@@ -17423,10 +17423,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1077" bw="55" op_0_bw="36">
 <![CDATA[
-._crit_edge_ifconv:631 %sext_ln1171_64 = sext i36 %kr_V_31_05263_load
+._crit_edge_ifconv:631 %sext_ln1171_63 = sext i36 %kr_V_31_05263_load
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln1171_64"/></StgValue>
+<StgValue><ssdm name="sext_ln1171_63"/></StgValue>
 </operation>
 
 <operation id="1141" st_id="34" stage="2" lat="2">
@@ -17438,7 +17438,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1078" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:632 %mul_ln1171_31 = mul i55 %sext_ln1171_64, i55 %sext_ln1171_63
+._crit_edge_ifconv:632 %mul_ln1171_31 = mul i55 %sext_ln1171_63, i55 %sext_ln1171_62
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_31"/></StgValue>
@@ -17456,7 +17456,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1051" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:605 %shl_ln737_28 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_29, i19 0
+._crit_edge_ifconv:605 %shl_ln737_28 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_28, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_28"/></StgValue>
@@ -17531,7 +17531,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1057" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:611 %icmp_ln727_29 = icmp_ne  i18 %trunc_ln727_30, i18 0
+._crit_edge_ifconv:611 %icmp_ln727_29 = icmp_ne  i18 %trunc_ln727_29, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_29"/></StgValue>
@@ -17591,10 +17591,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1061" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:615 %add_ln415_30 = add i36 %trunc_ln717_28, i36 %zext_ln415_29
+._crit_edge_ifconv:615 %add_ln415_29 = add i36 %trunc_ln717_28, i36 %zext_ln415_29
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_30"/></StgValue>
+<StgValue><ssdm name="add_ln415_29"/></StgValue>
 </operation>
 
 <operation id="1152" st_id="35" stage="1" lat="2">
@@ -17606,7 +17606,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1064" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:618 %mul_ln1171_30 = mul i55 %sext_ln1171_62, i55 %sext_ln1171_61
+._crit_edge_ifconv:618 %mul_ln1171_30 = mul i55 %sext_ln1171_61, i55 %sext_ln1171_60
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_30"/></StgValue>
@@ -17621,10 +17621,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1070" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:624 %trunc_ln727_31 = trunc i55 %mul_ln1171_30
+._crit_edge_ifconv:624 %trunc_ln727_30 = trunc i55 %mul_ln1171_30
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_31"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_30"/></StgValue>
 </operation>
 
 <operation id="1154" st_id="35" stage="1" lat="2">
@@ -17636,7 +17636,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1078" bw="55" op_0_bw="55" op_1_bw="55">
 <![CDATA[
-._crit_edge_ifconv:632 %mul_ln1171_31 = mul i55 %sext_ln1171_64, i55 %sext_ln1171_63
+._crit_edge_ifconv:632 %mul_ln1171_31 = mul i55 %sext_ln1171_63, i55 %sext_ln1171_62
 
 ]]></Node>
 <StgValue><ssdm name="mul_ln1171_31"/></StgValue>
@@ -17651,10 +17651,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1084" bw="18" op_0_bw="55">
 <![CDATA[
-._crit_edge_ifconv:638 %trunc_ln727_32 = trunc i55 %mul_ln1171_31
+._crit_edge_ifconv:638 %trunc_ln727_31 = trunc i55 %mul_ln1171_31
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln727_32"/></StgValue>
+<StgValue><ssdm name="trunc_ln727_31"/></StgValue>
 </operation>
 </state>
 
@@ -17669,7 +17669,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1065" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:619 %shl_ln737_29 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_30, i19 0
+._crit_edge_ifconv:619 %shl_ln737_29 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_29, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_29"/></StgValue>
@@ -17744,7 +17744,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1071" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:625 %icmp_ln727_30 = icmp_ne  i18 %trunc_ln727_31, i18 0
+._crit_edge_ifconv:625 %icmp_ln727_30 = icmp_ne  i18 %trunc_ln727_30, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_30"/></StgValue>
@@ -17804,10 +17804,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1075" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:629 %add_ln415_31 = add i36 %trunc_ln717_29, i36 %zext_ln415_30
+._crit_edge_ifconv:629 %add_ln415_30 = add i36 %trunc_ln717_29, i36 %zext_ln415_30
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_31"/></StgValue>
+<StgValue><ssdm name="add_ln415_30"/></StgValue>
 </operation>
 
 <operation id="1166" st_id="36" stage="1" lat="1">
@@ -17819,7 +17819,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1085" bw="1" op_0_bw="18" op_1_bw="18">
 <![CDATA[
-._crit_edge_ifconv:639 %icmp_ln727_31 = icmp_ne  i18 %trunc_ln727_32, i18 0
+._crit_edge_ifconv:639 %icmp_ln727_31 = icmp_ne  i18 %trunc_ln727_31, i18 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln727_31"/></StgValue>
@@ -17837,7 +17837,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1079" bw="55" op_0_bw="55" op_1_bw="36" op_2_bw="19">
 <![CDATA[
-._crit_edge_ifconv:633 %shl_ln737_30 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_31, i19 0
+._crit_edge_ifconv:633 %shl_ln737_30 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %add_ln415_30, i19 0
 
 ]]></Node>
 <StgValue><ssdm name="shl_ln737_30"/></StgValue>
@@ -17987,10 +17987,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1091" bw="36" op_0_bw="36" op_1_bw="36">
 <![CDATA[
-._crit_edge_ifconv:645 %add_ln415_32 = add i36 %trunc_ln717_30, i36 %zext_ln415_31
+._crit_edge_ifconv:645 %add_ln415_31 = add i36 %trunc_ln717_30, i36 %zext_ln415_31
 
 ]]></Node>
-<StgValue><ssdm name="add_ln415_32"/></StgValue>
+<StgValue><ssdm name="add_ln415_31"/></StgValue>
 </operation>
 
 <operation id="1178" st_id="37" stage="1" lat="1">
@@ -18017,7 +18017,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1093" bw="1" op_0_bw="1" op_1_bw="36" op_2_bw="32">
 <![CDATA[
-._crit_edge_ifconv:647 %tmp_77 = bitselect i1 @_ssdm_op_BitSelect.i1.i36.i32, i36 %add_ln415_32, i32 35
+._crit_edge_ifconv:647 %tmp_77 = bitselect i1 @_ssdm_op_BitSelect.i1.i36.i32, i36 %add_ln415_31, i32 35
 
 ]]></Node>
 <StgValue><ssdm name="tmp_77"/></StgValue>
@@ -18051,10 +18051,10 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1094" bw="35" op_0_bw="1" op_1_bw="35" op_2_bw="35">
 <![CDATA[
-._crit_edge_ifconv:648 %num_V_1 = select i1 %tmp_77, i35 0, i35 %add_ln1548
+._crit_edge_ifconv:648 %num_V_4 = select i1 %tmp_77, i35 0, i35 %add_ln1548
 
 ]]></Node>
-<StgValue><ssdm name="num_V_1"/></StgValue>
+<StgValue><ssdm name="num_V_4"/></StgValue>
 </operation>
 
 <operation id="1181" st_id="38" stage="1" lat="1">
@@ -18096,7 +18096,7 @@ newFuncRoot:183 %br_ln0 = br void %.preheader4
 
 <Node id="1100" bw="0" op_0_bw="35" op_1_bw="10">
 <![CDATA[
-._crit_edge_ifconv:654 %store_ln251 = store i35 %num_V_1, i10 %out_0_addr
+._crit_edge_ifconv:654 %store_ln251 = store i35 %num_V_4, i10 %out_0_addr
 
 ]]></Node>
 <StgValue><ssdm name="store_ln251"/></StgValue>

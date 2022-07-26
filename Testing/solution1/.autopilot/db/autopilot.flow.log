@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 15:34:17 +0100 2022
+INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 16:10:48 +0100 2022
 Execute     ap_set_clock -name default -period 10.4 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.4ns.
 Execute     set_part xc7z020-clg400-1 
@@ -9,7 +9,7 @@ DBG:HLSDevice: init success
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command       create_platform done; 0.678 sec.
+Command       create_platform done; 0.592 sec.
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
@@ -23,9 +23,10 @@ Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/ut
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.108 sec.
 Execute       ap_part_info -name xc7z020-clg400-1 -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.79 sec.
+Command     set_part done; 0.715 sec.
 Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Execute     get_config_interface -m_axi_latency 
@@ -33,7 +34,7 @@ Execute     get_config_interface -m_axi_alignment_byte_size
 Execute     get_config_interface -m_axi_max_widen_bitwidth 
 Execute     get_config_interface -default_interface 
 Execute     get_config_rtl -register_reset_num 
-Command   open_solution done; 0.824 sec.
+Command   open_solution done; 0.737 sec.
 Execute   set_part xc7z020-clg400-1 
 INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
 Execute     create_platform xc7z020-clg400-1 -board  
@@ -52,9 +53,10 @@ Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.103 sec.
 Execute     ap_part_info -name xc7z020-clg400-1 -data info 
 Execute     config_compile -quiet -complex-mul-dsp=0 
-Command   set_part done; 0.118 sec.
+Command   set_part done; 0.127 sec.
 Execute   create_clock -period 10.4 -name default 
 INFO: [HLS 200-1510] Running: create_clock -period 10.4 -name default 
 Execute   source ./Testing/solution1/directives.tcl 
@@ -74,54 +76,7 @@ Execute     get_config_compile -skip_transform
 Execute     get_config_compile -pre_tcl 
 Execute     get_config_compile -keep_printf 
 Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 1018.533 MB.
-INFO: [HLS 200-10] Analyzing design file 'model_functions.cpp' ... 
-INFO-FLOW: Compiling one TU...
-Execute       get_config_compile -pragma_strict_mode 
-INFO-FLOW: Handling model_functions.cpp as C++
-Execute       ap_part_info -name xc7z020-clg400-1 -data info 
-INFO-FLOW: Running: GCC PP 39
-INFO-FLOW: Source preprocessing
-Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang model_functions.cpp -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot D:/Xilinx/Vitis_HLS/2021.1/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.cpp.err.log 
-Command       ap_eval done; 0.214 sec.
-INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
-Execute       set_directive_top master_fix -name=master_fix 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/try/try.tcl 
-Execute       list_core -type functional_unit 
-Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.err.log 
-Command       ap_eval done; 3.017 sec.
-Execute       clang_tidy xilinx-systemc-detector C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/.systemc_flag 
-INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/.systemc_flag -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 3.129 sec.
-INFO-FLOW: Running: clang-tidy CDT preprocess 39
-Execute       clang_tidy xilinx-directive2pragma C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/all.directive.json 
-INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/all.directive.json -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 3.08 sec.
-Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  
-INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 3.729 sec.
-INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 6.8 seconds per iteration
-INFO-FLOW: Calling xilinx-label-all-loops ... 
-INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
-Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  
-Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.model_functions.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.model_functions.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.model_functions.pp.0.cpp.err.log 
-Command         ap_eval done; 5.343 sec.
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
-Command       clang_tidy done; 5.761 sec.
-Execute       get_config_dataflow -strict_mode 
-Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.model_functions.pp.0.cpp.diag.yml C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.model_functions.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.model_functions.pp.0.cpp.err.log 
-Command       ap_eval done; 2.444 sec.
-Execute       ap_part_info -name xc7z020-clg400-1 -data info 
-INFO-FLOW: compiling source code to llvm bc
-Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.bc -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.pp.0.cpp.err.log 
-Command       ap_eval done; 2.59 sec.
-WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16
-WARNING: [HLS 207-5301] unused parameter 'mRow': model_functions.cpp:165:27
-WARNING: [HLS 207-5301] unused parameter 'mCol': model_functions.cpp:165:37
-WARNING: [HLS 207-5301] unused parameter 'mDep': model_functions.cpp:165:47
-WARNING: [HLS 207-5301] unused parameter 'kNum': model_functions.cpp:165:77
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 1018.549 MB.
 INFO: [HLS 200-10] Analyzing design file 'master.cpp' ... 
 INFO-FLOW: Compiling one TU...
 Execute       get_config_compile -pragma_strict_mode 
@@ -130,67 +85,118 @@ Execute       ap_part_info -name xc7z020-clg400-1 -data info
 INFO-FLOW: Running: GCC PP 39
 INFO-FLOW: Source preprocessing
 Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang master.cpp -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.master.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot D:/Xilinx/Vitis_HLS/2021.1/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.master.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.master.cpp.err.log 
-Command       ap_eval done; 0.143 sec.
-INFO-FLOW: Done: GCC PP 39 time: 0.1 seconds per iteration
+Command       ap_eval done; 0.156 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
 Execute       set_directive_top master_fix -name=master_fix 
+Execute       source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute         source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/try/try.tcl 
 Execute       list_core -type functional_unit 
 Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.err.log 
-Command       ap_eval done; 0.682 sec.
+Command       ap_eval done; 0.679 sec.
 Execute       clang_tidy xilinx-systemc-detector C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/.systemc_flag -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 0.661 sec.
+Command       clang_tidy done; 0.603 sec.
 INFO-FLOW: Running: clang-tidy CDT preprocess 39
 Execute       clang_tidy xilinx-directive2pragma C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/all.directive.json 
 INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/all.directive.json -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 0.828 sec.
+Command       clang_tidy done; 0.805 sec.
 Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp std=gnu++14 -target fpga  
 INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 0.866 sec.
+Command       clang_tidy done; 0.886 sec.
 INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 1.7 seconds per iteration
 INFO-FLOW: Calling xilinx-label-all-loops ... 
 INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
 Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp std=gnu++14 -target fpga  
 Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.master.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.master.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.master.pp.0.cpp.err.log 
-Command         ap_eval done; 0.944 sec.
-Command       clang_tidy done; 0.963 sec.
+Command         ap_eval done; 0.96 sec.
+Execute         source D:/Xilinx/Vitis_HLS/2021.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 0.982 sec.
 Execute       get_config_dataflow -strict_mode 
 Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.master.pp.0.cpp.diag.yml C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.master.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.master.pp.0.cpp.err.log 
-Command       ap_eval done; 0.577 sec.
+Command       ap_eval done; 0.607 sec.
 Execute       ap_part_info -name xc7z020-clg400-1 -data info 
 INFO-FLOW: compiling source code to llvm bc
 Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.master.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.bc -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.master.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.master.pp.0.cpp.err.log 
-Command       ap_eval done; 0.843 sec.
+Command       ap_eval done; 0.854 sec.
 WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 29.697 seconds; current allocated memory: 129.992 MB.
+INFO: [HLS 200-10] Analyzing design file 'model_functions.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       get_config_compile -pragma_strict_mode 
+INFO-FLOW: Handling model_functions.cpp as C++
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang model_functions.cpp -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot D:/Xilinx/Vitis_HLS/2021.1/tps/mingw/6.2.0/win64.o/nt -fhls -fno-exceptions -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/39 -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.cpp.err.log 
+Command       ap_eval done; 0.183 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+Execute       set_directive_top master_fix -name=master_fix 
+Execute       list_core -type functional_unit 
+Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.err.log 
+Command       ap_eval done; 2.644 sec.
+Execute       clang_tidy xilinx-systemc-detector C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/.systemc_flag -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 3.127 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/all.directive.json -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 3.416 sec.
+Execute       clang_tidy xilinx-constantarray-param,xilinx-remove-assert C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: exec D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-remove-assert -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 4.566 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 8 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp std=gnu++14 -target fpga  
+Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.model_functions.pp.0.cpp.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.model_functions.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang-tidy.model_functions.pp.0.cpp.err.log 
+Command         ap_eval done; 6.734 sec.
+Command       clang_tidy done; 7.275 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.model_functions.pp.0.cpp.diag.yml C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.model_functions.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/xilinx-dataflow-lawyer.model_functions.pp.0.cpp.err.log 
+Command       ap_eval done; 3.241 sec.
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.pp.0.cpp.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot -I D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.bc -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.pp.0.cpp.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.model_functions.pp.0.cpp.err.log 
+Command       ap_eval done; 3.279 sec.
+WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16
+WARNING: [HLS 207-5301] unused parameter 'mRow': model_functions.cpp:165:27
+WARNING: [HLS 207-5301] unused parameter 'mCol': model_functions.cpp:165:37
+WARNING: [HLS 207-5301] unused parameter 'mDep': model_functions.cpp:165:47
+WARNING: [HLS 207-5301] unused parameter 'kNum': model_functions.cpp:165:77
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 33.495 seconds; current allocated memory: 130.577 MB.
 INFO-FLOW: Linking Debug ...
 INFO-FLOW: Linking dut bc code.
-Execute       run_link_or_opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.0.bc -args  "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.g.bc" "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.g.bc"  
-Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.g.bc C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.g.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.0.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.0.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.0.bc.err.log 
-Command         ap_eval done; 0.115 sec.
+Execute       run_link_or_opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.0.bc -args  "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.g.bc" "C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.g.bc"  
+Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master.g.bc C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/model_functions.g.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.0.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.0.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.0.bc.err.log 
+Command         ap_eval done; 0.128 sec.
 INFO-FLOW: 
-Command       run_link_or_opt done; 0.117 sec.
+Command       run_link_or_opt done; 0.134 sec.
 Execute       run_link_or_opt -opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.1.lower.bc -args C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
 Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.1.lower.bc.diag.yml C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.1.lower.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.1.lower.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.1.lower.bc.err.log 
+Command         ap_eval done; 0.116 sec.
 INFO-FLOW: 
+Command       run_link_or_opt done; 0.119 sec.
 INFO-FLOW: Linking math bc lib
 Execute       run_link_or_opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.2.m1.bc -args C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed D:/Xilinx/Vitis_HLS/2021.1/win64/lib/libhlsm_39.bc D:/Xilinx/Vitis_HLS/2021.1/win64/lib/libhlsmc++_39.bc 
 Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed D:/Xilinx/Vitis_HLS/2021.1/win64/lib/libhlsm_39.bc D:/Xilinx/Vitis_HLS/2021.1/win64/lib/libhlsmc++_39.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.2.m1.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.2.m1.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.2.m1.bc.err.log 
-Command         ap_eval done; 2.248 sec.
+Command         ap_eval done; 3.234 sec.
 INFO-FLOW: 
-Command       run_link_or_opt done; 2.25 sec.
+Command       run_link_or_opt done; 3.235 sec.
 Execute       run_link_or_opt -opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=master_fix -reflow-float-conversion 
 Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.3.fpc.bc.diag.yml C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=master_fix -reflow-float-conversion -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.3.fpc.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.3.fpc.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.3.fpc.bc.err.log 
-Command         ap_eval done; 0.849 sec.
+Command         ap_eval done; 0.954 sec.
 INFO-FLOW: 
-Command       run_link_or_opt done; 0.851 sec.
+Command       run_link_or_opt done; 0.956 sec.
 Execute       run_link_or_opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.4.m2.bc -args C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed D:/Xilinx/Vitis_HLS/2021.1/win64/lib/libfloatconversion_39.bc 
 Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed D:/Xilinx/Vitis_HLS/2021.1/win64/lib/libfloatconversion_39.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.4.m2.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.4.m2.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/llvm-link.a.g.ld.4.m2.bc.err.log 
-Command         ap_eval done; 0.17 sec.
+Command         ap_eval done; 0.129 sec.
 INFO-FLOW: 
-Command       run_link_or_opt done; 0.171 sec.
+Command       run_link_or_opt done; 0.131 sec.
 Execute       run_link_or_opt -opt -out C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=master_fix 
 Execute         ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.5.gdce.bc.diag.yml C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=master_fix -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.5.gdce.bc > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.5.gdce.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/opt.a.g.ld.5.gdce.bc.err.log 
+Command         ap_eval done; 0.134 sec.
 INFO-FLOW: 
+Command       run_link_or_opt done; 0.137 sec.
 Execute       get_solution -flow_target 
 Execute       get_config_export -xo 
 Execute       get_config_export -format 
@@ -231,7 +237,7 @@ INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
 Execute       is_m_axi_addr64 
 INFO-FLOW: Doing LTO.
 Execute       ap_eval exec -ignorestderr D:/Xilinx/Vitis_HLS/2021.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.a.g.ld.0.bc.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=master_fix -mllvm -hls-db-dir -mllvm C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshhold=200000 -mllvm -assume-maxi-align=0 -mllvm -no-unaligned-maxi-accesses -mllvm -reflow-pipeline-style-llvm-setting=0 -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-disaggregate-bitwidth-threshold=4096 -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -x ir C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.ld.5.gdce.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.lto.bc -hls-platform-db-name=D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow > C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.a.g.ld.0.bc.out.log 2> C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/clang.a.g.ld.0.bc.err.log 
-Command       ap_eval done; 1.788 sec.
+Command       ap_eval done; 1.732 sec.
 INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
 INFO: [HLS 214-284] Auto array partition mode is set into default.
 INFO: [HLS 214-131] Inlining function 'ap_int_base<65, true>::ap_int_base<11, false>(ap_int_base<11, false> const&)' into 'ap_int_base<11, false>::RType<64, true>::minus operator-<11, false, 64, true>(ap_int_base<11, false> const&, ap_int_base<64, true> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:1526:341)
@@ -4602,10 +4608,10 @@ INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4,
 INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:182:19)
 INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:181:16)
 INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:287:21)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense1_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:310:23)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'dense1_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:314:34)
-INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'dense1_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:314:20)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense1_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:310:9)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:310:17)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:313:28)
+INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:313:17)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:310:9)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense2_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:326:25)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense2_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:326:17)
 INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::ap_int_base(unsigned long long)' into 'ap_int_base<36, false>::countLeadingZeros() const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:1231:30)
@@ -4617,33 +4623,33 @@ INFO: [HLS 214-178] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode
 INFO: [HLS 214-178] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const& std::max<ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> >(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' into 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:277:0)
 INFO: [HLS 214-178] Inlining function 'maxPool1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-178] Inlining function 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
-INFO: [HLS 214-178] Inlining function 'dense1_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
+INFO: [HLS 214-178] Inlining function 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-178] Inlining function 'dense2_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-178] Inlining function 'softmax_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, float*)' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-241] Aggregating bram variable 'input' with field bit alignment mode in 12-bits (master.cpp:6:0)
 INFO: [HLS 214-270] Starting automatic array partition analysis...
-INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixed.0s' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8]) (.1)'
-INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixed.0s' into 'convolution2_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])'
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixeds' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8]) (.1)'
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixeds' into 'convolution2_fix(int, int, int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])'
 INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/kernel.internal.xml
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 130 seconds. CPU system time: 10 seconds. Elapsed time: 183.443 seconds; current allocated memory: 174.398 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 174.399 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 130 seconds. CPU system time: 10 seconds. Elapsed time: 185.006 seconds; current allocated memory: 174.366 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.026 seconds; current allocated memory: 174.367 MB.
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 INFO-FLOW: Running Standard Transforms...
 Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top master_fix -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.0.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
-Command         transform done; 3.767 sec.
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 3.907 seconds; current allocated memory: 190.895 MB.
+Command         transform done; 4.226 sec.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 4.41 seconds; current allocated memory: 190.863 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.1.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.2.prechk.bc -f 
-Command         transform done; 3.921 sec.
+Command         transform done; 3.581 sec.
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute         transform -syn-check C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.2.prechk.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
 WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR.
 INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
-Command         transform done; 0.221 sec.
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 4.233 seconds; current allocated memory: 209.307 MB.
+Command         transform done; 0.215 sec.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 3.886 seconds; current allocated memory: 209.279 MB.
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.g.1.bc to C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
@@ -4654,6 +4660,7 @@ INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_67_1' (model_functions.cpp:59)
 INFO: [XFORM 203-510] Pipelining loop 'Conv_loop' (model_functions.cpp:61) in function 'convolution1_fix' automatically.
 INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_264_2' (model_functions.cpp:258) in function 'master_fix' automatically.
 INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_285_2' (model_functions.cpp:279) in function 'master_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_307_3' (model_functions.cpp:300) in function 'master_fix' automatically.
 INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_335_1' (model_functions.cpp:334) in function 'master_fix' automatically.
 INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_346_3' (model_functions.cpp:334) in function 'master_fix' automatically.
 INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_264_2' (model_functions.cpp:258) in function 'master_fix' for pipelining.
@@ -4700,7 +4707,7 @@ INFO: [XFORM 203-101] Partitioning array 'kr.V' (model_functions.cpp:61) in dime
 INFO: [XFORM 203-101] Partitioning array 'fourthBias_f.V' in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'm' (model_functions.cpp:333) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'den2.V.0' (master.cpp:13) in dimension 1 completely.
-Command         transform done; 7.624 sec.
+Command         transform done; 7.395 sec.
 INFO-FLOW: Presyn 2...
 Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -barrier -norm-name C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.o.1.tmp.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:334:9) in function 'master_fix'... converting 15 basic blocks.
@@ -4708,24 +4715,26 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functio
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:71:6) in function 'convolution1_fix'... converting 13 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:108:12) in function 'convolution1_fix'... converting 68 basic blocks.
 INFO: [XFORM 203-11] Balancing expressions in function 'convolution1_fix' (model_functions.cpp:59:10)...26 expression(s) balanced.
-Command         transform done; 0.546 sec.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 7 seconds. CPU system time: 1 seconds. Elapsed time: 8.204 seconds; current allocated memory: 254.286 MB.
+Command         transform done; 0.534 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 7 seconds. CPU system time: 1 seconds. Elapsed time: 7.964 seconds; current allocated memory: 254.260 MB.
 Execute         get_config_compile -enable_auto_rewind 
 Execute         get_config_compile -enable_loop_extract 
 INFO-FLOW: Building ssdm...
 Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation2 -deadargelim -globaldce -mem2reg -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.o.2.bc -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_263_1' (model_functions.cpp:258:15) in function 'master_fix'.
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_284_1' (model_functions.cpp:279:12) in function 'master_fix'.
-INFO: [HLS 200-472] Inferring partial write operation for 'den1.V[0]' 
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_306_2' (model_functions.cpp:300:13) in function 'master_fix'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_304_1' (model_functions.cpp:299:9) in function 'master_fix' the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
+INFO: [HLS 200-472] Inferring partial write operation for 'den1.V[0]' (model_functions.cpp:314:16)
 INFO: [HLS 200-472] Inferring partial write operation for 'max1.V[0]' (model_functions.cpp:271:35)
 INFO: [HLS 200-472] Inferring partial write operation for 'max2.V[0]' (model_functions.cpp:292:22)
 INFO: [HLS 200-472] Inferring partial write operation for 'out.0' (model_functions.cpp:251:16)
 INFO: [HLS 200-472] Inferring partial write operation for 'out' (model_functions.cpp:160:16)
-Command         transform done; 1.862 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.895 seconds; current allocated memory: 365.560 MB.
+Command         transform done; 1.971 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.009 seconds; current allocated memory: 374.966 MB.
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 18.451 sec.
-Command     elaborate done; 231.8 sec.
+Command       opt_and_import_c done; 18.517 sec.
+Command     elaborate done; 237.256 sec.
 Execute     ap_eval exec zip -j C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
@@ -4736,6 +4745,7 @@ Execute       get_model_list master_fix -filter all-wo-channel -topdown
 Execute       preproc_iomode -model master_fix 
 Execute       preproc_iomode -model master_fix_Pipeline_VITIS_LOOP_346_3 
 Execute       preproc_iomode -model master_fix_Pipeline_VITIS_LOOP_335_1 
+Execute       preproc_iomode -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
 Execute       preproc_iomode -model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
 Execute       preproc_iomode -model convolution2_fix 
 Execute       preproc_iomode -model convolution2_fix_Pipeline_Conv_loop 
@@ -4745,7 +4755,7 @@ Execute       preproc_iomode -model convolution1_fix
 Execute       preproc_iomode -model convolution1_fix_Pipeline_Conv_loop 
 Execute       preproc_iomode -model convolution1_fix_Pipeline_VITIS_LOOP_67_1 
 Execute       get_model_list master_fix -filter all-wo-channel 
-INFO-FLOW: Model list for configure: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
+INFO-FLOW: Model list for configure: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
 INFO-FLOW: Configuring Module : convolution1_fix_Pipeline_VITIS_LOOP_67_1 ...
 Execute       set_default_model convolution1_fix_Pipeline_VITIS_LOOP_67_1 
 Execute       apply_spec_resource_limit convolution1_fix_Pipeline_VITIS_LOOP_67_1 
@@ -4770,6 +4780,9 @@ Execute       apply_spec_resource_limit convolution2_fix
 INFO-FLOW: Configuring Module : master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 ...
 Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
 Execute       apply_spec_resource_limit master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
+INFO-FLOW: Configuring Module : master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 ...
+Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       apply_spec_resource_limit master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
 INFO-FLOW: Configuring Module : master_fix_Pipeline_VITIS_LOOP_335_1 ...
 Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_335_1 
 Execute       apply_spec_resource_limit master_fix_Pipeline_VITIS_LOOP_335_1 
@@ -4779,7 +4792,7 @@ Execute       apply_spec_resource_limit master_fix_Pipeline_VITIS_LOOP_346_3
 INFO-FLOW: Configuring Module : master_fix ...
 Execute       set_default_model master_fix 
 Execute       apply_spec_resource_limit master_fix 
-INFO-FLOW: Model list for preprocess: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
+INFO-FLOW: Model list for preprocess: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
 INFO-FLOW: Preprocessing Module: convolution1_fix_Pipeline_VITIS_LOOP_67_1 ...
 Execute       set_default_model convolution1_fix_Pipeline_VITIS_LOOP_67_1 
 Execute       cdfg_preprocess -model convolution1_fix_Pipeline_VITIS_LOOP_67_1 
@@ -4812,6 +4825,10 @@ INFO-FLOW: Preprocessing Module: master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP
 Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
 Execute       cdfg_preprocess -model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
 Execute       rtl_gen_preprocess master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
+INFO-FLOW: Preprocessing Module: master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 ...
+Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       cdfg_preprocess -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       rtl_gen_preprocess master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
 INFO-FLOW: Preprocessing Module: master_fix_Pipeline_VITIS_LOOP_335_1 ...
 Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_335_1 
 Execute       cdfg_preprocess -model master_fix_Pipeline_VITIS_LOOP_335_1 
@@ -4826,8 +4843,8 @@ Execute       cdfg_preprocess -model master_fix
 Execute       rtl_gen_preprocess master_fix 
 WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names.
 WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names.
-Command       rtl_gen_preprocess done; 0.131 sec.
-INFO-FLOW: Model list for synthesis: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
+Command       rtl_gen_preprocess done; 0.122 sec.
+INFO-FLOW: Model list for synthesis: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution1_fix_Pipeline_VITIS_LOOP_67_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4837,8 +4854,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_67_1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_67_1'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.406 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.101 seconds; current allocated memory: 366.718 MB.
+Command       schedule done; 0.375 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.126 seconds; current allocated memory: 376.133 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -4851,12 +4868,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.461 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.575 seconds; current allocated memory: 367.452 MB.
+Command       bind done; 0.426 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.546 seconds; current allocated memory: 376.851 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.104 sec.
+Command       syn_report done; 0.143 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1.bind.adb -f 
 INFO-FLOW: Finish binding convolution1_fix_Pipeline_VITIS_LOOP_67_1.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4869,12 +4886,12 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'Conv_loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'Conv_loop'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.537 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.896 seconds; current allocated memory: 368.823 MB.
+Command       schedule done; 0.687 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.146 seconds; current allocated memory: 378.223 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.126 sec.
+Command       syn_report done; 0.162 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop.sched.adb -f 
 INFO-FLOW: Finish scheduling convolution1_fix_Pipeline_Conv_loop.
 Execute       set_default_model convolution1_fix_Pipeline_Conv_loop 
@@ -4884,12 +4901,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.447 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.668 seconds; current allocated memory: 370.467 MB.
+Command       bind done; 0.517 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.803 seconds; current allocated memory: 379.867 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.542 sec.
+Command       syn_report done; 0.5 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop.bind.adb -f 
 INFO-FLOW: Finish binding convolution1_fix_Pipeline_Conv_loop.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4899,8 +4916,8 @@ Execute       set_default_model convolution1_fix
 Execute       schedule -model convolution1_fix 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.13 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.94 seconds; current allocated memory: 370.593 MB.
+Command       schedule done; 0.145 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.946 seconds; current allocated memory: 379.992 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -4913,12 +4930,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.509 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.569 seconds; current allocated memory: 370.847 MB.
+Command       bind done; 0.601 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.675 seconds; current allocated memory: 380.247 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.478 sec.
+Command       syn_report done; 0.527 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.bind.adb -f 
 INFO-FLOW: Finish binding convolution1_fix.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4932,8 +4949,8 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_263_1_VITIS_LOOP_264_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 14, loop 'VITIS_LOOP_263_1_VITIS_LOOP_264_2'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.381 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.083 seconds; current allocated memory: 371.072 MB.
+Command       schedule done; 0.466 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.234 seconds; current allocated memory: 380.472 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -4946,8 +4963,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.334 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.42 seconds; current allocated memory: 371.350 MB.
+Command       bind done; 0.362 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.457 seconds; current allocated memory: 380.750 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -4963,8 +4980,8 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_175_1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_175_1'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.359 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.654 seconds; current allocated memory: 372.074 MB.
+Command       schedule done; 0.36 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.688 seconds; current allocated memory: 381.474 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_VITIS_LOOP_175_1.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -4977,8 +4994,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.305 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.408 seconds; current allocated memory: 373.680 MB.
+Command       bind done; 0.326 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.433 seconds; current allocated memory: 383.079 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_VITIS_LOOP_175_1.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -4994,14 +5011,14 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'Conv_loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 38, loop 'Conv_loop'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.773 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.069 seconds; current allocated memory: 376.414 MB.
+Command       schedule done; 0.796 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.112 seconds; current allocated memory: 385.814 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.238 sec.
+Command       syn_report done; 0.259 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.sched.adb -f 
-Command       db_write done; 0.101 sec.
+Command       db_write done; 0.119 sec.
 INFO-FLOW: Finish scheduling convolution2_fix_Pipeline_Conv_loop.
 Execute       set_default_model convolution2_fix_Pipeline_Conv_loop 
 Execute       bind -model convolution2_fix_Pipeline_Conv_loop 
@@ -5010,14 +5027,14 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.554 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.937 seconds; current allocated memory: 379.569 MB.
+Command       bind done; 0.566 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.988 seconds; current allocated memory: 388.969 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.712 sec.
+Command       syn_report done; 0.729 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.bind.adb -f 
-Command       db_write done; 0.146 sec.
+Command       db_write done; 0.139 sec.
 INFO-FLOW: Finish binding convolution2_fix_Pipeline_Conv_loop.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution2_fix' 
@@ -5026,8 +5043,8 @@ Execute       set_default_model convolution2_fix
 Execute       schedule -model convolution2_fix 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.139 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.216 seconds; current allocated memory: 379.776 MB.
+Command       schedule done; 0.134 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.237 seconds; current allocated memory: 389.176 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -5040,12 +5057,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.471 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.537 seconds; current allocated memory: 380.188 MB.
+Command       bind done; 0.508 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.573 seconds; current allocated memory: 389.587 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.537 sec.
+Command       syn_report done; 0.593 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.bind.adb -f 
 INFO-FLOW: Finish binding convolution2_fix.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5057,8 +5074,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_284_1_VITIS_LOOP_285_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'VITIS_LOOP_284_1_VITIS_LOOP_285_2'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.272 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.036 seconds; current allocated memory: 380.365 MB.
+Command       schedule done; 0.291 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.16 seconds; current allocated memory: 389.765 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -5071,13 +5088,43 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.321 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.403 seconds; current allocated memory: 380.620 MB.
+Command       bind done; 0.34 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.432 seconds; current allocated memory: 390.020 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2.bind.adb -f 
 INFO-FLOW: Finish binding master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       schedule -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_306_2_VITIS_LOOP_307_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'VITIS_LOOP_306_2_VITIS_LOOP_307_3'
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.286 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.586 seconds; current allocated memory: 390.214 MB.
+Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.sched.adb -f 
+INFO-FLOW: Finish scheduling master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.
+Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       bind -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.323 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.41 seconds; current allocated memory: 390.435 MB.
+Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.bind.adb -f 
+INFO-FLOW: Finish binding master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_VITIS_LOOP_335_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5087,8 +5134,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_335_1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 5, loop 'VITIS_LOOP_335_1'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.288 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.557 seconds; current allocated memory: 380.917 MB.
+Command       schedule done; 0.301 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.607 seconds; current allocated memory: 390.733 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -5101,11 +5148,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.336 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.413 seconds; current allocated memory: 381.281 MB.
+Command       bind done; 0.355 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.452 seconds; current allocated memory: 391.097 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
+Command       syn_report done; 0.106 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.bind.adb -f 
 INFO-FLOW: Finish binding master_fix_Pipeline_VITIS_LOOP_335_1.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5117,12 +5165,12 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_346_3'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 80, loop 'VITIS_LOOP_346_3'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.337 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.669 seconds; current allocated memory: 381.537 MB.
+Command       schedule done; 0.353 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.723 seconds; current allocated memory: 391.382 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.202 sec.
+Command       syn_report done; 0.236 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.sched.adb -f 
 INFO-FLOW: Finish scheduling master_fix_Pipeline_VITIS_LOOP_346_3.
 Execute       set_default_model master_fix_Pipeline_VITIS_LOOP_346_3 
@@ -5132,11 +5180,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.386 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.637 seconds; current allocated memory: 381.799 MB.
+Command       bind done; 0.421 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.708 seconds; current allocated memory: 391.644 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
+Command       syn_report done; 0.107 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.bind.adb -f 
 INFO-FLOW: Finish binding master_fix_Pipeline_VITIS_LOOP_346_3.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5146,12 +5195,12 @@ Execute       set_default_model master_fix
 Execute       schedule -model master_fix 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.244 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.564 seconds; current allocated memory: 382.358 MB.
+Command       schedule done; 0.214 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.57 seconds; current allocated memory: 392.085 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.verbose.sched.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.138 sec.
+Command       syn_report done; 0.133 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.sched.adb -f 
 INFO-FLOW: Finish scheduling master_fix.
 Execute       set_default_model master_fix 
@@ -5161,12 +5210,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.777 sec.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.978 seconds; current allocated memory: 383.079 MB.
+Command       bind done; 0.814 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.012 seconds; current allocated memory: 392.684 MB.
 Execute       syn_report -verbosereport -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.verbose.bind.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 1.348 sec.
+Command       syn_report done; 1.505 sec.
 Execute       db_write -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.bind.adb -f 
 INFO-FLOW: Finish binding master_fix.
 Execute       get_model_list master_fix -filter all-wo-channel 
@@ -5179,10 +5228,11 @@ Execute       rtl_gen_preprocess convolution2_fix_Pipeline_VITIS_LOOP_175_1
 Execute       rtl_gen_preprocess convolution2_fix_Pipeline_Conv_loop 
 Execute       rtl_gen_preprocess convolution2_fix 
 Execute       rtl_gen_preprocess master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
+Execute       rtl_gen_preprocess master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
 Execute       rtl_gen_preprocess master_fix_Pipeline_VITIS_LOOP_335_1 
 Execute       rtl_gen_preprocess master_fix_Pipeline_VITIS_LOOP_346_3 
 Execute       rtl_gen_preprocess master_fix 
-INFO-FLOW: Model list for RTL generation: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
+INFO-FLOW: Model list for RTL generation: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution1_fix_Pipeline_VITIS_LOOP_67_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5194,8 +5244,8 @@ Execute       create_rtl_model convolution1_fix_Pipeline_VITIS_LOOP_67_1 -top_pr
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution1_fix_Pipeline_VITIS_LOOP_67_1' pipeline 'VITIS_LOOP_67_1' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'mux_164_12_1_1': 11 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution1_fix_Pipeline_VITIS_LOOP_67_1'.
-Command       create_rtl_model done; 0.205 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.819 seconds; current allocated memory: 384.898 MB.
+Command       create_rtl_model done; 0.303 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.186 seconds; current allocated memory: 394.491 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl convolution1_fix_Pipeline_VITIS_LOOP_67_1 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_67_1 
 Execute       gen_rtl convolution1_fix_Pipeline_VITIS_LOOP_67_1 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_convolution1_fix_Pipeline_VITIS_LOOP_67_1 
@@ -5208,7 +5258,7 @@ Execute           get_solution -flow_target
 Execute       syn_report -verbosereport -model convolution1_fix_Pipeline_VITIS_LOOP_67_1 -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.169 sec.
+Command       syn_report done; 0.18 sec.
 Execute       db_write -model convolution1_fix_Pipeline_VITIS_LOOP_67_1 -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1.adb 
 Execute       db_write -model convolution1_fix_Pipeline_VITIS_LOOP_67_1 -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info convolution1_fix_Pipeline_VITIS_LOOP_67_1 -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1 
@@ -5224,25 +5274,25 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution1_fix_
 INFO: [RTGEN 206-100] Generating core module 'mul_36s_12s_36_2_1': 12 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_124_12_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution1_fix_Pipeline_Conv_loop'.
-Command       create_rtl_model done; 0.342 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.099 seconds; current allocated memory: 391.031 MB.
+Command       create_rtl_model done; 0.499 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.489 seconds; current allocated memory: 400.623 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl convolution1_fix_Pipeline_Conv_loop -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_convolution1_fix_Pipeline_Conv_loop 
 Execute       gen_rtl convolution1_fix_Pipeline_Conv_loop -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_convolution1_fix_Pipeline_Conv_loop 
 Execute       syn_report -csynth -model convolution1_fix_Pipeline_Conv_loop -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/convolution1_fix_Pipeline_Conv_loop_csynth.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.315 sec.
+Command       syn_report done; 0.418 sec.
 Execute       syn_report -rtlxml -model convolution1_fix_Pipeline_Conv_loop -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/convolution1_fix_Pipeline_Conv_loop_csynth.xml 
 Execute         get_solution -flow_target
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.148 sec.
+Command       syn_report done; 0.189 sec.
 Execute       syn_report -verbosereport -model convolution1_fix_Pipeline_Conv_loop -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.646 sec.
+Command       syn_report done; 0.689 sec.
 Execute       db_write -model convolution1_fix_Pipeline_Conv_loop -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop.adb 
-Command       db_write done; 0.21 sec.
+Command       db_write done; 0.245 sec.
 Execute       db_write -model convolution1_fix_Pipeline_Conv_loop -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info convolution1_fix_Pipeline_Conv_loop -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_Conv_loop 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5254,7 +5304,7 @@ Execute       get_config_rtl -module_prefix
 Execute       get_config_rtl -module_auto_prefix 
 Execute       create_rtl_model convolution1_fix -top_prefix master_fix_ -sub_prefix master_fix_ -mg_file C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution1_fix'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.112 seconds; current allocated memory: 398.473 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.391 seconds; current allocated memory: 408.095 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl convolution1_fix -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_convolution1_fix 
 Execute       gen_rtl convolution1_fix -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_convolution1_fix 
@@ -5267,7 +5317,7 @@ Execute           get_solution -flow_target
 Execute       syn_report -verbosereport -model convolution1_fix -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.453 sec.
+Command       syn_report done; 0.463 sec.
 Execute       db_write -model convolution1_fix -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.adb 
 Execute       db_write -model convolution1_fix -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info convolution1_fix -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix 
@@ -5283,8 +5333,8 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeli
 INFO: [RTGEN 206-100] Generating core module 'mul_7ns_9ns_15_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'urem_7ns_3ns_2_11_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2'.
-Command       create_rtl_model done; 0.278 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1 seconds; current allocated memory: 399.815 MB.
+Command       create_rtl_model done; 0.294 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.04 seconds; current allocated memory: 409.409 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 
@@ -5312,8 +5362,8 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution2_fix_
 INFO: [RTGEN 206-100] Generating core module 'mux_164_36_1_1': 8 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_325_36_1_1': 24 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution2_fix_Pipeline_VITIS_LOOP_175_1'.
-Command       create_rtl_model done; 0.331 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.848 seconds; current allocated memory: 405.490 MB.
+Command       create_rtl_model done; 0.355 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.91 seconds; current allocated memory: 415.114 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl convolution2_fix_Pipeline_VITIS_LOOP_175_1 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_convolution2_fix_Pipeline_VITIS_LOOP_175_1 
 Execute       gen_rtl convolution2_fix_Pipeline_VITIS_LOOP_175_1 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_convolution2_fix_Pipeline_VITIS_LOOP_175_1 
@@ -5341,25 +5391,25 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution2_fix_
 INFO: [RTGEN 206-104] Estimated max fanout for 'convolution2_fix_Pipeline_Conv_loop' is 22477 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
 INFO: [RTGEN 206-100] Generating core module 'mul_36s_36s_55_2_1': 32 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution2_fix_Pipeline_Conv_loop'.
-Command       create_rtl_model done; 0.605 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.168 seconds; current allocated memory: 418.582 MB.
+Command       create_rtl_model done; 0.779 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.426 seconds; current allocated memory: 428.178 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl convolution2_fix_Pipeline_Conv_loop -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_convolution2_fix_Pipeline_Conv_loop 
 Execute       gen_rtl convolution2_fix_Pipeline_Conv_loop -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_convolution2_fix_Pipeline_Conv_loop 
 Execute       syn_report -csynth -model convolution2_fix_Pipeline_Conv_loop -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/convolution2_fix_Pipeline_Conv_loop_csynth.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.463 sec.
+Command       syn_report done; 0.515 sec.
 Execute       syn_report -rtlxml -model convolution2_fix_Pipeline_Conv_loop -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/convolution2_fix_Pipeline_Conv_loop_csynth.xml 
 Execute         get_solution -flow_target
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.214 sec.
+Command       syn_report done; 0.256 sec.
 Execute       syn_report -verbosereport -model convolution2_fix_Pipeline_Conv_loop -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.941 sec.
+Command       syn_report done; 1.057 sec.
 Execute       db_write -model convolution2_fix_Pipeline_Conv_loop -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.adb 
-Command       db_write done; 0.394 sec.
+Command       db_write done; 0.439 sec.
 Execute       db_write -model convolution2_fix_Pipeline_Conv_loop -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info convolution2_fix_Pipeline_Conv_loop -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -5371,7 +5421,7 @@ Execute       get_config_rtl -module_prefix
 Execute       get_config_rtl -module_auto_prefix 
 Execute       create_rtl_model convolution2_fix -top_prefix master_fix_ -sub_prefix master_fix_ -mg_file C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution2_fix'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 3.425 seconds; current allocated memory: 433.057 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 3.817 seconds; current allocated memory: 442.680 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl convolution2_fix -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_convolution2_fix 
 Execute       gen_rtl convolution2_fix -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_convolution2_fix 
@@ -5384,7 +5434,7 @@ Execute           get_solution -flow_target
 Execute       syn_report -verbosereport -model convolution2_fix -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.574 sec.
+Command       syn_report done; 0.585 sec.
 Execute       db_write -model convolution2_fix -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.adb 
 Execute       db_write -model convolution2_fix -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info convolution2_fix -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix 
@@ -5400,8 +5450,8 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeli
 INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2'.
-Command       create_rtl_model done; 0.265 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.159 seconds; current allocated memory: 434.691 MB.
+Command       create_rtl_model done; 0.277 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.19 seconds; current allocated memory: 444.312 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
@@ -5418,6 +5468,34 @@ Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_28
 Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 
 INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       get_config_rtl -module_prefix 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       create_rtl_model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -top_prefix master_fix_ -sub_prefix master_fix_ -mg_file C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.compgen.tcl 
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3' pipeline 'VITIS_LOOP_306_2_VITIS_LOOP_307_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_21s_35ns_55_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3'.
+Command       create_rtl_model done; 0.215 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.68 seconds; current allocated memory: 445.646 MB.
+Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
+Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+Execute       syn_report -csynth -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Execute       syn_report -rtlxml -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_csynth.xml 
+Execute         get_solution -flow_target
+Execute           get_solution -flow_target 
+Execute       syn_report -verbosereport -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute           get_solution -flow_target 
+Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.adb 
+Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 
+INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_VITIS_LOOP_335_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute       get_config_rtl -module_prefix 
@@ -5428,8 +5506,8 @@ Execute       create_rtl_model master_fix_Pipeline_VITIS_LOOP_335_1 -top_prefix 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeline_VITIS_LOOP_335_1' pipeline 'VITIS_LOOP_335_1' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'mux_42_36_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_VITIS_LOOP_335_1'.
-Command       create_rtl_model done; 0.19 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.631 seconds; current allocated memory: 436.274 MB.
+Command       create_rtl_model done; 0.209 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.687 seconds; current allocated memory: 447.350 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_335_1 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_master_fix_Pipeline_VITIS_LOOP_335_1 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_335_1 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_master_fix_Pipeline_VITIS_LOOP_335_1 
@@ -5442,7 +5520,7 @@ Execute           get_solution -flow_target
 Execute       syn_report -verbosereport -model master_fix_Pipeline_VITIS_LOOP_335_1 -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.123 sec.
+Command       syn_report done; 0.12 sec.
 Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_335_1 -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.adb 
 Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_335_1 -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info master_fix_Pipeline_VITIS_LOOP_335_1 -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1 
@@ -5460,8 +5538,8 @@ INFO: [RTGEN 206-100] Generating core module 'dexp_64ns_64ns_64_18_full_dsp_1': 
 INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_42_64_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_VITIS_LOOP_346_3'.
-Command       create_rtl_model done; 0.489 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.134 seconds; current allocated memory: 439.249 MB.
+Command       create_rtl_model done; 0.48 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.133 seconds; current allocated memory: 450.299 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_346_3 -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix_master_fix_Pipeline_VITIS_LOOP_346_3 
 Execute       gen_rtl master_fix_Pipeline_VITIS_LOOP_346_3 -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix_master_fix_Pipeline_VITIS_LOOP_346_3 
@@ -5474,7 +5552,7 @@ Execute           get_solution -flow_target
 Execute       syn_report -verbosereport -model master_fix_Pipeline_VITIS_LOOP_346_3 -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 0.133 sec.
+Command       syn_report done; 0.121 sec.
 Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_346_3 -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.adb 
 Execute       db_write -model master_fix_Pipeline_VITIS_LOOP_346_3 -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info master_fix_Pipeline_VITIS_LOOP_346_3 -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3 
@@ -5496,8 +5574,8 @@ INFO: [RTGEN 206-100] Generating core module 'mul_21s_35ns_55_2_1': 1 instance(s
 INFO: [RTGEN 206-100] Generating core module 'mux_42_36_1_1_x': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_42_64_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix'.
-Command       create_rtl_model done; 0.862 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.382 seconds; current allocated memory: 442.640 MB.
+Command       create_rtl_model done; 0.902 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.43 seconds; current allocated memory: 453.521 MB.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.rtl_wrap.cfg.tcl 
 Execute       gen_rtl master_fix -istop -style xilinx -f -lang vhdl -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/vhdl/master_fix 
 Execute       gen_rtl master_fix -istop -style xilinx -f -lang vlog -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/verilog/master_fix 
@@ -5510,13 +5588,13 @@ Execute           get_solution -flow_target
 Execute       syn_report -verbosereport -model master_fix -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.verbose.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
-Command       syn_report done; 1.366 sec.
+Command       syn_report done; 1.63 sec.
 Execute       db_write -model master_fix -f -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.adb 
 Execute       db_write -model master_fix -bindview -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info master_fix -p C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix 
 Execute       export_constraint_db -f -tool general -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.constraint.tcl 
 Execute       syn_report -designview -model master_fix -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.design.xml 
-Command       syn_report done; 1.067 sec.
+Command       syn_report done; 1.089 sec.
 Execute       syn_report -csynthDesign -model master_fix -o C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/syn/report/csynth.rpt 
 Execute         AP::get_flow_target_display_name
 Execute           get_solution -flow_target 
@@ -5530,7 +5608,7 @@ Execute       get_config_rtl -module_prefix
 Execute       get_config_rtl -module_prefix 
 Execute       get_config_rtl -module_auto_prefix 
 Execute       sc_get_portdomain master_fix 
-INFO-FLOW: Model list for RTL component generation: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
+INFO-FLOW: Model list for RTL component generation: convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
 INFO-FLOW: Handling components in module [convolution1_fix_Pipeline_VITIS_LOOP_67_1] ... 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix_Pipeline_VITIS_LOOP_67_1.compgen.tcl 
 INFO-FLOW: Found component master_fix_mux_164_12_1_1.
@@ -5685,6 +5763,14 @@ INFO-FLOW: Found component master_fix_mul_6ns_8ns_13_1_1.
 INFO-FLOW: Append model master_fix_mul_6ns_8ns_13_1_1
 INFO-FLOW: Found component master_fix_flow_control_loop_pipe_sequential_init.
 INFO-FLOW: Append model master_fix_flow_control_loop_pipe_sequential_init
+INFO-FLOW: Handling components in module [master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3] ... 
+Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.compgen.tcl 
+INFO-FLOW: Found component master_fix_mul_21s_35ns_55_2_1.
+INFO-FLOW: Append model master_fix_mul_21s_35ns_55_2_1
+INFO-FLOW: Found component master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V.
+INFO-FLOW: Append model master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V
+INFO-FLOW: Found component master_fix_flow_control_loop_pipe_sequential_init.
+INFO-FLOW: Append model master_fix_flow_control_loop_pipe_sequential_init
 INFO-FLOW: Handling components in module [master_fix_Pipeline_VITIS_LOOP_335_1] ... 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.compgen.tcl 
 INFO-FLOW: Found component master_fix_mux_42_36_1_1.
@@ -5707,16 +5793,12 @@ INFO-FLOW: Handling components in module [master_fix] ...
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.compgen.tcl 
 INFO-FLOW: Found component master_fix_dadd_64ns_64ns_64_7_full_dsp_1.
 INFO-FLOW: Append model master_fix_dadd_64ns_64ns_64_7_full_dsp_1
-INFO-FLOW: Found component master_fix_mul_21s_35ns_55_2_1.
-INFO-FLOW: Append model master_fix_mul_21s_35ns_55_2_1
 INFO-FLOW: Found component master_fix_mux_42_36_1_1_x.
 INFO-FLOW: Append model master_fix_mux_42_36_1_1_x
 INFO-FLOW: Found component master_fix_mul_19s_35ns_54_2_1.
 INFO-FLOW: Append model master_fix_mul_19s_35ns_54_2_1
 INFO-FLOW: Found component master_fix_thirdBias_f_V.
 INFO-FLOW: Append model master_fix_thirdBias_f_V
-INFO-FLOW: Found component master_fix_firstDense_f_V.
-INFO-FLOW: Append model master_fix_firstDense_f_V
 INFO-FLOW: Found component master_fix_secondDense_f_V.
 INFO-FLOW: Append model master_fix_secondDense_f_V
 INFO-FLOW: Found component master_fix_conv1.
@@ -5737,11 +5819,12 @@ INFO-FLOW: Append model convolution2_fix_Pipeline_VITIS_LOOP_175_1
 INFO-FLOW: Append model convolution2_fix_Pipeline_Conv_loop
 INFO-FLOW: Append model convolution2_fix
 INFO-FLOW: Append model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2
+INFO-FLOW: Append model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3
 INFO-FLOW: Append model master_fix_Pipeline_VITIS_LOOP_335_1
 INFO-FLOW: Append model master_fix_Pipeline_VITIS_LOOP_346_3
 INFO-FLOW: Append model master_fix
 INFO-FLOW: Generating RTL model list ...
-INFO-FLOW: All models in this session: master_fix_mux_164_12_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mux_124_12_1_1 master_fix_mul_36s_12s_36_2_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_0_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_0_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_0_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_1_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_1_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_1_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_2_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_2_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_2_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_3_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_3_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_3_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstBias_f_V master_fix_flow_control_loop_pipe_sequential_init master_fix_urem_7ns_3ns_2_11_1 master_fix_mul_7ns_9ns_15_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_325_36_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mul_36s_36s_55_2_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondBias_f_V master_fix_flow_control_loop_pipe_sequential_init master_fix_urem_6ns_3ns_2_10_1 master_fix_mul_6ns_8ns_13_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mux_42_36_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_fptrunc_64ns_32_2_no_dsp_1 master_fix_ddiv_64ns_64ns_64_59_no_dsp_1 master_fix_dexp_64ns_64ns_64_18_full_dsp_1 master_fix_mux_42_64_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_dadd_64ns_64ns_64_7_full_dsp_1 master_fix_mul_21s_35ns_55_2_1 master_fix_mux_42_36_1_1_x master_fix_mul_19s_35ns_54_2_1 master_fix_thirdBias_f_V master_fix_firstDense_f_V master_fix_secondDense_f_V master_fix_conv1 master_fix_max1_V_0 master_fix_conv2_0 master_fix_max2_V_0 master_fix_den1_V_0 convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
+INFO-FLOW: All models in this session: master_fix_mux_164_12_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mux_124_12_1_1 master_fix_mul_36s_12s_36_2_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_0_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_0_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_0_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_1_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_1_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_1_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_2_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_2_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_2_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_3_0 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_3_1 master_fix_convolution1_fix_Pipeline_Conv_loop_firstKernel_f_V_3_2 master_fix_convolution1_fix_Pipeline_Conv_loop_firstBias_f_V master_fix_flow_control_loop_pipe_sequential_init master_fix_urem_7ns_3ns_2_11_1 master_fix_mul_7ns_9ns_15_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_164_36_1_1 master_fix_mux_325_36_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mul_36s_36s_55_2_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_0_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_1_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_2_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_0 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_1 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_2 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_3 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_4 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_5 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_6 master_fix_convolution2_fix_Pipeline_Conv_loop_secondKernel_f_V_3_7 master_fix_convolution2_fix_Pipeline_Conv_loop_secondBias_f_V master_fix_flow_control_loop_pipe_sequential_init master_fix_urem_6ns_3ns_2_10_1 master_fix_mul_6ns_8ns_13_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_mul_21s_35ns_55_2_1 master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V master_fix_flow_control_loop_pipe_sequential_init master_fix_mux_42_36_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_fptrunc_64ns_32_2_no_dsp_1 master_fix_ddiv_64ns_64ns_64_59_no_dsp_1 master_fix_dexp_64ns_64ns_64_18_full_dsp_1 master_fix_mux_42_64_1_1 master_fix_flow_control_loop_pipe_sequential_init master_fix_dadd_64ns_64ns_64_7_full_dsp_1 master_fix_mux_42_36_1_1_x master_fix_mul_19s_35ns_54_2_1 master_fix_thirdBias_f_V master_fix_secondDense_f_V master_fix_conv1 master_fix_max1_V_0 master_fix_conv2_0 master_fix_max2_V_0 master_fix_den1_V_0 convolution1_fix_Pipeline_VITIS_LOOP_67_1 convolution1_fix_Pipeline_Conv_loop convolution1_fix master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2 convolution2_fix_Pipeline_VITIS_LOOP_175_1 convolution2_fix_Pipeline_Conv_loop convolution2_fix master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2 master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 master_fix_Pipeline_VITIS_LOOP_335_1 master_fix_Pipeline_VITIS_LOOP_346_3 master_fix
 INFO-FLOW: Generating C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/autopilot.rtl.models.txt file...
 INFO-FLOW: To file: write model master_fix_mux_164_12_1_1
 INFO-FLOW: To file: write model master_fix_flow_control_loop_pipe_sequential_init
@@ -5812,6 +5895,9 @@ INFO-FLOW: To file: write model master_fix_flow_control_loop_pipe_sequential_ini
 INFO-FLOW: To file: write model master_fix_urem_6ns_3ns_2_10_1
 INFO-FLOW: To file: write model master_fix_mul_6ns_8ns_13_1_1
 INFO-FLOW: To file: write model master_fix_flow_control_loop_pipe_sequential_init
+INFO-FLOW: To file: write model master_fix_mul_21s_35ns_55_2_1
+INFO-FLOW: To file: write model master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V
+INFO-FLOW: To file: write model master_fix_flow_control_loop_pipe_sequential_init
 INFO-FLOW: To file: write model master_fix_mux_42_36_1_1
 INFO-FLOW: To file: write model master_fix_flow_control_loop_pipe_sequential_init
 INFO-FLOW: To file: write model master_fix_fptrunc_64ns_32_2_no_dsp_1
@@ -5820,11 +5906,9 @@ INFO-FLOW: To file: write model master_fix_dexp_64ns_64ns_64_18_full_dsp_1
 INFO-FLOW: To file: write model master_fix_mux_42_64_1_1
 INFO-FLOW: To file: write model master_fix_flow_control_loop_pipe_sequential_init
 INFO-FLOW: To file: write model master_fix_dadd_64ns_64ns_64_7_full_dsp_1
-INFO-FLOW: To file: write model master_fix_mul_21s_35ns_55_2_1
 INFO-FLOW: To file: write model master_fix_mux_42_36_1_1_x
 INFO-FLOW: To file: write model master_fix_mul_19s_35ns_54_2_1
 INFO-FLOW: To file: write model master_fix_thirdBias_f_V
-INFO-FLOW: To file: write model master_fix_firstDense_f_V
 INFO-FLOW: To file: write model master_fix_secondDense_f_V
 INFO-FLOW: To file: write model master_fix_conv1
 INFO-FLOW: To file: write model master_fix_max1_V_0
@@ -5839,6 +5923,7 @@ INFO-FLOW: To file: write model convolution2_fix_Pipeline_VITIS_LOOP_175_1
 INFO-FLOW: To file: write model convolution2_fix_Pipeline_Conv_loop
 INFO-FLOW: To file: write model convolution2_fix
 INFO-FLOW: To file: write model master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2
+INFO-FLOW: To file: write model master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3
 INFO-FLOW: To file: write model master_fix_Pipeline_VITIS_LOOP_335_1
 INFO-FLOW: To file: write model master_fix_Pipeline_VITIS_LOOP_346_3
 INFO-FLOW: To file: write model master_fix
@@ -5945,6 +6030,9 @@ master_fix_flow_control_loop_pipe_sequential_init
 master_fix_urem_6ns_3ns_2_10_1
 master_fix_mul_6ns_8ns_13_1_1
 master_fix_flow_control_loop_pipe_sequential_init
+master_fix_mul_21s_35ns_55_2_1
+master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V
+master_fix_flow_control_loop_pipe_sequential_init
 master_fix_mux_42_36_1_1
 master_fix_flow_control_loop_pipe_sequential_init
 master_fix_fptrunc_64ns_32_2_no_dsp_1
@@ -5953,11 +6041,9 @@ master_fix_dexp_64ns_64ns_64_18_full_dsp_1
 master_fix_mux_42_64_1_1
 master_fix_flow_control_loop_pipe_sequential_init
 master_fix_dadd_64ns_64ns_64_7_full_dsp_1
-master_fix_mul_21s_35ns_55_2_1
 master_fix_mux_42_36_1_1_x
 master_fix_mul_19s_35ns_54_2_1
 master_fix_thirdBias_f_V
-master_fix_firstDense_f_V
 master_fix_secondDense_f_V
 master_fix_conv1
 master_fix_max1_V_0
@@ -5972,6 +6058,7 @@ convolution2_fix_Pipeline_VITIS_LOOP_175_1
 convolution2_fix_Pipeline_Conv_loop
 convolution2_fix
 master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2
+master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3
 master_fix_Pipeline_VITIS_LOOP_335_1
 master_fix_Pipeline_VITIS_LOOP_346_3
 master_fix
@@ -6078,7 +6165,7 @@ Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Command       ap_source done; 1.168 sec.
+Command       ap_source done; 1.223 sec.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution1_fix.compgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2.compgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_VITIS_LOOP_175_1.compgen.tcl 
@@ -6100,7 +6187,7 @@ Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Command       ap_source done; 0.126 sec.
+Command       ap_source done; 0.129 sec.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.compgen.tcl 
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
@@ -6333,9 +6420,18 @@ Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Command       ap_source done; 3.833 sec.
+Command       ap_source done; 3.141 sec.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.compgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2.compgen.tcl 
+Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.compgen.tcl 
+Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+INFO: [RTMG 210-279] Implementing memory 'master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V' using auto ROMs.
+Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Command       ap_source done; 0.291 sec.
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.compgen.tcl 
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
@@ -6348,13 +6444,6 @@ Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
 INFO: [RTMG 210-279] Implementing memory 'master_fix_thirdBias_f_V' using auto ROMs.
-Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
-Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
-Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
-Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-INFO: [RTMG 210-279] Implementing memory 'master_fix_firstDense_f_V' using auto ROMs.
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
@@ -6381,8 +6470,8 @@ Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet
 INFO: [RTMG 210-278] Implementing memory 'master_fix_den1_V_0_ram (RAM)' using auto RAMs.
 Execute         ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute         ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Command       ap_source done; 1.019 sec.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 10 seconds. CPU system time: 1 seconds. Elapsed time: 10.876 seconds; current allocated memory: 446.586 MB.
+Command       ap_source done; 0.603 sec.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 10 seconds. CPU system time: 2 seconds. Elapsed time: 10.361 seconds; current allocated memory: 456.877 MB.
 INFO-FLOW: DBG:PROC: ::AP::create_csynth_xml outfile=''
 INFO-FLOW: Running: create_csynth_xml read xml data
 INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
@@ -6632,6 +6721,9 @@ master_fix_flow_control_loop_pipe_sequential_init
 master_fix_urem_6ns_3ns_2_10_1
 master_fix_mul_6ns_8ns_13_1_1
 master_fix_flow_control_loop_pipe_sequential_init
+master_fix_mul_21s_35ns_55_2_1
+master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V
+master_fix_flow_control_loop_pipe_sequential_init
 master_fix_mux_42_36_1_1
 master_fix_flow_control_loop_pipe_sequential_init
 master_fix_fptrunc_64ns_32_2_no_dsp_1
@@ -6640,11 +6732,9 @@ master_fix_dexp_64ns_64ns_64_18_full_dsp_1
 master_fix_mux_42_64_1_1
 master_fix_flow_control_loop_pipe_sequential_init
 master_fix_dadd_64ns_64ns_64_7_full_dsp_1
-master_fix_mul_21s_35ns_55_2_1
 master_fix_mux_42_36_1_1_x
 master_fix_mul_19s_35ns_54_2_1
 master_fix_thirdBias_f_V
-master_fix_firstDense_f_V
 master_fix_secondDense_f_V
 master_fix_conv1
 master_fix_max1_V_0
@@ -6659,6 +6749,7 @@ convolution2_fix_Pipeline_VITIS_LOOP_175_1
 convolution2_fix_Pipeline_Conv_loop
 convolution2_fix
 master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2
+master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3
 master_fix_Pipeline_VITIS_LOOP_335_1
 master_fix_Pipeline_VITIS_LOOP_346_3
 master_fix
@@ -6683,6 +6774,7 @@ Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solutio
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix_Pipeline_Conv_loop.tbgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/convolution2_fix.tbgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2.tbgen.tcl 
+Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3.tbgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_335_1.tbgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix_Pipeline_VITIS_LOOP_346_3.tbgen.tcl 
 Execute       source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/master_fix.tbgen.tcl 
@@ -6714,19 +6806,19 @@ INFO-FLOW: DBG:PROC: ::AP::add_csynth_report_sections
 INFO-FLOW: DBG:PUTS:       update_csynth_reports json2reportxml
 INFO-FLOW: DBG:PUTS:       update_csynth_reports wrote xml
 INFO-FLOW: DBG:PUTS:       update_csynth_reports appended to csynth rpt file
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.977 seconds; current allocated memory: 451.703 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.03 seconds; current allocated memory: 462.034 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for master_fix.
 INFO: [VLOG 209-307] Generating Verilog RTL for master_fix.
 Execute       syn_report -model master_fix -printsummary 
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
-INFO: [HLS 200-789] **** Estimated Fmax: 132.03 MHz
-Command       syn_report done; 0.141 sec.
-Command     autosyn done; 46.187 sec.
-Command   csynth_design done; 278.078 sec.
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 190 seconds. CPU system time: 15 seconds. Elapsed time: 278.163 seconds; current allocated memory: 451.689 MB.
-Command ap_source done; 279.259 sec.
+INFO: [HLS 200-789] **** Estimated Fmax: 131.73 MHz
+Command       syn_report done; 0.134 sec.
+Command     autosyn done; 50.963 sec.
+Command   csynth_design done; 288.313 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 195 seconds. CPU system time: 16 seconds. Elapsed time: 288.395 seconds; current allocated memory: 462.020 MB.
+Command ap_source done; 289.388 sec.
 Execute cleanup_all 
-INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 15:48:06 +0100 2022
+INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 16:42:42 +0100 2022
 Execute     ap_set_clock -name default -period 10.4 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.4ns.
 Execute     set_part xc7z020-clg400-1 
@@ -6737,7 +6829,7 @@ DBG:HLSDevice: init success
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command       create_platform done; 0.637 sec.
+Command       create_platform done; 0.685 sec.
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
@@ -6751,9 +6843,10 @@ Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/ut
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
 Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.107 sec.
 Execute       ap_part_info -name xc7z020-clg400-1 -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.747 sec.
+Command     set_part done; 0.806 sec.
 Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Execute     get_config_interface -m_axi_latency 
@@ -6761,7 +6854,7 @@ Execute     get_config_interface -m_axi_alignment_byte_size
 Execute     get_config_interface -m_axi_max_widen_bitwidth 
 Execute     get_config_interface -default_interface 
 Execute     get_config_rtl -register_reset_num 
-Command   open_solution done; 0.776 sec.
+Command   open_solution done; 0.83 sec.
 Execute   set_part xc7z020-clg400-1 
 INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
 Execute     create_platform xc7z020-clg400-1 -board  
@@ -6780,9 +6873,10 @@ Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
 Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.115 sec.
 Execute     ap_part_info -name xc7z020-clg400-1 -data info 
 Execute     config_compile -quiet -complex-mul-dsp=0 
-Command   set_part done; 0.12 sec.
+Command   set_part done; 0.15 sec.
 Execute   create_clock -period 10.4 -name default 
 INFO: [HLS 200-1510] Running: create_clock -period 10.4 -name default 
 Execute   source ./Testing/solution1/directives.tcl 
@@ -6796,237 +6890,10 @@ INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
 Execute     source csim/.lst_opt.tcl 
 Execute     ap_part_info -name xc7z020-clg400-1 -data info 
 Execute     source run_sim.tcl 
-Command     ap_source done; 0.21 sec.
+Command     ap_source done; 0.264 sec.
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-Command   csim_design done; 12.599 sec.
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 12.614 seconds; current allocated memory: 127.373 MB.
-Command ap_source done; 13.604 sec.
-Execute cleanup_all 
-INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 15:49:51 +0100 2022
-Execute     ap_set_clock -name default -period 10.4 -default=false 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.4ns.
-Execute     set_part xc7z020-clg400-1 
-Execute       create_platform xc7z020-clg400-1 -board  
-DBG:HLSDevice: Trying to load device library: D:/Xilinx/Vitis_HLS/2021.1\lib\win64.o\librdi_hlsvwrap.dll
-DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: D:/Xilinx/Vivado/2021.1/data/parts/arch.xml
-DBG:HLSDevice: init success
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
-INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command       create_platform done; 0.583 sec.
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute           source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/saxilite.gen 
-Execute           source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/maxi.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute       ap_part_info -name xc7z020-clg400-1 -data info 
-Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.69 sec.
-Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute     get_config_interface -m_axi_latency 
-Execute     get_config_interface -m_axi_alignment_byte_size 
-Execute     get_config_interface -m_axi_max_widen_bitwidth 
-Execute     get_config_interface -default_interface 
-Execute     get_config_rtl -register_reset_num 
-Command   open_solution done; 0.711 sec.
-Execute   set_part xc7z020-clg400-1 
-INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
-Execute     create_platform xc7z020-clg400-1 -board  
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
-Execute     source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/saxilite.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/maxi.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-Execute     config_compile -quiet -complex-mul-dsp=0 
-Command   set_part done; 0.111 sec.
-Execute   create_clock -period 10.4 -name default 
-INFO: [HLS 200-1510] Running: create_clock -period 10.4 -name default 
-Execute   source ./Testing/solution1/directives.tcl 
-Execute     set_directive_top -name master_fix master_fix 
-INFO: [HLS 200-1510] Running: set_directive_top -name master_fix master_fix 
-Execute   csim_design -quiet 
-INFO: [HLS 200-1510] Running: csim_design -quiet 
-Execute     source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/global.setting.tcl 
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
-Execute     source csim/.lst_opt.tcl 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
-INFO: [SIM 211-3] *************** CSIM finish ***************
-Command   csim_design done; error code: 2; 14.105 sec.
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 14.13 seconds; current allocated memory: 127.422 MB.
-Command ap_source done; error code: 1; 15.044 sec.
-Execute cleanup_all 
-INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 15:52:45 +0100 2022
-Execute     ap_set_clock -name default -period 10.4 -default=false 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.4ns.
-Execute     set_part xc7z020-clg400-1 
-Execute       create_platform xc7z020-clg400-1 -board  
-DBG:HLSDevice: Trying to load device library: D:/Xilinx/Vitis_HLS/2021.1\lib\win64.o\librdi_hlsvwrap.dll
-DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: D:/Xilinx/Vivado/2021.1/data/parts/arch.xml
-DBG:HLSDevice: init success
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
-INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command       create_platform done; 0.641 sec.
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute           source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/saxilite.gen 
-Execute           source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/maxi.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute       ap_part_info -name xc7z020-clg400-1 -data info 
-Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.754 sec.
-Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute     get_config_interface -m_axi_latency 
-Execute     get_config_interface -m_axi_alignment_byte_size 
-Execute     get_config_interface -m_axi_max_widen_bitwidth 
-Execute     get_config_interface -default_interface 
-Execute     get_config_rtl -register_reset_num 
-Command   open_solution done; 0.78 sec.
-Execute   set_part xc7z020-clg400-1 
-INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
-Execute     create_platform xc7z020-clg400-1 -board  
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
-Execute     source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/saxilite.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/maxi.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-Execute     config_compile -quiet -complex-mul-dsp=0 
-Command   set_part done; 0.123 sec.
-Execute   create_clock -period 10.4 -name default 
-INFO: [HLS 200-1510] Running: create_clock -period 10.4 -name default 
-Execute   source ./Testing/solution1/directives.tcl 
-Execute     set_directive_top -name master_fix master_fix 
-INFO: [HLS 200-1510] Running: set_directive_top -name master_fix master_fix 
-Execute   csim_design -quiet 
-INFO: [HLS 200-1510] Running: csim_design -quiet 
-Execute     source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/global.setting.tcl 
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
-Execute     source csim/.lst_opt.tcl 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
-INFO: [SIM 211-3] *************** CSIM finish ***************
-Command   csim_design done; error code: 2; 9.045 sec.
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 9.066 seconds; current allocated memory: 127.422 MB.
-Command ap_source done; error code: 1; 10.043 sec.
-Execute cleanup_all 
-INFO-FLOW: Workspace C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1 opened at Tue Jul 26 15:53:50 +0100 2022
-Execute     ap_set_clock -name default -period 10.4 -default=false 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.4ns.
-Execute     set_part xc7z020-clg400-1 
-Execute       create_platform xc7z020-clg400-1 -board  
-DBG:HLSDevice: Trying to load device library: D:/Xilinx/Vitis_HLS/2021.1\lib\win64.o\librdi_hlsvwrap.dll
-DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: D:/Xilinx/Vivado/2021.1/data/parts/arch.xml
-DBG:HLSDevice: init success
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
-INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command       create_platform done; 0.577 sec.
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute           source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/saxilite.gen 
-Execute           source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/maxi.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute       ap_part_info -name xc7z020-clg400-1 -data info 
-Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.685 sec.
-Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute     get_config_interface -m_axi_latency 
-Execute     get_config_interface -m_axi_alignment_byte_size 
-Execute     get_config_interface -m_axi_max_widen_bitwidth 
-Execute     get_config_interface -default_interface 
-Execute     get_config_rtl -register_reset_num 
-Command   open_solution done; 0.706 sec.
-Execute   set_part xc7z020-clg400-1 
-INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
-Execute     create_platform xc7z020-clg400-1 -board  
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.hlp 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/zynq_dsp48e1.hlp 
-Execute     source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/common/xilinx.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/plb46.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/axi4.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/saxilite.gen 
-Execute         source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/maxi.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/util.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfft.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/ip/xfir.gen 
-Execute       source D:/Xilinx/Vitis_HLS/2021.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-Execute     config_compile -quiet -complex-mul-dsp=0 
-Command   set_part done; 0.12 sec.
-Execute   create_clock -period 10.4 -name default 
-INFO: [HLS 200-1510] Running: create_clock -period 10.4 -name default 
-Execute   source ./Testing/solution1/directives.tcl 
-Execute     set_directive_top -name master_fix master_fix 
-INFO: [HLS 200-1510] Running: set_directive_top -name master_fix master_fix 
-Execute   csim_design -quiet 
-INFO: [HLS 200-1510] Running: csim_design -quiet 
-Execute     source C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/.autopilot/db/global.setting.tcl 
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
-Execute     source csim/.lst_opt.tcl 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-Execute     source run_sim.tcl 
-Command     ap_source done; 0.208 sec.
-INFO: [SIM 211-1] CSim done with 0 errors.
-INFO: [SIM 211-3] *************** CSIM finish ***************
-Command   csim_design done; 8.13 sec.
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.147 seconds; current allocated memory: 127.373 MB.
-Command ap_source done; 9.041 sec.
+Command   csim_design done; 12.395 sec.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 12.42 seconds; current allocated memory: 127.373 MB.
+Command ap_source done; 13.497 sec.
 Execute cleanup_all 

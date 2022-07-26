@@ -820,10 +820,10 @@ newFuncRoot:52 %br_ln0 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mod
 
 <Node id="104" bw="5" op_0_bw="5" op_1_bw="0">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:0 %r_2 = load i5 %r
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:0 %r_1 = load i5 %r
 
 ]]></Node>
-<StgValue><ssdm name="r_2"/></StgValue>
+<StgValue><ssdm name="r_1"/></StgValue>
 </operation>
 
 <operation id="59" st_id="1" stage="1" lat="1">
@@ -850,7 +850,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:1 %specpipeline_
 
 <Node id="106" bw="1" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:2 %icmp_ln175 = icmp_eq  i5 %r_2, i5 16
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:2 %icmp_ln175 = icmp_eq  i5 %r_1, i5 16
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln175"/></StgValue>
@@ -880,7 +880,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:3 %empty = specl
 
 <Node id="108" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:4 %add_ln175 = add i5 %r_2, i5 1
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit:4 %add_ln175 = add i5 %r_1, i5 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln175"/></StgValue>
@@ -1055,7 +1055,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:8 %tmp1_V_
 
 <Node id="121" bw="3" op_0_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:10 %d = trunc i5 %r_2
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:10 %d = trunc i5 %r_1
 
 ]]></Node>
 <StgValue><ssdm name="d"/></StgValue>
@@ -1119,7 +1119,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:13 %i_5 = 
 
 <Node id="125" bw="4" op_0_bw="5">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:14 %trunc_ln179 = trunc i5 %r_2
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:14 %trunc_ln179 = trunc i5 %r_1
 
 ]]></Node>
 <StgValue><ssdm name="trunc_ln179"/></StgValue>
@@ -4257,7 +4257,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split1170:82 %br
 
 <Node id="120" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:9 %specloopname_ln167 = specloopname void @_ssdm_op_SpecLoopName, void @empty_12
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:9 %specloopname_ln167 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln167"/></StgValue>
@@ -5097,7 +5097,7 @@ branch31:1 %br_ln180 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3
 </dataflow>
 <dataflow id="422" from="i" to="store_ln0" fromId="5" toId="56">
 </dataflow>
-<dataflow id="423" from="r" to="r_2" fromId="6" toId="58">
+<dataflow id="423" from="r" to="r_1" fromId="6" toId="58">
 </dataflow>
 <dataflow id="425" from="_ssdm_op_SpecPipeline" to="specpipeline_ln0" fromId="424" toId="59">
 </dataflow>
@@ -5111,7 +5111,7 @@ branch31:1 %br_ln180 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3
 </dataflow>
 <dataflow id="433" from="p_str" to="specpipeline_ln0" fromId="432" toId="59">
 </dataflow>
-<dataflow id="434" from="r_2" to="icmp_ln175" fromId="58" toId="60">
+<dataflow id="434" from="r_1" to="icmp_ln175" fromId="58" toId="60">
 </dataflow>
 <dataflow id="436" from="StgValue_435" to="icmp_ln175" fromId="435" toId="60">
 </dataflow>
@@ -5123,7 +5123,7 @@ branch31:1 %br_ln180 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3
 </dataflow>
 <dataflow id="442" from="StgValue_439" to="empty" fromId="439" toId="61">
 </dataflow>
-<dataflow id="443" from="r_2" to="add_ln175" fromId="58" toId="62">
+<dataflow id="443" from="r_1" to="add_ln175" fromId="58" toId="62">
 </dataflow>
 <dataflow id="445" from="StgValue_444" to="add_ln175" fromId="444" toId="62">
 </dataflow>
@@ -5147,7 +5147,7 @@ branch31:1 %br_ln180 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3
 </dataflow>
 <dataflow id="455" from="tmp1_V_15_0" to="tmp1_V_15_0_load" fromId="14" toId="72">
 </dataflow>
-<dataflow id="456" from="r_2" to="d" fromId="58" toId="73">
+<dataflow id="456" from="r_1" to="d" fromId="58" toId="73">
 </dataflow>
 <dataflow id="457" from="d" to="icmp_ln177" fromId="73" toId="74">
 </dataflow>
@@ -5163,7 +5163,7 @@ branch31:1 %br_ln180 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3
 </dataflow>
 <dataflow id="465" from="i_load" to="i_5" fromId="64" toId="76">
 </dataflow>
-<dataflow id="466" from="r_2" to="trunc_ln179" fromId="58" toId="77">
+<dataflow id="466" from="r_1" to="trunc_ln179" fromId="58" toId="77">
 </dataflow>
 <dataflow id="467" from="trunc_ln179" to="zext_ln179" fromId="77" toId="78">
 </dataflow>
@@ -7327,7 +7327,7 @@ branch31:1 %br_ln180 = br void %_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3
 </dataflow>
 <dataflow id="1570" from="_ssdm_op_SpecLoopName" to="specloopname_ln167" fromId="1569" toId="176">
 </dataflow>
-<dataflow id="1572" from="empty_12" to="specloopname_ln167" fromId="1571" toId="176">
+<dataflow id="1572" from="empty_0" to="specloopname_ln167" fromId="1571" toId="176">
 </dataflow>
 <dataflow id="1573" from="m_0_addr" to="tmp1_V_17" fromId="89" toId="177">
 </dataflow>

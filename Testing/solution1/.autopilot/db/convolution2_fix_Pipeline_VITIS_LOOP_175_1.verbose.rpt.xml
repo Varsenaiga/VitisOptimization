@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix_Pipeline_VITIS_LOOP_175_1'" level="0">
-<item name = "Date">Tue Jul 26 15:38:34 2022
+<item name = "Date">Tue Jul 26 16:15:15 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -123,7 +123,7 @@
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
 <column name="ap_sig_allocacmp_i_load">9, 2, 16, 32</column>
-<column name="ap_sig_allocacmp_r_2">9, 2, 5, 10</column>
+<column name="ap_sig_allocacmp_r_1">9, 2, 5, 10</column>
 <column name="i_fu_174">9, 2, 16, 32</column>
 <column name="r_fu_178">9, 2, 5, 10</column>
 </table>

@@ -82,6 +82,12 @@ set SynModuleInfo {
       {MODELNAME master_fix_mul_6ns_8ns_13_1_1 RTLNAME master_fix_mul_6ns_8ns_13_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
     }
   }
+  {SRCNAME master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 MODELNAME master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3 RTLNAME master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3
+    SUBMODULES {
+      {MODELNAME master_fix_mul_21s_35ns_55_2_1 RTLNAME master_fix_mul_21s_35ns_55_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
+      {MODELNAME master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V RTLNAME master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
   {SRCNAME master_fix_Pipeline_VITIS_LOOP_335_1 MODELNAME master_fix_Pipeline_VITIS_LOOP_335_1 RTLNAME master_fix_master_fix_Pipeline_VITIS_LOOP_335_1
     SUBMODULES {
       {MODELNAME master_fix_mux_42_36_1_1 RTLNAME master_fix_mux_42_36_1_1 BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
@@ -98,11 +104,9 @@ set SynModuleInfo {
   {SRCNAME master_fix MODELNAME master_fix RTLNAME master_fix IS_TOP 1
     SUBMODULES {
       {MODELNAME master_fix_dadd_64ns_64ns_64_7_full_dsp_1 RTLNAME master_fix_dadd_64ns_64ns_64_7_full_dsp_1 BINDTYPE op TYPE dadd IMPL fulldsp LATENCY 6 ALLOW_PRAGMA 1}
-      {MODELNAME master_fix_mul_21s_35ns_55_2_1 RTLNAME master_fix_mul_21s_35ns_55_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_mux_42_36_1_1_x RTLNAME master_fix_mux_42_36_1_1_x BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_mul_19s_35ns_54_2_1 RTLNAME master_fix_mul_19s_35ns_54_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_thirdBias_f_V RTLNAME master_fix_thirdBias_f_V BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
-      {MODELNAME master_fix_firstDense_f_V RTLNAME master_fix_firstDense_f_V BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_secondDense_f_V RTLNAME master_fix_secondDense_f_V BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_conv1 RTLNAME master_fix_conv1 BINDTYPE storage TYPE ram_1wnr IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_max1_V_0 RTLNAME master_fix_max1_V_0 BINDTYPE storage TYPE ram_1wnr IMPL auto LATENCY 2 ALLOW_PRAGMA 1}

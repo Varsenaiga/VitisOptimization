@@ -177,7 +177,7 @@ attribute shreg_extract : string;
     signal bitcast_ln741_fu_492_p1 : STD_LOGIC_VECTOR (63 downto 0);
     signal icmp_ln336_fu_515_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal icmp_ln336_1_fu_527_p2 : STD_LOGIC_VECTOR (0 downto 0);
-    signal m_3_36_fu_520_p3 : STD_LOGIC_VECTOR (63 downto 0);
+    signal m_3_35_fu_520_p3 : STD_LOGIC_VECTOR (63 downto 0);
     signal icmp_ln336_2_fu_540_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal m_3_13_fu_532_p3 : STD_LOGIC_VECTOR (63 downto 0);
     signal m_3_15_fu_553_p3 : STD_LOGIC_VECTOR (63 downto 0);
@@ -233,7 +233,7 @@ attribute shreg_extract : string;
 
 
 begin
-    mux_42_36_1_1_U311 : component master_fix_mux_42_36_1_1
+    mux_42_36_1_1_U318 : component master_fix_mux_42_36_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -581,7 +581,7 @@ begin
 
     m_3_13_fu_532_p3 <= 
         m_3_04_fu_124 when (icmp_ln336_1_fu_527_p2(0) = '1') else 
-        m_3_36_fu_520_p3;
+        m_3_35_fu_520_p3;
     m_3_14_fu_545_p3 <= 
         m_3_04_fu_124 when (icmp_ln336_2_fu_540_p2(0) = '1') else 
         m_3_13_fu_532_p3;
@@ -606,7 +606,7 @@ begin
     m_3_21_fu_496_p3 <= 
         ap_const_lv64_0 when (icmp_ln938_reg_680_pp0_iter2_reg(0) = '1') else 
         bitcast_ln741_fu_492_p1;
-    m_3_36_fu_520_p3 <= 
+    m_3_35_fu_520_p3 <= 
         m_3_04_fu_124 when (icmp_ln336_fu_515_p2(0) = '1') else 
         m_3_21_reg_740;
     m_3_7_out <= m_3_7_fu_116;

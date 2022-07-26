@@ -1,30 +1,30 @@
 INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2021.1/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'tiago' on host 'desktop-g74gfk5' (Windows NT_amd64 version 6.2) on Tue Jul 26 15:53:50 +0100 2022
+INFO: [HLS 200-10] For user 'tiago' on host 'desktop-g74gfk5' (Windows NT_amd64 version 6.2) on Tue Jul 26 16:42:42 +0100 2022
 INFO: [HLS 200-10] In directory 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis'
 Sourcing Tcl script 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/csim.tcl'
 INFO: [HLS 200-1510] Running: open_project Testing 
 INFO: [HLS 200-10] Opening project 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing'.
 INFO: [HLS 200-1510] Running: set_top master_fix 
-INFO: [HLS 200-1510] Running: add_files master.cpp 
-INFO: [HLS 200-10] Adding design file 'master.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files master.h 
-INFO: [HLS 200-10] Adding design file 'master.h' to the project
-INFO: [HLS 200-1510] Running: add_files model_functions.cpp 
-INFO: [HLS 200-10] Adding design file 'model_functions.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files model_functions.h 
-INFO: [HLS 200-10] Adding design file 'model_functions.h' to the project
 INFO: [HLS 200-1510] Running: add_files parameters.h 
 INFO: [HLS 200-10] Adding design file 'parameters.h' to the project
-INFO: [HLS 200-1510] Running: add_files -tb file.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'file.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb file.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'file.h' to the project
-INFO: [HLS 200-1510] Running: add_files -tb main.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'main.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb utils.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'utils.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files model_functions.h 
+INFO: [HLS 200-10] Adding design file 'model_functions.h' to the project
+INFO: [HLS 200-1510] Running: add_files model_functions.cpp 
+INFO: [HLS 200-10] Adding design file 'model_functions.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files master.h 
+INFO: [HLS 200-10] Adding design file 'master.h' to the project
+INFO: [HLS 200-1510] Running: add_files master.cpp 
+INFO: [HLS 200-10] Adding design file 'master.cpp' to the project
 INFO: [HLS 200-1510] Running: add_files -tb utils.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
 INFO: [HLS 200-10] Adding test bench file 'utils.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb utils.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'utils.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb main.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'main.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb file.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'file.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb file.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'file.cpp' to the project
 INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
 INFO: [HLS 200-10] Opening solution 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.4ns.
@@ -37,9 +37,100 @@ INFO: [HLS 200-1510] Running: set_directive_top -name master_fix master_fix
 INFO: [HLS 200-1510] Running: csim_design -quiet 
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
-   Compiling ../../../../model_functions.cpp in debug mode
+   Compiling ../../../../file.cpp in debug mode
+   Compiling ../../../../main.cpp in debug mode
+   Compiling ../../../../utils.cpp in debug mode
    Compiling ../../../../master.cpp in debug mode
+   Compiling ../../../../model_functions.cpp in debug mode
    Generating csim.exe
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../file.cpp:3:
+D:/Xilinx/Vitis_HLS/2021.1/include/gmp.h:63:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../file.cpp:3:
+D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:136:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../main.cpp:5:
+D:/Xilinx/Vitis_HLS/2021.1/include/gmp.h:63:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../main.cpp:5:
+D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:136:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../utils.h:5,
+                 from ../../../../utils.cpp:5:
+D:/Xilinx/Vitis_HLS/2021.1/include/gmp.h:63:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../utils.h:5,
+                 from ../../../../utils.cpp:5:
+D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:136:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../parameters.h:4,
+                 from ../../../../master.cpp:1:
+D:/Xilinx/Vitis_HLS/2021.1/include/gmp.h:63:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189:0,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
+                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
+                 from ../../../../parameters.h:4,
+                 from ../../../../master.cpp:1:
+D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:136:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
 In file included from D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
                  from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189,
                  from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
@@ -69,32 +160,9 @@ In file included from D:/Xilinx/Vitis_HLS/2021.1/include/hls_hotbm_apfixed.h:45:
 D:/Xilinx/Vitis_HLS/2021.1/include/utils/x_hls_utils.h:243:40: warning: 'hls_preserve' attribute directive ignored [-Wattributes]
  __attribute__((hls_preserve)) T reg(T d)
                                         ^
-In file included from D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
-                 from ../../../../parameters.h:4,
-                 from ../../../../master.cpp:1:
-D:/Xilinx/Vitis_HLS/2021.1/include/gmp.h:63:0: warning: "__GMP_LIBGMP_DLL" redefined
- #define __GMP_LIBGMP_DLL  0
- 
-In file included from D:/Xilinx/Vitis_HLS/2021.1/include/hls_fpo.h:189:0,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half_fpo.h:64,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/hls_half.h:71,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/etc/ap_private.h:91,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_common.h:653,
-                 from D:/Xilinx/Vitis_HLS/2021.1/include/ap_fixed.h:55,
-                 from ../../../../parameters.h:4,
-                 from ../../../../master.cpp:1:
-D:/Xilinx/Vitis_HLS/2021.1/include/floating_point_v7_0_bitacc_cmodel.h:136:0: note: this is the location of the previous definition
- #define __GMP_LIBGMP_DLL 1
- 
 
 
 
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.147 seconds; current allocated memory: 127.373 MB.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 12.42 seconds; current allocated memory: 127.373 MB.

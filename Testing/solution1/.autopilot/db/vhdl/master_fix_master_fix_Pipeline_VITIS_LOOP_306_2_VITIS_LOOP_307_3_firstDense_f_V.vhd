@@ -6,7 +6,7 @@ library ieee;
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
 
-entity master_fix_firstDense_f_V is 
+entity master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V is 
     generic(
              DataWidth     : integer := 21; 
              AddressWidth     : integer := 12; 
@@ -22,7 +22,7 @@ entity master_fix_firstDense_f_V is
 end entity; 
 
 
-architecture rtl of master_fix_firstDense_f_V is 
+architecture rtl of master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V is 
 
 signal address0_tmp : std_logic_vector(AddressWidth-1 downto 0); 
 type mem_array is array (0 to AddressRange-1) of std_logic_vector (DataWidth-1 downto 0); 

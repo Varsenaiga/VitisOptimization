@@ -2,8 +2,8 @@
 // Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
 // Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // ==============================================================
-#ifndef __master_fix_firstDense_f_V_H__
-#define __master_fix_firstDense_f_V_H__
+#ifndef __master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_H__
+#define __master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_H__
 
 
 #include <systemc>
@@ -16,7 +16,7 @@ using namespace sc_dt;
 #include <iostream>
 #include <fstream>
 
-struct master_fix_firstDense_f_V_ram : public sc_core::sc_module {
+struct master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_ram : public sc_core::sc_module {
 
   static const unsigned DataWidth = 21;
   static const unsigned AddressRange = 3584;
@@ -35,7 +35,7 @@ sc_core::sc_in<bool> clk;
 sc_lv<DataWidth> ram[AddressRange];
 
 
-   SC_CTOR(master_fix_firstDense_f_V_ram) {
+   SC_CTOR(master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_ram) {
         ram[0] = "0b000001001111001111001";
         ram[1] = "0b000011110010011011100";
         ram[2] = "0b111111110001101010100";
@@ -3642,7 +3642,7 @@ void prc_write_0()
 }; //endmodule
 
 
-SC_MODULE(master_fix_firstDense_f_V) {
+SC_MODULE(master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V) {
 
 
 static const unsigned DataWidth = 21;
@@ -3656,11 +3656,11 @@ sc_core::sc_in<sc_logic> reset;
 sc_core::sc_in<bool> clk;
 
 
-master_fix_firstDense_f_V_ram* meminst;
+master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_ram* meminst;
 
 
-SC_CTOR(master_fix_firstDense_f_V) {
-meminst = new master_fix_firstDense_f_V_ram("master_fix_firstDense_f_V_ram");
+SC_CTOR(master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V) {
+meminst = new master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_ram("master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V_ram");
 meminst->address0(address0);
 meminst->ce0(ce0);
 meminst->q0(q0);
@@ -3668,7 +3668,7 @@ meminst->q0(q0);
 meminst->reset(reset);
 meminst->clk(clk);
 }
-~master_fix_firstDense_f_V() {
+~master_fix_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_firstDense_f_V() {
     delete meminst;
 }
 

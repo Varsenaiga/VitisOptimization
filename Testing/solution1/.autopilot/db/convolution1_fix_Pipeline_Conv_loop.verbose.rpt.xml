@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution1_fix_Pipeline_Conv_loop'" level="0">
-<item name = "Date">Tue Jul 26 15:38:31 2022
+<item name = "Date">Tue Jul 26 16:15:11 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -197,7 +197,7 @@
 <column name="or_ln146_fu_2316_p2">or, 0, 0, 2, 1, 1</column>
 <column name="d_6_fu_1367_p3">select, 0, 0, 4, 1, 4</column>
 <column name="i_7_fu_921_p3">select, 0, 0, 8, 1, 8</column>
-<column name="num_V_2_fu_2929_p3">select, 0, 0, 35, 1, 1</column>
+<column name="num_V_5_fu_2929_p3">select, 0, 0, 35, 1, 1</column>
 <column name="select_ln108_fu_964_p3">select, 0, 0, 12, 1, 12</column>
 <column name="select_ln115_1_fu_1457_p3">select, 0, 0, 12, 1, 12</column>
 <column name="select_ln115_fu_1441_p3">select, 0, 0, 12, 1, 12</column>
@@ -387,18 +387,18 @@
 <column name="id_fu_188">12, 0, 12, 0</column>
 <column name="idxprom87_reg_3350">4, 0, 64, 60</column>
 <column name="j_fu_184">12, 0, 12, 0</column>
-<column name="kr_V_0_01129_fu_268">36, 0, 36, 0</column>
-<column name="kr_V_10_01139_fu_308">36, 0, 36, 0</column>
-<column name="kr_V_11_01140_fu_312">36, 0, 36, 0</column>
-<column name="kr_V_1_01130_fu_272">36, 0, 36, 0</column>
-<column name="kr_V_2_01131_fu_276">36, 0, 36, 0</column>
-<column name="kr_V_3_01132_fu_280">36, 0, 36, 0</column>
-<column name="kr_V_4_01133_fu_284">36, 0, 36, 0</column>
-<column name="kr_V_5_01134_fu_288">36, 0, 36, 0</column>
-<column name="kr_V_6_01135_fu_292">36, 0, 36, 0</column>
-<column name="kr_V_7_01136_fu_296">36, 0, 36, 0</column>
-<column name="kr_V_8_01137_fu_300">36, 0, 36, 0</column>
-<column name="kr_V_9_01138_fu_304">36, 0, 36, 0</column>
+<column name="kr_V_0_01126_fu_268">36, 0, 36, 0</column>
+<column name="kr_V_10_01136_fu_308">36, 0, 36, 0</column>
+<column name="kr_V_11_01137_fu_312">36, 0, 36, 0</column>
+<column name="kr_V_1_01127_fu_272">36, 0, 36, 0</column>
+<column name="kr_V_2_01128_fu_276">36, 0, 36, 0</column>
+<column name="kr_V_3_01129_fu_280">36, 0, 36, 0</column>
+<column name="kr_V_4_01130_fu_284">36, 0, 36, 0</column>
+<column name="kr_V_5_01131_fu_288">36, 0, 36, 0</column>
+<column name="kr_V_6_01132_fu_292">36, 0, 36, 0</column>
+<column name="kr_V_7_01133_fu_296">36, 0, 36, 0</column>
+<column name="kr_V_8_01134_fu_300">36, 0, 36, 0</column>
+<column name="kr_V_9_01135_fu_304">36, 0, 36, 0</column>
 <column name="mul_ln712_10_reg_3694">36, 0, 36, 0</column>
 <column name="mul_ln712_11_reg_3699">36, 0, 36, 0</column>
 <column name="mul_ln712_1_reg_3599">36, 0, 36, 0</column>
@@ -414,7 +414,7 @@
 <column name="newSecond75_reg_3285">9, 0, 9, 0</column>
 <column name="newSecond77_reg_3296">9, 0, 9, 0</column>
 <column name="newSecond_reg_3306">9, 0, 9, 0</column>
-<column name="num_V_2_reg_3744">35, 0, 35, 0</column>
+<column name="num_V_5_reg_3744">35, 0, 35, 0</column>
 <column name="select_ln120_1_reg_3454">12, 0, 12, 0</column>
 <column name="select_ln120_1_reg_3454_pp0_iter6_reg">12, 0, 12, 0</column>
 <column name="select_ln123_reg_3459">12, 0, 12, 0</column>

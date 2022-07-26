@@ -296,7 +296,7 @@ wire    ap_loop_init;
 reg   [15:0] ap_sig_allocacmp_i_load;
 wire   [15:0] i_5_fu_791_p3;
 reg   [4:0] r_fu_178;
-reg   [4:0] ap_sig_allocacmp_r_2;
+reg   [4:0] ap_sig_allocacmp_r_1;
 wire   [4:0] add_ln175_fu_742_p2;
 reg   [35:0] tmp1_V_8_0_fu_182;
 wire   [35:0] tmp1_V_8_1_fu_807_p18;
@@ -2769,9 +2769,9 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0) & (ap_loop_init == 1'b1))) begin
-        ap_sig_allocacmp_r_2 = 5'd0;
+        ap_sig_allocacmp_r_1 = 5'd0;
     end else begin
-        ap_sig_allocacmp_r_2 = r_fu_178;
+        ap_sig_allocacmp_r_1 = r_fu_178;
     end
 end
 
@@ -3178,7 +3178,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln175_fu_742_p2 = (ap_sig_allocacmp_r_2 + 5'd1);
+assign add_ln175_fu_742_p2 = (ap_sig_allocacmp_r_1 + 5'd1);
 
 assign add_ln177_fu_785_p2 = (ap_sig_allocacmp_i_load + 16'd1);
 
@@ -3202,11 +3202,11 @@ assign ap_enable_reg_pp0_iter0 = ap_start_int;
 
 assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
-assign d_fu_775_p1 = ap_sig_allocacmp_r_2[2:0];
+assign d_fu_775_p1 = ap_sig_allocacmp_r_1[2:0];
 
 assign i_5_fu_791_p3 = ((icmp_ln177_fu_779_p2[0:0] == 1'b1) ? add_ln177_fu_785_p2 : ap_sig_allocacmp_i_load);
 
-assign icmp_ln175_fu_736_p2 = ((ap_sig_allocacmp_r_2 == 5'd16) ? 1'b1 : 1'b0);
+assign icmp_ln175_fu_736_p2 = ((ap_sig_allocacmp_r_1 == 5'd16) ? 1'b1 : 1'b0);
 
 assign icmp_ln177_fu_779_p2 = ((d_fu_775_p1 == 3'd0) ? 1'b1 : 1'b0);
 
@@ -3312,7 +3312,7 @@ assign tmp2_V_7_0_out = tmp2_V_7_0_fu_242;
 
 assign tmp_fu_1111_p3 = {{i_5_fu_791_p3}, {d_fu_775_p1}};
 
-assign trunc_ln179_fu_799_p1 = ap_sig_allocacmp_r_2[3:0];
+assign trunc_ln179_fu_799_p1 = ap_sig_allocacmp_r_1[3:0];
 
 assign zext_ln179_fu_803_p1 = trunc_ln179_fu_799_p1;
 

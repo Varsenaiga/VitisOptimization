@@ -983,7 +983,7 @@ _Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.e
 
 <Node id="34" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split20:16 %specloopname_ln279 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3
+.split20:16 %specloopname_ln279 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln279"/></StgValue>
