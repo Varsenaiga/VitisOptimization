@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix'
 ================================================================
-* Date:           Tue Jul 26 15:14:32 2022
+* Date:           Tue Jul 26 15:38:15 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -34,13 +34,13 @@
 
     + Detail: 
         * Instance: 
-        +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
-        |                                                       |                                            |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
-        |                        Instance                       |                   Module                   |   min   |   max   |    min    |    max    |  min |  max |   Type  |
-        +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
-        |grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152  |convolution1_fix_Pipeline_VITIS_LOOP_107_1  |        9|        9|  93.600 ns|  93.600 ns|     9|     9|       no|
-        |grp_convolution1_fix_Pipeline_Conv_loop_fu_180         |convolution1_fix_Pipeline_Conv_loop         |     3083|     3083|  32.063 us|  32.063 us|  3083|  3083|       no|
-        +-------------------------------------------------------+--------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
+        +------------------------------------------------------+-------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
+        |                                                      |                                           |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+        |                       Instance                       |                   Module                  |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+        +------------------------------------------------------+-------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
+        |grp_convolution1_fix_Pipeline_VITIS_LOOP_67_1_fu_152  |convolution1_fix_Pipeline_VITIS_LOOP_67_1  |        9|        9|  93.600 ns|  93.600 ns|     9|     9|       no|
+        |grp_convolution1_fix_Pipeline_Conv_loop_fu_180        |convolution1_fix_Pipeline_Conv_loop        |     3083|     3083|  32.063 us|  32.063 us|  3083|  3083|       no|
+        +------------------------------------------------------+-------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 
         * Loop: 
         N/A
@@ -108,18 +108,18 @@ ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%tmp1_V_11_6_loc = alloca i64 1"   
 ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%tmp1_V_11_4_loc = alloca i64 1"   --->   Operation 26 'alloca' 'tmp1_V_11_4_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%tmp1_V_10_0_loc = alloca i64 1"   --->   Operation 27 'alloca' 'tmp1_V_10_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc = alloca i64 1"   --->   Operation 28 'alloca' 'tmp1_V_11_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 29 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_107_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 29 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 29 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_67_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 29 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 30 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_107_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 30 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 30 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_VITIS_LOOP_67_1, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc, i12 %tmp2_V_11_0_loc, i12 %tmp2_V_10_0_loc, i12 %tmp2_V_9_0_loc, i12 %tmp2_V_8_0_loc, i12 %tmp2_V_7_0_loc, i12 %tmp2_V_6_0_loc, i12 %tmp2_V_5_0_loc, i12 %tmp2_V_3_0_loc, i12 %tmp2_V_2_0_loc, i12 %tmp2_V_1_0_loc, i12 %tmp2_V_0_0_loc"   --->   Operation 30 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 3.25>
-ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:119]   --->   Operation 31 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 32 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:119]   --->   Operation 32 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:79]   --->   Operation 31 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:79]   --->   Operation 32 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 33 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:119]   --->   Operation 33 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
-ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:119]   --->   Operation 34 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:79]   --->   Operation 33 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:79]   --->   Operation 34 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 1.58>
 ST_5 : Operation 35 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc_load = load i12 %tmp1_V_11_0_loc"   --->   Operation 35 'load' 'tmp1_V_11_0_loc_load' <Predicate = true> <Delay = 0.00>
@@ -144,12 +144,12 @@ ST_5 : Operation 53 [1/1] (0.00ns)   --->   "%tmp2_V_3_0_loc_load = load i12 %tm
 ST_5 : Operation 54 [1/1] (0.00ns)   --->   "%tmp2_V_2_0_loc_load = load i12 %tmp2_V_2_0_loc"   --->   Operation 54 'load' 'tmp2_V_2_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 55 [1/1] (0.00ns)   --->   "%tmp2_V_1_0_loc_load = load i12 %tmp2_V_1_0_loc"   --->   Operation 55 'load' 'tmp2_V_1_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 56 [1/1] (0.00ns)   --->   "%tmp2_V_0_0_loc_load = load i12 %tmp2_V_0_0_loc"   --->   Operation 56 'load' 'tmp2_V_0_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 57 [2/2] (1.58ns)   --->   "%call_ln119 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:119]   --->   Operation 57 'call' 'call_ln119' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 57 [2/2] (1.58ns)   --->   "%call_ln79 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:79]   --->   Operation 57 'call' 'call_ln79' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 58 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_8, i32 0, i32 0, void @empty_5, i32 4294967295, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_5"   --->   Operation 58 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 59 [1/2] (0.00ns)   --->   "%call_ln119 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:119]   --->   Operation 59 'call' 'call_ln119' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_6 : Operation 60 [1/1] (0.00ns)   --->   "%ret_ln203 = ret" [model_functions.cpp:203]   --->   Operation 60 'ret' 'ret_ln203' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 58 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_9, i32 0, i32 0, void @empty_8, i32 4294967295, i32 0, void @empty_8, void @empty_8, void @empty_8, i32 0, i32 0, i32 0, i32 0, void @empty_8, void @empty_8"   --->   Operation 58 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 59 [1/2] (0.00ns)   --->   "%call_ln79 = call void @convolution1_fix_Pipeline_Conv_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i12 %tmp2_V_11_0_loc_load, i12 %tmp2_V_10_0_loc_load, i12 %tmp2_V_9_0_loc_load, i12 %tmp2_V_8_0_loc_load, i12 %tmp2_V_7_0_loc_load, i12 %tmp2_V_6_0_loc_load, i12 %tmp2_V_5_0_loc_load, i12 %tmp2_V_3_0_loc_load, i12 %tmp2_V_2_0_loc_load, i12 %tmp2_V_1_0_loc_load, i12 %tmp2_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:79]   --->   Operation 59 'call' 'call_ln79' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 60 [1/1] (0.00ns)   --->   "%ret_ln163 = ret" [model_functions.cpp:163]   --->   Operation 60 'ret' 'ret_ln163' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -233,8 +233,8 @@ tmp2_V_2_0_loc_load   (load         ) [ 0000001]
 tmp2_V_1_0_loc_load   (load         ) [ 0000001]
 tmp2_V_0_0_loc_load   (load         ) [ 0000001]
 specinterface_ln0     (specinterface) [ 0000000]
-call_ln119            (call         ) [ 0000000]
-ret_ln203             (ret          ) [ 0000000]
+call_ln79             (call         ) [ 0000000]
+ret_ln163             (ret          ) [ 0000000]
 </LifeTime>
 
 <model>
@@ -404,7 +404,7 @@ ret_ln203             (ret          ) [ 0000000]
 <pin id="33" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="convolution1_fix_Pipeline_VITIS_LOOP_107_1"/></StgValue>
+<StgValue><ssdm name="convolution1_fix_Pipeline_VITIS_LOOP_67_1"/></StgValue>
 </bind>
 </comp>
 
@@ -449,7 +449,7 @@ ret_ln203             (ret          ) [ 0000000]
 <pin id="43" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_8"/></StgValue>
+<StgValue><ssdm name="empty_9"/></StgValue>
 </bind>
 </comp>
 
@@ -467,7 +467,7 @@ ret_ln203             (ret          ) [ 0000000]
 <pin id="47" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_5"/></StgValue>
+<StgValue><ssdm name="empty_8"/></StgValue>
 </bind>
 </comp>
 
@@ -748,7 +748,7 @@ ret_ln203             (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="152" class="1004" name="grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152">
+<comp id="152" class="1004" name="grp_convolution1_fix_Pipeline_VITIS_LOOP_67_1_fu_152">
 <pin_list>
 <pin id="153" dir="0" index="0" bw="0" slack="0"/>
 <pin id="154" dir="0" index="1" bw="16" slack="0"/>
@@ -827,7 +827,7 @@ ret_ln203             (ret          ) [ 0000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln119/5 "/>
+<opset="call_ln79/5 "/>
 </bind>
 </comp>
 
@@ -1633,7 +1633,7 @@ ret_ln203             (ret          ) [ 0000000]
 	State 4
 		tmp1_V_9 : 1
 	State 5
-		call_ln119 : 1
+		call_ln79 : 1
 	State 6
 
 
@@ -1642,16 +1642,16 @@ ret_ln203             (ret          ) [ 0000000]
 ============================================================
 
 * Functional unit list:
-|----------|-------------------------------------------------------|---------|---------|---------|---------|
-| Operation|                    Functional Unit                    |   DSP   |  Delay  |    FF   |   LUT   |
-|----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   call   | grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152 |    0    |  1.588  |   298   |   1169  |
-|          |     grp_convolution1_fix_Pipeline_Conv_loop_fu_180    |    24   | 61.0598 |   5260  |   3399  |
-|----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   trunc  |                    tmp1_V_9_fu_237                    |    0    |    0    |    0    |    0    |
-|----------|-------------------------------------------------------|---------|---------|---------|---------|
-|   Total  |                                                       |    24   | 62.6478 |   5558  |   4568  |
-|----------|-------------------------------------------------------|---------|---------|---------|---------|
+|----------|------------------------------------------------------|---------|---------|---------|---------|
+| Operation|                    Functional Unit                   |   DSP   |  Delay  |    FF   |   LUT   |
+|----------|------------------------------------------------------|---------|---------|---------|---------|
+|   call   | grp_convolution1_fix_Pipeline_VITIS_LOOP_67_1_fu_152 |    0    |  1.588  |   298   |   1169  |
+|          |    grp_convolution1_fix_Pipeline_Conv_loop_fu_180    |    24   | 61.0598 |   5260  |   3399  |
+|----------|------------------------------------------------------|---------|---------|---------|---------|
+|   trunc  |                    tmp1_V_9_fu_237                   |    0    |    0    |    0    |    0    |
+|----------|------------------------------------------------------|---------|---------|---------|---------|
+|   Total  |                                                      |    24   | 62.6478 |   5558  |   4568  |
+|----------|------------------------------------------------------|---------|---------|---------|---------|
 
 Memories:
 N/A

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix'" level="0">
-<item name = "Date">Tue Jul 26 15:14:58 2022
+<item name = "Date">Tue Jul 26 15:38:39 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_215_1_fu_268">convolution2_fix_Pipeline_VITIS_LOOP_215_1, 18, 18, 0.187 us, 0.187 us, 18, 18, no</column>
+<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268">convolution2_fix_Pipeline_VITIS_LOOP_175_1, 18, 18, 0.187 us, 0.187 us, 18, 18, no</column>
 <column name="grp_convolution2_fix_Pipeline_Conv_loop_fu_322">convolution2_fix_Pipeline_Conv_loop, 709, 709, 7.374 us, 7.374 us, 709, 709, no</column>
 </table>
 </item>
@@ -64,7 +64,7 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="grp_convolution2_fix_Pipeline_Conv_loop_fu_322">convolution2_fix_Pipeline_Conv_loop, 0, 128, 18293, 10180, 0</column>
-<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_215_1_fu_268">convolution2_fix_Pipeline_VITIS_LOOP_215_1, 0, 0, 1740, 4054, 0</column>
+<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268">convolution2_fix_Pipeline_VITIS_LOOP_175_1, 0, 0, 1740, 4054, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -109,7 +109,7 @@
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">4, 0, 4, 0</column>
 <column name="grp_convolution2_fix_Pipeline_Conv_loop_fu_322_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_215_1_fu_268_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268_ap_start_reg">1, 0, 1, 0</column>
 </table>
 </item>
 </section>

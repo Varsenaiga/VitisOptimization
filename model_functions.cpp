@@ -5,46 +5,6 @@
 #include <hls_math.h>
 
 /*
-void maxPool1(int mRow, int mCol, int mDep, float (*m)[DATA_SIZE][FIRST_NUM_KERNELS], int oRow, float (*out)[1][FIRST_NUM_KERNELS], int kRow){
-
-    int i, j, d;
-
-    for (d = 0; d < mDep; d++) {
-		#pragma HLS pipeline off
-        for (i = 0; i < mRow; i++) {
-			#pragma HLS pipeline off
-            if (i/kRow == oRow) break;
-            if (i%kRow == 0){
-                out[i/kRow][0][d] = 0;
-            }
-            for (j = 0; j < mCol; j++) {
-				#pragma HLS pipeline off
-                out[i/kRow][0][d] = (float)fmax((double)out[i/kRow][0][d], (double)m[i][j][d]);
-            }
-        }
-    }
-}
-
-void maxPool2(int mRow, int mCol, int mDep, float (*m)[1][SECOND_NUM_KERNELS], int oRow, float (*out)[1][SECOND_NUM_KERNELS], int kRow){
-
-    int i, j, d;
-
-    for (d = 0; d < mDep; d++) {
-		#pragma HLS pipeline off
-        for (i = 0; i < mRow; i++) {
-			#pragma HLS pipeline off
-            if (i/kRow == oRow) break;
-            if (i%kRow == 0){
-                out[i/kRow][0][d] = 0;
-            }
-            for (j = 0; j < mCol; j++) {
-				#pragma HLS pipeline off
-                out[i/kRow][0][d] = (float)fmax((double)out[i/kRow][0][d], (double)m[i][j][d]);
-            }
-        }
-    }
-}
-
 void dense1(int mRow, int mCol, int mDep, float (*m)[1][SECOND_NUM_KERNELS], int kNum, float (*k)[THIRD_NUM_ROWS][THIRD_NUM_COLS], float *bias, float *out){
 
     int d, h, i, j;
@@ -314,23 +274,22 @@ void maxPool1_fix(fix_cv1 (*m)[DATA_SIZE][FIRST_NUM_KERNELS], fix_mp1 (*out)[1][
     }
 }
 
-void maxPool2_fix(int mRow, int mCol, int mDep, fix_cv2 (*m)[1][SECOND_NUM_KERNELS], int oRow, fix_mp2 (*out)[1][SECOND_NUM_KERNELS], int kRow){
+void maxPool2_fix(fix_cv2 (*m)[1][SECOND_NUM_KERNELS], fix_mp2 (*out)[1][SECOND_NUM_KERNELS]){
 
-    int i, j, d;
+    int i, d;
+    short oRow = 14;
+    short kRow = 3;
+    fix_mp2 tmp1;
 
-    for (d = 0; d < mDep; d++) {
-		#pragma HLS pipeline off
-        for (i = 0; i < mRow; i++) {
-			#pragma HLS pipeline off
-            if (i/kRow == oRow) break;
+    for (d = 0; d < SECOND_NUM_KERNELS; d++) {
+        for (i = 0; i < 42; i++) {
             if (i%kRow == 0){
-                out[i/kRow][0][d] = 0;
+            	tmp1 = 0;
             }
-            for (j = 0; j < mCol; j++) {
-				#pragma HLS pipeline off
-            	fix_mp2 tmp = m[i][j][d];
-                out[i/kRow][0][d] = std::max(out[i/kRow][0][d], tmp);
-            }
+
+            fix_mp2 tmp2 = m[i][0][d];
+			tmp1 = std::max(tmp1, tmp2);
+			out[i/kRow][0][d] = tmp1;
         }
     }
 }

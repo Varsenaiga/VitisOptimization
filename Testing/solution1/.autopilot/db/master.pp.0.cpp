@@ -5678,11 +5678,11 @@ typedef ap_fixed<36,17, AP_RND_CONV> fix_mp1;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_mp2;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds1;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds2;
-# 35 "./model_functions.h"
+# 33 "./model_functions.h"
 void convolution1_fix(fix_input (*m)[3], fix_par (*k)[4][3], fix_par *bias, fix_cv1 (*out)[3][8]);
 void convolution2_fix(int mRow, int mCol, int mDep, fix_mp1 (*m)[1][8], int kNum, fix_par (*k)[4][8], fix_par *bias, fix_cv2 (*out)[1][16]);
 void maxPool1_fix(fix_cv1 (*m)[3][8], fix_mp1 (*out)[1][8]);
-void maxPool2_fix(int mRow, int mCol, int mDep, fix_cv2 (*m)[1][16], int oRow, fix_mp2 (*out)[1][16], int kRow);
+void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]);
 void dense1_fix(int mRow, int mCol, int mDep, fix_mp2 (*m)[1][16], int kNum, fix_par (*k)[14][16], fix_par *bias, fix_ds1 *out);
 void dense2_fix(int mSize, const fix_ds1 *m, int kNum, fix_par (*k)[16], const fix_par *bias, fix_ds2 *out);
 void softmax_fix(int mSize, fix_ds2 *m, float *out);
@@ -7385,7 +7385,7 @@ __attribute__((sdx_kernel("master_fix", 0))) void master_fix(fix_input input[128
  convolution1_fix(input, firstKernel_f, firstBias_f, conv1);
  maxPool1_fix(conv1, max1);
  convolution2_fix(42, 1, 8, max1, 16, secondKernel_f, secondBias_f, conv2);
- maxPool2_fix(42, 1, 16, conv2, 14, max2, 3);
+ maxPool2_fix(conv2, max2);
  dense1_fix(14, 1, 16, max2, 16, firstDense_f, thirdBias_f, den1[0]);
  dense2_fix(16, den1[0], 4, secondDense_f, fourthBias_f, den2[0]);
  softmax_fix(4, den2[0], out[0]);

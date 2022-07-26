@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution1_fix'" level="0">
-<item name = "Date">Tue Jul 26 15:14:50 2022
+<item name = "Date">Tue Jul 26 15:38:32 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152">convolution1_fix_Pipeline_VITIS_LOOP_107_1, 9, 9, 93.600 ns, 93.600 ns, 9, 9, no</column>
+<column name="grp_convolution1_fix_Pipeline_VITIS_LOOP_67_1_fu_152">convolution1_fix_Pipeline_VITIS_LOOP_67_1, 9, 9, 93.600 ns, 93.600 ns, 9, 9, no</column>
 <column name="grp_convolution1_fix_Pipeline_Conv_loop_fu_180">convolution1_fix_Pipeline_Conv_loop, 3083, 3083, 32.063 us, 32.063 us, 3083, 3083, no</column>
 </table>
 </item>
@@ -64,7 +64,7 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="grp_convolution1_fix_Pipeline_Conv_loop_fu_180">convolution1_fix_Pipeline_Conv_loop, 0, 24, 5226, 3671, 0</column>
-<column name="grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152">convolution1_fix_Pipeline_VITIS_LOOP_107_1, 0, 0, 297, 1220, 0</column>
+<column name="grp_convolution1_fix_Pipeline_VITIS_LOOP_67_1_fu_152">convolution1_fix_Pipeline_VITIS_LOOP_67_1, 0, 0, 297, 1220, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -94,7 +94,7 @@
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">6, 0, 6, 0</column>
 <column name="grp_convolution1_fix_Pipeline_Conv_loop_fu_180_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_convolution1_fix_Pipeline_VITIS_LOOP_107_1_fu_152_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_convolution1_fix_Pipeline_VITIS_LOOP_67_1_fu_152_ap_start_reg">1, 0, 1, 0</column>
 <column name="tmp1_V_9_reg_466">12, 0, 12, 0</column>
 </table>
 </item>
