@@ -2204,7 +2204,7 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="25" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split:1 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5
+.split:1 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln334"/></StgValue>
@@ -2736,7 +2736,7 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 </dataflow>
 <dataflow id="586" from="_ssdm_op_SpecLoopName" to="specloopname_ln334" fromId="585" toId="180">
 </dataflow>
-<dataflow id="588" from="empty_5" to="specloopname_ln334" fromId="587" toId="180">
+<dataflow id="588" from="empty_3" to="specloopname_ln334" fromId="587" toId="180">
 </dataflow>
 <dataflow id="589" from="div_i" to="conv_i" fromId="177" toId="181">
 </dataflow>

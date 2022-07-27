@@ -1297,7 +1297,7 @@ _Z10dense2_fixiPK8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEiPA16_S2_S4_
 
 <Node id="32" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split9_ifconv:4 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2
+.split9_ifconv:4 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln334"/></StgValue>
@@ -1884,7 +1884,7 @@ _Z10dense2_fixiPK8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEiPA16_S2_S4_
 </dataflow>
 <dataflow id="315" from="_ssdm_op_SpecLoopName" to="specloopname_ln334" fromId="314" toId="78">
 </dataflow>
-<dataflow id="317" from="empty_2" to="specloopname_ln334" fromId="316" toId="78">
+<dataflow id="317" from="empty_6" to="specloopname_ln334" fromId="316" toId="78">
 </dataflow>
 <dataflow id="318" from="trunc_ln938" to="icmp_ln336" fromId="25" toId="79">
 </dataflow>

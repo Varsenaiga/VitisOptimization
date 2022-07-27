@@ -23,7 +23,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -105,7 +105,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -187,7 +187,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -269,7 +269,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -351,7 +351,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -433,7 +433,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -515,7 +515,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -597,7 +597,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -679,7 +679,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -761,7 +761,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -843,7 +843,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -925,7 +925,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1007,7 +1007,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1089,7 +1089,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1171,7 +1171,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1253,7 +1253,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1335,7 +1335,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1417,7 +1417,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1499,7 +1499,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1581,7 +1581,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1663,7 +1663,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1745,7 +1745,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1827,7 +1827,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1909,7 +1909,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -1991,7 +1991,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2073,7 +2073,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2155,7 +2155,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2237,7 +2237,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2319,7 +2319,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2401,7 +2401,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2483,7 +2483,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2565,7 +2565,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -2647,7 +2647,7 @@ set HasInitializer 1
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.4
+set ClkPeriod 10.41
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \

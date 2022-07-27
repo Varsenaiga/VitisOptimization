@@ -917,7 +917,7 @@ _ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT
 
 <Node id="48" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split15:22 %specloopname_ln300 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6
+.split15:22 %specloopname_ln300 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln300"/></StgValue>

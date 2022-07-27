@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix'" level="0">
-<item name = "Date">Tue Jul 26 16:14:59 2022
+<item name = "Date">Wed Jul 27 16:07:04 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.40 ns, 7.473 ns, 2.81 ns</column>
+<column name="ap_clk">10.41 ns, 7.473 ns, 2.81 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">730, 730, 7.592 us, 7.592 us, 730, 730, no</column>
+<column name="">730, 730, 7.599 us, 7.599 us, 730, 730, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -32,7 +32,7 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_175_1_fu_268">convolution2_fix_Pipeline_VITIS_LOOP_175_1, 18, 18, 0.187 us, 0.187 us, 18, 18, no</column>
-<column name="grp_convolution2_fix_Pipeline_Conv_loop_fu_322">convolution2_fix_Pipeline_Conv_loop, 709, 709, 7.374 us, 7.374 us, 709, 709, no</column>
+<column name="grp_convolution2_fix_Pipeline_Conv_loop_fu_322">convolution2_fix_Pipeline_Conv_loop, 709, 709, 7.381 us, 7.381 us, 709, 709, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

@@ -94,13 +94,13 @@
   },
   "ClockInfo": {
     "ClockName": "ap_clk",
-    "ClockPeriod": "10.4",
-    "Uncertainty": "2.808",
+    "ClockPeriod": "10.41",
+    "Uncertainty": "2.8107",
     "IsCombinational": "0",
     "II": "9820",
     "Latency": "9819"
   },
-  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.400 [get_ports ap_clk]"]},
+  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.410 [get_ports ap_clk]"]},
   "Ipx": {
     "Vendor": "xilinx.com",
     "Library": "hls",
@@ -115,8 +115,8 @@
   },
   "Files": {
     "CSource": [
-      "..\/..\/master.cpp",
-      "..\/..\/model_functions.cpp"
+      "..\/..\/model_functions.cpp",
+      "..\/..\/master.cpp"
     ],
     "Vhdl": [
       "impl\/vhdl\/master.vhd",
@@ -1039,7 +1039,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "6.952"
         },
@@ -1078,7 +1078,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.561"
         },
@@ -1117,7 +1117,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.561"
         },
@@ -1149,7 +1149,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.040"
         },
@@ -1188,7 +1188,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "6.136"
         },
@@ -1227,7 +1227,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.473"
         },
@@ -1266,7 +1266,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.473"
         },
@@ -1298,7 +1298,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "6.771"
         },
@@ -1337,7 +1337,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.591"
         },
@@ -1376,7 +1376,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.574"
         },
@@ -1415,7 +1415,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.524"
         },
@@ -1454,7 +1454,7 @@
           "PipelineType": "no"
         },
         "Timing": {
-          "Target": "10.40",
+          "Target": "10.41",
           "Uncertainty": "2.81",
           "Estimate": "7.591"
         },
@@ -1511,7 +1511,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2022-07-26 16:15:37 +0100",
+    "Time": "2022-07-27 16:07:42 +0100",
     "ToolName": "vitis_hls",
     "ToolVersion": "2021.1"
   }

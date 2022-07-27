@@ -639,7 +639,7 @@ arrayctor.loop67:19 %call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_284_1_
 
 <Node id="58" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-arrayctor.loop67:6 %spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_12
+arrayctor.loop67:6 %spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2
 
 ]]></Node>
 <StgValue><ssdm name="spectopmodule_ln0"/></StgValue>
@@ -1127,7 +1127,7 @@ _Z10dense1_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA14_S3
 
 <Node id="87" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split17:6 %specloopname_ln299 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4
+.split17:6 %specloopname_ln299 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln299"/></StgValue>
@@ -1356,7 +1356,7 @@ _Z10dense1_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA14_S3
 
 <Node id="116" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split12:0 %specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
+.split12:0 %specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln320"/></StgValue>
@@ -2064,7 +2064,7 @@ _ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1
 
 <Node id="132" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.i109.split:0 %specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3
+_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.i109.split:0 %specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln320"/></StgValue>
@@ -2981,7 +2981,7 @@ _Z10dense2_fixiPK8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEiPA16_S2_S4_
 
 <Node id="192" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split7:1 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_13
+.split7:1 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln334"/></StgValue>

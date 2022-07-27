@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3'
 ================================================================
-* Date:           Tue Jul 26 16:15:22 2022
+* Date:           Wed Jul 27 16:07:27 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.591 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.591 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |      230|      230|  2.392 us|  2.392 us|  230|  230|       no|
+    |      230|      230|  2.394 us|  2.394 us|  230|  230|       no|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -299,7 +299,7 @@ ST_6 : Operation 58 [1/1] (0.00ns)   --->   "%lhs_load_1 = load i36 %lhs"   --->
 ST_6 : Operation 59 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_306_2_VITIS_LOOP_307_3_str"   --->   Operation 59 'specloopname' 'specloopname_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 60 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 224, i64 224, i64 224"   --->   Operation 60 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 61 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 61 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 62 [1/1] (0.00ns)   --->   "%specloopname_ln300 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6" [model_functions.cpp:300]   --->   Operation 62 'specloopname' 'specloopname_ln300' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 62 [1/1] (0.00ns)   --->   "%specloopname_ln300 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7" [model_functions.cpp:300]   --->   Operation 62 'specloopname' 'specloopname_ln300' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 63 [1/1] (0.00ns)   --->   "%lhs_1 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %lhs_load_1, i19 0"   --->   Operation 63 'bitconcatenate' 'lhs_1' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 64 [1/1] (3.28ns)   --->   "%ret_V = add i55 %lhs_1, i55 %r_V"   --->   Operation 64 'add' 'ret_V' <Predicate = true> <Delay = 3.28> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.28> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 65 [1/1] (0.00ns) (grouped into LUT with out node num_V)   --->   "%num_V_2 = partselect i36 @_ssdm_op_PartSelect.i36.i55.i32.i32, i55 %ret_V, i32 19, i32 54"   --->   Operation 65 'partselect' 'num_V_2' <Predicate = true> <Delay = 0.00>
@@ -657,7 +657,7 @@ ret_ln0               (ret              ) [ 0000000]
 <pin id="55" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_7"/></StgValue>
 </bind>
 </comp>
 

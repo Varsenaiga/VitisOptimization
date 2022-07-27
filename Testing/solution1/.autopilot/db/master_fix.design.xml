@@ -86,7 +86,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.952</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -94,9 +94,9 @@
 <Best-caseLatency>9</Best-caseLatency>
 <Average-caseLatency>9</Average-caseLatency>
 <Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>9</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -105,7 +105,7 @@
 <Name>VITIS_LOOP_67_1</Name>
 <TripCount>6</TripCount>
 <Latency>7</Latency>
-<AbsoluteTimeLatency>72.800 ns</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>72.870 ns</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>3</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -724,7 +724,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.561</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -732,9 +732,9 @@
 <Best-caseLatency>3083</Best-caseLatency>
 <Average-caseLatency>3083</Average-caseLatency>
 <Worst-caseLatency>3083</Worst-caseLatency>
-<Best-caseRealTimeLatency>32.063 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>32.063 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>32.063 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>32.094 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>32.094 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>32.094 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>3083</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -743,7 +743,7 @@
 <Name>Conv_loop</Name>
 <TripCount>3072</TripCount>
 <Latency>3081</Latency>
-<AbsoluteTimeLatency>32.042 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>32.073 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>11</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -1172,7 +1172,7 @@
 <Name>convolution1_fix</Name>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.561</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -1180,9 +1180,9 @@
 <Best-caseLatency>3097</Best-caseLatency>
 <Average-caseLatency>3097</Average-caseLatency>
 <Worst-caseLatency>3097</Worst-caseLatency>
-<Best-caseRealTimeLatency>32.209 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>32.209 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>32.209 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>32.240 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>32.240 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>32.240 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>3097</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -1359,7 +1359,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.040</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -1367,9 +1367,9 @@
 <Best-caseLatency>1022</Best-caseLatency>
 <Average-caseLatency>1022</Average-caseLatency>
 <Worst-caseLatency>1022</Worst-caseLatency>
-<Best-caseRealTimeLatency>10.629 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>10.629 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>10.629 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>10.639 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>10.639 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>10.639 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1022</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -1378,7 +1378,7 @@
 <Name>VITIS_LOOP_263_1_VITIS_LOOP_264_2</Name>
 <TripCount>1008</TripCount>
 <Latency>1020</Latency>
-<AbsoluteTimeLatency>10.608 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>10.618 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>14</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -1623,7 +1623,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.136</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -1642,7 +1642,7 @@
 <Name>VITIS_LOOP_175_1</Name>
 <TripCount>16</TripCount>
 <Latency>16</Latency>
-<AbsoluteTimeLatency>0.166 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>0.167 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>2</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -2833,7 +2833,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.473</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -2841,9 +2841,9 @@
 <Best-caseLatency>709</Best-caseLatency>
 <Average-caseLatency>709</Average-caseLatency>
 <Worst-caseLatency>709</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.374 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.374 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.374 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.381 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.381 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.381 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>709</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -2852,7 +2852,7 @@
 <Name>Conv_loop</Name>
 <TripCount>672</TripCount>
 <Latency>707</Latency>
-<AbsoluteTimeLatency>7.353 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>7.360 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>37</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -4051,7 +4051,7 @@
 <Name>convolution2_fix</Name>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.473</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -4059,9 +4059,9 @@
 <Best-caseLatency>730</Best-caseLatency>
 <Average-caseLatency>730</Average-caseLatency>
 <Worst-caseLatency>730</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.592 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.592 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.592 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.599 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.599 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.599 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>730</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -4733,7 +4733,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.771</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -4741,9 +4741,9 @@
 <Best-caseLatency>684</Best-caseLatency>
 <Average-caseLatency>684</Average-caseLatency>
 <Worst-caseLatency>684</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.114 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.114 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.114 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.120 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.120 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.120 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>684</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -4752,7 +4752,7 @@
 <Name>VITIS_LOOP_284_1_VITIS_LOOP_285_2</Name>
 <TripCount>672</TripCount>
 <Latency>682</Latency>
-<AbsoluteTimeLatency>7.093 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>7.100 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>12</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -4931,7 +4931,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.591</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -4939,9 +4939,9 @@
 <Best-caseLatency>230</Best-caseLatency>
 <Average-caseLatency>230</Average-caseLatency>
 <Worst-caseLatency>230</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.392 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.392 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.392 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>2.394 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>2.394 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>2.394 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>230</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -4950,7 +4950,7 @@
 <Name>VITIS_LOOP_306_2_VITIS_LOOP_307_3</Name>
 <TripCount>224</TripCount>
 <Latency>228</Latency>
-<AbsoluteTimeLatency>2.371 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>2.373 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>6</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -5173,7 +5173,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.574</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -5181,9 +5181,9 @@
 <Best-caseLatency>9</Best-caseLatency>
 <Average-caseLatency>9</Average-caseLatency>
 <Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>9</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -5192,7 +5192,7 @@
 <Name>VITIS_LOOP_335_1</Name>
 <TripCount>4</TripCount>
 <Latency>7</Latency>
-<AbsoluteTimeLatency>72.800 ns</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>72.870 ns</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>5</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -5426,7 +5426,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.524</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -5445,7 +5445,7 @@
 <Name>VITIS_LOOP_346_3</Name>
 <TripCount>4</TripCount>
 <Latency>82</Latency>
-<AbsoluteTimeLatency>0.853 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>0.854 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>80</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -5694,7 +5694,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.591</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -5713,7 +5713,7 @@
 <Name>VITIS_LOOP_304_1</Name>
 <TripCount>16</TripCount>
 <Latency>3744</Latency>
-<AbsoluteTimeLatency>38.938 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>38.975 us</AbsoluteTimeLatency>
 <IterationLatency>234</IterationLatency>
 <PipelineDepth>234</PipelineDepth>
 <PipelineType>no</PipelineType>
@@ -5722,7 +5722,7 @@
 <Name>VITIS_LOOP_322_1</Name>
 <TripCount>4</TripCount>
 <Latency>328</Latency>
-<AbsoluteTimeLatency>3.411 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>3.414 us</AbsoluteTimeLatency>
 <IterationLatency>82</IterationLatency>
 <PipelineDepth>82</PipelineDepth>
 <PipelineType>no</PipelineType>
@@ -5730,7 +5730,7 @@
 <Name>VITIS_LOOP_325_2</Name>
 <TripCount>16</TripCount>
 <Latency>80</Latency>
-<AbsoluteTimeLatency>0.832 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>0.833 us</AbsoluteTimeLatency>
 <IterationLatency>5</IterationLatency>
 <PipelineDepth>5</PipelineDepth>
 <PipelineType>no</PipelineType>
@@ -5740,7 +5740,7 @@
 <Name>VITIS_LOOP_341_2</Name>
 <TripCount>4</TripCount>
 <Latency>108</Latency>
-<AbsoluteTimeLatency>1.123 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>1.124 us</AbsoluteTimeLatency>
 <IterationLatency>27</IterationLatency>
 <PipelineDepth>27</PipelineDepth>
 <PipelineType>no</PipelineType>

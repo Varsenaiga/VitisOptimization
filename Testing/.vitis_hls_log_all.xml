@@ -12,17 +12,13 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'mux_42_36_1_1' is changed to 'mux_42_36_1_1_x' due to conflict." projectName="Testing" solutionName="solution1" date="2022-07-26T16:15:25.356+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-26T16:14:47.261+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-26T16:14:47.174+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_304_1' (model_functions.cpp:299:9) in function 'master_fix' the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.&#xD;&#xA;Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-960.html" projectName="Testing" solutionName="solution1" date="2022-07-26T16:14:46.037+0100" type="Warning"/>
-        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-07-26T16:14:36.541+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'kNum': model_functions.cpp:165:77" projectName="Testing" solutionName="solution1" date="2022-07-26T16:11:23.077+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'mDep': model_functions.cpp:165:47" projectName="Testing" solutionName="solution1" date="2022-07-26T16:11:23.058+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'mCol': model_functions.cpp:165:37" projectName="Testing" solutionName="solution1" date="2022-07-26T16:11:23.044+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'mRow': model_functions.cpp:165:27" projectName="Testing" solutionName="solution1" date="2022-07-26T16:11:23.030+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-26T16:11:23.016+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-26T16:10:55.218+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'mux_42_36_1_1' is changed to 'mux_42_36_1_1_x' due to conflict." projectName="Testing" solutionName="solution1" date="2022-07-27T16:07:30.085+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-27T16:06:51.104+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-27T16:06:51.015+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_304_1' (model_functions.cpp:299:9) in function 'master_fix' the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.&#xD;&#xA;Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-960.html" projectName="Testing" solutionName="solution1" date="2022-07-27T16:06:49.821+0100" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-07-27T16:06:39.659+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-27T16:03:32.493+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-27T16:03:26.179+0100" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

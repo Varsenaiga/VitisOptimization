@@ -5,6 +5,16 @@
                 <option name="name" value="master_fix"/>
             </pragma>
         </directive>
+        <directive functionName="master_fix" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="master_fix"/>
+            </pragma>
+        </directive>
+        <directive functionName="master_fix" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="master_fix"/>
+            </pragma>
+        </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>
 

@@ -9,7 +9,7 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3</TopModelName>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
@@ -25,9 +25,9 @@
 <Best-caseLatency>230</Best-caseLatency>
 <Average-caseLatency>230</Average-caseLatency>
 <Worst-caseLatency>230</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.392 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.392 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.392 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>2.394 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>2.394 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>2.394 us</Worst-caseRealTimeLatency>
 <Interval-min>230</Interval-min>
 <Interval-max>230</Interval-max>
 </SummaryOfOverallLatency>
@@ -35,7 +35,7 @@
 <VITIS_LOOP_306_2_VITIS_LOOP_307_3>
 <TripCount>224</TripCount>
 <Latency>228</Latency>
-<AbsoluteTimeLatency>2371</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>2373</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>6</PipelineDepth>
 </VITIS_LOOP_306_2_VITIS_LOOP_307_3>

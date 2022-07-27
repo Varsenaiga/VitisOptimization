@@ -983,7 +983,7 @@ _Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.e
 
 <Node id="34" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split20:16 %specloopname_ln279 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7
+.split20:16 %specloopname_ln279 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln279"/></StgValue>
@@ -1293,7 +1293,7 @@ _Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.e
 </dataflow>
 <dataflow id="249" from="_ssdm_op_SpecLoopName" to="specloopname_ln279" fromId="233" toId="71">
 </dataflow>
-<dataflow id="251" from="empty_7" to="specloopname_ln279" fromId="250" toId="71">
+<dataflow id="251" from="empty_5" to="specloopname_ln279" fromId="250" toId="71">
 </dataflow>
 <dataflow id="252" from="add_ln292" to="zext_ln292" fromId="61" toId="72">
 </dataflow>

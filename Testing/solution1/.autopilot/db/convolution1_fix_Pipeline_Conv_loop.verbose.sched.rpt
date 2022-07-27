@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix_Pipeline_Conv_loop'
 ================================================================
-* Date:           Tue Jul 26 16:14:49 2022
+* Date:           Wed Jul 27 16:06:53 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.561 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.561 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     3083|     3083|  32.063 us|  32.063 us|  3083|  3083|       no|
+    |     3083|     3083|  32.094 us|  32.094 us|  3083|  3083|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -703,7 +703,7 @@ The critical path consists of the following:
  <State 6>: 7.23ns
 The critical path consists of the following:
 	'icmp' operation ('icmp_ln108', model_functions.cpp:108) [286]  (0.959 ns)
-	'select' operation ('tmp1.V[3]', model_functions.cpp:108) [288]  (0.697 ns)
+	'select' operation ('tmp1.V[6]', model_functions.cpp:108) [287]  (0.697 ns)
 	'mux' operation ('tmp2.V[9]', model_functions.cpp:140) [436]  (2.78 ns)
 	'select' operation ('select_ln123_3', model_functions.cpp:123) [437]  (0.697 ns)
 	'select' operation ('select_ln142_5', model_functions.cpp:142) [463]  (0.697 ns)

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_VITIS_LOOP_346_3'
 ================================================================
-* Date:           Tue Jul 26 16:15:05 2022
+* Date:           Wed Jul 27 16:07:10 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.524 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.524 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -419,7 +419,7 @@ ST_79 : Operation 186 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operatio
 
 State 80 <SV = 79> <Delay = 7.52>
 ST_80 : Operation 179 [1/1] (0.00ns)   --->   "%i_6_cast = zext i3 %i_1" [model_functions.cpp:347]   --->   Operation 179 'zext' 'i_6_cast' <Predicate = true> <Delay = 0.00>
-ST_80 : Operation 180 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5" [model_functions.cpp:334]   --->   Operation 180 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
+ST_80 : Operation 180 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3" [model_functions.cpp:334]   --->   Operation 180 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
 ST_80 : Operation 181 [1/2] (5.20ns)   --->   "%conv_i = fptrunc i64 %div_i" [model_functions.cpp:347]   --->   Operation 181 'fptrunc' 'conv_i' <Predicate = true> <Delay = 5.20> <CoreInst = "Double2Float">   --->   Core 67 'Double2Float' <Latency = 1> <II = 1> <Delay = 5.20> <FuncUnit> <Opcode : 'fptrunc'> <InPorts = 1> <OutPorts = 1>
 ST_80 : Operation 182 [1/1] (0.00ns)   --->   "%bitcast_ln347 = bitcast i32 %conv_i" [model_functions.cpp:347]   --->   Operation 182 'bitcast' 'bitcast_ln347' <Predicate = true> <Delay = 0.00>
 ST_80 : Operation 183 [1/1] (0.00ns)   --->   "%out_addr = getelementptr i32 %out_r, i64 0, i64 %i_6_cast" [model_functions.cpp:347]   --->   Operation 183 'getelementptr' 'out_addr' <Predicate = true> <Delay = 0.00>
@@ -696,7 +696,7 @@ ret_ln0            (ret              ) [ 000000000000000000000000000000000000000
 <pin id="47" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_5"/></StgValue>
+<StgValue><ssdm name="empty_3"/></StgValue>
 </bind>
 </comp>
 

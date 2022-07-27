@@ -9,7 +9,7 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>master_fix_Pipeline_VITIS_LOOP_335_1</TopModelName>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
@@ -25,9 +25,9 @@
 <Best-caseLatency>9</Best-caseLatency>
 <Average-caseLatency>9</Average-caseLatency>
 <Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
 <Interval-min>9</Interval-min>
 <Interval-max>9</Interval-max>
 </SummaryOfOverallLatency>

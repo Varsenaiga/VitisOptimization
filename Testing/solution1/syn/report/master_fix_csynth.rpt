@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix'
 ================================================================
-* Date:           Tue Jul 26 16:15:26 2022
+* Date:           Wed Jul 27 16:07:30 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.591 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.591 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -38,12 +38,12 @@
         |                                                                  |                                                       |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
         |                             Instance                             |                         Module                        |   min   |   max   |    min    |    max    |  min |  max |   Type  |
         +------------------------------------------------------------------+-------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
-        |grp_convolution1_fix_fu_360                                       |convolution1_fix                                       |     3097|     3097|  32.209 us|  32.209 us|  3097|  3097|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2_fu_394  |master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2  |     1022|     1022|  10.629 us|  10.629 us|  1022|  1022|       no|
-        |grp_convolution2_fix_fu_400                                       |convolution2_fix                                       |      730|      730|   7.592 us|   7.592 us|   730|   730|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2_fu_472  |master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2  |      684|      684|   7.114 us|   7.114 us|   684|   684|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_fu_478  |master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3  |      230|      230|   2.392 us|   2.392 us|   230|   230|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_335_1_fu_489                   |master_fix_Pipeline_VITIS_LOOP_335_1                   |        9|        9|  93.600 ns|  93.600 ns|     9|     9|       no|
+        |grp_convolution1_fix_fu_360                                       |convolution1_fix                                       |     3097|     3097|  32.240 us|  32.240 us|  3097|  3097|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2_fu_394  |master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2  |     1022|     1022|  10.639 us|  10.639 us|  1022|  1022|       no|
+        |grp_convolution2_fix_fu_400                                       |convolution2_fix                                       |      730|      730|   7.599 us|   7.599 us|   730|   730|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2_fu_472  |master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2  |      684|      684|   7.120 us|   7.120 us|   684|   684|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_fu_478  |master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3  |      230|      230|   2.394 us|   2.394 us|   230|   230|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_335_1_fu_489                   |master_fix_Pipeline_VITIS_LOOP_335_1                   |        9|        9|  93.690 ns|  93.690 ns|     9|     9|       no|
         |grp_master_fix_Pipeline_VITIS_LOOP_346_3_fu_501                   |master_fix_Pipeline_VITIS_LOOP_346_3                   |       84|       84|   0.874 us|   0.874 us|    84|    84|       no|
         +------------------------------------------------------------------+-------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 

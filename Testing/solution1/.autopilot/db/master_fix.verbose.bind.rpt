@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix'
 ================================================================
-* Date:           Tue Jul 26 16:15:06 2022
+* Date:           Wed Jul 27 16:07:12 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.591 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.591 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -38,12 +38,12 @@
         |                                                                  |                                                       |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
         |                             Instance                             |                         Module                        |   min   |   max   |    min    |    max    |  min |  max |   Type  |
         +------------------------------------------------------------------+-------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
-        |grp_convolution1_fix_fu_360                                       |convolution1_fix                                       |     3097|     3097|  32.209 us|  32.209 us|  3097|  3097|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2_fu_394  |master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2  |     1022|     1022|  10.629 us|  10.629 us|  1022|  1022|       no|
-        |grp_convolution2_fix_fu_400                                       |convolution2_fix                                       |      730|      730|   7.592 us|   7.592 us|   730|   730|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2_fu_472  |master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2  |      684|      684|   7.114 us|   7.114 us|   684|   684|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_fu_478  |master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3  |      230|      230|   2.392 us|   2.392 us|   230|   230|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_335_1_fu_489                   |master_fix_Pipeline_VITIS_LOOP_335_1                   |        9|        9|  93.600 ns|  93.600 ns|     9|     9|       no|
+        |grp_convolution1_fix_fu_360                                       |convolution1_fix                                       |     3097|     3097|  32.240 us|  32.240 us|  3097|  3097|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2_fu_394  |master_fix_Pipeline_VITIS_LOOP_263_1_VITIS_LOOP_264_2  |     1022|     1022|  10.639 us|  10.639 us|  1022|  1022|       no|
+        |grp_convolution2_fix_fu_400                                       |convolution2_fix                                       |      730|      730|   7.599 us|   7.599 us|   730|   730|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2_fu_472  |master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2  |      684|      684|   7.120 us|   7.120 us|   684|   684|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3_fu_478  |master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3  |      230|      230|   2.394 us|   2.394 us|   230|   230|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_335_1_fu_489                   |master_fix_Pipeline_VITIS_LOOP_335_1                   |        9|        9|  93.690 ns|  93.690 ns|     9|     9|       no|
         |grp_master_fix_Pipeline_VITIS_LOOP_346_3_fu_501                   |master_fix_Pipeline_VITIS_LOOP_346_3                   |       84|       84|   0.874 us|   0.874 us|    84|    84|       no|
         +------------------------------------------------------------------+-------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 
@@ -174,7 +174,7 @@ State 7 <SV = 6> <Delay = 0.00>
 ST_7 : Operation 67 [2/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_284_1_VITIS_LOOP_285_2, i35 %conv2_0, i35 %max2_V_0"   --->   Operation 67 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 8 <SV = 7> <Delay = 0.00>
-ST_8 : Operation 68 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_12"   --->   Operation 68 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 68 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2"   --->   Operation 68 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 69 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_11, i32 0, i32 0, void @empty_10, i32 4294967295, i32 0, void @empty_10, void @empty_10, void @empty_10, i32 0, i32 0, i32 0, i32 0, void @empty_10, void @empty_10"   --->   Operation 69 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 70 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %input_r"   --->   Operation 70 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 71 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_11, i32 0, i32 0, void @empty_10, i32 4294967295, i32 0, void @empty_10, void @empty_10, void @empty_10, i32 0, i32 0, i32 0, i32 0, void @empty_10, void @empty_10"   --->   Operation 71 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
@@ -213,7 +213,7 @@ State 11 <SV = 10> <Delay = 0.00>
 ST_11 : Operation 98 [1/2] (0.00ns)   --->   "%call_ln305 = call void @master_fix_Pipeline_VITIS_LOOP_306_2_VITIS_LOOP_307_3, i21 %num_V, i10 %sub_ln309, i35 %max2_V_0, i36 %num_V_7_loc, i21 %firstDense_f_V" [model_functions.cpp:305]   --->   Operation 98 'call' 'call_ln305' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 12 <SV = 11> <Delay = 3.34>
-ST_12 : Operation 99 [1/1] (0.00ns)   --->   "%specloopname_ln299 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4" [model_functions.cpp:299]   --->   Operation 99 'specloopname' 'specloopname_ln299' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 99 [1/1] (0.00ns)   --->   "%specloopname_ln299 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1" [model_functions.cpp:299]   --->   Operation 99 'specloopname' 'specloopname_ln299' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 100 [1/1] (0.00ns)   --->   "%num_V_7_loc_load = load i36 %num_V_7_loc"   --->   Operation 100 'load' 'num_V_7_loc_load' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 101 [1/1] (0.00ns)   --->   "%trunc_ln306 = trunc i36 %num_V_7_loc_load" [model_functions.cpp:306]   --->   Operation 101 'trunc' 'trunc_ln306' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 102 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i36.i32, i36 %num_V_7_loc_load, i32 35"   --->   Operation 102 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
@@ -230,7 +230,7 @@ ST_13 : Operation 110 [1/1] (1.13ns)   --->   "%icmp_ln322 = icmp_eq  i3 %d_3, i
 ST_13 : Operation 111 [1/1] (0.00ns)   --->   "%empty_38 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 4, i64 4, i64 4"   --->   Operation 111 'speclooptripcount' 'empty_38' <Predicate = true> <Delay = 0.00>
 ST_13 : Operation 112 [1/1] (1.65ns)   --->   "%add_ln322 = add i3 %d_3, i3 1" [model_functions.cpp:322]   --->   Operation 112 'add' 'add_ln322' <Predicate = true> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_13 : Operation 113 [1/1] (0.00ns)   --->   "%br_ln322 = br i1 %icmp_ln322, void %.split12, void %_Z10dense2_fixiPK8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEiPA16_S2_S4_PS2_.exit.preheader" [model_functions.cpp:322]   --->   Operation 113 'br' 'br_ln322' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 114 [1/1] (0.00ns)   --->   "%specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [model_functions.cpp:320]   --->   Operation 114 'specloopname' 'specloopname_ln320' <Predicate = (!icmp_ln322)> <Delay = 0.00>
+ST_13 : Operation 114 [1/1] (0.00ns)   --->   "%specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4" [model_functions.cpp:320]   --->   Operation 114 'specloopname' 'specloopname_ln320' <Predicate = (!icmp_ln322)> <Delay = 0.00>
 ST_13 : Operation 115 [1/1] (1.82ns)   --->   "%tmp_2 = mux i36 @_ssdm_op_Mux.ap_auto.4i36.i2, i36 68718728804, i36 571519, i36 68718843845, i36 68719379821, i2 %trunc_ln1171" [model_functions.cpp:324]   --->   Operation 115 'mux' 'tmp_2' <Predicate = (!icmp_ln322)> <Delay = 1.82> <CoreInst = "Multiplexer">   --->   Core 76 'Multiplexer' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
 ST_13 : Operation 116 [1/1] (1.58ns)   --->   "%br_ln325 = br void %_ZN13ap_fixed_baseILi73ELi35ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi36ELi17ELb1ELS0_4ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.i.i109" [model_functions.cpp:325]   --->   Operation 116 'br' 'br_ln325' <Predicate = (!icmp_ln322)> <Delay = 1.58>
 ST_13 : Operation 117 [1/1] (0.00ns)   --->   "%sum = alloca i32 1"   --->   Operation 117 'alloca' 'sum' <Predicate = (icmp_ln322)> <Delay = 0.00>
@@ -284,7 +284,7 @@ ST_17 : Operation 156 [1/2] (6.91ns)   --->   "%r_V_3 = mul i54 %sext_ln1171, i5
 ST_17 : Operation 157 [1/1] (0.00ns)   --->   "%trunc_ln727 = trunc i54 %r_V_3"   --->   Operation 157 'trunc' 'trunc_ln727' <Predicate = true> <Delay = 0.00>
 
 State 18 <SV = 14> <Delay = 6.00>
-ST_18 : Operation 158 [1/1] (0.00ns)   --->   "%specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3" [model_functions.cpp:320]   --->   Operation 158 'specloopname' 'specloopname_ln320' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 158 [1/1] (0.00ns)   --->   "%specloopname_ln320 = specloopname void @_ssdm_op_SpecLoopName, void @empty_9" [model_functions.cpp:320]   --->   Operation 158 'specloopname' 'specloopname_ln320' <Predicate = true> <Delay = 0.00>
 ST_18 : Operation 159 [1/1] (0.00ns)   --->   "%lhs_1 = bitconcatenate i55 @_ssdm_op_BitConcatenate.i55.i36.i19, i36 %den2_V_0_0, i19 0"   --->   Operation 159 'bitconcatenate' 'lhs_1' <Predicate = true> <Delay = 0.00>
 ST_18 : Operation 160 [1/1] (0.00ns)   --->   "%sext_ln1245 = sext i54 %r_V_3"   --->   Operation 160 'sext' 'sext_ln1245' <Predicate = true> <Delay = 0.00>
 ST_18 : Operation 161 [1/1] (3.28ns)   --->   "%ret_V = add i55 %lhs_1, i55 %sext_ln1245"   --->   Operation 161 'add' 'ret_V' <Predicate = true> <Delay = 3.28> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -397,7 +397,7 @@ State 46 <SV = 37> <Delay = 7.29>
 ST_46 : Operation 212 [1/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:343]   --->   Operation 212 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 47 <SV = 38> <Delay = 1.58>
-ST_47 : Operation 213 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_13" [model_functions.cpp:334]   --->   Operation 213 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
+ST_47 : Operation 213 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [model_functions.cpp:334]   --->   Operation 213 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
 ST_47 : Operation 214 [1/1] (1.58ns)   --->   "%store_ln343 = store i64 %sum_1, i64 %sum" [model_functions.cpp:343]   --->   Operation 214 'store' 'store_ln343' <Predicate = true> <Delay = 1.58>
 ST_47 : Operation 215 [1/1] (0.00ns)   --->   "%br_ln0 = br void %.preheader8"   --->   Operation 215 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 
@@ -1201,7 +1201,7 @@ ret_ln23             (ret              ) [ 0000000000000000000000000000000000000
 <pin id="119" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_12"/></StgValue>
+<StgValue><ssdm name="empty_2"/></StgValue>
 </bind>
 </comp>
 
@@ -1372,7 +1372,7 @@ ret_ln23             (ret              ) [ 0000000000000000000000000000000000000
 <pin id="157" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_4"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1444,7 +1444,7 @@ ret_ln23             (ret              ) [ 0000000000000000000000000000000000000
 <pin id="173" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_8"/></StgValue>
+<StgValue><ssdm name="empty_4"/></StgValue>
 </bind>
 </comp>
 
@@ -1543,7 +1543,7 @@ ret_ln23             (ret              ) [ 0000000000000000000000000000000000000
 <pin id="195" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_3"/></StgValue>
+<StgValue><ssdm name="empty_9"/></StgValue>
 </bind>
 </comp>
 
@@ -1660,7 +1660,7 @@ ret_ln23             (ret              ) [ 0000000000000000000000000000000000000
 <pin id="221" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_13"/></StgValue>
+<StgValue><ssdm name="empty_8"/></StgValue>
 </bind>
 </comp>
 

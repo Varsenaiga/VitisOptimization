@@ -21512,7 +21512,7 @@ typedef ap_fixed<36,17, AP_RND_CONV> fix_ds1;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds2;
 # 33 "./model_functions.h"
 void convolution1_fix(fix_input (*m)[3], fix_par (*k)[4][3], fix_par *bias, fix_cv1 (*out)[3][8]);
-void convolution2_fix(int mRow, int mCol, int mDep, fix_mp1 (*m)[1][8], int kNum, fix_par (*k)[4][8], fix_par *bias, fix_cv2 (*out)[1][16]);
+void convolution2_fix(fix_mp1 (*m)[1][8], fix_par (*k)[4][8], fix_par *bias, fix_cv2 (*out)[1][16]);
 void maxPool1_fix(fix_cv1 (*m)[3][8], fix_mp1 (*out)[1][8]);
 void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]);
 void dense1_fix(fix_mp2 (*m)[1][16], fix_par (*k)[14][16], fix_par *bias, fix_ds1 *out);
@@ -39356,7 +39356,7 @@ void convolution1_fix(fix_input (*m)[3], fix_par (*k)[4][3], fix_par *bias, fix_
 
 }
 
-void convolution2_fix(int mRow, int mCol, int mDep, fix_mp1 (*m)[1][8], int kNum, fix_par (*k)[4][8], fix_par *bias, fix_cv2 (*out)[1][16]){
+void convolution2_fix(fix_mp1 (*m)[1][8], fix_par (*k)[4][8], fix_par *bias, fix_cv2 (*out)[1][16]){
 
  short id, r, i = -1, d, h;
     fix_cv1 num;

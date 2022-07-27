@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_VITIS_LOOP_335_1'
 ================================================================
-* Date:           Tue Jul 26 16:15:03 2022
+* Date:           Wed Jul 27 16:07:08 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.574 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.574 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
     |   min   |   max   |    min    |    max    | min | max |   Type  |
     +---------+---------+-----------+-----------+-----+-----+---------+
-    |        9|        9|  93.600 ns|  93.600 ns|    9|    9|       no|
+    |        9|        9|  93.690 ns|  93.690 ns|    9|    9|       no|
     +---------+---------+-----------+-----------+-----+-----+---------+
 
     + Detail: 
@@ -175,7 +175,7 @@ ST_5 : Operation 74 [1/1] (0.00ns)   --->   "%m_3_1_load_1 = load i64 %m_3_1" [m
 ST_5 : Operation 75 [1/1] (0.00ns)   --->   "%m_3_7_load_1 = load i64 %m_3_7" [model_functions.cpp:336]   --->   Operation 75 'load' 'm_3_7_load_1' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 76 [1/1] (0.00ns)   --->   "%m_3_10_load_1 = load i64 %m_3_10" [model_functions.cpp:336]   --->   Operation 76 'load' 'm_3_10_load_1' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 77 [1/1] (0.00ns)   --->   "%m_3_04_load_1 = load i64 %m_3_04" [model_functions.cpp:336]   --->   Operation 77 'load' 'm_3_04_load_1' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 78 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2" [model_functions.cpp:334]   --->   Operation 78 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 78 [1/1] (0.00ns)   --->   "%specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6" [model_functions.cpp:334]   --->   Operation 78 'specloopname' 'specloopname_ln334' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 79 [1/1] (0.95ns)   --->   "%icmp_ln336 = icmp_eq  i2 %trunc_ln938, i2 2" [model_functions.cpp:336]   --->   Operation 79 'icmp' 'icmp_ln336' <Predicate = true> <Delay = 0.95> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_5 : Operation 80 [1/1] (0.00ns) (grouped into LUT with out node m_3_13)   --->   "%m_3_35 = select i1 %icmp_ln336, i64 %m_3_04_load_1, i64 %m_3_21" [model_functions.cpp:336]   --->   Operation 80 'select' 'm_3_35' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_5 : Operation 81 [1/1] (0.95ns)   --->   "%icmp_ln336_1 = icmp_eq  i2 %trunc_ln938, i2 1" [model_functions.cpp:336]   --->   Operation 81 'icmp' 'icmp_ln336_1' <Predicate = true> <Delay = 0.95> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
@@ -768,7 +768,7 @@ ret_ln0            (ret              ) [ 000000]
 <pin id="99" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_2"/></StgValue>
+<StgValue><ssdm name="empty_6"/></StgValue>
 </bind>
 </comp>
 

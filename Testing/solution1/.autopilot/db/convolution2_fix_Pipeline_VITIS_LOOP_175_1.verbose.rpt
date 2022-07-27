@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix_Pipeline_VITIS_LOOP_175_1'
 ================================================================
-* Date:           Tue Jul 26 16:15:15 2022
+* Date:           Wed Jul 27 16:07:20 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  6.136 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  6.136 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -635,7 +635,7 @@ ST_1 : Operation 306 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_
 ST_1 : Operation 307 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 307 'ret' 'ret_ln0' <Predicate = (icmp_ln175)> <Delay = 0.00>
 
 State 2 <SV = 1> <Delay = 3.25>
-ST_2 : Operation 176 [1/1] (0.00ns)   --->   "%specloopname_ln167 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0" [model_functions.cpp:167]   --->   Operation 176 'specloopname' 'specloopname_ln167' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 176 [1/1] (0.00ns)   --->   "%specloopname_ln167 = specloopname void @_ssdm_op_SpecLoopName, void @empty_13" [model_functions.cpp:167]   --->   Operation 176 'specloopname' 'specloopname_ln167' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 177 [1/2] (3.25ns)   --->   "%tmp1_V_17 = load i9 %m_0_addr" [model_functions.cpp:180]   --->   Operation 177 'load' 'tmp1_V_17' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_1WnR">   --->   Core 83 'RAM_1WnR' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 17> <Width = 35> <Depth = 336> <RAM>
 ST_2 : Operation 178 [1/1] (0.00ns)   --->   "%zext_ln180_1 = zext i35 %tmp1_V_17" [model_functions.cpp:180]   --->   Operation 178 'zext' 'zext_ln180_1' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 179 [1/1] (0.00ns)   --->   "%store_ln180 = store i36 %zext_ln180_1, i36 %tmp1_V_30_0" [model_functions.cpp:180]   --->   Operation 179 'store' 'store_ln180' <Predicate = (or_ln == 30)> <Delay = 0.00>
@@ -1816,7 +1816,7 @@ ret_ln0            (ret              ) [ 000]
 <pin id="171" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_0"/></StgValue>
+<StgValue><ssdm name="empty_13"/></StgValue>
 </bind>
 </comp>
 

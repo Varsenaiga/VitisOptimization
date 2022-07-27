@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix_Pipeline_Conv_loop'
 ================================================================
-* Date:           Tue Jul 26 16:14:56 2022
+* Date:           Wed Jul 27 16:07:01 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.473 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.473 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |      709|      709|  7.374 us|  7.374 us|  709|  709|       no|
+    |      709|      709|  7.381 us|  7.381 us|  709|  709|       no|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -1506,7 +1506,6 @@ The critical path consists of the following:
  <State 37>: 6.98ns
 The critical path consists of the following:
 	'add' operation ('add_ln1245_31') [1080]  (3.29 ns)
-	'or' operation ('or_ln412_31') [1086]  (0 ns)
 	'and' operation ('and_ln412_31') [1087]  (0.978 ns)
 	'add' operation ('add_ln415_31') [1091]  (2.71 ns)
 

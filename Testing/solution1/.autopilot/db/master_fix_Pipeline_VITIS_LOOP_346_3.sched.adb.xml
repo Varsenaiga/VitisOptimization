@@ -2204,7 +2204,7 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="25" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split:1 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5
+.split:1 %specloopname_ln334 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln334"/></StgValue>
