@@ -1546,10 +1546,10 @@ codeRepl:97 %call_ln0 = call void @convolution2_fix_Pipeline_Conv_loop, i36 %tmp
 
 <Node id="134" bw="0">
 <![CDATA[
-codeRepl:98 %ret_ln204 = ret
+codeRepl:98 %ret_ln205 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln204"/></StgValue>
+<StgValue><ssdm name="ret_ln205"/></StgValue>
 </operation>
 </state>
 </state_list>

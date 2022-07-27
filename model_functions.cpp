@@ -192,7 +192,8 @@ void convolution2_fix(fix_mp1 (*m)[1][FIRST_NUM_KERNELS], fix_par (*k)[SECOND_NU
 
 		num = b;
 
-		Operations_Loop: for (r = 0; r < 32; r++) {
+Operations_Loop:
+		for (r = 0; r < 32; r++) {
 			num += tmp2[r] * kr[r];
 			tmp2[r] = 0;
 		}

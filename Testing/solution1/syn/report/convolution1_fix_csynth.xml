@@ -9,7 +9,7 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>convolution1_fix</TopModelName>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
@@ -25,9 +25,9 @@
 <Best-caseLatency>3097</Best-caseLatency>
 <Average-caseLatency>3097</Average-caseLatency>
 <Worst-caseLatency>3097</Worst-caseLatency>
-<Best-caseRealTimeLatency>32.209 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>32.209 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>32.209 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>32.240 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>32.240 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>32.240 us</Worst-caseRealTimeLatency>
 <Interval-min>3097</Interval-min>
 <Interval-max>3097</Interval-max>
 </SummaryOfOverallLatency>

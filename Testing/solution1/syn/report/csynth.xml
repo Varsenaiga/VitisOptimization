@@ -7,7 +7,7 @@
         <ProductFamily>zynq</ProductFamily>
         <Part>xc7z020-clg400-1</Part>
         <TopModelName>master_fix</TopModelName>
-        <TargetClockPeriod>10.40</TargetClockPeriod>
+        <TargetClockPeriod>10.41</TargetClockPeriod>
         <ClockUncertainty>2.81</ClockUncertainty>
         <FlowTarget>vivado</FlowTarget>
     </UserAssignments>
@@ -22,25 +22,25 @@
             <Best-caseLatency>9523</Best-caseLatency>
             <Average-caseLatency>9523</Average-caseLatency>
             <Worst-caseLatency>9523</Worst-caseLatency>
-            <Best-caseRealTimeLatency>99.039 us</Best-caseRealTimeLatency>
-            <Average-caseRealTimeLatency>99.039 us</Average-caseRealTimeLatency>
-            <Worst-caseRealTimeLatency>99.039 us</Worst-caseRealTimeLatency>
+            <Best-caseRealTimeLatency>99.134 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>99.134 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>99.134 us</Worst-caseRealTimeLatency>
             <Interval-min>9524</Interval-min>
             <Interval-max>9524</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfLoopLatency>
-            <VITIS_LOOP_254_1>
+            <VITIS_LOOP_255_1>
                 <TripCount>16</TripCount>
                 <Latency>3744</Latency>
-                <AbsoluteTimeLatency>38937</AbsoluteTimeLatency>
+                <AbsoluteTimeLatency>38975</AbsoluteTimeLatency>
                 <IterationLatency>234</IterationLatency>
-            </VITIS_LOOP_254_1>
-            <VITIS_LOOP_297_2>
+            </VITIS_LOOP_255_1>
+            <VITIS_LOOP_298_2>
                 <TripCount>4</TripCount>
                 <Latency>108</Latency>
-                <AbsoluteTimeLatency>1123</AbsoluteTimeLatency>
+                <AbsoluteTimeLatency>1124</AbsoluteTimeLatency>
                 <IterationLatency>27</IterationLatency>
-            </VITIS_LOOP_297_2>
+            </VITIS_LOOP_298_2>
         </SummaryOfLoopLatency>
     </PerformanceEstimates>
     <AreaEstimates>
@@ -238,11 +238,11 @@
                     </InstancesList>
                 </Instance>
                 <Instance>
-                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467</InstName>
-                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</ModuleName>
+                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467</InstName>
+                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>467</ID>
-                    <BindInstances>add_ln213_1_fu_160_p2 add_ln213_fu_172_p2 sub_ln219_fu_220_p2 add_ln219_fu_279_p2 add_ln219_1_fu_289_p2 add_ln219_2_fu_294_p2 add_ln219_3_fu_305_p2 add_ln219_4_fu_310_p2 mul_7ns_9ns_15_1_1_U92 empty_36_fu_328_p2 add_ln214_fu_252_p2</BindInstances>
+                    <BindInstances>add_ln214_1_fu_160_p2 add_ln214_fu_172_p2 sub_ln220_fu_220_p2 add_ln220_fu_279_p2 add_ln220_1_fu_289_p2 add_ln220_2_fu_294_p2 add_ln220_3_fu_305_p2 add_ln220_4_fu_310_p2 mul_7ns_9ns_15_1_1_U92 empty_36_fu_328_p2 add_ln215_fu_252_p2</BindInstances>
                 </Instance>
                 <Instance>
                     <InstName>grp_convolution2_fix_fu_473</InstName>
@@ -262,47 +262,47 @@
                             <ModuleName>convolution2_fix_Pipeline_Conv_loop</ModuleName>
                             <IsCompInst>true</IsCompInst>
                             <ID>322</ID>
-                            <BindInstances>id_2_fu_1799_p2 add_ln152_fu_1829_p2 sub_ln152_fu_1861_p2 add_ln164_1_fu_1900_p2 add_ln164_fu_1920_p2 sub160_fu_2050_p2 add_ln182_fu_2248_p2 mul_36s_36s_55_2_1_U187 add_ln1245_fu_2529_p2 add_ln415_fu_2581_p2 mul_36s_36s_55_2_1_U188 add_ln1245_16_fu_2672_p2 add_ln415_16_fu_2724_p2 mul_36s_36s_55_2_1_U189 add_ln1245_17_fu_2825_p2 add_ln415_17_fu_2877_p2 mul_36s_36s_55_2_1_U190 add_ln1245_18_fu_2973_p2 add_ln415_18_fu_3025_p2 mul_36s_36s_55_2_1_U191 add_ln1245_19_fu_3180_p2 add_ln415_19_fu_3232_p2 mul_36s_36s_55_2_1_U192 add_ln1245_20_fu_3329_p2 add_ln415_20_fu_3381_p2 mul_36s_36s_55_2_1_U193 add_ln1245_21_fu_3423_p2 add_ln415_21_fu_3475_p2 mul_36s_36s_55_2_1_U194 add_ln1245_22_fu_3517_p2 add_ln415_22_fu_3569_p2 mul_36s_36s_55_2_1_U195 add_ln1245_23_fu_3611_p2 add_ln415_23_fu_3663_p2 mul_36s_36s_55_2_1_U196 add_ln1245_24_fu_3705_p2 add_ln415_24_fu_3757_p2 mul_36s_36s_55_2_1_U197 add_ln1245_25_fu_3799_p2 add_ln415_25_fu_3851_p2 mul_36s_36s_55_2_1_U198 add_ln1245_26_fu_3893_p2 add_ln415_26_fu_3945_p2 mul_36s_36s_55_2_1_U199 add_ln1245_27_fu_3987_p2 add_ln415_27_fu_4039_p2 mul_36s_36s_55_2_1_U200 add_ln1245_28_fu_4081_p2 add_ln415_28_fu_4133_p2 mul_36s_36s_55_2_1_U201 add_ln1245_29_fu_4175_p2 add_ln415_29_fu_4227_p2 mul_36s_36s_55_2_1_U202 add_ln1245_30_fu_4269_p2 add_ln415_30_fu_4321_p2 mul_36s_36s_55_2_1_U203 add_ln1245_31_fu_4363_p2 add_ln415_31_fu_4415_p2 mul_36s_36s_55_2_1_U204 add_ln1245_32_fu_4457_p2 add_ln415_32_fu_4509_p2 mul_36s_36s_55_2_1_U205 add_ln1245_33_fu_4551_p2 add_ln415_33_fu_4603_p2 mul_36s_36s_55_2_1_U206 add_ln1245_34_fu_4645_p2 add_ln415_34_fu_4697_p2 mul_36s_36s_55_2_1_U207 add_ln1245_35_fu_4739_p2 add_ln415_35_fu_4791_p2 mul_36s_36s_55_2_1_U208 add_ln1245_36_fu_4846_p2 add_ln415_36_fu_4898_p2 mul_36s_36s_55_2_1_U209 add_ln1245_37_fu_4958_p2 add_ln415_37_fu_5010_p2 mul_36s_36s_55_2_1_U210 add_ln1245_38_fu_5070_p2 add_ln415_38_fu_5122_p2 mul_36s_36s_55_2_1_U211 add_ln1245_39_fu_5182_p2 add_ln415_39_fu_5234_p2 mul_36s_36s_55_2_1_U212 add_ln1245_40_fu_5294_p2 add_ln415_40_fu_5346_p2 mul_36s_36s_55_2_1_U213 add_ln1245_41_fu_5405_p2 add_ln415_41_fu_5457_p2 mul_36s_36s_55_2_1_U214 add_ln1245_42_fu_5537_p2 add_ln415_42_fu_5589_p2 mul_36s_36s_55_2_1_U215 add_ln1245_43_fu_5635_p2 add_ln415_43_fu_5687_p2 mul_36s_36s_55_2_1_U216 add_ln1245_44_fu_5730_p2 add_ln415_44_fu_5782_p2 mul_36s_36s_55_2_1_U217 add_ln1245_45_fu_5803_p2 add_ln415_45_fu_5855_p2 mul_36s_36s_55_2_1_U218 add_ln1245_46_fu_5873_p2 add_ln415_46_fu_5933_p2 add_ln1548_fu_5939_p2 add_ln201_fu_2290_p2 secondKernel_f_V_0_0_U secondKernel_f_V_0_1_U secondKernel_f_V_0_2_U secondKernel_f_V_0_3_U secondKernel_f_V_0_4_U secondKernel_f_V_0_5_U secondKernel_f_V_0_6_U secondKernel_f_V_0_7_U secondKernel_f_V_1_0_U secondKernel_f_V_1_1_U secondKernel_f_V_1_2_U secondKernel_f_V_1_3_U secondKernel_f_V_1_4_U secondKernel_f_V_1_5_U secondKernel_f_V_1_6_U secondKernel_f_V_1_7_U secondKernel_f_V_2_0_U secondKernel_f_V_2_1_U secondKernel_f_V_2_2_U secondKernel_f_V_2_3_U secondKernel_f_V_2_4_U secondKernel_f_V_2_5_U secondKernel_f_V_2_6_U secondKernel_f_V_2_7_U secondKernel_f_V_3_0_U secondKernel_f_V_3_1_U secondKernel_f_V_3_2_U secondKernel_f_V_3_3_U secondKernel_f_V_3_4_U secondKernel_f_V_3_5_U secondKernel_f_V_3_6_U secondKernel_f_V_3_7_U secondBias_f_V_U</BindInstances>
+                            <BindInstances>id_2_fu_1799_p2 add_ln152_fu_1829_p2 sub_ln152_fu_1861_p2 add_ln164_1_fu_1900_p2 add_ln164_fu_1920_p2 sub160_fu_2050_p2 add_ln182_fu_2248_p2 mul_36s_36s_55_2_1_U187 add_ln1245_fu_2529_p2 add_ln415_fu_2581_p2 mul_36s_36s_55_2_1_U188 add_ln1245_16_fu_2672_p2 add_ln415_16_fu_2724_p2 mul_36s_36s_55_2_1_U189 add_ln1245_17_fu_2825_p2 add_ln415_17_fu_2877_p2 mul_36s_36s_55_2_1_U190 add_ln1245_18_fu_2973_p2 add_ln415_18_fu_3025_p2 mul_36s_36s_55_2_1_U191 add_ln1245_19_fu_3180_p2 add_ln415_19_fu_3232_p2 mul_36s_36s_55_2_1_U192 add_ln1245_20_fu_3329_p2 add_ln415_20_fu_3381_p2 mul_36s_36s_55_2_1_U193 add_ln1245_21_fu_3423_p2 add_ln415_21_fu_3475_p2 mul_36s_36s_55_2_1_U194 add_ln1245_22_fu_3517_p2 add_ln415_22_fu_3569_p2 mul_36s_36s_55_2_1_U195 add_ln1245_23_fu_3611_p2 add_ln415_23_fu_3663_p2 mul_36s_36s_55_2_1_U196 add_ln1245_24_fu_3705_p2 add_ln415_24_fu_3757_p2 mul_36s_36s_55_2_1_U197 add_ln1245_25_fu_3799_p2 add_ln415_25_fu_3851_p2 mul_36s_36s_55_2_1_U198 add_ln1245_26_fu_3893_p2 add_ln415_26_fu_3945_p2 mul_36s_36s_55_2_1_U199 add_ln1245_27_fu_3987_p2 add_ln415_27_fu_4039_p2 mul_36s_36s_55_2_1_U200 add_ln1245_28_fu_4081_p2 add_ln415_28_fu_4133_p2 mul_36s_36s_55_2_1_U201 add_ln1245_29_fu_4175_p2 add_ln415_29_fu_4227_p2 mul_36s_36s_55_2_1_U202 add_ln1245_30_fu_4269_p2 add_ln415_30_fu_4321_p2 mul_36s_36s_55_2_1_U203 add_ln1245_31_fu_4363_p2 add_ln415_31_fu_4415_p2 mul_36s_36s_55_2_1_U204 add_ln1245_32_fu_4457_p2 add_ln415_32_fu_4509_p2 mul_36s_36s_55_2_1_U205 add_ln1245_33_fu_4551_p2 add_ln415_33_fu_4603_p2 mul_36s_36s_55_2_1_U206 add_ln1245_34_fu_4645_p2 add_ln415_34_fu_4697_p2 mul_36s_36s_55_2_1_U207 add_ln1245_35_fu_4739_p2 add_ln415_35_fu_4791_p2 mul_36s_36s_55_2_1_U208 add_ln1245_36_fu_4846_p2 add_ln415_36_fu_4898_p2 mul_36s_36s_55_2_1_U209 add_ln1245_37_fu_4958_p2 add_ln415_37_fu_5010_p2 mul_36s_36s_55_2_1_U210 add_ln1245_38_fu_5070_p2 add_ln415_38_fu_5122_p2 mul_36s_36s_55_2_1_U211 add_ln1245_39_fu_5182_p2 add_ln415_39_fu_5234_p2 mul_36s_36s_55_2_1_U212 add_ln1245_40_fu_5294_p2 add_ln415_40_fu_5346_p2 mul_36s_36s_55_2_1_U213 add_ln1245_41_fu_5405_p2 add_ln415_41_fu_5457_p2 mul_36s_36s_55_2_1_U214 add_ln1245_42_fu_5537_p2 add_ln415_42_fu_5589_p2 mul_36s_36s_55_2_1_U215 add_ln1245_43_fu_5635_p2 add_ln415_43_fu_5687_p2 mul_36s_36s_55_2_1_U216 add_ln1245_44_fu_5730_p2 add_ln415_44_fu_5782_p2 mul_36s_36s_55_2_1_U217 add_ln1245_45_fu_5803_p2 add_ln415_45_fu_5855_p2 mul_36s_36s_55_2_1_U218 add_ln1245_46_fu_5873_p2 add_ln415_46_fu_5933_p2 add_ln1548_fu_5939_p2 add_ln202_fu_2290_p2 secondKernel_f_V_0_0_U secondKernel_f_V_0_1_U secondKernel_f_V_0_2_U secondKernel_f_V_0_3_U secondKernel_f_V_0_4_U secondKernel_f_V_0_5_U secondKernel_f_V_0_6_U secondKernel_f_V_0_7_U secondKernel_f_V_1_0_U secondKernel_f_V_1_1_U secondKernel_f_V_1_2_U secondKernel_f_V_1_3_U secondKernel_f_V_1_4_U secondKernel_f_V_1_5_U secondKernel_f_V_1_6_U secondKernel_f_V_1_7_U secondKernel_f_V_2_0_U secondKernel_f_V_2_1_U secondKernel_f_V_2_2_U secondKernel_f_V_2_3_U secondKernel_f_V_2_4_U secondKernel_f_V_2_5_U secondKernel_f_V_2_6_U secondKernel_f_V_2_7_U secondKernel_f_V_3_0_U secondKernel_f_V_3_1_U secondKernel_f_V_3_2_U secondKernel_f_V_3_3_U secondKernel_f_V_3_4_U secondKernel_f_V_3_5_U secondKernel_f_V_3_6_U secondKernel_f_V_3_7_U secondBias_f_V_U</BindInstances>
                         </Instance>
                     </InstancesList>
                 </Instance>
                 <Instance>
-                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545</InstName>
-                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</ModuleName>
+                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545</InstName>
+                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>545</ID>
-                    <BindInstances>add_ln234_1_fu_128_p2 add_ln234_fu_176_p2 add_ln240_fu_207_p2 mul_6ns_8ns_13_1_1_U306 add_ln242_fu_255_p2 add_ln235_fu_157_p2</BindInstances>
+                    <BindInstances>add_ln235_1_fu_128_p2 add_ln235_fu_176_p2 add_ln241_fu_207_p2 mul_6ns_8ns_13_1_1_U306 add_ln243_fu_255_p2 add_ln236_fu_157_p2</BindInstances>
                 </Instance>
                 <Instance>
-                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551</InstName>
-                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</ModuleName>
+                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551</InstName>
+                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>551</ID>
-                    <BindInstances>add_ln256_1_fu_172_p2 add_ln256_fu_184_p2 add_ln259_fu_236_p2 add_ln259_1_fu_262_p2 add_ln258_fu_273_p2 ret_V_fu_311_p2 num_V_fu_363_p2 add_ln257_fu_212_p2 firstDense_f_V_U</BindInstances>
+                    <BindInstances>add_ln257_1_fu_172_p2 add_ln257_fu_184_p2 add_ln260_fu_236_p2 add_ln260_1_fu_262_p2 add_ln259_fu_273_p2 ret_V_fu_311_p2 num_V_fu_363_p2 add_ln258_fu_212_p2 firstDense_f_V_U</BindInstances>
                 </Instance>
                 <Instance>
-                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562</InstName>
-                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_276_1</ModuleName>
+                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562</InstName>
+                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_277_1</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>562</ID>
-                    <BindInstances>add_ln276_fu_450_p2 add_ln1245_fu_546_p2 add_ln415_fu_598_p2 add_ln1245_1_fu_636_p2 add_ln415_1_fu_688_p2 add_ln1245_2_fu_726_p2 add_ln415_2_fu_778_p2 add_ln1245_3_fu_816_p2 add_ln415_3_fu_868_p2 add_ln1245_4_fu_906_p2 add_ln415_4_fu_958_p2 add_ln1245_5_fu_996_p2 add_ln415_5_fu_1048_p2 add_ln1245_6_fu_1086_p2 add_ln415_6_fu_1138_p2 add_ln1245_7_fu_1176_p2 add_ln415_7_fu_1228_p2 add_ln1245_8_fu_1266_p2 add_ln415_8_fu_1318_p2 add_ln1245_9_fu_1356_p2 add_ln415_9_fu_1408_p2 add_ln1245_10_fu_1446_p2 add_ln415_10_fu_1498_p2 add_ln1245_11_fu_1536_p2 add_ln415_11_fu_1588_p2 add_ln1245_12_fu_1626_p2 add_ln415_12_fu_1678_p2 add_ln1245_13_fu_1716_p2 add_ln415_13_fu_1768_p2 add_ln1245_14_fu_1793_p2 add_ln415_14_fu_1845_p2 add_ln1245_15_fu_1862_p2 den2_V_0_1_5_fu_1914_p2</BindInstances>
+                    <BindInstances>add_ln277_fu_450_p2 add_ln1245_fu_546_p2 add_ln415_fu_598_p2 add_ln1245_1_fu_636_p2 add_ln415_1_fu_688_p2 add_ln1245_2_fu_726_p2 add_ln415_2_fu_778_p2 add_ln1245_3_fu_816_p2 add_ln415_3_fu_868_p2 add_ln1245_4_fu_906_p2 add_ln415_4_fu_958_p2 add_ln1245_5_fu_996_p2 add_ln415_5_fu_1048_p2 add_ln1245_6_fu_1086_p2 add_ln415_6_fu_1138_p2 add_ln1245_7_fu_1176_p2 add_ln415_7_fu_1228_p2 add_ln1245_8_fu_1266_p2 add_ln415_8_fu_1318_p2 add_ln1245_9_fu_1356_p2 add_ln415_9_fu_1408_p2 add_ln1245_10_fu_1446_p2 add_ln415_10_fu_1498_p2 add_ln1245_11_fu_1536_p2 add_ln415_11_fu_1588_p2 add_ln1245_12_fu_1626_p2 add_ln415_12_fu_1678_p2 add_ln1245_13_fu_1716_p2 add_ln415_13_fu_1768_p2 add_ln1245_14_fu_1793_p2 add_ln415_14_fu_1845_p2 add_ln1245_15_fu_1862_p2 den2_V_0_1_5_fu_1914_p2</BindInstances>
                 </Instance>
                 <Instance>
-                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588</InstName>
-                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_291_1</ModuleName>
+                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588</InstName>
+                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_292_1</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>588</ID>
-                    <BindInstances>add_ln291_fu_194_p2 tmp_V_fu_232_p2 sub_ln947_fu_280_p2 lsb_index_fu_286_p2 sub_ln950_fu_312_p2 add_ln961_fu_380_p2 sub_ln962_fu_395_p2 m_3_fu_428_p2 sub_ln968_fu_462_p2 add_ln968_fu_467_p2</BindInstances>
+                    <BindInstances>add_ln292_fu_194_p2 tmp_V_fu_232_p2 sub_ln947_fu_280_p2 lsb_index_fu_286_p2 sub_ln950_fu_312_p2 add_ln961_fu_380_p2 sub_ln962_fu_395_p2 m_3_fu_428_p2 sub_ln968_fu_462_p2 add_ln968_fu_467_p2</BindInstances>
                 </Instance>
                 <Instance>
-                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600</InstName>
-                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_302_3</ModuleName>
+                    <InstName>grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600</InstName>
+                    <ModuleName>master_fix_Pipeline_VITIS_LOOP_303_3</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>600</ID>
-                    <BindInstances>add_ln302_fu_123_p2 ddiv_64ns_64ns_64_59_no_dsp_1_U389</BindInstances>
+                    <BindInstances>add_ln303_fu_123_p2 ddiv_64ns_64ns_64_59_no_dsp_1_U389</BindInstances>
                 </Instance>
             </InstancesList>
-            <BindInstances>conv1_U max1_V_0_U conv2_0_U max2_V_0_U den1_V_0_U add_ln254_fu_645_p2 sub_ln259_fu_693_p2 add_ln297_fu_761_p2 dexp_64ns_64ns_64_18_full_dsp_1_U403 dadd_64ns_64ns_64_7_full_dsp_1_U402 thirdBias_f_V_U</BindInstances>
+            <BindInstances>conv1_U max1_V_0_U conv2_0_U max2_V_0_U den1_V_0_U add_ln255_fu_645_p2 sub_ln260_fu_693_p2 add_ln298_fu_761_p2 dexp_64ns_64ns_64_18_full_dsp_1_U403 dadd_64ns_64ns_64_7_full_dsp_1_U402 thirdBias_f_V_U</BindInstances>
         </TopModule>
     </RTLDesignHierarchy>
     <ModuleInformation>
@@ -313,7 +313,7 @@
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>6.952</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -321,9 +321,9 @@
                     <Best-caseLatency>9</Best-caseLatency>
                     <Average-caseLatency>9</Average-caseLatency>
                     <Worst-caseLatency>9</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>9</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
@@ -332,7 +332,7 @@
                         <Name>VITIS_LOOP_17_1</Name>
                         <TripCount>6</TripCount>
                         <Latency>7</Latency>
-                        <AbsoluteTimeLatency>72.800 ns</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>72.870 ns</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>3</PipelineDepth>
                         <PipelineType>yes</PipelineType>
@@ -375,7 +375,7 @@
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.561</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -383,9 +383,9 @@
                     <Best-caseLatency>3083</Best-caseLatency>
                     <Average-caseLatency>3083</Average-caseLatency>
                     <Worst-caseLatency>3083</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>32.063 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>32.063 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>32.063 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>32.094 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>32.094 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>32.094 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>3083</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
@@ -394,7 +394,7 @@
                         <Name>Conv_loop</Name>
                         <TripCount>3072</TripCount>
                         <Latency>3081</Latency>
-                        <AbsoluteTimeLatency>32.042 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>32.073 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>11</PipelineDepth>
                         <PipelineType>yes</PipelineType>
@@ -491,7 +491,7 @@
             <Name>convolution1_fix</Name>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.561</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -499,9 +499,9 @@
                     <Best-caseLatency>3097</Best-caseLatency>
                     <Average-caseLatency>3097</Average-caseLatency>
                     <Worst-caseLatency>3097</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>32.209 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>32.209 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>32.209 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>32.240 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>32.240 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>32.240 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>3097</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
@@ -527,13 +527,13 @@
             </AreaEstimates>
         </Module>
         <Module>
-            <Name>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Name>
+            <Name>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Name>
             <Loops>
-                <VITIS_LOOP_213_1_VITIS_LOOP_214_2/>
+                <VITIS_LOOP_214_1_VITIS_LOOP_215_2/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.040</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -541,22 +541,22 @@
                     <Best-caseLatency>1022</Best-caseLatency>
                     <Average-caseLatency>1022</Average-caseLatency>
                     <Worst-caseLatency>1022</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>10.629 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>10.629 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>10.629 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>10.639 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>10.639 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>10.639 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>1022</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_213_1_VITIS_LOOP_214_2>
-                        <Name>VITIS_LOOP_213_1_VITIS_LOOP_214_2</Name>
+                    <VITIS_LOOP_214_1_VITIS_LOOP_215_2>
+                        <Name>VITIS_LOOP_214_1_VITIS_LOOP_215_2</Name>
                         <TripCount>1008</TripCount>
                         <Latency>1020</Latency>
-                        <AbsoluteTimeLatency>10.608 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>10.618 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>14</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                    </VITIS_LOOP_213_1_VITIS_LOOP_214_2>
+                    </VITIS_LOOP_214_1_VITIS_LOOP_215_2>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -579,17 +579,17 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln213_1_fu_160_p2" SOURCE="model_functions.cpp:213" URAM="0" VARIABLE="add_ln213_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln213_fu_172_p2" SOURCE="model_functions.cpp:213" URAM="0" VARIABLE="add_ln213"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln219_fu_220_p2" SOURCE="model_functions.cpp:219" URAM="0" VARIABLE="sub_ln219"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln219_fu_279_p2" SOURCE="model_functions.cpp:219" URAM="0" VARIABLE="add_ln219"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln219_1_fu_289_p2" SOURCE="model_functions.cpp:219" URAM="0" VARIABLE="add_ln219_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln219_2_fu_294_p2" SOURCE="model_functions.cpp:219" URAM="0" VARIABLE="add_ln219_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln219_3_fu_305_p2" SOURCE="model_functions.cpp:219" URAM="0" VARIABLE="add_ln219_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln219_4_fu_310_p2" SOURCE="model_functions.cpp:219" URAM="0" VARIABLE="add_ln219_4"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op mul" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_7ns_9ns_15_1_1_U92" SOURCE="model_functions.cpp:213" URAM="0" VARIABLE="mul"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="empty_36_fu_328_p2" SOURCE="model_functions.cpp:213" URAM="0" VARIABLE="empty_36"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_213_1_VITIS_LOOP_214_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln214_fu_252_p2" SOURCE="model_functions.cpp:214" URAM="0" VARIABLE="add_ln214"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln214_1_fu_160_p2" SOURCE="model_functions.cpp:214" URAM="0" VARIABLE="add_ln214_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln214_fu_172_p2" SOURCE="model_functions.cpp:214" URAM="0" VARIABLE="add_ln214"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln220_fu_220_p2" SOURCE="model_functions.cpp:220" URAM="0" VARIABLE="sub_ln220"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln220_fu_279_p2" SOURCE="model_functions.cpp:220" URAM="0" VARIABLE="add_ln220"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln220_1_fu_289_p2" SOURCE="model_functions.cpp:220" URAM="0" VARIABLE="add_ln220_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln220_2_fu_294_p2" SOURCE="model_functions.cpp:220" URAM="0" VARIABLE="add_ln220_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln220_3_fu_305_p2" SOURCE="model_functions.cpp:220" URAM="0" VARIABLE="add_ln220_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln220_4_fu_310_p2" SOURCE="model_functions.cpp:220" URAM="0" VARIABLE="add_ln220_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op mul" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_7ns_9ns_15_1_1_U92" SOURCE="model_functions.cpp:214" URAM="0" VARIABLE="mul"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="empty_36_fu_328_p2" SOURCE="model_functions.cpp:214" URAM="0" VARIABLE="empty_36"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_214_1_VITIS_LOOP_215_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln215_fu_252_p2" SOURCE="model_functions.cpp:215" URAM="0" VARIABLE="add_ln215"/>
             </BindNodes>
         </Module>
         <Module>
@@ -599,7 +599,7 @@
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>6.136</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -618,7 +618,7 @@
                         <Name>VITIS_LOOP_125_1</Name>
                         <TripCount>16</TripCount>
                         <Latency>16</Latency>
-                        <AbsoluteTimeLatency>0.166 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>0.167 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
                         <PipelineType>yes</PipelineType>
@@ -656,7 +656,7 @@
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.473</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -664,9 +664,9 @@
                     <Best-caseLatency>709</Best-caseLatency>
                     <Average-caseLatency>709</Average-caseLatency>
                     <Worst-caseLatency>709</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>7.374 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>7.374 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>7.374 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>7.381 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>7.381 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>7.381 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>709</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
@@ -675,7 +675,7 @@
                         <Name>Conv_loop</Name>
                         <TripCount>672</TripCount>
                         <Latency>707</Latency>
-                        <AbsoluteTimeLatency>7.353 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>7.360 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>37</PipelineDepth>
                         <PipelineType>yes</PipelineType>
@@ -806,7 +806,7 @@
                 <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="Conv_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_46_fu_5873_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_46"/>
                 <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="Conv_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_46_fu_5933_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_46"/>
                 <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="Conv_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1548_fu_5939_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1548" URAM="0" VARIABLE="add_ln1548"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="Conv_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln201_fu_2290_p2" SOURCE="model_functions.cpp:201" URAM="0" VARIABLE="add_ln201"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="Conv_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln202_fu_2290_p2" SOURCE="model_functions.cpp:202" URAM="0" VARIABLE="add_ln202"/>
                 <BindNode BINDTYPE="storage" BRAM="0" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="secondKernel_f_V_0_0_U" SOURCE="" URAM="0" VARIABLE="secondKernel_f_V_0_0"/>
                 <BindNode BINDTYPE="storage" BRAM="0" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="secondKernel_f_V_0_1_U" SOURCE="" URAM="0" VARIABLE="secondKernel_f_V_0_1"/>
                 <BindNode BINDTYPE="storage" BRAM="0" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="secondKernel_f_V_0_2_U" SOURCE="" URAM="0" VARIABLE="secondKernel_f_V_0_2"/>
@@ -846,7 +846,7 @@
             <Name>convolution2_fix</Name>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.473</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -854,9 +854,9 @@
                     <Best-caseLatency>730</Best-caseLatency>
                     <Average-caseLatency>730</Average-caseLatency>
                     <Worst-caseLatency>730</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>7.592 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>7.592 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>7.592 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>7.599 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>7.599 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>7.599 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>730</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
@@ -882,13 +882,13 @@
             </AreaEstimates>
         </Module>
         <Module>
-            <Name>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Name>
+            <Name>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Name>
             <Loops>
-                <VITIS_LOOP_234_1_VITIS_LOOP_235_2/>
+                <VITIS_LOOP_235_1_VITIS_LOOP_236_2/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>6.771</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -896,22 +896,22 @@
                     <Best-caseLatency>684</Best-caseLatency>
                     <Average-caseLatency>684</Average-caseLatency>
                     <Worst-caseLatency>684</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>7.114 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>7.114 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>7.114 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>7.120 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>7.120 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>7.120 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>684</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_234_1_VITIS_LOOP_235_2>
-                        <Name>VITIS_LOOP_234_1_VITIS_LOOP_235_2</Name>
+                    <VITIS_LOOP_235_1_VITIS_LOOP_236_2>
+                        <Name>VITIS_LOOP_235_1_VITIS_LOOP_236_2</Name>
                         <TripCount>672</TripCount>
                         <Latency>682</Latency>
-                        <AbsoluteTimeLatency>7.093 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>7.100 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>12</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                    </VITIS_LOOP_234_1_VITIS_LOOP_235_2>
+                    </VITIS_LOOP_235_1_VITIS_LOOP_236_2>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -934,22 +934,22 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_234_1_VITIS_LOOP_235_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln234_1_fu_128_p2" SOURCE="model_functions.cpp:234" URAM="0" VARIABLE="add_ln234_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_234_1_VITIS_LOOP_235_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln234_fu_176_p2" SOURCE="model_functions.cpp:234" URAM="0" VARIABLE="add_ln234"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_234_1_VITIS_LOOP_235_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln240_fu_207_p2" SOURCE="model_functions.cpp:240" URAM="0" VARIABLE="add_ln240"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op mul" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_234_1_VITIS_LOOP_235_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6ns_8ns_13_1_1_U306" SOURCE="model_functions.cpp:234" URAM="0" VARIABLE="mul3"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_234_1_VITIS_LOOP_235_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln242_fu_255_p2" SOURCE="model_functions.cpp:242" URAM="0" VARIABLE="add_ln242"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_234_1_VITIS_LOOP_235_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln235_fu_157_p2" SOURCE="model_functions.cpp:235" URAM="0" VARIABLE="add_ln235"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_235_1_VITIS_LOOP_236_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln235_1_fu_128_p2" SOURCE="model_functions.cpp:235" URAM="0" VARIABLE="add_ln235_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_235_1_VITIS_LOOP_236_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln235_fu_176_p2" SOURCE="model_functions.cpp:235" URAM="0" VARIABLE="add_ln235"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_235_1_VITIS_LOOP_236_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln241_fu_207_p2" SOURCE="model_functions.cpp:241" URAM="0" VARIABLE="add_ln241"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op mul" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_235_1_VITIS_LOOP_236_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6ns_8ns_13_1_1_U306" SOURCE="model_functions.cpp:235" URAM="0" VARIABLE="mul3"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_235_1_VITIS_LOOP_236_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln243_fu_255_p2" SOURCE="model_functions.cpp:243" URAM="0" VARIABLE="add_ln243"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_235_1_VITIS_LOOP_236_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln236_fu_157_p2" SOURCE="model_functions.cpp:236" URAM="0" VARIABLE="add_ln236"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Name>
+            <Name>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Name>
             <Loops>
-                <VITIS_LOOP_256_2_VITIS_LOOP_257_3/>
+                <VITIS_LOOP_257_2_VITIS_LOOP_258_3/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.591</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -957,22 +957,22 @@
                     <Best-caseLatency>230</Best-caseLatency>
                     <Average-caseLatency>230</Average-caseLatency>
                     <Worst-caseLatency>230</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>2.392 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>2.392 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>2.392 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>2.394 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>2.394 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>2.394 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>230</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_256_2_VITIS_LOOP_257_3>
-                        <Name>VITIS_LOOP_256_2_VITIS_LOOP_257_3</Name>
+                    <VITIS_LOOP_257_2_VITIS_LOOP_258_3>
+                        <Name>VITIS_LOOP_257_2_VITIS_LOOP_258_3</Name>
                         <TripCount>224</TripCount>
                         <Latency>228</Latency>
-                        <AbsoluteTimeLatency>2.371 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>2.373 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>6</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                    </VITIS_LOOP_256_2_VITIS_LOOP_257_3>
+                    </VITIS_LOOP_257_2_VITIS_LOOP_258_3>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -995,25 +995,25 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln256_1_fu_172_p2" SOURCE="model_functions.cpp:256" URAM="0" VARIABLE="add_ln256_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln256_fu_184_p2" SOURCE="model_functions.cpp:256" URAM="0" VARIABLE="add_ln256"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln259_fu_236_p2" SOURCE="model_functions.cpp:259" URAM="0" VARIABLE="add_ln259"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln259_1_fu_262_p2" SOURCE="model_functions.cpp:259" URAM="0" VARIABLE="add_ln259_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln258_fu_273_p2" SOURCE="model_functions.cpp:258" URAM="0" VARIABLE="add_ln258"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="ret_V_fu_311_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="ret_V"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="num_V_fu_363_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="num_V"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_256_2_VITIS_LOOP_257_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln257_fu_212_p2" SOURCE="model_functions.cpp:257" URAM="0" VARIABLE="add_ln257"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln257_1_fu_172_p2" SOURCE="model_functions.cpp:257" URAM="0" VARIABLE="add_ln257_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln257_fu_184_p2" SOURCE="model_functions.cpp:257" URAM="0" VARIABLE="add_ln257"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln260_fu_236_p2" SOURCE="model_functions.cpp:260" URAM="0" VARIABLE="add_ln260"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln260_1_fu_262_p2" SOURCE="model_functions.cpp:260" URAM="0" VARIABLE="add_ln260_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln259_fu_273_p2" SOURCE="model_functions.cpp:259" URAM="0" VARIABLE="add_ln259"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="ret_V_fu_311_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="ret_V"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="num_V_fu_363_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="num_V"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_257_2_VITIS_LOOP_258_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln258_fu_212_p2" SOURCE="model_functions.cpp:258" URAM="0" VARIABLE="add_ln258"/>
                 <BindNode BINDTYPE="storage" BRAM="6" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="firstDense_f_V_U" SOURCE="" URAM="0" VARIABLE="firstDense_f_V"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>master_fix_Pipeline_VITIS_LOOP_276_1</Name>
+            <Name>master_fix_Pipeline_VITIS_LOOP_277_1</Name>
             <Loops>
-                <VITIS_LOOP_276_1/>
+                <VITIS_LOOP_277_1/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>6.912</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -1028,15 +1028,15 @@
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_276_1>
-                        <Name>VITIS_LOOP_276_1</Name>
+                    <VITIS_LOOP_277_1>
+                        <Name>VITIS_LOOP_277_1</Name>
                         <TripCount>4</TripCount>
                         <Latency>21</Latency>
-                        <AbsoluteTimeLatency>0.218 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>0.219 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>19</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                    </VITIS_LOOP_276_1>
+                    </VITIS_LOOP_277_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1059,49 +1059,49 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln276_fu_450_p2" SOURCE="model_functions.cpp:276" URAM="0" VARIABLE="add_ln276"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_fu_546_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_fu_598_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_1_fu_636_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_1_fu_688_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_2_fu_726_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_2_fu_778_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_3_fu_816_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_3_fu_868_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_4_fu_906_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_4"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_4_fu_958_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_4"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_5_fu_996_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_5"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_5_fu_1048_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_5"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_6_fu_1086_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_6"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_6_fu_1138_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_6"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_7_fu_1176_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_7"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_7_fu_1228_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_7"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_8_fu_1266_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_8"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_8_fu_1318_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_8"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_9_fu_1356_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_9"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_9_fu_1408_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_9"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_10_fu_1446_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_10"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_10_fu_1498_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_10"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_11_fu_1536_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_11"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_11_fu_1588_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_11"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_12_fu_1626_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_12"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_12_fu_1678_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_12"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_13_fu_1716_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_13"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_13_fu_1768_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_13"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_14_fu_1793_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_14"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_14_fu_1845_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_14"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_15_fu_1862_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_15"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_276_1" OPTYPE="add" PRAGMA="" RTLNAME="den2_V_0_1_5_fu_1914_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="den2_V_0_1_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln277_fu_450_p2" SOURCE="model_functions.cpp:277" URAM="0" VARIABLE="add_ln277"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_fu_546_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_fu_598_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_1_fu_636_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_1_fu_688_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_2_fu_726_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_2_fu_778_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_3_fu_816_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_3_fu_868_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_4_fu_906_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_4_fu_958_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_5_fu_996_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_5_fu_1048_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_6_fu_1086_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_6"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_6_fu_1138_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_6"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_7_fu_1176_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_7"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_7_fu_1228_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_7"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_8_fu_1266_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_8"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_8_fu_1318_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_8"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_9_fu_1356_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_9"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_9_fu_1408_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_9"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_10_fu_1446_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_10"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_10_fu_1498_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_10"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_11_fu_1536_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_11"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_11_fu_1588_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_11"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_12_fu_1626_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_12"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_12_fu_1678_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_12"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_13_fu_1716_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_13"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_13_fu_1768_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_13"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_14_fu_1793_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_14"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln415_14_fu_1845_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="add_ln415_14"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln1245_15_fu_1862_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1245" URAM="0" VARIABLE="add_ln1245_15"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_277_1" OPTYPE="add" PRAGMA="" RTLNAME="den2_V_0_1_5_fu_1914_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:415" URAM="0" VARIABLE="den2_V_0_1_5"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>master_fix_Pipeline_VITIS_LOOP_291_1</Name>
+            <Name>master_fix_Pipeline_VITIS_LOOP_292_1</Name>
             <Loops>
-                <VITIS_LOOP_291_1/>
+                <VITIS_LOOP_292_1/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.574</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -1109,22 +1109,22 @@
                     <Best-caseLatency>9</Best-caseLatency>
                     <Average-caseLatency>9</Average-caseLatency>
                     <Worst-caseLatency>9</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>9</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_291_1>
-                        <Name>VITIS_LOOP_291_1</Name>
+                    <VITIS_LOOP_292_1>
+                        <Name>VITIS_LOOP_292_1</Name>
                         <TripCount>4</TripCount>
                         <Latency>7</Latency>
-                        <AbsoluteTimeLatency>72.800 ns</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>72.870 ns</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>5</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                    </VITIS_LOOP_291_1>
+                    </VITIS_LOOP_292_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1147,26 +1147,26 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln291_fu_194_p2" SOURCE="model_functions.cpp:291" URAM="0" VARIABLE="add_ln291"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="sub" PRAGMA="" RTLNAME="tmp_V_fu_232_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:942" URAM="0" VARIABLE="tmp_V"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln947_fu_280_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:947" URAM="0" VARIABLE="sub_ln947"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="add" PRAGMA="" RTLNAME="lsb_index_fu_286_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:947" URAM="0" VARIABLE="lsb_index"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln950_fu_312_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950" URAM="0" VARIABLE="sub_ln950"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln961_fu_380_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:961" URAM="0" VARIABLE="add_ln961"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln962_fu_395_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:962" URAM="0" VARIABLE="sub_ln962"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="add" PRAGMA="" RTLNAME="m_3_fu_428_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:964" URAM="0" VARIABLE="m_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="add" PRAGMA="" RTLNAME="sub_ln968_fu_462_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:968" URAM="0" VARIABLE="sub_ln968"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_291_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln968_fu_467_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:968" URAM="0" VARIABLE="add_ln968"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln292_fu_194_p2" SOURCE="model_functions.cpp:292" URAM="0" VARIABLE="add_ln292"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="sub" PRAGMA="" RTLNAME="tmp_V_fu_232_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:942" URAM="0" VARIABLE="tmp_V"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln947_fu_280_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:947" URAM="0" VARIABLE="sub_ln947"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="add" PRAGMA="" RTLNAME="lsb_index_fu_286_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:947" URAM="0" VARIABLE="lsb_index"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln950_fu_312_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950" URAM="0" VARIABLE="sub_ln950"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln961_fu_380_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:961" URAM="0" VARIABLE="add_ln961"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln962_fu_395_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:962" URAM="0" VARIABLE="sub_ln962"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="add" PRAGMA="" RTLNAME="m_3_fu_428_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:964" URAM="0" VARIABLE="m_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="add" PRAGMA="" RTLNAME="sub_ln968_fu_462_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:968" URAM="0" VARIABLE="sub_ln968"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="tadder" LATENCY="0" LOOP="VITIS_LOOP_292_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln968_fu_467_p2" SOURCE="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:968" URAM="0" VARIABLE="add_ln968"/>
             </BindNodes>
         </Module>
         <Module>
-            <Name>master_fix_Pipeline_VITIS_LOOP_302_3</Name>
+            <Name>master_fix_Pipeline_VITIS_LOOP_303_3</Name>
             <Loops>
-                <VITIS_LOOP_302_3/>
+                <VITIS_LOOP_303_3/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.524</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -1181,15 +1181,15 @@
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_302_3>
-                        <Name>VITIS_LOOP_302_3</Name>
+                    <VITIS_LOOP_303_3>
+                        <Name>VITIS_LOOP_303_3</Name>
                         <TripCount>4</TripCount>
                         <Latency>82</Latency>
-                        <AbsoluteTimeLatency>0.853 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>0.854 us</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>80</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                    </VITIS_LOOP_302_3>
+                    </VITIS_LOOP_303_3>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1212,19 +1212,19 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_302_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln302_fu_123_p2" SOURCE="model_functions.cpp:302" URAM="0" VARIABLE="add_ln302"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op ddiv" DSP="0" ID="" IMPL="fabric" LATENCY="58" LOOP="VITIS_LOOP_302_3" OPTYPE="ddiv" PRAGMA="" RTLNAME="ddiv_64ns_64ns_64_59_no_dsp_1_U389" SOURCE="model_functions.cpp:303" URAM="0" VARIABLE="div_i"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_303_3" OPTYPE="add" PRAGMA="" RTLNAME="add_ln303_fu_123_p2" SOURCE="model_functions.cpp:303" URAM="0" VARIABLE="add_ln303"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op ddiv" DSP="0" ID="" IMPL="fabric" LATENCY="58" LOOP="VITIS_LOOP_303_3" OPTYPE="ddiv" PRAGMA="" RTLNAME="ddiv_64ns_64ns_64_59_no_dsp_1_U389" SOURCE="model_functions.cpp:304" URAM="0" VARIABLE="div_i"/>
             </BindNodes>
         </Module>
         <Module>
             <Name>master_fix</Name>
             <Loops>
-                <VITIS_LOOP_254_1/>
-                <VITIS_LOOP_297_2/>
+                <VITIS_LOOP_255_1/>
+                <VITIS_LOOP_298_2/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>10.40</TargetClockPeriod>
+                    <TargetClockPeriod>10.41</TargetClockPeriod>
                     <ClockUncertainty>2.81</ClockUncertainty>
                     <EstimatedClockPeriod>7.591</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
@@ -1232,31 +1232,31 @@
                     <Best-caseLatency>9523</Best-caseLatency>
                     <Average-caseLatency>9523</Average-caseLatency>
                     <Worst-caseLatency>9523</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>99.039 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>99.039 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>99.039 us</Worst-caseRealTimeLatency>
+                    <Best-caseRealTimeLatency>99.134 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>99.134 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>99.134 us</Worst-caseRealTimeLatency>
                     <PipelineInitiationInterval>9524</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_254_1>
-                        <Name>VITIS_LOOP_254_1</Name>
+                    <VITIS_LOOP_255_1>
+                        <Name>VITIS_LOOP_255_1</Name>
                         <TripCount>16</TripCount>
                         <Latency>3744</Latency>
-                        <AbsoluteTimeLatency>38.938 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>38.975 us</AbsoluteTimeLatency>
                         <IterationLatency>234</IterationLatency>
                         <PipelineDepth>234</PipelineDepth>
                         <PipelineType>no</PipelineType>
-                    </VITIS_LOOP_254_1>
-                    <VITIS_LOOP_297_2>
-                        <Name>VITIS_LOOP_297_2</Name>
+                    </VITIS_LOOP_255_1>
+                    <VITIS_LOOP_298_2>
+                        <Name>VITIS_LOOP_298_2</Name>
                         <TripCount>4</TripCount>
                         <Latency>108</Latency>
-                        <AbsoluteTimeLatency>1.123 us</AbsoluteTimeLatency>
+                        <AbsoluteTimeLatency>1.124 us</AbsoluteTimeLatency>
                         <IterationLatency>27</IterationLatency>
                         <PipelineDepth>27</PipelineDepth>
                         <PipelineType>no</PipelineType>
-                    </VITIS_LOOP_297_2>
+                    </VITIS_LOOP_298_2>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1284,11 +1284,11 @@
                 <BindNode BINDTYPE="storage" BRAM="2" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="conv2_0_U" SOURCE="" URAM="0" VARIABLE="conv2_0"/>
                 <BindNode BINDTYPE="storage" BRAM="2" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="max2_V_0_U" SOURCE="master.cpp:11" URAM="0" VARIABLE="max2_V_0"/>
                 <BindNode BINDTYPE="storage" BRAM="0" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="den1_V_0_U" SOURCE="master.cpp:12" URAM="0" VARIABLE="den1_V_0"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_254_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln254_fu_645_p2" SOURCE="model_functions.cpp:254" URAM="0" VARIABLE="add_ln254"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_254_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln259_fu_693_p2" SOURCE="model_functions.cpp:259" URAM="0" VARIABLE="sub_ln259"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_297_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln297_fu_761_p2" SOURCE="model_functions.cpp:297" URAM="0" VARIABLE="add_ln297"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op dexp" DSP="26" ID="" IMPL="fulldsp" LATENCY="17" LOOP="VITIS_LOOP_297_2" OPTYPE="dexp" PRAGMA="" RTLNAME="dexp_64ns_64ns_64_18_full_dsp_1_U403" SOURCE="model_functions.cpp:299" URAM="0" VARIABLE="tmp_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op dadd" DSP="3" ID="" IMPL="fulldsp" LATENCY="6" LOOP="VITIS_LOOP_297_2" OPTYPE="dadd" PRAGMA="" RTLNAME="dadd_64ns_64ns_64_7_full_dsp_1_U402" SOURCE="model_functions.cpp:299" URAM="0" VARIABLE="sum_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_255_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln255_fu_645_p2" SOURCE="model_functions.cpp:255" URAM="0" VARIABLE="add_ln255"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_255_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln260_fu_693_p2" SOURCE="model_functions.cpp:260" URAM="0" VARIABLE="sub_ln260"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_298_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln298_fu_761_p2" SOURCE="model_functions.cpp:298" URAM="0" VARIABLE="add_ln298"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op dexp" DSP="26" ID="" IMPL="fulldsp" LATENCY="17" LOOP="VITIS_LOOP_298_2" OPTYPE="dexp" PRAGMA="" RTLNAME="dexp_64ns_64ns_64_18_full_dsp_1_U403" SOURCE="model_functions.cpp:300" URAM="0" VARIABLE="tmp_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" DISPNAME="bind_op dadd" DSP="3" ID="" IMPL="fulldsp" LATENCY="6" LOOP="VITIS_LOOP_298_2" OPTYPE="dadd" PRAGMA="" RTLNAME="dadd_64ns_64ns_64_7_full_dsp_1_U402" SOURCE="model_functions.cpp:300" URAM="0" VARIABLE="sum_1"/>
                 <BindNode BINDTYPE="storage" BRAM="0" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="thirdBias_f_V_U" SOURCE="" URAM="0" VARIABLE="thirdBias_f_V"/>
             </BindNodes>
         </Module>

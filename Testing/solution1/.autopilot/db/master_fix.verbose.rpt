@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix'
 ================================================================
-* Date:           Tue Jul 26 16:54:34 2022
+* Date:           Wed Jul 27 15:45:28 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.591 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.591 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     9523|     9523|  99.039 us|  99.039 us|  9524|  9524|       no|
+    |     9523|     9523|  99.134 us|  99.134 us|  9524|  9524|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -38,14 +38,14 @@
         |                                                                  |                                                       |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
         |                             Instance                             |                         Module                        |   min   |   max   |    min    |    max    |  min |  max |   Type  |
         +------------------------------------------------------------------+-------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
-        |grp_convolution1_fix_fu_433                                       |convolution1_fix                                       |     3097|     3097|  32.209 us|  32.209 us|  3097|  3097|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467  |master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2  |     1022|     1022|  10.629 us|  10.629 us|  1022|  1022|       no|
-        |grp_convolution2_fix_fu_473                                       |convolution2_fix                                       |      730|      730|   7.592 us|   7.592 us|   730|   730|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545  |master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2  |      684|      684|   7.114 us|   7.114 us|   684|   684|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551  |master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3  |      230|      230|   2.392 us|   2.392 us|   230|   230|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562                   |master_fix_Pipeline_VITIS_LOOP_276_1                   |       23|       23|   0.239 us|   0.239 us|    23|    23|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588                   |master_fix_Pipeline_VITIS_LOOP_291_1                   |        9|        9|  93.600 ns|  93.600 ns|     9|     9|       no|
-        |grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600                   |master_fix_Pipeline_VITIS_LOOP_302_3                   |       84|       84|   0.874 us|   0.874 us|    84|    84|       no|
+        |grp_convolution1_fix_fu_433                                       |convolution1_fix                                       |     3097|     3097|  32.240 us|  32.240 us|  3097|  3097|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467  |master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2  |     1022|     1022|  10.639 us|  10.639 us|  1022|  1022|       no|
+        |grp_convolution2_fix_fu_473                                       |convolution2_fix                                       |      730|      730|   7.599 us|   7.599 us|   730|   730|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545  |master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2  |      684|      684|   7.120 us|   7.120 us|   684|   684|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551  |master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3  |      230|      230|   2.394 us|   2.394 us|   230|   230|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562                   |master_fix_Pipeline_VITIS_LOOP_277_1                   |       23|       23|   0.239 us|   0.239 us|    23|    23|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588                   |master_fix_Pipeline_VITIS_LOOP_292_1                   |        9|        9|  93.690 ns|  93.690 ns|     9|     9|       no|
+        |grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600                   |master_fix_Pipeline_VITIS_LOOP_303_3                   |       84|       84|   0.874 us|   0.874 us|    84|    84|       no|
         +------------------------------------------------------------------+-------------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 
         * Loop: 
@@ -53,8 +53,8 @@
         |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +--------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- VITIS_LOOP_254_1  |     3744|     3744|       234|          -|          -|    16|        no|
-        |- VITIS_LOOP_297_2  |      108|      108|        27|          -|          -|     4|        no|
+        |- VITIS_LOOP_255_1  |     3744|     3744|       234|          -|          -|    16|        no|
+        |- VITIS_LOOP_298_2  |      108|      108|        27|          -|          -|     4|        no|
         +--------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -90,12 +90,12 @@
     |grp_convolution2_fix_fu_473                                       |convolution2_fix                                       |        0|  128|  20039|  14422|    0|
     |dadd_64ns_64ns_64_7_full_dsp_1_U402                               |dadd_64ns_64ns_64_7_full_dsp_1                         |        0|    3|    630|   1141|    0|
     |dexp_64ns_64ns_64_18_full_dsp_1_U403                              |dexp_64ns_64ns_64_18_full_dsp_1                        |        0|   26|   1549|   2599|    0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467  |master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2  |        0|    0|    705|    727|    0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545  |master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2  |        0|    0|    401|    446|    0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551  |master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3  |        6|    0|    275|    350|    0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562                   |master_fix_Pipeline_VITIS_LOOP_276_1                   |        0|    0|   3159|   2414|    0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588                   |master_fix_Pipeline_VITIS_LOOP_291_1                   |        0|    0|    853|   1883|    0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600                   |master_fix_Pipeline_VITIS_LOOP_302_3                   |        0|    0|    421|    110|    0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467  |master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2  |        0|    0|    705|    727|    0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545  |master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2  |        0|    0|    401|    446|    0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551  |master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3  |        6|    0|    275|    350|    0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562                   |master_fix_Pipeline_VITIS_LOOP_277_1                   |        0|    0|   3159|   2414|    0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588                   |master_fix_Pipeline_VITIS_LOOP_292_1                   |        0|    0|    853|   1883|    0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600                   |master_fix_Pipeline_VITIS_LOOP_303_3                   |        0|    0|    421|    110|    0|
     |mul_21s_35ns_55_2_1_U405                                          |mul_21s_35ns_55_2_1                                    |        0|    2|    187|     69|    0|
     |mul_36s_35ns_55_2_1_U406                                          |mul_36s_35ns_55_2_1                                    |        0|    4|    202|     85|    0|
     |mul_36s_35ns_55_2_1_U407                                          |mul_36s_35ns_55_2_1                                    |        0|    4|    202|     85|    0|
@@ -142,11 +142,11 @@
     +----------------------+----------+----+---+----+------------+------------+
     |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +----------------------+----------+----+---+----+------------+------------+
-    |add_ln254_fu_645_p2   |         +|   0|  0|  13|           5|           1|
-    |add_ln297_fu_761_p2   |         +|   0|  0|  11|           3|           1|
-    |sub_ln259_fu_693_p2   |         -|   0|  0|  13|          10|          10|
-    |icmp_ln254_fu_639_p2  |      icmp|   0|  0|  10|           5|           6|
-    |icmp_ln297_fu_755_p2  |      icmp|   0|  0|   9|           3|           4|
+    |add_ln255_fu_645_p2   |         +|   0|  0|  13|           5|           1|
+    |add_ln298_fu_761_p2   |         +|   0|  0|  11|           3|           1|
+    |sub_ln260_fu_693_p2   |         -|   0|  0|  13|          10|          10|
+    |icmp_ln255_fu_639_p2  |      icmp|   0|  0|  10|           5|           6|
+    |icmp_ln298_fu_755_p2  |      icmp|   0|  0|   9|           3|           4|
     |den1_V_0_d0           |    select|   0|  0|  35|           1|           1|
     +----------------------+----------+----+---+----+------------+------------+
     |Total                 |          |   0|  0|  91|          27|          23|
@@ -239,21 +239,21 @@
     |den1_V_0_load_reg_904                                                          |  35|   0|   35|          0|
     |grp_convolution1_fix_fu_433_ap_start_reg                                       |   1|   0|    1|          0|
     |grp_convolution2_fix_fu_473_ap_start_reg                                       |   1|   0|    1|          0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467_ap_start_reg  |   1|   0|    1|          0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545_ap_start_reg  |   1|   0|    1|          0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551_ap_start_reg  |   1|   0|    1|          0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562_ap_start_reg                   |   1|   0|    1|          0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588_ap_start_reg                   |   1|   0|    1|          0|
-    |grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600_ap_start_reg                   |   1|   0|    1|          0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467_ap_start_reg  |   1|   0|    1|          0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545_ap_start_reg  |   1|   0|    1|          0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551_ap_start_reg  |   1|   0|    1|          0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562_ap_start_reg                   |   1|   0|    1|          0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588_ap_start_reg                   |   1|   0|    1|          0|
+    |grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600_ap_start_reg                   |   1|   0|    1|          0|
     |i_fu_272                                                                       |   3|   0|    3|          0|
     |num_V_reg_899                                                                  |  21|   0|   21|          0|
     |reg_625                                                                        |  64|   0|   64|          0|
-    |sub_ln259_reg_894                                                              |   9|   0|   10|          1|
+    |sub_ln260_reg_894                                                              |   9|   0|   10|          1|
     |sum_1_reg_1091                                                                 |  64|   0|   64|          0|
     |sum_fu_268                                                                     |  64|   0|   64|          0|
     |tmp_17_reg_1081                                                                |  64|   0|   64|          0|
     |tmp_1_reg_1086                                                                 |  64|   0|   64|          0|
-    |zext_ln254_reg_860                                                             |   5|   0|   64|         59|
+    |zext_ln255_reg_860                                                             |   5|   0|   64|         59|
     +-------------------------------------------------------------------------------+----+----+-----+-----------+
     |Total                                                                          | 988|   0| 1048|         60|
     +-------------------------------------------------------------------------------+----+----+-----+-----------+
@@ -385,16 +385,16 @@ ST_1 : Operation 65 [1/1] (3.25ns)   --->   "%conv2_0 = alloca i64 1"   --->   O
 ST_1 : Operation 66 [1/1] (3.25ns)   --->   "%max2_V_0 = alloca i64 1" [master.cpp:11]   --->   Operation 66 'alloca' 'max2_V_0' <Predicate = true> <Delay = 3.25>
 ST_1 : Operation 67 [1/1] (2.32ns)   --->   "%den1_V_0 = alloca i64 1" [master.cpp:12]   --->   Operation 67 'alloca' 'den1_V_0' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_1 : Operation 68 [2/2] (0.00ns)   --->   "%call_ln15 = call void @convolution1_fix, i16 %input_r, i35 %conv1, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [master.cpp:15]   --->   Operation 68 'call' 'call_ln15' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_1 : Operation 69 [1/1] (1.58ns)   --->   "%store_ln254 = store i5 0, i5 %d" [model_functions.cpp:254]   --->   Operation 69 'store' 'store_ln254' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 69 [1/1] (1.58ns)   --->   "%store_ln255 = store i5 0, i5 %d" [model_functions.cpp:255]   --->   Operation 69 'store' 'store_ln255' <Predicate = true> <Delay = 1.58>
 
 State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 70 [1/2] (0.00ns)   --->   "%call_ln15 = call void @convolution1_fix, i16 %input_r, i35 %conv1, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [master.cpp:15]   --->   Operation 70 'call' 'call_ln15' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 71 [2/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2, i35 %conv1, i35 %max1_V_0"   --->   Operation 71 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 71 [2/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2, i35 %conv1, i35 %max1_V_0"   --->   Operation 71 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.00>
-ST_4 : Operation 72 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2, i35 %conv1, i35 %max1_V_0"   --->   Operation 72 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 72 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2, i35 %conv1, i35 %max1_V_0"   --->   Operation 72 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 5 <SV = 4> <Delay = 0.00>
 ST_5 : Operation 73 [2/2] (0.00ns)   --->   "%call_ln17 = call void @convolution2_fix, i35 %max1_V_0, i35 %conv2_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V" [master.cpp:17]   --->   Operation 73 'call' 'call_ln17' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -403,234 +403,234 @@ State 6 <SV = 5> <Delay = 0.00>
 ST_6 : Operation 74 [1/2] (0.00ns)   --->   "%call_ln17 = call void @convolution2_fix, i35 %max1_V_0, i35 %conv2_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V" [master.cpp:17]   --->   Operation 74 'call' 'call_ln17' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 7 <SV = 6> <Delay = 0.00>
-ST_7 : Operation 75 [2/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2, i35 %conv2_0, i35 %max2_V_0"   --->   Operation 75 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 75 [2/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2, i35 %conv2_0, i35 %max2_V_0"   --->   Operation 75 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 8 <SV = 7> <Delay = 0.00>
-ST_8 : Operation 76 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1"   --->   Operation 76 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 76 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2"   --->   Operation 76 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 77 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_12, i32 0, i32 0, void @empty_10, i32 4294967295, i32 0, void @empty_10, void @empty_10, void @empty_10, i32 0, i32 0, i32 0, i32 0, void @empty_10, void @empty_10"   --->   Operation 77 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 78 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %input_r"   --->   Operation 78 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 79 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_12, i32 0, i32 0, void @empty_10, i32 4294967295, i32 0, void @empty_10, void @empty_10, void @empty_10, i32 0, i32 0, i32 0, i32 0, void @empty_10, void @empty_10"   --->   Operation 79 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 80 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %out_r"   --->   Operation 80 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 81 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2, i35 %conv2_0, i35 %max2_V_0"   --->   Operation 81 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_8 : Operation 82 [1/1] (0.00ns)   --->   "%br_ln254 = br void %_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit" [model_functions.cpp:254]   --->   Operation 82 'br' 'br_ln254' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 81 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2, i35 %conv2_0, i35 %max2_V_0"   --->   Operation 81 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 82 [1/1] (0.00ns)   --->   "%br_ln255 = br void %_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit" [model_functions.cpp:255]   --->   Operation 82 'br' 'br_ln255' <Predicate = true> <Delay = 0.00>
 
 State 9 <SV = 8> <Delay = 3.36>
-ST_9 : Operation 83 [1/1] (0.00ns)   --->   "%d_2 = load i5 %d" [model_functions.cpp:254]   --->   Operation 83 'load' 'd_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 84 [1/1] (1.36ns)   --->   "%icmp_ln254 = icmp_eq  i5 %d_2, i5 16" [model_functions.cpp:254]   --->   Operation 84 'icmp' 'icmp_ln254' <Predicate = true> <Delay = 1.36> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 83 [1/1] (0.00ns)   --->   "%d_2 = load i5 %d" [model_functions.cpp:255]   --->   Operation 83 'load' 'd_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 84 [1/1] (1.36ns)   --->   "%icmp_ln255 = icmp_eq  i5 %d_2, i5 16" [model_functions.cpp:255]   --->   Operation 84 'icmp' 'icmp_ln255' <Predicate = true> <Delay = 1.36> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_9 : Operation 85 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16"   --->   Operation 85 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 86 [1/1] (1.78ns)   --->   "%add_ln254 = add i5 %d_2, i5 1" [model_functions.cpp:254]   --->   Operation 86 'add' 'add_ln254' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_9 : Operation 87 [1/1] (0.00ns)   --->   "%br_ln254 = br i1 %icmp_ln254, void %.split17, void %_Z10dense1_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA14_S3_PS2_S8_.exit.preheader" [model_functions.cpp:254]   --->   Operation 87 'br' 'br_ln254' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 88 [1/1] (0.00ns)   --->   "%zext_ln254 = zext i5 %d_2" [model_functions.cpp:254]   --->   Operation 88 'zext' 'zext_ln254' <Predicate = (!icmp_ln254)> <Delay = 0.00>
-ST_9 : Operation 89 [1/1] (0.00ns)   --->   "%thirdBias_f_V_addr = getelementptr i21 %thirdBias_f_V, i64 0, i64 %zext_ln254" [model_functions.cpp:255]   --->   Operation 89 'getelementptr' 'thirdBias_f_V_addr' <Predicate = (!icmp_ln254)> <Delay = 0.00>
-ST_9 : Operation 90 [2/2] (2.32ns)   --->   "%num_V = load i4 %thirdBias_f_V_addr" [model_functions.cpp:255]   --->   Operation 90 'load' 'num_V' <Predicate = (!icmp_ln254)> <Delay = 2.32> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 21> <Depth = 16> <ROM>
-ST_9 : Operation 91 [1/1] (1.58ns)   --->   "%store_ln254 = store i5 %add_ln254, i5 %d" [model_functions.cpp:254]   --->   Operation 91 'store' 'store_ln254' <Predicate = (!icmp_ln254)> <Delay = 1.58>
-ST_9 : Operation 92 [1/1] (0.00ns)   --->   "%sum = alloca i32 1"   --->   Operation 92 'alloca' 'sum' <Predicate = (icmp_ln254)> <Delay = 0.00>
-ST_9 : Operation 93 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 93 'alloca' 'i' <Predicate = (icmp_ln254)> <Delay = 0.00>
-ST_9 : Operation 94 [1/1] (0.00ns)   --->   "%den1_V_0_addr = getelementptr i35 %den1_V_0, i64 0, i64 0" [model_functions.cpp:279]   --->   Operation 94 'getelementptr' 'den1_V_0_addr' <Predicate = (icmp_ln254)> <Delay = 0.00>
-ST_9 : Operation 95 [2/2] (2.32ns)   --->   "%den1_V_0_load = load i4 %den1_V_0_addr"   --->   Operation 95 'load' 'den1_V_0_load' <Predicate = (icmp_ln254)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_9 : Operation 96 [1/1] (0.00ns)   --->   "%den1_V_0_addr_1 = getelementptr i35 %den1_V_0, i64 0, i64 1" [model_functions.cpp:279]   --->   Operation 96 'getelementptr' 'den1_V_0_addr_1' <Predicate = (icmp_ln254)> <Delay = 0.00>
-ST_9 : Operation 97 [2/2] (2.32ns)   --->   "%den1_V_0_load_1 = load i4 %den1_V_0_addr_1"   --->   Operation 97 'load' 'den1_V_0_load_1' <Predicate = (icmp_ln254)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_9 : Operation 98 [1/1] (1.58ns)   --->   "%store_ln297 = store i3 0, i3 %i" [model_functions.cpp:297]   --->   Operation 98 'store' 'store_ln297' <Predicate = (icmp_ln254)> <Delay = 1.58>
-ST_9 : Operation 99 [1/1] (1.58ns)   --->   "%store_ln297 = store i64 0, i64 %sum" [model_functions.cpp:297]   --->   Operation 99 'store' 'store_ln297' <Predicate = (icmp_ln254)> <Delay = 1.58>
+ST_9 : Operation 86 [1/1] (1.78ns)   --->   "%add_ln255 = add i5 %d_2, i5 1" [model_functions.cpp:255]   --->   Operation 86 'add' 'add_ln255' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 87 [1/1] (0.00ns)   --->   "%br_ln255 = br i1 %icmp_ln255, void %.split17, void %_Z10dense1_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA14_S3_PS2_S8_.exit.preheader" [model_functions.cpp:255]   --->   Operation 87 'br' 'br_ln255' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 88 [1/1] (0.00ns)   --->   "%zext_ln255 = zext i5 %d_2" [model_functions.cpp:255]   --->   Operation 88 'zext' 'zext_ln255' <Predicate = (!icmp_ln255)> <Delay = 0.00>
+ST_9 : Operation 89 [1/1] (0.00ns)   --->   "%thirdBias_f_V_addr = getelementptr i21 %thirdBias_f_V, i64 0, i64 %zext_ln255" [model_functions.cpp:256]   --->   Operation 89 'getelementptr' 'thirdBias_f_V_addr' <Predicate = (!icmp_ln255)> <Delay = 0.00>
+ST_9 : Operation 90 [2/2] (2.32ns)   --->   "%num_V = load i4 %thirdBias_f_V_addr" [model_functions.cpp:256]   --->   Operation 90 'load' 'num_V' <Predicate = (!icmp_ln255)> <Delay = 2.32> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 21> <Depth = 16> <ROM>
+ST_9 : Operation 91 [1/1] (1.58ns)   --->   "%store_ln255 = store i5 %add_ln255, i5 %d" [model_functions.cpp:255]   --->   Operation 91 'store' 'store_ln255' <Predicate = (!icmp_ln255)> <Delay = 1.58>
+ST_9 : Operation 92 [1/1] (0.00ns)   --->   "%sum = alloca i32 1"   --->   Operation 92 'alloca' 'sum' <Predicate = (icmp_ln255)> <Delay = 0.00>
+ST_9 : Operation 93 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 93 'alloca' 'i' <Predicate = (icmp_ln255)> <Delay = 0.00>
+ST_9 : Operation 94 [1/1] (0.00ns)   --->   "%den1_V_0_addr = getelementptr i35 %den1_V_0, i64 0, i64 0" [model_functions.cpp:280]   --->   Operation 94 'getelementptr' 'den1_V_0_addr' <Predicate = (icmp_ln255)> <Delay = 0.00>
+ST_9 : Operation 95 [2/2] (2.32ns)   --->   "%den1_V_0_load = load i4 %den1_V_0_addr"   --->   Operation 95 'load' 'den1_V_0_load' <Predicate = (icmp_ln255)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
+ST_9 : Operation 96 [1/1] (0.00ns)   --->   "%den1_V_0_addr_1 = getelementptr i35 %den1_V_0, i64 0, i64 1" [model_functions.cpp:280]   --->   Operation 96 'getelementptr' 'den1_V_0_addr_1' <Predicate = (icmp_ln255)> <Delay = 0.00>
+ST_9 : Operation 97 [2/2] (2.32ns)   --->   "%den1_V_0_load_1 = load i4 %den1_V_0_addr_1"   --->   Operation 97 'load' 'den1_V_0_load_1' <Predicate = (icmp_ln255)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
+ST_9 : Operation 98 [1/1] (1.58ns)   --->   "%store_ln298 = store i3 0, i3 %i" [model_functions.cpp:298]   --->   Operation 98 'store' 'store_ln298' <Predicate = (icmp_ln255)> <Delay = 1.58>
+ST_9 : Operation 99 [1/1] (1.58ns)   --->   "%store_ln298 = store i64 0, i64 %sum" [model_functions.cpp:298]   --->   Operation 99 'store' 'store_ln298' <Predicate = (icmp_ln255)> <Delay = 1.58>
 
 State 10 <SV = 9> <Delay = 3.91>
-ST_10 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_s = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i5.i4, i5 %d_2, i4 0" [model_functions.cpp:259]   --->   Operation 100 'bitconcatenate' 'tmp_s' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 101 [1/1] (0.00ns)   --->   "%zext_ln259 = zext i9 %tmp_s" [model_functions.cpp:259]   --->   Operation 101 'zext' 'zext_ln259' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 102 [1/1] (0.00ns)   --->   "%tmp_16 = bitconcatenate i6 @_ssdm_op_BitConcatenate.i6.i5.i1, i5 %d_2, i1 0" [model_functions.cpp:259]   --->   Operation 102 'bitconcatenate' 'tmp_16' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 103 [1/1] (0.00ns)   --->   "%zext_ln259_4 = zext i6 %tmp_16" [model_functions.cpp:259]   --->   Operation 103 'zext' 'zext_ln259_4' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 104 [1/1] (1.82ns)   --->   "%sub_ln259 = sub i10 %zext_ln259, i10 %zext_ln259_4" [model_functions.cpp:259]   --->   Operation 104 'sub' 'sub_ln259' <Predicate = true> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 105 [1/2] (2.32ns)   --->   "%num_V = load i4 %thirdBias_f_V_addr" [model_functions.cpp:255]   --->   Operation 105 'load' 'num_V' <Predicate = true> <Delay = 2.32> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 21> <Depth = 16> <ROM>
-ST_10 : Operation 106 [2/2] (1.58ns)   --->   "%call_ln255 = call void @master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3, i21 %num_V, i10 %sub_ln259, i35 %max2_V_0, i36 %num_V_8_loc, i21 %firstDense_f_V" [model_functions.cpp:255]   --->   Operation 106 'call' 'call_ln255' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_10 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_s = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i5.i4, i5 %d_2, i4 0" [model_functions.cpp:260]   --->   Operation 100 'bitconcatenate' 'tmp_s' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 101 [1/1] (0.00ns)   --->   "%zext_ln260 = zext i9 %tmp_s" [model_functions.cpp:260]   --->   Operation 101 'zext' 'zext_ln260' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 102 [1/1] (0.00ns)   --->   "%tmp_16 = bitconcatenate i6 @_ssdm_op_BitConcatenate.i6.i5.i1, i5 %d_2, i1 0" [model_functions.cpp:260]   --->   Operation 102 'bitconcatenate' 'tmp_16' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 103 [1/1] (0.00ns)   --->   "%zext_ln260_4 = zext i6 %tmp_16" [model_functions.cpp:260]   --->   Operation 103 'zext' 'zext_ln260_4' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 104 [1/1] (1.82ns)   --->   "%sub_ln260 = sub i10 %zext_ln260, i10 %zext_ln260_4" [model_functions.cpp:260]   --->   Operation 104 'sub' 'sub_ln260' <Predicate = true> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 105 [1/2] (2.32ns)   --->   "%num_V = load i4 %thirdBias_f_V_addr" [model_functions.cpp:256]   --->   Operation 105 'load' 'num_V' <Predicate = true> <Delay = 2.32> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 21> <Depth = 16> <ROM>
+ST_10 : Operation 106 [2/2] (1.58ns)   --->   "%call_ln256 = call void @master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3, i21 %num_V, i10 %sub_ln260, i35 %max2_V_0, i36 %num_V_8_loc, i21 %firstDense_f_V" [model_functions.cpp:256]   --->   Operation 106 'call' 'call_ln256' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 11 <SV = 10> <Delay = 0.00>
-ST_11 : Operation 107 [1/2] (0.00ns)   --->   "%call_ln255 = call void @master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3, i21 %num_V, i10 %sub_ln259, i35 %max2_V_0, i36 %num_V_8_loc, i21 %firstDense_f_V" [model_functions.cpp:255]   --->   Operation 107 'call' 'call_ln255' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_11 : Operation 107 [1/2] (0.00ns)   --->   "%call_ln256 = call void @master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3, i21 %num_V, i10 %sub_ln260, i35 %max2_V_0, i36 %num_V_8_loc, i21 %firstDense_f_V" [model_functions.cpp:256]   --->   Operation 107 'call' 'call_ln256' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 12 <SV = 11> <Delay = 3.34>
-ST_12 : Operation 108 [1/1] (0.00ns)   --->   "%specloopname_ln249 = specloopname void @_ssdm_op_SpecLoopName, void @empty_11" [model_functions.cpp:249]   --->   Operation 108 'specloopname' 'specloopname_ln249' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 108 [1/1] (0.00ns)   --->   "%specloopname_ln250 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5" [model_functions.cpp:250]   --->   Operation 108 'specloopname' 'specloopname_ln250' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 109 [1/1] (0.00ns)   --->   "%num_V_8_loc_load = load i36 %num_V_8_loc"   --->   Operation 109 'load' 'num_V_8_loc_load' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 110 [1/1] (0.00ns)   --->   "%trunc_ln256 = trunc i36 %num_V_8_loc_load" [model_functions.cpp:256]   --->   Operation 110 'trunc' 'trunc_ln256' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 110 [1/1] (0.00ns)   --->   "%trunc_ln257 = trunc i36 %num_V_8_loc_load" [model_functions.cpp:257]   --->   Operation 110 'trunc' 'trunc_ln257' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 111 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i36.i32, i36 %num_V_8_loc_load, i32 35"   --->   Operation 111 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 112 [1/1] (1.02ns)   --->   "%num_V_3 = select i1 %tmp, i35 0, i35 %trunc_ln256" [model_functions.cpp:263]   --->   Operation 112 'select' 'num_V_3' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_12 : Operation 113 [1/1] (0.00ns)   --->   "%den1_V_0_addr_16 = getelementptr i35 %den1_V_0, i64 0, i64 %zext_ln254" [model_functions.cpp:264]   --->   Operation 113 'getelementptr' 'den1_V_0_addr_16' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 114 [1/1] (2.32ns)   --->   "%store_ln264 = store i35 %num_V_3, i4 %den1_V_0_addr_16" [model_functions.cpp:264]   --->   Operation 114 'store' 'store_ln264' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
+ST_12 : Operation 112 [1/1] (1.02ns)   --->   "%num_V_3 = select i1 %tmp, i35 0, i35 %trunc_ln257" [model_functions.cpp:264]   --->   Operation 112 'select' 'num_V_3' <Predicate = true> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 113 [1/1] (0.00ns)   --->   "%den1_V_0_addr_16 = getelementptr i35 %den1_V_0, i64 0, i64 %zext_ln255" [model_functions.cpp:265]   --->   Operation 113 'getelementptr' 'den1_V_0_addr_16' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 114 [1/1] (2.32ns)   --->   "%store_ln265 = store i35 %num_V_3, i4 %den1_V_0_addr_16" [model_functions.cpp:265]   --->   Operation 114 'store' 'store_ln265' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_12 : Operation 115 [1/1] (0.00ns)   --->   "%br_ln0 = br void %_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit"   --->   Operation 115 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 
 State 13 <SV = 9> <Delay = 2.32>
 ST_13 : Operation 116 [1/2] (2.32ns)   --->   "%den1_V_0_load = load i4 %den1_V_0_addr"   --->   Operation 116 'load' 'den1_V_0_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_13 : Operation 117 [1/2] (2.32ns)   --->   "%den1_V_0_load_1 = load i4 %den1_V_0_addr_1"   --->   Operation 117 'load' 'den1_V_0_load_1' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_13 : Operation 118 [1/1] (0.00ns)   --->   "%den1_V_0_addr_2 = getelementptr i35 %den1_V_0, i64 0, i64 2" [model_functions.cpp:279]   --->   Operation 118 'getelementptr' 'den1_V_0_addr_2' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 118 [1/1] (0.00ns)   --->   "%den1_V_0_addr_2 = getelementptr i35 %den1_V_0, i64 0, i64 2" [model_functions.cpp:280]   --->   Operation 118 'getelementptr' 'den1_V_0_addr_2' <Predicate = true> <Delay = 0.00>
 ST_13 : Operation 119 [2/2] (2.32ns)   --->   "%den1_V_0_load_2 = load i4 %den1_V_0_addr_2"   --->   Operation 119 'load' 'den1_V_0_load_2' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_13 : Operation 120 [1/1] (0.00ns)   --->   "%den1_V_0_addr_3 = getelementptr i35 %den1_V_0, i64 0, i64 3" [model_functions.cpp:279]   --->   Operation 120 'getelementptr' 'den1_V_0_addr_3' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 120 [1/1] (0.00ns)   --->   "%den1_V_0_addr_3 = getelementptr i35 %den1_V_0, i64 0, i64 3" [model_functions.cpp:280]   --->   Operation 120 'getelementptr' 'den1_V_0_addr_3' <Predicate = true> <Delay = 0.00>
 ST_13 : Operation 121 [2/2] (2.32ns)   --->   "%den1_V_0_load_3 = load i4 %den1_V_0_addr_3"   --->   Operation 121 'load' 'den1_V_0_load_3' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 14 <SV = 10> <Delay = 2.32>
 ST_14 : Operation 122 [1/2] (2.32ns)   --->   "%den1_V_0_load_2 = load i4 %den1_V_0_addr_2"   --->   Operation 122 'load' 'den1_V_0_load_2' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_14 : Operation 123 [1/2] (2.32ns)   --->   "%den1_V_0_load_3 = load i4 %den1_V_0_addr_3"   --->   Operation 123 'load' 'den1_V_0_load_3' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_14 : Operation 124 [1/1] (0.00ns)   --->   "%den1_V_0_addr_4 = getelementptr i35 %den1_V_0, i64 0, i64 4" [model_functions.cpp:279]   --->   Operation 124 'getelementptr' 'den1_V_0_addr_4' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 124 [1/1] (0.00ns)   --->   "%den1_V_0_addr_4 = getelementptr i35 %den1_V_0, i64 0, i64 4" [model_functions.cpp:280]   --->   Operation 124 'getelementptr' 'den1_V_0_addr_4' <Predicate = true> <Delay = 0.00>
 ST_14 : Operation 125 [2/2] (2.32ns)   --->   "%den1_V_0_load_4 = load i4 %den1_V_0_addr_4"   --->   Operation 125 'load' 'den1_V_0_load_4' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_14 : Operation 126 [1/1] (0.00ns)   --->   "%den1_V_0_addr_5 = getelementptr i35 %den1_V_0, i64 0, i64 5" [model_functions.cpp:279]   --->   Operation 126 'getelementptr' 'den1_V_0_addr_5' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 126 [1/1] (0.00ns)   --->   "%den1_V_0_addr_5 = getelementptr i35 %den1_V_0, i64 0, i64 5" [model_functions.cpp:280]   --->   Operation 126 'getelementptr' 'den1_V_0_addr_5' <Predicate = true> <Delay = 0.00>
 ST_14 : Operation 127 [2/2] (2.32ns)   --->   "%den1_V_0_load_5 = load i4 %den1_V_0_addr_5"   --->   Operation 127 'load' 'den1_V_0_load_5' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 15 <SV = 11> <Delay = 2.32>
 ST_15 : Operation 128 [1/2] (2.32ns)   --->   "%den1_V_0_load_4 = load i4 %den1_V_0_addr_4"   --->   Operation 128 'load' 'den1_V_0_load_4' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_15 : Operation 129 [1/2] (2.32ns)   --->   "%den1_V_0_load_5 = load i4 %den1_V_0_addr_5"   --->   Operation 129 'load' 'den1_V_0_load_5' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_15 : Operation 130 [1/1] (0.00ns)   --->   "%den1_V_0_addr_6 = getelementptr i35 %den1_V_0, i64 0, i64 6" [model_functions.cpp:279]   --->   Operation 130 'getelementptr' 'den1_V_0_addr_6' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 130 [1/1] (0.00ns)   --->   "%den1_V_0_addr_6 = getelementptr i35 %den1_V_0, i64 0, i64 6" [model_functions.cpp:280]   --->   Operation 130 'getelementptr' 'den1_V_0_addr_6' <Predicate = true> <Delay = 0.00>
 ST_15 : Operation 131 [2/2] (2.32ns)   --->   "%den1_V_0_load_6 = load i4 %den1_V_0_addr_6"   --->   Operation 131 'load' 'den1_V_0_load_6' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_15 : Operation 132 [1/1] (0.00ns)   --->   "%den1_V_0_addr_7 = getelementptr i35 %den1_V_0, i64 0, i64 7" [model_functions.cpp:279]   --->   Operation 132 'getelementptr' 'den1_V_0_addr_7' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 132 [1/1] (0.00ns)   --->   "%den1_V_0_addr_7 = getelementptr i35 %den1_V_0, i64 0, i64 7" [model_functions.cpp:280]   --->   Operation 132 'getelementptr' 'den1_V_0_addr_7' <Predicate = true> <Delay = 0.00>
 ST_15 : Operation 133 [2/2] (2.32ns)   --->   "%den1_V_0_load_7 = load i4 %den1_V_0_addr_7"   --->   Operation 133 'load' 'den1_V_0_load_7' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 16 <SV = 12> <Delay = 2.32>
 ST_16 : Operation 134 [1/2] (2.32ns)   --->   "%den1_V_0_load_6 = load i4 %den1_V_0_addr_6"   --->   Operation 134 'load' 'den1_V_0_load_6' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_16 : Operation 135 [1/2] (2.32ns)   --->   "%den1_V_0_load_7 = load i4 %den1_V_0_addr_7"   --->   Operation 135 'load' 'den1_V_0_load_7' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_16 : Operation 136 [1/1] (0.00ns)   --->   "%den1_V_0_addr_8 = getelementptr i35 %den1_V_0, i64 0, i64 8" [model_functions.cpp:279]   --->   Operation 136 'getelementptr' 'den1_V_0_addr_8' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 136 [1/1] (0.00ns)   --->   "%den1_V_0_addr_8 = getelementptr i35 %den1_V_0, i64 0, i64 8" [model_functions.cpp:280]   --->   Operation 136 'getelementptr' 'den1_V_0_addr_8' <Predicate = true> <Delay = 0.00>
 ST_16 : Operation 137 [2/2] (2.32ns)   --->   "%den1_V_0_load_8 = load i4 %den1_V_0_addr_8"   --->   Operation 137 'load' 'den1_V_0_load_8' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_16 : Operation 138 [1/1] (0.00ns)   --->   "%den1_V_0_addr_9 = getelementptr i35 %den1_V_0, i64 0, i64 9" [model_functions.cpp:279]   --->   Operation 138 'getelementptr' 'den1_V_0_addr_9' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 138 [1/1] (0.00ns)   --->   "%den1_V_0_addr_9 = getelementptr i35 %den1_V_0, i64 0, i64 9" [model_functions.cpp:280]   --->   Operation 138 'getelementptr' 'den1_V_0_addr_9' <Predicate = true> <Delay = 0.00>
 ST_16 : Operation 139 [2/2] (2.32ns)   --->   "%den1_V_0_load_9 = load i4 %den1_V_0_addr_9"   --->   Operation 139 'load' 'den1_V_0_load_9' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 17 <SV = 13> <Delay = 2.32>
 ST_17 : Operation 140 [1/2] (2.32ns)   --->   "%den1_V_0_load_8 = load i4 %den1_V_0_addr_8"   --->   Operation 140 'load' 'den1_V_0_load_8' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_17 : Operation 141 [1/2] (2.32ns)   --->   "%den1_V_0_load_9 = load i4 %den1_V_0_addr_9"   --->   Operation 141 'load' 'den1_V_0_load_9' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_17 : Operation 142 [1/1] (0.00ns)   --->   "%den1_V_0_addr_10 = getelementptr i35 %den1_V_0, i64 0, i64 10" [model_functions.cpp:279]   --->   Operation 142 'getelementptr' 'den1_V_0_addr_10' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 142 [1/1] (0.00ns)   --->   "%den1_V_0_addr_10 = getelementptr i35 %den1_V_0, i64 0, i64 10" [model_functions.cpp:280]   --->   Operation 142 'getelementptr' 'den1_V_0_addr_10' <Predicate = true> <Delay = 0.00>
 ST_17 : Operation 143 [2/2] (2.32ns)   --->   "%den1_V_0_load_10 = load i4 %den1_V_0_addr_10"   --->   Operation 143 'load' 'den1_V_0_load_10' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_17 : Operation 144 [1/1] (0.00ns)   --->   "%den1_V_0_addr_11 = getelementptr i35 %den1_V_0, i64 0, i64 11" [model_functions.cpp:279]   --->   Operation 144 'getelementptr' 'den1_V_0_addr_11' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 144 [1/1] (0.00ns)   --->   "%den1_V_0_addr_11 = getelementptr i35 %den1_V_0, i64 0, i64 11" [model_functions.cpp:280]   --->   Operation 144 'getelementptr' 'den1_V_0_addr_11' <Predicate = true> <Delay = 0.00>
 ST_17 : Operation 145 [2/2] (2.32ns)   --->   "%den1_V_0_load_11 = load i4 %den1_V_0_addr_11"   --->   Operation 145 'load' 'den1_V_0_load_11' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 18 <SV = 14> <Delay = 2.32>
 ST_18 : Operation 146 [1/2] (2.32ns)   --->   "%den1_V_0_load_10 = load i4 %den1_V_0_addr_10"   --->   Operation 146 'load' 'den1_V_0_load_10' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_18 : Operation 147 [1/2] (2.32ns)   --->   "%den1_V_0_load_11 = load i4 %den1_V_0_addr_11"   --->   Operation 147 'load' 'den1_V_0_load_11' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_18 : Operation 148 [1/1] (0.00ns)   --->   "%den1_V_0_addr_12 = getelementptr i35 %den1_V_0, i64 0, i64 12" [model_functions.cpp:279]   --->   Operation 148 'getelementptr' 'den1_V_0_addr_12' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 148 [1/1] (0.00ns)   --->   "%den1_V_0_addr_12 = getelementptr i35 %den1_V_0, i64 0, i64 12" [model_functions.cpp:280]   --->   Operation 148 'getelementptr' 'den1_V_0_addr_12' <Predicate = true> <Delay = 0.00>
 ST_18 : Operation 149 [2/2] (2.32ns)   --->   "%den1_V_0_load_12 = load i4 %den1_V_0_addr_12"   --->   Operation 149 'load' 'den1_V_0_load_12' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_18 : Operation 150 [1/1] (0.00ns)   --->   "%den1_V_0_addr_13 = getelementptr i35 %den1_V_0, i64 0, i64 13" [model_functions.cpp:279]   --->   Operation 150 'getelementptr' 'den1_V_0_addr_13' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 150 [1/1] (0.00ns)   --->   "%den1_V_0_addr_13 = getelementptr i35 %den1_V_0, i64 0, i64 13" [model_functions.cpp:280]   --->   Operation 150 'getelementptr' 'den1_V_0_addr_13' <Predicate = true> <Delay = 0.00>
 ST_18 : Operation 151 [2/2] (2.32ns)   --->   "%den1_V_0_load_13 = load i4 %den1_V_0_addr_13"   --->   Operation 151 'load' 'den1_V_0_load_13' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 19 <SV = 15> <Delay = 2.32>
 ST_19 : Operation 152 [1/2] (2.32ns)   --->   "%den1_V_0_load_12 = load i4 %den1_V_0_addr_12"   --->   Operation 152 'load' 'den1_V_0_load_12' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_19 : Operation 153 [1/2] (2.32ns)   --->   "%den1_V_0_load_13 = load i4 %den1_V_0_addr_13"   --->   Operation 153 'load' 'den1_V_0_load_13' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_19 : Operation 154 [1/1] (0.00ns)   --->   "%den1_V_0_addr_14 = getelementptr i35 %den1_V_0, i64 0, i64 14" [model_functions.cpp:279]   --->   Operation 154 'getelementptr' 'den1_V_0_addr_14' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 154 [1/1] (0.00ns)   --->   "%den1_V_0_addr_14 = getelementptr i35 %den1_V_0, i64 0, i64 14" [model_functions.cpp:280]   --->   Operation 154 'getelementptr' 'den1_V_0_addr_14' <Predicate = true> <Delay = 0.00>
 ST_19 : Operation 155 [2/2] (2.32ns)   --->   "%den1_V_0_load_14 = load i4 %den1_V_0_addr_14"   --->   Operation 155 'load' 'den1_V_0_load_14' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_19 : Operation 156 [1/1] (0.00ns)   --->   "%den1_V_0_addr_15 = getelementptr i35 %den1_V_0, i64 0, i64 15" [model_functions.cpp:279]   --->   Operation 156 'getelementptr' 'den1_V_0_addr_15' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 156 [1/1] (0.00ns)   --->   "%den1_V_0_addr_15 = getelementptr i35 %den1_V_0, i64 0, i64 15" [model_functions.cpp:280]   --->   Operation 156 'getelementptr' 'den1_V_0_addr_15' <Predicate = true> <Delay = 0.00>
 ST_19 : Operation 157 [2/2] (2.32ns)   --->   "%den1_V_0_load_15 = load i4 %den1_V_0_addr_15"   --->   Operation 157 'load' 'den1_V_0_load_15' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 
 State 20 <SV = 16> <Delay = 2.32>
 ST_20 : Operation 158 [1/2] (2.32ns)   --->   "%den1_V_0_load_14 = load i4 %den1_V_0_addr_14"   --->   Operation 158 'load' 'den1_V_0_load_14' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
 ST_20 : Operation 159 [1/2] (2.32ns)   --->   "%den1_V_0_load_15 = load i4 %den1_V_0_addr_15"   --->   Operation 159 'load' 'den1_V_0_load_15' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 35> <Depth = 16> <RAM>
-ST_20 : Operation 160 [2/2] (0.00ns)   --->   "%call_ln1169 = call void @master_fix_Pipeline_VITIS_LOOP_276_1, i35 %den1_V_0_load, i35 %den1_V_0_load_1, i35 %den1_V_0_load_2, i35 %den1_V_0_load_3, i35 %den1_V_0_load_4, i35 %den1_V_0_load_5, i35 %den1_V_0_load_6, i35 %den1_V_0_load_7, i35 %den1_V_0_load_8, i35 %den1_V_0_load_9, i35 %den1_V_0_load_10, i35 %den1_V_0_load_11, i35 %den1_V_0_load_12, i35 %den1_V_0_load_13, i35 %den1_V_0_load_14, i35 %den1_V_0_load_15, i36 %den2_V_0_3_08_loc, i36 %den2_V_0_2_07_loc, i36 %den2_V_0_1_06_loc, i36 %den2_V_0_0_05_loc"   --->   Operation 160 'call' 'call_ln1169' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_20 : Operation 160 [2/2] (0.00ns)   --->   "%call_ln1169 = call void @master_fix_Pipeline_VITIS_LOOP_277_1, i35 %den1_V_0_load, i35 %den1_V_0_load_1, i35 %den1_V_0_load_2, i35 %den1_V_0_load_3, i35 %den1_V_0_load_4, i35 %den1_V_0_load_5, i35 %den1_V_0_load_6, i35 %den1_V_0_load_7, i35 %den1_V_0_load_8, i35 %den1_V_0_load_9, i35 %den1_V_0_load_10, i35 %den1_V_0_load_11, i35 %den1_V_0_load_12, i35 %den1_V_0_load_13, i35 %den1_V_0_load_14, i35 %den1_V_0_load_15, i36 %den2_V_0_3_08_loc, i36 %den2_V_0_2_07_loc, i36 %den2_V_0_1_06_loc, i36 %den2_V_0_0_05_loc"   --->   Operation 160 'call' 'call_ln1169' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 21 <SV = 17> <Delay = 0.00>
-ST_21 : Operation 161 [1/2] (0.00ns)   --->   "%call_ln1169 = call void @master_fix_Pipeline_VITIS_LOOP_276_1, i35 %den1_V_0_load, i35 %den1_V_0_load_1, i35 %den1_V_0_load_2, i35 %den1_V_0_load_3, i35 %den1_V_0_load_4, i35 %den1_V_0_load_5, i35 %den1_V_0_load_6, i35 %den1_V_0_load_7, i35 %den1_V_0_load_8, i35 %den1_V_0_load_9, i35 %den1_V_0_load_10, i35 %den1_V_0_load_11, i35 %den1_V_0_load_12, i35 %den1_V_0_load_13, i35 %den1_V_0_load_14, i35 %den1_V_0_load_15, i36 %den2_V_0_3_08_loc, i36 %den2_V_0_2_07_loc, i36 %den2_V_0_1_06_loc, i36 %den2_V_0_0_05_loc"   --->   Operation 161 'call' 'call_ln1169' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_21 : Operation 161 [1/2] (0.00ns)   --->   "%call_ln1169 = call void @master_fix_Pipeline_VITIS_LOOP_277_1, i35 %den1_V_0_load, i35 %den1_V_0_load_1, i35 %den1_V_0_load_2, i35 %den1_V_0_load_3, i35 %den1_V_0_load_4, i35 %den1_V_0_load_5, i35 %den1_V_0_load_6, i35 %den1_V_0_load_7, i35 %den1_V_0_load_8, i35 %den1_V_0_load_9, i35 %den1_V_0_load_10, i35 %den1_V_0_load_11, i35 %den1_V_0_load_12, i35 %den1_V_0_load_13, i35 %den1_V_0_load_14, i35 %den1_V_0_load_15, i36 %den2_V_0_3_08_loc, i36 %den2_V_0_2_07_loc, i36 %den2_V_0_1_06_loc, i36 %den2_V_0_0_05_loc"   --->   Operation 161 'call' 'call_ln1169' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 22 <SV = 18> <Delay = 5.67>
 ST_22 : Operation 162 [1/1] (0.00ns)   --->   "%den2_V_0_3_08_loc_load = load i36 %den2_V_0_3_08_loc"   --->   Operation 162 'load' 'den2_V_0_3_08_loc_load' <Predicate = true> <Delay = 0.00>
 ST_22 : Operation 163 [1/1] (0.00ns)   --->   "%den2_V_0_2_07_loc_load = load i36 %den2_V_0_2_07_loc"   --->   Operation 163 'load' 'den2_V_0_2_07_loc_load' <Predicate = true> <Delay = 0.00>
 ST_22 : Operation 164 [1/1] (0.00ns)   --->   "%den2_V_0_1_06_loc_load = load i36 %den2_V_0_1_06_loc"   --->   Operation 164 'load' 'den2_V_0_1_06_loc_load' <Predicate = true> <Delay = 0.00>
 ST_22 : Operation 165 [1/1] (0.00ns)   --->   "%den2_V_0_0_05_loc_load = load i36 %den2_V_0_0_05_loc"   --->   Operation 165 'load' 'den2_V_0_0_05_loc_load' <Predicate = true> <Delay = 0.00>
-ST_22 : Operation 166 [2/2] (5.67ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_291_1, i36 %den2_V_0_0_05_loc_load, i36 %den2_V_0_1_06_loc_load, i36 %den2_V_0_2_07_loc_load, i36 %den2_V_0_3_08_loc_load, i64 %m_3_04_loc, i64 %m_2_03_loc, i64 %m_3_7_loc, i64 %m_3_10_loc"   --->   Operation 166 'call' 'call_ln0' <Predicate = true> <Delay = 5.67> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_22 : Operation 166 [2/2] (5.67ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_292_1, i36 %den2_V_0_0_05_loc_load, i36 %den2_V_0_1_06_loc_load, i36 %den2_V_0_2_07_loc_load, i36 %den2_V_0_3_08_loc_load, i64 %m_3_04_loc, i64 %m_2_03_loc, i64 %m_3_7_loc, i64 %m_3_10_loc"   --->   Operation 166 'call' 'call_ln0' <Predicate = true> <Delay = 5.67> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 23 <SV = 19> <Delay = 0.00>
-ST_23 : Operation 167 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_291_1, i36 %den2_V_0_0_05_loc_load, i36 %den2_V_0_1_06_loc_load, i36 %den2_V_0_2_07_loc_load, i36 %den2_V_0_3_08_loc_load, i64 %m_3_04_loc, i64 %m_2_03_loc, i64 %m_3_7_loc, i64 %m_3_10_loc"   --->   Operation 167 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_23 : Operation 167 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_292_1, i36 %den2_V_0_0_05_loc_load, i36 %den2_V_0_1_06_loc_load, i36 %den2_V_0_2_07_loc_load, i36 %den2_V_0_3_08_loc_load, i64 %m_3_04_loc, i64 %m_2_03_loc, i64 %m_3_7_loc, i64 %m_3_10_loc"   --->   Operation 167 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 24 <SV = 20> <Delay = 0.00>
 ST_24 : Operation 168 [1/1] (0.00ns)   --->   "%m_3_04_loc_load = load i64 %m_3_04_loc"   --->   Operation 168 'load' 'm_3_04_loc_load' <Predicate = true> <Delay = 0.00>
 ST_24 : Operation 169 [1/1] (0.00ns)   --->   "%m_2_03_loc_load = load i64 %m_2_03_loc"   --->   Operation 169 'load' 'm_2_03_loc_load' <Predicate = true> <Delay = 0.00>
 ST_24 : Operation 170 [1/1] (0.00ns)   --->   "%m_3_7_loc_load = load i64 %m_3_7_loc"   --->   Operation 170 'load' 'm_3_7_loc_load' <Predicate = true> <Delay = 0.00>
 ST_24 : Operation 171 [1/1] (0.00ns)   --->   "%m_3_10_loc_load = load i64 %m_3_10_loc"   --->   Operation 171 'load' 'm_3_10_loc_load' <Predicate = true> <Delay = 0.00>
-ST_24 : Operation 172 [1/1] (0.00ns)   --->   "%br_ln297 = br void %.preheader7" [model_functions.cpp:297]   --->   Operation 172 'br' 'br_ln297' <Predicate = true> <Delay = 0.00>
+ST_24 : Operation 172 [1/1] (0.00ns)   --->   "%br_ln298 = br void %.preheader7" [model_functions.cpp:298]   --->   Operation 172 'br' 'br_ln298' <Predicate = true> <Delay = 0.00>
 
 State 25 <SV = 21> <Delay = 3.23>
-ST_25 : Operation 173 [1/1] (0.00ns)   --->   "%i_3 = load i3 %i" [model_functions.cpp:299]   --->   Operation 173 'load' 'i_3' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 174 [1/1] (1.13ns)   --->   "%icmp_ln297 = icmp_eq  i3 %i_3, i3 4" [model_functions.cpp:297]   --->   Operation 174 'icmp' 'icmp_ln297' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_25 : Operation 173 [1/1] (0.00ns)   --->   "%i_3 = load i3 %i" [model_functions.cpp:300]   --->   Operation 173 'load' 'i_3' <Predicate = true> <Delay = 0.00>
+ST_25 : Operation 174 [1/1] (1.13ns)   --->   "%icmp_ln298 = icmp_eq  i3 %i_3, i3 4" [model_functions.cpp:298]   --->   Operation 174 'icmp' 'icmp_ln298' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_25 : Operation 175 [1/1] (0.00ns)   --->   "%empty_37 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 4, i64 4, i64 4"   --->   Operation 175 'speclooptripcount' 'empty_37' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 176 [1/1] (1.65ns)   --->   "%add_ln297 = add i3 %i_3, i3 1" [model_functions.cpp:297]   --->   Operation 176 'add' 'add_ln297' <Predicate = true> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_25 : Operation 177 [1/1] (0.00ns)   --->   "%br_ln297 = br i1 %icmp_ln297, void %.split7, void %.preheader.preheader" [model_functions.cpp:297]   --->   Operation 177 'br' 'br_ln297' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 178 [1/1] (0.00ns)   --->   "%trunc_ln299 = trunc i3 %i_3" [model_functions.cpp:299]   --->   Operation 178 'trunc' 'trunc_ln299' <Predicate = (!icmp_ln297)> <Delay = 0.00>
-ST_25 : Operation 179 [1/1] (1.82ns)   --->   "%tmp_17 = mux i64 @_ssdm_op_Mux.ap_auto.4double.i2, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i2 %trunc_ln299" [model_functions.cpp:299]   --->   Operation 179 'mux' 'tmp_17' <Predicate = (!icmp_ln297)> <Delay = 1.82> <CoreInst = "Multiplexer">   --->   Core 76 'Multiplexer' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
-ST_25 : Operation 180 [1/1] (1.58ns)   --->   "%store_ln297 = store i3 %add_ln297, i3 %i" [model_functions.cpp:297]   --->   Operation 180 'store' 'store_ln297' <Predicate = (!icmp_ln297)> <Delay = 1.58>
-ST_25 : Operation 181 [1/1] (0.00ns)   --->   "%sum_load_1 = load i64 %sum"   --->   Operation 181 'load' 'sum_load_1' <Predicate = (icmp_ln297)> <Delay = 0.00>
-ST_25 : Operation 182 [2/2] (1.82ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_302_3, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i64 %sum_load_1, i32 %out_r"   --->   Operation 182 'call' 'call_ln0' <Predicate = (icmp_ln297)> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_25 : Operation 176 [1/1] (1.65ns)   --->   "%add_ln298 = add i3 %i_3, i3 1" [model_functions.cpp:298]   --->   Operation 176 'add' 'add_ln298' <Predicate = true> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_25 : Operation 177 [1/1] (0.00ns)   --->   "%br_ln298 = br i1 %icmp_ln298, void %.split7, void %.preheader.preheader" [model_functions.cpp:298]   --->   Operation 177 'br' 'br_ln298' <Predicate = true> <Delay = 0.00>
+ST_25 : Operation 178 [1/1] (0.00ns)   --->   "%trunc_ln300 = trunc i3 %i_3" [model_functions.cpp:300]   --->   Operation 178 'trunc' 'trunc_ln300' <Predicate = (!icmp_ln298)> <Delay = 0.00>
+ST_25 : Operation 179 [1/1] (1.82ns)   --->   "%tmp_17 = mux i64 @_ssdm_op_Mux.ap_auto.4double.i2, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i2 %trunc_ln300" [model_functions.cpp:300]   --->   Operation 179 'mux' 'tmp_17' <Predicate = (!icmp_ln298)> <Delay = 1.82> <CoreInst = "Multiplexer">   --->   Core 76 'Multiplexer' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_25 : Operation 180 [1/1] (1.58ns)   --->   "%store_ln298 = store i3 %add_ln298, i3 %i" [model_functions.cpp:298]   --->   Operation 180 'store' 'store_ln298' <Predicate = (!icmp_ln298)> <Delay = 1.58>
+ST_25 : Operation 181 [1/1] (0.00ns)   --->   "%sum_load_1 = load i64 %sum"   --->   Operation 181 'load' 'sum_load_1' <Predicate = (icmp_ln298)> <Delay = 0.00>
+ST_25 : Operation 182 [2/2] (1.82ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_303_3, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i64 %sum_load_1, i32 %out_r"   --->   Operation 182 'call' 'call_ln0' <Predicate = (icmp_ln298)> <Delay = 1.82> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 26 <SV = 22> <Delay = 7.32>
-ST_26 : Operation 183 [18/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 183 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_26 : Operation 183 [18/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 183 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 27 <SV = 23> <Delay = 7.32>
-ST_27 : Operation 184 [17/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 184 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_27 : Operation 184 [17/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 184 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 28 <SV = 24> <Delay = 7.32>
-ST_28 : Operation 185 [16/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 185 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_28 : Operation 185 [16/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 185 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 29 <SV = 25> <Delay = 7.32>
-ST_29 : Operation 186 [15/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 186 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_29 : Operation 186 [15/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 186 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 30 <SV = 26> <Delay = 7.32>
-ST_30 : Operation 187 [14/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 187 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_30 : Operation 187 [14/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 187 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 31 <SV = 27> <Delay = 7.32>
-ST_31 : Operation 188 [13/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 188 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_31 : Operation 188 [13/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 188 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 32 <SV = 28> <Delay = 7.32>
-ST_32 : Operation 189 [12/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 189 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_32 : Operation 189 [12/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 189 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 33 <SV = 29> <Delay = 7.32>
-ST_33 : Operation 190 [11/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 190 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_33 : Operation 190 [11/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 190 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 34 <SV = 30> <Delay = 7.32>
-ST_34 : Operation 191 [10/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 191 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_34 : Operation 191 [10/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 191 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 35 <SV = 31> <Delay = 7.32>
-ST_35 : Operation 192 [9/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 192 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_35 : Operation 192 [9/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 192 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 36 <SV = 32> <Delay = 7.32>
-ST_36 : Operation 193 [8/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 193 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_36 : Operation 193 [8/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 193 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 37 <SV = 33> <Delay = 7.32>
-ST_37 : Operation 194 [7/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 194 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_37 : Operation 194 [7/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 194 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 38 <SV = 34> <Delay = 7.32>
-ST_38 : Operation 195 [6/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 195 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_38 : Operation 195 [6/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 195 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 39 <SV = 35> <Delay = 7.32>
-ST_39 : Operation 196 [5/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 196 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_39 : Operation 196 [5/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 196 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 40 <SV = 36> <Delay = 7.32>
-ST_40 : Operation 197 [4/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 197 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_40 : Operation 197 [4/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 197 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 41 <SV = 37> <Delay = 7.32>
-ST_41 : Operation 198 [3/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 198 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_41 : Operation 198 [3/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 198 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 42 <SV = 38> <Delay = 7.32>
-ST_42 : Operation 199 [2/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 199 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_42 : Operation 199 [2/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 199 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 43 <SV = 39> <Delay = 7.32>
-ST_43 : Operation 200 [1/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:299]   --->   Operation 200 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
+ST_43 : Operation 200 [1/18] (7.32ns)   --->   "%tmp_1 = dexp i64 @llvm.exp.f64, i64 %tmp_17" [model_functions.cpp:300]   --->   Operation 200 'dexp' 'tmp_1' <Predicate = true> <Delay = 7.32> <CoreInst = "DExp_fulldsp">   --->   Core 42 'DExp_fulldsp' <Latency = 17> <II = 1> <Delay = 7.32> <FuncUnit> <Opcode : 'dexp'> <InPorts = 1> <OutPorts = 1>
 
 State 44 <SV = 40> <Delay = 7.29>
-ST_44 : Operation 201 [1/1] (0.00ns)   --->   "%sum_load = load i64 %sum" [model_functions.cpp:299]   --->   Operation 201 'load' 'sum_load' <Predicate = true> <Delay = 0.00>
-ST_44 : Operation 202 [7/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 202 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_44 : Operation 201 [1/1] (0.00ns)   --->   "%sum_load = load i64 %sum" [model_functions.cpp:300]   --->   Operation 201 'load' 'sum_load' <Predicate = true> <Delay = 0.00>
+ST_44 : Operation 202 [7/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 202 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 45 <SV = 41> <Delay = 7.29>
-ST_45 : Operation 203 [6/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 203 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_45 : Operation 203 [6/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 203 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 46 <SV = 42> <Delay = 7.29>
-ST_46 : Operation 204 [5/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 204 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_46 : Operation 204 [5/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 204 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 47 <SV = 43> <Delay = 7.29>
-ST_47 : Operation 205 [4/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 205 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_47 : Operation 205 [4/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 205 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 48 <SV = 44> <Delay = 7.29>
-ST_48 : Operation 206 [3/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 206 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_48 : Operation 206 [3/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 206 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 49 <SV = 45> <Delay = 7.29>
-ST_49 : Operation 207 [2/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 207 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_49 : Operation 207 [2/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 207 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 50 <SV = 46> <Delay = 7.29>
-ST_50 : Operation 208 [1/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:299]   --->   Operation 208 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
+ST_50 : Operation 208 [1/7] (7.29ns)   --->   "%sum_1 = dadd i64 %sum_load, i64 %tmp_1" [model_functions.cpp:300]   --->   Operation 208 'dadd' 'sum_1' <Predicate = true> <Delay = 7.29> <CoreInst = "DAddSub_fulldsp">   --->   Core 37 'DAddSub_fulldsp' <Latency = 6> <II = 1> <Delay = 7.29> <FuncUnit> <Opcode : 'dadd' 'dsub'> <InPorts = 2> <OutPorts = 1>
 
 State 51 <SV = 47> <Delay = 1.58>
-ST_51 : Operation 209 [1/1] (0.00ns)   --->   "%specloopname_ln290 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [model_functions.cpp:290]   --->   Operation 209 'specloopname' 'specloopname_ln290' <Predicate = true> <Delay = 0.00>
-ST_51 : Operation 210 [1/1] (1.58ns)   --->   "%store_ln299 = store i64 %sum_1, i64 %sum" [model_functions.cpp:299]   --->   Operation 210 'store' 'store_ln299' <Predicate = true> <Delay = 1.58>
+ST_51 : Operation 209 [1/1] (0.00ns)   --->   "%specloopname_ln291 = specloopname void @_ssdm_op_SpecLoopName, void @empty_1" [model_functions.cpp:291]   --->   Operation 209 'specloopname' 'specloopname_ln291' <Predicate = true> <Delay = 0.00>
+ST_51 : Operation 210 [1/1] (1.58ns)   --->   "%store_ln300 = store i64 %sum_1, i64 %sum" [model_functions.cpp:300]   --->   Operation 210 'store' 'store_ln300' <Predicate = true> <Delay = 1.58>
 ST_51 : Operation 211 [1/1] (0.00ns)   --->   "%br_ln0 = br void %.preheader7"   --->   Operation 211 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 
 State 52 <SV = 22> <Delay = 0.00>
-ST_52 : Operation 212 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_302_3, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i64 %sum_load_1, i32 %out_r"   --->   Operation 212 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_52 : Operation 212 [1/2] (0.00ns)   --->   "%call_ln0 = call void @master_fix_Pipeline_VITIS_LOOP_303_3, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i64 %sum_load_1, i32 %out_r"   --->   Operation 212 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_52 : Operation 213 [1/1] (0.00ns)   --->   "%ret_ln23 = ret" [master.cpp:23]   --->   Operation 213 'ret' 'ret_ln23' <Predicate = true> <Delay = 0.00>
 
 
@@ -716,7 +716,7 @@ max1_V_0               (alloca           ) [ 00111110000000000000000000000000000
 conv2_0                (alloca           ) [ 00111111100000000000000000000000000000000000000000000]
 max2_V_0               (alloca           ) [ 00111111111110000000000000000000000000000000000000000]
 den1_V_0               (alloca           ) [ 00111111111111111111000000000000000000000000000000000]
-store_ln254            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln255            (store            ) [ 00000000000000000000000000000000000000000000000000000]
 call_ln15              (call             ) [ 00000000000000000000000000000000000000000000000000000]
 call_ln0               (call             ) [ 00000000000000000000000000000000000000000000000000000]
 call_ln17              (call             ) [ 00000000000000000000000000000000000000000000000000000]
@@ -726,35 +726,35 @@ specbitsmap_ln0        (specbitsmap      ) [ 00000000000000000000000000000000000
 specinterface_ln0      (specinterface    ) [ 00000000000000000000000000000000000000000000000000000]
 specbitsmap_ln0        (specbitsmap      ) [ 00000000000000000000000000000000000000000000000000000]
 call_ln0               (call             ) [ 00000000000000000000000000000000000000000000000000000]
-br_ln254               (br               ) [ 00000000000000000000000000000000000000000000000000000]
+br_ln255               (br               ) [ 00000000000000000000000000000000000000000000000000000]
 d_2                    (load             ) [ 00000000001000000000000000000000000000000000000000000]
-icmp_ln254             (icmp             ) [ 00000000011110000000000000000000000000000000000000000]
+icmp_ln255             (icmp             ) [ 00000000011110000000000000000000000000000000000000000]
 empty                  (speclooptripcount) [ 00000000000000000000000000000000000000000000000000000]
-add_ln254              (add              ) [ 00000000000000000000000000000000000000000000000000000]
-br_ln254               (br               ) [ 00000000000000000000000000000000000000000000000000000]
-zext_ln254             (zext             ) [ 00000000001110000000000000000000000000000000000000000]
+add_ln255              (add              ) [ 00000000000000000000000000000000000000000000000000000]
+br_ln255               (br               ) [ 00000000000000000000000000000000000000000000000000000]
+zext_ln255             (zext             ) [ 00000000001110000000000000000000000000000000000000000]
 thirdBias_f_V_addr     (getelementptr    ) [ 00000000001000000000000000000000000000000000000000000]
-store_ln254            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln255            (store            ) [ 00000000000000000000000000000000000000000000000000000]
 sum                    (alloca           ) [ 00000000011111111111111111111111111111111111111111110]
 i                      (alloca           ) [ 00000000011111111111111111111111111111111111111111110]
 den1_V_0_addr          (getelementptr    ) [ 00000000000001000000000000000000000000000000000000000]
 den1_V_0_addr_1        (getelementptr    ) [ 00000000000001000000000000000000000000000000000000000]
-store_ln297            (store            ) [ 00000000000000000000000000000000000000000000000000000]
-store_ln297            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln298            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln298            (store            ) [ 00000000000000000000000000000000000000000000000000000]
 tmp_s                  (bitconcatenate   ) [ 00000000000000000000000000000000000000000000000000000]
-zext_ln259             (zext             ) [ 00000000000000000000000000000000000000000000000000000]
+zext_ln260             (zext             ) [ 00000000000000000000000000000000000000000000000000000]
 tmp_16                 (bitconcatenate   ) [ 00000000000000000000000000000000000000000000000000000]
-zext_ln259_4           (zext             ) [ 00000000000000000000000000000000000000000000000000000]
-sub_ln259              (sub              ) [ 00000000000100000000000000000000000000000000000000000]
+zext_ln260_4           (zext             ) [ 00000000000000000000000000000000000000000000000000000]
+sub_ln260              (sub              ) [ 00000000000100000000000000000000000000000000000000000]
 num_V                  (load             ) [ 00000000000100000000000000000000000000000000000000000]
-call_ln255             (call             ) [ 00000000000000000000000000000000000000000000000000000]
-specloopname_ln249     (specloopname     ) [ 00000000000000000000000000000000000000000000000000000]
+call_ln256             (call             ) [ 00000000000000000000000000000000000000000000000000000]
+specloopname_ln250     (specloopname     ) [ 00000000000000000000000000000000000000000000000000000]
 num_V_8_loc_load       (load             ) [ 00000000000000000000000000000000000000000000000000000]
-trunc_ln256            (trunc            ) [ 00000000000000000000000000000000000000000000000000000]
+trunc_ln257            (trunc            ) [ 00000000000000000000000000000000000000000000000000000]
 tmp                    (bitselect        ) [ 00000000000000000000000000000000000000000000000000000]
 num_V_3                (select           ) [ 00000000000000000000000000000000000000000000000000000]
 den1_V_0_addr_16       (getelementptr    ) [ 00000000000000000000000000000000000000000000000000000]
-store_ln264            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln265            (store            ) [ 00000000000000000000000000000000000000000000000000000]
 br_ln0                 (br               ) [ 00000000000000000000000000000000000000000000000000000]
 den1_V_0_load          (load             ) [ 00000000000000111111110000000000000000000000000000000]
 den1_V_0_load_1        (load             ) [ 00000000000000111111110000000000000000000000000000000]
@@ -796,21 +796,21 @@ m_3_04_loc_load        (load             ) [ 00000000000000000000000001111111111
 m_2_03_loc_load        (load             ) [ 00000000000000000000000001111111111111111111111111111]
 m_3_7_loc_load         (load             ) [ 00000000000000000000000001111111111111111111111111111]
 m_3_10_loc_load        (load             ) [ 00000000000000000000000001111111111111111111111111111]
-br_ln297               (br               ) [ 00000000000000000000000000000000000000000000000000000]
+br_ln298               (br               ) [ 00000000000000000000000000000000000000000000000000000]
 i_3                    (load             ) [ 00000000000000000000000000000000000000000000000000000]
-icmp_ln297             (icmp             ) [ 00000000000000000000000001111111111111111111111111110]
+icmp_ln298             (icmp             ) [ 00000000000000000000000001111111111111111111111111110]
 empty_37               (speclooptripcount) [ 00000000000000000000000000000000000000000000000000000]
-add_ln297              (add              ) [ 00000000000000000000000000000000000000000000000000000]
-br_ln297               (br               ) [ 00000000000000000000000000000000000000000000000000000]
-trunc_ln299            (trunc            ) [ 00000000000000000000000000000000000000000000000000000]
+add_ln298              (add              ) [ 00000000000000000000000000000000000000000000000000000]
+br_ln298               (br               ) [ 00000000000000000000000000000000000000000000000000000]
+trunc_ln300            (trunc            ) [ 00000000000000000000000000000000000000000000000000000]
 tmp_17                 (mux              ) [ 00000000000000000000000000111111111111111111000000000]
-store_ln297            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln298            (store            ) [ 00000000000000000000000000000000000000000000000000000]
 sum_load_1             (load             ) [ 00000000000000000000000000000000000000000000000000001]
 tmp_1                  (dexp             ) [ 00000000000000000000000000000000000000000000111111100]
 sum_load               (load             ) [ 00000000000000000000000000000000000000000000011111100]
 sum_1                  (dadd             ) [ 00000000000000000000000000000000000000000000000000010]
-specloopname_ln290     (specloopname     ) [ 00000000000000000000000000000000000000000000000000000]
-store_ln299            (store            ) [ 00000000000000000000000000000000000000000000000000000]
+specloopname_ln291     (specloopname     ) [ 00000000000000000000000000000000000000000000000000000]
+store_ln300            (store            ) [ 00000000000000000000000000000000000000000000000000000]
 br_ln0                 (br               ) [ 00000000000000000000000000000000000000000000000000000]
 call_ln0               (call             ) [ 00000000000000000000000000000000000000000000000000000]
 ret_ln23               (ret              ) [ 00000000000000000000000000000000000000000000000000000]
@@ -1360,7 +1360,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="109" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2"/></StgValue>
+<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2"/></StgValue>
 </bind>
 </comp>
 
@@ -1378,7 +1378,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="113" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2"/></StgValue>
+<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2"/></StgValue>
 </bind>
 </comp>
 
@@ -1396,7 +1396,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="117" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_1"/></StgValue>
+<StgValue><ssdm name="empty_2"/></StgValue>
 </bind>
 </comp>
 
@@ -1558,7 +1558,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="153" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3"/></StgValue>
+<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3"/></StgValue>
 </bind>
 </comp>
 
@@ -1576,7 +1576,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="157" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_11"/></StgValue>
+<StgValue><ssdm name="empty_5"/></StgValue>
 </bind>
 </comp>
 
@@ -1738,7 +1738,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="193" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_276_1"/></StgValue>
+<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_277_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1747,7 +1747,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="195" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_291_1"/></StgValue>
+<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_292_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1783,7 +1783,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="203" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_302_3"/></StgValue>
+<StgValue><ssdm name="master_fix_Pipeline_VITIS_LOOP_303_3"/></StgValue>
 </bind>
 </comp>
 
@@ -1801,7 +1801,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 <pin id="207" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -2044,7 +2044,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="load(27) store(28) " fcode="load"/>
-<opset="den1_V_0_load/9 den1_V_0_load_1/9 store_ln264/12 den1_V_0_load_2/13 den1_V_0_load_3/13 den1_V_0_load_4/14 den1_V_0_load_5/14 den1_V_0_load_6/15 den1_V_0_load_7/15 den1_V_0_load_8/16 den1_V_0_load_9/16 den1_V_0_load_10/17 den1_V_0_load_11/17 den1_V_0_load_12/18 den1_V_0_load_13/18 den1_V_0_load_14/19 den1_V_0_load_15/19 "/>
+<opset="den1_V_0_load/9 den1_V_0_load_1/9 store_ln265/12 den1_V_0_load_2/13 den1_V_0_load_3/13 den1_V_0_load_4/14 den1_V_0_load_5/14 den1_V_0_load_6/15 den1_V_0_load_7/15 den1_V_0_load_8/16 den1_V_0_load_9/16 den1_V_0_load_10/17 den1_V_0_load_11/17 den1_V_0_load_12/18 den1_V_0_load_13/18 den1_V_0_load_14/19 den1_V_0_load_15/19 "/>
 </bind>
 </comp>
 
@@ -2282,7 +2282,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="467" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467">
+<comp id="467" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467">
 <pin_list>
 <pin id="468" dir="0" index="0" bw="0" slack="0"/>
 <pin id="469" dir="0" index="1" bw="35" slack="2147483647"/>
@@ -2341,7 +2341,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="545" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545">
+<comp id="545" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545">
 <pin_list>
 <pin id="546" dir="0" index="0" bw="0" slack="0"/>
 <pin id="547" dir="0" index="1" bw="35" slack="2147483647"/>
@@ -2354,7 +2354,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="551" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551">
+<comp id="551" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551">
 <pin_list>
 <pin id="552" dir="0" index="0" bw="0" slack="0"/>
 <pin id="553" dir="0" index="1" bw="21" slack="0"/>
@@ -2366,11 +2366,11 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln255/10 "/>
+<opset="call_ln256/10 "/>
 </bind>
 </comp>
 
-<comp id="562" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562">
+<comp id="562" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562">
 <pin_list>
 <pin id="563" dir="0" index="0" bw="0" slack="0"/>
 <pin id="564" dir="0" index="1" bw="35" slack="7"/>
@@ -2401,7 +2401,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="588" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588">
+<comp id="588" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588">
 <pin_list>
 <pin id="589" dir="0" index="0" bw="0" slack="0"/>
 <pin id="590" dir="0" index="1" bw="36" slack="0"/>
@@ -2420,7 +2420,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="600" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600">
+<comp id="600" class="1004" name="grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600">
 <pin_list>
 <pin id="601" dir="0" index="0" bw="0" slack="0"/>
 <pin id="602" dir="0" index="1" bw="64" slack="2147483647"/>
@@ -2482,7 +2482,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="631" class="1004" name="store_ln254_store_fu_631">
+<comp id="631" class="1004" name="store_ln255_store_fu_631">
 <pin_list>
 <pin id="632" dir="0" index="0" bw="1" slack="0"/>
 <pin id="633" dir="0" index="1" bw="5" slack="0"/>
@@ -2490,7 +2490,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="store(28) " fcode="store"/>
-<opset="store_ln254/1 "/>
+<opset="store_ln255/1 "/>
 </bind>
 </comp>
 
@@ -2505,7 +2505,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="639" class="1004" name="icmp_ln254_fu_639">
+<comp id="639" class="1004" name="icmp_ln255_fu_639">
 <pin_list>
 <pin id="640" dir="0" index="0" bw="5" slack="0"/>
 <pin id="641" dir="0" index="1" bw="5" slack="0"/>
@@ -2513,11 +2513,11 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln254/9 "/>
+<opset="icmp_ln255/9 "/>
 </bind>
 </comp>
 
-<comp id="645" class="1004" name="add_ln254_fu_645">
+<comp id="645" class="1004" name="add_ln255_fu_645">
 <pin_list>
 <pin id="646" dir="0" index="0" bw="5" slack="0"/>
 <pin id="647" dir="0" index="1" bw="1" slack="0"/>
@@ -2525,22 +2525,22 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="add_ln254/9 "/>
+<opset="add_ln255/9 "/>
 </bind>
 </comp>
 
-<comp id="651" class="1004" name="zext_ln254_fu_651">
+<comp id="651" class="1004" name="zext_ln255_fu_651">
 <pin_list>
 <pin id="652" dir="0" index="0" bw="5" slack="0"/>
 <pin id="653" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln254/9 "/>
+<opset="zext_ln255/9 "/>
 </bind>
 </comp>
 
-<comp id="656" class="1004" name="store_ln254_store_fu_656">
+<comp id="656" class="1004" name="store_ln255_store_fu_656">
 <pin_list>
 <pin id="657" dir="0" index="0" bw="5" slack="0"/>
 <pin id="658" dir="0" index="1" bw="5" slack="8"/>
@@ -2548,11 +2548,11 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="store(28) " fcode="store"/>
-<opset="store_ln254/9 "/>
+<opset="store_ln255/9 "/>
 </bind>
 </comp>
 
-<comp id="661" class="1004" name="store_ln297_store_fu_661">
+<comp id="661" class="1004" name="store_ln298_store_fu_661">
 <pin_list>
 <pin id="662" dir="0" index="0" bw="1" slack="0"/>
 <pin id="663" dir="0" index="1" bw="3" slack="0"/>
@@ -2560,11 +2560,11 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="store(28) " fcode="store"/>
-<opset="store_ln297/9 "/>
+<opset="store_ln298/9 "/>
 </bind>
 </comp>
 
-<comp id="666" class="1004" name="store_ln297_store_fu_666">
+<comp id="666" class="1004" name="store_ln298_store_fu_666">
 <pin_list>
 <pin id="667" dir="0" index="0" bw="64" slack="0"/>
 <pin id="668" dir="0" index="1" bw="64" slack="0"/>
@@ -2572,7 +2572,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="store(28) " fcode="store"/>
-<opset="store_ln297/9 "/>
+<opset="store_ln298/9 "/>
 </bind>
 </comp>
 
@@ -2589,14 +2589,14 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="678" class="1004" name="zext_ln259_fu_678">
+<comp id="678" class="1004" name="zext_ln260_fu_678">
 <pin_list>
 <pin id="679" dir="0" index="0" bw="9" slack="0"/>
 <pin id="680" dir="1" index="1" bw="10" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln259/10 "/>
+<opset="zext_ln260/10 "/>
 </bind>
 </comp>
 
@@ -2613,18 +2613,18 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="689" class="1004" name="zext_ln259_4_fu_689">
+<comp id="689" class="1004" name="zext_ln260_4_fu_689">
 <pin_list>
 <pin id="690" dir="0" index="0" bw="6" slack="0"/>
 <pin id="691" dir="1" index="1" bw="10" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln259_4/10 "/>
+<opset="zext_ln260_4/10 "/>
 </bind>
 </comp>
 
-<comp id="693" class="1004" name="sub_ln259_fu_693">
+<comp id="693" class="1004" name="sub_ln260_fu_693">
 <pin_list>
 <pin id="694" dir="0" index="0" bw="9" slack="0"/>
 <pin id="695" dir="0" index="1" bw="6" slack="0"/>
@@ -2632,7 +2632,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="sub(10) " fcode="sub"/>
-<opset="sub_ln259/10 "/>
+<opset="sub_ln260/10 "/>
 </bind>
 </comp>
 
@@ -2647,14 +2647,14 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="703" class="1004" name="trunc_ln256_fu_703">
+<comp id="703" class="1004" name="trunc_ln257_fu_703">
 <pin_list>
 <pin id="704" dir="0" index="0" bw="36" slack="0"/>
 <pin id="705" dir="1" index="1" bw="35" slack="0"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="trunc_ln256/12 "/>
+<opset="trunc_ln257/12 "/>
 </bind>
 </comp>
 
@@ -2783,7 +2783,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="755" class="1004" name="icmp_ln297_fu_755">
+<comp id="755" class="1004" name="icmp_ln298_fu_755">
 <pin_list>
 <pin id="756" dir="0" index="0" bw="3" slack="0"/>
 <pin id="757" dir="0" index="1" bw="3" slack="0"/>
@@ -2791,11 +2791,11 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln297/25 "/>
+<opset="icmp_ln298/25 "/>
 </bind>
 </comp>
 
-<comp id="761" class="1004" name="add_ln297_fu_761">
+<comp id="761" class="1004" name="add_ln298_fu_761">
 <pin_list>
 <pin id="762" dir="0" index="0" bw="3" slack="0"/>
 <pin id="763" dir="0" index="1" bw="1" slack="0"/>
@@ -2803,18 +2803,18 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="add_ln297/25 "/>
+<opset="add_ln298/25 "/>
 </bind>
 </comp>
 
-<comp id="767" class="1004" name="trunc_ln299_fu_767">
+<comp id="767" class="1004" name="trunc_ln300_fu_767">
 <pin_list>
 <pin id="768" dir="0" index="0" bw="3" slack="0"/>
 <pin id="769" dir="1" index="1" bw="2" slack="0"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="trunc_ln299/25 "/>
+<opset="trunc_ln300/25 "/>
 </bind>
 </comp>
 
@@ -2834,7 +2834,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="781" class="1004" name="store_ln297_store_fu_781">
+<comp id="781" class="1004" name="store_ln298_store_fu_781">
 <pin_list>
 <pin id="782" dir="0" index="0" bw="3" slack="0"/>
 <pin id="783" dir="0" index="1" bw="3" slack="13"/>
@@ -2842,11 +2842,11 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="store(28) " fcode="store"/>
-<opset="store_ln297/25 "/>
+<opset="store_ln298/25 "/>
 </bind>
 </comp>
 
-<comp id="786" class="1004" name="store_ln299_store_fu_786">
+<comp id="786" class="1004" name="store_ln300_store_fu_786">
 <pin_list>
 <pin id="787" dir="0" index="0" bw="64" slack="1"/>
 <pin id="788" dir="0" index="1" bw="64" slack="39"/>
@@ -2854,7 +2854,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </pin_list>
 <bind>
 <opcode="store(28) " fcode="store"/>
-<opset="store_ln299/51 "/>
+<opset="store_ln300/51 "/>
 </bind>
 </comp>
 
@@ -2968,13 +2968,13 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="860" class="1005" name="zext_ln254_reg_860">
+<comp id="860" class="1005" name="zext_ln255_reg_860">
 <pin_list>
 <pin id="861" dir="0" index="0" bw="64" slack="3"/>
 <pin id="862" dir="1" index="1" bw="64" slack="3"/>
 </pin_list>
 <bind>
-<opset="zext_ln254 "/>
+<opset="zext_ln255 "/>
 </bind>
 </comp>
 
@@ -3028,13 +3028,13 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="894" class="1005" name="sub_ln259_reg_894">
+<comp id="894" class="1005" name="sub_ln260_reg_894">
 <pin_list>
 <pin id="895" dir="0" index="0" bw="10" slack="1"/>
 <pin id="896" dir="1" index="1" bw="10" slack="1"/>
 </pin_list>
 <bind>
-<opset="sub_ln259 "/>
+<opset="sub_ln260 "/>
 </bind>
 </comp>
 
@@ -4238,7 +4238,7 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
   - Chain level:
 	State 1
 		call_ln15 : 1
-		store_ln254 : 1
+		store_ln255 : 1
 	State 2
 	State 3
 	State 4
@@ -4247,28 +4247,28 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 	State 7
 	State 8
 	State 9
-		icmp_ln254 : 1
-		add_ln254 : 1
-		br_ln254 : 2
-		zext_ln254 : 1
+		icmp_ln255 : 1
+		add_ln255 : 1
+		br_ln255 : 2
+		zext_ln255 : 1
 		thirdBias_f_V_addr : 2
 		num_V : 3
-		store_ln254 : 2
+		store_ln255 : 2
 		den1_V_0_load : 1
 		den1_V_0_load_1 : 1
-		store_ln297 : 1
-		store_ln297 : 1
+		store_ln298 : 1
+		store_ln298 : 1
 	State 10
-		zext_ln259 : 1
-		zext_ln259_4 : 1
-		sub_ln259 : 2
-		call_ln255 : 3
+		zext_ln260 : 1
+		zext_ln260_4 : 1
+		sub_ln260 : 2
+		call_ln256 : 3
 	State 11
 	State 12
-		trunc_ln256 : 1
+		trunc_ln257 : 1
 		tmp : 1
 		num_V_3 : 2
-		store_ln264 : 3
+		store_ln265 : 3
 	State 13
 		den1_V_0_load_2 : 1
 		den1_V_0_load_3 : 1
@@ -4298,12 +4298,12 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 	State 23
 	State 24
 	State 25
-		icmp_ln297 : 1
-		add_ln297 : 1
-		br_ln297 : 2
-		trunc_ln299 : 1
+		icmp_ln298 : 1
+		add_ln298 : 1
+		br_ln298 : 2
+		trunc_ln300 : 1
 		tmp_17 : 2
-		store_ln297 : 2
+		store_ln298 : 2
 		call_ln0 : 1
 	State 26
 	State 27
@@ -4344,13 +4344,13 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 | Operation|                          Functional Unit                         |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 |          |                    grp_convolution1_fix_fu_433                   |    24   | 64.2358 |   5843  |   4577  |
-|          | grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467 |    0    |  6.352  |   469   |   552   |
+|          | grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467 |    0    |  6.352  |   469   |   552   |
 |          |                    grp_convolution2_fix_fu_473                   |   128   | 181.032 |  22229  |  13138  |
-|   call   | grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545 |    0    |  3.176  |   253   |   335   |
-|          | grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551 |    2    |  6.352  |   517   |   339   |
-|          |          grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562         |    64   |  25.408 |   7426  |   3815  |
-|          |          grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588         |    0    |    0    |   541   |   1482  |
-|          |          grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600         |    26   |    0    |   1812  |   2638  |
+|   call   | grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545 |    0    |  3.176  |   253   |   335   |
+|          | grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551 |    2    |  6.352  |   517   |   339   |
+|          |          grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562         |    64   |  25.408 |   7426  |   3815  |
+|          |          grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588         |    0    |    0    |   541   |   1482  |
+|          |          grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600         |    26   |    0    |   1812  |   2638  |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 |          |                            grp_fu_1096                           |    2    |    0    |   187   |    69   |
 |          |                            grp_fu_1100                           |    4    |    0    |   202   |    85   |
@@ -4376,25 +4376,25 @@ ret_ln23               (ret              ) [ 00000000000000000000000000000000000
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 |  select  |                          num_V_3_fu_715                          |    0    |    0    |    0    |    35   |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
-|    add   |                         add_ln254_fu_645                         |    0    |    0    |    0    |    13   |
-|          |                         add_ln297_fu_761                         |    0    |    0    |    0    |    11   |
+|    add   |                         add_ln255_fu_645                         |    0    |    0    |    0    |    13   |
+|          |                         add_ln298_fu_761                         |    0    |    0    |    0    |    11   |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 |    mux   |                           tmp_17_fu_771                          |    0    |    0    |    0    |    20   |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
-|   icmp   |                         icmp_ln254_fu_639                        |    0    |    0    |    0    |    9    |
-|          |                         icmp_ln297_fu_755                        |    0    |    0    |    0    |    8    |
+|   icmp   |                         icmp_ln255_fu_639                        |    0    |    0    |    0    |    9    |
+|          |                         icmp_ln298_fu_755                        |    0    |    0    |    0    |    8    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
-|    sub   |                         sub_ln259_fu_693                         |    0    |    0    |    0    |    14   |
+|    sub   |                         sub_ln260_fu_693                         |    0    |    0    |    0    |    14   |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
-|          |                         zext_ln254_fu_651                        |    0    |    0    |    0    |    0    |
-|   zext   |                         zext_ln259_fu_678                        |    0    |    0    |    0    |    0    |
-|          |                        zext_ln259_4_fu_689                       |    0    |    0    |    0    |    0    |
+|          |                         zext_ln255_fu_651                        |    0    |    0    |    0    |    0    |
+|   zext   |                         zext_ln260_fu_678                        |    0    |    0    |    0    |    0    |
+|          |                        zext_ln260_4_fu_689                       |    0    |    0    |    0    |    0    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 |bitconcatenate|                           tmp_s_fu_671                           |    0    |    0    |    0    |    0    |
 |          |                           tmp_16_fu_682                          |    0    |    0    |    0    |    0    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
-|   trunc  |                        trunc_ln256_fu_703                        |    0    |    0    |    0    |    0    |
-|          |                        trunc_ln299_fu_767                        |    0    |    0    |    0    |    0    |
+|   trunc  |                        trunc_ln257_fu_703                        |    0    |    0    |    0    |    0    |
+|          |                        trunc_ln300_fu_767                        |    0    |    0    |    0    |    0    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 | bitselect|                            tmp_fu_707                            |    0    |    0    |    0    |    0    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
@@ -4512,13 +4512,13 @@ Memories:
 |    num_V_8_loc_reg_845   |   36   |
 |       num_V_reg_899      |   21   |
 |          reg_625         |   64   |
-|     sub_ln259_reg_894    |   10   |
+|     sub_ln260_reg_894    |   10   |
 |      sum_1_reg_1091      |   64   |
 |        sum_reg_870       |   64   |
 |thirdBias_f_V_addr_reg_865|    4   |
 |      tmp_17_reg_1081     |   64   |
 |      tmp_1_reg_1086      |   64   |
-|    zext_ln254_reg_860    |   64   |
+|    zext_ln255_reg_860    |   64   |
 +--------------------------+--------+
 |           Total          |  1492  |
 +--------------------------+--------+
@@ -4530,11 +4530,11 @@ Memories:
 |                         grp_access_fu_283                        |  p0  |   2  |   4  |    8   ||    9    |
 |                         grp_access_fu_296                        |  p0  |  17  |   4  |   68   ||    81   |
 |                         grp_access_fu_296                        |  p2  |  16  |   0  |    0   ||    65   |
-| grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551 |  p1  |   2  |  21  |   42   ||    9    |
-| grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551 |  p2  |   2  |  10  |   20   ||    9    |
-|          grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562         |  p15 |   2  |  35  |   70   ||    9    |
-|          grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562         |  p16 |   2  |  35  |   70   ||    9    |
-|          grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600         |  p5  |   2  |  64  |   128  ||    9    |
+| grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551 |  p1  |   2  |  21  |   42   ||    9    |
+| grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551 |  p2  |   2  |  10  |   20   ||    9    |
+|          grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562         |  p15 |   2  |  35  |   70   ||    9    |
+|          grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562         |  p16 |   2  |  35  |   70   ||    9    |
+|          grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600         |  p5  |   2  |  64  |   128  ||    9    |
 |                            grp_fu_611                            |  p0  |   2  |  64  |   128  ||    9    |
 |------------------------------------------------------------------|------|------|------|--------||---------||---------|
 |                               Total                              |      |      |      |   534  ||  15.932 ||   209   |

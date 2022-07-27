@@ -39436,7 +39436,8 @@ void convolution2_fix(fix_mp1 (*m)[1][8], fix_par (*k)[4][8], fix_par *bias, fix
 
   num = b;
 
-  Operations_Loop: for (r = 0; r < 32; r++) {
+Operations_Loop:
+  for (r = 0; r < 32; r++) {
    num += tmp2[r] * kr[r];
    tmp2[r] = 0;
   }
@@ -39454,12 +39455,12 @@ void maxPool1_fix(fix_cv1 (*m)[3][8], fix_mp1 (*out)[1][8]){
     short kRow = 3;
     fix_mp1 tmp1;
 
-    VITIS_LOOP_213_1: for (d = 0; d < 8; d++) {
-        VITIS_LOOP_214_2: for (i = 0; i < 126; i++) {
+    VITIS_LOOP_214_1: for (d = 0; d < 8; d++) {
+        VITIS_LOOP_215_2: for (i = 0; i < 126; i++) {
             if (i%kRow == 0){
              tmp1 = 0;
             }
-            VITIS_LOOP_218_3: for (j = 0; j < 3; j++) {
+            VITIS_LOOP_219_3: for (j = 0; j < 3; j++) {
              fix_mp1 tmp2 = m[i][j][d];
              tmp1 = std::max(tmp1, tmp2);
                 out[i/kRow][0][d] = tmp1;
@@ -39475,8 +39476,8 @@ void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]){
     short kRow = 3;
     fix_mp2 tmp1;
 
-    VITIS_LOOP_234_1: for (d = 0; d < 16; d++) {
-        VITIS_LOOP_235_2: for (i = 0; i < 42; i++) {
+    VITIS_LOOP_235_1: for (d = 0; d < 16; d++) {
+        VITIS_LOOP_236_2: for (i = 0; i < 42; i++) {
             if (i%kRow == 0){
              tmp1 = 0;
             }
@@ -39495,10 +39496,10 @@ void dense1_fix(fix_mp2 (*m)[1][16], fix_par (*k)[14][16], fix_par *bias, fix_ds
     fix_mp2 aux1;
     fix_par aux2;
 
-    VITIS_LOOP_254_1: for (d = 0; d < 16; d++) {
+    VITIS_LOOP_255_1: for (d = 0; d < 16; d++) {
      num = bias[d];
-        VITIS_LOOP_256_2: for (i = 0; i < 14; i++) {
-   VITIS_LOOP_257_3: for (h = 0; h < 16; h++) {
+        VITIS_LOOP_257_2: for (i = 0; i < 14; i++) {
+   VITIS_LOOP_258_3: for (h = 0; h < 16; h++) {
     aux1 = m[i][0][h];
     aux2 = k[d][i][h];
     num += aux1 * aux2;
@@ -39517,9 +39518,9 @@ void dense2_fix(const fix_ds1 *m, fix_par (*k)[16], const fix_par *bias, fix_ds2
     fix_par aux2;
 
 
-    VITIS_LOOP_276_1: for (d = 0; d < 4; d++) {
+    VITIS_LOOP_277_1: for (d = 0; d < 4; d++) {
      num = bias[d];
-        VITIS_LOOP_278_2: for (i = 0; i < 16; i++) {
+        VITIS_LOOP_279_2: for (i = 0; i < 16; i++) {
          aux1 = m[i];
          aux2 = k[d][i];
          num += aux1 * aux2;
@@ -39532,18 +39533,18 @@ void softmax_fix(int mSize, fix_ds2 *matrix, float *out) {
 
  double m[4];
     int i;
-    VITIS_LOOP_291_1: for (i = 0; i < 4; i++){
+    VITIS_LOOP_292_1: for (i = 0; i < 4; i++){
      m[i] = matrix[i];
     }
 
     double sum = 0;
 
-    VITIS_LOOP_297_2: for (i = 0; i < mSize; i++){
+    VITIS_LOOP_298_2: for (i = 0; i < mSize; i++){
 #pragma HLS pipeline off
  sum += exp(m[i]);
     }
 
-    VITIS_LOOP_302_3: for (i = 0; i < mSize; i++){
+    VITIS_LOOP_303_3: for (i = 0; i < mSize; i++){
         out[i] = (float)(exp(m[i])/sum);
     }
 }

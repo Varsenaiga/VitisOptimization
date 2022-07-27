@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix_Pipeline_Conv_loop'
 ================================================================
-* Date:           Tue Jul 26 16:53:58 2022
+* Date:           Wed Jul 27 15:44:41 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -20,7 +20,7 @@
     +--------+----------+----------+------------+
     |  Clock |  Target  | Estimated| Uncertainty|
     +--------+----------+----------+------------+
-    |ap_clk  |  10.40 ns|  7.561 ns|     2.81 ns|
+    |ap_clk  |  10.41 ns|  7.561 ns|     2.81 ns|
     +--------+----------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     3083|     3083|  32.063 us|  32.063 us|  3083|  3083|       no|
+    |     3083|     3083|  32.094 us|  32.094 us|  3083|  3083|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -196,7 +196,7 @@ ST_2 : Operation 109 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_s
 ST_2 : Operation 110 [1/1] (1.54ns)   --->   "%id_4 = add i12 %id_3, i12 1" [model_functions.cpp:33]   --->   Operation 110 'add' 'id_4' <Predicate = true> <Delay = 1.54> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.54> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 111 [1/1] (0.00ns)   --->   "%br_ln33 = br i1 %icmp_ln33, void %.split8, void %.exitStub" [model_functions.cpp:33]   --->   Operation 111 'br' 'br_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 112 [1/1] (0.00ns)   --->   "%j_load = load i12 %j" [model_functions.cpp:9]   --->   Operation 112 'load' 'j_load' <Predicate = (!icmp_ln33)> <Delay = 0.00>
-ST_2 : Operation 113 [1/1] (0.00ns)   --->   "%specloopname_ln11 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4" [model_functions.cpp:11]   --->   Operation 113 'specloopname' 'specloopname_ln11' <Predicate = (!icmp_ln33)> <Delay = 0.00>
+ST_2 : Operation 113 [1/1] (0.00ns)   --->   "%specloopname_ln11 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [model_functions.cpp:11]   --->   Operation 113 'specloopname' 'specloopname_ln11' <Predicate = (!icmp_ln33)> <Delay = 0.00>
 ST_2 : Operation 114 [1/1] (0.00ns)   --->   "%trunc_ln9 = trunc i12 %j_load" [model_functions.cpp:9]   --->   Operation 114 'trunc' 'trunc_ln9' <Predicate = (!icmp_ln33)> <Delay = 0.00>
 ST_2 : Operation 115 [1/1] (0.95ns)   --->   "%icmp_ln36 = icmp_eq  i2 %trunc_ln9, i2 0" [model_functions.cpp:36]   --->   Operation 115 'icmp' 'icmp_ln36' <Predicate = (!icmp_ln33)> <Delay = 0.95> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 116 [1/1] (0.00ns)   --->   "%br_ln36 = br i1 %icmp_ln36, void %.split8._crit_edge_ifconv, void %.split.0" [model_functions.cpp:36]   --->   Operation 116 'br' 'br_ln36' <Predicate = (!icmp_ln33)> <Delay = 0.00>
@@ -703,7 +703,7 @@ The critical path consists of the following:
  <State 6>: 7.23ns
 The critical path consists of the following:
 	'icmp' operation ('icmp_ln58', model_functions.cpp:58) [286]  (0.959 ns)
-	'select' operation ('tmp1.V[6]', model_functions.cpp:58) [287]  (0.697 ns)
+	'select' operation ('tmp1.V[0]', model_functions.cpp:58) [289]  (0.697 ns)
 	'mux' operation ('tmp2.V[9]', model_functions.cpp:90) [436]  (2.78 ns)
 	'select' operation ('select_ln73_3', model_functions.cpp:73) [437]  (0.697 ns)
 	'select' operation ('select_ln92_5', model_functions.cpp:92) [463]  (0.697 ns)

@@ -4257,7 +4257,7 @@ _ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split1170:82 %br
 
 <Node id="120" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:9 %specloopname_ln117 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5
+_ZN8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit.split:9 %specloopname_ln117 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln117"/></StgValue>

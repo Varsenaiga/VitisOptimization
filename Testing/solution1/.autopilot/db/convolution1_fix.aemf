@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1658850861842">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1658933110970">
   <ports id="1" name="input_r" type="PortType" coreName="RAM" coreId="1953394531" bitwidth="16" iftype="IfTypeRegister" arraysize="384">
     <dataOutputObjs>getelementptr</dataOutputObjs>
     <dataOutputObjs>call</dataOutputObjs>
@@ -125,118 +125,118 @@
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="tmp2_V_1_0_loc" coreId="4024" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="tmp2_V_1_0_loc" coreId="2252447168" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="tmp2_V_2_0_loc" coreId="4153569488" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="tmp2_V_2_0_loc" coreId="2252438768" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="tmp2_V_3_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="tmp2_V_3_0_loc" coreId="1919251571" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="tmp2_V_5_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="tmp2_V_5_0_loc" coreId="1528970616" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="tmp2_V_6_0_loc" coreId="4153555712" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="tmp2_V_6_0_loc" coreId="2194160112" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="tmp2_V_7_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="tmp2_V_7_0_loc" coreId="2252437088" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="tmp2_V_8_0_loc" coreId="526954136" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="tmp2_V_8_0_loc" coreId="2247393440" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="tmp2_V_9_0_loc" coreId="4193425664" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="tmp2_V_9_0_loc" coreId="2252416928" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="tmp2_V_10_0_loc" coreId="4294967295" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="tmp2_V_10_0_loc" coreId="2252417504" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="tmp2_V_11_0_loc" coreId="2148392432" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="tmp2_V_11_0_loc" coreId="2252427008" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="tmp1_V_11_11_loc" coreId="4064507296" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="tmp1_V_11_11_loc" coreId="778530409" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="tmp1_V_11_9_loc" coreId="32" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="tmp1_V_11_9_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="tmp1_V_0_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="tmp1_V_0_0_loc" coreId="2252429168" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="tmp1_V_1_0_loc" coreId="4193420288" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="tmp1_V_1_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="tmp1_V_2_0_loc" coreId="1380927064" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="tmp1_V_2_0_loc" coreId="2252433728" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="tmp1_V_4_0_loc" coreId="150" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="tmp1_V_4_0_loc" coreId="2252415824" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="tmp1_V_5_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="tmp1_V_5_0_loc" coreId="2194160112" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="tmp1_V_11_6_loc" coreId="4193406784" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="tmp1_V_11_6_loc" coreId="2252418608" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="tmp1_V_11_4_loc" coreId="4153582928" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="tmp1_V_11_4_loc" coreId="1869182051" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="tmp1_V_10_0_loc" coreId="0" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="tmp1_V_10_0_loc" coreId="2252420048" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="tmp1_V_11_0_loc" coreId="4193437568" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="tmp1_V_11_0_loc" coreId="741550437" bitwidth="12" opcode="alloca" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="input_addr" lineNumber="29" fileName="model_functions.cpp" fileDirectory=".." coreId="35" contextFuncName="convolution1_fix" bitwidth="9" opcode="getelementptr" nodeLabel="2.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="input_addr" lineNumber="29" fileName="model_functions.cpp" fileDirectory=".." coreId="2252451776" contextFuncName="convolution1_fix" bitwidth="9" opcode="getelementptr" nodeLabel="2.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="model_functions.cpp" linenumber="29" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution1_fix"/>
       <dataInputObjs>input_r</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="_ln0" rtlName="grp_convolution1_fix_Pipeline_VITIS_LOOP_17_1_fu_152" coreId="526954136" opcode="call" nodeLatency="1" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="_ln0" rtlName="grp_convolution1_fix_Pipeline_VITIS_LOOP_17_1_fu_152" coreId="2252446592" opcode="call" nodeLatency="1" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
       <dataInputObjs>input_r</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
@@ -262,91 +262,91 @@
       <dataInputObjs>alloca</dataInputObjs>
       <constName>convolution1_fix_Pipeline_VITIS_LOOP_17_1</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="tmp1_V_11_0_loc_load" coreId="526954136" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="tmp1_V_11_0_loc_load" coreId="0" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="42" name="tmp1_V_10_0_loc_load" coreId="4064509856" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="42" name="tmp1_V_10_0_loc_load" coreId="2194160112" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="tmp1_V_11_4_loc_load" coreId="0" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="29" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="tmp1_V_11_4_loc_load" coreId="2252436128" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="29" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="44" name="tmp1_V_11_6_loc_load" coreId="32" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="44" name="tmp1_V_11_6_loc_load" coreId="1852142702" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="45" name="tmp1_V_5_0_loc_load" coreId="526954136" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="45" name="tmp1_V_5_0_loc_load" coreId="2252435504" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="46" name="tmp1_V_4_0_loc_load" coreId="4193393664" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="46" name="tmp1_V_4_0_loc_load" coreId="2252423648" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="tmp1_V_2_0_loc_load" coreId="0" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="tmp1_V_2_0_loc_load" coreId="2252419184" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="tmp1_V_1_0_loc_load" coreId="2148391408" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="tmp1_V_1_0_loc_load" coreId="2252419568" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="tmp1_V_0_0_loc_load" coreId="4064507296" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="tmp1_V_0_0_loc_load" coreId="2252435456" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="tmp1_V_11_9_loc_load" coreId="2148391408" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="tmp1_V_11_9_loc_load" coreId="976565046" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="tmp1_V_11_11_loc_load" coreId="4294967295" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="tmp1_V_11_11_loc_load" coreId="2252421056" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="tmp2_V_11_0_loc_load" coreId="4193422272" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="tmp2_V_11_0_loc_load" coreId="2247393440" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="tmp2_V_10_0_loc_load" coreId="4193420864" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="tmp2_V_10_0_loc_load" coreId="2252424512" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="tmp2_V_9_0_loc_load" coreId="4193414528" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="tmp2_V_9_0_loc_load" coreId="2252437184" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="tmp2_V_8_0_loc_load" coreId="4064507296" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="tmp2_V_8_0_loc_load" coreId="1701080941" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="tmp2_V_7_0_loc_load" coreId="4193406464" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="tmp2_V_7_0_loc_load" coreId="0" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="tmp2_V_6_0_loc_load" coreId="1918989395" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="tmp2_V_6_0_loc_load" coreId="677668216" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="tmp2_V_5_0_loc_load" coreId="4153678992" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="tmp2_V_5_0_loc_load" coreId="2252439632" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="tmp2_V_3_0_loc_load" coreId="1380927064" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="tmp2_V_3_0_loc_load" coreId="2252443952" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="tmp2_V_2_0_loc_load" coreId="4193426880" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="tmp2_V_2_0_loc_load" coreId="2252425328" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="tmp2_V_1_0_loc_load" coreId="1380927064" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="tmp2_V_1_0_loc_load" coreId="2252440736" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="tmp2_V_0_0_loc_load" coreId="4193392768" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="tmp2_V_0_0_loc_load" coreId="2252444288" bitwidth="12" opcode="load" nodeLabel="4.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
@@ -355,12 +355,12 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>trunc</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="64" name="tmp1_V_9" lineNumber="29" originalName="tmp1.V[9]" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp1_V_9_fu_237_p1" coreId="1313818964" contextFuncName="convolution1_fix" bitwidth="12" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="64" name="tmp1_V_9" lineNumber="29" originalName="tmp1.V[9]" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp1_V_9_fu_237_p1" coreId="2252425904" contextFuncName="convolution1_fix" bitwidth="12" opcode="trunc" nodeLabel="3.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="model_functions.cpp" linenumber="29" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="65" name="_ln29" lineNumber="29" fileName="model_functions.cpp" fileDirectory=".." rtlName="grp_convolution1_fix_Pipeline_Conv_loop_fu_180" coreId="4193427776" contextFuncName="convolution1_fix" opcode="call" nodeLabel="4.0" nodeLatency="1" m_display="0" m_delay="1.58" m_topoIndex="49" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="65" name="_ln29" lineNumber="29" fileName="model_functions.cpp" fileDirectory=".." rtlName="grp_convolution1_fix_Pipeline_Conv_loop_fu_180" coreId="1768843590" contextFuncName="convolution1_fix" opcode="call" nodeLabel="4.0" nodeLatency="1" m_display="0" m_delay="1.58" m_topoIndex="49" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="model_functions.cpp" linenumber="29" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
@@ -389,7 +389,7 @@
       <dataOutputObjs>out_r</dataOutputObjs>
       <constName>convolution1_fix_Pipeline_Conv_loop</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="66" name="_ln113" lineNumber="113" fileName="model_functions.cpp" fileDirectory=".." coreId="4064509856" contextFuncName="convolution1_fix" opcode="ret" nodeLabel="5.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="66" name="_ln113" lineNumber="113" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="convolution1_fix" opcode="ret" nodeLabel="5.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="model_functions.cpp" linenumber="113" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution1_fix"/>
     </node_objs>
     <fileValidLineNumbers fileName="model_functions.cpp">

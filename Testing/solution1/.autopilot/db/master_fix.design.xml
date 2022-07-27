@@ -25,8 +25,8 @@
 </InstancesList>
 </Instance>
 <Instance>
-<InstName>grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467</InstName>
-<ModuleName>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</ModuleName>
+<InstName>grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467</InstName>
+<ModuleName>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>467</ID>
 </Instance>
@@ -51,32 +51,32 @@
 </InstancesList>
 </Instance>
 <Instance>
-<InstName>grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545</InstName>
-<ModuleName>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</ModuleName>
+<InstName>grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545</InstName>
+<ModuleName>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>545</ID>
 </Instance>
 <Instance>
-<InstName>grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551</InstName>
-<ModuleName>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</ModuleName>
+<InstName>grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551</InstName>
+<ModuleName>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>551</ID>
 </Instance>
 <Instance>
-<InstName>grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562</InstName>
-<ModuleName>master_fix_Pipeline_VITIS_LOOP_276_1</ModuleName>
+<InstName>grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562</InstName>
+<ModuleName>master_fix_Pipeline_VITIS_LOOP_277_1</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>562</ID>
 </Instance>
 <Instance>
-<InstName>grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588</InstName>
-<ModuleName>master_fix_Pipeline_VITIS_LOOP_291_1</ModuleName>
+<InstName>grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588</InstName>
+<ModuleName>master_fix_Pipeline_VITIS_LOOP_292_1</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>588</ID>
 </Instance>
 <Instance>
-<InstName>grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600</InstName>
-<ModuleName>master_fix_Pipeline_VITIS_LOOP_302_3</ModuleName>
+<InstName>grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600</InstName>
+<ModuleName>master_fix_Pipeline_VITIS_LOOP_303_3</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>600</ID>
 </Instance>
@@ -92,7 +92,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.952</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -100,9 +100,9 @@
 <Best-caseLatency>9</Best-caseLatency>
 <Average-caseLatency>9</Average-caseLatency>
 <Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>9</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -111,7 +111,7 @@
 <Name>VITIS_LOOP_17_1</Name>
 <TripCount>6</TripCount>
 <Latency>7</Latency>
-<AbsoluteTimeLatency>72.800 ns</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>72.870 ns</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>3</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -730,7 +730,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.561</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -738,9 +738,9 @@
 <Best-caseLatency>3083</Best-caseLatency>
 <Average-caseLatency>3083</Average-caseLatency>
 <Worst-caseLatency>3083</Worst-caseLatency>
-<Best-caseRealTimeLatency>32.063 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>32.063 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>32.063 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>32.094 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>32.094 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>32.094 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>3083</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -749,7 +749,7 @@
 <Name>Conv_loop</Name>
 <TripCount>3072</TripCount>
 <Latency>3081</Latency>
-<AbsoluteTimeLatency>32.042 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>32.073 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>11</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -1178,7 +1178,7 @@
 <Name>convolution1_fix</Name>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.561</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -1186,9 +1186,9 @@
 <Best-caseLatency>3097</Best-caseLatency>
 <Average-caseLatency>3097</Average-caseLatency>
 <Worst-caseLatency>3097</Worst-caseLatency>
-<Best-caseRealTimeLatency>32.209 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>32.209 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>32.209 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>32.240 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>32.240 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>32.240 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>3097</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -1359,13 +1359,13 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Name>
+<Name>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Name>
 <Loops>
-<VITIS_LOOP_213_1_VITIS_LOOP_214_2></VITIS_LOOP_213_1_VITIS_LOOP_214_2>
+<VITIS_LOOP_214_1_VITIS_LOOP_215_2></VITIS_LOOP_214_1_VITIS_LOOP_215_2>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.040</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -1373,22 +1373,22 @@
 <Best-caseLatency>1022</Best-caseLatency>
 <Average-caseLatency>1022</Average-caseLatency>
 <Worst-caseLatency>1022</Worst-caseLatency>
-<Best-caseRealTimeLatency>10.629 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>10.629 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>10.629 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>10.639 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>10.639 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>10.639 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1022</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_213_1_VITIS_LOOP_214_2>
-<Name>VITIS_LOOP_213_1_VITIS_LOOP_214_2</Name>
+<VITIS_LOOP_214_1_VITIS_LOOP_215_2>
+<Name>VITIS_LOOP_214_1_VITIS_LOOP_215_2</Name>
 <TripCount>1008</TripCount>
 <Latency>1020</Latency>
-<AbsoluteTimeLatency>10.608 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>10.618 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>14</PipelineDepth>
 <PipelineType>yes</PipelineType>
-</VITIS_LOOP_213_1_VITIS_LOOP_214_2>
+</VITIS_LOOP_214_1_VITIS_LOOP_215_2>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -1413,7 +1413,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1424,7 +1424,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1435,7 +1435,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1446,7 +1446,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1457,7 +1457,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1468,7 +1468,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1629,7 +1629,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.136</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -1648,7 +1648,7 @@
 <Name>VITIS_LOOP_125_1</Name>
 <TripCount>16</TripCount>
 <Latency>16</Latency>
-<AbsoluteTimeLatency>0.166 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>0.167 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>2</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -2839,7 +2839,7 @@
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.473</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -2847,9 +2847,9 @@
 <Best-caseLatency>709</Best-caseLatency>
 <Average-caseLatency>709</Average-caseLatency>
 <Worst-caseLatency>709</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.374 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.374 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.374 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.381 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.381 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.381 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>709</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -2858,7 +2858,7 @@
 <Name>Conv_loop</Name>
 <TripCount>672</TripCount>
 <Latency>707</Latency>
-<AbsoluteTimeLatency>7.353 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>7.360 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>37</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -4057,7 +4057,7 @@
 <Name>convolution2_fix</Name>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.473</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -4065,9 +4065,9 @@
 <Best-caseLatency>730</Best-caseLatency>
 <Average-caseLatency>730</Average-caseLatency>
 <Worst-caseLatency>730</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.592 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.592 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.592 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.599 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.599 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.599 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>730</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
@@ -4733,13 +4733,13 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Name>
+<Name>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Name>
 <Loops>
-<VITIS_LOOP_234_1_VITIS_LOOP_235_2></VITIS_LOOP_234_1_VITIS_LOOP_235_2>
+<VITIS_LOOP_235_1_VITIS_LOOP_236_2></VITIS_LOOP_235_1_VITIS_LOOP_236_2>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.771</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -4747,22 +4747,22 @@
 <Best-caseLatency>684</Best-caseLatency>
 <Average-caseLatency>684</Average-caseLatency>
 <Worst-caseLatency>684</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.114 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.114 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.114 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.120 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.120 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.120 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>684</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_234_1_VITIS_LOOP_235_2>
-<Name>VITIS_LOOP_234_1_VITIS_LOOP_235_2</Name>
+<VITIS_LOOP_235_1_VITIS_LOOP_236_2>
+<Name>VITIS_LOOP_235_1_VITIS_LOOP_236_2</Name>
 <TripCount>672</TripCount>
 <Latency>682</Latency>
-<AbsoluteTimeLatency>7.093 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>7.100 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>12</PipelineDepth>
 <PipelineType>yes</PipelineType>
-</VITIS_LOOP_234_1_VITIS_LOOP_235_2>
+</VITIS_LOOP_235_1_VITIS_LOOP_236_2>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -4787,7 +4787,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4798,7 +4798,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4809,7 +4809,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4820,7 +4820,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4831,7 +4831,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4842,7 +4842,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4931,13 +4931,13 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Name>
+<Name>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Name>
 <Loops>
-<VITIS_LOOP_256_2_VITIS_LOOP_257_3></VITIS_LOOP_256_2_VITIS_LOOP_257_3>
+<VITIS_LOOP_257_2_VITIS_LOOP_258_3></VITIS_LOOP_257_2_VITIS_LOOP_258_3>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.591</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -4945,22 +4945,22 @@
 <Best-caseLatency>230</Best-caseLatency>
 <Average-caseLatency>230</Average-caseLatency>
 <Worst-caseLatency>230</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.392 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.392 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.392 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>2.394 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>2.394 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>2.394 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>230</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_256_2_VITIS_LOOP_257_3>
-<Name>VITIS_LOOP_256_2_VITIS_LOOP_257_3</Name>
+<VITIS_LOOP_257_2_VITIS_LOOP_258_3>
+<Name>VITIS_LOOP_257_2_VITIS_LOOP_258_3</Name>
 <TripCount>224</TripCount>
 <Latency>228</Latency>
-<AbsoluteTimeLatency>2.371 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>2.373 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>6</PipelineDepth>
 <PipelineType>yes</PipelineType>
-</VITIS_LOOP_256_2_VITIS_LOOP_257_3>
+</VITIS_LOOP_257_2_VITIS_LOOP_258_3>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -4985,7 +4985,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -4996,7 +4996,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5007,7 +5007,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5018,7 +5018,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5029,7 +5029,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5040,7 +5040,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5051,7 +5051,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1096_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5062,7 +5062,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1096_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5073,7 +5073,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1096_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5084,7 +5084,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1096_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5094,8 +5094,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>sext_ln250</name>
-<Object>sext_ln250</Object>
+<name>sext_ln251</name>
+<Object>sext_ln251</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -5105,8 +5105,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>sub_ln259</name>
-<Object>sub_ln259</Object>
+<name>sub_ln260</name>
+<Object>sub_ln260</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -5173,13 +5173,13 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>master_fix_Pipeline_VITIS_LOOP_276_1</Name>
+<Name>master_fix_Pipeline_VITIS_LOOP_277_1</Name>
 <Loops>
-<VITIS_LOOP_276_1></VITIS_LOOP_276_1>
+<VITIS_LOOP_277_1></VITIS_LOOP_277_1>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>6.912</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -5194,15 +5194,15 @@
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_276_1>
-<Name>VITIS_LOOP_276_1</Name>
+<VITIS_LOOP_277_1>
+<Name>VITIS_LOOP_277_1</Name>
 <TripCount>4</TripCount>
 <Latency>21</Latency>
-<AbsoluteTimeLatency>0.218 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>0.219 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>19</PipelineDepth>
 <PipelineType>yes</PipelineType>
-</VITIS_LOOP_276_1>
+</VITIS_LOOP_277_1>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -5227,7 +5227,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5238,7 +5238,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5249,7 +5249,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5260,7 +5260,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5271,7 +5271,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5282,7 +5282,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5293,7 +5293,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1100_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5304,7 +5304,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1100_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5315,7 +5315,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1100_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5326,7 +5326,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1100_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5337,7 +5337,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1104_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5348,7 +5348,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1104_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5359,7 +5359,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1104_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5370,7 +5370,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1104_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5381,7 +5381,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1108_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5392,7 +5392,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1108_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5403,7 +5403,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1108_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5414,7 +5414,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1108_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5425,7 +5425,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1112_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5436,7 +5436,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1112_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5447,7 +5447,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1112_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5458,7 +5458,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1112_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5469,7 +5469,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1116_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5480,7 +5480,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1116_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5491,7 +5491,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1116_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5502,7 +5502,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1116_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5513,7 +5513,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1120_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5524,7 +5524,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1120_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5535,7 +5535,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1120_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5546,7 +5546,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1120_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5557,7 +5557,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1124_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5568,7 +5568,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1124_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5579,7 +5579,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1124_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5590,7 +5590,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1124_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5601,7 +5601,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1128_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5612,7 +5612,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1128_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5623,7 +5623,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1128_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5634,7 +5634,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1128_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5645,7 +5645,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1132_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5656,7 +5656,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1132_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5667,7 +5667,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1132_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5678,7 +5678,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1132_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5689,7 +5689,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1136_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5700,7 +5700,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1136_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5711,7 +5711,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1136_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5722,7 +5722,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1136_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5733,7 +5733,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1140_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5744,7 +5744,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1140_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5755,7 +5755,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1140_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5766,7 +5766,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1140_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5777,7 +5777,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1144_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5788,7 +5788,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1144_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5799,7 +5799,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1144_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5810,7 +5810,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1144_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5821,7 +5821,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1148_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5832,7 +5832,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1148_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5843,7 +5843,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1148_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5854,7 +5854,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1148_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5865,7 +5865,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1152_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5876,7 +5876,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1152_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5887,7 +5887,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1152_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5898,7 +5898,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1152_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5909,7 +5909,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1156_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5920,7 +5920,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1156_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5931,7 +5931,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1156_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5942,7 +5942,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1156_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5953,7 +5953,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1160_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5964,7 +5964,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1160_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5975,7 +5975,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1160_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5986,7 +5986,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_1160_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_276_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_277_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -5996,8 +5996,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279</name>
-<Object>zext_ln279</Object>
+<name>zext_ln280</name>
+<Object>zext_ln280</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6007,8 +6007,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_1</name>
-<Object>zext_ln279_1</Object>
+<name>zext_ln280_1</name>
+<Object>zext_ln280_1</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6018,8 +6018,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_2</name>
-<Object>zext_ln279_2</Object>
+<name>zext_ln280_2</name>
+<Object>zext_ln280_2</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6029,8 +6029,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_3</name>
-<Object>zext_ln279_3</Object>
+<name>zext_ln280_3</name>
+<Object>zext_ln280_3</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6040,8 +6040,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_4</name>
-<Object>zext_ln279_4</Object>
+<name>zext_ln280_4</name>
+<Object>zext_ln280_4</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6051,8 +6051,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_5</name>
-<Object>zext_ln279_5</Object>
+<name>zext_ln280_5</name>
+<Object>zext_ln280_5</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6062,8 +6062,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_6</name>
-<Object>zext_ln279_6</Object>
+<name>zext_ln280_6</name>
+<Object>zext_ln280_6</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6073,8 +6073,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_7</name>
-<Object>zext_ln279_7</Object>
+<name>zext_ln280_7</name>
+<Object>zext_ln280_7</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6084,8 +6084,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_8</name>
-<Object>zext_ln279_8</Object>
+<name>zext_ln280_8</name>
+<Object>zext_ln280_8</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6095,8 +6095,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_9</name>
-<Object>zext_ln279_9</Object>
+<name>zext_ln280_9</name>
+<Object>zext_ln280_9</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6106,8 +6106,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_10</name>
-<Object>zext_ln279_10</Object>
+<name>zext_ln280_10</name>
+<Object>zext_ln280_10</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6117,8 +6117,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_11</name>
-<Object>zext_ln279_11</Object>
+<name>zext_ln280_11</name>
+<Object>zext_ln280_11</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6128,8 +6128,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_12</name>
-<Object>zext_ln279_12</Object>
+<name>zext_ln280_12</name>
+<Object>zext_ln280_12</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6139,8 +6139,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_13</name>
-<Object>zext_ln279_13</Object>
+<name>zext_ln280_13</name>
+<Object>zext_ln280_13</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6150,8 +6150,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln279_14</name>
-<Object>zext_ln279_14</Object>
+<name>zext_ln280_14</name>
+<Object>zext_ln280_14</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6262,13 +6262,13 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>master_fix_Pipeline_VITIS_LOOP_291_1</Name>
+<Name>master_fix_Pipeline_VITIS_LOOP_292_1</Name>
 <Loops>
-<VITIS_LOOP_291_1></VITIS_LOOP_291_1>
+<VITIS_LOOP_292_1></VITIS_LOOP_292_1>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.574</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -6276,22 +6276,22 @@
 <Best-caseLatency>9</Best-caseLatency>
 <Average-caseLatency>9</Average-caseLatency>
 <Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>93.600 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>93.600 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>93.600 ns</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>93.690 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>93.690 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>93.690 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>9</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_291_1>
-<Name>VITIS_LOOP_291_1</Name>
+<VITIS_LOOP_292_1>
+<Name>VITIS_LOOP_292_1</Name>
 <TripCount>4</TripCount>
 <Latency>7</Latency>
-<AbsoluteTimeLatency>72.800 ns</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>72.870 ns</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>5</PipelineDepth>
 <PipelineType>yes</PipelineType>
-</VITIS_LOOP_291_1>
+</VITIS_LOOP_292_1>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -6316,7 +6316,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_291_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_292_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6327,7 +6327,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_291_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_292_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6338,7 +6338,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_291_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_292_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6349,7 +6349,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_291_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_292_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6360,7 +6360,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_291_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_292_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6371,7 +6371,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_291_1</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_292_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6515,13 +6515,13 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>master_fix_Pipeline_VITIS_LOOP_302_3</Name>
+<Name>master_fix_Pipeline_VITIS_LOOP_303_3</Name>
 <Loops>
-<VITIS_LOOP_302_3></VITIS_LOOP_302_3>
+<VITIS_LOOP_303_3></VITIS_LOOP_303_3>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.524</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -6536,15 +6536,15 @@
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_302_3>
-<Name>VITIS_LOOP_302_3</Name>
+<VITIS_LOOP_303_3>
+<Name>VITIS_LOOP_303_3</Name>
 <TripCount>4</TripCount>
 <Latency>82</Latency>
-<AbsoluteTimeLatency>0.853 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>0.854 us</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>80</PipelineDepth>
 <PipelineType>yes</PipelineType>
-</VITIS_LOOP_302_3>
+</VITIS_LOOP_303_3>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -6569,7 +6569,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6580,7 +6580,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6591,7 +6591,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6602,7 +6602,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6613,7 +6613,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6624,7 +6624,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6635,7 +6635,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_615_p_din0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6646,7 +6646,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_615_p_din1</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6657,7 +6657,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_615_p_dout0</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6668,7 +6668,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_615_p_ce</name>
-<Object>master_fix_Pipeline_VITIS_LOOP_302_3</Object>
+<Object>master_fix_Pipeline_VITIS_LOOP_303_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -6781,12 +6781,12 @@
 <Module>
 <Name>master_fix</Name>
 <Loops>
-<VITIS_LOOP_254_1></VITIS_LOOP_254_1>
-<VITIS_LOOP_297_2></VITIS_LOOP_297_2>
+<VITIS_LOOP_255_1></VITIS_LOOP_255_1>
+<VITIS_LOOP_298_2></VITIS_LOOP_298_2>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
-<TargetClockPeriod>10.40</TargetClockPeriod>
+<TargetClockPeriod>10.41</TargetClockPeriod>
 <ClockUncertainty>2.81</ClockUncertainty>
 <EstimatedClockPeriod>7.591</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
@@ -6794,31 +6794,31 @@
 <Best-caseLatency>9523</Best-caseLatency>
 <Average-caseLatency>9523</Average-caseLatency>
 <Worst-caseLatency>9523</Worst-caseLatency>
-<Best-caseRealTimeLatency>99.039 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>99.039 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>99.039 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>99.134 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>99.134 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>99.134 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>9524</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_254_1>
-<Name>VITIS_LOOP_254_1</Name>
+<VITIS_LOOP_255_1>
+<Name>VITIS_LOOP_255_1</Name>
 <TripCount>16</TripCount>
 <Latency>3744</Latency>
-<AbsoluteTimeLatency>38.938 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>38.975 us</AbsoluteTimeLatency>
 <IterationLatency>234</IterationLatency>
 <PipelineDepth>234</PipelineDepth>
 <PipelineType>no</PipelineType>
-</VITIS_LOOP_254_1>
-<VITIS_LOOP_297_2>
-<Name>VITIS_LOOP_297_2</Name>
+</VITIS_LOOP_255_1>
+<VITIS_LOOP_298_2>
+<Name>VITIS_LOOP_298_2</Name>
 <TripCount>4</TripCount>
 <Latency>108</Latency>
-<AbsoluteTimeLatency>1.123 us</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>1.124 us</AbsoluteTimeLatency>
 <IterationLatency>27</IterationLatency>
 <PipelineDepth>27</PipelineDepth>
 <PipelineType>no</PipelineType>
-</VITIS_LOOP_297_2>
+</VITIS_LOOP_298_2>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>

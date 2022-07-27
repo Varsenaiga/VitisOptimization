@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1658850877749">
-  <ports id="1" name="input_r" type="PortType" coreName="RAM" coreId="1953394531" bitwidth="16" iftype="IfTypeRegister" arraysize="384">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1658933131579">
+  <ports id="1" name="input_r" type="PortType" coreName="RAM" coreId="1528853351" bitwidth="16" iftype="IfTypeRegister" arraysize="384">
     <dataOutputObjs>call</dataOutputObjs>
   </ports>
   <ports id="2" name="out_r" type="PortType" coreName="RAM" coreId="1953394531" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="4">
@@ -230,38 +230,38 @@
   <edges id="573" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.18" sink_obj="//@blocks.2/@node_objs.8"/>
   <blocks id="77" name="arrayctor.loop67" type="BlockType">
     <controlOutputObjs>_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="d" originalName="d" coreId="1629498461" bitwidth="5" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="d" originalName="d" coreId="741749564" bitwidth="5" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="m_3_10_loc" coreId="859595877" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="m_3_10_loc" coreId="741488444" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="m_3_7_loc" rtlName="mul_21s_35ns_55_2_1_U405" coreId="1629498461" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="m_3_7_loc" rtlName="mul_21s_35ns_55_2_1_U405" coreId="741488444" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="m_2_03_loc" coreId="741487420" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="m_2_03_loc" coreId="741880892" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="m_3_04_loc" coreId="741880892" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="m_3_04_loc" coreId="859595877" bitwidth="64" opcode="alloca" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="den2_V_0_0_05_loc" coreId="741487420" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="den2_V_0_0_05_loc" coreId="1629498461" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="den2_V_0_1_06_loc" coreId="741880892" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="den2_V_0_1_06_loc" coreId="1629498461" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -271,12 +271,12 @@
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="den2_V_0_3_08_loc" coreId="741488444" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="den2_V_0_3_08_loc" coreId="741749564" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="num_V_8_loc" coreId="741487420" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="num_V_8_loc" coreId="741488444" bitwidth="36" opcode="alloca" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -324,35 +324,35 @@
       <dataOutputObjs>getelementptr</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="71" name="_ln15" lineNumber="15" fileName="master.cpp" fileDirectory=".." rtlName="grp_convolution1_fix_fu_433" coreId="741749564" contextFuncName="master_fix" opcode="call" nodeLatency="1" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="71" name="_ln15" lineNumber="15" fileName="master.cpp" fileDirectory=".." rtlName="grp_convolution1_fix_fu_433" coreId="1629498461" contextFuncName="master_fix" opcode="call" nodeLatency="1" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="master.cpp" linenumber="15" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="master_fix"/>
       <dataInputObjs>input_r</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>convolution1_fix</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="72" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467" coreId="741488444" opcode="call" nodeLabel="2.0" nodeLatency="1" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="72" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467" coreId="741749564" opcode="call" nodeLabel="2.0" nodeLatency="1" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
-      <constName>master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2</constName>
+      <constName>master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="73" name="_ln17" lineNumber="17" fileName="master.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U406" coreId="741749564" contextFuncName="master_fix" opcode="call" nodeLabel="4.0" nodeLatency="1" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="73" name="_ln17" lineNumber="17" fileName="master.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U406" coreId="1629498461" contextFuncName="master_fix" opcode="call" nodeLabel="4.0" nodeLatency="1" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="master.cpp" linenumber="17" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="master_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>convolution2_fix</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545" coreId="741880892" opcode="call" nodeLabel="6.0" nodeLatency="1" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545" coreId="741487420" opcode="call" nodeLabel="6.0" nodeLatency="1" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
-      <constName>master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2</constName>
+      <constName>master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="75" name="d_write_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="17" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="75" name="d_write_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="dense1_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="76" name="br_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="dense1_fix" opcode="br" nodeLabel="7.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="76" name="br_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." coreId="1629498461" contextFuncName="dense1_fix" opcode="br" nodeLabel="7.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <controlInputObjs>_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="master.cpp">
@@ -363,7 +363,7 @@
       <validLinenumbers>17</validLinenumbers>
     </fileValidLineNumbers>
     <fileValidLineNumbers fileName="model_functions.cpp">
-      <validLinenumbers>254</validLinenumbers>
+      <validLinenumbers>255</validLinenumbers>
     </fileValidLineNumbers>
   </blocks>
   <blocks id="83" name="_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit" type="BlockType">
@@ -373,8 +373,8 @@
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>_Z10dense1_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA14_S3_PS2_S8_.exit.preheader</controlOutputObjs>
     <controlOutputObjs>.split17</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="78" name="d_2" lineNumber="254" originalName="d" fileName="model_functions.cpp" fileDirectory=".." coreId="4188332496" contextFuncName="dense1_fix" bitwidth="5" opcode="load" nodeLabel="8.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="78" name="d_2" lineNumber="255" originalName="d" fileName="model_functions.cpp" fileDirectory=".." coreId="741488444" contextFuncName="dense1_fix" bitwidth="5" opcode="load" nodeLabel="8.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -382,135 +382,135 @@
       <dataOutputObjs>bitconcatenate</dataOutputObjs>
       <dataOutputObjs>bitconcatenate</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="79" name="icmp_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln254_fu_639_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="dense1_fix" bitwidth="1" opcode="icmp" nodeLabel="8.0" m_display="0" m_delay="1.36" m_topoIndex="23" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="79" name="icmp_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln255_fu_639_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="dense1_fix" bitwidth="1" opcode="icmp" nodeLabel="8.0" m_display="0" m_delay="1.36" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>br</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="81" name="add_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln254_fu_645_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="dense1_fix" bitwidth="5" opcode="add" nodeLabel="8.0" m_display="0" m_delay="1.78" m_topoIndex="24" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="81" name="add_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln255_fu_645_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="dense1_fix" bitwidth="5" opcode="add" nodeLabel="8.0" m_display="0" m_delay="1.78" m_topoIndex="24" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="br_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense1_fix" opcode="br" nodeLabel="8.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="br_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." coreId="741488444" contextFuncName="dense1_fix" opcode="br" nodeLabel="8.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>icmp</dataInputObjs>
       <controlInputObjs>.split17</controlInputObjs>
       <controlInputObjs>_Z10dense1_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPA14_S3_PS2_S8_.exit.preheader</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="model_functions.cpp">
-      <validLinenumbers>254</validLinenumbers>
+      <validLinenumbers>255</validLinenumbers>
     </fileValidLineNumbers>
   </blocks>
   <blocks id="102" name=".split17" type="BlockType">
     <controlInputObjs>_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="84" name="zext_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln254_fu_651_p1" coreId="741749564" contextFuncName="dense1_fix" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="84" name="zext_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln255_fu_651_p1" coreId="1629498461" contextFuncName="dense1_fix" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="tmp_s" lineNumber="259" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_s_fu_671_p3" coreId="741880892" contextFuncName="dense1_fix" bitwidth="9" opcode="bitconcatenate" nodeLabel="9.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="259" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="tmp_s" lineNumber="260" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_s_fu_671_p3" coreId="741880892" contextFuncName="dense1_fix" bitwidth="9" opcode="bitconcatenate" nodeLabel="9.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="260" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="86" name="zext_ln259" lineNumber="259" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln259_fu_678_p1" coreId="741749564" contextFuncName="dense1_fix" bitwidth="10" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="259" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="86" name="zext_ln260" lineNumber="260" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln260_fu_678_p1" coreId="741487420" contextFuncName="dense1_fix" bitwidth="10" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="260" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>bitconcatenate</dataInputObjs>
       <dataOutputObjs>sub</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="tmp_16" lineNumber="259" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U407" coreId="1629498461" contextFuncName="dense1_fix" bitwidth="6" opcode="bitconcatenate" nodeLabel="9.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="259" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="tmp_16" lineNumber="260" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U407" coreId="741488444" contextFuncName="dense1_fix" bitwidth="6" opcode="bitconcatenate" nodeLabel="9.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="260" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="88" name="zext_ln259_4" lineNumber="259" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln259_4_fu_689_p1" coreId="190" contextFuncName="dense1_fix" bitwidth="10" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="259" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="88" name="zext_ln260_4" lineNumber="260" fileName="model_functions.cpp" fileDirectory=".." rtlName="zext_ln260_4_fu_689_p1" coreId="2364404048" contextFuncName="dense1_fix" bitwidth="10" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="260" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>bitconcatenate</dataInputObjs>
       <dataOutputObjs>sub</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="sub_ln259" lineNumber="259" fileName="model_functions.cpp" fileDirectory=".." rtlName="sub_ln259_fu_693_p2" coreName="Adder" implIndex="fabric" control="no" opType="sub" coreId="1" contextFuncName="dense1_fix" bitwidth="10" opcode="sub" nodeLabel="9.0" m_display="0" m_delay="1.82" m_topoIndex="42" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="259" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="sub_ln260" lineNumber="260" fileName="model_functions.cpp" fileDirectory=".." rtlName="sub_ln260_fu_693_p2" coreName="Adder" implIndex="fabric" control="no" opType="sub" coreId="1" contextFuncName="dense1_fix" bitwidth="10" opcode="sub" nodeLabel="9.0" m_display="0" m_delay="1.82" m_topoIndex="42" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="260" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="91" name="thirdBias_f_V_addr" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." coreId="1629498461" contextFuncName="dense1_fix" bitwidth="4" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="91" name="thirdBias_f_V_addr" lineNumber="256" fileName="model_functions.cpp" fileDirectory=".." coreId="859595877" contextFuncName="dense1_fix" bitwidth="4" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="256" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="92" name="num_V" lineNumber="255" originalName="num.V" fileName="model_functions.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="no" opType="rom" coreId="95" contextFuncName="dense1_fix" bitwidth="21" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.32" m_topoIndex="28" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="92" name="num_V" lineNumber="256" originalName="num.V" fileName="model_functions.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="no" opType="rom" coreId="95" contextFuncName="dense1_fix" bitwidth="21" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.32" m_topoIndex="28" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="256" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="93" name="_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." rtlName="grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551" coreId="741488444" contextFuncName="dense1_fix" opcode="call" nodeLabel="9.0" nodeLatency="1" m_display="0" m_delay="1.58" m_topoIndex="43" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="93" name="_ln256" lineNumber="256" fileName="model_functions.cpp" fileDirectory=".." rtlName="grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551" coreId="741749564" contextFuncName="dense1_fix" opcode="call" nodeLabel="9.0" nodeLatency="1" m_display="0" m_delay="1.58" m_topoIndex="43" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="256" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>sub</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
-      <constName>master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3</constName>
+      <constName>master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3</constName>
     </node_objs>
     <node_objs xsi:type="cdfg:CdfgNode" id="94" name="num_V_8_loc_load" coreId="859595877" bitwidth="36" opcode="load" nodeLabel="11.0" m_display="0" m_topoIndex="44" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>trunc</dataOutputObjs>
       <dataOutputObjs>bitselect</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="95" name="trunc_ln256" lineNumber="256" fileName="model_functions.cpp" fileDirectory=".." rtlName="trunc_ln256_fu_703_p1" coreId="1629498461" contextFuncName="dense1_fix" bitwidth="35" opcode="trunc" nodeLabel="11.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="256" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="95" name="trunc_ln257" lineNumber="257" fileName="model_functions.cpp" fileDirectory=".." rtlName="trunc_ln257_fu_703_p1" coreId="859595877" contextFuncName="dense1_fix" bitwidth="35" opcode="trunc" nodeLabel="11.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="257" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="96" name="tmp" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="tmp_fu_707_p3" coreId="741487420" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="bitselect" nodeLabel="11.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="96" name="tmp" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="tmp_fu_707_p3" coreId="1629498461" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="bitselect" nodeLabel="11.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="97" name="num_V_3" lineNumber="263" originalName="num.V" fileName="model_functions.cpp" fileDirectory=".." rtlName="den1_V_0_d0" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="dense1_fix" bitwidth="35" opcode="select" nodeLabel="11.0" m_display="0" m_delay="1.02" m_topoIndex="47" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="263" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="97" name="num_V_3" lineNumber="264" originalName="num.V" fileName="model_functions.cpp" fileDirectory=".." rtlName="den1_V_0_d0" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="dense1_fix" bitwidth="35" opcode="select" nodeLabel="11.0" m_display="0" m_delay="1.02" m_topoIndex="47" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="264" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>bitselect</dataInputObjs>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="98" name="den1_V_0_addr_16" lineNumber="264" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="dense1_fix" bitwidth="4" opcode="getelementptr" nodeLabel="11.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="264" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="98" name="den1_V_0_addr_16" lineNumber="265" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense1_fix" bitwidth="4" opcode="getelementptr" nodeLabel="11.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="265" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="99" name="den1_V_0_addr_16_write_ln264" lineNumber="264" fileName="model_functions.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="dense1_fix" opcode="store" nodeLabel="11.0" m_display="0" m_delay="2.32" m_topoIndex="49" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="264" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="99" name="den1_V_0_addr_16_write_ln265" lineNumber="265" fileName="model_functions.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="dense1_fix" opcode="store" nodeLabel="11.0" m_display="0" m_delay="2.32" m_topoIndex="49" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="265" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>select</dataInputObjs>
       <dataInputObjs>getelementptr</dataInputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="100" name="d_write_ln254" lineNumber="254" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense1_fix" opcode="store" nodeLabel="8.0" m_display="0" m_delay="1.58" m_topoIndex="29" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="254" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="100" name="d_write_ln255" lineNumber="255" fileName="model_functions.cpp" fileDirectory=".." coreId="2215379968" contextFuncName="dense1_fix" opcode="store" nodeLabel="8.0" m_display="0" m_delay="1.58" m_topoIndex="29" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="255" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense1_fix"/>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="101" name="br_ln0" rtlName="mul_36s_35ns_55_2_1_U408" coreId="6775040" opcode="br" nodeLabel="11.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="101" name="br_ln0" rtlName="mul_36s_35ns_55_2_1_U408" coreId="2364406968" opcode="br" nodeLabel="11.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
       <controlInputObjs>_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="model_functions.cpp">
-      <validLinenumbers>254</validLinenumbers>
-      <validLinenumbers>259</validLinenumbers>
       <validLinenumbers>255</validLinenumbers>
+      <validLinenumbers>260</validLinenumbers>
       <validLinenumbers>256</validLinenumbers>
-      <validLinenumbers>263</validLinenumbers>
+      <validLinenumbers>257</validLinenumbers>
       <validLinenumbers>264</validLinenumbers>
+      <validLinenumbers>265</validLinenumbers>
     </fileValidLineNumbers>
     <fileValidLineNumbers fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h">
       <validLinenumbers>1548</validLinenumbers>
@@ -520,21 +520,21 @@
     <controlInputObjs>_Z12maxPool2_fixPA1_A16_8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EES5_.exit</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>.preheader7</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="103" name="sum" originalName="sum" coreId="4188337232" bitwidth="64" opcode="alloca" nodeLabel="8.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="103" name="sum" originalName="sum" coreId="2364410552" bitwidth="64" opcode="alloca" nodeLabel="8.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="104" name="i" originalName="i" coreId="0" bitwidth="3" opcode="alloca" nodeLabel="8.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="104" name="i" originalName="i" coreId="2364417872" bitwidth="3" opcode="alloca" nodeLabel="8.0" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
       <dataOutputObjs>store</dataOutputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="105" name="den1_V_0_addr" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="4134769408" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="105" name="den1_V_0_addr" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -544,8 +544,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="107" name="den1_V_0_addr_1" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="2149015024" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="107" name="den1_V_0_addr_1" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -555,8 +555,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="109" name="den1_V_0_addr_2" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="1953394432" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="12.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="109" name="den1_V_0_addr_2" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="2362603632" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="12.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -566,8 +566,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="111" name="den1_V_0_addr_3" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="12.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="111" name="den1_V_0_addr_3" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="2362593264" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="12.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -577,8 +577,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="113" name="den1_V_0_addr_4" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="4188345936" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="55" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="113" name="den1_V_0_addr_4" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="542329856" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="55" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -588,8 +588,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="115" name="den1_V_0_addr_5" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U409" coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="115" name="den1_V_0_addr_5" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U409" coreId="2362592016" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="13.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -599,8 +599,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="117" name="den1_V_0_addr_6" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="14.0" m_display="0" m_topoIndex="59" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="117" name="den1_V_0_addr_6" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="14.0" m_display="0" m_topoIndex="59" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -610,8 +610,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="119" name="den1_V_0_addr_7" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="2155210848" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="14.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="119" name="den1_V_0_addr_7" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="1330007552" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="14.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -621,8 +621,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="121" name="den1_V_0_addr_8" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="540680308" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="15.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="121" name="den1_V_0_addr_8" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="15.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -632,8 +632,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="123" name="den1_V_0_addr_9" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="15.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="123" name="den1_V_0_addr_9" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="2364402616" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="15.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -643,8 +643,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="125" name="den1_V_0_addr_10" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="1599294464" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="16.0" m_display="0" m_topoIndex="67" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="125" name="den1_V_0_addr_10" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="2375253248" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="16.0" m_display="0" m_topoIndex="67" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -654,8 +654,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="127" name="den1_V_0_addr_11" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="16.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="127" name="den1_V_0_addr_11" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="2359907680" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="16.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -665,8 +665,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="129" name="den1_V_0_addr_12" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U410" coreId="741880892" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="17.0" m_display="0" m_topoIndex="71" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="129" name="den1_V_0_addr_12" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U410" coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="17.0" m_display="0" m_topoIndex="71" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -676,8 +676,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="131" name="den1_V_0_addr_13" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="17.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="131" name="den1_V_0_addr_13" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="1819113472" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="17.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -687,8 +687,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="133" name="den1_V_0_addr_14" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="3621216858" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="18.0" m_display="0" m_topoIndex="75" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="133" name="den1_V_0_addr_14" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="18.0" m_display="0" m_topoIndex="75" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -698,8 +698,8 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="135" name="den1_V_0_addr_15" lineNumber="279" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="18.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="279" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="135" name="den1_V_0_addr_15" lineNumber="280" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="dense2_fix" bitwidth="4" opcode="getelementptr" nodeLabel="18.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="280" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="dense2_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
@@ -709,7 +709,7 @@
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="137" name="_ln1169" lineNumber="1169" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562" coreId="694512738" contextFuncName="operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0" opcode="call" nodeLabel="19.0" nodeLatency="1" m_display="0" m_topoIndex="79" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="137" name="_ln1169" lineNumber="1169" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562" coreId="0" contextFuncName="operator_mul_36_17_true_AP_RND_CONV_AP_WRAP_0" opcode="call" nodeLabel="19.0" nodeLatency="1" m_display="0" m_topoIndex="79" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1169" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator*&amp;lt;36, 17, true, AP_RND_CONV, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
@@ -731,9 +731,9 @@
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
-      <constName>master_fix_Pipeline_VITIS_LOOP_276_1</constName>
+      <constName>master_fix_Pipeline_VITIS_LOOP_277_1</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="138" name="den2_V_0_3_08_loc_load" coreId="694512738" bitwidth="36" opcode="load" nodeLabel="21.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="138" name="den2_V_0_3_08_loc_load" coreId="1936942336" bitwidth="36" opcode="load" nodeLabel="21.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
@@ -741,15 +741,15 @@
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="140" name="den2_V_0_1_06_loc_load" coreId="694512738" bitwidth="36" opcode="load" nodeLabel="21.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="140" name="den2_V_0_1_06_loc_load" coreId="2215271168" bitwidth="36" opcode="load" nodeLabel="21.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="141" name="den2_V_0_0_05_loc_load" coreId="694512738" bitwidth="36" opcode="load" nodeLabel="21.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="141" name="den2_V_0_0_05_loc_load" coreId="0" bitwidth="36" opcode="load" nodeLabel="21.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="142" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588" coreId="694512738" opcode="call" nodeLabel="21.0" nodeLatency="1" m_display="0" m_delay="5.67" m_topoIndex="84" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="142" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588" coreId="2374632784" opcode="call" nodeLabel="21.0" nodeLatency="1" m_display="0" m_delay="5.67" m_topoIndex="84" m_clusterGroupNumber="-1">
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
@@ -758,45 +758,45 @@
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
-      <constName>master_fix_Pipeline_VITIS_LOOP_291_1</constName>
+      <constName>master_fix_Pipeline_VITIS_LOOP_292_1</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="143" name="m_3_04_loc_load" rtlName="mul_36s_35ns_55_2_1_U411" coreId="1768713801" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="85" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="143" name="m_3_04_loc_load" rtlName="mul_36s_35ns_55_2_1_U411" coreId="1145981184" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="85" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="144" name="m_2_03_loc_load" coreId="694512738" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="144" name="m_2_03_loc_load" coreId="2374634168" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="145" name="m_3_7_loc_load" coreId="694512738" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="87" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="145" name="m_3_7_loc_load" coreId="2374629328" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="87" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="146" name="m_3_10_loc_load" coreId="1768713801" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="88" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="146" name="m_3_10_loc_load" coreId="1819113472" bitwidth="64" opcode="load" nodeLabel="23.0" m_display="0" m_topoIndex="88" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="147" name="i_write_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." coreId="694512738" contextFuncName="softmax_fix" opcode="store" nodeLabel="8.0" m_display="0" m_delay="1.58" m_topoIndex="36" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="147" name="i_write_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="softmax_fix" opcode="store" nodeLabel="8.0" m_display="0" m_delay="1.58" m_topoIndex="36" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="148" name="sum_write_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="softmax_fix" opcode="store" nodeLabel="8.0" m_display="0" m_delay="1.58" m_topoIndex="37" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="148" name="sum_write_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." coreId="2374665016" contextFuncName="softmax_fix" opcode="store" nodeLabel="8.0" m_display="0" m_delay="1.58" m_topoIndex="37" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="149" name="br_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="softmax_fix" opcode="br" nodeLabel="23.0" m_display="0" m_topoIndex="89" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="149" name="br_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." coreId="0" contextFuncName="softmax_fix" opcode="br" nodeLabel="23.0" m_display="0" m_topoIndex="89" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <controlInputObjs>.preheader7</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="model_functions.cpp">
-      <validLinenumbers>279</validLinenumbers>
-      <validLinenumbers>297</validLinenumbers>
+      <validLinenumbers>280</validLinenumbers>
+      <validLinenumbers>298</validLinenumbers>
     </fileValidLineNumbers>
     <fileValidLineNumbers fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h">
       <validLinenumbers>1169</validLinenumbers>
@@ -809,52 +809,52 @@
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>.preheader.preheader</controlOutputObjs>
     <controlOutputObjs>.split7</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="151" name="i_3" lineNumber="299" originalName="i" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="softmax_fix" bitwidth="3" opcode="load" nodeLabel="24.0" m_display="0" m_topoIndex="90" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="151" name="i_3" lineNumber="300" originalName="i" fileName="model_functions.cpp" fileDirectory=".." coreId="1948279909" contextFuncName="softmax_fix" bitwidth="3" opcode="load" nodeLabel="24.0" m_display="0" m_topoIndex="90" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
       <dataOutputObjs>add</dataOutputObjs>
       <dataOutputObjs>trunc</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="152" name="icmp_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln297_fu_755_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="softmax_fix" bitwidth="1" opcode="icmp" nodeLabel="24.0" m_display="0" m_delay="1.13" m_topoIndex="91" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="152" name="icmp_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln298_fu_755_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="softmax_fix" bitwidth="1" opcode="icmp" nodeLabel="24.0" m_display="0" m_delay="1.13" m_topoIndex="91" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>br</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="154" name="add_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln297_fu_761_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="softmax_fix" bitwidth="3" opcode="add" nodeLabel="24.0" m_display="0" m_delay="1.65" m_topoIndex="92" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="154" name="add_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln298_fu_761_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="softmax_fix" bitwidth="3" opcode="add" nodeLabel="24.0" m_display="0" m_delay="1.65" m_topoIndex="92" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="155" name="br_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." coreId="694512738" contextFuncName="softmax_fix" opcode="br" nodeLabel="24.0" m_display="0" m_topoIndex="93" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="155" name="br_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." coreId="2374653776" contextFuncName="softmax_fix" opcode="br" nodeLabel="24.0" m_display="0" m_topoIndex="93" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>icmp</dataInputObjs>
       <controlInputObjs>.split7</controlInputObjs>
       <controlInputObjs>.preheader.preheader</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="model_functions.cpp">
-      <validLinenumbers>299</validLinenumbers>
-      <validLinenumbers>297</validLinenumbers>
+      <validLinenumbers>300</validLinenumbers>
+      <validLinenumbers>298</validLinenumbers>
     </fileValidLineNumbers>
   </blocks>
   <blocks id="166" name=".split7" type="BlockType">
     <controlInputObjs>.preheader7</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
     <controlOutputObjs>.preheader7</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="157" name="sum_load" lineNumber="299" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U412" coreId="1768713801" contextFuncName="softmax_fix" bitwidth="64" opcode="load" nodeLabel="43.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="157" name="sum_load" lineNumber="300" fileName="model_functions.cpp" fileDirectory=".." rtlName="mul_36s_35ns_55_2_1_U412" coreId="1768713801" contextFuncName="softmax_fix" bitwidth="64" opcode="load" nodeLabel="43.0" m_display="0" m_topoIndex="100" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>dadd</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="159" name="trunc_ln299" lineNumber="299" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_17_fu_771_p5" coreId="1768713801" contextFuncName="softmax_fix" bitwidth="2" opcode="trunc" nodeLabel="24.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="159" name="trunc_ln300" lineNumber="300" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_17_fu_771_p5" coreId="0" contextFuncName="softmax_fix" bitwidth="2" opcode="trunc" nodeLabel="24.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="160" name="tmp_17" lineNumber="299" fileName="model_functions.cpp" fileDirectory=".." rtlName="mux_42_64_1_1_U404" coreName="Multiplexer" implIndex="auto" control="no" opType="mux" coreId="76" contextFuncName="softmax_fix" bitwidth="64" opcode="mux" nodeLabel="24.0" m_display="0" m_delay="1.82" m_topoIndex="95" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="160" name="tmp_17" lineNumber="300" fileName="model_functions.cpp" fileDirectory=".." rtlName="mux_42_64_1_1_U404" coreName="Multiplexer" implIndex="auto" control="no" opType="mux" coreId="76" contextFuncName="softmax_fix" bitwidth="64" opcode="mux" nodeLabel="24.0" m_display="0" m_delay="1.82" m_topoIndex="95" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
@@ -862,52 +862,52 @@
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>dexp</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="161" name="tmp_1" lineNumber="299" fileName="model_functions.cpp" fileDirectory=".." rtlName="dexp_64ns_64ns_64_18_full_dsp_1_U403" coreName="DExp_fulldsp" implIndex="fulldsp" control="no" opType="dexp" coreId="42" contextFuncName="softmax_fix" bitwidth="64" opcode="dexp" nodeLabel="25.0" nodeLatency="17" m_display="0" m_delay="7.32" m_topoIndex="99" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="161" name="tmp_1" lineNumber="300" fileName="model_functions.cpp" fileDirectory=".." rtlName="dexp_64ns_64ns_64_18_full_dsp_1_U403" coreName="DExp_fulldsp" implIndex="fulldsp" control="no" opType="dexp" coreId="42" contextFuncName="softmax_fix" bitwidth="64" opcode="dexp" nodeLabel="25.0" nodeLatency="17" m_display="0" m_delay="7.32" m_topoIndex="99" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>mux</dataInputObjs>
       <dataOutputObjs>dadd</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="162" name="sum_1" lineNumber="299" originalName="sum" fileName="model_functions.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_7_full_dsp_1_U402" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="no" opType="dadd" coreId="37" contextFuncName="softmax_fix" bitwidth="64" opcode="dadd" nodeLabel="43.0" nodeLatency="6" m_display="0" m_delay="7.29" m_topoIndex="101" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="162" name="sum_1" lineNumber="300" originalName="sum" fileName="model_functions.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_7_full_dsp_1_U402" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="no" opType="dadd" coreId="37" contextFuncName="softmax_fix" bitwidth="64" opcode="dadd" nodeLabel="43.0" nodeLatency="6" m_display="0" m_delay="7.29" m_topoIndex="101" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>dexp</dataInputObjs>
       <dataOutputObjs>store</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="163" name="i_write_ln297" lineNumber="297" fileName="model_functions.cpp" fileDirectory=".." coreId="694512738" contextFuncName="softmax_fix" opcode="store" nodeLabel="24.0" m_display="0" m_delay="1.58" m_topoIndex="96" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="297" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="163" name="i_write_ln298" lineNumber="298" fileName="model_functions.cpp" fileDirectory=".." coreId="2377791184" contextFuncName="softmax_fix" opcode="store" nodeLabel="24.0" m_display="0" m_delay="1.58" m_topoIndex="96" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="298" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="164" name="sum_write_ln299" lineNumber="299" fileName="model_functions.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="softmax_fix" opcode="store" nodeLabel="50.0" m_display="0" m_delay="1.58" m_topoIndex="102" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="model_functions.cpp" linenumber="299" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="164" name="sum_write_ln300" lineNumber="300" fileName="model_functions.cpp" fileDirectory=".." coreId="2374638648" contextFuncName="softmax_fix" opcode="store" nodeLabel="50.0" m_display="0" m_delay="1.58" m_topoIndex="102" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="model_functions.cpp" linenumber="300" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
       <dataInputObjs>dadd</dataInputObjs>
       <dataInputObjs>alloca</dataInputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="165" name="br_ln0" coreId="694512738" opcode="br" nodeLabel="50.0" m_display="0" m_topoIndex="103" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="165" name="br_ln0" coreId="1397508096" opcode="br" nodeLabel="50.0" m_display="0" m_topoIndex="103" m_clusterGroupNumber="-1">
       <controlInputObjs>.preheader7</controlInputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="model_functions.cpp">
-      <validLinenumbers>299</validLinenumbers>
-      <validLinenumbers>297</validLinenumbers>
+      <validLinenumbers>300</validLinenumbers>
+      <validLinenumbers>298</validLinenumbers>
     </fileValidLineNumbers>
   </blocks>
   <blocks id="170" name=".preheader.preheader" type="BlockType">
     <controlInputObjs>.preheader7</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="167" name="sum_load_1" coreId="1768713801" bitwidth="64" opcode="load" nodeLabel="24.0" m_display="0" m_topoIndex="97" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="167" name="sum_load_1" coreId="2374649296" bitwidth="64" opcode="load" nodeLabel="24.0" m_display="0" m_topoIndex="97" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <dataOutputObjs>call</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="168" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600" coreId="1768713801" opcode="call" nodeLabel="24.0" nodeLatency="1" m_display="0" m_delay="1.82" m_topoIndex="98" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="168" name="_ln0" rtlName="grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600" coreId="2356956160" opcode="call" nodeLabel="24.0" nodeLatency="1" m_display="0" m_delay="1.82" m_topoIndex="98" m_clusterGroupNumber="-1">
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>out_r</dataOutputObjs>
-      <constName>master_fix_Pipeline_VITIS_LOOP_302_3</constName>
+      <constName>master_fix_Pipeline_VITIS_LOOP_303_3</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="169" name="_ln23" lineNumber="23" fileName="master.cpp" fileDirectory=".." coreId="1768713801" contextFuncName="master_fix" opcode="ret" nodeLabel="51.0" m_display="0" m_topoIndex="104" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="169" name="_ln23" lineNumber="23" fileName="master.cpp" fileDirectory=".." coreId="2374639056" contextFuncName="master_fix" opcode="ret" nodeLabel="51.0" m_display="0" m_topoIndex="104" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="master.cpp" linenumber="23" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="master_fix"/>
     </node_objs>
     <fileValidLineNumbers fileName="master.cpp">
@@ -1065,6 +1065,9 @@
   <regnodes realName="den1_V_0_addr_3_reg_919">
     <nodeIds>111</nodeIds>
   </regnodes>
+  <regnodes realName="zext_ln255_reg_860">
+    <nodeIds>84</nodeIds>
+  </regnodes>
   <regnodes realName="den1_V_0_load_8_reg_984">
     <nodeIds>122</nodeIds>
   </regnodes>
@@ -1107,11 +1110,11 @@
   <regnodes realName="den1_V_0_load_9_reg_989">
     <nodeIds>124</nodeIds>
   </regnodes>
+  <regnodes realName="sub_ln260_reg_894">
+    <nodeIds>89</nodeIds>
+  </regnodes>
   <regnodes realName="den1_V_0_addr_reg_884">
     <nodeIds>105</nodeIds>
-  </regnodes>
-  <regnodes realName="zext_ln254_reg_860">
-    <nodeIds>84</nodeIds>
   </regnodes>
   <regnodes realName="den1_V_0_addr_9_reg_979">
     <nodeIds>123</nodeIds>
@@ -1123,9 +1126,6 @@
   <regnodes realName="den1_V_0_load_14_reg_1044">
     <nodeIds>134</nodeIds>
   </regnodes>
-  <regnodes realName="sub_ln259_reg_894">
-    <nodeIds>89</nodeIds>
-  </regnodes>
   <expressionNodes realName="den1_V_0_addr_16_gep_fu_314">
     <nodeIds>98</nodeIds>
   </expressionNodes>
@@ -1134,6 +1134,9 @@
   </expressionNodes>
   <expressionNodes realName="den2_V_0_0_05_loc_fu_228">
     <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln260_fu_693">
+    <nodeIds>89</nodeIds>
   </expressionNodes>
   <expressionNodes realName="tmp_17_fu_771">
     <nodeIds>160</nodeIds>
@@ -1144,10 +1147,7 @@
   <expressionNodes realName="m_3_10_loc_fu_212">
     <nodeIds>52</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="trunc_ln299_fu_767">
-    <nodeIds>159</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="add_ln254_fu_645">
+  <expressionNodes realName="add_ln255_fu_645">
     <nodeIds>81</nodeIds>
   </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_9_gep_fu_377">
@@ -1156,8 +1156,8 @@
   <expressionNodes realName="den1_V_0_addr_13_gep_fu_409">
     <nodeIds>131</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="icmp_ln254_fu_639">
-    <nodeIds>79</nodeIds>
+  <expressionNodes realName="zext_ln255_fu_651">
+    <nodeIds>84</nodeIds>
   </expressionNodes>
   <expressionNodes realName="num_V_8_loc_fu_244">
     <nodeIds>60</nodeIds>
@@ -1180,11 +1180,11 @@
   <expressionNodes realName="tmp_s_fu_671">
     <nodeIds>85</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln259_4_fu_689">
-    <nodeIds>88</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="m_2_03_loc_fu_220">
     <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln298_fu_761">
+    <nodeIds>154</nodeIds>
   </expressionNodes>
   <expressionNodes realName="thirdBias_f_V_addr_gep_fu_276">
     <nodeIds>91</nodeIds>
@@ -1195,11 +1195,11 @@
   <expressionNodes realName="tmp_fu_707">
     <nodeIds>96</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="trunc_ln257_fu_703">
+    <nodeIds>95</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_1_gep_fu_306">
     <nodeIds>107</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="trunc_ln256_fu_703">
-    <nodeIds>95</nodeIds>
   </expressionNodes>
   <expressionNodes realName="i_fu_272">
     <nodeIds>104</nodeIds>
@@ -1207,20 +1207,20 @@
   <expressionNodes realName="den1_V_0_addr_gep_fu_289">
     <nodeIds>105</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="sub_ln259_fu_693">
-    <nodeIds>89</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_6_gep_fu_353">
     <nodeIds>117</nodeIds>
   </expressionNodes>
   <expressionNodes realName="sum_fu_268">
     <nodeIds>103</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="icmp_ln298_fu_755">
+    <nodeIds>152</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln260_4_fu_689">
+    <nodeIds>88</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_8_gep_fu_369">
     <nodeIds>121</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="icmp_ln297_fu_755">
-    <nodeIds>152</nodeIds>
   </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_10_gep_fu_385">
     <nodeIds>125</nodeIds>
@@ -1231,11 +1231,11 @@
   <expressionNodes realName="den1_V_0_addr_3_gep_fu_329">
     <nodeIds>111</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="trunc_ln300_fu_767">
+    <nodeIds>159</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="den2_V_0_1_06_loc_fu_232">
     <nodeIds>57</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="zext_ln254_fu_651">
-    <nodeIds>84</nodeIds>
   </expressionNodes>
   <expressionNodes realName="num_V_3_fu_715">
     <nodeIds>97</nodeIds>
@@ -1243,11 +1243,11 @@
   <expressionNodes realName="den2_V_0_3_08_loc_fu_240">
     <nodeIds>59</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="icmp_ln255_fu_639">
+    <nodeIds>79</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="conv2_0_alloca_fu_256">
     <nodeIds>68</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="add_ln297_fu_761">
-    <nodeIds>154</nodeIds>
   </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_5_gep_fu_345">
     <nodeIds>115</nodeIds>
@@ -1267,23 +1267,26 @@
   <expressionNodes realName="max2_V_0_alloca_fu_260">
     <nodeIds>69</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln259_fu_678">
-    <nodeIds>86</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="den1_V_0_addr_12_gep_fu_401">
     <nodeIds>129</nodeIds>
   </expressionNodes>
   <expressionNodes realName="max1_V_0_alloca_fu_252">
     <nodeIds>67</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="zext_ln260_fu_678">
+    <nodeIds>86</nodeIds>
+  </expressionNodes>
   <moduleNodes realName="grp_fu_615">
     <nodeIds>161</nodeIds>
   </moduleNodes>
-  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_256_2_VITIS_LOOP_257_3_fu_551">
-    <nodeIds>93</nodeIds>
+  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_235_1_VITIS_LOOP_236_2_fu_545">
+    <nodeIds>74</nodeIds>
   </moduleNodes>
   <moduleNodes realName="grp_fu_611">
     <nodeIds>162</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_303_3_fu_600">
+    <nodeIds>168</nodeIds>
   </moduleNodes>
   <moduleNodes realName="grp_convolution1_fix_fu_433">
     <nodeIds>71</nodeIds>
@@ -1291,32 +1294,35 @@
   <moduleNodes realName="grp_convolution2_fix_fu_473">
     <nodeIds>73</nodeIds>
   </moduleNodes>
-  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_213_1_VITIS_LOOP_214_2_fu_467">
-    <nodeIds>72</nodeIds>
+  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_257_2_VITIS_LOOP_258_3_fu_551">
+    <nodeIds>93</nodeIds>
   </moduleNodes>
-  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_291_1_fu_588">
-    <nodeIds>142</nodeIds>
-  </moduleNodes>
-  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_276_1_fu_562">
+  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_277_1_fu_562">
     <nodeIds>137</nodeIds>
   </moduleNodes>
-  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_234_1_VITIS_LOOP_235_2_fu_545">
-    <nodeIds>74</nodeIds>
+  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_214_1_VITIS_LOOP_215_2_fu_467">
+    <nodeIds>72</nodeIds>
   </moduleNodes>
-  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_302_3_fu_600">
-    <nodeIds>168</nodeIds>
+  <moduleNodes realName="grp_master_fix_Pipeline_VITIS_LOOP_292_1_fu_588">
+    <nodeIds>142</nodeIds>
   </moduleNodes>
   <ioNodes realName="m_3_10_loc_load_load_fu_749">
     <nodeIds>146</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln297_store_fu_666">
-    <nodeIds>148</nodeIds>
+  <ioNodes realName="store_ln298_store_fu_661">
+    <nodeIds>147</nodeIds>
   </ioNodes>
   <ioNodes realName="d_2_load_fu_636">
     <nodeIds>78</nodeIds>
   </ioNodes>
+  <ioNodes realName="store_ln298_store_fu_781">
+    <nodeIds>163</nodeIds>
+  </ioNodes>
   <ioNodes realName="m_3_7_loc_load_load_fu_746">
     <nodeIds>145</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln255_store_fu_631">
+    <nodeIds>75</nodeIds>
   </ioNodes>
   <ioNodes realName="m_3_04_loc_load_load_fu_740">
     <nodeIds>143</nodeIds>
@@ -1330,11 +1336,11 @@
   <ioNodes realName="den2_V_0_0_05_loc_load_load_fu_736">
     <nodeIds>141</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln254_store_fu_656">
-    <nodeIds>100</nodeIds>
+  <ioNodes realName="store_ln300_store_fu_786">
+    <nodeIds>164</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln254_store_fu_631">
-    <nodeIds>75</nodeIds>
+  <ioNodes realName="store_ln255_store_fu_656">
+    <nodeIds>100</nodeIds>
   </ioNodes>
   <ioNodes realName="den2_V_0_2_07_loc_load_load_fu_728">
     <nodeIds>139</nodeIds>
@@ -1342,14 +1348,11 @@
   <ioNodes realName="m_2_03_loc_load_load_fu_743">
     <nodeIds>144</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln297_store_fu_781">
-    <nodeIds>163</nodeIds>
-  </ioNodes>
   <ioNodes realName="den2_V_0_1_06_loc_load_load_fu_732">
     <nodeIds>140</nodeIds>
   </ioNodes>
-  <ioNodes realName="store_ln299_store_fu_786">
-    <nodeIds>164</nodeIds>
+  <ioNodes realName="store_ln298_store_fu_666">
+    <nodeIds>148</nodeIds>
   </ioNodes>
   <ioNodes realName="i_3_load_fu_752">
     <nodeIds>151</nodeIds>
@@ -1357,9 +1360,6 @@
   <ioNodes realName="grp_load_fu_620">
     <nodeIds>167</nodeIds>
     <nodeIds>157</nodeIds>
-  </ioNodes>
-  <ioNodes realName="store_ln297_store_fu_661">
-    <nodeIds>147</nodeIds>
   </ioNodes>
   <memoryPorts dataString="den1_V_0">
     <nodeIds>108</nodeIds>
@@ -1965,7 +1965,7 @@
       <basicBlocks>77</basicBlocks>
       <mDfPipe/>
     </cfgRegions>
-    <cfgRegions mId="3" mTag="VITIS_LOOP_254_1" mII="-1" mDepth="-1" mMinTripCount="16" mMaxTripCount="16" mMinLatency="3744" mMaxLatency="3744" mType="1">
+    <cfgRegions mId="3" mTag="VITIS_LOOP_255_1" mII="-1" mDepth="-1" mMinTripCount="16" mMaxTripCount="16" mMinLatency="3744" mMaxLatency="3744" mType="1">
       <basicBlocks>83</basicBlocks>
       <basicBlocks>102</basicBlocks>
       <mDfPipe/>
@@ -1974,7 +1974,7 @@
       <basicBlocks>150</basicBlocks>
       <mDfPipe/>
     </cfgRegions>
-    <cfgRegions mId="5" mTag="VITIS_LOOP_297_2" mII="-1" mDepth="-1" mMinTripCount="4" mMaxTripCount="4" mMinLatency="108" mMaxLatency="108" mType="1">
+    <cfgRegions mId="5" mTag="VITIS_LOOP_298_2" mII="-1" mDepth="-1" mMinTripCount="4" mMaxTripCount="4" mMinLatency="108" mMaxLatency="108" mType="1">
       <basicBlocks>156</basicBlocks>
       <basicBlocks>166</basicBlocks>
       <mDfPipe/>
