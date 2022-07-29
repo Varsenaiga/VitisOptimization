@@ -11,14 +11,7 @@
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-27T15:44:38.387+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-07-27T15:44:38.302+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_255_1' (model_functions.cpp:250:9) in function 'master_fix' the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.&#xD;&#xA;Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-960.html" projectName="Testing" solutionName="solution1" date="2022-07-27T15:44:37.046+0100" type="Warning"/>
-        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-07-27T15:44:23.708+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-27T15:41:05.276+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-07-27T15:40:41.933+0100" type="Warning"/>
-      </synLog>
+      <synLog/>
       <simLog/>
       <mgLog/>
       <packageLog/>
