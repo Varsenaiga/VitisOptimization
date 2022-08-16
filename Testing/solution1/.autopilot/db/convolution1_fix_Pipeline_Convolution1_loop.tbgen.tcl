@@ -24,17 +24,6 @@ set C_modelArgList {
 	{ tmp1_V_2_0_reload int 12 regular  }
 	{ tmp1_V_1_0_reload int 12 regular  }
 	{ tmp1_V_0_0_reload int 12 regular  }
-	{ tmp2_V_11_0_reload int 12 regular  }
-	{ tmp2_V_10_0_reload int 12 regular  }
-	{ tmp2_V_9_0_reload int 12 regular  }
-	{ tmp2_V_8_0_reload int 12 regular  }
-	{ tmp2_V_7_0_reload int 12 regular  }
-	{ tmp2_V_6_0_reload int 12 regular  }
-	{ tmp2_V_5_0_reload int 12 regular  }
-	{ tmp2_V_3_0_reload int 12 regular  }
-	{ tmp2_V_2_0_reload int 12 regular  }
-	{ tmp2_V_1_0_reload int 12 regular  }
-	{ tmp2_V_0_0_reload int 12 regular  }
 	{ input_r int 16 regular {array 384 { 1 3 } 1 1 }  }
 	{ out_r int 35 regular {array 3072 { 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 } 0 1 }  }
 }
@@ -51,21 +40,10 @@ set C_modelArgMapList {[
  	{ "Name" : "tmp1_V_2_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
  	{ "Name" : "tmp1_V_1_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
  	{ "Name" : "tmp1_V_0_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_11_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_10_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_9_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_8_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_7_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_6_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_5_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_3_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_2_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_1_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
- 	{ "Name" : "tmp2_V_0_0_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
  	{ "Name" : "input_r", "interface" : "memory", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "out_r", "interface" : "memory", "bitwidth" : 35, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
-set portNum 36
+set portNum 25
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -85,24 +63,13 @@ set portList {
 	{ tmp1_V_2_0_reload sc_in sc_lv 12 signal 9 } 
 	{ tmp1_V_1_0_reload sc_in sc_lv 12 signal 10 } 
 	{ tmp1_V_0_0_reload sc_in sc_lv 12 signal 11 } 
-	{ tmp2_V_11_0_reload sc_in sc_lv 12 signal 12 } 
-	{ tmp2_V_10_0_reload sc_in sc_lv 12 signal 13 } 
-	{ tmp2_V_9_0_reload sc_in sc_lv 12 signal 14 } 
-	{ tmp2_V_8_0_reload sc_in sc_lv 12 signal 15 } 
-	{ tmp2_V_7_0_reload sc_in sc_lv 12 signal 16 } 
-	{ tmp2_V_6_0_reload sc_in sc_lv 12 signal 17 } 
-	{ tmp2_V_5_0_reload sc_in sc_lv 12 signal 18 } 
-	{ tmp2_V_3_0_reload sc_in sc_lv 12 signal 19 } 
-	{ tmp2_V_2_0_reload sc_in sc_lv 12 signal 20 } 
-	{ tmp2_V_1_0_reload sc_in sc_lv 12 signal 21 } 
-	{ tmp2_V_0_0_reload sc_in sc_lv 12 signal 22 } 
-	{ input_r_address0 sc_out sc_lv 9 signal 23 } 
-	{ input_r_ce0 sc_out sc_logic 1 signal 23 } 
-	{ input_r_q0 sc_in sc_lv 16 signal 23 } 
-	{ out_r_address0 sc_out sc_lv 12 signal 24 } 
-	{ out_r_ce0 sc_out sc_logic 1 signal 24 } 
-	{ out_r_we0 sc_out sc_logic 1 signal 24 } 
-	{ out_r_d0 sc_out sc_lv 35 signal 24 } 
+	{ input_r_address0 sc_out sc_lv 9 signal 12 } 
+	{ input_r_ce0 sc_out sc_logic 1 signal 12 } 
+	{ input_r_q0 sc_in sc_lv 16 signal 12 } 
+	{ out_r_address0 sc_out sc_lv 12 signal 13 } 
+	{ out_r_ce0 sc_out sc_logic 1 signal 13 } 
+	{ out_r_we0 sc_out sc_logic 1 signal 13 } 
+	{ out_r_d0 sc_out sc_lv 35 signal 13 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -123,17 +90,6 @@ set NewPortList {[
  	{ "name": "tmp1_V_2_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp1_V_2_0_reload", "role": "default" }} , 
  	{ "name": "tmp1_V_1_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp1_V_1_0_reload", "role": "default" }} , 
  	{ "name": "tmp1_V_0_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp1_V_0_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_11_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_11_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_10_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_10_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_9_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_9_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_8_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_8_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_7_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_7_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_6_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_6_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_5_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_5_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_3_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_3_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_2_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_2_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_1_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_1_0_reload", "role": "default" }} , 
- 	{ "name": "tmp2_V_0_0_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "tmp2_V_0_0_reload", "role": "default" }} , 
  	{ "name": "input_r_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "input_r", "role": "address0" }} , 
  	{ "name": "input_r_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input_r", "role": "ce0" }} , 
  	{ "name": "input_r_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "input_r", "role": "q0" }} , 
@@ -169,17 +125,6 @@ set RtlHierarchyInfo {[
 			{"Name" : "tmp1_V_2_0_reload", "Type" : "None", "Direction" : "I"},
 			{"Name" : "tmp1_V_1_0_reload", "Type" : "None", "Direction" : "I"},
 			{"Name" : "tmp1_V_0_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_11_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_10_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_9_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_8_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_7_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_6_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_5_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_3_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_2_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_1_0_reload", "Type" : "None", "Direction" : "I"},
-			{"Name" : "tmp2_V_0_0_reload", "Type" : "None", "Direction" : "I"},
 			{"Name" : "input_r", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "out_r", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "firstKernel_f_V_0_0", "Type" : "Memory", "Direction" : "I"},
@@ -211,19 +156,19 @@ set RtlHierarchyInfo {[
 	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.firstKernel_f_V_3_1_U", "Parent" : "0"},
 	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.firstKernel_f_V_3_2_U", "Parent" : "0"},
 	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.firstBias_f_V_U", "Parent" : "0"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_124_12_1_1_U36", "Parent" : "0"},
-	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U37", "Parent" : "0"},
-	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U38", "Parent" : "0"},
-	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U39", "Parent" : "0"},
-	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U40", "Parent" : "0"},
-	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U41", "Parent" : "0"},
-	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U42", "Parent" : "0"},
-	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U43", "Parent" : "0"},
-	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U44", "Parent" : "0"},
-	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U45", "Parent" : "0"},
-	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U46", "Parent" : "0"},
-	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U47", "Parent" : "0"},
-	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U48", "Parent" : "0"},
+	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_124_12_1_1_U13", "Parent" : "0"},
+	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U14", "Parent" : "0"},
+	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U15", "Parent" : "0"},
+	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U16", "Parent" : "0"},
+	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U17", "Parent" : "0"},
+	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U18", "Parent" : "0"},
+	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U19", "Parent" : "0"},
+	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U20", "Parent" : "0"},
+	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U21", "Parent" : "0"},
+	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U22", "Parent" : "0"},
+	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U23", "Parent" : "0"},
+	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U24", "Parent" : "0"},
+	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_12s_36_2_1_U25", "Parent" : "0"},
 	{"ID" : "27", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"}]}
 
 
@@ -241,17 +186,6 @@ set ArgLastReadFirstWriteLatency {
 		tmp1_V_2_0_reload {Type I LastRead 0 FirstWrite -1}
 		tmp1_V_1_0_reload {Type I LastRead 0 FirstWrite -1}
 		tmp1_V_0_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_11_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_10_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_9_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_8_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_7_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_6_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_5_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_3_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_2_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_1_0_reload {Type I LastRead 0 FirstWrite -1}
-		tmp2_V_0_0_reload {Type I LastRead 0 FirstWrite -1}
 		input_r {Type I LastRead 4 FirstWrite -1}
 		out_r {Type O LastRead -1 FirstWrite 11}
 		firstKernel_f_V_0_0 {Type I LastRead -1 FirstWrite -1}
@@ -292,17 +226,6 @@ set Spec2ImplPortList {
 	tmp1_V_2_0_reload { ap_none {  { tmp1_V_2_0_reload in_data 0 12 } } }
 	tmp1_V_1_0_reload { ap_none {  { tmp1_V_1_0_reload in_data 0 12 } } }
 	tmp1_V_0_0_reload { ap_none {  { tmp1_V_0_0_reload in_data 0 12 } } }
-	tmp2_V_11_0_reload { ap_none {  { tmp2_V_11_0_reload in_data 0 12 } } }
-	tmp2_V_10_0_reload { ap_none {  { tmp2_V_10_0_reload in_data 0 12 } } }
-	tmp2_V_9_0_reload { ap_none {  { tmp2_V_9_0_reload in_data 0 12 } } }
-	tmp2_V_8_0_reload { ap_none {  { tmp2_V_8_0_reload in_data 0 12 } } }
-	tmp2_V_7_0_reload { ap_none {  { tmp2_V_7_0_reload in_data 0 12 } } }
-	tmp2_V_6_0_reload { ap_none {  { tmp2_V_6_0_reload in_data 0 12 } } }
-	tmp2_V_5_0_reload { ap_none {  { tmp2_V_5_0_reload in_data 0 12 } } }
-	tmp2_V_3_0_reload { ap_none {  { tmp2_V_3_0_reload in_data 0 12 } } }
-	tmp2_V_2_0_reload { ap_none {  { tmp2_V_2_0_reload in_data 0 12 } } }
-	tmp2_V_1_0_reload { ap_none {  { tmp2_V_1_0_reload in_data 0 12 } } }
-	tmp2_V_0_0_reload { ap_none {  { tmp2_V_0_0_reload in_data 0 12 } } }
 	input_r { ap_memory {  { input_r_address0 mem_address 1 9 }  { input_r_ce0 mem_ce 1 1 }  { input_r_q0 mem_dout 0 16 } } }
 	out_r { ap_memory {  { out_r_address0 mem_address 1 12 }  { out_r_ce0 mem_ce 1 1 }  { out_r_we0 mem_we 1 1 }  { out_r_d0 mem_din 1 35 } } }
 }

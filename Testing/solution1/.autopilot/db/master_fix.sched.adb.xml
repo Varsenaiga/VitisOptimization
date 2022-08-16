@@ -143,14 +143,14 @@
 
 <trans id="209" from="24" to="25">
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="0"/>
 </and_exp></or_exp>
 </condition>
 </trans>
 
 <trans id="210" from="24" to="51">
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="1"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="1"/>
 </and_exp></or_exp>
 </condition>
 </trans>
@@ -567,10 +567,10 @@ arrayctor.loop67:20 %call_ln15 = call void @convolution1_fix, i16 %input_r, i35 
 
 <Node id="341" bw="0" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-arrayctor.loop67:67 %store_ln331 = store i3 0, i3 %i
+arrayctor.loop67:67 %store_ln335 = store i3 0, i3 %i
 
 ]]></Node>
-<StgValue><ssdm name="store_ln331"/></StgValue>
+<StgValue><ssdm name="store_ln335"/></StgValue>
 </operation>
 
 <operation id="69" st_id="1" stage="1" lat="1">
@@ -582,10 +582,10 @@ arrayctor.loop67:67 %store_ln331 = store i3 0, i3 %i
 
 <Node id="342" bw="0" op_0_bw="64" op_1_bw="64">
 <![CDATA[
-arrayctor.loop67:68 %store_ln331 = store i64 0, i64 %sum
+arrayctor.loop67:68 %store_ln335 = store i64 0, i64 %sum
 
 ]]></Node>
-<StgValue><ssdm name="store_ln331"/></StgValue>
+<StgValue><ssdm name="store_ln335"/></StgValue>
 </operation>
 </state>
 
@@ -1638,7 +1638,7 @@ arrayctor.loop67:62 %call_ln0 = call void @master_fix_Pipeline_Initialization_So
 
 <Node id="284" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-arrayctor.loop67:10 %spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_4
+arrayctor.loop67:10 %spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_6
 
 ]]></Node>
 <StgValue><ssdm name="spectopmodule_ln0"/></StgValue>
@@ -1653,7 +1653,7 @@ arrayctor.loop67:10 %spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopMod
 
 <Node id="285" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-arrayctor.loop67:11 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_9, i32 0, i32 0, void @empty_2, i32 4294967295, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2
+arrayctor.loop67:11 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_2, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -1683,7 +1683,7 @@ arrayctor.loop67:12 %specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i
 
 <Node id="287" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-arrayctor.loop67:13 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_9, i32 0, i32 0, void @empty_2, i32 4294967295, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2
+arrayctor.loop67:13 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_2, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -1773,10 +1773,10 @@ arrayctor.loop67:66 %m_3_10_loc_load = load i64 %m_3_10_loc
 
 <Node id="343" bw="0" op_0_bw="0">
 <![CDATA[
-arrayctor.loop67:69 %br_ln331 = br void %.preheader6
+arrayctor.loop67:69 %br_ln335 = br void %.preheader6
 
 ]]></Node>
-<StgValue><ssdm name="br_ln331"/></StgValue>
+<StgValue><ssdm name="br_ln335"/></StgValue>
 </operation>
 </state>
 
@@ -1806,10 +1806,10 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 
 <Node id="346" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-.preheader6:1 %icmp_ln331 = icmp_eq  i3 %i_3, i3 4
+.preheader6:1 %icmp_ln335 = icmp_eq  i3 %i_3, i3 4
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln331"/></StgValue>
+<StgValue><ssdm name="icmp_ln335"/></StgValue>
 </operation>
 
 <operation id="147" st_id="24" stage="1" lat="1">
@@ -1836,10 +1836,10 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 
 <Node id="348" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-.preheader6:3 %add_ln331 = add i3 %i_3, i3 1
+.preheader6:3 %add_ln335 = add i3 %i_3, i3 1
 
 ]]></Node>
-<StgValue><ssdm name="add_ln331"/></StgValue>
+<StgValue><ssdm name="add_ln335"/></StgValue>
 </operation>
 
 <operation id="149" st_id="24" stage="1" lat="1">
@@ -1851,39 +1851,39 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 
 <Node id="349" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-.preheader6:4 %br_ln331 = br i1 %icmp_ln331, void %.split6, void %.preheader.preheader
+.preheader6:4 %br_ln335 = br i1 %icmp_ln335, void %.split6, void %.preheader.preheader
 
 ]]></Node>
-<StgValue><ssdm name="br_ln331"/></StgValue>
+<StgValue><ssdm name="br_ln335"/></StgValue>
 </operation>
 
 <operation id="150" st_id="24" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <Node id="353" bw="2" op_0_bw="3">
 <![CDATA[
-.split6:2 %trunc_ln333 = trunc i3 %i_3
+.split6:2 %trunc_ln337 = trunc i3 %i_3
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln333"/></StgValue>
+<StgValue><ssdm name="trunc_ln337"/></StgValue>
 </operation>
 
 <operation id="151" st_id="24" stage="1" lat="1">
 <core>Multiplexer</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <Node id="354" bw="64" op_0_bw="64" op_1_bw="64" op_2_bw="64" op_3_bw="64" op_4_bw="64" op_5_bw="2">
 <![CDATA[
-.split6:3 %tmp_s = mux i64 @_ssdm_op_Mux.ap_auto.4double.i2, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i2 %trunc_ln333
+.split6:3 %tmp_s = mux i64 @_ssdm_op_Mux.ap_auto.4double.i2, i64 %m_3_10_loc_load, i64 %m_3_7_loc_load, i64 %m_2_03_loc_load, i64 %m_3_04_loc_load, i2 %trunc_ln337
 
 ]]></Node>
 <StgValue><ssdm name="tmp_s"/></StgValue>
@@ -1893,23 +1893,23 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <Node id="357" bw="0" op_0_bw="3" op_1_bw="3" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-.split6:6 %store_ln331 = store i3 %add_ln331, i3 %i
+.split6:6 %store_ln335 = store i3 %add_ln335, i3 %i
 
 ]]></Node>
-<StgValue><ssdm name="store_ln331"/></StgValue>
+<StgValue><ssdm name="store_ln335"/></StgValue>
 </operation>
 
 <operation id="153" st_id="24" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="1"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="1"/>
 </and_exp></or_exp>
 </condition>
 
@@ -1925,7 +1925,7 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 <core></core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln331" val="1"/>
+<or_exp><and_exp><literal name="icmp_ln335" val="1"/>
 </and_exp></or_exp>
 </condition>
 
@@ -2414,10 +2414,10 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 
 <Node id="352" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split6:1 %specloopname_ln321 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7
+.split6:1 %specloopname_ln325 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4
 
 ]]></Node>
-<StgValue><ssdm name="specloopname_ln321"/></StgValue>
+<StgValue><ssdm name="specloopname_ln325"/></StgValue>
 </operation>
 
 <operation id="182" st_id="50" stage="1" lat="1">
@@ -2429,10 +2429,10 @@ arrayctor.loop67:69 %br_ln331 = br void %.preheader6
 
 <Node id="358" bw="0" op_0_bw="64" op_1_bw="64" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-.split6:7 %store_ln333 = store i64 %sum_1, i64 %sum
+.split6:7 %store_ln337 = store i64 %sum_1, i64 %sum
 
 ]]></Node>
-<StgValue><ssdm name="store_ln333"/></StgValue>
+<StgValue><ssdm name="store_ln337"/></StgValue>
 </operation>
 
 <operation id="183" st_id="50" stage="1" lat="1">

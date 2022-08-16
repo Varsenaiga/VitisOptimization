@@ -7,7 +7,7 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 
 
 # Memory (RAM/ROM)  definition:
-set ID 1095
+set ID 1061
 set hasByteEnable 0
 set MemName master_fix_conv1
 set CoreName ap_simcore_mem
@@ -23,7 +23,7 @@ set HasInitializer 0
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 3.254
-set ClkPeriod 10.41
+set ClkPeriod 10.37
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -89,7 +89,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 1096
+set ID 1062
 set hasByteEnable 0
 set MemName master_fix_max1_V_0
 set CoreName ap_simcore_mem
@@ -105,7 +105,7 @@ set HasInitializer 0
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 3.254
-set ClkPeriod 10.41
+set ClkPeriod 10.37
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -171,7 +171,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 1097
+set ID 1063
 set hasByteEnable 0
 set MemName master_fix_conv2_0
 set CoreName ap_simcore_mem
@@ -187,7 +187,7 @@ set HasInitializer 0
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 3.254
-set ClkPeriod 10.41
+set ClkPeriod 10.37
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -253,7 +253,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 1098
+set ID 1064
 set hasByteEnable 0
 set MemName master_fix_max2_V_0
 set CoreName ap_simcore_mem
@@ -269,7 +269,7 @@ set HasInitializer 0
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 3.254
-set ClkPeriod 10.41
+set ClkPeriod 10.37
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -335,7 +335,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 1099
+set ID 1065
 set hasByteEnable 0
 set MemName master_fix_den1_0
 set CoreName ap_simcore_mem
@@ -351,7 +351,7 @@ set HasInitializer 0
 set Initializer $ROMData
 set NumOfStage 2
 set DelayBudget 2.322
-set ClkPeriod 10.41
+set ClkPeriod 10.37
 if {${::AESL::PGuard_simmodel_gen}} {
 if {[info proc ap_gen_simcore_mem] == "ap_gen_simcore_mem"} {
     eval "ap_gen_simcore_mem { \
@@ -428,7 +428,7 @@ set axilite_register_dict [dict create]
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 1100 \
+    id 1066 \
     name input_r \
     reset_level 1 \
     sync_rst true \
@@ -447,7 +447,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 1101 \
+    id 1067 \
     name out_r \
     reset_level 1 \
     sync_rst true \

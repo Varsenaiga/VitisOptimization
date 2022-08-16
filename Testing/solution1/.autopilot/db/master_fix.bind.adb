@@ -70,7 +70,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717924352</coreId>
+						<coreId>540946720</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -110,7 +110,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -194,7 +194,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -236,7 +236,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>1717530721</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -278,7 +278,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -320,7 +320,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -362,7 +362,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -404,7 +404,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -488,7 +488,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -899,7 +899,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -978,7 +978,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1038,7 +1038,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1294,7 +1294,7 @@
 						<name>den1_0_addr</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1310,7 +1310,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -1323,7 +1323,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1409,7 +1409,7 @@
 						<name>den1_0_addr_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1425,7 +1425,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -1438,7 +1438,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>1717530721</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1524,7 +1524,7 @@
 						<name>den1_0_addr_2</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1540,7 +1540,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -1553,7 +1553,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1639,7 +1639,7 @@
 						<name>den1_0_addr_3</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1655,7 +1655,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -1668,7 +1668,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1754,7 +1754,7 @@
 						<name>den1_0_addr_4</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1770,7 +1770,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -1783,7 +1783,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>797724912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1869,7 +1869,7 @@
 						<name>den1_0_addr_5</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1885,7 +1885,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -1898,7 +1898,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1984,7 +1984,7 @@
 						<name>den1_0_addr_6</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2000,7 +2000,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2013,7 +2013,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>1145981184</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2099,7 +2099,7 @@
 						<name>den1_0_addr_7</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2115,7 +2115,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2128,7 +2128,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>792996624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2214,7 +2214,7 @@
 						<name>den1_0_addr_8</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2230,7 +2230,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2243,7 +2243,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>1702257920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2329,7 +2329,7 @@
 						<name>den1_0_addr_9</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2345,7 +2345,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2358,7 +2358,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>797721024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2444,7 +2444,7 @@
 						<name>den1_0_addr_10</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2460,7 +2460,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2473,7 +2473,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>1768713801</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2559,7 +2559,7 @@
 						<name>den1_0_addr_11</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2575,7 +2575,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2588,7 +2588,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>578542848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2674,7 +2674,7 @@
 						<name>den1_0_addr_12</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2690,7 +2690,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2703,7 +2703,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>611313104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2789,7 +2789,7 @@
 						<name>den1_0_addr_13</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2805,7 +2805,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2818,7 +2818,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>6775040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -2904,7 +2904,7 @@
 						<name>den1_0_addr_14</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2920,7 +2920,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -2933,7 +2933,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>611325240</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -3019,7 +3019,7 @@
 						<name>den1_0_addr_15</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>310</lineNumber>
+						<lineNumber>314</lineNumber>
 						<contextFuncName>dense2_fix</contextFuncName>
 						<contextNormFuncName>dense2_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3035,7 +3035,7 @@
 											<first>model_functions.cpp</first>
 											<second>dense2_fix</second>
 										</first>
-										<second>310</second>
+										<second>314</second>
 									</item>
 								</second>
 							</item>
@@ -3163,7 +3163,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1635000354</coreId>
+						<coreId>542329856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3225,7 +3225,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1584332000</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -3268,7 +3268,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1768713801</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -3311,7 +3311,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>611323216</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -3354,7 +3354,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1594351312</coreId>
+						<coreId>797724768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>36</bitwidth>
@@ -3397,7 +3397,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007552</coreId>
+						<coreId>1768713801</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3420,7 +3420,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>5.67</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>60</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3447,7 +3447,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1397508096</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -3533,7 +3533,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>611309776</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -3576,7 +3576,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702257920</coreId>
+						<coreId>6775040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -3601,10 +3601,10 @@
 					<Obj>
 						<type>0</type>
 						<id>341</id>
-						<name>i_write_ln331</name>
+						<name>i_write_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3620,7 +3620,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -3633,7 +3633,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1768713801</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3658,10 +3658,10 @@
 					<Obj>
 						<type>0</type>
 						<id>342</id>
-						<name>sum_write_ln331</name>
+						<name>sum_write_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3677,7 +3677,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -3715,10 +3715,10 @@
 					<Obj>
 						<type>0</type>
 						<id>343</id>
-						<name>br_ln331</name>
+						<name>br_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3734,7 +3734,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -3747,7 +3747,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1594342352</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3774,7 +3774,7 @@
 						<name>i_3</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3790,7 +3790,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -3803,7 +3803,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1594349520</coreId>
+						<coreId>611314256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -3828,10 +3828,10 @@
 					<Obj>
 						<type>0</type>
 						<id>346</id>
-						<name>icmp_ln331</name>
+						<name>icmp_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3847,7 +3847,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -3885,10 +3885,10 @@
 					<Obj>
 						<type>0</type>
 						<id>348</id>
-						<name>add_ln331</name>
+						<name>add_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3904,7 +3904,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -3942,10 +3942,10 @@
 					<Obj>
 						<type>0</type>
 						<id>349</id>
-						<name>br_ln331</name>
+						<name>br_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -3961,7 +3961,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -3974,7 +3974,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043276322</coreId>
+						<coreId>1768713801</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4003,7 +4003,7 @@
 						<name>sum_load</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4019,7 +4019,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -4032,7 +4032,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1594337872</coreId>
+						<coreId>1330007552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4057,10 +4057,10 @@
 					<Obj>
 						<type>0</type>
 						<id>353</id>
-						<name>trunc_ln333</name>
+						<name>trunc_ln337</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4076,7 +4076,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -4089,7 +4089,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1594336184</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -4116,7 +4116,7 @@
 						<name>tmp_s</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4132,7 +4132,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -4177,7 +4177,7 @@
 						<name>tmp_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4193,7 +4193,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -4234,7 +4234,7 @@
 						<name>sum_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4250,7 +4250,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -4288,10 +4288,10 @@
 					<Obj>
 						<type>0</type>
 						<id>357</id>
-						<name>i_write_ln331</name>
+						<name>i_write_ln335</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>331</lineNumber>
+						<lineNumber>335</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4307,7 +4307,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>331</second>
+										<second>335</second>
 									</item>
 								</second>
 							</item>
@@ -4320,7 +4320,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1397508096</coreId>
+						<coreId>1953394432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4347,10 +4347,10 @@
 					<Obj>
 						<type>0</type>
 						<id>358</id>
-						<name>sum_write_ln333</name>
+						<name>sum_write_ln337</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>333</lineNumber>
+						<lineNumber>337</lineNumber>
 						<contextFuncName>softmax_fix</contextFuncName>
 						<contextNormFuncName>softmax_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -4366,7 +4366,7 @@
 											<first>model_functions.cpp</first>
 											<second>softmax_fix</second>
 										</first>
-										<second>333</second>
+										<second>337</second>
 									</item>
 								</second>
 							</item>
@@ -4379,7 +4379,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>611325520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4424,7 +4424,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1914708521</coreId>
+						<coreId>611330488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4466,7 +4466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702257920</coreId>
+						<coreId>797720448</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4509,7 +4509,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1594333392</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4571,7 +4571,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>542329856</coreId>
+						<coreId>611312056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4616,7 +4616,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394531</coreId>
+						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4647,7 +4647,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4128060216</coreId>
+						<coreId>1936018748</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4678,7 +4678,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>859534444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4709,7 +4709,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>437</coreId>
+						<coreId>1634956133</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4740,7 +4740,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394432</coreId>
+						<coreId>1528853351</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4802,7 +4802,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1528853351</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4833,7 +4833,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1637370640</coreId>
+						<coreId>1668246560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4864,7 +4864,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2036427877</coreId>
+						<coreId>1528853351</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4895,7 +4895,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1350388480</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4926,7 +4926,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394531</coreId>
+						<coreId>4128060216</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4957,7 +4957,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1279795773</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -4988,7 +4988,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1528853351</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5019,7 +5019,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1528853351</coreId>
+						<coreId>3435973837</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5050,7 +5050,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1637370496</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5081,7 +5081,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394531</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5112,7 +5112,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>540946720</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5143,7 +5143,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>858860852</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5174,7 +5174,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394531</coreId>
+						<coreId>797739344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5205,7 +5205,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5236,7 +5236,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1213932093</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5267,7 +5267,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1588237528</coreId>
+						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5298,7 +5298,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1350392064</coreId>
+						<coreId>540946720</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5329,7 +5329,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1868785011</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5360,7 +5360,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>859453237</coreId>
+						<coreId>2036427877</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -5391,7 +5391,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1588237040</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -5422,7 +5422,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1637367904</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -5453,7 +5453,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>437</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -5484,7 +5484,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1598970195</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5518,7 +5518,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>434</coreId>
+					<coreId>4294967292</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -5613,7 +5613,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1043341356</coreId>
+					<coreId>535034552</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -5647,7 +5647,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1043341356</coreId>
+					<coreId>535029432</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -5685,7 +5685,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1636002112</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -9099,8 +9099,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>6139</mMinLatency>
-			<mMaxLatency>6139</mMaxLatency>
+			<mMinLatency>6140</mMinLatency>
+			<mMaxLatency>6140</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -9122,8 +9122,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>5945</mMinLatency>
-			<mMaxLatency>5945</mMaxLatency>
+			<mMinLatency>5946</mMinLatency>
+			<mMaxLatency>5946</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -12143,7 +12143,7 @@
 		<count>35</count>
 		<item_version>0</item_version>
 		<item class_id="48" tracking_level="0" version="0">
-			<first>add_ln331_fu_1517</first>
+			<first>add_ln335_fu_1517</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12343,7 +12343,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln331_fu_1511</first>
+			<first>icmp_ln335_fu_1511</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12415,7 +12415,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln333_fu_1523</first>
+			<first>trunc_ln337_fu_1523</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12623,7 +12623,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln331_store_fu_1470</first>
+			<first>store_ln335_store_fu_1470</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12631,7 +12631,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln331_store_fu_1475</first>
+			<first>store_ln335_store_fu_1475</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12639,7 +12639,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln331_store_fu_1537</first>
+			<first>store_ln335_store_fu_1537</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -12647,7 +12647,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln333_store_fu_1542</first>
+			<first>store_ln337_store_fu_1542</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

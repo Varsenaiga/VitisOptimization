@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>convolution2_fix_Pipeline_Initialization_Conv2_Loop</TopModelName>
-<TargetClockPeriod>10.41</TargetClockPeriod>
-<ClockUncertainty>2.81</ClockUncertainty>
+<TargetClockPeriod>10.37</TargetClockPeriod>
+<ClockUncertainty>2.80</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -35,7 +35,7 @@
 <Initialization_Conv2_Loop>
 <TripCount>16</TripCount>
 <Latency>16</Latency>
-<AbsoluteTimeLatency>166</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>165</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>2</PipelineDepth>
 </Initialization_Conv2_Loop>

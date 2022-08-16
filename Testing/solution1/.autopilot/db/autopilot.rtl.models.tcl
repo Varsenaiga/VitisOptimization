@@ -1,7 +1,6 @@
 set SynModuleInfo {
   {SRCNAME convolution1_fix_Pipeline_Initialization_Conv1_Loop MODELNAME convolution1_fix_Pipeline_Initialization_Conv1_Loop RTLNAME master_fix_convolution1_fix_Pipeline_Initialization_Conv1_Loop
     SUBMODULES {
-      {MODELNAME master_fix_mux_164_12_1_1 RTLNAME master_fix_mux_164_12_1_1 BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_flow_control_loop_pipe_sequential_init RTLNAME master_fix_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME master_fix_flow_control_loop_pipe_sequential_init_U}
     }
   }

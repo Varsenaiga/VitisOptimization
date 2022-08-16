@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix'" level="0">
-<item name = "Date">Sat Aug 13 15:04:45 2022
+<item name = "Date">Mon Aug 15 20:11:16 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.41 ns, 7.574 ns, 2.81 ns</column>
+<column name="ap_clk">10.37 ns, 7.561 ns, 2.80 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">6139, 6139, 63.907 us, 63.907 us, 6140, 6140, no</column>
+<column name="">6140, 6140, 63.672 us, 63.672 us, 6141, 6141, no</column>
 </table>
 </item>
 <item name = "Detail">

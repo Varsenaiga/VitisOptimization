@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="master_fix_master_fix,hls_ip_2021_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020-clg400-1,HLS_INPUT_CLOCK=10.410000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=7.574250,HLS_SYN_LAT=6139,HLS_SYN_TPT=none,HLS_SYN_MEM=50,HLS_SYN_DSP=0,HLS_SYN_FF=128632,HLS_SYN_LUT=76759,HLS_VERSION=2021_1}" *)
+(* CORE_GENERATION_INFO="master_fix_master_fix,hls_ip_2021_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020-clg400-1,HLS_INPUT_CLOCK=10.370000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=7.561300,HLS_SYN_LAT=6140,HLS_SYN_TPT=none,HLS_SYN_MEM=50,HLS_SYN_DSP=0,HLS_SYN_FF=128428,HLS_SYN_LUT=75852,HLS_VERSION=2021_1}" *)
 
 module master_fix (
         ap_clk,
@@ -99,7 +99,7 @@ reg ap_ready;
 wire    ap_CS_fsm_state1;
 reg   [63:0] reg_1464;
 wire    ap_CS_fsm_state24;
-wire   [0:0] icmp_ln331_fu_1511_p2;
+wire   [0:0] icmp_ln335_fu_1511_p2;
 wire    ap_CS_fsm_state43;
 wire    ap_CS_fsm_state11;
 wire   [34:0] den1_0_q1;
@@ -386,7 +386,7 @@ wire    ap_CS_fsm_state51;
 reg   [63:0] sum_fu_630;
 wire    ap_CS_fsm_state50;
 reg   [2:0] i_fu_634;
-wire   [2:0] add_ln331_fu_1517_p2;
+wire   [2:0] add_ln335_fu_1517_p2;
 reg   [63:0] grp_fu_1454_p1;
 wire    ap_CS_fsm_state25;
 wire   [1:0] tmp_s_fu_1527_p5;
@@ -758,22 +758,22 @@ master_fix_master_fix_Pipeline_Dense2_Loop grp_master_fix_Pipeline_Dense2_Loop_f
     .ap_done(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_done),
     .ap_idle(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_idle),
     .ap_ready(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_ready),
-    .zext_ln310(den1_0_load_reg_1618),
-    .zext_ln310_1(den1_0_load_1_reg_1623),
-    .zext_ln310_2(den1_0_load_2_reg_1638),
-    .zext_ln310_3(den1_0_load_3_reg_1643),
-    .zext_ln310_4(den1_0_load_4_reg_1658),
-    .zext_ln310_5(den1_0_load_5_reg_1663),
-    .zext_ln310_6(den1_0_load_6_reg_1678),
-    .zext_ln310_7(den1_0_load_7_reg_1683),
-    .zext_ln310_8(den1_0_load_8_reg_1698),
-    .zext_ln310_9(den1_0_load_9_reg_1703),
-    .zext_ln310_10(den1_0_load_10_reg_1718),
-    .zext_ln310_11(den1_0_load_11_reg_1723),
-    .zext_ln310_12(den1_0_load_12_reg_1738),
-    .zext_ln310_13(den1_0_load_13_reg_1743),
-    .zext_ln310_14(den1_0_load_14_reg_1758),
-    .zext_ln306(den1_0_load_15_reg_1763),
+    .zext_ln314(den1_0_load_reg_1618),
+    .zext_ln314_1(den1_0_load_1_reg_1623),
+    .zext_ln314_2(den1_0_load_2_reg_1638),
+    .zext_ln314_3(den1_0_load_3_reg_1643),
+    .zext_ln314_4(den1_0_load_4_reg_1658),
+    .zext_ln314_5(den1_0_load_5_reg_1663),
+    .zext_ln314_6(den1_0_load_6_reg_1678),
+    .zext_ln314_7(den1_0_load_7_reg_1683),
+    .zext_ln314_8(den1_0_load_8_reg_1698),
+    .zext_ln314_9(den1_0_load_9_reg_1703),
+    .zext_ln314_10(den1_0_load_10_reg_1718),
+    .zext_ln314_11(den1_0_load_11_reg_1723),
+    .zext_ln314_12(den1_0_load_12_reg_1738),
+    .zext_ln314_13(den1_0_load_13_reg_1743),
+    .zext_ln314_14(den1_0_load_14_reg_1758),
+    .zext_ln310(den1_0_load_15_reg_1763),
     .den2_V_0_3_08_out(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_den2_V_0_3_08_out),
     .den2_V_0_3_08_out_ap_vld(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_den2_V_0_3_08_out_ap_vld),
     .den2_V_0_2_07_out(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_den2_V_0_2_07_out),
@@ -897,7 +897,7 @@ master_fix_dadd_64ns_64ns_64_7_full_dsp_1 #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-dadd_64ns_64ns_64_7_full_dsp_1_U1075(
+dadd_64ns_64ns_64_7_full_dsp_1_U1041(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(sum_fu_630),
@@ -912,7 +912,7 @@ master_fix_dexp_64ns_64ns_64_18_full_dsp_1 #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-dexp_64ns_64ns_64_18_full_dsp_1_U1076(
+dexp_64ns_64ns_64_18_full_dsp_1_U1042(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_grp_fu_1454_p_din0),
@@ -930,7 +930,7 @@ master_fix_mux_42_64_1_1 #(
     .din3_WIDTH( 64 ),
     .din4_WIDTH( 2 ),
     .dout_WIDTH( 64 ))
-mux_42_64_1_1_U1077(
+mux_42_64_1_1_U1043(
     .din0(grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427_m_3_10_out),
     .din1(grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427_m_3_7_out),
     .din2(grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427_m_2_03_out),
@@ -945,7 +945,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1078(
+mul_36s_35ns_55_2_1_U1044(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1810_p_din0),
@@ -960,7 +960,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1079(
+mul_36s_35ns_55_2_1_U1045(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1814_p_din0),
@@ -975,7 +975,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1080(
+mul_36s_35ns_55_2_1_U1046(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1818_p_din0),
@@ -990,7 +990,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1081(
+mul_36s_35ns_55_2_1_U1047(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1822_p_din0),
@@ -1005,7 +1005,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1082(
+mul_36s_35ns_55_2_1_U1048(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1826_p_din0),
@@ -1020,7 +1020,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1083(
+mul_36s_35ns_55_2_1_U1049(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1830_p_din0),
@@ -1035,7 +1035,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1084(
+mul_36s_35ns_55_2_1_U1050(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1834_p_din0),
@@ -1050,7 +1050,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1085(
+mul_36s_35ns_55_2_1_U1051(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1838_p_din0),
@@ -1065,7 +1065,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1086(
+mul_36s_35ns_55_2_1_U1052(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1842_p_din0),
@@ -1080,7 +1080,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1087(
+mul_36s_35ns_55_2_1_U1053(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1846_p_din0),
@@ -1095,7 +1095,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1088(
+mul_36s_35ns_55_2_1_U1054(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1850_p_din0),
@@ -1110,7 +1110,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1089(
+mul_36s_35ns_55_2_1_U1055(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1854_p_din0),
@@ -1125,7 +1125,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1090(
+mul_36s_35ns_55_2_1_U1056(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1858_p_din0),
@@ -1140,7 +1140,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1091(
+mul_36s_35ns_55_2_1_U1057(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1862_p_din0),
@@ -1155,7 +1155,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1092(
+mul_36s_35ns_55_2_1_U1058(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1866_p_din0),
@@ -1170,7 +1170,7 @@ master_fix_mul_36s_35ns_55_2_1 #(
     .din0_WIDTH( 36 ),
     .din1_WIDTH( 35 ),
     .dout_WIDTH( 55 ))
-mul_36s_35ns_55_2_1_U1093(
+mul_36s_35ns_55_2_1_U1059(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_master_fix_Pipeline_Dense2_Loop_fu_1401_grp_fu_1870_p_din0),
@@ -1275,7 +1275,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
         grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg <= 1'b0;
     end else begin
-        if (((icmp_ln331_fu_1511_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state24))) begin
+        if (((icmp_ln335_fu_1511_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state24))) begin
             grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg <= 1'b1;
         end else if ((grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_ready == 1'b1)) begin
             grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg <= 1'b0;
@@ -1286,8 +1286,8 @@ end
 always @ (posedge ap_clk) begin
     if (((ap_start == 1'b1) & (1'b1 == ap_CS_fsm_state1))) begin
         i_fu_634 <= 3'd0;
-    end else if (((icmp_ln331_fu_1511_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state24))) begin
-        i_fu_634 <= add_ln331_fu_1517_p2;
+    end else if (((icmp_ln335_fu_1511_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state24))) begin
+        i_fu_634 <= add_ln335_fu_1517_p2;
     end
 end
 
@@ -1356,7 +1356,7 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b1 == ap_CS_fsm_state43) | ((icmp_ln331_fu_1511_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state24)))) begin
+    if (((1'b1 == ap_CS_fsm_state43) | ((icmp_ln335_fu_1511_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state24)))) begin
         reg_1464 <= sum_fu_630;
     end
 end
@@ -1374,7 +1374,7 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((icmp_ln331_fu_1511_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state24))) begin
+    if (((icmp_ln335_fu_1511_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state24))) begin
         tmp_s_reg_1795 <= tmp_s_fu_1527_p6;
     end
 end
@@ -2137,7 +2137,7 @@ always @ (*) begin
             ap_NS_fsm = ap_ST_fsm_state24;
         end
         ap_ST_fsm_state24 : begin
-            if (((icmp_ln331_fu_1511_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state24))) begin
+            if (((icmp_ln335_fu_1511_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state24))) begin
                 ap_NS_fsm = ap_ST_fsm_state51;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state25;
@@ -2234,7 +2234,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln331_fu_1517_p2 = (i_fu_634 + 3'd1);
+assign add_ln335_fu_1517_p2 = (i_fu_634 + 3'd1);
 
 assign ap_CS_fsm_state1 = ap_CS_fsm[32'd0];
 
@@ -2310,7 +2310,7 @@ assign grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939_ap_
 
 assign grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start = grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg;
 
-assign icmp_ln331_fu_1511_p2 = ((i_fu_634 == 3'd4) ? 1'b1 : 1'b0);
+assign icmp_ln335_fu_1511_p2 = ((i_fu_634 == 3'd4) ? 1'b1 : 1'b0);
 
 assign input_r_address0 = grp_convolution1_fix_fu_827_input_r_address0;
 

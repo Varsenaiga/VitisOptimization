@@ -30,7 +30,7 @@ end;
 architecture behav of master_fix is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "master_fix_master_fix,hls_ip_2021_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020-clg400-1,HLS_INPUT_CLOCK=10.410000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=7.574250,HLS_SYN_LAT=6139,HLS_SYN_TPT=none,HLS_SYN_MEM=50,HLS_SYN_DSP=0,HLS_SYN_FF=128632,HLS_SYN_LUT=76759,HLS_VERSION=2021_1}";
+    "master_fix_master_fix,hls_ip_2021_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020-clg400-1,HLS_INPUT_CLOCK=10.370000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=7.561300,HLS_SYN_LAT=6140,HLS_SYN_TPT=none,HLS_SYN_MEM=50,HLS_SYN_DSP=0,HLS_SYN_FF=128428,HLS_SYN_LUT=75852,HLS_VERSION=2021_1}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (50 downto 0) := "000000000000000000000000000000000000000000000000001";
@@ -144,7 +144,7 @@ architecture behav of master_fix is
     signal reg_1464 : STD_LOGIC_VECTOR (63 downto 0);
     signal ap_CS_fsm_state24 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state24 : signal is "none";
-    signal icmp_ln331_fu_1511_p2 : STD_LOGIC_VECTOR (0 downto 0);
+    signal icmp_ln335_fu_1511_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_CS_fsm_state43 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state43 : signal is "none";
     signal ap_CS_fsm_state11 : STD_LOGIC;
@@ -457,7 +457,7 @@ architecture behav of master_fix is
     signal ap_CS_fsm_state50 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state50 : signal is "none";
     signal i_fu_634 : STD_LOGIC_VECTOR (2 downto 0);
-    signal add_ln331_fu_1517_p2 : STD_LOGIC_VECTOR (2 downto 0);
+    signal add_ln335_fu_1517_p2 : STD_LOGIC_VECTOR (2 downto 0);
     signal grp_fu_1454_p1 : STD_LOGIC_VECTOR (63 downto 0);
     signal ap_CS_fsm_state25 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state25 : signal is "none";
@@ -701,22 +701,22 @@ architecture behav of master_fix is
         ap_done : OUT STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
+        zext_ln314 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_1 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_2 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_3 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_4 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_5 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_6 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_7 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_8 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_9 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_10 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_11 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_12 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_13 : IN STD_LOGIC_VECTOR (34 downto 0);
+        zext_ln314_14 : IN STD_LOGIC_VECTOR (34 downto 0);
         zext_ln310 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_1 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_2 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_3 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_4 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_5 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_6 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_7 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_8 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_9 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_10 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_11 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_12 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_13 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln310_14 : IN STD_LOGIC_VECTOR (34 downto 0);
-        zext_ln306 : IN STD_LOGIC_VECTOR (34 downto 0);
         den2_V_0_3_08_out : OUT STD_LOGIC_VECTOR (35 downto 0);
         den2_V_0_3_08_out_ap_vld : OUT STD_LOGIC;
         den2_V_0_2_07_out : OUT STD_LOGIC_VECTOR (35 downto 0);
@@ -1318,22 +1318,22 @@ begin
         ap_done => grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_done,
         ap_idle => grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_idle,
         ap_ready => grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_ready,
-        zext_ln310 => den1_0_load_reg_1618,
-        zext_ln310_1 => den1_0_load_1_reg_1623,
-        zext_ln310_2 => den1_0_load_2_reg_1638,
-        zext_ln310_3 => den1_0_load_3_reg_1643,
-        zext_ln310_4 => den1_0_load_4_reg_1658,
-        zext_ln310_5 => den1_0_load_5_reg_1663,
-        zext_ln310_6 => den1_0_load_6_reg_1678,
-        zext_ln310_7 => den1_0_load_7_reg_1683,
-        zext_ln310_8 => den1_0_load_8_reg_1698,
-        zext_ln310_9 => den1_0_load_9_reg_1703,
-        zext_ln310_10 => den1_0_load_10_reg_1718,
-        zext_ln310_11 => den1_0_load_11_reg_1723,
-        zext_ln310_12 => den1_0_load_12_reg_1738,
-        zext_ln310_13 => den1_0_load_13_reg_1743,
-        zext_ln310_14 => den1_0_load_14_reg_1758,
-        zext_ln306 => den1_0_load_15_reg_1763,
+        zext_ln314 => den1_0_load_reg_1618,
+        zext_ln314_1 => den1_0_load_1_reg_1623,
+        zext_ln314_2 => den1_0_load_2_reg_1638,
+        zext_ln314_3 => den1_0_load_3_reg_1643,
+        zext_ln314_4 => den1_0_load_4_reg_1658,
+        zext_ln314_5 => den1_0_load_5_reg_1663,
+        zext_ln314_6 => den1_0_load_6_reg_1678,
+        zext_ln314_7 => den1_0_load_7_reg_1683,
+        zext_ln314_8 => den1_0_load_8_reg_1698,
+        zext_ln314_9 => den1_0_load_9_reg_1703,
+        zext_ln314_10 => den1_0_load_10_reg_1718,
+        zext_ln314_11 => den1_0_load_11_reg_1723,
+        zext_ln314_12 => den1_0_load_12_reg_1738,
+        zext_ln314_13 => den1_0_load_13_reg_1743,
+        zext_ln314_14 => den1_0_load_14_reg_1758,
+        zext_ln310 => den1_0_load_15_reg_1763,
         den2_V_0_3_08_out => grp_master_fix_Pipeline_Dense2_Loop_fu_1401_den2_V_0_3_08_out,
         den2_V_0_3_08_out_ap_vld => grp_master_fix_Pipeline_Dense2_Loop_fu_1401_den2_V_0_3_08_out_ap_vld,
         den2_V_0_2_07_out => grp_master_fix_Pipeline_Dense2_Loop_fu_1401_den2_V_0_2_07_out,
@@ -1450,7 +1450,7 @@ begin
         grp_fu_1454_p_dout0 => grp_fu_1454_p2,
         grp_fu_1454_p_ce => grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_grp_fu_1454_p_ce);
 
-    dadd_64ns_64ns_64_7_full_dsp_1_U1075 : component master_fix_dadd_64ns_64ns_64_7_full_dsp_1
+    dadd_64ns_64ns_64_7_full_dsp_1_U1041 : component master_fix_dadd_64ns_64ns_64_7_full_dsp_1
     generic map (
         ID => 1,
         NUM_STAGE => 7,
@@ -1465,7 +1465,7 @@ begin
         ce => ap_const_logic_1,
         dout => grp_fu_1450_p2);
 
-    dexp_64ns_64ns_64_18_full_dsp_1_U1076 : component master_fix_dexp_64ns_64ns_64_18_full_dsp_1
+    dexp_64ns_64ns_64_18_full_dsp_1_U1042 : component master_fix_dexp_64ns_64ns_64_18_full_dsp_1
     generic map (
         ID => 1,
         NUM_STAGE => 18,
@@ -1480,7 +1480,7 @@ begin
         ce => grp_fu_1454_ce,
         dout => grp_fu_1454_p2);
 
-    mux_42_64_1_1_U1077 : component master_fix_mux_42_64_1_1
+    mux_42_64_1_1_U1043 : component master_fix_mux_42_64_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1498,7 +1498,7 @@ begin
         din4 => tmp_s_fu_1527_p5,
         dout => tmp_s_fu_1527_p6);
 
-    mul_36s_35ns_55_2_1_U1078 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1044 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1513,7 +1513,7 @@ begin
         ce => grp_fu_1810_ce,
         dout => grp_fu_1810_p2);
 
-    mul_36s_35ns_55_2_1_U1079 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1045 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1528,7 +1528,7 @@ begin
         ce => grp_fu_1814_ce,
         dout => grp_fu_1814_p2);
 
-    mul_36s_35ns_55_2_1_U1080 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1046 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1543,7 +1543,7 @@ begin
         ce => grp_fu_1818_ce,
         dout => grp_fu_1818_p2);
 
-    mul_36s_35ns_55_2_1_U1081 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1047 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1558,7 +1558,7 @@ begin
         ce => grp_fu_1822_ce,
         dout => grp_fu_1822_p2);
 
-    mul_36s_35ns_55_2_1_U1082 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1048 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1573,7 +1573,7 @@ begin
         ce => grp_fu_1826_ce,
         dout => grp_fu_1826_p2);
 
-    mul_36s_35ns_55_2_1_U1083 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1049 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1588,7 +1588,7 @@ begin
         ce => grp_fu_1830_ce,
         dout => grp_fu_1830_p2);
 
-    mul_36s_35ns_55_2_1_U1084 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1050 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1603,7 +1603,7 @@ begin
         ce => grp_fu_1834_ce,
         dout => grp_fu_1834_p2);
 
-    mul_36s_35ns_55_2_1_U1085 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1051 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1618,7 +1618,7 @@ begin
         ce => grp_fu_1838_ce,
         dout => grp_fu_1838_p2);
 
-    mul_36s_35ns_55_2_1_U1086 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1052 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1633,7 +1633,7 @@ begin
         ce => grp_fu_1842_ce,
         dout => grp_fu_1842_p2);
 
-    mul_36s_35ns_55_2_1_U1087 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1053 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1648,7 +1648,7 @@ begin
         ce => grp_fu_1846_ce,
         dout => grp_fu_1846_p2);
 
-    mul_36s_35ns_55_2_1_U1088 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1054 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1663,7 +1663,7 @@ begin
         ce => grp_fu_1850_ce,
         dout => grp_fu_1850_p2);
 
-    mul_36s_35ns_55_2_1_U1089 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1055 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1678,7 +1678,7 @@ begin
         ce => grp_fu_1854_ce,
         dout => grp_fu_1854_p2);
 
-    mul_36s_35ns_55_2_1_U1090 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1056 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1693,7 +1693,7 @@ begin
         ce => grp_fu_1858_ce,
         dout => grp_fu_1858_p2);
 
-    mul_36s_35ns_55_2_1_U1091 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1057 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1708,7 +1708,7 @@ begin
         ce => grp_fu_1862_ce,
         dout => grp_fu_1862_p2);
 
-    mul_36s_35ns_55_2_1_U1092 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1058 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1723,7 +1723,7 @@ begin
         ce => grp_fu_1866_ce,
         dout => grp_fu_1866_p2);
 
-    mul_36s_35ns_55_2_1_U1093 : component master_fix_mul_36s_35ns_55_2_1
+    mul_36s_35ns_55_2_1_U1059 : component master_fix_mul_36s_35ns_55_2_1
     generic map (
         ID => 1,
         NUM_STAGE => 2,
@@ -1872,7 +1872,7 @@ begin
             if (ap_rst = '1') then
                 grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg <= ap_const_logic_0;
             else
-                if (((icmp_ln331_fu_1511_p2 = ap_const_lv1_1) and (ap_const_logic_1 = ap_CS_fsm_state24))) then 
+                if (((icmp_ln335_fu_1511_p2 = ap_const_lv1_1) and (ap_const_logic_1 = ap_CS_fsm_state24))) then 
                     grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg <= ap_const_logic_1;
                 elsif ((grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_ready = ap_const_logic_1)) then 
                     grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg <= ap_const_logic_0;
@@ -1887,8 +1887,8 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
                 i_fu_634 <= ap_const_lv3_0;
-            elsif (((icmp_ln331_fu_1511_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state24))) then 
-                i_fu_634 <= add_ln331_fu_1517_p2;
+            elsif (((icmp_ln335_fu_1511_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state24))) then 
+                i_fu_634 <= add_ln335_fu_1517_p2;
             end if; 
         end if;
     end process;
@@ -1978,7 +1978,7 @@ begin
     process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if (((ap_const_logic_1 = ap_CS_fsm_state43) or ((icmp_ln331_fu_1511_p2 = ap_const_lv1_1) and (ap_const_logic_1 = ap_CS_fsm_state24)))) then
+            if (((ap_const_logic_1 = ap_CS_fsm_state43) or ((icmp_ln335_fu_1511_p2 = ap_const_lv1_1) and (ap_const_logic_1 = ap_CS_fsm_state24)))) then
                 reg_1464 <= sum_fu_630;
             end if;
         end if;
@@ -2002,13 +2002,13 @@ begin
     process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if (((icmp_ln331_fu_1511_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state24))) then
+            if (((icmp_ln335_fu_1511_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state24))) then
                 tmp_s_reg_1795 <= tmp_s_fu_1527_p6;
             end if;
         end if;
     end process;
 
-    ap_NS_fsm_assign_proc : process (ap_start, ap_CS_fsm, ap_CS_fsm_state1, ap_CS_fsm_state24, icmp_ln331_fu_1511_p2, grp_convolution1_fix_fu_827_ap_done, grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861_ap_done, grp_convolution2_fix_fu_867_ap_done, grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939_ap_done, grp_dense1_fix_fu_945_ap_done, grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_done, grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427_ap_done, grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_done, ap_CS_fsm_state2, ap_CS_fsm_state4, ap_CS_fsm_state6, ap_CS_fsm_state8, ap_CS_fsm_state10, ap_CS_fsm_state20, ap_CS_fsm_state22, ap_CS_fsm_state51)
+    ap_NS_fsm_assign_proc : process (ap_start, ap_CS_fsm, ap_CS_fsm_state1, ap_CS_fsm_state24, icmp_ln335_fu_1511_p2, grp_convolution1_fix_fu_827_ap_done, grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861_ap_done, grp_convolution2_fix_fu_867_ap_done, grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939_ap_done, grp_dense1_fix_fu_945_ap_done, grp_master_fix_Pipeline_Dense2_Loop_fu_1401_ap_done, grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427_ap_done, grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_done, ap_CS_fsm_state2, ap_CS_fsm_state4, ap_CS_fsm_state6, ap_CS_fsm_state8, ap_CS_fsm_state10, ap_CS_fsm_state20, ap_CS_fsm_state22, ap_CS_fsm_state51)
     begin
         case ap_CS_fsm is
             when ap_ST_fsm_state1 => 
@@ -2090,7 +2090,7 @@ begin
             when ap_ST_fsm_state23 => 
                 ap_NS_fsm <= ap_ST_fsm_state24;
             when ap_ST_fsm_state24 => 
-                if (((icmp_ln331_fu_1511_p2 = ap_const_lv1_1) and (ap_const_logic_1 = ap_CS_fsm_state24))) then
+                if (((icmp_ln335_fu_1511_p2 = ap_const_lv1_1) and (ap_const_logic_1 = ap_CS_fsm_state24))) then
                     ap_NS_fsm <= ap_ST_fsm_state51;
                 else
                     ap_NS_fsm <= ap_ST_fsm_state25;
@@ -2157,7 +2157,7 @@ begin
                 ap_NS_fsm <= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         end case;
     end process;
-    add_ln331_fu_1517_p2 <= std_logic_vector(unsigned(i_fu_634) + unsigned(ap_const_lv3_1));
+    add_ln335_fu_1517_p2 <= std_logic_vector(unsigned(i_fu_634) + unsigned(ap_const_lv3_1));
     ap_CS_fsm_state1 <= ap_CS_fsm(0);
     ap_CS_fsm_state10 <= ap_CS_fsm(9);
     ap_CS_fsm_state11 <= ap_CS_fsm(10);
@@ -2709,7 +2709,7 @@ begin
     grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861_ap_start <= grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861_ap_start_reg;
     grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939_ap_start <= grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939_ap_start_reg;
     grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start <= grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439_ap_start_reg;
-    icmp_ln331_fu_1511_p2 <= "1" when (i_fu_634 = ap_const_lv3_4) else "0";
+    icmp_ln335_fu_1511_p2 <= "1" when (i_fu_634 = ap_const_lv3_4) else "0";
     input_r_address0 <= grp_convolution1_fix_fu_827_input_r_address0;
     input_r_ce0 <= grp_convolution1_fix_fu_827_input_r_ce0;
 

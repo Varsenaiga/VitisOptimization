@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>dense1_fix</TopModelName>
-<TargetClockPeriod>10.41</TargetClockPeriod>
-<ClockUncertainty>2.81</ClockUncertainty>
+<TargetClockPeriod>10.37</TargetClockPeriod>
+<ClockUncertainty>2.80</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -25,9 +25,9 @@
 <Best-caseLatency>358</Best-caseLatency>
 <Average-caseLatency>358</Average-caseLatency>
 <Worst-caseLatency>358</Worst-caseLatency>
-<Best-caseRealTimeLatency>3.727 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>3.727 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>3.727 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>3.712 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>3.712 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>3.712 us</Worst-caseRealTimeLatency>
 <Interval-min>358</Interval-min>
 <Interval-max>358</Interval-max>
 </SummaryOfOverallLatency>

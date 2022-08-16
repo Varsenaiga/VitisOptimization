@@ -41,6 +41,7 @@ Convolution1_loop:
 
     	Two_Col_Shift_Conv1_Loop:
 			for (r = 0; r < 3; r++) {		// Shift the last 2 columns up 1 row
+				#pragma HLS UNROLL
     			tmp1[3*r+1] = tmp1[3*r+4];
     			tmp1[3*r+2] = tmp1[3*r+5];
     		}
@@ -52,6 +53,7 @@ Convolution1_loop:
 
     		Load_Kernel_Conv1_Loop:
 				for (r = 0; r < 12; r++) {		// Load the new kernel and bias
+					#pragma HLS UNROLL
     		    	kj = (r) % DATA_SIZE;
     		    	if(kj == 0) ki = (ki+1)%BATCH;
 
@@ -65,6 +67,7 @@ Convolution1_loop:
 
         One_Col_Shift_Conv1_Loop:
 			for (r = 0; r < 3; r++) {			// Shift 1st column up 1 row
+				#pragma HLS UNROLL
     			tmp1[3*r] = tmp1[3*r+3];
     		}
     	}
@@ -111,6 +114,7 @@ Convolution1_loop:
 
 	Operations_Conv1_Loop:
 		for (r = 0; r < 12; r++) {
+			#pragma HLS UNROLL
 			num += tmp2[r] * kr[r];
 			tmp2[r] = 0;
 		}

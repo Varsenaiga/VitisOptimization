@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>convolution2_fix_Pipeline_Convolution2_loop</TopModelName>
-<TargetClockPeriod>10.41</TargetClockPeriod>
-<ClockUncertainty>2.81</ClockUncertainty>
+<TargetClockPeriod>10.37</TargetClockPeriod>
+<ClockUncertainty>2.80</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -25,9 +25,9 @@
 <Best-caseLatency>709</Best-caseLatency>
 <Average-caseLatency>709</Average-caseLatency>
 <Worst-caseLatency>709</Worst-caseLatency>
-<Best-caseRealTimeLatency>7.381 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>7.381 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>7.381 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>7.352 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.352 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.352 us</Worst-caseRealTimeLatency>
 <Interval-min>709</Interval-min>
 <Interval-max>709</Interval-max>
 </SummaryOfOverallLatency>
@@ -35,7 +35,7 @@
 <Convolution2_loop>
 <TripCount>672</TripCount>
 <Latency>707</Latency>
-<AbsoluteTimeLatency>7359</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>7331</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>37</PipelineDepth>
 </Convolution2_loop>

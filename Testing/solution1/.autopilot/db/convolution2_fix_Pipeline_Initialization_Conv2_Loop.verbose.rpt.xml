@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix_Pipeline_Initialization_Conv2_Loop'" level="0">
-<item name = "Date">Sat Aug 13 15:04:58 2022
+<item name = "Date">Mon Aug 15 20:11:29 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.41 ns, 6.136 ns, 2.81 ns</column>
+<column name="ap_clk">10.37 ns, 6.136 ns, 2.80 ns</column>
 </table>
 </item>
 </section>
@@ -62,38 +62,38 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mux_164_36_1_1_U97">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U98">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U99">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U100">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U101">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U102">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U103">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_164_36_1_1_U104">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
-<column name="mux_325_36_1_1_U105">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U106">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U107">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U108">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U109">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U110">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U111">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U112">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U113">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U114">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U115">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U116">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U117">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U118">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U119">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U120">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U121">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U122">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U123">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U124">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U125">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U126">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U127">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
-<column name="mux_325_36_1_1_U128">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_164_36_1_1_U63">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U64">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U65">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U66">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U67">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U68">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U69">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_164_36_1_1_U70">mux_164_36_1_1, 0, 0, 0, 65, 0</column>
+<column name="mux_325_36_1_1_U71">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U72">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U73">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U74">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U75">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U76">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U77">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U78">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U79">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U80">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U81">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U82">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U83">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U84">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U85">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U86">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U87">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U88">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U89">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U90">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U91">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U92">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U93">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
+<column name="mux_325_36_1_1_U94">mux_325_36_1_1, 0, 0, 0, 142, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -110,10 +110,10 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln135_fu_742_p2">+, 0, 0, 13, 5, 1</column>
-<column name="add_ln137_fu_785_p2">+, 0, 0, 23, 16, 1</column>
-<column name="icmp_ln135_fu_736_p2">icmp, 0, 0, 10, 5, 6</column>
-<column name="icmp_ln137_fu_779_p2">icmp, 0, 0, 8, 3, 1</column>
+<column name="add_ln139_fu_742_p2">+, 0, 0, 13, 5, 1</column>
+<column name="add_ln141_fu_785_p2">+, 0, 0, 23, 16, 1</column>
+<column name="icmp_ln139_fu_736_p2">icmp, 0, 0, 10, 5, 6</column>
+<column name="icmp_ln141_fu_779_p2">icmp, 0, 0, 8, 3, 1</column>
 <column name="i_4_fu_791_p3">select, 0, 0, 16, 1, 16</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>

@@ -9,8 +9,8 @@
 <ProductFamily>zynq</ProductFamily>
 <Part>xc7z020-clg400-1</Part>
 <TopModelName>master_fix_Pipeline_Operations_SoftMax_Loop</TopModelName>
-<TargetClockPeriod>10.41</TargetClockPeriod>
-<ClockUncertainty>2.81</ClockUncertainty>
+<TargetClockPeriod>10.37</TargetClockPeriod>
+<ClockUncertainty>2.80</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -25,9 +25,9 @@
 <Best-caseLatency>84</Best-caseLatency>
 <Average-caseLatency>84</Average-caseLatency>
 <Worst-caseLatency>84</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.874 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.874 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.874 us</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>0.871 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.871 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.871 us</Worst-caseRealTimeLatency>
 <Interval-min>84</Interval-min>
 <Interval-max>84</Interval-max>
 </SummaryOfOverallLatency>
@@ -35,7 +35,7 @@
 <Operations_SoftMax_Loop>
 <TripCount>4</TripCount>
 <Latency>82</Latency>
-<AbsoluteTimeLatency>853</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>850</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>80</PipelineDepth>
 </Operations_SoftMax_Loop>

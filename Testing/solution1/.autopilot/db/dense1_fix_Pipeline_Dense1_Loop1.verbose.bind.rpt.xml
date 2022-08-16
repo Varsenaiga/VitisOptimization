@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dense1_fix_Pipeline_Dense1_Loop1'" level="0">
-<item name = "Date">Sat Aug 13 15:04:30 2022
+<item name = "Date">Mon Aug 15 20:10:59 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.41 ns, 6.981 ns, 2.81 ns</column>
+<column name="ap_clk">10.37 ns, 6.981 ns, 2.80 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">245, 245, 2.550 us, 2.550 us, 245, 245, no</column>
+<column name="">245, 245, 2.541 us, 2.541 us, 245, 245, no</column>
 </table>
 </item>
 <item name = "Detail">

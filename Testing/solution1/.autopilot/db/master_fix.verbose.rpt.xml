@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix'" level="0">
-<item name = "Date">Sat Aug 13 15:05:47 2022
+<item name = "Date">Mon Aug 15 20:12:20 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.41 ns, 7.574 ns, 2.81 ns</column>
+<column name="ap_clk">10.37 ns, 7.561 ns, 2.80 ns</column>
 </table>
 </item>
 </section>
@@ -24,21 +24,21 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">6139, 6139, 63.907 us, 63.907 us, 6140, 6140, no</column>
+<column name="">6140, 6140, 63.672 us, 63.672 us, 6141, 6141, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_convolution1_fix_fu_827">convolution1_fix, 3097, 3097, 32.240 us, 32.240 us, 3097, 3097, no</column>
-<column name="grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861">master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2, 1022, 1022, 10.639 us, 10.639 us, 1022, 1022, no</column>
-<column name="grp_convolution2_fix_fu_867">convolution2_fix, 730, 730, 7.599 us, 7.599 us, 730, 730, no</column>
-<column name="grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939">master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop, 684, 684, 7.120 us, 7.120 us, 684, 684, no</column>
-<column name="grp_dense1_fix_fu_945">dense1_fix, 358, 358, 3.727 us, 3.727 us, 358, 358, no</column>
+<column name="grp_convolution1_fix_fu_827">convolution1_fix, 3097, 3097, 32.116 us, 32.116 us, 3097, 3097, no</column>
+<column name="grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861">master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2, 1022, 1022, 10.598 us, 10.598 us, 1022, 1022, no</column>
+<column name="grp_convolution2_fix_fu_867">convolution2_fix, 730, 730, 7.570 us, 7.570 us, 730, 730, no</column>
+<column name="grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939">master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop, 684, 684, 7.093 us, 7.093 us, 684, 684, no</column>
+<column name="grp_dense1_fix_fu_945">dense1_fix, 358, 358, 3.712 us, 3.712 us, 358, 358, no</column>
 <column name="grp_master_fix_Pipeline_Dense2_Loop_fu_1401">master_fix_Pipeline_Dense2_Loop, 23, 23, 0.239 us, 0.239 us, 23, 23, no</column>
-<column name="grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427">master_fix_Pipeline_Initialization_SoftMax_Loop, 9, 9, 93.690 ns, 93.690 ns, 9, 9, no</column>
-<column name="grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439">master_fix_Pipeline_Operations_SoftMax_Loop, 84, 84, 0.874 us, 0.874 us, 84, 84, no</column>
+<column name="grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427">master_fix_Pipeline_Initialization_SoftMax_Loop, 10, 10, 0.104 us, 0.104 us, 10, 10, no</column>
+<column name="grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439">master_fix_Pipeline_Operations_SoftMax_Loop, 84, 84, 0.871 us, 0.871 us, 84, 84, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -58,45 +58,45 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 20, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">0, 693, 127620, 75886, -</column>
+<column name="Instance">0, 693, 127416, 74979, -</column>
 <column name="Memory">50, -, 70, 9, 0</column>
 <column name="Multiplexer">-, -, -, 844, -</column>
 <column name="Register">-, -, 942, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
-<specialColumn name="Utilization (%)">17, 315, 120, 144, 0</specialColumn>
+<specialColumn name="Utilization (%)">17, 315, 120, 142, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_convolution1_fix_fu_827">convolution1_fix, 0, 24, 5543, 4968, 0</column>
+<column name="grp_convolution1_fix_fu_827">convolution1_fix, 0, 24, 5278, 4029, 0</column>
 <column name="grp_convolution2_fix_fu_867">convolution2_fix, 0, 128, 20039, 14422, 0</column>
-<column name="dadd_64ns_64ns_64_7_full_dsp_1_U1075">dadd_64ns_64ns_64_7_full_dsp_1, 0, 3, 630, 1141, 0</column>
+<column name="dadd_64ns_64ns_64_7_full_dsp_1_U1041">dadd_64ns_64ns_64_7_full_dsp_1, 0, 3, 630, 1141, 0</column>
 <column name="grp_dense1_fix_fu_945">dense1_fix, 0, 448, 91088, 45796, 0</column>
-<column name="dexp_64ns_64ns_64_18_full_dsp_1_U1076">dexp_64ns_64ns_64_18_full_dsp_1, 0, 26, 1549, 2599, 0</column>
+<column name="dexp_64ns_64ns_64_18_full_dsp_1_U1042">dexp_64ns_64ns_64_18_full_dsp_1, 0, 26, 1549, 2599, 0</column>
 <column name="grp_master_fix_Pipeline_Dense2_Loop_fu_1401">master_fix_Pipeline_Dense2_Loop, 0, 0, 3159, 2414, 0</column>
-<column name="grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427">master_fix_Pipeline_Initialization_SoftMax_Loop, 0, 0, 853, 1883, 0</column>
+<column name="grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427">master_fix_Pipeline_Initialization_SoftMax_Loop, 0, 0, 914, 1915, 0</column>
 <column name="grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861">master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2, 0, 0, 705, 727, 0</column>
 <column name="grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939">master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop, 0, 0, 401, 446, 0</column>
 <column name="grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439">master_fix_Pipeline_Operations_SoftMax_Loop, 0, 0, 421, 110, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1078">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1079">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1080">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1081">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1082">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1083">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1084">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1085">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1086">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1087">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1088">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1089">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1090">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1091">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1092">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mul_36s_35ns_55_2_1_U1093">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
-<column name="mux_42_64_1_1_U1077">mux_42_64_1_1, 0, 0, 0, 20, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1044">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1045">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1046">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1047">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1048">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1049">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1050">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1051">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1052">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1053">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1054">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1055">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1056">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1057">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1058">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mul_36s_35ns_55_2_1_U1059">mul_36s_35ns_55_2_1, 0, 4, 202, 85, 0</column>
+<column name="mux_42_64_1_1_U1043">mux_42_64_1_1, 0, 0, 0, 20, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -118,8 +118,8 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln331_fu_1517_p2">+, 0, 0, 11, 3, 1</column>
-<column name="icmp_ln331_fu_1511_p2">icmp, 0, 0, 9, 3, 4</column>
+<column name="add_ln335_fu_1517_p2">+, 0, 0, 11, 3, 1</column>
+<column name="icmp_ln335_fu_1511_p2">icmp, 0, 0, 9, 3, 4</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">

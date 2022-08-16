@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 991
+set id 957
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -57,7 +57,7 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
-set id 993
+set id 959
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -108,7 +108,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 996
+set id 962
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -159,7 +159,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 998
+set id 964
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -210,7 +210,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 1002
+set id 968
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -261,7 +261,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 1004
+set id 970
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -312,7 +312,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 }
 
 
-set id 1010
+set id 976
 set name master_fix_mux_42_36_1_1
 set corename simcore_mux
 set op mux
@@ -373,7 +373,232 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1032 \
+    id 998 \
+    name zext_ln314 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314 \
+    op interface \
+    ports { zext_ln314 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 999 \
+    name zext_ln314_1 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_1 \
+    op interface \
+    ports { zext_ln314_1 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1000 \
+    name zext_ln314_2 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_2 \
+    op interface \
+    ports { zext_ln314_2 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1001 \
+    name zext_ln314_3 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_3 \
+    op interface \
+    ports { zext_ln314_3 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1002 \
+    name zext_ln314_4 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_4 \
+    op interface \
+    ports { zext_ln314_4 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1003 \
+    name zext_ln314_5 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_5 \
+    op interface \
+    ports { zext_ln314_5 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1004 \
+    name zext_ln314_6 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_6 \
+    op interface \
+    ports { zext_ln314_6 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1005 \
+    name zext_ln314_7 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_7 \
+    op interface \
+    ports { zext_ln314_7 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1006 \
+    name zext_ln314_8 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_8 \
+    op interface \
+    ports { zext_ln314_8 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1007 \
+    name zext_ln314_9 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_9 \
+    op interface \
+    ports { zext_ln314_9 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1008 \
+    name zext_ln314_10 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_10 \
+    op interface \
+    ports { zext_ln314_10 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1009 \
+    name zext_ln314_11 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_11 \
+    op interface \
+    ports { zext_ln314_11 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1010 \
+    name zext_ln314_12 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_12 \
+    op interface \
+    ports { zext_ln314_12 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1011 \
+    name zext_ln314_13 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_13 \
+    op interface \
+    ports { zext_ln314_13 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1012 \
+    name zext_ln314_14 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_zext_ln314_14 \
+    op interface \
+    ports { zext_ln314_14 { I 35 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1013 \
     name zext_ln310 \
     type other \
     dir I \
@@ -388,232 +613,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1033 \
-    name zext_ln310_1 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_1 \
-    op interface \
-    ports { zext_ln310_1 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1034 \
-    name zext_ln310_2 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_2 \
-    op interface \
-    ports { zext_ln310_2 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1035 \
-    name zext_ln310_3 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_3 \
-    op interface \
-    ports { zext_ln310_3 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1036 \
-    name zext_ln310_4 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_4 \
-    op interface \
-    ports { zext_ln310_4 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1037 \
-    name zext_ln310_5 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_5 \
-    op interface \
-    ports { zext_ln310_5 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1038 \
-    name zext_ln310_6 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_6 \
-    op interface \
-    ports { zext_ln310_6 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1039 \
-    name zext_ln310_7 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_7 \
-    op interface \
-    ports { zext_ln310_7 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1040 \
-    name zext_ln310_8 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_8 \
-    op interface \
-    ports { zext_ln310_8 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1041 \
-    name zext_ln310_9 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_9 \
-    op interface \
-    ports { zext_ln310_9 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1042 \
-    name zext_ln310_10 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_10 \
-    op interface \
-    ports { zext_ln310_10 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1043 \
-    name zext_ln310_11 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_11 \
-    op interface \
-    ports { zext_ln310_11 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1044 \
-    name zext_ln310_12 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_12 \
-    op interface \
-    ports { zext_ln310_12 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1045 \
-    name zext_ln310_13 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_13 \
-    op interface \
-    ports { zext_ln310_13 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1046 \
-    name zext_ln310_14 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln310_14 \
-    op interface \
-    ports { zext_ln310_14 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1047 \
-    name zext_ln306 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_zext_ln306 \
-    op interface \
-    ports { zext_ln306 { I 35 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 1048 \
+    id 1014 \
     name den2_V_0_3_08_out \
     type other \
     dir O \
@@ -628,7 +628,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1049 \
+    id 1015 \
     name den2_V_0_2_07_out \
     type other \
     dir O \
@@ -643,7 +643,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1050 \
+    id 1016 \
     name den2_V_0_1_06_out \
     type other \
     dir O \
@@ -658,7 +658,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1051 \
+    id 1017 \
     name den2_V_0_0_05_out \
     type other \
     dir O \

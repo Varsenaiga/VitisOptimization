@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2'" level="0">
-<item name = "Date">Sat Aug 13 15:04:57 2022
+<item name = "Date">Mon Aug 15 20:11:28 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.41 ns, 7.040 ns, 2.81 ns</column>
+<column name="ap_clk">10.37 ns, 7.040 ns, 2.80 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1022, 1022, 10.639 us, 10.639 us, 1022, 1022, no</column>
+<column name="">1022, 1022, 10.598 us, 10.598 us, 1022, 1022, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -62,8 +62,8 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_7ns_9ns_15_1_1_U92">mul_7ns_9ns_15_1_1, 0, 0, 0, 51, 0</column>
-<column name="urem_7ns_3ns_2_11_1_U91">urem_7ns_3ns_2_11_1, 0, 0, 162, 102, 0</column>
+<column name="mul_7ns_9ns_15_1_1_U58">mul_7ns_9ns_15_1_1, 0, 0, 0, 51, 0</column>
+<column name="urem_7ns_3ns_2_11_1_U57">urem_7ns_3ns_2_11_1, 0, 0, 162, 102, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -80,28 +80,28 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln235_1_fu_160_p2">+, 0, 0, 13, 10, 1</column>
-<column name="add_ln235_fu_172_p2">+, 0, 0, 13, 4, 1</column>
-<column name="add_ln237_fu_252_p2">+, 0, 0, 14, 7, 1</column>
-<column name="add_ln243_1_fu_289_p2">+, 0, 0, 12, 12, 4</column>
-<column name="add_ln243_2_fu_294_p2">+, 0, 0, 12, 12, 12</column>
-<column name="add_ln243_3_fu_305_p2">+, 0, 0, 12, 12, 5</column>
-<column name="add_ln243_4_fu_310_p2">+, 0, 0, 12, 12, 12</column>
-<column name="add_ln243_fu_279_p2">+, 0, 0, 12, 12, 12</column>
+<column name="add_ln239_1_fu_160_p2">+, 0, 0, 13, 10, 1</column>
+<column name="add_ln239_fu_172_p2">+, 0, 0, 13, 4, 1</column>
+<column name="add_ln241_fu_252_p2">+, 0, 0, 14, 7, 1</column>
+<column name="add_ln247_1_fu_289_p2">+, 0, 0, 12, 12, 4</column>
+<column name="add_ln247_2_fu_294_p2">+, 0, 0, 12, 12, 12</column>
+<column name="add_ln247_3_fu_305_p2">+, 0, 0, 12, 12, 5</column>
+<column name="add_ln247_4_fu_310_p2">+, 0, 0, 12, 12, 12</column>
+<column name="add_ln247_fu_279_p2">+, 0, 0, 12, 12, 12</column>
 <column name="empty_35_fu_328_p2">+, 0, 0, 14, 9, 9</column>
-<column name="sub_ln243_fu_220_p2">-, 0, 0, 12, 12, 12</column>
+<column name="sub_ln247_fu_220_p2">-, 0, 0, 12, 12, 12</column>
 <column name="icmp_ln1548_1_fu_366_p2">icmp, 0, 0, 19, 35, 35</column>
 <column name="icmp_ln1548_2_fu_376_p2">icmp, 0, 0, 19, 35, 35</column>
 <column name="icmp_ln1548_fu_354_p2">icmp, 0, 0, 19, 35, 35</column>
-<column name="icmp_ln235_fu_154_p2">icmp, 0, 0, 11, 10, 6</column>
-<column name="icmp_ln237_fu_178_p2">icmp, 0, 0, 10, 7, 3</column>
-<column name="icmp_ln238_fu_338_p2">icmp, 0, 0, 8, 2, 1</column>
-<column name="select_ln235_1_fu_192_p3">select, 0, 0, 4, 1, 4</column>
-<column name="select_ln235_fu_184_p3">select, 0, 0, 7, 1, 1</column>
-<column name="select_ln238_fu_347_p3">select, 0, 0, 35, 1, 1</column>
-<column name="select_ln244_1_fu_370_p3">select, 0, 0, 35, 1, 35</column>
-<column name="select_ln244_2_fu_381_p3">select, 0, 0, 35, 1, 35</column>
-<column name="select_ln244_fu_359_p3">select, 0, 0, 35, 1, 35</column>
+<column name="icmp_ln239_fu_154_p2">icmp, 0, 0, 11, 10, 6</column>
+<column name="icmp_ln241_fu_178_p2">icmp, 0, 0, 10, 7, 3</column>
+<column name="icmp_ln242_fu_338_p2">icmp, 0, 0, 8, 2, 1</column>
+<column name="select_ln239_1_fu_192_p3">select, 0, 0, 4, 1, 4</column>
+<column name="select_ln239_fu_184_p3">select, 0, 0, 7, 1, 1</column>
+<column name="select_ln242_fu_347_p3">select, 0, 0, 35, 1, 1</column>
+<column name="select_ln248_1_fu_370_p3">select, 0, 0, 35, 1, 35</column>
+<column name="select_ln248_2_fu_381_p3">select, 0, 0, 35, 1, 35</column>
+<column name="select_ln248_fu_359_p3">select, 0, 0, 35, 1, 35</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
@@ -154,12 +154,12 @@
 <column name="empty_35_reg_466">9, 0, 9, 0</column>
 <column name="empty_fu_70">35, 0, 35, 0</column>
 <column name="i_fu_74">7, 0, 7, 0</column>
-<column name="icmp_ln238_reg_489">1, 0, 1, 0</column>
+<column name="icmp_ln242_reg_489">1, 0, 1, 0</column>
 <column name="indvar_flatten_fu_82">10, 0, 10, 0</column>
-<column name="select_ln235_1_reg_433">4, 0, 4, 0</column>
-<column name="select_ln244_2_reg_500">35, 0, 35, 0</column>
-<column name="select_ln244_reg_494">35, 0, 35, 0</column>
-<column name="sub_ln243_reg_439">9, 0, 12, 3</column>
+<column name="select_ln239_1_reg_433">4, 0, 4, 0</column>
+<column name="select_ln248_2_reg_500">35, 0, 35, 0</column>
+<column name="select_ln248_reg_494">35, 0, 35, 0</column>
+<column name="sub_ln247_reg_439">9, 0, 12, 3</column>
 <column name="tmp_reg_446">6, 0, 6, 0</column>
 <column name="conv1_load_1_reg_477">64, 32, 35, 0</column>
 <column name="conv1_load_2_reg_483">64, 32, 35, 0</column>

@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'master_fix'
 ================================================================
 + General Information: 
-    * Date:           Sat Aug 13 15:05:56 2022
+    * Date:           Mon Aug 15 20:12:28 2022
     * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
     * Project:        Testing
     * Solution:       solution1 (Vivado IP Flow Target)
@@ -19,31 +19,31 @@
     |                                  Modules                                 | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |          |            |               |              |     |
     |                                  & Loops                                 | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|   BRAM   |     DSP    |       FF      |      LUT     | URAM|
     +--------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+------------+---------------+--------------+-----+
-    |+ master_fix                                                              |     -|  0.03|     6139|  6.391e+04|         -|     6140|     -|        no|  50 (17%)|  693 (315%)|  128632 (120%)|  76759 (144%)|    -|
-    | + grp_convolution1_fix_fu_827                                            |     -|  0.04|     3097|  3.224e+04|         -|     3097|     -|        no|         -|    24 (10%)|      5543 (5%)|     4968 (9%)|    -|
-    |  + grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_152        |     -|  0.65|        9|     93.690|         -|        9|     -|        no|         -|           -|      297 (~0%)|     1220 (2%)|    -|
-    |   o Initialization_Conv1_Loop                                            |     -|  7.60|        7|     72.870|         3|        1|     6|       yes|         -|           -|              -|             -|    -|
-    |  + grp_convolution1_fix_Pipeline_Convolution1_loop_fu_180                |     -|  0.04|     3083|  3.209e+04|         -|     3083|     -|        no|         -|    24 (10%)|      5226 (4%)|     3671 (6%)|    -|
-    |   o Convolution1_loop                                                    |     -|  7.60|     3081|  3.207e+04|        11|        1|  3072|       yes|         -|           -|              -|             -|    -|
-    | + grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861           |     -|  0.56|     1022|  1.064e+04|         -|     1022|     -|        no|         -|           -|      705 (~0%)|      727 (1%)|    -|
-    |  o MaxPool1_Loop1_MaxPool1_Loop2                                         |     -|  7.60|     1020|  1.062e+04|        14|        1|  1008|       yes|         -|           -|              -|             -|    -|
-    | + grp_convolution2_fix_fu_867                                            |     -|  0.13|      730|  7.599e+03|         -|      730|     -|        no|         -|   128 (58%)|    20039 (18%)|   14422 (27%)|    -|
-    |  + grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268        |     -|  1.46|       18|    187.380|         -|       18|     -|        no|         -|           -|      1740 (1%)|     4054 (7%)|    -|
-    |   o Initialization_Conv2_Loop                                            |     -|  7.60|       16|    166.560|         2|        1|    16|       yes|         -|           -|              -|             -|    -|
-    |  + grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322                |     -|  0.13|      709|  7.381e+03|         -|      709|     -|        no|         -|   128 (58%)|    18293 (17%)|   10180 (19%)|    -|
-    |   o Convolution2_loop                                                    |     -|  7.60|      707|  7.360e+03|        37|        1|   672|       yes|         -|           -|              -|             -|    -|
-    | + grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939  |     -|  0.83|      684|  7.120e+03|         -|      684|     -|        no|         -|           -|      401 (~0%)|     446 (~0%)|    -|
-    |  o MaxPool2_Loop_Operations_MaxPool2_Loop                                |     -|  7.60|      682|  7.100e+03|        12|        1|   672|       yes|         -|           -|              -|             -|    -|
-    | + grp_dense1_fix_fu_945                                                  |     -|  0.62|      358|  3.727e+03|         -|      358|     -|        no|         -|  448 (203%)|    91088 (85%)|   45796 (86%)|    -|
-    |  + grp_dense1_fix_Pipeline_Dense1_Loop1_fu_2929                          |     -|  0.62|      245|  2.550e+03|         -|      245|     -|        no|         -|  448 (203%)|    83133 (78%)|   44084 (82%)|    -|
-    |   o Dense1_Loop1                                                         |     -|  7.60|      243|  2.530e+03|       229|        1|    16|       yes|         -|           -|              -|             -|    -|
-    | + grp_master_fix_Pipeline_Dense2_Loop_fu_1401                            |     -|  0.69|       23|    239.430|         -|       23|     -|        no|         -|           -|      3159 (2%)|     2414 (4%)|    -|
-    |  o Dense2_Loop                                                           |     -|  7.60|       21|    218.610|        19|        1|     4|       yes|         -|           -|              -|             -|    -|
-    | + grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427            |     -|  0.03|        9|     93.690|         -|        9|     -|        no|         -|           -|      853 (~0%)|     1883 (3%)|    -|
-    |  o Initialization_SoftMax_Loop                                           |     -|  7.60|        7|     72.870|         5|        1|     4|       yes|         -|           -|              -|             -|    -|
-    | + grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439                |     -|  0.08|       84|    874.440|         -|       84|     -|        no|         -|           -|      421 (~0%)|     110 (~0%)|    -|
-    |  o Operations_SoftMax_Loop                                               |     -|  7.60|       82|    853.620|        80|        1|     4|       yes|         -|           -|              -|             -|    -|
-    | o Accumulation_SoftMax_Loop                                              |     -|  7.60|      108|  1.124e+03|        27|        -|     4|        no|         -|           -|              -|             -|    -|
+    |+ master_fix                                                              |     -|  0.01|     6140|  6.367e+04|         -|     6141|     -|        no|  50 (17%)|  693 (315%)|  128428 (120%)|  75852 (142%)|    -|
+    | + grp_convolution1_fix_fu_827                                            |     -|  0.01|     3097|  3.212e+04|         -|     3097|     -|        no|         -|    24 (10%)|      5278 (4%)|     4029 (7%)|    -|
+    |  + grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108        |     -|  0.62|        9|     93.330|         -|        9|     -|        no|         -|           -|      165 (~0%)|     492 (~0%)|    -|
+    |   o Initialization_Conv1_Loop                                            |     -|  7.57|        7|     72.590|         3|        1|     6|       yes|         -|           -|              -|             -|    -|
+    |  + grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125                |     -|  0.01|     3083|  3.197e+04|         -|     3083|     -|        no|         -|    24 (10%)|      5093 (4%)|     3460 (6%)|    -|
+    |   o Convolution1_loop                                                    |     -|  7.57|     3081|  3.195e+04|        11|        1|  3072|       yes|         -|           -|              -|             -|    -|
+    | + grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861           |     -|  0.53|     1022|  1.060e+04|         -|     1022|     -|        no|         -|           -|      705 (~0%)|      727 (1%)|    -|
+    |  o MaxPool1_Loop1_MaxPool1_Loop2                                         |     -|  7.57|     1020|  1.058e+04|        14|        1|  1008|       yes|         -|           -|              -|             -|    -|
+    | + grp_convolution2_fix_fu_867                                            |     -|  0.10|      730|  7.570e+03|         -|      730|     -|        no|         -|   128 (58%)|    20039 (18%)|   14422 (27%)|    -|
+    |  + grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268        |     -|  1.43|       18|    186.660|         -|       18|     -|        no|         -|           -|      1740 (1%)|     4054 (7%)|    -|
+    |   o Initialization_Conv2_Loop                                            |     -|  7.57|       16|    165.920|         2|        1|    16|       yes|         -|           -|              -|             -|    -|
+    |  + grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322                |     -|  0.10|      709|  7.352e+03|         -|      709|     -|        no|         -|   128 (58%)|    18293 (17%)|   10180 (19%)|    -|
+    |   o Convolution2_loop                                                    |     -|  7.57|      707|  7.332e+03|        37|        1|   672|       yes|         -|           -|              -|             -|    -|
+    | + grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939  |     -|  0.80|      684|  7.093e+03|         -|      684|     -|        no|         -|           -|      401 (~0%)|     446 (~0%)|    -|
+    |  o MaxPool2_Loop_Operations_MaxPool2_Loop                                |     -|  7.57|      682|  7.072e+03|        12|        1|   672|       yes|         -|           -|              -|             -|    -|
+    | + grp_dense1_fix_fu_945                                                  |     -|  0.59|      358|  3.712e+03|         -|      358|     -|        no|         -|  448 (203%)|    91088 (85%)|   45796 (86%)|    -|
+    |  + grp_dense1_fix_Pipeline_Dense1_Loop1_fu_2929                          |     -|  0.59|      245|  2.541e+03|         -|      245|     -|        no|         -|  448 (203%)|    83133 (78%)|   44084 (82%)|    -|
+    |   o Dense1_Loop1                                                         |     -|  7.57|      243|  2.520e+03|       229|        1|    16|       yes|         -|           -|              -|             -|    -|
+    | + grp_master_fix_Pipeline_Dense2_Loop_fu_1401                            |     -|  0.66|       23|    238.510|         -|       23|     -|        no|         -|           -|      3159 (2%)|     2414 (4%)|    -|
+    |  o Dense2_Loop                                                           |     -|  7.57|       21|    217.770|        19|        1|     4|       yes|         -|           -|              -|             -|    -|
+    | + grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427            |     -|  0.49|       10|    103.700|         -|       10|     -|        no|         -|           -|      914 (~0%)|     1915 (3%)|    -|
+    |  o Initialization_SoftMax_Loop                                           |     -|  7.57|        8|     82.960|         6|        1|     4|       yes|         -|           -|              -|             -|    -|
+    | + grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439                |     -|  0.05|       84|    871.080|         -|       84|     -|        no|         -|           -|      421 (~0%)|     110 (~0%)|    -|
+    |  o Operations_SoftMax_Loop                                               |     -|  7.57|       82|    850.340|        80|        1|     4|       yes|         -|           -|              -|             -|    -|
+    | o Accumulation_SoftMax_Loop                                              |     -|  7.57|      108|  1.120e+03|        27|        -|     4|        no|         -|           -|              -|             -|    -|
     +--------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+------------+---------------+--------------+-----+
 
 

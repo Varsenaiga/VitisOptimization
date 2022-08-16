@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix_Pipeline_Initialization_SoftMax_Loop'" level="0">
-<item name = "Date">Sat Aug 13 15:04:43 2022
+<item name = "Date">Mon Aug 15 20:11:13 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.41 ns, 7.574 ns, 2.81 ns</column>
+<column name="ap_clk">10.37 ns, 7.080 ns, 2.80 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">9, 9, 93.690 ns, 93.690 ns, 9, 9, no</column>
+<column name="">10, 10, 0.104 us, 0.104 us, 10, 10, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Initialization_SoftMax_Loop">7, 7, 5, 1, 1, 4, yes</column>
+<column name="- Initialization_SoftMax_Loop">8, 8, 6, 1, 1, 4, yes</column>
 </table>
 </item>
 </section>

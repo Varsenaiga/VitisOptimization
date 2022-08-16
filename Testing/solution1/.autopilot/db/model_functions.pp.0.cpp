@@ -39285,7 +39285,8 @@ Convolution1_loop:
 
      Two_Col_Shift_Conv1_Loop:
    for (r = 0; r < 3; r++) {
-       tmp1[3*r+1] = tmp1[3*r+4];
+#pragma HLS UNROLL
+ tmp1[3*r+1] = tmp1[3*r+4];
        tmp1[3*r+2] = tmp1[3*r+5];
       }
 
@@ -39296,7 +39297,8 @@ Convolution1_loop:
 
       Load_Kernel_Conv1_Loop:
     for (r = 0; r < 12; r++) {
-           kj = (r) % 3;
+#pragma HLS UNROLL
+ kj = (r) % 3;
            if(kj == 0) ki = (ki+1)%128;
 
            kr[r] = k[d][ki][kj];
@@ -39309,7 +39311,8 @@ Convolution1_loop:
 
         One_Col_Shift_Conv1_Loop:
    for (r = 0; r < 3; r++) {
-       tmp1[3*r] = tmp1[3*r+3];
+#pragma HLS UNROLL
+ tmp1[3*r] = tmp1[3*r+3];
       }
      }
 
@@ -39355,7 +39358,8 @@ Convolution1_loop:
 
  Operations_Conv1_Loop:
   for (r = 0; r < 12; r++) {
-   num += tmp2[r] * kr[r];
+#pragma HLS UNROLL
+ num += tmp2[r] * kr[r];
    tmp2[r] = 0;
   }
   if (num < 0) num = 0;

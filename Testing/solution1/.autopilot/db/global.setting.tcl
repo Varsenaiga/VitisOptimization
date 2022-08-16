@@ -1,6 +1,6 @@
 
 set TopModule "master_fix"
-set ClockPeriod 10.41
+set ClockPeriod 10.37
 set ClockList ap_clk
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0
