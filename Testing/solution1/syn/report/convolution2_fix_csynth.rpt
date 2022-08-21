@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix'
 ================================================================
-* Date:           Mon Aug 15 20:11:37 2022
+* Date:           Wed Aug 17 18:09:18 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -57,16 +57,16 @@
 |DSP              |        -|    -|       -|      -|    -|
 |Expression       |        -|    -|       -|      -|    -|
 |FIFO             |        -|    -|       -|      -|    -|
-|Instance         |        0|  128|   20033|  14234|    -|
+|Instance         |        0|  128|   19372|  14170|    -|
 |Memory           |        -|    -|       -|      -|    -|
 |Multiplexer      |        -|    -|       -|    188|    -|
 |Register         |        -|    -|       6|      -|    -|
 +-----------------+---------+-----+--------+-------+-----+
-|Total            |        0|  128|   20039|  14422|    0|
+|Total            |        0|  128|   19378|  14358|    0|
 +-----------------+---------+-----+--------+-------+-----+
 |Available        |      280|  220|  106400|  53200|    0|
 +-----------------+---------+-----+--------+-------+-----+
-|Utilization (%)  |        0|   58|      18|     27|    0|
+|Utilization (%)  |        0|   58|      18|     26|    0|
 +-----------------+---------+-----+--------+-------+-----+
 
 + Detail: 
@@ -74,10 +74,10 @@
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
     |                            Instance                            |                        Module                       | BRAM_18K| DSP |   FF  |  LUT  | URAM|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
-    |grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322          |convolution2_fix_Pipeline_Convolution2_loop          |        0|  128|  18293|  10180|    0|
-    |grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268  |convolution2_fix_Pipeline_Initialization_Conv2_Loop  |        0|    0|   1740|   4054|    0|
+    |grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322          |convolution2_fix_Pipeline_Convolution2_loop          |        0|  128|  17616|  10116|    0|
+    |grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268  |convolution2_fix_Pipeline_Initialization_Conv2_Loop  |        0|    0|   1756|   4054|    0|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
-    |Total                                                           |                                                     |        0|  128|  20033|  14234|    0|
+    |Total                                                           |                                                     |        0|  128|  19372|  14170|    0|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
 
     * DSP: 
@@ -146,52 +146,52 @@
 |ap_ready        |  out|    1|  ap_ctrl_hs|  convolution2_fix|  return value|
 |m_0_address0    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce0         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q0          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q0          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address1    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce1         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q1          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q1          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address2    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce2         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q2          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q2          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address3    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce3         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q3          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q3          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address4    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce4         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q4          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q4          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address5    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce5         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q5          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q5          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address6    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce6         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q6          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q6          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address7    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce7         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q7          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q7          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address8    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce8         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q8          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q8          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address9    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce9         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q9          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q9          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address10   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce10        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q10         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q10         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address11   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce11        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q11         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q11         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address12   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce12        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q12         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q12         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address13   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce13        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q13         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q13         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address14   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce14        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q14         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q14         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address15   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce15        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q15         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q15         |   in|   36|   ap_memory|               m_0|         array|
 |out_0_address0  |  out|   10|   ap_memory|             out_0|         array|
 |out_0_ce0       |  out|    1|   ap_memory|             out_0|         array|
 |out_0_we0       |  out|    1|   ap_memory|             out_0|         array|

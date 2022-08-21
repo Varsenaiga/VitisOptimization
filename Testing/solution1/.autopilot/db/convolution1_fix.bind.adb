@@ -34,7 +34,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394531</coreId>
+						<coreId>88</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -52,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>out_r</name>
+						<name>out_0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -70,14 +70,14 @@
 						<coreName>RAM_1WnR</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544437362</coreId>
+						<coreId>1349404938</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>35</bitwidth>
+					<bitwidth>36</bitwidth>
 				</Value>
 				<direction>1</direction>
 				<if_type>1</if_type>
-				<array_size>3072</array_size>
+				<array_size>336</array_size>
 				<bit_vecs>
 					<count>0</count>
 					<item_version>0</item_version>
@@ -110,7 +110,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -152,7 +152,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -194,7 +194,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -236,7 +236,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741880892</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -278,7 +278,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -320,7 +320,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -362,7 +362,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>1485691184</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -404,7 +404,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>1658859104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -446,7 +446,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -488,7 +488,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1713384497</coreId>
+						<coreId>1658859104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -557,7 +557,7 @@
 						<name>input_addr</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>30</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -573,7 +573,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>30</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -630,7 +630,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1495003008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -684,7 +684,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658735216</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -727,7 +727,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1834970975</coreId>
+						<coreId>1658738736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -770,7 +770,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1485685808</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -813,7 +813,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1380927064</coreId>
+						<coreId>1485661952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -856,7 +856,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1485690848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -899,7 +899,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658737584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -942,7 +942,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658754928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -985,7 +985,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658745904</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1028,7 +1028,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869438831</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1114,7 +1114,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658756208</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1142,7 +1142,7 @@
 						<name>input_load</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>30</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1158,7 +1158,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>30</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1199,7 +1199,7 @@
 						<name>tmp1_V_9</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>30</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1215,7 +1215,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>30</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1228,7 +1228,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658751152</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1252,10 +1252,10 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>_ln30</name>
+						<name>_ln31</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>30</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1271,7 +1271,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>30</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1284,7 +1284,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868525665</coreId>
+						<coreId>1658725744</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1337,10 +1337,10 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>_ln126</name>
+						<name>_ln131</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>126</lineNumber>
+						<lineNumber>131</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1356,7 +1356,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>126</second>
+										<second>131</second>
 									</item>
 								</second>
 							</item>
@@ -1369,7 +1369,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1658756464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1445,7 +1445,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1937011311</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1476,7 +1476,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1963605553</coreId>
+						<coreId>1953656656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -1538,7 +1538,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936984638</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1572,7 +1572,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1043341356</coreId>
+					<coreId>1448866200</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -2209,8 +2209,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>3097</mMinLatency>
-			<mMaxLatency>3097</mMaxLatency>
+			<mMinLatency>3109</mMinLatency>
+			<mMaxLatency>3109</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

@@ -11146,10 +11146,10 @@ codeRepl:448 %call_ln1171 = call void @dense1_fix_Pipeline_Dense1_Loop1, i35 %m_
 
 <Node id="677" bw="0">
 <![CDATA[
-codeRepl:449 %ret_ln300 = ret
+codeRepl:449 %ret_ln281 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln300"/></StgValue>
+<StgValue><ssdm name="ret_ln281"/></StgValue>
 </operation>
 </state>
 </state_list>

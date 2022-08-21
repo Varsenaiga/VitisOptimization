@@ -1,6 +1,12 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 13
+set name master_fix_srem_17ns_3ns_3_21_1
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {srem} IMPL {auto} LATENCY 20 ALLOW_PRAGMA 1
+}
+
+
+set id 14
 set name master_fix_mux_124_12_1_1
 set corename simcore_mux
 set op mux
@@ -89,8 +95,63 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 }
 
 
+set id 27
+set name master_fix_mul_mul_16s_17ns_34_4_1
+set corename simcore_mul
+set op mul
+set stage_num 4
+set clk_width 1
+set clk_signed 0
+set reset_width 1
+set reset_signed 0
+set in0_width 16
+set in0_signed 1
+set in1_width 17
+set in1_signed 0
+set ce_width 1
+set ce_signed 0
+set out_width 34
+set arg_lists {i0 {16 1 +} i1 {17 0 +} p {34 1 +} acc {0} }
+set TrueReset 0
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {dsp} LATENCY 3 ALLOW_PRAGMA 1
+}
+
+
+set op mul
+set corename DSP48
+if {${::AESL::PGuard_autocg_gen} && ${::AESL::PGuard_autocg_ipmgen}} {
+if {[info proc ::AESL_LIB_VIRTEX::xil_gen_dsp48] == "::AESL_LIB_VIRTEX::xil_gen_dsp48"} {
+eval "::AESL_LIB_VIRTEX::xil_gen_dsp48 { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    true_reset ${TrueReset} \
+    stage_num ${stage_num} \
+    clk_width ${clk_width} \
+    clk_signed ${clk_signed} \
+    reset_width ${reset_width} \
+    reset_signed ${reset_signed} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    ce_width ${ce_width} \
+    ce_signed ${ce_signed} \
+    out_width ${out_width} \
+    arg_lists {${arg_lists}} \
+}"
+} else {
+puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your platform lib"
+}
+}
+
+
 # Memory (RAM/ROM)  definition:
-set ID 28
+set ID 32
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_0
 set CoreName ap_simcore_mem
@@ -172,7 +233,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 29
+set ID 33
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_1
 set CoreName ap_simcore_mem
@@ -254,7 +315,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 30
+set ID 34
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_2
 set CoreName ap_simcore_mem
@@ -336,7 +397,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 31
+set ID 35
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_1_0
 set CoreName ap_simcore_mem
@@ -418,7 +479,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 32
+set ID 36
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_1_1
 set CoreName ap_simcore_mem
@@ -500,7 +561,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 33
+set ID 37
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_1_2
 set CoreName ap_simcore_mem
@@ -582,7 +643,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 34
+set ID 38
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_2_0
 set CoreName ap_simcore_mem
@@ -664,7 +725,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 35
+set ID 39
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_2_1
 set CoreName ap_simcore_mem
@@ -746,7 +807,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 36
+set ID 40
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_2_2
 set CoreName ap_simcore_mem
@@ -828,7 +889,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 37
+set ID 41
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_3_0
 set CoreName ap_simcore_mem
@@ -910,7 +971,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 38
+set ID 42
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_3_1
 set CoreName ap_simcore_mem
@@ -992,7 +1053,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 39
+set ID 43
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_3_2
 set CoreName ap_simcore_mem
@@ -1074,7 +1135,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 40
+set ID 44
 set hasByteEnable 0
 set MemName master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstBias_f_V
 set CoreName ap_simcore_mem
@@ -1166,7 +1227,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 53 \
+    id 57 \
     name input_r \
     reset_level 1 \
     sync_rst true \
@@ -1185,17 +1246,17 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 54 \
-    name out_r \
+    id 58 \
+    name out_0 \
     reset_level 1 \
     sync_rst true \
     dir O \
-    corename out_r \
+    corename out_0 \
     op interface \
-    ports { out_r_address0 { O 12 vector } out_r_ce0 { O 1 bit } out_r_we0 { O 1 bit } out_r_d0 { O 35 vector } } \
+    ports { out_0_address0 { O 9 vector } out_0_ce0 { O 1 bit } out_0_we0 { O 1 bit } out_0_d0 { O 36 vector } } \
 } "
 } else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_r'"
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_0'"
 }
 }
 
@@ -1203,7 +1264,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 41 \
+    id 45 \
     name tmp1_V_11_0_reload \
     type other \
     dir I \
@@ -1218,7 +1279,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 42 \
+    id 46 \
     name tmp1_V_10_0_reload \
     type other \
     dir I \
@@ -1233,7 +1294,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 43 \
+    id 47 \
     name tmp1_V_9 \
     type other \
     dir I \
@@ -1248,7 +1309,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 44 \
+    id 48 \
     name tmp1_V_11_4_reload \
     type other \
     dir I \
@@ -1263,7 +1324,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 45 \
+    id 49 \
     name tmp1_V_11_6_reload \
     type other \
     dir I \
@@ -1278,7 +1339,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 46 \
+    id 50 \
     name tmp1_V_11_9_reload \
     type other \
     dir I \
@@ -1293,7 +1354,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 47 \
+    id 51 \
     name tmp1_V_5_0_reload \
     type other \
     dir I \
@@ -1308,7 +1369,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 48 \
+    id 52 \
     name tmp1_V_4_0_reload \
     type other \
     dir I \
@@ -1323,7 +1384,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 49 \
+    id 53 \
     name tmp1_V_11_11_reload \
     type other \
     dir I \
@@ -1338,7 +1399,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 50 \
+    id 54 \
     name tmp1_V_2_0_reload \
     type other \
     dir I \
@@ -1353,7 +1414,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 51 \
+    id 55 \
     name tmp1_V_1_0_reload \
     type other \
     dir I \
@@ -1368,7 +1429,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 52 \
+    id 56 \
     name tmp1_V_0_0_reload \
     type other \
     dir I \

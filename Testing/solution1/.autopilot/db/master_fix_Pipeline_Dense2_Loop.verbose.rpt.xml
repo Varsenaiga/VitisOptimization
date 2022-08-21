@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix_Pipeline_Dense2_Loop'" level="0">
-<item name = "Date">Mon Aug 15 20:12:14 2022
+<item name = "Date">Wed Aug 17 18:09:48 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -62,9 +62,10 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="mux_42_36_1_1_U955">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U957">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U959">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
-<column name="mux_42_36_1_1_U961">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
+<column name="mux_42_36_1_1_U960">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U962">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U964">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U966">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
@@ -78,7 +79,6 @@
 <column name="mux_42_36_1_1_U982">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U984">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 <column name="mux_42_36_1_1_U986">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
-<column name="mux_42_36_1_1_U988">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -111,7 +111,7 @@
 <column name="add_ln1245_8_fu_1266_p2">+, 0, 0, 62, 55, 55</column>
 <column name="add_ln1245_9_fu_1356_p2">+, 0, 0, 62, 55, 55</column>
 <column name="add_ln1245_fu_546_p2">+, 0, 0, 62, 55, 55</column>
-<column name="add_ln310_fu_450_p2">+, 0, 0, 11, 3, 1</column>
+<column name="add_ln291_fu_450_p2">+, 0, 0, 11, 3, 1</column>
 <column name="add_ln415_10_fu_1498_p2">+, 0, 0, 43, 36, 36</column>
 <column name="add_ln415_11_fu_1588_p2">+, 0, 0, 43, 36, 36</column>
 <column name="add_ln415_12_fu_1678_p2">+, 0, 0, 43, 36, 36</column>
@@ -144,7 +144,7 @@
 <column name="and_ln412_8_fu_1308_p2">and, 0, 0, 2, 1, 1</column>
 <column name="and_ln412_9_fu_1398_p2">and, 0, 0, 2, 1, 1</column>
 <column name="and_ln412_fu_588_p2">and, 0, 0, 2, 1, 1</column>
-<column name="icmp_ln310_fu_444_p2">icmp, 0, 0, 9, 3, 4</column>
+<column name="icmp_ln291_fu_444_p2">icmp, 0, 0, 9, 3, 4</column>
 <column name="icmp_ln727_10_fu_1477_p2">icmp, 0, 0, 13, 18, 1</column>
 <column name="icmp_ln727_11_fu_1567_p2">icmp, 0, 0, 13, 18, 1</column>
 <column name="icmp_ln727_12_fu_1657_p2">icmp, 0, 0, 13, 18, 1</column>
@@ -247,7 +247,7 @@
 <column name="den2_V_0_1_2_fu_240">36, 0, 36, 0</column>
 <column name="den2_V_0_1_3_fu_244">36, 0, 36, 0</column>
 <column name="den2_V_0_1_fu_232">36, 0, 36, 0</column>
-<column name="icmp_ln310_reg_2067">1, 0, 1, 0</column>
+<column name="icmp_ln291_reg_2067">1, 0, 1, 0</column>
 <column name="mul_ln1171_10_reg_2356">55, 0, 55, 0</column>
 <column name="mul_ln1171_11_reg_2381">55, 0, 55, 0</column>
 <column name="mul_ln1171_12_reg_2406">55, 0, 55, 0</column>
@@ -280,7 +280,7 @@
 <column name="tmp_8_reg_2171">36, 0, 36, 0</column>
 <column name="tmp_9_reg_2196">36, 0, 36, 0</column>
 <column name="tmp_s_reg_2221">36, 0, 36, 0</column>
-<column name="trunc_ln311_reg_2071">2, 0, 2, 0</column>
+<column name="trunc_ln292_reg_2071">2, 0, 2, 0</column>
 <column name="trunc_ln727_10_reg_2361">18, 0, 18, 0</column>
 <column name="trunc_ln727_11_reg_2386">18, 0, 18, 0</column>
 <column name="trunc_ln727_12_reg_2411">18, 0, 18, 0</column>
@@ -297,24 +297,24 @@
 <column name="trunc_ln727_8_reg_2311">18, 0, 18, 0</column>
 <column name="trunc_ln727_9_reg_2336">18, 0, 18, 0</column>
 <column name="trunc_ln727_reg_2111">18, 0, 18, 0</column>
-<column name="zext_ln310_cast_reg_1987">35, 0, 55, 20</column>
-<column name="zext_ln314_10_cast_reg_2012">35, 0, 55, 20</column>
-<column name="zext_ln314_11_cast_reg_2007">35, 0, 55, 20</column>
-<column name="zext_ln314_12_cast_reg_2002">35, 0, 55, 20</column>
-<column name="zext_ln314_13_cast_reg_1997">35, 0, 55, 20</column>
-<column name="zext_ln314_14_cast_reg_1992">35, 0, 55, 20</column>
-<column name="zext_ln314_1_cast_reg_2057">35, 0, 55, 20</column>
-<column name="zext_ln314_2_cast_reg_2052">35, 0, 55, 20</column>
-<column name="zext_ln314_3_cast_reg_2047">35, 0, 55, 20</column>
-<column name="zext_ln314_4_cast_reg_2042">35, 0, 55, 20</column>
-<column name="zext_ln314_5_cast_reg_2037">35, 0, 55, 20</column>
-<column name="zext_ln314_6_cast_reg_2032">35, 0, 55, 20</column>
-<column name="zext_ln314_7_cast_reg_2027">35, 0, 55, 20</column>
-<column name="zext_ln314_8_cast_reg_2022">35, 0, 55, 20</column>
-<column name="zext_ln314_9_cast_reg_2017">35, 0, 55, 20</column>
-<column name="zext_ln314_cast_reg_2062">35, 0, 55, 20</column>
-<column name="icmp_ln310_reg_2067">64, 32, 1, 0</column>
-<column name="trunc_ln311_reg_2071">64, 32, 2, 0</column>
+<column name="zext_ln291_cast_reg_1987">35, 0, 55, 20</column>
+<column name="zext_ln295_10_cast_reg_2012">35, 0, 55, 20</column>
+<column name="zext_ln295_11_cast_reg_2007">35, 0, 55, 20</column>
+<column name="zext_ln295_12_cast_reg_2002">35, 0, 55, 20</column>
+<column name="zext_ln295_13_cast_reg_1997">35, 0, 55, 20</column>
+<column name="zext_ln295_14_cast_reg_1992">35, 0, 55, 20</column>
+<column name="zext_ln295_1_cast_reg_2057">35, 0, 55, 20</column>
+<column name="zext_ln295_2_cast_reg_2052">35, 0, 55, 20</column>
+<column name="zext_ln295_3_cast_reg_2047">35, 0, 55, 20</column>
+<column name="zext_ln295_4_cast_reg_2042">35, 0, 55, 20</column>
+<column name="zext_ln295_5_cast_reg_2037">35, 0, 55, 20</column>
+<column name="zext_ln295_6_cast_reg_2032">35, 0, 55, 20</column>
+<column name="zext_ln295_7_cast_reg_2027">35, 0, 55, 20</column>
+<column name="zext_ln295_8_cast_reg_2022">35, 0, 55, 20</column>
+<column name="zext_ln295_9_cast_reg_2017">35, 0, 55, 20</column>
+<column name="zext_ln295_cast_reg_2062">35, 0, 55, 20</column>
+<column name="icmp_ln291_reg_2067">64, 32, 1, 0</column>
+<column name="trunc_ln292_reg_2071">64, 32, 2, 0</column>
 </table>
 </item>
 </section>
@@ -330,6 +330,18 @@
 <column name="ap_done">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1798_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1798_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1798_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1798_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1802_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1802_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1802_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1802_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1806_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1806_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1806_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
+<column name="grp_fu_1806_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="grp_fu_1810_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="grp_fu_1810_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="grp_fu_1810_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
@@ -382,34 +394,22 @@
 <column name="grp_fu_1858_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="grp_fu_1858_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
 <column name="grp_fu_1858_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1862_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1862_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1862_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1862_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1866_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1866_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1866_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1866_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1870_p_din0">out, 36, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1870_p_din1">out, 35, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1870_p_dout0">in, 55, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="grp_fu_1870_p_ce">out, 1, ap_ctrl_hs, master_fix_Pipeline_Dense2_Loop, return value</column>
-<column name="zext_ln314">in, 35, ap_none, zext_ln314, scalar</column>
-<column name="zext_ln314_1">in, 35, ap_none, zext_ln314_1, scalar</column>
-<column name="zext_ln314_2">in, 35, ap_none, zext_ln314_2, scalar</column>
-<column name="zext_ln314_3">in, 35, ap_none, zext_ln314_3, scalar</column>
-<column name="zext_ln314_4">in, 35, ap_none, zext_ln314_4, scalar</column>
-<column name="zext_ln314_5">in, 35, ap_none, zext_ln314_5, scalar</column>
-<column name="zext_ln314_6">in, 35, ap_none, zext_ln314_6, scalar</column>
-<column name="zext_ln314_7">in, 35, ap_none, zext_ln314_7, scalar</column>
-<column name="zext_ln314_8">in, 35, ap_none, zext_ln314_8, scalar</column>
-<column name="zext_ln314_9">in, 35, ap_none, zext_ln314_9, scalar</column>
-<column name="zext_ln314_10">in, 35, ap_none, zext_ln314_10, scalar</column>
-<column name="zext_ln314_11">in, 35, ap_none, zext_ln314_11, scalar</column>
-<column name="zext_ln314_12">in, 35, ap_none, zext_ln314_12, scalar</column>
-<column name="zext_ln314_13">in, 35, ap_none, zext_ln314_13, scalar</column>
-<column name="zext_ln314_14">in, 35, ap_none, zext_ln314_14, scalar</column>
-<column name="zext_ln310">in, 35, ap_none, zext_ln310, scalar</column>
+<column name="zext_ln295">in, 35, ap_none, zext_ln295, scalar</column>
+<column name="zext_ln295_1">in, 35, ap_none, zext_ln295_1, scalar</column>
+<column name="zext_ln295_2">in, 35, ap_none, zext_ln295_2, scalar</column>
+<column name="zext_ln295_3">in, 35, ap_none, zext_ln295_3, scalar</column>
+<column name="zext_ln295_4">in, 35, ap_none, zext_ln295_4, scalar</column>
+<column name="zext_ln295_5">in, 35, ap_none, zext_ln295_5, scalar</column>
+<column name="zext_ln295_6">in, 35, ap_none, zext_ln295_6, scalar</column>
+<column name="zext_ln295_7">in, 35, ap_none, zext_ln295_7, scalar</column>
+<column name="zext_ln295_8">in, 35, ap_none, zext_ln295_8, scalar</column>
+<column name="zext_ln295_9">in, 35, ap_none, zext_ln295_9, scalar</column>
+<column name="zext_ln295_10">in, 35, ap_none, zext_ln295_10, scalar</column>
+<column name="zext_ln295_11">in, 35, ap_none, zext_ln295_11, scalar</column>
+<column name="zext_ln295_12">in, 35, ap_none, zext_ln295_12, scalar</column>
+<column name="zext_ln295_13">in, 35, ap_none, zext_ln295_13, scalar</column>
+<column name="zext_ln295_14">in, 35, ap_none, zext_ln295_14, scalar</column>
+<column name="zext_ln291">in, 35, ap_none, zext_ln291, scalar</column>
 <column name="den2_V_0_3_08_out">out, 36, ap_vld, den2_V_0_3_08_out, pointer</column>
 <column name="den2_V_0_3_08_out_ap_vld">out, 1, ap_vld, den2_V_0_3_08_out, pointer</column>
 <column name="den2_V_0_2_07_out">out, 36, ap_vld, den2_V_0_2_07_out, pointer</column>

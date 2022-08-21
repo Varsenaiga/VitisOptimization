@@ -21511,9 +21511,8 @@ typedef ap_fixed<36,17, AP_RND_CONV> fix_mp2;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds1;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds2;
 # 29 "./model_functions.h"
-void convolution1_fix(fix_input (*m)[3], const fix_par (*k)[4][3], const fix_par *bias, fix_cv1 (*out)[3][8]);
+void convolution1_fix(fix_input (*m)[3], const fix_par (*k)[4][3], const fix_par *bias, fix_mp1 (*out)[1][8]);
 void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_cv2 (*out)[1][16]);
-void maxPool1_fix(fix_cv1 (*m)[3][8], fix_mp1 (*out)[1][8]);
 void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]);
 void dense1_fix(fix_mp2 (*m)[1][16], const fix_par (*k)[14][16], const fix_par *bias, fix_ds1 *out);
 void dense2_fix(const fix_ds1 *m, const fix_par (*k)[16], const fix_par *bias, fix_ds2 *out);
@@ -39248,12 +39247,13 @@ namespace hls {
 };
 # 6 "model_functions.cpp" 2
 
-void convolution1_fix(fix_input (*m)[3], const fix_par (*k)[4][3], const fix_par *bias, fix_cv1 (*out)[3][8]){
+void convolution1_fix(fix_input (*m)[3], const fix_par (*k)[4][3], const fix_par *bias, fix_mp1 (*out)[1][8]){
 
  short id, r, i = -1, j, d;
     fix_cv1 num;
     fix_par kr[12], b;
     fix_input tmp1[12], tmp2[12];
+    fix_cv1 aux = 0;
 #pragma HLS ARRAY_PARTITION variable=tmp1 type=complete
 #pragma HLS ARRAY_PARTITION variable=tmp2 type=complete
 #pragma HLS ARRAY_PARTITION variable=kr type=complete
@@ -39292,6 +39292,7 @@ Convolution1_loop:
 
       if(i == 0) {
        d = (d+1)%8;
+       aux = 0;
 
        int kj, ki = -1;
 
@@ -39362,11 +39363,14 @@ Convolution1_loop:
  num += tmp2[r] * kr[r];
    tmp2[r] = 0;
   }
-  if (num < 0) num = 0;
 
-  out[i][j][d] = num;
+  if(aux < num) aux = num;
+  out[i/3][0][d] = aux;
+
+  if ((i+1)%3 == 0 && j == 2){
+   aux = 0;
+  }
  }
-
 }
 
 void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_cv2 (*out)[1][16]){
@@ -39470,30 +39474,6 @@ Operations_Conv2_Loop:
   out[i][0][d] = num;
  }
 
-}
-
-void maxPool1_fix(fix_cv1 (*m)[3][8], fix_mp1 (*out)[1][8]){
-
-    int i, j, d;
-    short oRow = 42;
-    short kRow = 3;
-    fix_mp1 tmp1;
-
-MaxPool1_Loop1:
-    for (d = 0; d < 8; d++) {
-    MaxPool1_Loop2:
-        for (i = 0; i < 126; i++) {
-            if (i%kRow == 0){
-             tmp1 = 0;
-            }
-         Operations_MaxPool1_Loop:
-            for (j = 0; j < 3; j++) {
-             fix_mp1 tmp2 = m[i][j][d];
-             tmp1 = std::max(tmp1, tmp2);
-                out[i/kRow][0][d] = tmp1;
-            }
-        }
-    }
 }
 
 void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]){

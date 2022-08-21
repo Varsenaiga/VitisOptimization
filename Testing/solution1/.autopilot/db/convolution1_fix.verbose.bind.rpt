@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix'
 ================================================================
-* Date:           Mon Aug 15 20:10:37 2022
+* Date:           Wed Aug 17 18:08:17 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     3097|     3097|  32.116 us|  32.116 us|  3097|  3097|       no|
+    |     3109|     3109|  32.240 us|  32.240 us|  3109|  3109|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -39,7 +39,7 @@
         |                            Instance                            |                        Module                       |   min   |   max   |    min    |    max    |  min |  max |   Type  |
         +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
         |grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108  |convolution1_fix_Pipeline_Initialization_Conv1_Loop  |        9|        9|  93.330 ns|  93.330 ns|     9|     9|       no|
-        |grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125          |convolution1_fix_Pipeline_Convolution1_loop          |     3083|     3083|  31.971 us|  31.971 us|  3083|  3083|       no|
+        |grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125          |convolution1_fix_Pipeline_Convolution1_loop          |     3095|     3095|  32.095 us|  32.095 us|  3095|  3095|       no|
         +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 
         * Loop: 
@@ -103,12 +103,12 @@ State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 19 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_Initialization_Conv1_Loop, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc"   --->   Operation 19 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 3.25>
-ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:30]   --->   Operation 20 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 21 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:30]   --->   Operation 21 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:31]   --->   Operation 20 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 21 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:31]   --->   Operation 21 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 22 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:30]   --->   Operation 22 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
-ST_4 : Operation 23 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:30]   --->   Operation 23 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 22 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:31]   --->   Operation 22 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_4 : Operation 23 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:31]   --->   Operation 23 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 1.58>
 ST_5 : Operation 24 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc_load = load i12 %tmp1_V_11_0_loc"   --->   Operation 24 'load' 'tmp1_V_11_0_loc_load' <Predicate = true> <Delay = 0.00>
@@ -122,12 +122,12 @@ ST_5 : Operation 31 [1/1] (0.00ns)   --->   "%tmp1_V_1_0_loc_load = load i12 %tm
 ST_5 : Operation 32 [1/1] (0.00ns)   --->   "%tmp1_V_0_0_loc_load = load i12 %tmp1_V_0_0_loc"   --->   Operation 32 'load' 'tmp1_V_0_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 33 [1/1] (0.00ns)   --->   "%tmp1_V_11_9_loc_load = load i12 %tmp1_V_11_9_loc"   --->   Operation 33 'load' 'tmp1_V_11_9_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_11_11_loc_load = load i12 %tmp1_V_11_11_loc"   --->   Operation 34 'load' 'tmp1_V_11_11_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 35 [2/2] (1.58ns)   --->   "%call_ln30 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:30]   --->   Operation 35 'call' 'call_ln30' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 35 [2/2] (1.58ns)   --->   "%call_ln31 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i36 %out_0, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:31]   --->   Operation 35 'call' 'call_ln31' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_2, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln30 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:30]   --->   Operation 37 'call' 'call_ln30' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_6 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln126 = ret" [model_functions.cpp:126]   --->   Operation 38 'ret' 'ret_ln126' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty_6, i32 4294967295, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln31 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i36 %out_0, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:31]   --->   Operation 37 'call' 'call_ln31' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln131 = ret" [model_functions.cpp:131]   --->   Operation 38 'ret' 'ret_ln131' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -142,7 +142,7 @@ STG Binding:
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
 Port [ input_r]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=1; pingpong=0; private_global=0; MemPort=[13]; IO mode=ap_memory:ce=0
-Port [ out_r]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=1; pingpong=0; private_global=0; MemPort=[03333333333333333]; IO mode=ap_memory:ce=0
+Port [ out_0]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=1; pingpong=0; private_global=0; MemPort=[03333333333333333]; IO mode=ap_memory:ce=0
 Port [ firstKernel_f_V_0_0]:  wired=0; compound=1; hidden=1; nouse=1; global=1; static=1; extern=0; dir=0; type=1; pingpong=0; private_global=0; MemPort=[1]; IO mode=ap_memory:ce=0
 Port [ firstKernel_f_V_0_1]:  wired=0; compound=1; hidden=1; nouse=1; global=1; static=1; extern=0; dir=0; type=1; pingpong=0; private_global=0; MemPort=[1]; IO mode=ap_memory:ce=0
 Port [ firstKernel_f_V_0_2]:  wired=0; compound=1; hidden=1; nouse=1; global=1; static=1; extern=0; dir=0; type=1; pingpong=0; private_global=0; MemPort=[1]; IO mode=ap_memory:ce=0
@@ -189,8 +189,8 @@ tmp1_V_0_0_loc_load   (load         ) [ 0000001]
 tmp1_V_11_9_loc_load  (load         ) [ 0000001]
 tmp1_V_11_11_loc_load (load         ) [ 0000001]
 specinterface_ln0     (specinterface) [ 0000000]
-call_ln30             (call         ) [ 0000000]
-ret_ln126             (ret          ) [ 0000000]
+call_ln31             (call         ) [ 0000000]
+ret_ln131             (ret          ) [ 0000000]
 </LifeTime>
 
 <model>
@@ -206,12 +206,12 @@ ret_ln126             (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="2" class="1000" name="out_r">
+<comp id="2" class="1000" name="out_0">
 <pin_list>
 <pin id="3" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="out_r"/><MemPortTyVec>0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </MemPortTyVec>
+<StgValue><ssdm name="out_0"/><MemPortTyVec>0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </MemPortTyVec>
 </StgValue>
 </bind>
 </comp>
@@ -405,7 +405,7 @@ ret_ln126             (ret          ) [ 0000000]
 <pin id="43" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_2"/></StgValue>
+<StgValue><ssdm name="empty_0"/></StgValue>
 </bind>
 </comp>
 
@@ -423,7 +423,7 @@ ret_ln126             (ret          ) [ 0000000]
 <pin id="47" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_3"/></StgValue>
+<StgValue><ssdm name="empty_6"/></StgValue>
 </bind>
 </comp>
 
@@ -622,7 +622,7 @@ ret_ln126             (ret          ) [ 0000000]
 <pin id="137" dir="0" index="11" bw="12" slack="0"/>
 <pin id="138" dir="0" index="12" bw="12" slack="0"/>
 <pin id="139" dir="0" index="13" bw="16" slack="0"/>
-<pin id="140" dir="0" index="14" bw="35" slack="0"/>
+<pin id="140" dir="0" index="14" bw="36" slack="0"/>
 <pin id="141" dir="0" index="15" bw="19" slack="0"/>
 <pin id="142" dir="0" index="16" bw="19" slack="0"/>
 <pin id="143" dir="0" index="17" bw="20" slack="0"/>
@@ -640,7 +640,7 @@ ret_ln126             (ret          ) [ 0000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln30/5 "/>
+<opset="call_ln31/5 "/>
 </bind>
 </comp>
 
@@ -1080,7 +1080,7 @@ ret_ln126             (ret          ) [ 0000000]
 
 * FSMD analyzer results:
   - Output states:
-	Port: out_r | {5 6 }
+	Port: out_0 | {5 6 }
  - Input state : 
 	Port: convolution1_fix : input_r | {1 2 3 4 5 6 }
 	Port: convolution1_fix : firstKernel_f_V_0_0 | {5 6 }
@@ -1105,7 +1105,7 @@ ret_ln126             (ret          ) [ 0000000]
 	State 4
 		tmp1_V_9 : 1
 	State 5
-		call_ln30 : 1
+		call_ln31 : 1
 	State 6
 
 
@@ -1118,11 +1118,11 @@ ret_ln126             (ret          ) [ 0000000]
 | Operation|                         Functional Unit                        |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
 |   call   | grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108 |    0    |  1.588  |   166   |   441   |
-|          |     grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125     |    24   | 61.0598 |   5126  |   3279  |
+|          |     grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125     |    25   | 65.8238 |   5824  |   4428  |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
 |   trunc  |                         tmp1_V_9_fu_171                        |    0    |    0    |    0    |    0    |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
-|   Total  |                                                                |    24   | 62.6478 |   5292  |   3720  |
+|   Total  |                                                                |    25   | 67.4118 |   5990  |   4869  |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
 
 Memories:
@@ -1164,10 +1164,10 @@ N/A
 +-----------+--------+--------+--------+--------+
 |           |   DSP  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |   24   |   62   |  5292  |  3720  |
+|  Function |   25   |   67   |  5990  |  4869  |
 |   Memory  |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    1   |    -   |    9   |
 |  Register |    -   |    -   |   153  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |   24   |   64   |  5445  |  3729  |
+|   Total   |   25   |   68   |  6143  |  4878  |
 +-----------+--------+--------+--------+--------+

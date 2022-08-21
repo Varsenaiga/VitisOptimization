@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix'
 ================================================================
-* Date:           Mon Aug 15 20:11:27 2022
+* Date:           Wed Aug 17 18:09:11 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     3097|     3097|  32.116 us|  32.116 us|  3097|  3097|       no|
+    |     3109|     3109|  32.240 us|  32.240 us|  3109|  3109|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -39,7 +39,7 @@
         |                            Instance                            |                        Module                       |   min   |   max   |    min    |    max    |  min |  max |   Type  |
         +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
         |grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108  |convolution1_fix_Pipeline_Initialization_Conv1_Loop  |        9|        9|  93.330 ns|  93.330 ns|     9|     9|       no|
-        |grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125          |convolution1_fix_Pipeline_Convolution1_loop          |     3083|     3083|  31.971 us|  31.971 us|  3083|  3083|       no|
+        |grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125          |convolution1_fix_Pipeline_Convolution1_loop          |     3095|     3095|  32.095 us|  32.095 us|  3095|  3095|       no|
         +----------------------------------------------------------------+-----------------------------------------------------+---------+---------+-----------+-----------+------+------+---------+
 
         * Loop: 
@@ -57,16 +57,16 @@
 |DSP              |        -|    -|       -|      -|    -|
 |Expression       |        -|    -|       -|      -|    -|
 |FIFO             |        -|    -|       -|      -|    -|
-|Instance         |        0|   24|    5258|   3952|    -|
+|Instance         |        0|   25|    6189|   5206|    -|
 |Memory           |        -|    -|       -|      -|    -|
 |Multiplexer      |        -|    -|       -|     77|    -|
 |Register         |        -|    -|      20|      -|    -|
 +-----------------+---------+-----+--------+-------+-----+
-|Total            |        0|   24|    5278|   4029|    0|
+|Total            |        0|   25|    6209|   5283|    0|
 +-----------------+---------+-----+--------+-------+-----+
 |Available        |      280|  220|  106400|  53200|    0|
 +-----------------+---------+-----+--------+-------+-----+
-|Utilization (%)  |        0|   10|       4|      7|    0|
+|Utilization (%)  |        0|   11|       5|      9|    0|
 +-----------------+---------+-----+--------+-------+-----+
 
 + Detail: 
@@ -74,10 +74,10 @@
     +----------------------------------------------------------------+-----------------------------------------------------+---------+----+------+------+-----+
     |                            Instance                            |                        Module                       | BRAM_18K| DSP|  FF  |  LUT | URAM|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+----+------+------+-----+
-    |grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125          |convolution1_fix_Pipeline_Convolution1_loop          |        0|  24|  5093|  3460|    0|
+    |grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125          |convolution1_fix_Pipeline_Convolution1_loop          |        0|  25|  6024|  4714|    0|
     |grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108  |convolution1_fix_Pipeline_Initialization_Conv1_Loop  |        0|   0|   165|   492|    0|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+----+------+------+-----+
-    |Total                                                           |                                                     |        0|  24|  5258|  3952|    0|
+    |Total                                                           |                                                     |        0|  25|  6189|  5206|    0|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+----+------+------+-----+
 
     * DSP: 
@@ -133,9 +133,9 @@
 |input_r_address0  |  out|    9|   ap_memory|           input_r|         array|
 |input_r_ce0       |  out|    1|   ap_memory|           input_r|         array|
 |input_r_q0        |   in|   16|   ap_memory|           input_r|         array|
-|out_r_address0    |  out|   12|   ap_memory|             out_r|         array|
-|out_r_ce0         |  out|    1|   ap_memory|             out_r|         array|
-|out_r_we0         |  out|    1|   ap_memory|             out_r|         array|
-|out_r_d0          |  out|   35|   ap_memory|             out_r|         array|
+|out_0_address0    |  out|    9|   ap_memory|             out_0|         array|
+|out_0_ce0         |  out|    1|   ap_memory|             out_0|         array|
+|out_0_we0         |  out|    1|   ap_memory|             out_0|         array|
+|out_0_d0          |  out|   36|   ap_memory|             out_0|         array|
 +------------------+-----+-----+------------+------------------+--------------+
 

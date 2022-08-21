@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix_Pipeline_Initialization_SoftMax_Loop'" level="0">
-<item name = "Date">Mon Aug 15 20:12:16 2022
+<item name = "Date">Wed Aug 17 18:09:50 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -62,7 +62,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mux_42_36_1_1_U1018">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
+<column name="mux_42_36_1_1_U1016">mux_42_36_1_1, 0, 0, 0, 20, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -79,7 +79,7 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln328_fu_194_p2">+, 0, 0, 11, 3, 1</column>
+<column name="add_ln309_fu_194_p2">+, 0, 0, 11, 3, 1</column>
 <column name="add_ln961_fu_386_p2">+, 0, 0, 39, 32, 7</column>
 <column name="add_ln968_fu_465_p2">+, 0, 0, 11, 11, 11</column>
 <column name="lsb_index_fu_291_p2">+, 0, 0, 39, 32, 7</column>
@@ -92,10 +92,10 @@
 <column name="and_ln949_fu_352_p2">and, 0, 0, 2, 1, 1</column>
 <column name="p_Result_2_fu_327_p2">and, 0, 0, 36, 36, 36</column>
 <column name="tobool31_i_i_i11_fu_377_p2">and, 0, 0, 2, 1, 1</column>
-<column name="icmp_ln328_fu_188_p2">icmp, 0, 0, 9, 3, 4</column>
-<column name="icmp_ln329_1_fu_525_p2">icmp, 0, 0, 8, 2, 1</column>
-<column name="icmp_ln329_2_fu_538_p2">icmp, 0, 0, 8, 2, 1</column>
-<column name="icmp_ln329_fu_513_p2">icmp, 0, 0, 8, 2, 3</column>
+<column name="icmp_ln309_fu_188_p2">icmp, 0, 0, 9, 3, 4</column>
+<column name="icmp_ln310_1_fu_525_p2">icmp, 0, 0, 8, 2, 1</column>
+<column name="icmp_ln310_2_fu_538_p2">icmp, 0, 0, 8, 2, 1</column>
+<column name="icmp_ln310_fu_513_p2">icmp, 0, 0, 8, 2, 3</column>
 <column name="icmp_ln938_fu_231_p2">icmp, 0, 0, 19, 36, 1</column>
 <column name="icmp_ln949_fu_306_p2">icmp, 0, 0, 17, 31, 1</column>
 <column name="icmp_ln950_fu_332_p2">icmp, 0, 0, 19, 36, 1</column>
@@ -113,7 +113,7 @@
 <column name="m_3_19_fu_581_p3">select, 0, 0, 64, 1, 64</column>
 <column name="m_3_20_fu_589_p3">select, 0, 0, 64, 1, 64</column>
 <column name="m_3_21_fu_494_p3">select, 0, 0, 64, 1, 1</column>
-<column name="m_3_36_fu_518_p3">select, 0, 0, 64, 1, 64</column>
+<column name="m_3_35_fu_518_p3">select, 0, 0, 64, 1, 64</column>
 <column name="select_ln946_fu_453_p3">select, 0, 0, 10, 1, 10</column>
 <column name="tmp_V_2_fu_241_p3">select, 0, 0, 36, 1, 36</column>
 <column name="shl_ln962_fu_410_p2">shl, 0, 0, 182, 64, 64</column>
@@ -125,8 +125,8 @@
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
-<column name="ap_sig_allocacmp_i_2">9, 2, 3, 6</column>
-<column name="i_fu_108">9, 2, 3, 6</column>
+<column name="ap_sig_allocacmp_i">9, 2, 3, 6</column>
+<column name="i_1_fu_108">9, 2, 3, 6</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
@@ -142,8 +142,8 @@
 <column name="ap_loop_exit_ready_pp0_iter2_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter3_reg">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter4_reg">1, 0, 1, 0</column>
-<column name="i_fu_108">3, 0, 3, 0</column>
-<column name="icmp_ln328_reg_667">1, 0, 1, 0</column>
+<column name="i_1_fu_108">3, 0, 3, 0</column>
+<column name="icmp_ln309_reg_667">1, 0, 1, 0</column>
 <column name="icmp_ln938_reg_691">1, 0, 1, 0</column>
 <column name="icmp_ln961_reg_720">1, 0, 1, 0</column>
 <column name="m_3_04_fu_124">64, 0, 64, 0</column>
@@ -163,7 +163,7 @@
 <column name="trunc_ln938_reg_671">2, 0, 2, 0</column>
 <column name="trunc_ln946_reg_715">11, 0, 11, 0</column>
 <column name="trunc_ln950_reg_710">6, 0, 6, 0</column>
-<column name="icmp_ln328_reg_667">64, 32, 1, 0</column>
+<column name="icmp_ln309_reg_667">64, 32, 1, 0</column>
 <column name="icmp_ln938_reg_691">64, 32, 1, 0</column>
 <column name="p_Result_6_reg_685">64, 32, 1, 0</column>
 <column name="trunc_ln938_reg_671">64, 32, 2, 0</column>

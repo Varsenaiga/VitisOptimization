@@ -13,7 +13,7 @@ set FftOrFirFlag 0
 set NbRWValue 0
 set intNbAccess 0
 set NewDSPMapping 1
-set HasDSPModule 0
+set HasDSPModule 1
 set ResetLevelFlag 1
 set ResetStyle control
 set ResetSyncFlag 1
@@ -42,10 +42,10 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xc7z020:-clg400:-1
-set SourceFiles {sc {} c {../../master.cpp ../../model_functions.cpp}}
+set SourceFiles {sc {} c {../../model_functions.cpp ../../master.cpp}}
 set SourceFlags {sc {} c {{} {}}}
 set DirectiveFile C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/solution1.directive
-set TBFiles {verilog {../../file.cpp ../../file.h ../../main.cpp ../../utils.cpp ../../utils.h} bc {../../file.cpp ../../file.h ../../main.cpp ../../utils.cpp ../../utils.h} vhdl {../../file.cpp ../../file.h ../../main.cpp ../../utils.cpp ../../utils.h} sc {../../file.cpp ../../file.h ../../main.cpp ../../utils.cpp ../../utils.h} cas {../../file.cpp ../../file.h ../../main.cpp ../../utils.cpp ../../utils.h} c {}}
+set TBFiles {verilog {../../utils.h ../../utils.cpp ../../main.cpp ../../file.h ../../file.cpp} bc {../../utils.h ../../utils.cpp ../../main.cpp ../../file.h ../../file.cpp} vhdl {../../utils.h ../../utils.cpp ../../main.cpp ../../file.h ../../file.cpp} sc {../../utils.h ../../utils.cpp ../../main.cpp ../../file.h ../../file.cpp} cas {../../utils.h ../../utils.cpp ../../main.cpp ../../file.h ../../file.cpp} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

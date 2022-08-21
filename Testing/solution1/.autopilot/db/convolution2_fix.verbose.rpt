@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution2_fix'
 ================================================================
-* Date:           Mon Aug 15 20:11:37 2022
+* Date:           Wed Aug 17 18:09:18 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -57,16 +57,16 @@
 |DSP              |        -|    -|       -|      -|    -|
 |Expression       |        -|    -|       -|      -|    -|
 |FIFO             |        -|    -|       -|      -|    -|
-|Instance         |        0|  128|   20033|  14234|    -|
+|Instance         |        0|  128|   19372|  14170|    -|
 |Memory           |        -|    -|       -|      -|    -|
 |Multiplexer      |        -|    -|       -|    188|    -|
 |Register         |        -|    -|       6|      -|    -|
 +-----------------+---------+-----+--------+-------+-----+
-|Total            |        0|  128|   20039|  14422|    0|
+|Total            |        0|  128|   19378|  14358|    0|
 +-----------------+---------+-----+--------+-------+-----+
 |Available        |      280|  220|  106400|  53200|    0|
 +-----------------+---------+-----+--------+-------+-----+
-|Utilization (%)  |        0|   58|      18|     27|    0|
+|Utilization (%)  |        0|   58|      18|     26|    0|
 +-----------------+---------+-----+--------+-------+-----+
 
 + Detail: 
@@ -74,10 +74,10 @@
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
     |                            Instance                            |                        Module                       | BRAM_18K| DSP |   FF  |  LUT  | URAM|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
-    |grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322          |convolution2_fix_Pipeline_Convolution2_loop          |        0|  128|  18293|  10180|    0|
-    |grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268  |convolution2_fix_Pipeline_Initialization_Conv2_Loop  |        0|    0|   1740|   4054|    0|
+    |grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322          |convolution2_fix_Pipeline_Convolution2_loop          |        0|  128|  17616|  10116|    0|
+    |grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268  |convolution2_fix_Pipeline_Initialization_Conv2_Loop  |        0|    0|   1756|   4054|    0|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
-    |Total                                                           |                                                     |        0|  128|  20033|  14234|    0|
+    |Total                                                           |                                                     |        0|  128|  19372|  14170|    0|
     +----------------------------------------------------------------+-----------------------------------------------------+---------+-----+-------+-------+-----+
 
     * DSP: 
@@ -146,52 +146,52 @@
 |ap_ready        |  out|    1|  ap_ctrl_hs|  convolution2_fix|  return value|
 |m_0_address0    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce0         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q0          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q0          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address1    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce1         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q1          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q1          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address2    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce2         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q2          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q2          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address3    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce3         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q3          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q3          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address4    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce4         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q4          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q4          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address5    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce5         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q5          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q5          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address6    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce6         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q6          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q6          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address7    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce7         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q7          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q7          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address8    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce8         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q8          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q8          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address9    |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce9         |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q9          |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q9          |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address10   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce10        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q10         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q10         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address11   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce11        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q11         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q11         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address12   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce12        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q12         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q12         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address13   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce13        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q13         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q13         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address14   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce14        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q14         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q14         |   in|   36|   ap_memory|               m_0|         array|
 |m_0_address15   |  out|    9|   ap_memory|               m_0|         array|
 |m_0_ce15        |  out|    1|   ap_memory|               m_0|         array|
-|m_0_q15         |   in|   35|   ap_memory|               m_0|         array|
+|m_0_q15         |   in|   36|   ap_memory|               m_0|         array|
 |out_0_address0  |  out|   10|   ap_memory|             out_0|         array|
 |out_0_ce0       |  out|    1|   ap_memory|             out_0|         array|
 |out_0_we0       |  out|    1|   ap_memory|             out_0|         array|
@@ -285,10 +285,10 @@ ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%tmp2_V_28_0_loc = alloca i64 1"   
 ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%tmp2_V_29_0_loc = alloca i64 1"   --->   Operation 50 'alloca' 'tmp2_V_29_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%tmp2_V_30_0_loc = alloca i64 1"   --->   Operation 51 'alloca' 'tmp2_V_30_0_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%tmp2_V_31_0_loc = alloca i64 1"   --->   Operation 52 'alloca' 'tmp2_V_31_0_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 53 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Initialization_Conv2_Loop, i35 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 53 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 53 [2/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Initialization_Conv2_Loop, i36 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 53 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 2.95>
-ST_2 : Operation 54 [1/2] (2.95ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Initialization_Conv2_Loop, i35 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 54 'call' 'call_ln0' <Predicate = true> <Delay = 2.95> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 54 [1/2] (2.95ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Initialization_Conv2_Loop, i36 %m_0, i36 %tmp2_V_31_0_loc, i36 %tmp2_V_30_0_loc, i36 %tmp2_V_29_0_loc, i36 %tmp2_V_28_0_loc, i36 %tmp2_V_27_0_loc, i36 %tmp2_V_26_0_loc, i36 %tmp2_V_25_0_loc, i36 %tmp2_V_24_0_loc, i36 %tmp2_V_23_0_loc, i36 %tmp2_V_22_0_loc, i36 %tmp2_V_21_0_loc, i36 %tmp2_V_20_0_loc, i36 %tmp2_V_19_0_loc, i36 %tmp2_V_18_0_loc, i36 %tmp2_V_17_0_loc, i36 %tmp2_V_16_0_loc, i36 %tmp2_V_7_0_loc, i36 %tmp2_V_6_0_loc, i36 %tmp2_V_5_0_loc, i36 %tmp2_V_4_0_loc, i36 %tmp2_V_3_0_loc, i36 %tmp2_V_2_0_loc, i36 %tmp2_V_1_0_loc, i36 %tmp2_V_0_0_loc, i36 %tmp1_V_31_0_loc, i36 %tmp1_V_30_0_loc, i36 %tmp1_V_29_0_loc, i36 %tmp1_V_28_0_loc, i36 %tmp1_V_27_0_loc, i36 %tmp1_V_26_0_loc, i36 %tmp1_V_25_0_loc, i36 %tmp1_V_24_0_loc, i36 %tmp1_V_23_0_loc, i36 %tmp1_V_22_0_loc, i36 %tmp1_V_21_0_loc, i36 %tmp1_V_20_0_loc, i36 %tmp1_V_19_0_loc, i36 %tmp1_V_18_0_loc, i36 %tmp1_V_17_0_loc, i36 %tmp1_V_16_0_loc, i36 %tmp1_V_15_0_loc, i36 %tmp1_V_14_0_loc, i36 %tmp1_V_13_0_loc, i36 %tmp1_V_12_0_loc, i36 %tmp1_V_11_0_loc, i36 %tmp1_V_10_0_loc, i36 %tmp1_V_9_0_loc, i36 %tmp1_V_8_0_loc"   --->   Operation 54 'call' 'call_ln0' <Predicate = true> <Delay = 2.95> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 1.58>
 ST_3 : Operation 55 [1/1] (0.00ns)   --->   "%tmp2_V_31_0_loc_load = load i36 %tmp2_V_31_0_loc"   --->   Operation 55 'load' 'tmp2_V_31_0_loc_load' <Predicate = true> <Delay = 0.00>
@@ -339,11 +339,11 @@ ST_3 : Operation 99 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc_load = load i36 %t
 ST_3 : Operation 100 [1/1] (0.00ns)   --->   "%tmp1_V_10_0_loc_load = load i36 %tmp1_V_10_0_loc"   --->   Operation 100 'load' 'tmp1_V_10_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 101 [1/1] (0.00ns)   --->   "%tmp1_V_9_0_loc_load = load i36 %tmp1_V_9_0_loc"   --->   Operation 101 'load' 'tmp1_V_9_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 102 [1/1] (0.00ns)   --->   "%tmp1_V_8_0_loc_load = load i36 %tmp1_V_8_0_loc"   --->   Operation 102 'load' 'tmp1_V_8_0_loc_load' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 103 [2/2] (1.58ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Convolution2_loop, i36 %tmp2_V_31_0_loc_load, i36 %tmp2_V_30_0_loc_load, i36 %tmp2_V_29_0_loc_load, i36 %tmp2_V_28_0_loc_load, i36 %tmp2_V_27_0_loc_load, i36 %tmp2_V_26_0_loc_load, i36 %tmp2_V_25_0_loc_load, i36 %tmp2_V_24_0_loc_load, i36 %tmp2_V_23_0_loc_load, i36 %tmp2_V_22_0_loc_load, i36 %tmp2_V_21_0_loc_load, i36 %tmp2_V_20_0_loc_load, i36 %tmp2_V_19_0_loc_load, i36 %tmp2_V_18_0_loc_load, i36 %tmp2_V_17_0_loc_load, i36 %tmp2_V_16_0_loc_load, i36 %tmp2_V_7_0_loc_load, i36 %tmp2_V_6_0_loc_load, i36 %tmp2_V_5_0_loc_load, i36 %tmp2_V_4_0_loc_load, i36 %tmp2_V_3_0_loc_load, i36 %tmp2_V_2_0_loc_load, i36 %tmp2_V_1_0_loc_load, i36 %tmp2_V_0_0_loc_load, i36 %tmp1_V_31_0_loc_load, i36 %tmp1_V_30_0_loc_load, i36 %tmp1_V_29_0_loc_load, i36 %tmp1_V_28_0_loc_load, i36 %tmp1_V_27_0_loc_load, i36 %tmp1_V_26_0_loc_load, i36 %tmp1_V_25_0_loc_load, i36 %tmp1_V_24_0_loc_load, i36 %tmp1_V_23_0_loc_load, i36 %tmp1_V_22_0_loc_load, i36 %tmp1_V_21_0_loc_load, i36 %tmp1_V_20_0_loc_load, i36 %tmp1_V_19_0_loc_load, i36 %tmp1_V_18_0_loc_load, i36 %tmp1_V_17_0_loc_load, i36 %tmp1_V_16_0_loc_load, i36 %tmp1_V_15_0_loc_load, i36 %tmp1_V_14_0_loc_load, i36 %tmp1_V_13_0_loc_load, i36 %tmp1_V_12_0_loc_load, i36 %tmp1_V_11_0_loc_load, i36 %tmp1_V_10_0_loc_load, i36 %tmp1_V_9_0_loc_load, i36 %tmp1_V_8_0_loc_load, i35 %m_0, i35 %out_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V"   --->   Operation 103 'call' 'call_ln0' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 103 [2/2] (1.58ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Convolution2_loop, i36 %tmp2_V_31_0_loc_load, i36 %tmp2_V_30_0_loc_load, i36 %tmp2_V_29_0_loc_load, i36 %tmp2_V_28_0_loc_load, i36 %tmp2_V_27_0_loc_load, i36 %tmp2_V_26_0_loc_load, i36 %tmp2_V_25_0_loc_load, i36 %tmp2_V_24_0_loc_load, i36 %tmp2_V_23_0_loc_load, i36 %tmp2_V_22_0_loc_load, i36 %tmp2_V_21_0_loc_load, i36 %tmp2_V_20_0_loc_load, i36 %tmp2_V_19_0_loc_load, i36 %tmp2_V_18_0_loc_load, i36 %tmp2_V_17_0_loc_load, i36 %tmp2_V_16_0_loc_load, i36 %tmp2_V_7_0_loc_load, i36 %tmp2_V_6_0_loc_load, i36 %tmp2_V_5_0_loc_load, i36 %tmp2_V_4_0_loc_load, i36 %tmp2_V_3_0_loc_load, i36 %tmp2_V_2_0_loc_load, i36 %tmp2_V_1_0_loc_load, i36 %tmp2_V_0_0_loc_load, i36 %tmp1_V_31_0_loc_load, i36 %tmp1_V_30_0_loc_load, i36 %tmp1_V_29_0_loc_load, i36 %tmp1_V_28_0_loc_load, i36 %tmp1_V_27_0_loc_load, i36 %tmp1_V_26_0_loc_load, i36 %tmp1_V_25_0_loc_load, i36 %tmp1_V_24_0_loc_load, i36 %tmp1_V_23_0_loc_load, i36 %tmp1_V_22_0_loc_load, i36 %tmp1_V_21_0_loc_load, i36 %tmp1_V_20_0_loc_load, i36 %tmp1_V_19_0_loc_load, i36 %tmp1_V_18_0_loc_load, i36 %tmp1_V_17_0_loc_load, i36 %tmp1_V_16_0_loc_load, i36 %tmp1_V_15_0_loc_load, i36 %tmp1_V_14_0_loc_load, i36 %tmp1_V_13_0_loc_load, i36 %tmp1_V_12_0_loc_load, i36 %tmp1_V_11_0_loc_load, i36 %tmp1_V_10_0_loc_load, i36 %tmp1_V_9_0_loc_load, i36 %tmp1_V_8_0_loc_load, i36 %m_0, i35 %out_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V"   --->   Operation 103 'call' 'call_ln0' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.00>
-ST_4 : Operation 104 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Convolution2_loop, i36 %tmp2_V_31_0_loc_load, i36 %tmp2_V_30_0_loc_load, i36 %tmp2_V_29_0_loc_load, i36 %tmp2_V_28_0_loc_load, i36 %tmp2_V_27_0_loc_load, i36 %tmp2_V_26_0_loc_load, i36 %tmp2_V_25_0_loc_load, i36 %tmp2_V_24_0_loc_load, i36 %tmp2_V_23_0_loc_load, i36 %tmp2_V_22_0_loc_load, i36 %tmp2_V_21_0_loc_load, i36 %tmp2_V_20_0_loc_load, i36 %tmp2_V_19_0_loc_load, i36 %tmp2_V_18_0_loc_load, i36 %tmp2_V_17_0_loc_load, i36 %tmp2_V_16_0_loc_load, i36 %tmp2_V_7_0_loc_load, i36 %tmp2_V_6_0_loc_load, i36 %tmp2_V_5_0_loc_load, i36 %tmp2_V_4_0_loc_load, i36 %tmp2_V_3_0_loc_load, i36 %tmp2_V_2_0_loc_load, i36 %tmp2_V_1_0_loc_load, i36 %tmp2_V_0_0_loc_load, i36 %tmp1_V_31_0_loc_load, i36 %tmp1_V_30_0_loc_load, i36 %tmp1_V_29_0_loc_load, i36 %tmp1_V_28_0_loc_load, i36 %tmp1_V_27_0_loc_load, i36 %tmp1_V_26_0_loc_load, i36 %tmp1_V_25_0_loc_load, i36 %tmp1_V_24_0_loc_load, i36 %tmp1_V_23_0_loc_load, i36 %tmp1_V_22_0_loc_load, i36 %tmp1_V_21_0_loc_load, i36 %tmp1_V_20_0_loc_load, i36 %tmp1_V_19_0_loc_load, i36 %tmp1_V_18_0_loc_load, i36 %tmp1_V_17_0_loc_load, i36 %tmp1_V_16_0_loc_load, i36 %tmp1_V_15_0_loc_load, i36 %tmp1_V_14_0_loc_load, i36 %tmp1_V_13_0_loc_load, i36 %tmp1_V_12_0_loc_load, i36 %tmp1_V_11_0_loc_load, i36 %tmp1_V_10_0_loc_load, i36 %tmp1_V_9_0_loc_load, i36 %tmp1_V_8_0_loc_load, i35 %m_0, i35 %out_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V"   --->   Operation 104 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%ret_ln229 = ret" [model_functions.cpp:229]   --->   Operation 105 'ret' 'ret_ln229' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 104 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution2_fix_Pipeline_Convolution2_loop, i36 %tmp2_V_31_0_loc_load, i36 %tmp2_V_30_0_loc_load, i36 %tmp2_V_29_0_loc_load, i36 %tmp2_V_28_0_loc_load, i36 %tmp2_V_27_0_loc_load, i36 %tmp2_V_26_0_loc_load, i36 %tmp2_V_25_0_loc_load, i36 %tmp2_V_24_0_loc_load, i36 %tmp2_V_23_0_loc_load, i36 %tmp2_V_22_0_loc_load, i36 %tmp2_V_21_0_loc_load, i36 %tmp2_V_20_0_loc_load, i36 %tmp2_V_19_0_loc_load, i36 %tmp2_V_18_0_loc_load, i36 %tmp2_V_17_0_loc_load, i36 %tmp2_V_16_0_loc_load, i36 %tmp2_V_7_0_loc_load, i36 %tmp2_V_6_0_loc_load, i36 %tmp2_V_5_0_loc_load, i36 %tmp2_V_4_0_loc_load, i36 %tmp2_V_3_0_loc_load, i36 %tmp2_V_2_0_loc_load, i36 %tmp2_V_1_0_loc_load, i36 %tmp2_V_0_0_loc_load, i36 %tmp1_V_31_0_loc_load, i36 %tmp1_V_30_0_loc_load, i36 %tmp1_V_29_0_loc_load, i36 %tmp1_V_28_0_loc_load, i36 %tmp1_V_27_0_loc_load, i36 %tmp1_V_26_0_loc_load, i36 %tmp1_V_25_0_loc_load, i36 %tmp1_V_24_0_loc_load, i36 %tmp1_V_23_0_loc_load, i36 %tmp1_V_22_0_loc_load, i36 %tmp1_V_21_0_loc_load, i36 %tmp1_V_20_0_loc_load, i36 %tmp1_V_19_0_loc_load, i36 %tmp1_V_18_0_loc_load, i36 %tmp1_V_17_0_loc_load, i36 %tmp1_V_16_0_loc_load, i36 %tmp1_V_15_0_loc_load, i36 %tmp1_V_14_0_loc_load, i36 %tmp1_V_13_0_loc_load, i36 %tmp1_V_12_0_loc_load, i36 %tmp1_V_11_0_loc_load, i36 %tmp1_V_10_0_loc_load, i36 %tmp1_V_9_0_loc_load, i36 %tmp1_V_8_0_loc_load, i36 %m_0, i35 %out_0, i20 %secondKernel_f_V_0_0, i19 %secondKernel_f_V_0_1, i20 %secondKernel_f_V_0_2, i20 %secondKernel_f_V_0_3, i20 %secondKernel_f_V_0_4, i20 %secondKernel_f_V_0_5, i19 %secondKernel_f_V_0_6, i19 %secondKernel_f_V_0_7, i18 %secondKernel_f_V_1_0, i20 %secondKernel_f_V_1_1, i19 %secondKernel_f_V_1_2, i19 %secondKernel_f_V_1_3, i20 %secondKernel_f_V_1_4, i19 %secondKernel_f_V_1_5, i20 %secondKernel_f_V_1_6, i19 %secondKernel_f_V_1_7, i18 %secondKernel_f_V_2_0, i21 %secondKernel_f_V_2_1, i19 %secondKernel_f_V_2_2, i19 %secondKernel_f_V_2_3, i20 %secondKernel_f_V_2_4, i20 %secondKernel_f_V_2_5, i20 %secondKernel_f_V_2_6, i19 %secondKernel_f_V_2_7, i20 %secondKernel_f_V_3_0, i21 %secondKernel_f_V_3_1, i19 %secondKernel_f_V_3_2, i18 %secondKernel_f_V_3_3, i20 %secondKernel_f_V_3_4, i20 %secondKernel_f_V_3_5, i20 %secondKernel_f_V_3_6, i20 %secondKernel_f_V_3_7, i21 %secondBias_f_V"   --->   Operation 104 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%ret_ln234 = ret" [model_functions.cpp:234]   --->   Operation 105 'ret' 'ret_ln234' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -496,7 +496,7 @@ tmp1_V_10_0_loc_load (load  ) [ 00001]
 tmp1_V_9_0_loc_load  (load  ) [ 00001]
 tmp1_V_8_0_loc_load  (load  ) [ 00001]
 call_ln0             (call  ) [ 00000]
-ret_ln229            (ret   ) [ 00000]
+ret_ln234            (ret   ) [ 00000]
 </LifeTime>
 
 <model>
@@ -1410,7 +1410,7 @@ ret_ln229            (ret   ) [ 00000]
 <comp id="268" class="1004" name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268">
 <pin_list>
 <pin id="269" dir="0" index="0" bw="0" slack="0"/>
-<pin id="270" dir="0" index="1" bw="35" slack="0"/>
+<pin id="270" dir="0" index="1" bw="36" slack="0"/>
 <pin id="271" dir="0" index="2" bw="36" slack="0"/>
 <pin id="272" dir="0" index="3" bw="36" slack="0"/>
 <pin id="273" dir="0" index="4" bw="36" slack="0"/>
@@ -1518,7 +1518,7 @@ ret_ln229            (ret   ) [ 00000]
 <pin id="369" dir="0" index="46" bw="36" slack="0"/>
 <pin id="370" dir="0" index="47" bw="36" slack="0"/>
 <pin id="371" dir="0" index="48" bw="36" slack="0"/>
-<pin id="372" dir="0" index="49" bw="35" slack="0"/>
+<pin id="372" dir="0" index="49" bw="36" slack="0"/>
 <pin id="373" dir="0" index="50" bw="35" slack="0"/>
 <pin id="374" dir="0" index="51" bw="20" slack="0"/>
 <pin id="375" dir="0" index="52" bw="19" slack="0"/>
@@ -3222,9 +3222,9 @@ ret_ln229            (ret   ) [ 00000]
 | Operation|                         Functional Unit                        |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
 |   call   | grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268 |    0    |  1.588  |   1763  |   4006  |
-|          |     grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322     |   128   | 179.444 |  18738  |   9132  |
+|          |     grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322     |   128   | 179.444 |  18227  |   9132  |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
-|   Total  |                                                                |   128   | 181.032 |  20501  |  13138  |
+|   Total  |                                                                |   128   | 181.032 |  19990  |  13138  |
 |----------|----------------------------------------------------------------|---------|---------|---------|---------|
 
 Memories:
@@ -3299,10 +3299,10 @@ N/A
 +-----------+--------+--------+--------+--------+
 |           |   DSP  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |   128  |   181  |  20501 |  13138 |
+|  Function |   128  |   181  |  19990 |  13138 |
 |   Memory  |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |    -   |    -   |
 |  Register |    -   |    -   |  1728  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |   128  |   181  |  22229 |  13138 |
+|   Total   |   128  |   181  |  21718 |  13138 |
 +-----------+--------+--------+--------+--------+

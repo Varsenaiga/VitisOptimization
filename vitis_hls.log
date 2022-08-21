@@ -1,30 +1,30 @@
 INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2021.1/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'tiago' on host 'desktop-g74gfk5' (Windows NT_amd64 version 6.2) on Mon Aug 15 20:06:07 +0100 2022
+INFO: [HLS 200-10] For user 'tiago' on host 'desktop-g74gfk5' (Windows NT_amd64 version 6.2) on Wed Aug 17 18:03:33 +0100 2022
 INFO: [HLS 200-10] In directory 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis'
 Sourcing Tcl script 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1/csynth.tcl'
 INFO: [HLS 200-1510] Running: open_project Testing 
 INFO: [HLS 200-10] Opening project 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing'.
 INFO: [HLS 200-1510] Running: set_top master_fix 
-INFO: [HLS 200-1510] Running: add_files parameters.h 
-INFO: [HLS 200-10] Adding design file 'parameters.h' to the project
-INFO: [HLS 200-1510] Running: add_files model_functions.h 
-INFO: [HLS 200-10] Adding design file 'model_functions.h' to the project
-INFO: [HLS 200-1510] Running: add_files model_functions.cpp 
-INFO: [HLS 200-10] Adding design file 'model_functions.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files master.h 
-INFO: [HLS 200-10] Adding design file 'master.h' to the project
 INFO: [HLS 200-1510] Running: add_files master.cpp 
 INFO: [HLS 200-10] Adding design file 'master.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb utils.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'utils.h' to the project
-INFO: [HLS 200-1510] Running: add_files -tb utils.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'utils.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb main.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'main.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb file.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
-INFO: [HLS 200-10] Adding test bench file 'file.h' to the project
+INFO: [HLS 200-1510] Running: add_files master.h 
+INFO: [HLS 200-10] Adding design file 'master.h' to the project
+INFO: [HLS 200-1510] Running: add_files model_functions.cpp 
+INFO: [HLS 200-10] Adding design file 'model_functions.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files model_functions.h 
+INFO: [HLS 200-10] Adding design file 'model_functions.h' to the project
+INFO: [HLS 200-1510] Running: add_files parameters.h 
+INFO: [HLS 200-10] Adding design file 'parameters.h' to the project
 INFO: [HLS 200-1510] Running: add_files -tb file.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
 INFO: [HLS 200-10] Adding test bench file 'file.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb file.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'file.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb main.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'main.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb utils.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'utils.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb utils.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'utils.h' to the project
 INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
 INFO: [HLS 200-10] Opening solution 'C:/Users/tiago/AppData/Roaming/Xilinx/Vitis/Testing/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10.37ns.
@@ -35,12 +35,12 @@ INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1
 INFO: [HLS 200-1510] Running: create_clock -period 10.37 -name default 
 INFO: [HLS 200-1510] Running: set_directive_top -name master_fix master_fix 
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 1018.548 MB.
-INFO: [HLS 200-10] Analyzing design file 'master.cpp' ... 
-WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.089 seconds; current allocated memory: 1018.533 MB.
 INFO: [HLS 200-10] Analyzing design file 'model_functions.cpp' ... 
 WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 33.517 seconds; current allocated memory: 130.410 MB.
+INFO: [HLS 200-10] Analyzing design file 'master.cpp' ... 
+WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 41.189 seconds; current allocated memory: 129.764 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
 INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
 INFO: [HLS 214-284] Auto array partition mode is set into default.
@@ -4359,6 +4359,9 @@ INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode
 INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(double)' into '__cxx_global_var_init.7' (./parameters.h:382:55)
 INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(double)' into '__cxx_global_var_init.7' (./parameters.h:382:75)
 INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(double)' into '__cxx_global_var_init.7' (./parameters.h:382:96)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed_base(int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:550:146)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed_base(int)' into 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed.h:183:59)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed_base(int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:550:146)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed_base(int)' into 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed.h:183:59)
@@ -4373,24 +4376,16 @@ INFO: [HLS 214-131] Inlining function 'ap_fixed_base<49, 30, true, (ap_q_mode)5,
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<49, 30, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<49, 30, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<49, 30, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<48, 29, true>::plus ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1265:248)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<49, 30, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<49, 30, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1265:246)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:440:5)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1548:367)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)' into 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:2274:10565)
-INFO: [HLS 214-131] Inlining function 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const' into 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:2274:10554)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed_base(int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:550:146)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed_base(int)' into 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed.h:183:59)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:22:16)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:121:22)
-INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:121:11)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:119:14)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:118:6)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:118:17)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:25:18)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8])' (model_functions.cpp:24:16)
-INFO: [HLS 214-131] Inlining function 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const& std::max<ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> >(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/tps/mingw/6.2.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\6.2.0\include\c++\bits/stl_algobase.h:224:15)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'maxPool1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:243:21)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:13:19)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:128:10)
+INFO: [HLS 214-131] Inlining function 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:124:10)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:121:14)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<48, 29, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:120:6)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<12, 12, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:120:17)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:52:14)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:26:18)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:25:16)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:23:16)
 INFO: [HLS 214-131] Inlining function 'ap_fixed<72, 34, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1172:12)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:440:5)
@@ -4403,75 +4398,76 @@ INFO: [HLS 214-131] Inlining function 'ap_fixed_base<73, 35, true, (ap_q_mode)5,
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::quantization_adjust(bool, bool, bool)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:728:17)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<72, 34, true>::plus ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1265:248)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator=<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<73, 35, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1265:246)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:143:16)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:224:22)
-INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:224:11)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:222:14)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:221:8)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:221:19)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:146:19)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:145:16)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:267:21)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:294:17)
-INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:297:28)
-INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:297:17)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:294:9)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:316:22)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:316:14)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator!() const' into 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:707:9)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:440:5)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<51, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1548:367)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed_base(int)' into 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:2274:10565)
+INFO: [HLS 214-131] Inlining function 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const' into 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:2274:10554)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:148:16)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:229:22)
+INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:229:11)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:227:14)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:226:8)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:226:19)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:151:19)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:150:16)
+INFO: [HLS 214-131] Inlining function 'bool ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const& std::max<ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> >(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' (D:/Xilinx/Vitis_HLS/2021.1/tps/mingw/6.2.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\6.2.0\include\c++\bits/stl_algobase.h:224:15)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:248:21)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:275:17)
+INFO: [HLS 214-131] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>::ap_fixed(int)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:278:28)
+INFO: [HLS 214-131] Inlining function 'bool operator<<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&, int)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:278:17)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [14][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:275:9)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::RType<36, 17, true>::mult ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator*<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>(ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0> const&) const' into 'dense2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:297:22)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>& ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator+=<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<72, 34, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'dense2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' (model_functions.cpp:297:14)
 INFO: [HLS 214-131] Inlining function 'ap_int_base<64, false>::ap_int_base(unsigned long long)' into 'ap_int_base<36, false>::countLeadingZeros() const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:1231:30)
 INFO: [HLS 214-131] Inlining function 'ap_int_base<36, false>::countLeadingZeros() const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::to_double() const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:945:17)
 INFO: [HLS 214-131] Inlining function 'rawBitsToDouble(unsigned long long)' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::to_double() const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:977:12)
 INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::to_double() const' into 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator double() const' (D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:1077:74)
-INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator double() const' into 'softmax_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, float*)' (model_functions.cpp:329:13)
-INFO: [HLS 214-186] Unrolling loop 'Operations_Dense1_Loop' (model_functions.cpp:290:4) in function 'dense1_fix' completely with a factor of 16 (model_functions.cpp:277:0)
-INFO: [HLS 214-186] Unrolling loop 'Two_Col_Shift_Conv1_Loop' (model_functions.cpp:43:4) in function 'convolution1_fix' completely with a factor of 3 (model_functions.cpp:7:0)
-INFO: [HLS 214-186] Unrolling loop 'Load_Kernel_Conv1_Loop' (model_functions.cpp:55:5) in function 'convolution1_fix' completely with a factor of 12 (model_functions.cpp:7:0)
-INFO: [HLS 214-186] Unrolling loop 'One_Col_Shift_Conv1_Loop' (model_functions.cpp:69:4) in function 'convolution1_fix' completely with a factor of 3 (model_functions.cpp:7:0)
-INFO: [HLS 214-186] Unrolling loop 'Operations_Conv1_Loop' (model_functions.cpp:116:3) in function 'convolution1_fix' completely with a factor of 12 (model_functions.cpp:7:0)
-INFO: [HLS 214-178] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const& std::max<ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> >(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' into 'maxPool1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' (model_functions.cpp:231:0)
-INFO: [HLS 214-178] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const& std::max<ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> >(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' into 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:255:0)
-INFO: [HLS 214-178] Inlining function 'maxPool1_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8])' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
+INFO: [HLS 214-131] Inlining function 'ap_fixed_base<36, 17, true, (ap_q_mode)4, (ap_o_mode)3, 0>::operator double() const' into 'softmax_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, float*)' (model_functions.cpp:310:13)
+INFO: [HLS 214-186] Unrolling loop 'Operations_Dense1_Loop' (model_functions.cpp:271:4) in function 'dense1_fix' completely with a factor of 16 (model_functions.cpp:258:0)
+INFO: [HLS 214-186] Unrolling loop 'Two_Col_Shift_Conv1_Loop' (model_functions.cpp:44:4) in function 'convolution1_fix' completely with a factor of 3 (model_functions.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'Load_Kernel_Conv1_Loop' (model_functions.cpp:57:5) in function 'convolution1_fix' completely with a factor of 12 (model_functions.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'One_Col_Shift_Conv1_Loop' (model_functions.cpp:71:4) in function 'convolution1_fix' completely with a factor of 3 (model_functions.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'Operations_Conv1_Loop' (model_functions.cpp:118:3) in function 'convolution1_fix' completely with a factor of 12 (model_functions.cpp:7:0)
+INFO: [HLS 214-178] Inlining function 'ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const& std::max<ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> >(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const&)' into 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' (model_functions.cpp:236:0)
 INFO: [HLS 214-178] Inlining function 'maxPool2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-178] Inlining function 'dense2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [16], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*)' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-178] Inlining function 'softmax_fix(int, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0>*, float*)' into 'master_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], float (*) [4])' (master.cpp:6:0)
 INFO: [HLS 214-241] Aggregating bram variable 'input' with field bit alignment mode in 12-bits (master.cpp:6:0)
 INFO: [HLS 214-270] Starting automatic array partition analysis...
-INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixeds' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3][8]) (.1)'
-INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixeds' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])'
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 141 seconds. CPU system time: 11 seconds. Elapsed time: 204.778 seconds; current allocated memory: 175.494 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.029 seconds; current allocated memory: 175.495 MB.
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixed.0s' into 'convolution1_fix(ap_fixed<12, 12, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][3], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8]) (.1)'
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i36.s_struct.ap_fixed.0s' into 'convolution2_fix(ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const (*) [4][8], ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> const*, ap_fixed<36, 17, (ap_q_mode)4, (ap_o_mode)3, 0> (*) [1][16])'
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 142 seconds. CPU system time: 11 seconds. Elapsed time: 205.495 seconds; current allocated memory: 175.493 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 175.494 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 3.035 seconds; current allocated memory: 192.362 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 4 seconds. CPU system time: 1 seconds. Elapsed time: 5.215 seconds; current allocated memory: 191.315 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR.
 INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.703 seconds; current allocated memory: 211.294 MB.
-INFO: [XFORM 203-510] Pipelining loop 'Dense1_Loop1' (model_functions.cpp:279) in function 'dense1_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Initialization_Conv2_Loop' (model_functions.cpp:130) in function 'convolution2_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Convolution2_loop' (model_functions.cpp:132) in function 'convolution2_fix' automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 2.849 seconds; current allocated memory: 210.217 MB.
+INFO: [XFORM 203-510] Pipelining loop 'Dense1_Loop1' (model_functions.cpp:260) in function 'dense1_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Initialization_Conv2_Loop' (model_functions.cpp:135) in function 'convolution2_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Convolution2_loop' (model_functions.cpp:137) in function 'convolution2_fix' automatically.
 INFO: [XFORM 203-510] Pipelining loop 'Initialization_Conv1_Loop' (model_functions.cpp:9) in function 'convolution1_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Convolution1_loop' (model_functions.cpp:11) in function 'convolution1_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'MaxPool1_Loop2' (model_functions.cpp:233) in function 'master_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Operations_MaxPool2_Loop' (model_functions.cpp:257) in function 'master_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Dense2_Loop' (model_functions.cpp:304) in function 'master_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Initialization_SoftMax_Loop' (model_functions.cpp:325) in function 'master_fix' automatically.
-INFO: [XFORM 203-510] Pipelining loop 'Operations_SoftMax_Loop' (model_functions.cpp:325) in function 'master_fix' automatically.
-INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'MaxPool1_Loop2' (model_functions.cpp:233) in function 'master_fix' for pipelining.
-INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Dense2_Loop' (model_functions.cpp:304) in function 'master_fix' for pipelining.
-INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Convolution2_loop' (model_functions.cpp:132) in function 'convolution2_fix' for pipelining.
-INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Dense1_Loop1' (model_functions.cpp:279) in function 'dense1_fix' for pipelining.
-INFO: [HLS 200-489] Unrolling loop 'Operations_MaxPool1_Loop' (model_functions.cpp:233) in function 'master_fix' completely with a factor of 3.
-INFO: [HLS 200-489] Unrolling loop 'Operations_Dense2_Loop' (model_functions.cpp:305) in function 'master_fix' completely with a factor of 16.
-INFO: [HLS 200-489] Unrolling loop 'Two_Col_Shift_Conv2_Loop' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 3.
-INFO: [HLS 200-489] Unrolling loop 'Load_Kernel_Conv2_Loop' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 32.
-INFO: [HLS 200-489] Unrolling loop 'Load_Inputs_Conv2_Loop1' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Load_Inputs_Conv2_Loop2' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop1' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop2' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop3' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop4' (model_functions.cpp:130) in function 'convolution2_fix' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Operations_Conv2_Loop' (model_functions.cpp:131) in function 'convolution2_fix' completely with a factor of 32.
-INFO: [HLS 200-489] Unrolling loop 'Dense1_Loop2' (model_functions.cpp:280) in function 'dense1_fix' completely with a factor of 14.
+INFO: [XFORM 203-510] Pipelining loop 'Convolution1_loop' (model_functions.cpp:13) in function 'convolution1_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Operations_MaxPool2_Loop' (model_functions.cpp:238) in function 'master_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Dense2_Loop' (model_functions.cpp:285) in function 'master_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Initialization_SoftMax_Loop' (model_functions.cpp:306) in function 'master_fix' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Operations_SoftMax_Loop' (model_functions.cpp:306) in function 'master_fix' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Dense2_Loop' (model_functions.cpp:285) in function 'master_fix' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Convolution2_loop' (model_functions.cpp:137) in function 'convolution2_fix' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Dense1_Loop1' (model_functions.cpp:260) in function 'dense1_fix' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'Operations_Dense2_Loop' (model_functions.cpp:286) in function 'master_fix' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Two_Col_Shift_Conv2_Loop' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'Load_Kernel_Conv2_Loop' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Load_Inputs_Conv2_Loop1' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Load_Inputs_Conv2_Loop2' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop1' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop2' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop3' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Initialize_TMP_Conv2_Loop4' (model_functions.cpp:135) in function 'convolution2_fix' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Operations_Conv2_Loop' (model_functions.cpp:136) in function 'convolution2_fix' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Dense1_Loop2' (model_functions.cpp:261) in function 'dense1_fix' completely with a factor of 14.
 INFO: [XFORM 203-102] Partitioning array 'max1.V' (master.cpp:9) in dimension 2 automatically.
 INFO: [XFORM 203-102] Partitioning array 'conv2' in dimension 2 automatically.
 INFO: [XFORM 203-102] Partitioning array 'max2.V' (master.cpp:11) in dimension 2 automatically.
@@ -4519,11 +4515,11 @@ INFO: [XFORM 203-102] Automatically partitioning small array 'secondDense_f.V.13
 INFO: [XFORM 203-102] Automatically partitioning small array 'secondDense_f.V.14' completely based on array size.
 INFO: [XFORM 203-102] Automatically partitioning small array 'secondDense_f.V.15' completely based on array size.
 INFO: [XFORM 203-102] Automatically partitioning small array 'fourthBias_f.V' completely based on array size.
-INFO: [XFORM 203-102] Automatically partitioning small array 'm' (model_functions.cpp:324) completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'm' (model_functions.cpp:305) completely based on array size.
 INFO: [XFORM 203-102] Automatically partitioning small array 'den2.V.0' (master.cpp:13) completely based on array size.
-INFO: [XFORM 203-101] Partitioning array 'tmp1.V' (model_functions.cpp:133) in dimension 1 completely.
-INFO: [XFORM 203-101] Partitioning array 'tmp2.V' (model_functions.cpp:133) in dimension 1 completely.
-INFO: [XFORM 203-101] Partitioning array 'kr.V' (model_functions.cpp:132) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'tmp1.V' (model_functions.cpp:138) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'tmp2.V' (model_functions.cpp:138) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'kr.V' (model_functions.cpp:137) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'tmp1.V' (model_functions.cpp:12) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'tmp2'  in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'secondDense_f.V.0' in dimension 1 completely.
@@ -4543,25 +4539,23 @@ INFO: [XFORM 203-101] Partitioning array 'secondDense_f.V.13' in dimension 1 com
 INFO: [XFORM 203-101] Partitioning array 'secondDense_f.V.14' in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'secondDense_f.V.15' in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'fourthBias_f.V' in dimension 1 completely.
-INFO: [XFORM 203-101] Partitioning array 'm' (model_functions.cpp:324) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'm' (model_functions.cpp:305) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'den2.V.0' (master.cpp:13) in dimension 1 completely.
 INFO: [XFORM 203-102] Partitioning array 'den1' in dimension 1 automatically.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:325:9) in function 'master_fix'... converting 15 basic blocks.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:182:7) in function 'convolution2_fix'... converting 7 basic blocks.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:22:6) in function 'convolution1_fix'... converting 13 basic blocks.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:75:15) in function 'convolution1_fix'... converting 66 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:306:9) in function 'master_fix'... converting 15 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:187:7) in function 'convolution2_fix'... converting 7 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:23:6) in function 'convolution1_fix'... converting 13 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (model_functions.cpp:77:15) in function 'convolution1_fix'... converting 66 basic blocks.
 INFO: [XFORM 203-11] Balancing expressions in function 'convolution1_fix' (model_functions.cpp:9:7)...26 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 12 seconds. CPU system time: 0 seconds. Elapsed time: 13.913 seconds; current allocated memory: 268.150 MB.
-INFO: [XFORM 203-541] Flattening a loop nest 'MaxPool1_Loop1' (model_functions.cpp:233:15) in function 'master_fix'.
-INFO: [XFORM 203-541] Flattening a loop nest 'MaxPool2_Loop' (model_functions.cpp:257:12) in function 'master_fix'.
-INFO: [HLS 200-472] Inferring partial write operation for 'max1.V[0]' (model_functions.cpp:249:35)
-INFO: [HLS 200-472] Inferring partial write operation for 'max2.V[0]' (model_functions.cpp:272:22)
-INFO: [HLS 200-472] Inferring partial write operation for 'out.0' (model_functions.cpp:226:16)
-INFO: [HLS 200-472] Inferring partial write operation for 'out' (model_functions.cpp:123:16)
-INFO: [HLS 200-472] Inferring partial write operation for 'out.0' (model_functions.cpp:298:16)
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 13 seconds. CPU system time: 0 seconds. Elapsed time: 15.378 seconds; current allocated memory: 267.202 MB.
+INFO: [XFORM 203-541] Flattening a loop nest 'MaxPool2_Loop' (model_functions.cpp:238:12) in function 'master_fix'.
+INFO: [HLS 200-472] Inferring partial write operation for 'max2.V[0]' (model_functions.cpp:253:22)
+INFO: [HLS 200-472] Inferring partial write operation for 'out.0' (model_functions.cpp:231:16)
+INFO: [HLS 200-472] Inferring partial write operation for 'out.0' (model_functions.cpp:125:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'out.0' (model_functions.cpp:279:16)
 INTERNAL-INFO: never seen llvm instruction 'dexp'(522)
 INTERNAL-INFO: never seen llvm instruction 'dexp'(522)
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 3.816 seconds; current allocated memory: 426.945 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 3.983 seconds; current allocated memory: 415.039 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'master_fix' ...
 WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names.
@@ -4573,56 +4567,41 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Initialization_Conv1_Loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'Initialization_Conv1_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.168 seconds; current allocated memory: 428.634 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.139 seconds; current allocated memory: 416.716 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.543 seconds; current allocated memory: 429.092 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.725 seconds; current allocated memory: 417.158 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution1_fix_Pipeline_Convolution1_loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'out_r'. Use bind_storage pragma to override this type.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul_ln125) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'out_0'. Use bind_storage pragma to override this type.
 INFO: [SCHED 204-61] Pipelining loop 'Convolution1_loop'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'Convolution1_loop'
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 24, loop 'Convolution1_loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.179 seconds; current allocated memory: 430.344 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.602 seconds; current allocated memory: 418.466 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.865 seconds; current allocated memory: 431.867 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.284 seconds; current allocated memory: 420.079 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution1_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.446 seconds; current allocated memory: 431.958 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.746 seconds; current allocated memory: 420.170 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.929 seconds; current allocated memory: 432.112 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'max1_V_0'. Use bind_storage pragma to override this type.
-INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'conv1'. Use bind_storage pragma to override this type.
-INFO: [SCHED 204-61] Pipelining loop 'MaxPool1_Loop1_MaxPool1_Loop2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 14, loop 'MaxPool1_Loop1_MaxPool1_Loop2'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.933 seconds; current allocated memory: 432.365 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.771 seconds; current allocated memory: 432.615 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.886 seconds; current allocated memory: 420.324 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution2_fix_Pipeline_Initialization_Conv2_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4631,13 +4610,13 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'Initialization_Conv2_Loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Initialization_Conv2_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.174 seconds; current allocated memory: 433.367 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.857 seconds; current allocated memory: 421.075 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.758 seconds; current allocated memory: 434.973 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.596 seconds; current allocated memory: 422.679 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution2_fix_Pipeline_Convolution2_loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4646,25 +4625,25 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'Convolution2_loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 38, loop 'Convolution2_loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.271 seconds; current allocated memory: 437.685 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.426 seconds; current allocated memory: 425.388 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.031 seconds; current allocated memory: 440.869 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.127 seconds; current allocated memory: 428.503 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'convolution2_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.237 seconds; current allocated memory: 441.076 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.496 seconds; current allocated memory: 428.710 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.658 seconds; current allocated memory: 441.488 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.839 seconds; current allocated memory: 429.152 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4672,13 +4651,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'MaxPool2_Loop_Operations_MaxPool2_Loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'MaxPool2_Loop_Operations_MaxPool2_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.179 seconds; current allocated memory: 441.666 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.749 seconds; current allocated memory: 429.330 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.567 seconds; current allocated memory: 441.892 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.524 seconds; current allocated memory: 429.526 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense1_fix_Pipeline_Dense1_Loop1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4686,25 +4665,25 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Dense1_Loop1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 229, loop 'Dense1_Loop1'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 7 seconds. CPU system time: 0 seconds. Elapsed time: 6.502 seconds; current allocated memory: 452.720 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 7 seconds. CPU system time: 0 seconds. Elapsed time: 7.248 seconds; current allocated memory: 440.341 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 4.463 seconds; current allocated memory: 465.901 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 4.24 seconds; current allocated memory: 453.522 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense1_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 5.483 seconds; current allocated memory: 467.377 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 6 seconds. CPU system time: 0 seconds. Elapsed time: 5.714 seconds; current allocated memory: 455.056 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.999 seconds; current allocated memory: 469.965 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 2.955 seconds; current allocated memory: 457.629 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_Dense2_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4712,13 +4691,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Dense2_Loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 19, loop 'Dense2_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 3.938 seconds; current allocated memory: 470.836 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 5.381 seconds; current allocated memory: 458.470 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.637 seconds; current allocated memory: 471.819 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.896 seconds; current allocated memory: 459.454 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_Initialization_SoftMax_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4726,13 +4705,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Initialization_SoftMax_Loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'Initialization_SoftMax_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.967 seconds; current allocated memory: 472.118 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.112 seconds; current allocated memory: 459.752 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.559 seconds; current allocated memory: 472.482 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.73 seconds; current allocated memory: 460.145 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'master_fix_Pipeline_Operations_SoftMax_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4740,52 +4719,46 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Operations_SoftMax_Loop'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 80, loop 'Operations_SoftMax_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.789 seconds; current allocated memory: 472.765 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.803 seconds; current allocated memory: 460.401 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.737 seconds; current allocated memory: 473.057 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.862 seconds; current allocated memory: 460.663 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'master_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.629 seconds; current allocated memory: 473.378 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.914 seconds; current allocated memory: 461.005 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.232 seconds; current allocated memory: 474.308 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.471 seconds; current allocated memory: 461.958 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution1_fix_Pipeline_Initialization_Conv1_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution1_fix_Pipeline_Initialization_Conv1_Loop' pipeline 'Initialization_Conv1_Loop' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution1_fix_Pipeline_Initialization_Conv1_Loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 5 seconds. CPU system time: 1 seconds. Elapsed time: 5.056 seconds; current allocated memory: 475.157 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 6 seconds. CPU system time: 0 seconds. Elapsed time: 5.749 seconds; current allocated memory: 462.763 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution1_fix_Pipeline_Convolution1_loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution1_fix_Pipeline_Convolution1_loop' pipeline 'Convolution1_loop' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'mul_36s_12s_36_2_1': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_mul_16s_17ns_34_4_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_124_12_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'srem_17ns_3ns_3_21_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution1_fix_Pipeline_Convolution1_loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.065 seconds; current allocated memory: 480.049 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.373 seconds; current allocated memory: 468.560 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution1_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution1_fix'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.559 seconds; current allocated memory: 486.658 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2' pipeline 'MaxPool1_Loop1_MaxPool1_Loop2' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_7ns_9ns_15_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'urem_7ns_3ns_2_11_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.229 seconds; current allocated memory: 487.777 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.498 seconds; current allocated memory: 475.315 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution2_fix_Pipeline_Initialization_Conv2_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4793,20 +4766,20 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution2_fix_
 INFO: [RTGEN 206-100] Generating core module 'mux_164_36_1_1': 8 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_325_36_1_1': 24 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution2_fix_Pipeline_Initialization_Conv2_Loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.057 seconds; current allocated memory: 493.488 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.197 seconds; current allocated memory: 480.347 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution2_fix_Pipeline_Convolution2_loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convolution2_fix_Pipeline_Convolution2_loop' pipeline 'Convolution2_loop' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-104] Estimated max fanout for 'convolution2_fix_Pipeline_Convolution2_loop' is 22477 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-104] Estimated max fanout for 'convolution2_fix_Pipeline_Convolution2_loop' is 22989 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
 INFO: [RTGEN 206-100] Generating core module 'mul_36s_36s_55_2_1': 32 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution2_fix_Pipeline_Convolution2_loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.723 seconds; current allocated memory: 506.556 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.304 seconds; current allocated memory: 493.012 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'convolution2_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'convolution2_fix'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 4 seconds. CPU system time: 1 seconds. Elapsed time: 5.16 seconds; current allocated memory: 521.114 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 3.727 seconds; current allocated memory: 507.395 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4814,7 +4787,7 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeli
 INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.984 seconds; current allocated memory: 522.754 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.267 seconds; current allocated memory: 509.035 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense1_fix_Pipeline_Dense1_Loop1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4825,12 +4798,12 @@ INFO: [RTGEN 206-100] Generating core module 'mul_19s_35ns_54_2_1': 140 instance
 INFO: [RTGEN 206-100] Generating core module 'mul_20s_35ns_55_2_1': 58 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_21s_35ns_55_2_1': 4 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense1_fix_Pipeline_Dense1_Loop1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 9 seconds. CPU system time: 0 seconds. Elapsed time: 9.479 seconds; current allocated memory: 591.252 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 8 seconds. CPU system time: 0 seconds. Elapsed time: 7.429 seconds; current allocated memory: 577.524 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense1_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense1_fix'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 15 seconds. CPU system time: 5 seconds. Elapsed time: 18.948 seconds; current allocated memory: 645.911 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 12 seconds. CPU system time: 4 seconds. Elapsed time: 16.619 seconds; current allocated memory: 632.217 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_Dense2_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4838,14 +4811,14 @@ INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeli
 INFO: [RTGEN 206-100] Generating core module 'mul_36s_35ns_55_2_1': 16 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_42_36_1_1': 17 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_Dense2_Loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 6.543 seconds; current allocated memory: 655.596 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 4.84 seconds; current allocated memory: 641.877 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_Initialization_SoftMax_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'master_fix_Pipeline_Initialization_SoftMax_Loop' pipeline 'Initialization_SoftMax_Loop' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'mux_42_36_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_Initialization_SoftMax_Loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 1.951 seconds; current allocated memory: 660.542 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.633 seconds; current allocated memory: 646.823 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'master_fix_Pipeline_Operations_SoftMax_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4855,7 +4828,7 @@ INFO: [RTGEN 206-100] Generating core module 'dexp_64ns_64ns_64_18_full_dsp_1': 
 INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_42_64_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix_Pipeline_Operations_SoftMax_Loop'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.638 seconds; current allocated memory: 663.716 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.324 seconds; current allocated memory: 650.002 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'master_fix' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -4867,7 +4840,7 @@ INFO: [RTGEN 206-100] Generating core module 'dexp_64ns_64ns_64_18_full_dsp_1': 
 INFO: [RTGEN 206-100] Generating core module 'mul_36s_35ns_55_2_1': 16 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mux_42_64_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'master_fix'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.808 seconds; current allocated memory: 669.479 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.42 seconds; current allocated memory: 655.593 MB.
 INFO: [RTMG 210-279] Implementing memory 'master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_0' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_1' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_2' using auto ROMs.
@@ -5139,16 +5112,15 @@ INFO: [RTMG 210-279] Implementing memory 'master_fix_dense1_fix_Pipeline_Dense1_
 INFO: [RTMG 210-279] Implementing memory 'master_fix_dense1_fix_Pipeline_Dense1_Loop1_firstDense_f_V_13_13' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'master_fix_dense1_fix_Pipeline_Dense1_Loop1_firstDense_f_V_13_14' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'master_fix_dense1_fix_Pipeline_Dense1_Loop1_firstDense_f_V_13_15' using auto ROMs.
-INFO: [RTMG 210-278] Implementing memory 'master_fix_conv1_ram (RAM_1WnR)' using auto RAMs.
 INFO: [RTMG 210-278] Implementing memory 'master_fix_max1_V_0_ram (RAM_1WnR)' using auto RAMs.
 INFO: [RTMG 210-278] Implementing memory 'master_fix_conv2_0_ram (RAM)' using auto RAMs.
 INFO: [RTMG 210-278] Implementing memory 'master_fix_max2_V_0_ram (RAM)' using auto RAMs.
 INFO: [RTMG 210-278] Implementing memory 'master_fix_den1_0_ram (RAM)' using auto RAMs.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 53 seconds. CPU system time: 6 seconds. Elapsed time: 56.043 seconds; current allocated memory: 673.116 MB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 10 seconds. CPU system time: 0 seconds. Elapsed time: 10.203 seconds; current allocated memory: 684.516 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 48 seconds. CPU system time: 6 seconds. Elapsed time: 50.673 seconds; current allocated memory: 659.276 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 13 seconds. CPU system time: 0 seconds. Elapsed time: 13.787 seconds; current allocated memory: 670.603 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for master_fix.
 INFO: [VLOG 209-307] Generating Verilog RTL for master_fix.
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 132.25 MHz
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 323 seconds. CPU system time: 27 seconds. Elapsed time: 438.123 seconds; current allocated memory: 684.479 MB.
-INFO: [HLS 200-112] Total CPU user time: 324 seconds. Total CPU system time: 28 seconds. Total elapsed time: 439.849 seconds; peak allocated memory: 1018.548 MB.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 321 seconds. CPU system time: 27 seconds. Elapsed time: 443.281 seconds; current allocated memory: 670.566 MB.
+INFO: [HLS 200-112] Total CPU user time: 323 seconds. Total CPU system time: 28 seconds. Total elapsed time: 444.88 seconds; peak allocated memory: 1018.533 MB.

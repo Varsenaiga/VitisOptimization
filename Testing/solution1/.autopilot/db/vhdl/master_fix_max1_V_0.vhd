@@ -9,7 +9,7 @@ use ieee.std_logic_unsigned.all;
 
 entity master_fix_max1_V_0 is 
     generic(
-            DataWidth     : integer := 35; 
+            DataWidth     : integer := 36; 
             AddressWidth     : integer := 9; 
             AddressRange    : integer := 336
     ); 

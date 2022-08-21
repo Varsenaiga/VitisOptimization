@@ -11,14 +11,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 269 \
+    id 267 \
     name m_0 \
     reset_level 1 \
     sync_rst true \
     dir I \
     corename m_0 \
     op interface \
-    ports { m_0_address0 { O 9 vector } m_0_ce0 { O 1 bit } m_0_q0 { I 35 vector } m_0_address1 { O 9 vector } m_0_ce1 { O 1 bit } m_0_q1 { I 35 vector } m_0_address2 { O 9 vector } m_0_ce2 { O 1 bit } m_0_q2 { I 35 vector } m_0_address3 { O 9 vector } m_0_ce3 { O 1 bit } m_0_q3 { I 35 vector } m_0_address4 { O 9 vector } m_0_ce4 { O 1 bit } m_0_q4 { I 35 vector } m_0_address5 { O 9 vector } m_0_ce5 { O 1 bit } m_0_q5 { I 35 vector } m_0_address6 { O 9 vector } m_0_ce6 { O 1 bit } m_0_q6 { I 35 vector } m_0_address7 { O 9 vector } m_0_ce7 { O 1 bit } m_0_q7 { I 35 vector } m_0_address8 { O 9 vector } m_0_ce8 { O 1 bit } m_0_q8 { I 35 vector } m_0_address9 { O 9 vector } m_0_ce9 { O 1 bit } m_0_q9 { I 35 vector } m_0_address10 { O 9 vector } m_0_ce10 { O 1 bit } m_0_q10 { I 35 vector } m_0_address11 { O 9 vector } m_0_ce11 { O 1 bit } m_0_q11 { I 35 vector } m_0_address12 { O 9 vector } m_0_ce12 { O 1 bit } m_0_q12 { I 35 vector } m_0_address13 { O 9 vector } m_0_ce13 { O 1 bit } m_0_q13 { I 35 vector } m_0_address14 { O 9 vector } m_0_ce14 { O 1 bit } m_0_q14 { I 35 vector } m_0_address15 { O 9 vector } m_0_ce15 { O 1 bit } m_0_q15 { I 35 vector } } \
+    ports { m_0_address0 { O 9 vector } m_0_ce0 { O 1 bit } m_0_q0 { I 36 vector } m_0_address1 { O 9 vector } m_0_ce1 { O 1 bit } m_0_q1 { I 36 vector } m_0_address2 { O 9 vector } m_0_ce2 { O 1 bit } m_0_q2 { I 36 vector } m_0_address3 { O 9 vector } m_0_ce3 { O 1 bit } m_0_q3 { I 36 vector } m_0_address4 { O 9 vector } m_0_ce4 { O 1 bit } m_0_q4 { I 36 vector } m_0_address5 { O 9 vector } m_0_ce5 { O 1 bit } m_0_q5 { I 36 vector } m_0_address6 { O 9 vector } m_0_ce6 { O 1 bit } m_0_q6 { I 36 vector } m_0_address7 { O 9 vector } m_0_ce7 { O 1 bit } m_0_q7 { I 36 vector } m_0_address8 { O 9 vector } m_0_ce8 { O 1 bit } m_0_q8 { I 36 vector } m_0_address9 { O 9 vector } m_0_ce9 { O 1 bit } m_0_q9 { I 36 vector } m_0_address10 { O 9 vector } m_0_ce10 { O 1 bit } m_0_q10 { I 36 vector } m_0_address11 { O 9 vector } m_0_ce11 { O 1 bit } m_0_q11 { I 36 vector } m_0_address12 { O 9 vector } m_0_ce12 { O 1 bit } m_0_q12 { I 36 vector } m_0_address13 { O 9 vector } m_0_ce13 { O 1 bit } m_0_q13 { I 36 vector } m_0_address14 { O 9 vector } m_0_ce14 { O 1 bit } m_0_q14 { I 36 vector } m_0_address15 { O 9 vector } m_0_ce15 { O 1 bit } m_0_q15 { I 36 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'm_0'"
@@ -30,7 +30,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 270 \
+    id 268 \
     name out_0 \
     reset_level 1 \
     sync_rst true \

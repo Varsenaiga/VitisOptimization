@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix'" level="0">
-<item name = "Date">Mon Aug 15 20:11:18 2022
+<item name = "Date">Wed Aug 17 18:09:01 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,21 +24,20 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">6140, 6140, 63.672 us, 63.672 us, 6141, 6141, no</column>
+<column name="">5128, 5128, 53.177 us, 53.177 us, 5129, 5129, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_convolution1_fix_fu_827">convolution1_fix, 3097, 3097, 32.116 us, 32.116 us, 3097, 3097, no</column>
-<column name="grp_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2_fu_861">master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2, 1022, 1022, 10.598 us, 10.598 us, 1022, 1022, no</column>
-<column name="grp_convolution2_fix_fu_867">convolution2_fix, 730, 730, 7.570 us, 7.570 us, 730, 730, no</column>
-<column name="grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_939">master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop, 684, 684, 7.093 us, 7.093 us, 684, 684, no</column>
-<column name="grp_dense1_fix_fu_945">dense1_fix, 358, 358, 3.712 us, 3.712 us, 358, 358, no</column>
-<column name="grp_master_fix_Pipeline_Dense2_Loop_fu_1401">master_fix_Pipeline_Dense2_Loop, 23, 23, 0.239 us, 0.239 us, 23, 23, no</column>
-<column name="grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1427">master_fix_Pipeline_Initialization_SoftMax_Loop, 10, 10, 0.104 us, 0.104 us, 10, 10, no</column>
-<column name="grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1439">master_fix_Pipeline_Operations_SoftMax_Loop, 84, 84, 0.871 us, 0.871 us, 84, 84, no</column>
+<column name="grp_convolution1_fix_fu_821">convolution1_fix, 3109, 3109, 32.240 us, 32.240 us, 3109, 3109, no</column>
+<column name="grp_convolution2_fix_fu_855">convolution2_fix, 730, 730, 7.570 us, 7.570 us, 730, 730, no</column>
+<column name="grp_master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop_fu_927">master_fix_Pipeline_MaxPool2_Loop_Operations_MaxPool2_Loop, 684, 684, 7.093 us, 7.093 us, 684, 684, no</column>
+<column name="grp_dense1_fix_fu_933">dense1_fix, 358, 358, 3.712 us, 3.712 us, 358, 358, no</column>
+<column name="grp_master_fix_Pipeline_Dense2_Loop_fu_1389">master_fix_Pipeline_Dense2_Loop, 23, 23, 0.239 us, 0.239 us, 23, 23, no</column>
+<column name="grp_master_fix_Pipeline_Initialization_SoftMax_Loop_fu_1415">master_fix_Pipeline_Initialization_SoftMax_Loop, 10, 10, 0.104 us, 0.104 us, 10, 10, no</column>
+<column name="grp_master_fix_Pipeline_Operations_SoftMax_Loop_fu_1427">master_fix_Pipeline_Operations_SoftMax_Loop, 84, 84, 0.871 us, 0.871 us, 84, 84, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

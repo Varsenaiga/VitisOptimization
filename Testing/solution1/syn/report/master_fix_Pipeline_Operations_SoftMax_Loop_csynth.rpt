@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_Operations_SoftMax_Loop'
 ================================================================
-* Date:           Mon Aug 15 20:12:18 2022
+* Date:           Wed Aug 17 18:09:51 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -73,9 +73,9 @@
     +-------------------------------------+-------------------------------+---------+----+---+----+-----+
     |               Instance              |             Module            | BRAM_18K| DSP| FF| LUT| URAM|
     +-------------------------------------+-------------------------------+---------+----+---+----+-----+
-    |ddiv_64ns_64ns_64_59_no_dsp_1_U1028  |ddiv_64ns_64ns_64_59_no_dsp_1  |        0|   0|  0|   0|    0|
-    |fptrunc_64ns_32_2_no_dsp_1_U1027     |fptrunc_64ns_32_2_no_dsp_1     |        0|   0|  0|   0|    0|
-    |mux_42_64_1_1_U1030                  |mux_42_64_1_1                  |        0|   0|  0|  20|    0|
+    |ddiv_64ns_64ns_64_59_no_dsp_1_U1026  |ddiv_64ns_64ns_64_59_no_dsp_1  |        0|   0|  0|   0|    0|
+    |fptrunc_64ns_32_2_no_dsp_1_U1025     |fptrunc_64ns_32_2_no_dsp_1     |        0|   0|  0|   0|    0|
+    |mux_42_64_1_1_U1028                  |mux_42_64_1_1                  |        0|   0|  0|  20|    0|
     +-------------------------------------+-------------------------------+---------+----+---+----+-----+
     |Total                                |                               |        0|   0|  0|  20|    0|
     +-------------------------------------+-------------------------------+---------+----+---+----+-----+
@@ -93,8 +93,8 @@
     +----------------------+----------+----+---+----+------------+------------+
     |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +----------------------+----------+----+---+----+------------+------------+
-    |add_ln341_fu_123_p2   |         +|   0|  0|  11|           3|           1|
-    |icmp_ln341_fu_117_p2  |      icmp|   0|  0|   9|           3|           4|
+    |add_ln322_fu_123_p2   |         +|   0|  0|  11|           3|           1|
+    |icmp_ln322_fu_117_p2  |      icmp|   0|  0|   9|           3|           4|
     |ap_enable_pp0         |       xor|   0|  0|   2|           1|           2|
     +----------------------+----------+----+---+----+------------+------------+
     |Total                 |          |   0|  0|  22|           7|           7|
@@ -300,10 +300,10 @@
 |ap_done              |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
 |ap_idle              |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
 |ap_ready             |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1454_p_din0   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1454_p_din1   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1454_p_dout0  |   in|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1454_p_ce     |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_1442_p_din0   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_1442_p_din1   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_1442_p_dout0  |   in|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_1442_p_ce     |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
 |m_3_10_reload        |   in|   64|     ap_none|                                m_3_10_reload|        scalar|
 |m_3_7_reload         |   in|   64|     ap_none|                                 m_3_7_reload|        scalar|
 |m_2_03_reload        |   in|   64|     ap_none|                                m_2_03_reload|        scalar|

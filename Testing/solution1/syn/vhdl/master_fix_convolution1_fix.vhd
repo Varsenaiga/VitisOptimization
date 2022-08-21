@@ -20,10 +20,10 @@ port (
     input_r_address0 : OUT STD_LOGIC_VECTOR (8 downto 0);
     input_r_ce0 : OUT STD_LOGIC;
     input_r_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-    out_r_address0 : OUT STD_LOGIC_VECTOR (11 downto 0);
-    out_r_ce0 : OUT STD_LOGIC;
-    out_r_we0 : OUT STD_LOGIC;
-    out_r_d0 : OUT STD_LOGIC_VECTOR (34 downto 0) );
+    out_0_address0 : OUT STD_LOGIC_VECTOR (8 downto 0);
+    out_0_ce0 : OUT STD_LOGIC;
+    out_0_we0 : OUT STD_LOGIC;
+    out_0_d0 : OUT STD_LOGIC_VECTOR (35 downto 0) );
 end;
 
 
@@ -91,10 +91,10 @@ attribute shreg_extract : string;
     signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_ap_ready : STD_LOGIC;
     signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_address0 : STD_LOGIC_VECTOR (8 downto 0);
     signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_ce0 : STD_LOGIC;
-    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_address0 : STD_LOGIC_VECTOR (11 downto 0);
-    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_ce0 : STD_LOGIC;
-    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_we0 : STD_LOGIC;
-    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_d0 : STD_LOGIC_VECTOR (34 downto 0);
+    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_address0 : STD_LOGIC_VECTOR (8 downto 0);
+    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_ce0 : STD_LOGIC;
+    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_we0 : STD_LOGIC;
+    signal grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_d0 : STD_LOGIC_VECTOR (35 downto 0);
     signal grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108_ap_start_reg : STD_LOGIC := '0';
     signal ap_CS_fsm_state2 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
@@ -171,10 +171,10 @@ attribute shreg_extract : string;
         input_r_address0 : OUT STD_LOGIC_VECTOR (8 downto 0);
         input_r_ce0 : OUT STD_LOGIC;
         input_r_q0 : IN STD_LOGIC_VECTOR (15 downto 0);
-        out_r_address0 : OUT STD_LOGIC_VECTOR (11 downto 0);
-        out_r_ce0 : OUT STD_LOGIC;
-        out_r_we0 : OUT STD_LOGIC;
-        out_r_d0 : OUT STD_LOGIC_VECTOR (34 downto 0) );
+        out_0_address0 : OUT STD_LOGIC_VECTOR (8 downto 0);
+        out_0_ce0 : OUT STD_LOGIC;
+        out_0_we0 : OUT STD_LOGIC;
+        out_0_d0 : OUT STD_LOGIC_VECTOR (35 downto 0) );
     end component;
 
 
@@ -237,10 +237,10 @@ begin
         input_r_address0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_address0,
         input_r_ce0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_ce0,
         input_r_q0 => input_r_q0,
-        out_r_address0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_address0,
-        out_r_ce0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_ce0,
-        out_r_we0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_we0,
-        out_r_d0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_d0);
+        out_0_address0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_address0,
+        out_0_ce0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_ce0,
+        out_0_we0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_we0,
+        out_0_d0 => grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_d0);
 
 
 
@@ -428,9 +428,9 @@ begin
         end if; 
     end process;
 
-    out_r_address0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_address0;
-    out_r_ce0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_ce0;
-    out_r_d0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_d0;
-    out_r_we0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_we0;
+    out_0_address0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_address0;
+    out_0_ce0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_ce0;
+    out_0_d0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_d0;
+    out_0_we0 <= grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_we0;
     tmp1_V_9_fu_171_p1 <= input_r_q0(12 - 1 downto 0);
 end behav;

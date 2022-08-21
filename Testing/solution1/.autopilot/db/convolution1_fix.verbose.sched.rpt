@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix'
 ================================================================
-* Date:           Mon Aug 15 20:10:36 2022
+* Date:           Wed Aug 17 18:08:16 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
     +---------+---------+-----------+-----------+------+------+---------+
-    |     3097|     3097|  32.116 us|  32.116 us|  3097|  3097|       no|
+    |     3109|     3109|  32.240 us|  32.240 us|  3109|  3109|       no|
     +---------+---------+-----------+-----------+------+------+---------+
 
     + Detail: 
@@ -97,12 +97,12 @@ State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 19 [1/2] (0.00ns)   --->   "%call_ln0 = call void @convolution1_fix_Pipeline_Initialization_Conv1_Loop, i16 %input_r, i12 %tmp1_V_11_0_loc, i12 %tmp1_V_10_0_loc, i12 %tmp1_V_11_4_loc, i12 %tmp1_V_11_6_loc, i12 %tmp1_V_5_0_loc, i12 %tmp1_V_4_0_loc, i12 %tmp1_V_2_0_loc, i12 %tmp1_V_1_0_loc, i12 %tmp1_V_0_0_loc, i12 %tmp1_V_11_9_loc, i12 %tmp1_V_11_11_loc"   --->   Operation 19 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 3.25>
-ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:30]   --->   Operation 20 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 21 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:30]   --->   Operation 21 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%input_addr = getelementptr i16 %input_r, i64 0, i64 6" [model_functions.cpp:31]   --->   Operation 20 'getelementptr' 'input_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 21 [2/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:31]   --->   Operation 21 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 22 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:30]   --->   Operation 22 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
-ST_4 : Operation 23 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:30]   --->   Operation 23 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 22 [1/2] (3.25ns)   --->   "%input_load = load i9 %input_addr" [model_functions.cpp:31]   --->   Operation 22 'load' 'input_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 384> <RAM>
+ST_4 : Operation 23 [1/1] (0.00ns)   --->   "%tmp1_V_9 = trunc i16 %input_load" [model_functions.cpp:31]   --->   Operation 23 'trunc' 'tmp1_V_9' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 1.58>
 ST_5 : Operation 24 [1/1] (0.00ns)   --->   "%tmp1_V_11_0_loc_load = load i12 %tmp1_V_11_0_loc"   --->   Operation 24 'load' 'tmp1_V_11_0_loc_load' <Predicate = true> <Delay = 0.00>
@@ -116,12 +116,12 @@ ST_5 : Operation 31 [1/1] (0.00ns)   --->   "%tmp1_V_1_0_loc_load = load i12 %tm
 ST_5 : Operation 32 [1/1] (0.00ns)   --->   "%tmp1_V_0_0_loc_load = load i12 %tmp1_V_0_0_loc"   --->   Operation 32 'load' 'tmp1_V_0_0_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 33 [1/1] (0.00ns)   --->   "%tmp1_V_11_9_loc_load = load i12 %tmp1_V_11_9_loc"   --->   Operation 33 'load' 'tmp1_V_11_9_loc_load' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_11_11_loc_load = load i12 %tmp1_V_11_11_loc"   --->   Operation 34 'load' 'tmp1_V_11_11_loc_load' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 35 [2/2] (1.58ns)   --->   "%call_ln30 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:30]   --->   Operation 35 'call' 'call_ln30' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 35 [2/2] (1.58ns)   --->   "%call_ln31 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i36 %out_0, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:31]   --->   Operation 35 'call' 'call_ln31' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_2, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln30 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i35 %out_r, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:30]   --->   Operation 37 'call' 'call_ln30' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_6 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln126 = ret" [model_functions.cpp:126]   --->   Operation 38 'ret' 'ret_ln126' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty_6, i32 4294967295, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln31 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i36 %out_0, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:31]   --->   Operation 37 'call' 'call_ln31' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln131 = ret" [model_functions.cpp:131]   --->   Operation 38 'ret' 'ret_ln131' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -137,17 +137,17 @@ The critical path consists of the following:
 
  <State 3>: 3.25ns
 The critical path consists of the following:
-	'getelementptr' operation ('input_addr', model_functions.cpp:30) [27]  (0 ns)
-	'load' operation ('input_load', model_functions.cpp:30) on array 'input_r' [41]  (3.25 ns)
+	'getelementptr' operation ('input_addr', model_functions.cpp:31) [27]  (0 ns)
+	'load' operation ('input_load', model_functions.cpp:31) on array 'input_r' [41]  (3.25 ns)
 
  <State 4>: 3.25ns
 The critical path consists of the following:
-	'load' operation ('input_load', model_functions.cpp:30) on array 'input_r' [41]  (3.25 ns)
+	'load' operation ('input_load', model_functions.cpp:31) on array 'input_r' [41]  (3.25 ns)
 
  <State 5>: 1.59ns
 The critical path consists of the following:
 	'load' operation ('tmp1_V_11_0_loc_load') on local variable 'tmp1_V_11_0_loc' [30]  (0 ns)
-	'call' operation ('call_ln30', model_functions.cpp:30) to 'convolution1_fix_Pipeline_Convolution1_loop' [43]  (1.59 ns)
+	'call' operation ('call_ln31', model_functions.cpp:31) to 'convolution1_fix_Pipeline_Convolution1_loop' [43]  (1.59 ns)
 
  <State 6>: 0ns
 The critical path consists of the following:

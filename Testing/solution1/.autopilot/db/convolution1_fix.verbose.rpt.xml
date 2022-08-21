@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution1_fix'" level="0">
-<item name = "Date">Mon Aug 15 20:11:27 2022
+<item name = "Date">Wed Aug 17 18:09:11 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">3097, 3097, 32.116 us, 32.116 us, 3097, 3097, no</column>
+<column name="">3109, 3109, 32.240 us, 32.240 us, 3109, 3109, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -32,7 +32,7 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108">convolution1_fix_Pipeline_Initialization_Conv1_Loop, 9, 9, 93.330 ns, 93.330 ns, 9, 9, no</column>
-<column name="grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125">convolution1_fix_Pipeline_Convolution1_loop, 3083, 3083, 31.971 us, 31.971 us, 3083, 3083, no</column>
+<column name="grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125">convolution1_fix_Pipeline_Convolution1_loop, 3095, 3095, 32.095 us, 32.095 us, 3095, 3095, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -51,19 +51,19 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, -, -, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">0, 24, 5258, 3952, -</column>
+<column name="Instance">0, 25, 6189, 5206, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 77, -</column>
 <column name="Register">-, -, 20, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
-<specialColumn name="Utilization (%)">0, 10, 4, 7, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 11, 5, 9, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125">convolution1_fix_Pipeline_Convolution1_loop, 0, 24, 5093, 3460, 0</column>
+<column name="grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125">convolution1_fix_Pipeline_Convolution1_loop, 0, 25, 6024, 4714, 0</column>
 <column name="grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108">convolution1_fix_Pipeline_Initialization_Conv1_Loop, 0, 0, 165, 492, 0</column>
 </table>
 </item>
@@ -114,10 +114,10 @@
 <column name="input_r_address0">out, 9, ap_memory, input_r, array</column>
 <column name="input_r_ce0">out, 1, ap_memory, input_r, array</column>
 <column name="input_r_q0">in, 16, ap_memory, input_r, array</column>
-<column name="out_r_address0">out, 12, ap_memory, out_r, array</column>
-<column name="out_r_ce0">out, 1, ap_memory, out_r, array</column>
-<column name="out_r_we0">out, 1, ap_memory, out_r, array</column>
-<column name="out_r_d0">out, 35, ap_memory, out_r, array</column>
+<column name="out_0_address0">out, 9, ap_memory, out_0, array</column>
+<column name="out_0_ce0">out, 1, ap_memory, out_0, array</column>
+<column name="out_0_we0">out, 1, ap_memory, out_0, array</column>
+<column name="out_0_d0">out, 36, ap_memory, out_0, array</column>
 </table>
 </item>
 </section>

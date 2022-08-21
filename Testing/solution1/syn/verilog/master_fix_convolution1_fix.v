@@ -17,10 +17,10 @@ module master_fix_convolution1_fix (
         input_r_address0,
         input_r_ce0,
         input_r_q0,
-        out_r_address0,
-        out_r_ce0,
-        out_r_we0,
-        out_r_d0
+        out_0_address0,
+        out_0_ce0,
+        out_0_we0,
+        out_0_d0
 );
 
 parameter    ap_ST_fsm_state1 = 6'd1;
@@ -39,10 +39,10 @@ output   ap_ready;
 output  [8:0] input_r_address0;
 output   input_r_ce0;
 input  [15:0] input_r_q0;
-output  [11:0] out_r_address0;
-output   out_r_ce0;
-output   out_r_we0;
-output  [34:0] out_r_d0;
+output  [8:0] out_0_address0;
+output   out_0_ce0;
+output   out_0_we0;
+output  [35:0] out_0_d0;
 
 reg ap_done;
 reg ap_idle;
@@ -90,10 +90,10 @@ wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_ap_idle;
 wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_ap_ready;
 wire   [8:0] grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_address0;
 wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_ce0;
-wire   [11:0] grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_address0;
-wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_ce0;
-wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_we0;
-wire   [34:0] grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_d0;
+wire   [8:0] grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_address0;
+wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_ce0;
+wire    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_we0;
+wire   [35:0] grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_d0;
 reg    grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108_ap_start_reg;
 wire    ap_CS_fsm_state2;
 reg    grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_ap_start_reg;
@@ -171,10 +171,10 @@ master_fix_convolution1_fix_Pipeline_Convolution1_loop grp_convolution1_fix_Pipe
     .input_r_address0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_address0),
     .input_r_ce0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_input_r_ce0),
     .input_r_q0(input_r_q0),
-    .out_r_address0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_address0),
-    .out_r_ce0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_ce0),
-    .out_r_we0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_we0),
-    .out_r_d0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_d0)
+    .out_0_address0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_address0),
+    .out_0_ce0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_ce0),
+    .out_0_we0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_we0),
+    .out_0_d0(grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_d0)
 );
 
 always @ (posedge ap_clk) begin
@@ -347,13 +347,13 @@ assign grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_ap_start = grp_con
 
 assign grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108_ap_start = grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108_ap_start_reg;
 
-assign out_r_address0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_address0;
+assign out_0_address0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_address0;
 
-assign out_r_ce0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_ce0;
+assign out_0_ce0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_ce0;
 
-assign out_r_d0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_d0;
+assign out_0_d0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_d0;
 
-assign out_r_we0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_r_we0;
+assign out_0_we0 = grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125_out_0_we0;
 
 assign tmp1_V_9_fu_171_p1 = input_r_q0[11:0];
 

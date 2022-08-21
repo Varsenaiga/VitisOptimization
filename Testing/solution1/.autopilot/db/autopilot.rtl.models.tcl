@@ -6,8 +6,10 @@ set SynModuleInfo {
   }
   {SRCNAME convolution1_fix_Pipeline_Convolution1_loop MODELNAME convolution1_fix_Pipeline_Convolution1_loop RTLNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop
     SUBMODULES {
+      {MODELNAME master_fix_srem_17ns_3ns_3_21_1 RTLNAME master_fix_srem_17ns_3ns_3_21_1 BINDTYPE op TYPE srem IMPL auto LATENCY 20 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_mux_124_12_1_1 RTLNAME master_fix_mux_124_12_1_1 BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_mul_36s_12s_36_2_1 RTLNAME master_fix_mul_36s_12s_36_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
+      {MODELNAME master_fix_mul_mul_16s_17ns_34_4_1 RTLNAME master_fix_mul_mul_16s_17ns_34_4_1 BINDTYPE op TYPE mul IMPL dsp LATENCY 3 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_0 RTLNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_0 BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_1 RTLNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_1 BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_2 RTLNAME master_fix_convolution1_fix_Pipeline_Convolution1_loop_firstKernel_f_V_0_2 BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
@@ -24,12 +26,6 @@ set SynModuleInfo {
     }
   }
   {SRCNAME convolution1_fix MODELNAME convolution1_fix RTLNAME master_fix_convolution1_fix}
-  {SRCNAME master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2 MODELNAME master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2 RTLNAME master_fix_master_fix_Pipeline_MaxPool1_Loop1_MaxPool1_Loop2
-    SUBMODULES {
-      {MODELNAME master_fix_urem_7ns_3ns_2_11_1 RTLNAME master_fix_urem_7ns_3ns_2_11_1 BINDTYPE op TYPE urem IMPL auto LATENCY 10 ALLOW_PRAGMA 1}
-      {MODELNAME master_fix_mul_7ns_9ns_15_1_1 RTLNAME master_fix_mul_7ns_9ns_15_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
-    }
-  }
   {SRCNAME convolution2_fix_Pipeline_Initialization_Conv2_Loop MODELNAME convolution2_fix_Pipeline_Initialization_Conv2_Loop RTLNAME master_fix_convolution2_fix_Pipeline_Initialization_Conv2_Loop
     SUBMODULES {
       {MODELNAME master_fix_mux_164_36_1_1 RTLNAME master_fix_mux_164_36_1_1 BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
@@ -333,7 +329,6 @@ set SynModuleInfo {
   {SRCNAME master_fix MODELNAME master_fix RTLNAME master_fix IS_TOP 1
     SUBMODULES {
       {MODELNAME master_fix_dadd_64ns_64ns_64_7_full_dsp_1 RTLNAME master_fix_dadd_64ns_64ns_64_7_full_dsp_1 BINDTYPE op TYPE dadd IMPL fulldsp LATENCY 6 ALLOW_PRAGMA 1}
-      {MODELNAME master_fix_conv1 RTLNAME master_fix_conv1 BINDTYPE storage TYPE ram_1wnr IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_max1_V_0 RTLNAME master_fix_max1_V_0 BINDTYPE storage TYPE ram_1wnr IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_conv2_0 RTLNAME master_fix_conv2_0 BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME master_fix_max2_V_0 RTLNAME master_fix_max2_V_0 BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}

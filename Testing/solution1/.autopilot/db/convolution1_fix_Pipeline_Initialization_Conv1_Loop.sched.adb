@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>579600312</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574681832</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -250,7 +250,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -286,7 +286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852383271</coreId>
+						<coreId>1664037166</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -322,7 +322,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1831280750</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -358,7 +358,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1751344500</coreId>
+						<coreId>1013212536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -394,7 +394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>201</coreId>
+						<coreId>1410180064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -430,7 +430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741421372</coreId>
+						<coreId>1629954158</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -470,7 +470,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -512,7 +512,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>1717530721</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -554,7 +554,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>741880892</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -638,7 +638,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -680,7 +680,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717530721</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -722,7 +722,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -764,7 +764,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -806,7 +806,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -848,7 +848,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -890,7 +890,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -932,7 +932,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -974,7 +974,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1016,7 +1016,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1059,7 +1059,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1102,7 +1102,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>741487420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1187,7 +1187,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>1717530721</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -1211,10 +1211,10 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>icmp_ln18</name>
+						<name>icmp_ln19</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>18</lineNumber>
+						<lineNumber>19</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1230,7 +1230,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>18</second>
+										<second>19</second>
 									</item>
 								</second>
 							</item>
@@ -1243,7 +1243,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1532834865</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1268,10 +1268,10 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>add_ln18</name>
+						<name>add_ln19</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>18</lineNumber>
+						<lineNumber>19</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1287,7 +1287,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>18</second>
+										<second>19</second>
 									</item>
 								</second>
 							</item>
@@ -1300,7 +1300,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741880892</coreId>
+						<coreId>1532834865</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -1325,10 +1325,10 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>br_ln18</name>
+						<name>br_ln19</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>18</lineNumber>
+						<lineNumber>19</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1344,7 +1344,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>18</second>
+										<second>19</second>
 									</item>
 								</second>
 							</item>
@@ -1357,7 +1357,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741487420</coreId>
+						<coreId>741488444</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1383,10 +1383,10 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>icmp_ln19</name>
+						<name>icmp_ln20</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>19</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1402,7 +1402,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>19</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -1440,405 +1440,6 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>add_ln19</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>19</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>19</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>2</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>367</item>
-					<item>369</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.56</m_delay>
-				<m_topoIndex>23</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_36">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>42</id>
-						<name>j</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>19</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>19</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>j</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741488444</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>2</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>370</item>
-					<item>371</item>
-					<item>372</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.99</m_delay>
-				<m_topoIndex>24</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_37">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>43</id>
-						<name>icmp_ln20</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>20</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1869438833</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>373</item>
-					<item>374</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.95</m_delay>
-				<m_topoIndex>25</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_38">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>44</id>
-						<name>br_ln20</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>20</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>539767593</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>375</item>
-					<item>376</item>
-					<item>377</item>
-				</oprand_edges>
-				<opcode>br</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>26</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_39">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>46</id>
-						<name>i_load</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>20</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>909327461</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>378</item>
-					<item>470</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>27</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_40">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>47</id>
-						<name>sext_ln20</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>20</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1767386938</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>17</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>379</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>28</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_41">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>48</id>
-						<name>trunc_ln20</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>20</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1663988590</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>7</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>380</item>
-				</oprand_edges>
-				<opcode>trunc</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>29</m_topoIndex>
-				<m_clusterGroupNumber>1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_42">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>49</id>
 						<name>add_ln20</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
@@ -1871,7 +1472,406 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>909327461</coreId>
+						<coreId>1532834865</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>2</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>367</item>
+					<item>369</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.56</m_delay>
+				<m_topoIndex>23</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_36">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>42</id>
+						<name>j</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>20</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>20</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>j</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741487420</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>2</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>370</item>
+					<item>371</item>
+					<item>372</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.99</m_delay>
+				<m_topoIndex>24</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_37">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>43</id>
+						<name>icmp_ln21</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>21</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>21</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741880892</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>373</item>
+					<item>374</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.95</m_delay>
+				<m_topoIndex>25</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_38">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>44</id>
+						<name>br_ln21</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>21</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>21</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741749564</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>375</item>
+					<item>376</item>
+					<item>377</item>
+				</oprand_edges>
+				<opcode>br</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>26</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_39">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>46</id>
+						<name>i_load</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>21</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>21</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1767862881</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>378</item>
+					<item>470</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>27</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_40">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>47</id>
+						<name>sext_ln21</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>21</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>21</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>544175214</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>17</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>379</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>28</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_41">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>48</id>
+						<name>trunc_ln21</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>21</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>21</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>539110958</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>7</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>380</item>
+				</oprand_edges>
+				<opcode>trunc</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>29</m_topoIndex>
+				<m_clusterGroupNumber>1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_42">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>49</id>
+						<name>add_ln21</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>21</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>21</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>976895589</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>17</bitwidth>
@@ -1899,7 +1899,7 @@
 						<name>tmp</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1915,7 +1915,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -1928,7 +1928,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
+						<coreId>640247148</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1954,10 +1954,10 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>trunc_ln20_1</name>
+						<name>trunc_ln21_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -1973,7 +1973,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -1986,7 +1986,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>661943150</coreId>
+						<coreId>1953721967</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -2010,10 +2010,10 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>xor_ln20</name>
+						<name>xor_ln21</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2029,7 +2029,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2042,7 +2042,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539768371</coreId>
+						<coreId>539767849</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -2070,7 +2070,7 @@
 						<name>p_and_t_cast</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2086,7 +2086,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2099,7 +2099,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953721967</coreId>
+						<coreId>574452846</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2125,10 +2125,10 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>sub_ln20</name>
+						<name>sub_ln21</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2144,7 +2144,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2157,7 +2157,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>540946464</coreId>
+						<coreId>1563515680</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2185,7 +2185,7 @@
 						<name>tmp_s</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2201,7 +2201,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2214,7 +2214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1650418789</coreId>
+						<coreId>909327461</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2240,10 +2240,10 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>select_ln20</name>
+						<name>select_ln21</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2259,7 +2259,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2272,7 +2272,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741749564</coreId>
+						<coreId>976564538</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2298,10 +2298,10 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>i_write_ln20</name>
+						<name>i_write_ln21</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2317,7 +2317,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2330,7 +2330,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1563646752</coreId>
+						<coreId>1684371561</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2357,10 +2357,10 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>br_ln20</name>
+						<name>br_ln21</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2376,7 +2376,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>20</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -2389,7 +2389,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953721967</coreId>
+						<coreId>574454117</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2416,7 +2416,7 @@
 						<name>tmp1_V_11_2_load_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2432,7 +2432,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -2445,7 +2445,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574452846</coreId>
+						<coreId>1953721967</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -2472,7 +2472,7 @@
 						<name>tmp1_V_11_9_load_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2488,7 +2488,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -2501,7 +2501,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869438831</coreId>
+						<coreId>1936482662</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -2528,7 +2528,7 @@
 						<name>tmp1_V_0_0_load_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -2544,7 +2544,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>22</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -2557,7 +2557,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767859</coreId>
+						<coreId>758395186</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -2582,230 +2582,6 @@
 						<type>0</type>
 						<id>63</id>
 						<name>tmp1_V_1_0_load_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1630027312</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>229</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>77</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_56">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>64</id>
-						<name>tmp1_V_2_0_load_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>230</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>78</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_57">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>65</id>
-						<name>tmp1_V_4_0_load_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741356320</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>231</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>79</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_58">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>66</id>
-						<name>tmp1_V_5_0_load_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1601265520</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>232</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>80</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_59">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>67</id>
-						<name>tmp1_V_11_6_load_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -2837,7 +2613,231 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1650422894</coreId>
+						<coreId>1629954158</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>229</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>77</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_56">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>64</id>
+						<name>tmp1_V_2_0_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1953721967</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>230</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>78</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_57">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>65</id>
+						<name>tmp1_V_4_0_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1970170221</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>231</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>79</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_58">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>66</id>
+						<name>tmp1_V_5_0_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1834971487</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>232</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>80</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_59">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>67</id>
+						<name>tmp1_V_11_6_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1663050274</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -2862,6 +2862,746 @@
 						<type>0</type>
 						<id>68</id>
 						<name>tmp1_V_11_4_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869438831</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>234</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>82</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_61">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>69</id>
+						<name>tmp1_V_11_11_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>539767593</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>235</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>83</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_62">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>70</id>
+						<name>tmp1_V_11_13_load_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1920213036</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>236</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>84</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_63">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>71</id>
+						<name>i_4</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>i</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1768316784</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>237</item>
+					<item>472</item>
+					<item>475</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>41</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_64">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>72</id>
+						<name>icmp_ln23</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1814455667</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>238</item>
+					<item>240</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.13</m_delay>
+				<m_topoIndex>85</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_65">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>73</id>
+						<name>icmp_ln23_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1834970975</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>241</item>
+					<item>243</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.13</m_delay>
+				<m_topoIndex>86</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_66">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>74</id>
+						<name>icmp_ln23_2</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1902080097</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>244</item>
+					<item>246</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.13</m_delay>
+				<m_topoIndex>87</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_67">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>75</id>
+						<name>icmp_ln23_3</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>997420912</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>247</item>
+					<item>248</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.13</m_delay>
+				<m_topoIndex>88</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_68">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>76</id>
+						<name>icmp_ln23_4</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>547</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>249</item>
+					<item>250</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.13</m_delay>
+				<m_topoIndex>89</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_69">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>77</id>
+						<name>or_ln23</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1563974493</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>251</item>
+					<item>252</item>
+				</oprand_edges>
+				<opcode>or</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.97</m_delay>
+				<m_topoIndex>90</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_70">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>78</id>
+						<name>or_ln23_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741749564</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>253</item>
+					<item>254</item>
+				</oprand_edges>
+				<opcode>or</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>91</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_71">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>79</id>
+						<name>select_ln23</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1868525665</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>255</item>
+					<item>256</item>
+					<item>258</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>92</m_topoIndex>
+				<m_clusterGroupNumber>3</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_72">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>80</id>
+						<name>or_ln23_2</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>23</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1763714857</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>259</item>
+					<item>260</item>
+				</oprand_edges>
+				<opcode>or</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.97</m_delay>
+				<m_topoIndex>93</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_73">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>81</id>
+						<name>select_ln23_1</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -2899,746 +3639,6 @@
 					<bitwidth>12</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>234</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>82</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_61">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>69</id>
-						<name>tmp1_V_11_11_load_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>875639328</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>235</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>83</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_62">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>70</id>
-						<name>tmp1_V_11_13_load_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1664037166</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>236</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>84</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_63">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>71</id>
-						<name>i_5</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>i</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>539767351</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>237</item>
-					<item>472</item>
-					<item>475</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>41</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_64">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>72</id>
-						<name>icmp_ln22</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1031369833</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>238</item>
-					<item>240</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.13</m_delay>
-				<m_topoIndex>85</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_65">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>73</id>
-						<name>icmp_ln22_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1768766010</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>241</item>
-					<item>243</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.13</m_delay>
-				<m_topoIndex>86</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_66">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>74</id>
-						<name>icmp_ln22_2</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>244</item>
-					<item>246</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.13</m_delay>
-				<m_topoIndex>87</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_67">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>75</id>
-						<name>icmp_ln22_3</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>2</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>247</item>
-					<item>248</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.13</m_delay>
-				<m_topoIndex>88</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_68">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>76</id>
-						<name>icmp_ln22_4</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1886999634</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>249</item>
-					<item>250</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.13</m_delay>
-				<m_topoIndex>89</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_69">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>77</id>
-						<name>or_ln22</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>539768105</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>251</item>
-					<item>252</item>
-				</oprand_edges>
-				<opcode>or</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>90</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_70">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>78</id>
-						<name>or_ln22_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>133</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>253</item>
-					<item>254</item>
-				</oprand_edges>
-				<opcode>or</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>91</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_71">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>79</id>
-						<name>select_ln22</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>303</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>255</item>
-					<item>256</item>
-					<item>258</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>92</m_topoIndex>
-				<m_clusterGroupNumber>3</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_72">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>80</id>
-						<name>or_ln22_2</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>9</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>259</item>
-					<item>260</item>
-				</oprand_edges>
-				<opcode>or</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>93</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_73">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>81</id>
-						<name>select_ln22_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741814560</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
 					<item>261</item>
@@ -3659,1094 +3659,6 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>select_ln22_2</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1650418789</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>264</item>
-					<item>265</item>
-					<item>266</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>95</m_topoIndex>
-				<m_clusterGroupNumber>4</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_75">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>83</id>
-						<name>select_ln22_3</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1551134572</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>267</item>
-					<item>268</item>
-					<item>269</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.69</m_delay>
-				<m_topoIndex>96</m_topoIndex>
-				<m_clusterGroupNumber>4</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_76">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>84</id>
-						<name>select_ln22_4</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>574452846</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>270</item>
-					<item>271</item>
-					<item>272</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>97</m_topoIndex>
-				<m_clusterGroupNumber>5</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_77">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>85</id>
-						<name>select_ln22_5</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1630019628</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>273</item>
-					<item>274</item>
-					<item>275</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.69</m_delay>
-				<m_topoIndex>98</m_topoIndex>
-				<m_clusterGroupNumber>5</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_78">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>86</id>
-						<name>select_ln22_6</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>385</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>276</item>
-					<item>277</item>
-					<item>278</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>99</m_topoIndex>
-				<m_clusterGroupNumber>6</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_79">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>87</id>
-						<name>select_ln22_7</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>539767859</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>279</item>
-					<item>280</item>
-					<item>281</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.69</m_delay>
-				<m_topoIndex>100</m_topoIndex>
-				<m_clusterGroupNumber>6</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_80">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>88</id>
-						<name>select_ln22_8</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>22</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>289</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>282</item>
-					<item>283</item>
-					<item>284</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.69</m_delay>
-				<m_topoIndex>101</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_81">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>89</id>
-						<name>trunc_ln23</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1713388403</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>285</item>
-				</oprand_edges>
-				<opcode>trunc</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>42</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_82">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>90</id>
-						<name>trunc_ln23_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>23</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>7</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>286</item>
-				</oprand_edges>
-				<opcode>trunc</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>43</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_83">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>91</id>
-						<name>tmp_55_cast</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>288</item>
-					<item>289</item>
-					<item>291</item>
-				</oprand_edges>
-				<opcode>bitconcatenate</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>44</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_84">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>92</id>
-						<name>sub_ln23</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>163</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>292</item>
-					<item>293</item>
-				</oprand_edges>
-				<opcode>sub</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>45</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_85">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>93</id>
-						<name>zext_ln23</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>76</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>294</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>46</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_86">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>94</id>
-						<name>add_ln23</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>295</item>
-					<item>296</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.69</m_delay>
-				<m_topoIndex>47</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_87">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>95</id>
-						<name>zext_ln23_1</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1650418789</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>64</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>297</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>48</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_88">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>96</id>
-						<name>input_addr</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1629954158</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>298</item>
-					<item>300</item>
-					<item>301</item>
-				</oprand_edges>
-				<opcode>getelementptr</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>49</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_89">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>97</id>
-						<name>input_load</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>83</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>302</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.25</m_delay>
-				<m_topoIndex>50</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_90">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>98</id>
-						<name>tmp1_V_11_21</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>tmp1.V[11]</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>976895536</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>303</item>
-				</oprand_edges>
-				<opcode>trunc</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>102</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_91">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>99</id>
-						<name>select_ln23</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>825913456</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>304</item>
-					<item>305</item>
-					<item>306</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>103</m_topoIndex>
-				<m_clusterGroupNumber>7</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_92">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>100</id>
-						<name>tmp1_V_11</name>
-						<fileName>model_functions.cpp</fileName>
-						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
-						<contextFuncName>convolution1_fix</contextFuncName>
-						<contextNormFuncName>convolution1_fix</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>model_functions.cpp</first>
-											<second>convolution1_fix</second>
-										</first>
-										<second>23</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>tmp1.V[11]</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>12</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>307</item>
-					<item>308</item>
-					<item>309</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.69</m_delay>
-				<m_topoIndex>104</m_topoIndex>
-				<m_clusterGroupNumber>7</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_93">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>101</id>
 						<name>select_ln23_2</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
@@ -4779,7 +3691,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601265520</coreId>
+						<coreId>1763714857</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -4787,9 +3699,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>310</item>
-					<item>311</item>
-					<item>312</item>
+					<item>264</item>
+					<item>265</item>
+					<item>266</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -4797,15 +3709,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>105</m_topoIndex>
-				<m_clusterGroupNumber>8</m_clusterGroupNumber>
+				<m_topoIndex>95</m_topoIndex>
+				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_94">
+			<item class_id_reference="9" object_id="_75">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>102</id>
-						<name>tmp1_V_11_15</name>
+						<id>83</id>
+						<name>select_ln23_3</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -4829,7 +3741,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>tmp1.V[11]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -4837,7 +3749,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>859595877</coreId>
+						<coreId>131</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -4845,9 +3757,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>313</item>
-					<item>314</item>
-					<item>315</item>
+					<item>267</item>
+					<item>268</item>
+					<item>269</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -4855,14 +3767,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.69</m_delay>
-				<m_topoIndex>106</m_topoIndex>
-				<m_clusterGroupNumber>8</m_clusterGroupNumber>
+				<m_topoIndex>96</m_topoIndex>
+				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_95">
+			<item class_id_reference="9" object_id="_76">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>103</id>
+						<id>84</id>
 						<name>select_ln23_4</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
@@ -4895,7 +3807,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767849</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -4903,9 +3815,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>316</item>
-					<item>317</item>
-					<item>318</item>
+					<item>270</item>
+					<item>271</item>
+					<item>272</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -4913,15 +3825,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>107</m_topoIndex>
-				<m_clusterGroupNumber>9</m_clusterGroupNumber>
+				<m_topoIndex>97</m_topoIndex>
+				<m_clusterGroupNumber>5</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_96">
+			<item class_id_reference="9" object_id="_77">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>104</id>
-						<name>tmp1_V_11_16</name>
+						<id>85</id>
+						<name>select_ln23_5</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -4945,7 +3857,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>tmp1.V[11]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -4953,7 +3865,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>875128164</coreId>
+						<coreId>1869438831</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -4961,9 +3873,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>319</item>
-					<item>320</item>
-					<item>321</item>
+					<item>273</item>
+					<item>274</item>
+					<item>275</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -4971,15 +3883,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.69</m_delay>
-				<m_topoIndex>108</m_topoIndex>
-				<m_clusterGroupNumber>9</m_clusterGroupNumber>
+				<m_topoIndex>98</m_topoIndex>
+				<m_clusterGroupNumber>5</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_97">
+			<item class_id_reference="9" object_id="_78">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>105</id>
-						<name>tmp1_V_11_17</name>
+						<id>86</id>
+						<name>select_ln23_6</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -5003,7 +3915,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>tmp1.V[11]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -5011,7 +3923,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767593</coreId>
+						<coreId>1763714857</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5019,9 +3931,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>322</item>
-					<item>323</item>
-					<item>324</item>
+					<item>276</item>
+					<item>277</item>
+					<item>278</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -5029,15 +3941,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>109</m_topoIndex>
-				<m_clusterGroupNumber>10</m_clusterGroupNumber>
+				<m_topoIndex>99</m_topoIndex>
+				<m_clusterGroupNumber>6</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_98">
+			<item class_id_reference="9" object_id="_79">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>106</id>
-						<name>tmp1_V_11_18</name>
+						<id>87</id>
+						<name>select_ln23_7</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -5061,7 +3973,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>tmp1.V[11]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -5069,7 +3981,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>741749564</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5077,9 +3989,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>325</item>
-					<item>326</item>
-					<item>327</item>
+					<item>279</item>
+					<item>280</item>
+					<item>281</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -5087,14 +3999,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.69</m_delay>
-				<m_topoIndex>110</m_topoIndex>
-				<m_clusterGroupNumber>10</m_clusterGroupNumber>
+				<m_topoIndex>100</m_topoIndex>
+				<m_clusterGroupNumber>6</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_99">
+			<item class_id_reference="9" object_id="_80">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>107</id>
+						<id>88</id>
 						<name>select_ln23_8</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
@@ -5127,7 +4039,1095 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1630019628</coreId>
+						<coreId>1563974493</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>282</item>
+					<item>283</item>
+					<item>284</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.69</m_delay>
+				<m_topoIndex>101</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_81">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>89</id>
+						<name>trunc_ln24</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869438831</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>285</item>
+				</oprand_edges>
+				<opcode>trunc</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>42</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_82">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>90</id>
+						<name>trunc_ln24_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1214215017</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>7</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>286</item>
+				</oprand_edges>
+				<opcode>trunc</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>43</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_83">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>91</id>
+						<name>tmp_49_cast</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1397508187</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>288</item>
+					<item>289</item>
+					<item>291</item>
+				</oprand_edges>
+				<opcode>bitconcatenate</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>44</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_84">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>92</id>
+						<name>sub_ln24</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1629910131</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>292</item>
+					<item>293</item>
+				</oprand_edges>
+				<opcode>sub</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>45</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_85">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>93</id>
+						<name>zext_ln24</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1629890875</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>294</item>
+				</oprand_edges>
+				<opcode>zext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>46</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_86">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>94</id>
+						<name>add_ln24</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>539111731</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>295</item>
+					<item>296</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>3.69</m_delay>
+				<m_topoIndex>47</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_87">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>95</id>
+						<name>zext_ln24_1</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936683105</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>64</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>297</item>
+				</oprand_edges>
+				<opcode>zext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>48</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_88">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>96</id>
+						<name>input_addr</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1600076659</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>9</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>298</item>
+					<item>300</item>
+					<item>301</item>
+				</oprand_edges>
+				<opcode>getelementptr</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>49</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_89">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>97</id>
+						<name>input_load</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1631205947</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>302</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>3.25</m_delay>
+				<m_topoIndex>50</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_90">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>98</id>
+						<name>tmp1_V_11_21</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>tmp1.V[11]</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1885414944</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>303</item>
+				</oprand_edges>
+				<opcode>trunc</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>102</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_91">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>99</id>
+						<name>select_ln24</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936617321</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>304</item>
+					<item>305</item>
+					<item>306</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>103</m_topoIndex>
+				<m_clusterGroupNumber>7</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_92">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>100</id>
+						<name>tmp1_V_11</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>tmp1.V[11]</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1835102817</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>307</item>
+					<item>308</item>
+					<item>309</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.69</m_delay>
+				<m_topoIndex>104</m_topoIndex>
+				<m_clusterGroupNumber>7</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_93">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>101</id>
+						<name>select_ln24_2</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869375856</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>310</item>
+					<item>311</item>
+					<item>312</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>105</m_topoIndex>
+				<m_clusterGroupNumber>8</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_94">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>102</id>
+						<name>tmp1_V_11_15</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>tmp1.V[11]</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1295780106</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>313</item>
+					<item>314</item>
+					<item>315</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.69</m_delay>
+				<m_topoIndex>106</m_topoIndex>
+				<m_clusterGroupNumber>8</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_95">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>103</id>
+						<name>select_ln24_4</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1528970616</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>316</item>
+					<item>317</item>
+					<item>318</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>107</m_topoIndex>
+				<m_clusterGroupNumber>9</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_96">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>104</id>
+						<name>tmp1_V_11_16</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>tmp1.V[11]</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869182051</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>319</item>
+					<item>320</item>
+					<item>321</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.69</m_delay>
+				<m_topoIndex>108</m_topoIndex>
+				<m_clusterGroupNumber>9</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_97">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>105</id>
+						<name>tmp1_V_11_17</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>tmp1.V[11]</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1601200424</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>322</item>
+					<item>323</item>
+					<item>324</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>109</m_topoIndex>
+				<m_clusterGroupNumber>10</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_98">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>106</id>
+						<name>tmp1_V_11_18</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>tmp1.V[11]</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936683105</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>12</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>325</item>
+					<item>326</item>
+					<item>327</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.69</m_delay>
+				<m_topoIndex>110</m_topoIndex>
+				<m_clusterGroupNumber>10</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_99">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>107</id>
+						<name>select_ln24_8</name>
+						<fileName>model_functions.cpp</fileName>
+						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>convolution1_fix</contextFuncName>
+						<contextNormFuncName>convolution1_fix</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>model_functions.cpp</first>
+											<second>convolution1_fix</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936018748</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5153,10 +5153,10 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>select_ln23_9</name>
+						<name>select_ln24_9</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5172,7 +5172,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5185,7 +5185,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1902080097</coreId>
+						<coreId>791554080</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5214,7 +5214,7 @@
 						<name>tmp1_V_11_19</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5230,7 +5230,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5243,7 +5243,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1629954158</coreId>
+						<coreId>1030647657</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5272,7 +5272,7 @@
 						<name>tmp1_V_11_20</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5288,7 +5288,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5301,7 +5301,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885548147</coreId>
+						<coreId>1881154127</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5327,10 +5327,10 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>tmp1_V_11_13_write_ln23</name>
+						<name>tmp1_V_11_13_write_ln24</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5346,7 +5346,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5359,7 +5359,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>558196240</coreId>
+						<coreId>875903860</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5385,10 +5385,10 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>tmp1_V_11_11_write_ln23</name>
+						<name>tmp1_V_11_11_write_ln24</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5404,7 +5404,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5417,7 +5417,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1920213036</coreId>
+						<coreId>840979276</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5443,10 +5443,10 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>tmp1_V_11_4_write_ln23</name>
+						<name>tmp1_V_11_4_write_ln24</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5462,7 +5462,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5475,7 +5475,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1629954158</coreId>
+						<coreId>1852334949</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5501,10 +5501,10 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>tmp1_V_11_6_write_ln23</name>
+						<name>tmp1_V_11_6_write_ln24</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5520,7 +5520,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5533,7 +5533,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>479676096</coreId>
+						<coreId>539113783</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5559,10 +5559,10 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>tmp1_V_5_0_write_ln22</name>
+						<name>tmp1_V_5_0_write_ln23</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5578,7 +5578,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>22</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -5591,7 +5591,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741615973</coreId>
+						<coreId>1953244773</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5617,10 +5617,10 @@
 					<Obj>
 						<type>0</type>
 						<id>116</id>
-						<name>tmp1_V_4_0_write_ln22</name>
+						<name>tmp1_V_4_0_write_ln23</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5636,7 +5636,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>22</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -5649,7 +5649,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
+						<coreId>1601465961</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5675,10 +5675,10 @@
 					<Obj>
 						<type>0</type>
 						<id>117</id>
-						<name>tmp1_V_2_0_write_ln22</name>
+						<name>tmp1_V_2_0_write_ln23</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5694,7 +5694,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>22</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -5707,7 +5707,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>487739864</coreId>
+						<coreId>1629890875</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5733,10 +5733,10 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>tmp1_V_1_0_write_ln22</name>
+						<name>tmp1_V_1_0_write_ln23</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5752,7 +5752,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>22</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -5765,7 +5765,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1629954158</coreId>
+						<coreId>1115119954</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5791,10 +5791,10 @@
 					<Obj>
 						<type>0</type>
 						<id>119</id>
-						<name>tmp1_V_0_0_write_ln22</name>
+						<name>tmp1_V_0_0_write_ln23</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5810,7 +5810,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>22</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -5823,7 +5823,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1629498427</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5849,10 +5849,10 @@
 					<Obj>
 						<type>0</type>
 						<id>120</id>
-						<name>tmp1_V_11_9_write_ln23</name>
+						<name>tmp1_V_11_9_write_ln24</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5868,7 +5868,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5881,7 +5881,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>925966380</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5907,10 +5907,10 @@
 					<Obj>
 						<type>0</type>
 						<id>121</id>
-						<name>tmp1_V_11_2_write_ln23</name>
+						<name>tmp1_V_11_2_write_ln24</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5926,7 +5926,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>23</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -5939,7 +5939,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767593</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5965,10 +5965,10 @@
 					<Obj>
 						<type>0</type>
 						<id>122</id>
-						<name>r_write_ln18</name>
+						<name>r_write_ln19</name>
 						<fileName>model_functions.cpp</fileName>
 						<fileDirectory>C:\Users\tiago\AppData\Roaming\Xilinx\Vitis</fileDirectory>
-						<lineNumber>18</lineNumber>
+						<lineNumber>19</lineNumber>
 						<contextFuncName>convolution1_fix</contextFuncName>
 						<contextNormFuncName>convolution1_fix</contextNormFuncName>
 						<inlineStackInfo>
@@ -5984,7 +5984,7 @@
 											<first>model_functions.cpp</first>
 											<second>convolution1_fix</second>
 										</first>
-										<second>18</second>
+										<second>19</second>
 									</item>
 								</second>
 							</item>
@@ -5997,7 +5997,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>508052632</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6042,7 +6042,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953852527</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6084,7 +6084,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1600415096</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6126,7 +6126,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>508052408</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6168,7 +6168,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1630019628</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6210,7 +6210,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1563974493</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6252,7 +6252,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>859596147</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6294,7 +6294,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1648063343</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6336,7 +6336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633836900</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6420,7 +6420,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868525665</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6462,7 +6462,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539768625</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6504,7 +6504,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>673195817</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -6546,7 +6546,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1596399726</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6590,7 +6590,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1763714857</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6678,7 +6678,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6986,7 +6986,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7030,7 +7030,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1031369833</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -7075,7 +7075,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3908285496</coreId>
+						<coreId>2036821868</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7106,7 +7106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -7137,7 +7137,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601265520</coreId>
+						<coreId>539767849</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -7168,7 +7168,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>499871264</coreId>
+						<coreId>1920213036</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -7199,7 +7199,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>741553980</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -7230,7 +7230,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3907703976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -7261,7 +7261,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>657022260</coreId>
+						<coreId>1701080941</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -7292,7 +7292,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>499807904</coreId>
+						<coreId>1717514853</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -7323,7 +7323,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>976895536</coreId>
+						<coreId>539768371</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -7354,7 +7354,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1143480359</coreId>
+						<coreId>1253334219</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -7385,7 +7385,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967292</coreId>
+						<coreId>1734310008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -7416,7 +7416,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>558479584</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -7447,7 +7447,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>546625528</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>17</bitwidth>
@@ -7478,7 +7478,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1655567032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7509,7 +7509,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>532044400</coreId>
+						<coreId>1655567616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -7605,7 +7605,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1043341356</coreId>
+					<coreId>1448862360</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -7686,7 +7686,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>1311967952</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -7721,7 +7721,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1043341356</coreId>
+					<coreId>1311967952</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -7746,7 +7746,7 @@
 				<Obj>
 					<type>3</type>
 					<id>124</id>
-					<name>_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit_ifconv</name>
+					<name>_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -7764,7 +7764,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>1311967952</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
