@@ -12,11 +12,11 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-08-17T18:08:10.261+0100" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-08-17T18:08:10.177+0100" type="Warning"/>
-        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-08-17T18:07:50.104+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-08-17T18:04:16.304+0100" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-08-17T18:04:09.662+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/out' to 'master_fix/out_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-08-21T14:56:10.518+0100" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'master_fix/input' to 'master_fix/input_r' to avoid the conflict with HDL keywords or other object names." projectName="Testing" solutionName="solution1" date="2022-08-21T14:56:10.442+0100" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h:950: variable-indexed range selection may cause suboptimal QoR." projectName="Testing" solutionName="solution1" date="2022-08-21T14:55:49.639+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-08-21T14:52:03.792+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_int_base.h:792:16" projectName="Testing" solutionName="solution1" date="2022-08-21T14:51:39.128+0100" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

@@ -508,7 +508,7 @@ newFuncRoot:0 %i = alloca i32 1
 
 <Node id="8" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_0, i32 0, i32 0, void @empty_6, i32 4294967295, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6
+newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_r, void @empty_0, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -658,10 +658,10 @@ newFuncRoot:8 %br_ln0 = br void %.preheader
 
 <Node id="19" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-.preheader:2 %icmp_ln322 = icmp_eq  i3 %i_1, i3 4
+.preheader:2 %icmp_ln327 = icmp_eq  i3 %i_1, i3 4
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln322"/></StgValue>
+<StgValue><ssdm name="icmp_ln327"/></StgValue>
 </operation>
 
 <operation id="95" st_id="1" stage="1" lat="1">
@@ -688,10 +688,10 @@ newFuncRoot:8 %br_ln0 = br void %.preheader
 
 <Node id="21" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-.preheader:4 %add_ln322 = add i3 %i_1, i3 1
+.preheader:4 %add_ln327 = add i3 %i_1, i3 1
 
 ]]></Node>
-<StgValue><ssdm name="add_ln322"/></StgValue>
+<StgValue><ssdm name="add_ln327"/></StgValue>
 </operation>
 
 <operation id="97" st_id="1" stage="1" lat="1">
@@ -703,39 +703,39 @@ newFuncRoot:8 %br_ln0 = br void %.preheader
 
 <Node id="22" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-.preheader:5 %br_ln322 = br i1 %icmp_ln322, void %.split, void %_Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exitStub
+.preheader:5 %br_ln327 = br i1 %icmp_ln327, void %.split, void %_Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exitStub
 
 ]]></Node>
-<StgValue><ssdm name="br_ln322"/></StgValue>
+<StgValue><ssdm name="br_ln327"/></StgValue>
 </operation>
 
 <operation id="98" st_id="1" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln322" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln327" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <Node id="26" bw="2" op_0_bw="3">
 <![CDATA[
-.split:2 %trunc_ln323 = trunc i3 %i_1
+.split:2 %trunc_ln328 = trunc i3 %i_1
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln323"/></StgValue>
+<StgValue><ssdm name="trunc_ln328"/></StgValue>
 </operation>
 
 <operation id="99" st_id="1" stage="1" lat="1">
 <core>Multiplexer</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln322" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln327" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <Node id="27" bw="64" op_0_bw="64" op_1_bw="64" op_2_bw="64" op_3_bw="64" op_4_bw="64" op_5_bw="2">
 <![CDATA[
-.split:3 %tmp_s = mux i64 @_ssdm_op_Mux.ap_auto.4double.i2, i64 %m_3_10_reload_read, i64 %m_3_7_reload_read, i64 %m_2_03_reload_read, i64 %m_3_04_reload_read, i2 %trunc_ln323
+.split:3 %tmp_s = mux i64 @_ssdm_op_Mux.ap_auto.4double.i2, i64 %m_3_10_reload_read, i64 %m_3_7_reload_read, i64 %m_2_03_reload_read, i64 %m_3_04_reload_read, i2 %trunc_ln328
 
 ]]></Node>
 <StgValue><ssdm name="tmp_s"/></StgValue>
@@ -745,16 +745,16 @@ newFuncRoot:8 %br_ln0 = br void %.preheader
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln322" val="0"/>
+<or_exp><and_exp><literal name="icmp_ln327" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <Node id="34" bw="0" op_0_bw="3" op_1_bw="3" op_2_bw="0" op_3_bw="0">
 <![CDATA[
-.split:10 %store_ln322 = store i3 %add_ln322, i3 %i
+.split:10 %store_ln327 = store i3 %add_ln327, i3 %i
 
 ]]></Node>
-<StgValue><ssdm name="store_ln322"/></StgValue>
+<StgValue><ssdm name="store_ln327"/></StgValue>
 </operation>
 </state>
 
@@ -2165,7 +2165,7 @@ newFuncRoot:8 %br_ln0 = br void %.preheader
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln322" val="1"/>
+<or_exp><and_exp><literal name="icmp_ln327" val="1"/>
 </and_exp></or_exp>
 </condition>
 
@@ -2189,10 +2189,10 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="24" bw="64" op_0_bw="3">
 <![CDATA[
-.split:0 %i_3_cast = zext i3 %i_1
+.split:0 %i_2_cast = zext i3 %i_1
 
 ]]></Node>
-<StgValue><ssdm name="i_3_cast"/></StgValue>
+<StgValue><ssdm name="i_2_cast"/></StgValue>
 </operation>
 
 <operation id="180" st_id="80" stage="1" lat="1">
@@ -2204,10 +2204,10 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="25" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split:1 %specloopname_ln306 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10
+.split:1 %specloopname_ln311 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2
 
 ]]></Node>
-<StgValue><ssdm name="specloopname_ln306"/></StgValue>
+<StgValue><ssdm name="specloopname_ln311"/></StgValue>
 </operation>
 
 <operation id="181" st_id="80" stage="1" lat="2">
@@ -2234,10 +2234,10 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="31" bw="32" op_0_bw="32">
 <![CDATA[
-.split:7 %bitcast_ln323 = bitcast i32 %conv_i
+.split:7 %bitcast_ln328 = bitcast i32 %conv_i
 
 ]]></Node>
-<StgValue><ssdm name="bitcast_ln323"/></StgValue>
+<StgValue><ssdm name="bitcast_ln328"/></StgValue>
 </operation>
 
 <operation id="183" st_id="80" stage="1" lat="1">
@@ -2249,7 +2249,7 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="32" bw="2" op_0_bw="32" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-.split:8 %out_addr = getelementptr i32 %out_r, i64 0, i64 %i_3_cast
+.split:8 %out_addr = getelementptr i32 %out_r, i64 0, i64 %i_2_cast
 
 ]]></Node>
 <StgValue><ssdm name="out_addr"/></StgValue>
@@ -2264,10 +2264,10 @@ _Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exit
 
 <Node id="33" bw="0" op_0_bw="32" op_1_bw="2">
 <![CDATA[
-.split:9 %store_ln323 = store i32 %bitcast_ln323, i2 %out_addr
+.split:9 %store_ln328 = store i32 %bitcast_ln328, i2 %out_addr
 
 ]]></Node>
-<StgValue><ssdm name="store_ln323"/></StgValue>
+<StgValue><ssdm name="store_ln328"/></StgValue>
 </operation>
 
 <operation id="185" st_id="80" stage="1" lat="1">

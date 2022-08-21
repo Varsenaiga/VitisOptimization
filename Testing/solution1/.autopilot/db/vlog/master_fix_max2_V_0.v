@@ -5,7 +5,7 @@
 `timescale 1 ns / 1 ps
 module master_fix_max2_V_0 (address0, ce0, d0, we0, q0, address1, ce1, q1,  reset,clk);
 
-parameter DataWidth = 35;
+parameter DataWidth = 36;
 parameter AddressWidth = 8;
 parameter AddressRange = 224;
 

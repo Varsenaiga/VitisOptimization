@@ -130,12 +130,13 @@ Convolution1_loop:
 	}
 }
 
-void convolution2_fix(fix_mp1 (*m)[1][FIRST_NUM_KERNELS], const fix_par (*k)[SECOND_NUM_ROWS][SECOND_NUM_COLS], const fix_par *bias, fix_cv2 (*out)[1][SECOND_NUM_KERNELS]){
+void convolution2_fix(fix_mp1 (*m)[1][FIRST_NUM_KERNELS], const fix_par (*k)[SECOND_NUM_ROWS][SECOND_NUM_COLS], const fix_par *bias, fix_mp2 (*out)[1][SECOND_NUM_KERNELS]){
 
 	short id, r, i = -1, d, h;
-    fix_cv1 num;
+    fix_cv2 num;
     fix_par kr[32], b;
     fix_mp1 tmp1[32], tmp2[32];
+    fix_cv2 aux = 0;
 	#pragma HLS ARRAY_PARTITION variable=tmp1 type=complete
 	#pragma HLS ARRAY_PARTITION variable=tmp2 type=complete
 	#pragma HLS ARRAY_PARTITION variable=kr type=complete
@@ -172,6 +173,7 @@ Convolution2_loop:
 
 		if(i == 0) {						// Check if a new kernel is reached
 			d = (d+1)%SECOND_NUM_KERNELS;
+			aux = 0;
 
 			int kj, ki = -1;
 		Load_Kernel_Conv2_Loop:
@@ -226,9 +228,12 @@ Operations_Conv2_Loop:
 			num += tmp2[r] * kr[r];
 			tmp2[r] = 0;
 		}
-		if (num < 0) num = 0;
+		if(aux < num) aux = num;
+		out[i/3][0][d] = aux;
 
-		out[i][0][d] = num;
+		if ((i+1)%3 == 0){
+			aux = 0;
+		}
 	}
 
 }

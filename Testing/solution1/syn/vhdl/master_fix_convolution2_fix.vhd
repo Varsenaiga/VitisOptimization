@@ -65,10 +65,10 @@ port (
     m_0_address15 : OUT STD_LOGIC_VECTOR (8 downto 0);
     m_0_ce15 : OUT STD_LOGIC;
     m_0_q15 : IN STD_LOGIC_VECTOR (35 downto 0);
-    out_0_address0 : OUT STD_LOGIC_VECTOR (9 downto 0);
+    out_0_address0 : OUT STD_LOGIC_VECTOR (7 downto 0);
     out_0_ce0 : OUT STD_LOGIC;
     out_0_we0 : OUT STD_LOGIC;
-    out_0_d0 : OUT STD_LOGIC_VECTOR (34 downto 0) );
+    out_0_d0 : OUT STD_LOGIC_VECTOR (35 downto 0) );
 end;
 
 
@@ -229,10 +229,10 @@ attribute shreg_extract : string;
     signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_ce14 : STD_LOGIC;
     signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_address15 : STD_LOGIC_VECTOR (8 downto 0);
     signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_ce15 : STD_LOGIC;
-    signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_address0 : STD_LOGIC_VECTOR (9 downto 0);
+    signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_address0 : STD_LOGIC_VECTOR (7 downto 0);
     signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_ce0 : STD_LOGIC;
     signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_we0 : STD_LOGIC;
-    signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_d0 : STD_LOGIC_VECTOR (34 downto 0);
+    signal grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_d0 : STD_LOGIC_VECTOR (35 downto 0);
     signal grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268_ap_start_reg : STD_LOGIC := '0';
     signal ap_CS_fsm_state2 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
@@ -462,10 +462,10 @@ attribute shreg_extract : string;
         m_0_address15 : OUT STD_LOGIC_VECTOR (8 downto 0);
         m_0_ce15 : OUT STD_LOGIC;
         m_0_q15 : IN STD_LOGIC_VECTOR (35 downto 0);
-        out_0_address0 : OUT STD_LOGIC_VECTOR (9 downto 0);
+        out_0_address0 : OUT STD_LOGIC_VECTOR (7 downto 0);
         out_0_ce0 : OUT STD_LOGIC;
         out_0_we0 : OUT STD_LOGIC;
-        out_0_d0 : OUT STD_LOGIC_VECTOR (34 downto 0) );
+        out_0_d0 : OUT STD_LOGIC_VECTOR (35 downto 0) );
     end component;
 
 

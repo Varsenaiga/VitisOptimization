@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix'" level="0">
-<item name = "Date">Wed Aug 17 18:09:18 2022
+<item name = "Date">Sun Aug 21 14:57:11 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -51,19 +51,19 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, -, -, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">0, 128, 19372, 14170, -</column>
+<column name="Instance">0, 128, 19394, 14259, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 188, -</column>
 <column name="Register">-, -, 6, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
-<specialColumn name="Utilization (%)">0, 58, 18, 26, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 58, 18, 27, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322">convolution2_fix_Pipeline_Convolution2_loop, 0, 128, 17616, 10116, 0</column>
+<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322">convolution2_fix_Pipeline_Convolution2_loop, 0, 128, 17638, 10205, 0</column>
 <column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268">convolution2_fix_Pipeline_Initialization_Conv2_Loop, 0, 0, 1756, 4054, 0</column>
 </table>
 </item>
@@ -173,10 +173,10 @@
 <column name="m_0_address15">out, 9, ap_memory, m_0, array</column>
 <column name="m_0_ce15">out, 1, ap_memory, m_0, array</column>
 <column name="m_0_q15">in, 36, ap_memory, m_0, array</column>
-<column name="out_0_address0">out, 10, ap_memory, out_0, array</column>
+<column name="out_0_address0">out, 8, ap_memory, out_0, array</column>
 <column name="out_0_ce0">out, 1, ap_memory, out_0, array</column>
 <column name="out_0_we0">out, 1, ap_memory, out_0, array</column>
-<column name="out_0_d0">out, 35, ap_memory, out_0, array</column>
+<column name="out_0_d0">out, 36, ap_memory, out_0, array</column>
 </table>
 </item>
 </section>

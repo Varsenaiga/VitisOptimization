@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1660756191977">
-  <ports id="1" name="m_3_10_reload" type="PortType" coreId="1668246560" bitwidth="64">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1661090264766">
+  <ports id="1" name="m_3_10_reload" type="PortType" coreId="7" bitwidth="64">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>
-  <ports id="2" name="m_3_7_reload" type="PortType" coreId="1699737168" bitwidth="64">
+  <ports id="2" name="m_3_7_reload" type="PortType" coreId="1379430808" bitwidth="64">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>
-  <ports id="3" name="m_2_03_reload" type="PortType" coreId="1835102817" bitwidth="64">
+  <ports id="3" name="m_2_03_reload" type="PortType" coreId="0" bitwidth="64">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>
-  <ports id="4" name="m_3_04_reload" type="PortType" coreId="1953394531" bitwidth="64">
+  <ports id="4" name="m_3_04_reload" type="PortType" coreId="1702129263" bitwidth="64">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>
-  <ports id="5" name="sum" type="PortType" coreId="1528853351" bitwidth="64">
+  <ports id="5" name="sum" type="PortType" coreId="1292809156" bitwidth="64">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>
-  <ports id="6" name="out_r" type="PortType" coreName="RAM" coreId="1953394531" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="4">
+  <ports id="6" name="out_r" type="PortType" coreName="RAM" coreId="1702129263" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="4">
     <dataInputObjs>getelementptr</dataInputObjs>
   </ports>
   <edges id="43" source_obj="//@ports.4" sink_obj="//@blocks.0/@node_objs.1"/>
@@ -65,7 +65,7 @@
       <dataOutputObjs>store</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="sum_read" coreId="1699737168" bitwidth="64" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="sum_read" coreId="741749564" bitwidth="64" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
       <dataInputObjs>sum</dataInputObjs>
       <dataOutputObjs>ddiv</dataOutputObjs>
     </node_objs>
@@ -77,15 +77,15 @@
       <dataInputObjs>m_2_03_reload</dataInputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="m_3_7_reload_read" coreId="741749564" bitwidth="64" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="m_3_7_reload_read" coreId="741880892" bitwidth="64" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
       <dataInputObjs>m_3_7_reload</dataInputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="m_3_10_reload_read" coreId="0" bitwidth="64" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="m_3_10_reload_read" coreId="1717530721" bitwidth="64" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
       <dataInputObjs>m_3_10_reload</dataInputObjs>
       <dataOutputObjs>mux</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="i_write_ln0" coreId="741749564" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="7" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="i_write_ln0" coreId="1717530721" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="7" m_clusterGroupNumber="-1">
       <dataInputObjs>alloca</dataInputObjs>
       <constName>empty</constName>
     </node_objs>
@@ -96,7 +96,7 @@
   <blocks id="38" name="_Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exitStub" type="BlockType">
     <controlInputObjs>.preheader</controlInputObjs>
     <controlOutputObjs>br</controlOutputObjs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="_ln0" coreId="1717530721" opcode="ret" nodeLabel="78.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="_ln0" coreId="741749564" opcode="ret" nodeLabel="78.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1"/>
   </blocks>
   <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="353" pipe_depth="80" RegionName="Operations_SoftMax_Loop">
     <basic_blocks id="23" name=".preheader" type="BlockType">
@@ -106,53 +106,53 @@
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>_Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exitStub</controlOutputObjs>
       <controlOutputObjs>.split</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="i_1" lineNumber="323" originalName="i" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="softmax_fix" bitwidth="3" opcode="load" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="i_1" lineNumber="328" originalName="i" fileName="model_functions.cpp" fileDirectory=".." coreId="741488444" contextFuncName="softmax_fix" bitwidth="3" opcode="load" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>alloca</dataInputObjs>
         <dataOutputObjs>icmp</dataOutputObjs>
         <dataOutputObjs>add</dataOutputObjs>
         <dataOutputObjs>zext</dataOutputObjs>
         <dataOutputObjs>trunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="icmp_ln322" lineNumber="322" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln322_fu_117_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="softmax_fix" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.13" m_topoIndex="10" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="322" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="icmp_ln327" lineNumber="327" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln327_fu_117_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="softmax_fix" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.13" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="327" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>br</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="add_ln322" lineNumber="322" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln322_fu_123_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="softmax_fix" bitwidth="3" opcode="add" m_display="0" m_delay="1.65" m_topoIndex="11" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="322" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="add_ln327" lineNumber="327" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln327_fu_123_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="softmax_fix" bitwidth="3" opcode="add" m_display="0" m_delay="1.65" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="327" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>store</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="br_ln322" lineNumber="322" fileName="model_functions.cpp" fileDirectory=".." coreId="1532834865" contextFuncName="softmax_fix" opcode="br" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="322" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="br_ln327" lineNumber="327" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="softmax_fix" opcode="br" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="327" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>icmp</dataInputObjs>
         <controlInputObjs>.split</controlInputObjs>
         <controlInputObjs>_Z11softmax_fixiP8ap_fixedILi36ELi17EL9ap_q_mode4EL9ap_o_mode3ELi0EEPf.exit.exitStub</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="model_functions.cpp">
-        <validLinenumbers>323</validLinenumbers>
-        <validLinenumbers>322</validLinenumbers>
+        <validLinenumbers>328</validLinenumbers>
+        <validLinenumbers>327</validLinenumbers>
       </fileValidLineNumbers>
     </basic_blocks>
     <basic_blocks id="36" name=".split" type="BlockType">
       <controlInputObjs>.preheader</controlInputObjs>
       <controlOutputObjs>br</controlOutputObjs>
       <controlOutputObjs>.preheader</controlOutputObjs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="i_3_cast" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." rtlName="i_3_cast_fu_152_p1" coreId="0" contextFuncName="softmax_fix" bitwidth="64" opcode="zext" nodeLabel="79.0" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="i_2_cast" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." rtlName="i_2_cast_fu_152_p1" coreId="741487420" contextFuncName="softmax_fix" bitwidth="64" opcode="zext" nodeLabel="79.0" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>getelementptr</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="trunc_ln323" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_s_fu_133_p5" coreId="741749564" contextFuncName="softmax_fix" bitwidth="2" opcode="trunc" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="trunc_ln328" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." rtlName="tmp_s_fu_133_p5" coreId="0" contextFuncName="softmax_fix" bitwidth="2" opcode="trunc" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>load</dataInputObjs>
         <dataOutputObjs>mux</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="tmp_s" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." rtlName="mux_42_64_1_1_U1028" coreName="Multiplexer" implIndex="auto" control="no" opType="mux" coreId="76" contextFuncName="softmax_fix" bitwidth="64" opcode="mux" m_display="0" m_delay="1.82" m_topoIndex="14" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="tmp_s" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." rtlName="mux_42_64_1_1_U1026" coreName="Multiplexer" implIndex="auto" control="no" opType="mux" coreId="76" contextFuncName="softmax_fix" bitwidth="64" opcode="mux" m_display="0" m_delay="1.82" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>read</dataInputObjs>
         <dataInputObjs>read</dataInputObjs>
         <dataInputObjs>read</dataInputObjs>
@@ -160,50 +160,50 @@
         <dataInputObjs>trunc</dataInputObjs>
         <dataOutputObjs>dexp</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="tmp_3" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." coreName="DExp_fulldsp" implIndex="fulldsp" control="no" opType="dexp" coreId="42" contextFuncName="softmax_fix" bitwidth="64" opcode="dexp" nodeLabel="1.0" nodeLatency="17" m_display="0" m_delay="7.32" m_topoIndex="16" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="tmp_3" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." coreName="DExp_fulldsp" implIndex="fulldsp" control="no" opType="dexp" coreId="42" contextFuncName="softmax_fix" bitwidth="64" opcode="dexp" nodeLabel="1.0" nodeLatency="17" m_display="0" m_delay="7.32" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>mux</dataInputObjs>
         <dataOutputObjs>ddiv</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="div_i" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." rtlName="ddiv_64ns_64ns_64_59_no_dsp_1_U1026" coreName="DDiv" implIndex="fabric" control="no" opType="ddiv" coreId="39" contextFuncName="softmax_fix" bitwidth="64" opcode="ddiv" nodeLabel="19.0" nodeLatency="58" m_display="0" m_delay="4.55" m_topoIndex="17" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="div_i" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." rtlName="ddiv_64ns_64ns_64_59_no_dsp_1_U1024" coreName="DDiv" implIndex="fabric" control="no" opType="ddiv" coreId="39" contextFuncName="softmax_fix" bitwidth="64" opcode="ddiv" nodeLabel="19.0" nodeLatency="58" m_display="0" m_delay="4.55" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>dexp</dataInputObjs>
         <dataInputObjs>read</dataInputObjs>
         <dataOutputObjs>fptrunc</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="conv_i" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U1025" coreName="Double2Float" implIndex="auto" control="no" opType="fptrunc" coreId="67" contextFuncName="softmax_fix" bitwidth="32" opcode="fptrunc" nodeLabel="78.0" nodeLatency="1" m_display="0" m_delay="5.2" m_topoIndex="18" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="conv_i" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U1023" coreName="Double2Float" implIndex="auto" control="no" opType="fptrunc" coreId="67" contextFuncName="softmax_fix" bitwidth="32" opcode="fptrunc" nodeLabel="78.0" nodeLatency="1" m_display="0" m_delay="5.2" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>ddiv</dataInputObjs>
         <dataOutputObjs>bitcast</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="bitcast_ln323" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." rtlName="out_r_d0" coreId="741880892" contextFuncName="softmax_fix" bitwidth="32" opcode="bitcast" nodeLabel="79.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="bitcast_ln328" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." rtlName="out_r_d0" coreId="741749564" contextFuncName="softmax_fix" bitwidth="32" opcode="bitcast" nodeLabel="79.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>fptrunc</dataInputObjs>
         <dataOutputObjs>store</dataOutputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="out_addr" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="softmax_fix" bitwidth="2" opcode="getelementptr" nodeLabel="79.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="out_addr" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." coreId="1532834865" contextFuncName="softmax_fix" bitwidth="2" opcode="getelementptr" nodeLabel="79.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>zext</dataInputObjs>
         <dataOutputObjs>out_r</dataOutputObjs>
         <dataOutputObjs>store</dataOutputObjs>
         <constName>empty</constName>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="out_addr_write_ln323" lineNumber="323" fileName="model_functions.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="softmax_fix" opcode="store" nodeLabel="79.0" m_display="0" m_delay="2.32" m_topoIndex="23" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="323" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="out_addr_write_ln328" lineNumber="328" fileName="model_functions.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="softmax_fix" opcode="store" nodeLabel="79.0" m_display="0" m_delay="2.32" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="328" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>bitcast</dataInputObjs>
         <dataInputObjs>getelementptr</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="i_write_ln322" lineNumber="322" fileName="model_functions.cpp" fileDirectory=".." coreId="1532834865" contextFuncName="softmax_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="15" m_clusterGroupNumber="-1">
-        <inlineStackInfo fileName="model_functions.cpp" linenumber="322" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="i_write_ln327" lineNumber="327" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="softmax_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="327" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="softmax_fix"/>
         <dataInputObjs>add</dataInputObjs>
         <dataInputObjs>alloca</dataInputObjs>
       </node_objs>
-      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="br_ln0" coreId="0" opcode="br" nodeLabel="79.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="br_ln0" coreId="1532834865" opcode="br" nodeLabel="79.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
         <controlInputObjs>.preheader</controlInputObjs>
       </node_objs>
       <fileValidLineNumbers fileName="model_functions.cpp">
-        <validLinenumbers>323</validLinenumbers>
-        <validLinenumbers>322</validLinenumbers>
+        <validLinenumbers>328</validLinenumbers>
+        <validLinenumbers>327</validLinenumbers>
       </fileValidLineNumbers>
     </basic_blocks>
   </regions>
@@ -290,7 +290,7 @@
   <regnodes realName="i_1_reg_173">
     <nodeIds>17</nodeIds>
   </regnodes>
-  <regnodes realName="icmp_ln322_reg_178">
+  <regnodes realName="icmp_ln327_reg_178">
     <nodeIds>19</nodeIds>
   </regnodes>
   <regnodes realName="i_reg_161">
@@ -308,29 +308,29 @@
   <regnodes realName="tmp_3_reg_187">
     <nodeIds>28</nodeIds>
   </regnodes>
-  <expressionNodes realName="bitcast_ln323_fu_156">
-    <nodeIds>31</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="tmp_s_fu_133">
     <nodeIds>27</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="icmp_ln322_fu_117">
-    <nodeIds>19</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="i_3_cast_fu_152">
-    <nodeIds>24</nodeIds>
+  <expressionNodes realName="bitcast_ln328_fu_156">
+    <nodeIds>31</nodeIds>
   </expressionNodes>
   <expressionNodes realName="out_addr_gep_fu_84">
     <nodeIds>32</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="add_ln322_fu_123">
+  <expressionNodes realName="add_ln327_fu_123">
     <nodeIds>21</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="trunc_ln323_fu_129">
-    <nodeIds>26</nodeIds>
+  <expressionNodes realName="icmp_ln327_fu_117">
+    <nodeIds>19</nodeIds>
   </expressionNodes>
   <expressionNodes realName="i_fu_50">
     <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln328_fu_129">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_2_cast_fu_152">
+    <nodeIds>24</nodeIds>
   </expressionNodes>
   <moduleNodes realName="grp_fu_104">
     <nodeIds>28</nodeIds>
@@ -341,9 +341,6 @@
   <moduleNodes realName="grp_fu_100">
     <nodeIds>29</nodeIds>
   </moduleNodes>
-  <ioNodes realName="store_ln322_store_fu_147">
-    <nodeIds>34</nodeIds>
-  </ioNodes>
   <ioNodes realName="sum_read_read_fu_54">
     <nodeIds>9</nodeIds>
   </ioNodes>
@@ -358,6 +355,9 @@
   </ioNodes>
   <ioNodes realName="store_ln0_store_fu_109">
     <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln327_store_fu_147">
+    <nodeIds>34</nodeIds>
   </ioNodes>
   <ioNodes realName="m_2_03_reload_read_read_fu_66">
     <nodeIds>11</nodeIds>

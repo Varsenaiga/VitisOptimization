@@ -61,7 +61,7 @@ set C_modelArgList {
 	{ tmp1_V_9_0_reload int 36 regular  }
 	{ tmp1_V_8_0_reload int 36 regular  }
 	{ m_0 int 36 regular {array 336 { 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 } 1 1 }  }
-	{ out_0 int 35 regular {array 672 { 0 3 } 0 1 }  }
+	{ out_0 int 36 regular {array 224 { 0 3 } 0 1 }  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "tmp2_V_31_0_reload", "interface" : "wire", "bitwidth" : 36, "direction" : "READONLY"} , 
@@ -113,7 +113,7 @@ set C_modelArgMapList {[
  	{ "Name" : "tmp1_V_9_0_reload", "interface" : "wire", "bitwidth" : 36, "direction" : "READONLY"} , 
  	{ "Name" : "tmp1_V_8_0_reload", "interface" : "wire", "bitwidth" : 36, "direction" : "READONLY"} , 
  	{ "Name" : "m_0", "interface" : "memory", "bitwidth" : 36, "direction" : "READONLY"} , 
- 	{ "Name" : "out_0", "interface" : "memory", "bitwidth" : 35, "direction" : "WRITEONLY"} ]}
+ 	{ "Name" : "out_0", "interface" : "memory", "bitwidth" : 36, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 106
 set portList { 
@@ -219,10 +219,10 @@ set portList {
 	{ m_0_address15 sc_out sc_lv 9 signal 48 } 
 	{ m_0_ce15 sc_out sc_logic 1 signal 48 } 
 	{ m_0_q15 sc_in sc_lv 36 signal 48 } 
-	{ out_0_address0 sc_out sc_lv 10 signal 49 } 
+	{ out_0_address0 sc_out sc_lv 8 signal 49 } 
 	{ out_0_ce0 sc_out sc_logic 1 signal 49 } 
 	{ out_0_we0 sc_out sc_logic 1 signal 49 } 
-	{ out_0_d0 sc_out sc_lv 35 signal 49 } 
+	{ out_0_d0 sc_out sc_lv 36 signal 49 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -327,13 +327,13 @@ set NewPortList {[
  	{ "name": "m_0_address15", "direction": "out", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "m_0", "role": "address15" }} , 
  	{ "name": "m_0_ce15", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "m_0", "role": "ce15" }} , 
  	{ "name": "m_0_q15", "direction": "in", "datatype": "sc_lv", "bitwidth":36, "type": "signal", "bundle":{"name": "m_0", "role": "q15" }} , 
- 	{ "name": "out_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "out_0", "role": "address0" }} , 
+ 	{ "name": "out_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "out_0", "role": "address0" }} , 
  	{ "name": "out_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "out_0", "role": "ce0" }} , 
  	{ "name": "out_0_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "out_0", "role": "we0" }} , 
- 	{ "name": "out_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":35, "type": "signal", "bundle":{"name": "out_0", "role": "d0" }}  ]}
+ 	{ "name": "out_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":36, "type": "signal", "bundle":{"name": "out_0", "role": "d0" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68"],
 		"CDFG" : "convolution2_fix_Pipeline_Convolution2_loop",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -466,8 +466,8 @@ set RtlHierarchyInfo {[
 	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.secondKernel_f_V_3_6_U", "Parent" : "0"},
 	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.secondKernel_f_V_3_7_U", "Parent" : "0"},
 	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.secondBias_f_V_U", "Parent" : "0"},
-	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U151", "Parent" : "0"},
-	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U152", "Parent" : "0"},
+	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_6ns_8ns_13_1_1_U151", "Parent" : "0"},
+	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.urem_6ns_3ns_2_10_1_U152", "Parent" : "0"},
 	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U153", "Parent" : "0"},
 	{"ID" : "37", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U154", "Parent" : "0"},
 	{"ID" : "38", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U155", "Parent" : "0"},
@@ -498,7 +498,9 @@ set RtlHierarchyInfo {[
 	{"ID" : "63", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U180", "Parent" : "0"},
 	{"ID" : "64", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U181", "Parent" : "0"},
 	{"ID" : "65", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U182", "Parent" : "0"},
-	{"ID" : "66", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"}]}
+	{"ID" : "66", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U183", "Parent" : "0"},
+	{"ID" : "67", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_36s_36s_55_2_1_U184", "Parent" : "0"},
+	{"ID" : "68", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -648,5 +650,5 @@ set Spec2ImplPortList {
 	tmp1_V_9_0_reload { ap_none {  { tmp1_V_9_0_reload in_data 0 36 } } }
 	tmp1_V_8_0_reload { ap_none {  { tmp1_V_8_0_reload in_data 0 36 } } }
 	m_0 { ap_memory {  { m_0_address0 mem_address 1 9 }  { m_0_ce0 mem_ce 1 1 }  { m_0_q0 mem_dout 0 36 }  { m_0_address1 MemPortADDR2 1 9 }  { m_0_ce1 MemPortCE2 1 1 }  { m_0_q1 MemPortDOUT2 0 36 }  { m_0_address2 MemPortADDR2 1 9 }  { m_0_ce2 MemPortCE2 1 1 }  { m_0_q2 MemPortDOUT2 0 36 }  { m_0_address3 MemPortADDR2 1 9 }  { m_0_ce3 MemPortCE2 1 1 }  { m_0_q3 MemPortDOUT2 0 36 }  { m_0_address4 MemPortADDR2 1 9 }  { m_0_ce4 MemPortCE2 1 1 }  { m_0_q4 MemPortDOUT2 0 36 }  { m_0_address5 MemPortADDR2 1 9 }  { m_0_ce5 MemPortCE2 1 1 }  { m_0_q5 MemPortDOUT2 0 36 }  { m_0_address6 MemPortADDR2 1 9 }  { m_0_ce6 MemPortCE2 1 1 }  { m_0_q6 MemPortDOUT2 0 36 }  { m_0_address7 MemPortADDR2 1 9 }  { m_0_ce7 MemPortCE2 1 1 }  { m_0_q7 MemPortDOUT2 0 36 }  { m_0_address8 MemPortADDR2 1 9 }  { m_0_ce8 MemPortCE2 1 1 }  { m_0_q8 MemPortDOUT2 0 36 }  { m_0_address9 MemPortADDR2 1 9 }  { m_0_ce9 MemPortCE2 1 1 }  { m_0_q9 MemPortDOUT2 0 36 }  { m_0_address10 MemPortADDR2 1 9 }  { m_0_ce10 MemPortCE2 1 1 }  { m_0_q10 MemPortDOUT2 0 36 }  { m_0_address11 MemPortADDR2 1 9 }  { m_0_ce11 MemPortCE2 1 1 }  { m_0_q11 MemPortDOUT2 0 36 }  { m_0_address12 MemPortADDR2 1 9 }  { m_0_ce12 MemPortCE2 1 1 }  { m_0_q12 MemPortDOUT2 0 36 }  { m_0_address13 MemPortADDR2 1 9 }  { m_0_ce13 MemPortCE2 1 1 }  { m_0_q13 MemPortDOUT2 0 36 }  { m_0_address14 MemPortADDR2 1 9 }  { m_0_ce14 MemPortCE2 1 1 }  { m_0_q14 MemPortDOUT2 0 36 }  { m_0_address15 MemPortADDR2 1 9 }  { m_0_ce15 MemPortCE2 1 1 }  { m_0_q15 MemPortDOUT2 0 36 } } }
-	out_0 { ap_memory {  { out_0_address0 mem_address 1 10 }  { out_0_ce0 mem_ce 1 1 }  { out_0_we0 mem_we 1 1 }  { out_0_d0 mem_din 1 35 } } }
+	out_0 { ap_memory {  { out_0_address0 mem_address 1 8 }  { out_0_ce0 mem_ce 1 1 }  { out_0_we0 mem_we 1 1 }  { out_0_d0 mem_din 1 36 } } }
 }

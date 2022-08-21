@@ -11,14 +11,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 953 \
+    id 951 \
     name m_0 \
     reset_level 1 \
     sync_rst true \
     dir I \
     corename m_0 \
     op interface \
-    ports { m_0_address0 { O 8 vector } m_0_ce0 { O 1 bit } m_0_q0 { I 35 vector } m_0_address1 { O 8 vector } m_0_ce1 { O 1 bit } m_0_q1 { I 35 vector } } \
+    ports { m_0_address0 { O 8 vector } m_0_ce0 { O 1 bit } m_0_q0 { I 36 vector } m_0_address1 { O 8 vector } m_0_ce1 { O 1 bit } m_0_q1 { I 36 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'm_0'"
@@ -30,7 +30,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 954 \
+    id 952 \
     name out_0 \
     reset_level 1 \
     sync_rst true \

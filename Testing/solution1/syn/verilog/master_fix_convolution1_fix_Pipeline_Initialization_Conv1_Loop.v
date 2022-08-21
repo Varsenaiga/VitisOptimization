@@ -157,7 +157,7 @@ wire   [0:0] tmp_fu_302_p3;
 wire   [15:0] sub_ln21_fu_328_p2;
 wire   [15:0] tmp_s_fu_334_p3;
 wire   [6:0] trunc_ln24_1_fu_367_p1;
-wire   [8:0] tmp_49_cast_fu_371_p3;
+wire   [8:0] tmp_29_cast_fu_371_p3;
 wire   [8:0] trunc_ln24_fu_363_p1;
 wire   [8:0] sub_ln24_fu_379_p2;
 wire   [8:0] zext_ln24_fu_385_p1;
@@ -570,7 +570,7 @@ assign sext_ln21_fu_288_p1 = sext_ln21_fu_288_p0;
 
 assign sub_ln21_fu_328_p2 = (16'd0 - p_and_t_cast_fu_320_p3);
 
-assign sub_ln24_fu_379_p2 = (tmp_49_cast_fu_371_p3 - trunc_ln24_fu_363_p1);
+assign sub_ln24_fu_379_p2 = (tmp_29_cast_fu_371_p3 - trunc_ln24_fu_363_p1);
 
 assign tmp1_V_0_0_out = tmp1_V_0_0_fu_100;
 
@@ -610,7 +610,7 @@ assign tmp1_V_4_0_out = tmp1_V_4_0_fu_112;
 
 assign tmp1_V_5_0_out = tmp1_V_5_0_fu_116;
 
-assign tmp_49_cast_fu_371_p3 = {{trunc_ln24_1_fu_367_p1}, {2'd0}};
+assign tmp_29_cast_fu_371_p3 = {{trunc_ln24_1_fu_367_p1}, {2'd0}};
 
 assign tmp_fu_302_p3 = add_ln21_fu_296_p2[32'd16];
 

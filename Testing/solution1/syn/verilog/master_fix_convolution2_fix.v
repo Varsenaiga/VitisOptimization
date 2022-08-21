@@ -127,10 +127,10 @@ input  [35:0] m_0_q14;
 output  [8:0] m_0_address15;
 output   m_0_ce15;
 input  [35:0] m_0_q15;
-output  [9:0] out_0_address0;
+output  [7:0] out_0_address0;
 output   out_0_ce0;
 output   out_0_we0;
-output  [34:0] out_0_d0;
+output  [35:0] out_0_d0;
 
 reg ap_done;
 reg ap_idle;
@@ -293,10 +293,10 @@ wire   [8:0] grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_address1
 wire    grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_ce14;
 wire   [8:0] grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_address15;
 wire    grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_m_0_ce15;
-wire   [9:0] grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_address0;
+wire   [7:0] grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_address0;
 wire    grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_ce0;
 wire    grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_we0;
-wire   [34:0] grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_d0;
+wire   [35:0] grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_out_0_d0;
 reg    grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268_ap_start_reg;
 wire    ap_CS_fsm_state2;
 reg    grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_ap_start_reg;

@@ -37,8 +37,8 @@
 <Resources>
 <BRAM_18K>0</BRAM_18K>
 <DSP>448</DSP>
-<FF>91088</FF>
-<LUT>45796</LUT>
+<FF>98968</FF>
+<LUT>49380</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -147,7 +147,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>35</Bits>
+<Bits>36</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -180,7 +180,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>35</Bits>
+<Bits>36</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>

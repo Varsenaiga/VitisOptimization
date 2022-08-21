@@ -142,7 +142,7 @@ attribute shreg_extract : string;
     signal sub_ln21_fu_328_p2 : STD_LOGIC_VECTOR (15 downto 0);
     signal tmp_s_fu_334_p3 : STD_LOGIC_VECTOR (15 downto 0);
     signal trunc_ln24_1_fu_367_p1 : STD_LOGIC_VECTOR (6 downto 0);
-    signal tmp_49_cast_fu_371_p3 : STD_LOGIC_VECTOR (8 downto 0);
+    signal tmp_29_cast_fu_371_p3 : STD_LOGIC_VECTOR (8 downto 0);
     signal trunc_ln24_fu_363_p1 : STD_LOGIC_VECTOR (8 downto 0);
     signal sub_ln24_fu_379_p2 : STD_LOGIC_VECTOR (8 downto 0);
     signal zext_ln24_fu_385_p1 : STD_LOGIC_VECTOR (8 downto 0);
@@ -511,7 +511,7 @@ begin
         sext_ln21_fu_288_p1 <= std_logic_vector(IEEE.numeric_std.resize(signed(sext_ln21_fu_288_p0),17));
 
     sub_ln21_fu_328_p2 <= std_logic_vector(unsigned(ap_const_lv16_0) - unsigned(p_and_t_cast_fu_320_p3));
-    sub_ln24_fu_379_p2 <= std_logic_vector(unsigned(tmp_49_cast_fu_371_p3) - unsigned(trunc_ln24_fu_363_p1));
+    sub_ln24_fu_379_p2 <= std_logic_vector(unsigned(tmp_29_cast_fu_371_p3) - unsigned(trunc_ln24_fu_363_p1));
     tmp1_V_0_0_out <= tmp1_V_0_0_fu_100;
 
     tmp1_V_0_0_out_ap_vld_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0_11001, icmp_ln19_reg_847)
@@ -655,7 +655,7 @@ begin
         end if; 
     end process;
 
-    tmp_49_cast_fu_371_p3 <= (trunc_ln24_1_fu_367_p1 & ap_const_lv2_0);
+    tmp_29_cast_fu_371_p3 <= (trunc_ln24_1_fu_367_p1 & ap_const_lv2_0);
     tmp_fu_302_p3 <= add_ln21_fu_296_p2(16 downto 16);
     tmp_s_fu_334_p3 <= (ap_const_lv9_0 & trunc_ln21_1_fu_310_p1);
     trunc_ln21_1_fu_310_p1 <= add_ln21_fu_296_p2(7 - 1 downto 0);

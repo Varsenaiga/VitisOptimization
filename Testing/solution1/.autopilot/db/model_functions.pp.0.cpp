@@ -21512,7 +21512,8 @@ typedef ap_fixed<36,17, AP_RND_CONV> fix_ds1;
 typedef ap_fixed<36,17, AP_RND_CONV> fix_ds2;
 # 29 "./model_functions.h"
 void convolution1_fix(fix_input (*m)[3], const fix_par (*k)[4][3], const fix_par *bias, fix_mp1 (*out)[1][8]);
-void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_cv2 (*out)[1][16]);
+
+void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_mp2 (*out)[1][16]);
 void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]);
 void dense1_fix(fix_mp2 (*m)[1][16], const fix_par (*k)[14][16], const fix_par *bias, fix_ds1 *out);
 void dense2_fix(const fix_ds1 *m, const fix_par (*k)[16], const fix_par *bias, fix_ds2 *out);
@@ -39373,12 +39374,13 @@ Convolution1_loop:
  }
 }
 
-void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_cv2 (*out)[1][16]){
+void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_mp2 (*out)[1][16]){
 
  short id, r, i = -1, d, h;
-    fix_cv1 num;
+    fix_cv2 num;
     fix_par kr[32], b;
     fix_mp1 tmp1[32], tmp2[32];
+    fix_cv2 aux = 0;
 #pragma HLS ARRAY_PARTITION variable=tmp1 type=complete
 #pragma HLS ARRAY_PARTITION variable=tmp2 type=complete
 #pragma HLS ARRAY_PARTITION variable=kr type=complete
@@ -39415,6 +39417,7 @@ Convolution2_loop:
 
   if(i == 0) {
    d = (d+1)%16;
+   aux = 0;
 
    int kj, ki = -1;
   Load_Kernel_Conv2_Loop:
@@ -39469,9 +39472,12 @@ Operations_Conv2_Loop:
    num += tmp2[r] * kr[r];
    tmp2[r] = 0;
   }
-  if (num < 0) num = 0;
+  if(aux < num) aux = num;
+  out[i/3][0][d] = aux;
 
-  out[i][0][d] = num;
+  if ((i+1)%3 == 0){
+   aux = 0;
+  }
  }
 
 }

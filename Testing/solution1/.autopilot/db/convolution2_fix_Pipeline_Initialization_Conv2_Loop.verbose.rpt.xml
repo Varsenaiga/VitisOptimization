@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix_Pipeline_Initialization_Conv2_Loop'" level="0">
-<item name = "Date">Wed Aug 17 18:09:13 2022
+<item name = "Date">Sun Aug 21 14:57:06 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -110,10 +110,10 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln144_fu_742_p2">+, 0, 0, 13, 5, 1</column>
-<column name="add_ln146_fu_785_p2">+, 0, 0, 23, 16, 1</column>
-<column name="icmp_ln144_fu_736_p2">icmp, 0, 0, 10, 5, 6</column>
-<column name="icmp_ln146_fu_779_p2">icmp, 0, 0, 8, 3, 1</column>
+<column name="add_ln145_fu_742_p2">+, 0, 0, 13, 5, 1</column>
+<column name="add_ln147_fu_785_p2">+, 0, 0, 23, 16, 1</column>
+<column name="icmp_ln145_fu_736_p2">icmp, 0, 0, 10, 5, 6</column>
+<column name="icmp_ln147_fu_779_p2">icmp, 0, 0, 8, 3, 1</column>
 <column name="i_3_fu_791_p3">select, 0, 0, 16, 1, 16</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>

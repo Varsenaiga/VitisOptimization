@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_Dense2_Loop'
 ================================================================
-* Date:           Wed Aug 17 18:09:48 2022
+* Date:           Sun Aug 21 14:57:41 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -56,43 +56,59 @@
 |DSP              |        -|    -|       -|      -|    -|
 |Expression       |        -|    -|       0|   1974|    -|
 |FIFO             |        -|    -|       -|      -|    -|
-|Instance         |        -|    -|       0|    340|    -|
+|Instance         |        -|   64|    3232|   1700|    -|
 |Memory           |        -|    -|       -|      -|    -|
 |Multiplexer      |        -|    -|       -|     36|    -|
 |Register         |        -|    -|    3159|     64|    -|
 +-----------------+---------+-----+--------+-------+-----+
-|Total            |        0|    0|    3159|   2414|    0|
+|Total            |        0|   64|    6391|   3774|    0|
 +-----------------+---------+-----+--------+-------+-----+
 |Available        |      280|  220|  106400|  53200|    0|
 +-----------------+---------+-----+--------+-------+-----+
-|Utilization (%)  |        0|    0|       2|      4|    0|
+|Utilization (%)  |        0|   29|       6|      7|    0|
 +-----------------+---------+-----+--------+-------+-----+
 
 + Detail: 
     * Instance: 
-    +--------------------+---------------+---------+----+---+----+-----+
-    |      Instance      |     Module    | BRAM_18K| DSP| FF| LUT| URAM|
-    +--------------------+---------------+---------+----+---+----+-----+
-    |mux_42_36_1_1_U955  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U957  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U959  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U960  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U962  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U964  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U966  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U968  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U970  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U972  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U974  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U976  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U978  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U980  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U982  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U984  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    |mux_42_36_1_1_U986  |mux_42_36_1_1  |        0|   0|  0|  20|    0|
-    +--------------------+---------------+---------+----+---+----+-----+
-    |Total               |               |        0|   0|  0| 340|    0|
-    +--------------------+---------------+---------+----+---+----+-----+
+    +--------------------------+---------------------+---------+----+-----+----+-----+
+    |         Instance         |        Module       | BRAM_18K| DSP|  FF | LUT| URAM|
+    +--------------------------+---------------------+---------+----+-----+----+-----+
+    |mul_36s_35ns_55_2_1_U954  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U956  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U959  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U961  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U963  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U965  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U967  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U969  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U971  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U973  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U975  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U977  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U979  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U981  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U983  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mul_36s_35ns_55_2_1_U985  |mul_36s_35ns_55_2_1  |        0|   4|  202|  85|    0|
+    |mux_42_36_1_1_U953        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U955        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U957        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U958        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U960        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U962        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U964        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U966        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U968        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U970        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U972        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U974        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U976        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U978        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U980        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U982        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    |mux_42_36_1_1_U984        |mux_42_36_1_1        |        0|   0|    0|  20|    0|
+    +--------------------------+---------------------+---------+----+-----+----+-----+
+    |Total                     |                     |        0|  64| 3232|1700|    0|
+    +--------------------------+---------------------+---------+----+-----+----+-----+
 
     * DSP: 
     N/A
@@ -123,7 +139,7 @@
     |add_ln1245_8_fu_1266_p2   |         +|   0|  0|  62|          55|          55|
     |add_ln1245_9_fu_1356_p2   |         +|   0|  0|  62|          55|          55|
     |add_ln1245_fu_546_p2      |         +|   0|  0|  62|          55|          55|
-    |add_ln291_fu_450_p2       |         +|   0|  0|  11|           3|           1|
+    |add_ln296_fu_450_p2       |         +|   0|  0|  11|           3|           1|
     |add_ln415_10_fu_1498_p2   |         +|   0|  0|  43|          36|          36|
     |add_ln415_11_fu_1588_p2   |         +|   0|  0|  43|          36|          36|
     |add_ln415_12_fu_1678_p2   |         +|   0|  0|  43|          36|          36|
@@ -156,7 +172,7 @@
     |and_ln412_8_fu_1308_p2    |       and|   0|  0|   2|           1|           1|
     |and_ln412_9_fu_1398_p2    |       and|   0|  0|   2|           1|           1|
     |and_ln412_fu_588_p2       |       and|   0|  0|   2|           1|           1|
-    |icmp_ln291_fu_444_p2      |      icmp|   0|  0|   9|           3|           4|
+    |icmp_ln296_fu_444_p2      |      icmp|   0|  0|   9|           3|           4|
     |icmp_ln727_10_fu_1477_p2  |      icmp|   0|  0|  13|          18|           1|
     |icmp_ln727_11_fu_1567_p2  |      icmp|   0|  0|  13|          18|           1|
     |icmp_ln727_12_fu_1657_p2  |      icmp|   0|  0|  13|          18|           1|
@@ -267,7 +283,7 @@
     |den2_V_0_1_2_fu_240                |  36|   0|   36|          0|
     |den2_V_0_1_3_fu_244                |  36|   0|   36|          0|
     |den2_V_0_1_fu_232                  |  36|   0|   36|          0|
-    |icmp_ln291_reg_2067                |   1|   0|    1|          0|
+    |icmp_ln296_reg_2067                |   1|   0|    1|          0|
     |mul_ln1171_10_reg_2356             |  55|   0|   55|          0|
     |mul_ln1171_11_reg_2381             |  55|   0|   55|          0|
     |mul_ln1171_12_reg_2406             |  55|   0|   55|          0|
@@ -290,8 +306,8 @@
     |tmp_13_reg_2396                    |  36|   0|   36|          0|
     |tmp_14_reg_2421                    |  36|   0|   36|          0|
     |tmp_15_reg_2446                    |  36|   0|   36|          0|
-    |tmp_1_reg_2246                     |  36|   0|   36|          0|
-    |tmp_2_reg_2271                     |  36|   0|   36|          0|
+    |tmp_1_reg_2271                     |  36|   0|   36|          0|
+    |tmp_2_reg_2221                     |  36|   0|   36|          0|
     |tmp_3_reg_2296                     |  36|   0|   36|          0|
     |tmp_4_reg_2091                     |  36|   0|   36|          0|
     |tmp_5_reg_2101                     |  36|   0|   36|          0|
@@ -299,8 +315,8 @@
     |tmp_7_reg_2146                     |  36|   0|   36|          0|
     |tmp_8_reg_2171                     |  36|   0|   36|          0|
     |tmp_9_reg_2196                     |  36|   0|   36|          0|
-    |tmp_s_reg_2221                     |  36|   0|   36|          0|
-    |trunc_ln292_reg_2071               |   2|   0|    2|          0|
+    |tmp_s_reg_2246                     |  36|   0|   36|          0|
+    |trunc_ln297_reg_2071               |   2|   0|    2|          0|
     |trunc_ln727_10_reg_2361            |  18|   0|   18|          0|
     |trunc_ln727_11_reg_2386            |  18|   0|   18|          0|
     |trunc_ln727_12_reg_2411            |  18|   0|   18|          0|
@@ -317,24 +333,24 @@
     |trunc_ln727_8_reg_2311             |  18|   0|   18|          0|
     |trunc_ln727_9_reg_2336             |  18|   0|   18|          0|
     |trunc_ln727_reg_2111               |  18|   0|   18|          0|
-    |zext_ln291_cast_reg_1987           |  35|   0|   55|         20|
-    |zext_ln295_10_cast_reg_2012        |  35|   0|   55|         20|
-    |zext_ln295_11_cast_reg_2007        |  35|   0|   55|         20|
-    |zext_ln295_12_cast_reg_2002        |  35|   0|   55|         20|
-    |zext_ln295_13_cast_reg_1997        |  35|   0|   55|         20|
-    |zext_ln295_14_cast_reg_1992        |  35|   0|   55|         20|
-    |zext_ln295_1_cast_reg_2057         |  35|   0|   55|         20|
-    |zext_ln295_2_cast_reg_2052         |  35|   0|   55|         20|
-    |zext_ln295_3_cast_reg_2047         |  35|   0|   55|         20|
-    |zext_ln295_4_cast_reg_2042         |  35|   0|   55|         20|
-    |zext_ln295_5_cast_reg_2037         |  35|   0|   55|         20|
-    |zext_ln295_6_cast_reg_2032         |  35|   0|   55|         20|
-    |zext_ln295_7_cast_reg_2027         |  35|   0|   55|         20|
-    |zext_ln295_8_cast_reg_2022         |  35|   0|   55|         20|
-    |zext_ln295_9_cast_reg_2017         |  35|   0|   55|         20|
-    |zext_ln295_cast_reg_2062           |  35|   0|   55|         20|
-    |icmp_ln291_reg_2067                |  64|  32|    1|          0|
-    |trunc_ln292_reg_2071               |  64|  32|    2|          0|
+    |zext_ln296_cast_reg_1987           |  35|   0|   55|         20|
+    |zext_ln300_10_cast_reg_2012        |  35|   0|   55|         20|
+    |zext_ln300_11_cast_reg_2007        |  35|   0|   55|         20|
+    |zext_ln300_12_cast_reg_2002        |  35|   0|   55|         20|
+    |zext_ln300_13_cast_reg_1997        |  35|   0|   55|         20|
+    |zext_ln300_14_cast_reg_1992        |  35|   0|   55|         20|
+    |zext_ln300_1_cast_reg_2057         |  35|   0|   55|         20|
+    |zext_ln300_2_cast_reg_2052         |  35|   0|   55|         20|
+    |zext_ln300_3_cast_reg_2047         |  35|   0|   55|         20|
+    |zext_ln300_4_cast_reg_2042         |  35|   0|   55|         20|
+    |zext_ln300_5_cast_reg_2037         |  35|   0|   55|         20|
+    |zext_ln300_6_cast_reg_2032         |  35|   0|   55|         20|
+    |zext_ln300_7_cast_reg_2027         |  35|   0|   55|         20|
+    |zext_ln300_8_cast_reg_2022         |  35|   0|   55|         20|
+    |zext_ln300_9_cast_reg_2017         |  35|   0|   55|         20|
+    |zext_ln300_cast_reg_2062           |  35|   0|   55|         20|
+    |icmp_ln296_reg_2067                |  64|  32|    1|          0|
+    |trunc_ln297_reg_2071               |  64|  32|    2|          0|
     +-----------------------------------+----+----+-----+-----------+
     |Total                              |3159|  64| 3354|        320|
     +-----------------------------------+----+----+-----+-----------+
@@ -354,86 +370,22 @@
 |ap_done                   |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
 |ap_idle                   |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
 |ap_ready                  |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1798_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1798_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1798_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1798_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1802_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1802_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1802_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1802_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1806_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1806_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1806_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1806_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1810_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1810_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1810_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1810_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1814_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1814_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1814_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1814_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1818_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1818_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1818_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1818_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1822_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1822_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1822_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1822_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1826_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1826_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1826_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1826_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1830_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1830_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1830_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1830_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1834_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1834_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1834_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1834_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1838_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1838_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1838_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1838_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1842_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1842_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1842_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1842_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1846_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1846_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1846_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1846_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1850_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1850_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1850_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1850_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1854_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1854_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1854_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1854_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1858_p_din0        |  out|   36|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1858_p_din1        |  out|   35|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1858_p_dout0       |   in|   55|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|grp_fu_1858_p_ce          |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Dense2_Loop|  return value|
-|zext_ln295                |   in|   35|     ap_none|                       zext_ln295|        scalar|
-|zext_ln295_1              |   in|   35|     ap_none|                     zext_ln295_1|        scalar|
-|zext_ln295_2              |   in|   35|     ap_none|                     zext_ln295_2|        scalar|
-|zext_ln295_3              |   in|   35|     ap_none|                     zext_ln295_3|        scalar|
-|zext_ln295_4              |   in|   35|     ap_none|                     zext_ln295_4|        scalar|
-|zext_ln295_5              |   in|   35|     ap_none|                     zext_ln295_5|        scalar|
-|zext_ln295_6              |   in|   35|     ap_none|                     zext_ln295_6|        scalar|
-|zext_ln295_7              |   in|   35|     ap_none|                     zext_ln295_7|        scalar|
-|zext_ln295_8              |   in|   35|     ap_none|                     zext_ln295_8|        scalar|
-|zext_ln295_9              |   in|   35|     ap_none|                     zext_ln295_9|        scalar|
-|zext_ln295_10             |   in|   35|     ap_none|                    zext_ln295_10|        scalar|
-|zext_ln295_11             |   in|   35|     ap_none|                    zext_ln295_11|        scalar|
-|zext_ln295_12             |   in|   35|     ap_none|                    zext_ln295_12|        scalar|
-|zext_ln295_13             |   in|   35|     ap_none|                    zext_ln295_13|        scalar|
-|zext_ln295_14             |   in|   35|     ap_none|                    zext_ln295_14|        scalar|
-|zext_ln291                |   in|   35|     ap_none|                       zext_ln291|        scalar|
+|zext_ln300                |   in|   35|     ap_none|                       zext_ln300|        scalar|
+|zext_ln300_1              |   in|   35|     ap_none|                     zext_ln300_1|        scalar|
+|zext_ln300_2              |   in|   35|     ap_none|                     zext_ln300_2|        scalar|
+|zext_ln300_3              |   in|   35|     ap_none|                     zext_ln300_3|        scalar|
+|zext_ln300_4              |   in|   35|     ap_none|                     zext_ln300_4|        scalar|
+|zext_ln300_5              |   in|   35|     ap_none|                     zext_ln300_5|        scalar|
+|zext_ln300_6              |   in|   35|     ap_none|                     zext_ln300_6|        scalar|
+|zext_ln300_7              |   in|   35|     ap_none|                     zext_ln300_7|        scalar|
+|zext_ln300_8              |   in|   35|     ap_none|                     zext_ln300_8|        scalar|
+|zext_ln300_9              |   in|   35|     ap_none|                     zext_ln300_9|        scalar|
+|zext_ln300_10             |   in|   35|     ap_none|                    zext_ln300_10|        scalar|
+|zext_ln300_11             |   in|   35|     ap_none|                    zext_ln300_11|        scalar|
+|zext_ln300_12             |   in|   35|     ap_none|                    zext_ln300_12|        scalar|
+|zext_ln300_13             |   in|   35|     ap_none|                    zext_ln300_13|        scalar|
+|zext_ln300_14             |   in|   35|     ap_none|                    zext_ln300_14|        scalar|
+|zext_ln296                |   in|   35|     ap_none|                       zext_ln296|        scalar|
 |den2_V_0_3_08_out         |  out|   36|      ap_vld|                den2_V_0_3_08_out|       pointer|
 |den2_V_0_3_08_out_ap_vld  |  out|    1|      ap_vld|                den2_V_0_3_08_out|       pointer|
 |den2_V_0_2_07_out         |  out|   36|      ap_vld|                den2_V_0_2_07_out|       pointer|

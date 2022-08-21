@@ -16,7 +16,7 @@ __SIM_DDS__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../utils.cpp ../../../../main.cpp ../../../../file.cpp ../../../../model_functions.cpp ../../../../master.cpp
+HLS_SOURCES = ../../../../file.cpp ../../../../main.cpp ../../../../utils.cpp ../../../../master.cpp ../../../../model_functions.cpp
 
 override TARGET := csim.exe
 
@@ -68,11 +68,11 @@ all: $(TARGET)
 
 
 
-$(ObjDir)/utils.o: ../../../../utils.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../utils.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/file.o: ../../../../file.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../file.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
--include $(ObjDir)/utils.d
+-include $(ObjDir)/file.d
 
 $(ObjDir)/main.o: ../../../../main.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../main.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
@@ -80,20 +80,20 @@ $(ObjDir)/main.o: ../../../../main.cpp $(ObjDir)/.dir
 
 -include $(ObjDir)/main.d
 
-$(ObjDir)/file.o: ../../../../file.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../file.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/utils.o: ../../../../utils.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../utils.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
--include $(ObjDir)/file.d
-
-$(ObjDir)/model_functions.o: ../../../../model_functions.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../model_functions.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CC) ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
-
--include $(ObjDir)/model_functions.d
+-include $(ObjDir)/utils.d
 
 $(ObjDir)/master.o: ../../../../master.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../master.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/master.d
+
+$(ObjDir)/model_functions.o: ../../../../model_functions.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../model_functions.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+	$(Verb)  $(CC) ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
+
+-include $(ObjDir)/model_functions.d

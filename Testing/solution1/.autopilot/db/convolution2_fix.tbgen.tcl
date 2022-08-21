@@ -13,11 +13,11 @@ set C_modelName {convolution2_fix}
 set C_modelType { void 0 }
 set C_modelArgList {
 	{ m_0 int 36 regular {array 336 { 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 } 1 1 }  }
-	{ out_0 int 35 regular {array 672 { 0 3 } 0 1 }  }
+	{ out_0 int 36 regular {array 224 { 0 3 } 0 1 }  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "m_0", "interface" : "memory", "bitwidth" : 36, "direction" : "READONLY"} , 
- 	{ "Name" : "out_0", "interface" : "memory", "bitwidth" : 35, "direction" : "WRITEONLY"} ]}
+ 	{ "Name" : "out_0", "interface" : "memory", "bitwidth" : 36, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 58
 set portList { 
@@ -75,10 +75,10 @@ set portList {
 	{ m_0_address15 sc_out sc_lv 9 signal 0 } 
 	{ m_0_ce15 sc_out sc_logic 1 signal 0 } 
 	{ m_0_q15 sc_in sc_lv 36 signal 0 } 
-	{ out_0_address0 sc_out sc_lv 10 signal 1 } 
+	{ out_0_address0 sc_out sc_lv 8 signal 1 } 
 	{ out_0_ce0 sc_out sc_logic 1 signal 1 } 
 	{ out_0_we0 sc_out sc_logic 1 signal 1 } 
-	{ out_0_d0 sc_out sc_lv 35 signal 1 } 
+	{ out_0_d0 sc_out sc_lv 36 signal 1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -135,10 +135,10 @@ set NewPortList {[
  	{ "name": "m_0_address15", "direction": "out", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "m_0", "role": "address15" }} , 
  	{ "name": "m_0_ce15", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "m_0", "role": "ce15" }} , 
  	{ "name": "m_0_q15", "direction": "in", "datatype": "sc_lv", "bitwidth":36, "type": "signal", "bundle":{"name": "m_0", "role": "q15" }} , 
- 	{ "name": "out_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "out_0", "role": "address0" }} , 
+ 	{ "name": "out_0_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "out_0", "role": "address0" }} , 
  	{ "name": "out_0_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "out_0", "role": "ce0" }} , 
  	{ "name": "out_0_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "out_0", "role": "we0" }} , 
- 	{ "name": "out_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":35, "type": "signal", "bundle":{"name": "out_0", "role": "d0" }}  ]}
+ 	{ "name": "out_0_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":36, "type": "signal", "bundle":{"name": "out_0", "role": "d0" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "35"],
@@ -360,7 +360,7 @@ set RtlHierarchyInfo {[
 	{"ID" : "32", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268.mux_325_36_1_1_U91", "Parent" : "1"},
 	{"ID" : "33", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268.mux_325_36_1_1_U92", "Parent" : "1"},
 	{"ID" : "34", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268.flow_control_loop_pipe_sequential_init_U", "Parent" : "1"},
-	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322", "Parent" : "0", "Child" : ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101"],
+	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322", "Parent" : "0", "Child" : ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103"],
 		"CDFG" : "convolution2_fix_Pipeline_Convolution2_loop",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -493,8 +493,8 @@ set RtlHierarchyInfo {[
 	{"ID" : "66", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.secondKernel_f_V_3_6_U", "Parent" : "35"},
 	{"ID" : "67", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.secondKernel_f_V_3_7_U", "Parent" : "35"},
 	{"ID" : "68", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.secondBias_f_V_U", "Parent" : "35"},
-	{"ID" : "69", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U151", "Parent" : "35"},
-	{"ID" : "70", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U152", "Parent" : "35"},
+	{"ID" : "69", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_6ns_8ns_13_1_1_U151", "Parent" : "35"},
+	{"ID" : "70", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.urem_6ns_3ns_2_10_1_U152", "Parent" : "35"},
 	{"ID" : "71", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U153", "Parent" : "35"},
 	{"ID" : "72", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U154", "Parent" : "35"},
 	{"ID" : "73", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U155", "Parent" : "35"},
@@ -525,7 +525,9 @@ set RtlHierarchyInfo {[
 	{"ID" : "98", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U180", "Parent" : "35"},
 	{"ID" : "99", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U181", "Parent" : "35"},
 	{"ID" : "100", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U182", "Parent" : "35"},
-	{"ID" : "101", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.flow_control_loop_pipe_sequential_init_U", "Parent" : "35"}]}
+	{"ID" : "101", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U183", "Parent" : "35"},
+	{"ID" : "102", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.mul_36s_36s_55_2_1_U184", "Parent" : "35"},
+	{"ID" : "103", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322.flow_control_loop_pipe_sequential_init_U", "Parent" : "35"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -712,5 +714,5 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	m_0 { ap_memory {  { m_0_address0 mem_address 1 9 }  { m_0_ce0 mem_ce 1 1 }  { m_0_q0 mem_dout 0 36 }  { m_0_address1 MemPortADDR2 1 9 }  { m_0_ce1 MemPortCE2 1 1 }  { m_0_q1 MemPortDOUT2 0 36 }  { m_0_address2 MemPortADDR2 1 9 }  { m_0_ce2 MemPortCE2 1 1 }  { m_0_q2 MemPortDOUT2 0 36 }  { m_0_address3 MemPortADDR2 1 9 }  { m_0_ce3 MemPortCE2 1 1 }  { m_0_q3 MemPortDOUT2 0 36 }  { m_0_address4 MemPortADDR2 1 9 }  { m_0_ce4 MemPortCE2 1 1 }  { m_0_q4 MemPortDOUT2 0 36 }  { m_0_address5 MemPortADDR2 1 9 }  { m_0_ce5 MemPortCE2 1 1 }  { m_0_q5 MemPortDOUT2 0 36 }  { m_0_address6 MemPortADDR2 1 9 }  { m_0_ce6 MemPortCE2 1 1 }  { m_0_q6 MemPortDOUT2 0 36 }  { m_0_address7 MemPortADDR2 1 9 }  { m_0_ce7 MemPortCE2 1 1 }  { m_0_q7 MemPortDOUT2 0 36 }  { m_0_address8 MemPortADDR2 1 9 }  { m_0_ce8 MemPortCE2 1 1 }  { m_0_q8 MemPortDOUT2 0 36 }  { m_0_address9 MemPortADDR2 1 9 }  { m_0_ce9 MemPortCE2 1 1 }  { m_0_q9 MemPortDOUT2 0 36 }  { m_0_address10 MemPortADDR2 1 9 }  { m_0_ce10 MemPortCE2 1 1 }  { m_0_q10 MemPortDOUT2 0 36 }  { m_0_address11 MemPortADDR2 1 9 }  { m_0_ce11 MemPortCE2 1 1 }  { m_0_q11 MemPortDOUT2 0 36 }  { m_0_address12 MemPortADDR2 1 9 }  { m_0_ce12 MemPortCE2 1 1 }  { m_0_q12 MemPortDOUT2 0 36 }  { m_0_address13 MemPortADDR2 1 9 }  { m_0_ce13 MemPortCE2 1 1 }  { m_0_q13 MemPortDOUT2 0 36 }  { m_0_address14 MemPortADDR2 1 9 }  { m_0_ce14 MemPortCE2 1 1 }  { m_0_q14 MemPortDOUT2 0 36 }  { m_0_address15 MemPortADDR2 1 9 }  { m_0_ce15 MemPortCE2 1 1 }  { m_0_q15 MemPortDOUT2 0 36 } } }
-	out_0 { ap_memory {  { out_0_address0 mem_address 1 10 }  { out_0_ce0 mem_ce 1 1 }  { out_0_we0 mem_we 1 1 }  { out_0_d0 mem_din 1 35 } } }
+	out_0 { ap_memory {  { out_0_address0 mem_address 1 8 }  { out_0_ce0 mem_ce 1 1 }  { out_0_we0 mem_we 1 1 }  { out_0_d0 mem_din 1 36 } } }
 }
