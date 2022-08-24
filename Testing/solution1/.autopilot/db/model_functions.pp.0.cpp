@@ -21513,8 +21513,7 @@ typedef ap_fixed<36,17, AP_RND_CONV> fix_ds2;
 # 29 "./model_functions.h"
 void convolution1_fix(fix_input (*m)[3], const fix_par (*k)[4][3], const fix_par *bias, fix_mp1 (*out)[1][8]);
 
-void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_mp2 (*out)[1][16]);
-void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]);
+void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k_c)[4][8], const fix_par *bias_c, const fix_par (*k_d)[14][16], const fix_par *bias_d, fix_ds1 *out);
 void dense1_fix(fix_mp2 (*m)[1][16], const fix_par (*k)[14][16], const fix_par *bias, fix_ds1 *out);
 void dense2_fix(const fix_ds1 *m, const fix_par (*k)[16], const fix_par *bias, fix_ds2 *out);
 void softmax_fix(int mSize, fix_ds2 *m, float *out);
@@ -39374,15 +39373,18 @@ Convolution1_loop:
  }
 }
 
-void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k)[4][8], const fix_par *bias, fix_mp2 (*out)[1][16]){
+void convolution2_fix(fix_mp1 (*m)[1][8], const fix_par (*k_c)[4][8], const fix_par *bias_c, const fix_par (*k_d)[14][16], const fix_par *bias_d, fix_ds1 *out){
 
  short id, r, i = -1, d, h;
     fix_cv2 num;
     fix_par kr[32], b;
     fix_mp1 tmp1[32], tmp2[32];
+    fix_ds1 parc[16];
     fix_cv2 aux = 0;
+    fix_ds1 tmp3;
 #pragma HLS ARRAY_PARTITION variable=tmp1 type=complete
 #pragma HLS ARRAY_PARTITION variable=tmp2 type=complete
+#pragma HLS ARRAY_PARTITION variable=parc type=complete
 #pragma HLS ARRAY_PARTITION variable=kr type=complete
 
 Initialization_Conv2_Loop:
@@ -39394,6 +39396,7 @@ Initialization_Conv2_Loop:
      tmp1[16+r] = m[i][0][d];
      tmp2[r] = 0;
      tmp2[16+r] = 0;
+     parc[r] = bias_d[r];
     }
 
     d = -1;
@@ -39425,8 +39428,8 @@ Convolution2_loop:
     kj = (r) % 8;
     if(kj == 0) ki++;
 
-    kr[r] = k[d][ki][kj];
-    b = bias[d];
+    kr[r] = k_c[d][ki][kj];
+    b = bias_c[d];
    }
   }
 
@@ -39473,35 +39476,22 @@ Operations_Conv2_Loop:
    tmp2[r] = 0;
   }
   if(aux < num) aux = num;
-  out[i/3][0][d] = aux;
+
 
   if ((i+1)%3 == 0){
+
+   VITIS_LOOP_240_1: for(r = 0; r < 16; r++) {
+    tmp3 = k_d[r][i/3][d];
+    parc[r] += aux * tmp3;
+   }
    aux = 0;
   }
  }
+ VITIS_LOOP_247_2: for(r = 0; r < 16; r++) {
+  if (parc[r] < 0) out[r] = 0;
+  else out[r] = parc[r];
+ }
 
-}
-
-void maxPool2_fix(fix_cv2 (*m)[1][16], fix_mp2 (*out)[1][16]){
-
-    int i, d;
-    short oRow = 14;
-    short kRow = 3;
-    fix_mp2 tmp1;
-
-MaxPool2_Loop:
-    for (d = 0; d < 16; d++) {
-    Operations_MaxPool2_Loop:
-        for (i = 0; i < 42; i++) {
-            if (i%kRow == 0){
-             tmp1 = 0;
-            }
-
-            fix_mp2 tmp2 = m[i][0][d];
-   tmp1 = std::max(tmp1, tmp2);
-   out[i/kRow][0][d] = tmp1;
-        }
-    }
 }
 
 void dense1_fix(fix_mp2 (*m)[1][16], const fix_par (*k)[14][16], const fix_par *bias, fix_ds1 *out){

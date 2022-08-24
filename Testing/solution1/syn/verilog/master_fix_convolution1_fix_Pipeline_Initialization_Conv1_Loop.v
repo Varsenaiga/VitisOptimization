@@ -104,8 +104,8 @@ reg    ap_condition_exit_pp0_iter0_stage0;
 wire    ap_loop_exit_ready;
 reg    ap_ready_int;
 wire    ap_block_pp0_stage0_11001;
-reg   [2:0] r_2_reg_838;
-reg   [2:0] r_2_reg_838_pp0_iter1_reg;
+reg   [2:0] r_3_reg_838;
+reg   [2:0] r_3_reg_838_pp0_iter1_reg;
 reg   [0:0] icmp_ln19_reg_847;
 wire   [1:0] j_fu_271_p3;
 reg   [1:0] j_reg_851;
@@ -113,7 +113,7 @@ wire   [63:0] zext_ln24_1_fu_394_p1;
 wire    ap_block_pp0_stage0;
 reg   [2:0] r_fu_88;
 wire    ap_loop_init;
-reg   [2:0] ap_sig_allocacmp_r_2;
+reg   [2:0] ap_sig_allocacmp_r_3;
 wire   [2:0] add_ln19_fu_253_p2;
 reg   [11:0] tmp1_V_11_2_fu_92;
 wire   [11:0] tmp1_V_11_20_fu_639_p3;
@@ -157,7 +157,7 @@ wire   [0:0] tmp_fu_302_p3;
 wire   [15:0] sub_ln21_fu_328_p2;
 wire   [15:0] tmp_s_fu_334_p3;
 wire   [6:0] trunc_ln24_1_fu_367_p1;
-wire   [8:0] tmp_29_cast_fu_371_p3;
+wire   [8:0] tmp_30_cast_fu_371_p3;
 wire   [8:0] trunc_ln24_fu_363_p1;
 wire   [8:0] sub_ln24_fu_379_p2;
 wire   [8:0] zext_ln24_fu_385_p1;
@@ -280,8 +280,8 @@ always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         ap_loop_exit_ready_pp0_iter1_reg <= ap_loop_exit_ready;
         icmp_ln19_reg_847 <= icmp_ln19_fu_247_p2;
-        r_2_reg_838 <= ap_sig_allocacmp_r_2;
-        r_2_reg_838_pp0_iter1_reg <= r_2_reg_838;
+        r_3_reg_838 <= ap_sig_allocacmp_r_3;
+        r_3_reg_838_pp0_iter1_reg <= r_3_reg_838;
     end
 end
 
@@ -357,9 +357,9 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0) & (ap_loop_init == 1'b1))) begin
-        ap_sig_allocacmp_r_2 = 3'd0;
+        ap_sig_allocacmp_r_3 = 3'd0;
     end else begin
-        ap_sig_allocacmp_r_2 = r_fu_88;
+        ap_sig_allocacmp_r_3 = r_fu_88;
     end
 end
 
@@ -470,7 +470,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln19_fu_253_p2 = (ap_sig_allocacmp_r_2 + 3'd1);
+assign add_ln19_fu_253_p2 = (ap_sig_allocacmp_r_3 + 3'd1);
 
 assign add_ln20_fu_265_p2 = (empty_fu_243_p1 + 2'd1);
 
@@ -504,23 +504,23 @@ assign ap_enable_reg_pp0_iter0 = ap_start_int;
 
 assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
-assign empty_fu_243_p1 = ap_sig_allocacmp_r_2[1:0];
+assign empty_fu_243_p1 = ap_sig_allocacmp_r_3[1:0];
 
-assign icmp_ln19_fu_247_p2 = ((ap_sig_allocacmp_r_2 == 3'd6) ? 1'b1 : 1'b0);
+assign icmp_ln19_fu_247_p2 = ((ap_sig_allocacmp_r_3 == 3'd6) ? 1'b1 : 1'b0);
 
-assign icmp_ln20_fu_259_p2 = ((ap_sig_allocacmp_r_2 < 3'd3) ? 1'b1 : 1'b0);
+assign icmp_ln20_fu_259_p2 = ((ap_sig_allocacmp_r_3 < 3'd3) ? 1'b1 : 1'b0);
 
 assign icmp_ln21_fu_279_p2 = ((j_fu_271_p3 == 2'd0) ? 1'b1 : 1'b0);
 
-assign icmp_ln23_1_fu_437_p2 = ((r_2_reg_838_pp0_iter1_reg == 3'd3) ? 1'b1 : 1'b0);
+assign icmp_ln23_1_fu_437_p2 = ((r_3_reg_838_pp0_iter1_reg == 3'd3) ? 1'b1 : 1'b0);
 
-assign icmp_ln23_2_fu_442_p2 = ((r_2_reg_838_pp0_iter1_reg == 3'd2) ? 1'b1 : 1'b0);
+assign icmp_ln23_2_fu_442_p2 = ((r_3_reg_838_pp0_iter1_reg == 3'd2) ? 1'b1 : 1'b0);
 
-assign icmp_ln23_3_fu_447_p2 = ((r_2_reg_838_pp0_iter1_reg == 3'd1) ? 1'b1 : 1'b0);
+assign icmp_ln23_3_fu_447_p2 = ((r_3_reg_838_pp0_iter1_reg == 3'd1) ? 1'b1 : 1'b0);
 
-assign icmp_ln23_4_fu_452_p2 = ((r_2_reg_838_pp0_iter1_reg == 3'd0) ? 1'b1 : 1'b0);
+assign icmp_ln23_4_fu_452_p2 = ((r_3_reg_838_pp0_iter1_reg == 3'd0) ? 1'b1 : 1'b0);
 
-assign icmp_ln23_fu_432_p2 = ((r_2_reg_838_pp0_iter1_reg == 3'd4) ? 1'b1 : 1'b0);
+assign icmp_ln23_fu_432_p2 = ((r_3_reg_838_pp0_iter1_reg == 3'd4) ? 1'b1 : 1'b0);
 
 assign input_r_address0 = zext_ln24_1_fu_394_p1;
 
@@ -570,7 +570,7 @@ assign sext_ln21_fu_288_p1 = sext_ln21_fu_288_p0;
 
 assign sub_ln21_fu_328_p2 = (16'd0 - p_and_t_cast_fu_320_p3);
 
-assign sub_ln24_fu_379_p2 = (tmp_29_cast_fu_371_p3 - trunc_ln24_fu_363_p1);
+assign sub_ln24_fu_379_p2 = (tmp_30_cast_fu_371_p3 - trunc_ln24_fu_363_p1);
 
 assign tmp1_V_0_0_out = tmp1_V_0_0_fu_100;
 
@@ -610,7 +610,7 @@ assign tmp1_V_4_0_out = tmp1_V_4_0_fu_112;
 
 assign tmp1_V_5_0_out = tmp1_V_5_0_fu_116;
 
-assign tmp_29_cast_fu_371_p3 = {{trunc_ln24_1_fu_367_p1}, {2'd0}};
+assign tmp_30_cast_fu_371_p3 = {{trunc_ln24_1_fu_367_p1}, {2'd0}};
 
 assign tmp_fu_302_p3 = add_ln21_fu_296_p2[32'd16];
 

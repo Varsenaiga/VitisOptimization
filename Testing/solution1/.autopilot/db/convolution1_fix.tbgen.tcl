@@ -67,8 +67,8 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "input_r", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "3", "SubInstance" : "grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125", "Port" : "input_r", "Inst_start_state" : "5", "Inst_end_state" : "6"},
-					{"ID" : "1", "SubInstance" : "grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108", "Port" : "input_r", "Inst_start_state" : "1", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "grp_convolution1_fix_Pipeline_Initialization_Conv1_Loop_fu_108", "Port" : "input_r", "Inst_start_state" : "1", "Inst_end_state" : "2"},
+					{"ID" : "3", "SubInstance" : "grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125", "Port" : "input_r", "Inst_start_state" : "5", "Inst_end_state" : "6"}]},
 			{"Name" : "out_0", "Type" : "Memory", "Direction" : "O",
 				"SubConnect" : [
 					{"ID" : "3", "SubInstance" : "grp_convolution1_fix_Pipeline_Convolution1_loop_fu_125", "Port" : "out_0", "Inst_start_state" : "5", "Inst_end_state" : "6"}]},

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix_Pipeline_Convolution2_loop'" level="0">
-<item name = "Date">Sun Aug 21 14:56:22 2022
+<item name = "Date">Wed Aug 24 16:18:23 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">709, 709, 7.352 us, 7.352 us, 709, 709, no</column>
+<column name="">721, 721, 7.477 us, 7.477 us, 721, 721, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Convolution2_loop">707, 707, 37, 1, 1, 672, yes</column>
+<column name="- Convolution2_loop">719, 719, 49, 1, 1, 672, yes</column>
 </table>
 </item>
 </section>

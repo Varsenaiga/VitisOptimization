@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1661354331653">
+  <ports id="1" name="parc_V_0_21_reload" type="PortType" coreId="1953394531" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="parc_V_1_23_reload" type="PortType" coreId="875903860" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="parc_V_2_24_reload" type="PortType" coreId="1366544585" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="parc_V_3_25_reload" type="PortType" coreId="10" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="5" name="parc_V_4_26_reload" type="PortType" coreId="0" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="6" name="parc_V_5_27_reload" type="PortType" coreId="0" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="7" name="parc_V_6_28_reload" type="PortType" coreId="677668216" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="8" name="parc_V_7_29_reload" type="PortType" coreId="1341751712" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="9" name="parc_V_8_210_reload" type="PortType" coreId="1341752312" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="10" name="parc_V_9_211_reload" type="PortType" coreId="6" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="11" name="parc_V_10_212_reload" type="PortType" coreId="1341757608" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="12" name="parc_V_11_213_reload" type="PortType" coreId="1341780880" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="13" name="parc_V_12_214_reload" type="PortType" coreId="1735289198" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="14" name="parc_V_13_215_reload" type="PortType" coreId="0" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="15" name="parc_V_14_216_reload" type="PortType" coreId="976433466" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="16" name="parc_V_15_217_reload" type="PortType" coreId="1366528068" bitwidth="36">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="17" name="out_0" type="PortType" coreName="RAM" coreId="10" bitwidth="35" direction="DirOut" iftype="IfTypeRegister" arraysize="16">
+    <dataInputObjs>getelementptr</dataInputObjs>
+  </ports>
+  <edges id="63" source_obj="//@ports.15" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="65" source_obj="//@ports.14" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="67" source_obj="//@ports.13" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="69" source_obj="//@ports.12" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="71" source_obj="//@ports.11" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="73" source_obj="//@ports.10" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="75" source_obj="//@ports.9" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="77" source_obj="//@ports.8" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="79" source_obj="//@ports.7" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="81" source_obj="//@ports.6" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="83" source_obj="//@ports.5" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="85" source_obj="//@ports.4" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="87" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="89" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="91" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="93" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="96" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.17"/>
+  <edges id="97" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.18"/>
+  <edges id="98" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="99" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="102" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="105" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="106" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="107" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="108" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="109" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="112" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="113" source_obj="//@blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="114" source_obj="//@blocks.0/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="115" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="116" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="117" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="118" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="119" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="120" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="121" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="122" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="123" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="124" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="125" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="126" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="127" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="128" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="129" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="132" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="135" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@ports.16"/>
+  <edges id="138" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="139" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="142" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="143" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="144" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="145" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="146" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="147" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="168" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="169" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="170" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="171" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="172" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="173" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="174" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <blocks id="37" name="newFuncRoot" type="BlockType">
+    <controlOutputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="r" originalName="r" coreId="1717530721" bitwidth="5" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="parc_V_15_217_reload_read" coreId="741749564" bitwidth="36" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_15_217_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="parc_V_14_216_reload_read" coreId="741488444" bitwidth="36" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_14_216_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="parc_V_13_215_reload_read" coreId="741880892" bitwidth="36" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_13_215_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="parc_V_12_214_reload_read" coreId="741488444" bitwidth="36" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_12_214_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="parc_V_11_213_reload_read" coreId="741880892" bitwidth="36" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_11_213_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="parc_V_10_212_reload_read" coreId="741749564" bitwidth="36" opcode="read" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_10_212_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="parc_V_9_211_reload_read" coreId="741749564" bitwidth="36" opcode="read" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_9_211_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="parc_V_8_210_reload_read" coreId="1717530721" bitwidth="36" opcode="read" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_8_210_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="parc_V_7_29_reload_read" coreId="741880892" bitwidth="36" opcode="read" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_7_29_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="parc_V_6_28_reload_read" coreId="1717530721" bitwidth="36" opcode="read" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_6_28_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="parc_V_5_27_reload_read" coreId="741749564" bitwidth="36" opcode="read" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_5_27_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="parc_V_4_26_reload_read" coreId="741488444" bitwidth="36" opcode="read" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_4_26_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="parc_V_3_25_reload_read" coreId="741749564" bitwidth="36" opcode="read" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_3_25_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="parc_V_2_24_reload_read" coreId="1717530721" bitwidth="36" opcode="read" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_2_24_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="parc_V_1_23_reload_read" coreId="741749564" bitwidth="36" opcode="read" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_1_23_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="parc_V_0_21_reload_read" coreId="741488444" bitwidth="36" opcode="read" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <dataInputObjs>parc_V_0_21_reload</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="r_write_ln0" coreId="741749564" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="18" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="br_ln0" coreId="741487420" opcode="br" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <controlInputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="58" name=".exitStub" type="BlockType">
+    <controlInputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="_ln0" coreId="741749564" opcode="ret" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="175" pipe_depth="1" RegionName="VITIS_LOOP_247_2">
+    <basic_blocks id="44" name="_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit" type="BlockType">
+      <controlInputObjs>newFuncRoot</controlInputObjs>
+      <controlInputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>.exitStub</controlOutputObjs>
+      <controlOutputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="r_1" lineNumber="1548" originalName="r" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="1717530721" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="5" opcode="load" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="icmp_ln247" lineNumber="247" fileName="model_functions.cpp" fileDirectory=".." rtlName="icmp_ln247_fu_191_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="convolution2_fix" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.36" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="247" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="add_ln247" lineNumber="247" fileName="model_functions.cpp" fileDirectory=".." rtlName="add_ln247_fu_197_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="convolution2_fix" bitwidth="5" opcode="add" m_display="0" m_delay="1.78" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="247" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="br_ln247" lineNumber="247" fileName="model_functions.cpp" fileDirectory=".." coreId="741880892" contextFuncName="convolution2_fix" opcode="br" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="247" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.split</controlInputObjs>
+        <controlInputObjs>.exitStub</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h">
+        <validLinenumbers>1548</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="model_functions.cpp">
+        <validLinenumbers>247</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="56" name="_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.split" type="BlockType">
+      <controlInputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="r_1_cast" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="r_1_cast_fu_203_p1" coreId="741488444" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="trunc_ln1548" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="tmp_fu_212_p17" coreId="1717530721" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="4" opcode="trunc" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="tmp" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="mux_164_36_1_1_x_U337" coreName="Multiplexer" implIndex="auto" control="no" opType="mux" coreId="76" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="36" opcode="mux" m_display="0" m_delay="2.06" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="trunc_ln1548_1" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="trunc_ln1548_1_fu_250_p1" coreId="1717530721" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="35" opcode="trunc" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="tmp_50" lineNumber="1548" fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="tmp_50_fu_254_p3" coreId="741488444" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h" linenumber="1548" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="out_0_addr" lineNumber="249" fileName="model_functions.cpp" fileDirectory=".." coreId="741880892" contextFuncName="convolution2_fix" bitwidth="4" opcode="getelementptr" m_display="0" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="249" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>out_0</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="select_ln248" lineNumber="248" fileName="model_functions.cpp" fileDirectory=".." rtlName="out_0_d0" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="convolution2_fix" bitwidth="35" opcode="select" m_display="0" m_delay="1.02" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="248" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="out_0_addr_write_ln248" lineNumber="248" fileName="model_functions.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="convolution2_fix" opcode="store" m_display="0" m_delay="2.32" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="248" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="r_write_ln247" lineNumber="247" fileName="model_functions.cpp" fileDirectory=".." coreId="741749564" contextFuncName="convolution2_fix" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="model_functions.cpp" linenumber="247" fileDirectory="C:\Users\tiago\AppData\Roaming\Xilinx\Vitis" functionName="convolution2_fix"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="br_ln0" coreId="741749564" opcode="br" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+        <controlInputObjs>_ZltILi36ELi17ELb1EL9ap_q_mode4EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="D:/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot\ap_fixed_base.h">
+        <validLinenumbers>1548</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="model_functions.cpp">
+        <validLinenumbers>249</validLinenumbers>
+        <validLinenumbers>248</validLinenumbers>
+        <validLinenumbers>247</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <regnodes realName="r_reg_276">
+    <nodeIds>18</nodeIds>
+  </regnodes>
+  <expressionNodes realName="out_0_addr_gep_fu_170">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln1548_fu_208">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_50_fu_254">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_212">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="r_1_cast_fu_203">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln247_fu_197">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln248_fu_262">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln1548_1_fu_250">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="r_fu_70">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln247_fu_191">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="parc_V_14_216_reload_read_read_fu_80">
+    <nodeIds>20</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_2_24_reload_read_read_fu_152">
+    <nodeIds>32</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_5_27_reload_read_read_fu_134">
+    <nodeIds>29</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_3_25_reload_read_read_fu_146">
+    <nodeIds>31</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_6_28_reload_read_read_fu_128">
+    <nodeIds>28</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_11_213_reload_read_read_fu_98">
+    <nodeIds>23</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_4_26_reload_read_read_fu_140">
+    <nodeIds>30</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_13_215_reload_read_read_fu_86">
+    <nodeIds>21</nodeIds>
+  </ioNodes>
+  <ioNodes realName="r_1_load_fu_188">
+    <nodeIds>38</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln247_store_fu_271">
+    <nodeIds>54</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_9_211_reload_read_read_fu_110">
+    <nodeIds>25</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_15_217_reload_read_read_fu_74">
+    <nodeIds>19</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_8_210_reload_read_read_fu_116">
+    <nodeIds>26</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln0_store_fu_183">
+    <nodeIds>35</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_1_23_reload_read_read_fu_158">
+    <nodeIds>33</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_7_29_reload_read_read_fu_122">
+    <nodeIds>27</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_0_21_reload_read_read_fu_164">
+    <nodeIds>34</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_10_212_reload_read_read_fu_104">
+    <nodeIds>24</nodeIds>
+  </ioNodes>
+  <ioNodes realName="parc_V_12_214_reload_read_read_fu_92">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="out_0">
+    <nodeIds>53</nodeIds>
+  </memoryPorts>
+  <ioPorts name="out_0(p0)">
+    <contents name="store">
+      <nodeIds>53</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_0_21_reload">
+    <contents name="read">
+      <nodeIds>34</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_10_212_reload">
+    <contents name="read">
+      <nodeIds>24</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_11_213_reload">
+    <contents name="read">
+      <nodeIds>23</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_12_214_reload">
+    <contents name="read">
+      <nodeIds>22</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_13_215_reload">
+    <contents name="read">
+      <nodeIds>21</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_14_216_reload">
+    <contents name="read">
+      <nodeIds>20</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_15_217_reload">
+    <contents name="read">
+      <nodeIds>19</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_1_23_reload">
+    <contents name="read">
+      <nodeIds>33</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_2_24_reload">
+    <contents name="read">
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_3_25_reload">
+    <contents name="read">
+      <nodeIds>31</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_4_26_reload">
+    <contents name="read">
+      <nodeIds>30</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_5_27_reload">
+    <contents name="read">
+      <nodeIds>29</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_6_28_reload">
+    <contents name="read">
+      <nodeIds>28</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_7_29_reload">
+    <contents name="read">
+      <nodeIds>27</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_8_210_reload">
+    <contents name="read">
+      <nodeIds>26</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="parc_V_9_211_reload">
+    <contents name="read">
+      <nodeIds>25</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="convolution2_fix_Pipeline_VITIS_LOOP_247_2" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="18" mMaxLatency="18">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>37</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="VITIS_LOOP_247_2" mII="1" mDepth="1" mMinTripCount="16" mMaxTripCount="16" mMinLatency="16" mMaxLatency="16" mType="1">
+      <basicBlocks>44</basicBlocks>
+      <basicBlocks>56</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>58</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

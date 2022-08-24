@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix'
 ================================================================
-* Date:           Sun Aug 21 14:57:04 2022
+* Date:           Wed Aug 24 16:18:42 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -219,7 +219,7 @@ ST_5 : Operation 34 [1/1] (0.00ns)   --->   "%tmp1_V_11_11_loc_load = load i12 %
 ST_5 : Operation 35 [2/2] (1.58ns)   --->   "%call_ln31 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i36 %out_0, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:31]   --->   Operation 35 'call' 'call_ln31' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty, i32 4294967295, i32 0, void @empty, void @empty, void @empty, i32 0, i32 0, i32 0, i32 0, void @empty, void @empty"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln31 = call void @convolution1_fix_Pipeline_Convolution1_loop, i12 %tmp1_V_11_0_loc_load, i12 %tmp1_V_10_0_loc_load, i12 %tmp1_V_9, i12 %tmp1_V_11_4_loc_load, i12 %tmp1_V_11_6_loc_load, i12 %tmp1_V_11_9_loc_load, i12 %tmp1_V_5_0_loc_load, i12 %tmp1_V_4_0_loc_load, i12 %tmp1_V_11_11_loc_load, i12 %tmp1_V_2_0_loc_load, i12 %tmp1_V_1_0_loc_load, i12 %tmp1_V_0_0_loc_load, i16 %input_r, i36 %out_0, i19 %firstKernel_f_V_0_0, i19 %firstKernel_f_V_0_1, i20 %firstKernel_f_V_0_2, i18 %firstKernel_f_V_1_0, i18 %firstKernel_f_V_1_1, i18 %firstKernel_f_V_1_2, i18 %firstKernel_f_V_2_0, i18 %firstKernel_f_V_2_1, i18 %firstKernel_f_V_2_2, i18 %firstKernel_f_V_3_0, i19 %firstKernel_f_V_3_1, i19 %firstKernel_f_V_3_2, i22 %firstBias_f_V" [model_functions.cpp:31]   --->   Operation 37 'call' 'call_ln31' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_6 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln131 = ret" [model_functions.cpp:131]   --->   Operation 38 'ret' 'ret_ln131' <Predicate = true> <Delay = 0.00>
 
@@ -517,7 +517,7 @@ ret_ln131             (ret          ) [ 0000000]
 <pin id="47" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_3"/></StgValue>
+<StgValue><ssdm name="empty"/></StgValue>
 </bind>
 </comp>
 

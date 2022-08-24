@@ -98,13 +98,13 @@ ret:                                              ; preds = %for.loop2, %entry
 ; Function Attrs: argmemonly noinline
 define internal fastcc void @copy_out([128 x [3 x %struct.ap_fixed.0]]*, [128 x [3 x i12]]* noalias readonly align 512, [1 x [4 x float]]*, [1 x [4 x float]]* noalias readonly align 512) unnamed_addr #4 {
 entry:
-  call fastcc void @onebyonecpy_hls.p0a128a3struct.ap_fixed.0.78([128 x [3 x %struct.ap_fixed.0]]* %0, [128 x [3 x i12]]* align 512 %1)
+  call fastcc void @onebyonecpy_hls.p0a128a3struct.ap_fixed.0.72([128 x [3 x %struct.ap_fixed.0]]* %0, [128 x [3 x i12]]* align 512 %1)
   call fastcc void @onebyonecpy_hls.p0a1a4f32([1 x [4 x float]]* %2, [1 x [4 x float]]* align 512 %3)
   ret void
 }
 
 ; Function Attrs: argmemonly noinline
-define internal fastcc void @onebyonecpy_hls.p0a128a3struct.ap_fixed.0.78([128 x [3 x %struct.ap_fixed.0]]* noalias, [128 x [3 x i12]]* noalias readonly align 512) unnamed_addr #2 {
+define internal fastcc void @onebyonecpy_hls.p0a128a3struct.ap_fixed.0.72([128 x [3 x %struct.ap_fixed.0]]* noalias, [128 x [3 x i12]]* noalias readonly align 512) unnamed_addr #2 {
 entry:
   %2 = icmp eq [128 x [3 x %struct.ap_fixed.0]]* %0, null
   %3 = icmp eq [128 x [3 x i12]]* %1, null

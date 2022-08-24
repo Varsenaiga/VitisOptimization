@@ -44,10 +44,10 @@ set portList {
 	{ out_r_ce0 sc_out sc_logic 1 signal 5 } 
 	{ out_r_we0 sc_out sc_logic 1 signal 5 } 
 	{ out_r_d0 sc_out sc_lv 32 signal 5 } 
-	{ grp_fu_1430_p_din0 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_1430_p_din1 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_1430_p_dout0 sc_in sc_lv 64 signal -1 } 
-	{ grp_fu_1430_p_ce sc_out sc_logic 1 signal -1 } 
+	{ grp_fu_526_p_din0 sc_out sc_lv 64 signal -1 } 
+	{ grp_fu_526_p_din1 sc_out sc_lv 64 signal -1 } 
+	{ grp_fu_526_p_dout0 sc_in sc_lv 64 signal -1 } 
+	{ grp_fu_526_p_ce sc_out sc_logic 1 signal -1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -65,10 +65,10 @@ set NewPortList {[
  	{ "name": "out_r_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "out_r", "role": "ce0" }} , 
  	{ "name": "out_r_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "out_r", "role": "we0" }} , 
  	{ "name": "out_r_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "out_r", "role": "d0" }} , 
- 	{ "name": "grp_fu_1430_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_1430_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_1430_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_1430_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_1430_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_1430_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_1430_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_1430_p_ce", "role": "default" }}  ]}
+ 	{ "name": "grp_fu_526_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_526_p_din0", "role": "default" }} , 
+ 	{ "name": "grp_fu_526_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_526_p_din1", "role": "default" }} , 
+ 	{ "name": "grp_fu_526_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_526_p_dout0", "role": "default" }} , 
+ 	{ "name": "grp_fu_526_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_526_p_ce", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4"],
@@ -94,9 +94,9 @@ set RtlHierarchyInfo {[
 		"Loop" : [
 			{"Name" : "Operations_SoftMax_Loop", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter79", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter79", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.fptrunc_64ns_32_2_no_dsp_1_U1023", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.ddiv_64ns_64ns_64_59_no_dsp_1_U1024", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_42_64_1_1_U1026", "Parent" : "0"},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.fptrunc_64ns_32_2_no_dsp_1_U428", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.ddiv_64ns_64ns_64_59_no_dsp_1_U429", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mux_42_64_1_1_U431", "Parent" : "0"},
 	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"}]}
 
 

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution2_fix'" level="0">
-<item name = "Date">Sun Aug 21 14:57:11 2022
+<item name = "Date">Wed Aug 24 16:18:52 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,15 +24,16 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">730, 730, 7.570 us, 7.570 us, 730, 730, no</column>
+<column name="">762, 762, 7.902 us, 7.902 us, 762, 762, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268">convolution2_fix_Pipeline_Initialization_Conv2_Loop, 18, 18, 0.187 us, 0.187 us, 18, 18, no</column>
-<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322">convolution2_fix_Pipeline_Convolution2_loop, 709, 709, 7.352 us, 7.352 us, 709, 709, no</column>
+<column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_402">convolution2_fix_Pipeline_Initialization_Conv2_Loop, 18, 18, 0.187 us, 0.187 us, 18, 18, no</column>
+<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_474">convolution2_fix_Pipeline_Convolution2_loop, 721, 721, 7.477 us, 7.477 us, 721, 721, no</column>
+<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_247_2_fu_628">convolution2_fix_Pipeline_VITIS_LOOP_247_2, 18, 18, 0.187 us, 0.187 us, 18, 18, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -51,20 +52,21 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, -, -, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">0, 128, 19394, 14259, -</column>
+<column name="Instance">90, 160, 29618, 18657, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, -, 188, -</column>
-<column name="Register">-, -, 6, -, -</column>
+<column name="Multiplexer">-, -, -, 200, -</column>
+<column name="Register">-, -, 9, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
-<specialColumn name="Utilization (%)">0, 58, 18, 27, 0</specialColumn>
+<specialColumn name="Utilization (%)">32, 72, 27, 35, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322">convolution2_fix_Pipeline_Convolution2_loop, 0, 128, 17638, 10205, 0</column>
-<column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268">convolution2_fix_Pipeline_Initialization_Conv2_Loop, 0, 0, 1756, 4054, 0</column>
+<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_474">convolution2_fix_Pipeline_Convolution2_loop, 90, 160, 27254, 14447, 0</column>
+<column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_402">convolution2_fix_Pipeline_Initialization_Conv2_Loop, 0, 0, 2357, 4060, 0</column>
+<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_247_2_fu_628">convolution2_fix_Pipeline_VITIS_LOOP_247_2, 0, 0, 7, 150, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -85,7 +87,7 @@
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">25, 5, 1, 5</column>
+<column name="ap_NS_fsm">37, 7, 1, 7</column>
 <column name="m_0_address0">14, 3, 9, 27</column>
 <column name="m_0_ce0">14, 3, 1, 3</column>
 <column name="m_0_ce1">9, 2, 1, 2</column>
@@ -107,9 +109,10 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ap_CS_fsm">4, 0, 4, 0</column>
-<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_322_ap_start_reg">1, 0, 1, 0</column>
-<column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_268_ap_start_reg">1, 0, 1, 0</column>
+<column name="ap_CS_fsm">6, 0, 6, 0</column>
+<column name="grp_convolution2_fix_Pipeline_Convolution2_loop_fu_474_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_convolution2_fix_Pipeline_Initialization_Conv2_Loop_fu_402_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_convolution2_fix_Pipeline_VITIS_LOOP_247_2_fu_628_ap_start_reg">1, 0, 1, 0</column>
 </table>
 </item>
 </section>
@@ -173,10 +176,10 @@
 <column name="m_0_address15">out, 9, ap_memory, m_0, array</column>
 <column name="m_0_ce15">out, 1, ap_memory, m_0, array</column>
 <column name="m_0_q15">in, 36, ap_memory, m_0, array</column>
-<column name="out_0_address0">out, 8, ap_memory, out_0, array</column>
+<column name="out_0_address0">out, 4, ap_memory, out_0, array</column>
 <column name="out_0_ce0">out, 1, ap_memory, out_0, array</column>
 <column name="out_0_we0">out, 1, ap_memory, out_0, array</column>
-<column name="out_0_d0">out, 36, ap_memory, out_0, array</column>
+<column name="out_0_d0">out, 35, ap_memory, out_0, array</column>
 </table>
 </item>
 </section>

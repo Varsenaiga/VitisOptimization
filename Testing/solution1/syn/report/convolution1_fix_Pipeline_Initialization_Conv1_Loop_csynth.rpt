@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix_Pipeline_Initialization_Conv1_Loop'
 ================================================================
-* Date:           Sun Aug 21 14:57:01 2022
+* Date:           Wed Aug 24 16:18:38 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -139,7 +139,7 @@
     |ap_done_int              |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
     |ap_sig_allocacmp_i_load  |   9|          2|   16|         32|
-    |ap_sig_allocacmp_r_2     |   9|          2|    3|          6|
+    |ap_sig_allocacmp_r_3     |   9|          2|    3|          6|
     |i_fu_136                 |   9|          2|   16|         32|
     |r_fu_88                  |   9|          2|    3|          6|
     +-------------------------+----+-----------+-----+-----------+
@@ -158,8 +158,8 @@
     |i_fu_136                          |  16|   0|   16|          0|
     |icmp_ln19_reg_847                 |   1|   0|    1|          0|
     |j_reg_851                         |   2|   0|    2|          0|
-    |r_2_reg_838                       |   3|   0|    3|          0|
-    |r_2_reg_838_pp0_iter1_reg         |   3|   0|    3|          0|
+    |r_3_reg_838                       |   3|   0|    3|          0|
+    |r_3_reg_838_pp0_iter1_reg         |   3|   0|    3|          0|
     |r_fu_88                           |   3|   0|    3|          0|
     |tmp1_V_0_0_fu_100                 |  12|   0|   12|          0|
     |tmp1_V_11_11_fu_128               |  12|   0|   12|          0|

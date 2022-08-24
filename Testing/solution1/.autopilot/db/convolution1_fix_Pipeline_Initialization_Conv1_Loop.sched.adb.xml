@@ -226,7 +226,7 @@ newFuncRoot:12 %i = alloca i32 1
 
 <Node id="26" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0">
 <![CDATA[
-newFuncRoot:13 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3
+newFuncRoot:13 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty, i32 4294967295, i32 0, void @empty, void @empty, void @empty, i32 0, i32 0, i32 0, i32 0, void @empty, void @empty
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -286,10 +286,10 @@ newFuncRoot:16 %br_ln0 = br void
 
 <Node id="31" bw="3" op_0_bw="3" op_1_bw="0">
 <![CDATA[
-:0 %r_2 = load i3 %r
+:0 %r_3 = load i3 %r
 
 ]]></Node>
-<StgValue><ssdm name="r_2"/></StgValue>
+<StgValue><ssdm name="r_3"/></StgValue>
 </operation>
 
 <operation id="24" st_id="1" stage="1" lat="1">
@@ -301,7 +301,7 @@ newFuncRoot:16 %br_ln0 = br void
 
 <Node id="32" bw="2" op_0_bw="3">
 <![CDATA[
-:1 %empty = trunc i3 %r_2
+:1 %empty = trunc i3 %r_3
 
 ]]></Node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -331,7 +331,7 @@ newFuncRoot:16 %br_ln0 = br void
 
 <Node id="34" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-:3 %icmp_ln19 = icmp_eq  i3 %r_2, i3 6
+:3 %icmp_ln19 = icmp_eq  i3 %r_3, i3 6
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln19"/></StgValue>
@@ -361,7 +361,7 @@ newFuncRoot:16 %br_ln0 = br void
 
 <Node id="36" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-:5 %add_ln19 = add i3 %r_2, i3 1
+:5 %add_ln19 = add i3 %r_3, i3 1
 
 ]]></Node>
 <StgValue><ssdm name="add_ln19"/></StgValue>
@@ -392,7 +392,7 @@ newFuncRoot:16 %br_ln0 = br void
 
 <Node id="39" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-.split4:0 %specloopname_ln9 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5
+.split4:0 %specloopname_ln9 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln9"/></StgValue>
@@ -408,7 +408,7 @@ newFuncRoot:16 %br_ln0 = br void
 
 <Node id="40" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-.split4:1 %icmp_ln20 = icmp_ult  i3 %r_2, i3 3
+.split4:1 %icmp_ln20 = icmp_ult  i3 %r_3, i3 3
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln20"/></StgValue>
@@ -772,10 +772,10 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:30 %tru
 
 <Node id="91" bw="9" op_0_bw="9" op_1_bw="7" op_2_bw="2">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:31 %tmp_29_cast = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i7.i2, i7 %trunc_ln24_1, i2 0
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:31 %tmp_30_cast = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i7.i2, i7 %trunc_ln24_1, i2 0
 
 ]]></Node>
-<StgValue><ssdm name="tmp_29_cast"/></StgValue>
+<StgValue><ssdm name="tmp_30_cast"/></StgValue>
 </operation>
 
 <operation id="54" st_id="2" stage="1" lat="1">
@@ -787,7 +787,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:31 %tmp
 
 <Node id="92" bw="9" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:32 %sub_ln24 = sub i9 %tmp_29_cast, i9 %trunc_ln24
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:32 %sub_ln24 = sub i9 %tmp_30_cast, i9 %trunc_ln24
 
 ]]></Node>
 <StgValue><ssdm name="sub_ln24"/></StgValue>
@@ -1413,7 +1413,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:10 %tmp
 
 <Node id="72" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:12 %icmp_ln23 = icmp_eq  i3 %r_2, i3 4
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:12 %icmp_ln23 = icmp_eq  i3 %r_3, i3 4
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln23"/></StgValue>
@@ -1428,7 +1428,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:12 %icm
 
 <Node id="73" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:13 %icmp_ln23_1 = icmp_eq  i3 %r_2, i3 3
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:13 %icmp_ln23_1 = icmp_eq  i3 %r_3, i3 3
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln23_1"/></StgValue>
@@ -1443,7 +1443,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:13 %icm
 
 <Node id="74" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:14 %icmp_ln23_2 = icmp_eq  i3 %r_2, i3 2
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:14 %icmp_ln23_2 = icmp_eq  i3 %r_3, i3 2
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln23_2"/></StgValue>
@@ -1458,7 +1458,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:14 %icm
 
 <Node id="75" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:15 %icmp_ln23_3 = icmp_eq  i3 %r_2, i3 1
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:15 %icmp_ln23_3 = icmp_eq  i3 %r_3, i3 1
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln23_3"/></StgValue>
@@ -1473,7 +1473,7 @@ _ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:15 %icm
 
 <Node id="76" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:16 %icmp_ln23_4 = icmp_eq  i3 %r_2, i3 0
+_ZN8ap_fixedILi12ELi12EL9ap_q_mode4EL9ap_o_mode3ELi0EEC2Ei.exit81_ifconv:16 %icmp_ln23_4 = icmp_eq  i3 %r_3, i3 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln23_4"/></StgValue>

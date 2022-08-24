@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'master_fix_Pipeline_Operations_SoftMax_Loop'
 ================================================================
-* Date:           Sun Aug 21 14:57:44 2022
+* Date:           Wed Aug 24 16:18:59 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -70,15 +70,15 @@
 
 + Detail: 
     * Instance: 
-    +-------------------------------------+-------------------------------+---------+----+---+----+-----+
-    |               Instance              |             Module            | BRAM_18K| DSP| FF| LUT| URAM|
-    +-------------------------------------+-------------------------------+---------+----+---+----+-----+
-    |ddiv_64ns_64ns_64_59_no_dsp_1_U1024  |ddiv_64ns_64ns_64_59_no_dsp_1  |        0|   0|  0|   0|    0|
-    |fptrunc_64ns_32_2_no_dsp_1_U1023     |fptrunc_64ns_32_2_no_dsp_1     |        0|   0|  0|   0|    0|
-    |mux_42_64_1_1_U1026                  |mux_42_64_1_1                  |        0|   0|  0|  20|    0|
-    +-------------------------------------+-------------------------------+---------+----+---+----+-----+
-    |Total                                |                               |        0|   0|  0|  20|    0|
-    +-------------------------------------+-------------------------------+---------+----+---+----+-----+
+    +------------------------------------+-------------------------------+---------+----+---+----+-----+
+    |              Instance              |             Module            | BRAM_18K| DSP| FF| LUT| URAM|
+    +------------------------------------+-------------------------------+---------+----+---+----+-----+
+    |ddiv_64ns_64ns_64_59_no_dsp_1_U429  |ddiv_64ns_64ns_64_59_no_dsp_1  |        0|   0|  0|   0|    0|
+    |fptrunc_64ns_32_2_no_dsp_1_U428     |fptrunc_64ns_32_2_no_dsp_1     |        0|   0|  0|   0|    0|
+    |mux_42_64_1_1_U431                  |mux_42_64_1_1                  |        0|   0|  0|  20|    0|
+    +------------------------------------+-------------------------------+---------+----+---+----+-----+
+    |Total                               |                               |        0|   0|  0|  20|    0|
+    +------------------------------------+-------------------------------+---------+----+---+----+-----+
 
     * DSP: 
     N/A
@@ -93,8 +93,8 @@
     +----------------------+----------+----+---+----+------------+------------+
     |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +----------------------+----------+----+---+----+------------+------------+
-    |add_ln327_fu_123_p2   |         +|   0|  0|  11|           3|           1|
-    |icmp_ln327_fu_117_p2  |      icmp|   0|  0|   9|           3|           4|
+    |add_ln318_fu_123_p2   |         +|   0|  0|  11|           3|           1|
+    |icmp_ln318_fu_117_p2  |      icmp|   0|  0|   9|           3|           4|
     |ap_enable_pp0         |       xor|   0|  0|   2|           1|           2|
     +----------------------+----------+----+---+----+------------+------------+
     |Total                 |          |   0|  0|  22|           7|           7|
@@ -291,27 +291,27 @@
 == Interface
 ================================================================
 * Summary: 
-+---------------------+-----+-----+------------+---------------------------------------------+--------------+
-|      RTL Ports      | Dir | Bits|  Protocol  |                Source Object                |    C Type    |
-+---------------------+-----+-----+------------+---------------------------------------------+--------------+
-|ap_clk               |   in|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|ap_rst               |   in|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|ap_start             |   in|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|ap_done              |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|ap_idle              |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|ap_ready             |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1430_p_din0   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1430_p_din1   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1430_p_dout0  |   in|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|grp_fu_1430_p_ce     |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
-|m_3_10_reload        |   in|   64|     ap_none|                                m_3_10_reload|        scalar|
-|m_3_7_reload         |   in|   64|     ap_none|                                 m_3_7_reload|        scalar|
-|m_2_03_reload        |   in|   64|     ap_none|                                m_2_03_reload|        scalar|
-|m_3_04_reload        |   in|   64|     ap_none|                                m_3_04_reload|        scalar|
-|sum                  |   in|   64|     ap_none|                                          sum|        scalar|
-|out_r_address0       |  out|    2|   ap_memory|                                        out_r|         array|
-|out_r_ce0            |  out|    1|   ap_memory|                                        out_r|         array|
-|out_r_we0            |  out|    1|   ap_memory|                                        out_r|         array|
-|out_r_d0             |  out|   32|   ap_memory|                                        out_r|         array|
-+---------------------+-----+-----+------------+---------------------------------------------+--------------+
++--------------------+-----+-----+------------+---------------------------------------------+--------------+
+|      RTL Ports     | Dir | Bits|  Protocol  |                Source Object                |    C Type    |
++--------------------+-----+-----+------------+---------------------------------------------+--------------+
+|ap_clk              |   in|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|ap_rst              |   in|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|ap_start            |   in|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|ap_done             |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|ap_idle             |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|ap_ready            |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_526_p_din0   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_526_p_din1   |  out|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_526_p_dout0  |   in|   64|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|grp_fu_526_p_ce     |  out|    1|  ap_ctrl_hs|  master_fix_Pipeline_Operations_SoftMax_Loop|  return value|
+|m_3_10_reload       |   in|   64|     ap_none|                                m_3_10_reload|        scalar|
+|m_3_7_reload        |   in|   64|     ap_none|                                 m_3_7_reload|        scalar|
+|m_2_03_reload       |   in|   64|     ap_none|                                m_2_03_reload|        scalar|
+|m_3_04_reload       |   in|   64|     ap_none|                                m_3_04_reload|        scalar|
+|sum                 |   in|   64|     ap_none|                                          sum|        scalar|
+|out_r_address0      |  out|    2|   ap_memory|                                        out_r|         array|
+|out_r_ce0           |  out|    1|   ap_memory|                                        out_r|         array|
+|out_r_we0           |  out|    1|   ap_memory|                                        out_r|         array|
+|out_r_d0            |  out|   32|   ap_memory|                                        out_r|         array|
++--------------------+-----+-----+------------+---------------------------------------------+--------------+
 

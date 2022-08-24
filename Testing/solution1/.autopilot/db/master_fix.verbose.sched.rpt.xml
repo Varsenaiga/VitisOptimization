@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'master_fix'" level="0">
-<item name = "Date">Sun Aug 21 14:56:53 2022
+<item name = "Date">Wed Aug 24 16:18:34 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">4442, 4442, 46.064 us, 46.064 us, 4443, 4443, no</column>
+<column name="">4114, 4114, 42.662 us, 42.662 us, 4115, 4115, no</column>
 </table>
 </item>
 <item name = "Detail">

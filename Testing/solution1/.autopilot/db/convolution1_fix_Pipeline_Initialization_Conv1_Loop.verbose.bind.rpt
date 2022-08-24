@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'convolution1_fix_Pipeline_Initialization_Conv1_Loop'
 ================================================================
-* Date:           Sun Aug 21 14:56:12 2022
+* Date:           Wed Aug 24 16:18:14 2022
 
 * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
 * Project:        Testing
@@ -99,19 +99,19 @@ ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp1_V_11_4 = alloca i32 1"   --->
 ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%tmp1_V_11_11 = alloca i32 1"   --->   Operation 16 'alloca' 'tmp1_V_11_11' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%tmp1_V_11_13 = alloca i32 1"   --->   Operation 17 'alloca' 'tmp1_V_11_13' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 18 'alloca' 'i' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty_3, i32 4294967295, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %input_r, void @empty_0, i32 0, i32 0, void @empty, i32 4294967295, i32 0, void @empty, void @empty, void @empty, i32 0, i32 0, i32 0, i32 0, void @empty, void @empty"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 20 [1/1] (1.58ns)   --->   "%store_ln0 = store i16 65535, i16 %i"   --->   Operation 20 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
 ST_1 : Operation 21 [1/1] (1.58ns)   --->   "%store_ln0 = store i3 0, i3 %r"   --->   Operation 21 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
 ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln0 = br void"   --->   Operation 22 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%r_2 = load i3 %r"   --->   Operation 23 'load' 'r_2' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%empty = trunc i3 %r_2"   --->   Operation 24 'trunc' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%r_3 = load i3 %r"   --->   Operation 23 'load' 'r_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%empty = trunc i3 %r_3"   --->   Operation 24 'trunc' 'empty' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 25 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 26 [1/1] (1.13ns)   --->   "%icmp_ln19 = icmp_eq  i3 %r_2, i3 6" [model_functions.cpp:19]   --->   Operation 26 'icmp' 'icmp_ln19' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (1.13ns)   --->   "%icmp_ln19 = icmp_eq  i3 %r_3, i3 6" [model_functions.cpp:19]   --->   Operation 26 'icmp' 'icmp_ln19' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%empty_35 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 6, i64 6, i64 6"   --->   Operation 27 'speclooptripcount' 'empty_35' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 28 [1/1] (1.65ns)   --->   "%add_ln19 = add i3 %r_2, i3 1" [model_functions.cpp:19]   --->   Operation 28 'add' 'add_ln19' <Predicate = true> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (1.65ns)   --->   "%add_ln19 = add i3 %r_3, i3 1" [model_functions.cpp:19]   --->   Operation 28 'add' 'add_ln19' <Predicate = true> <Delay = 1.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%br_ln19 = br i1 %icmp_ln19, void %.split4, void %.exitStub" [model_functions.cpp:19]   --->   Operation 29 'br' 'br_ln19' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%specloopname_ln9 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5" [model_functions.cpp:9]   --->   Operation 30 'specloopname' 'specloopname_ln9' <Predicate = (!icmp_ln19)> <Delay = 0.00>
-ST_1 : Operation 31 [1/1] (1.13ns)   --->   "%icmp_ln20 = icmp_ult  i3 %r_2, i3 3" [model_functions.cpp:20]   --->   Operation 31 'icmp' 'icmp_ln20' <Predicate = (!icmp_ln19)> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%specloopname_ln9 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10" [model_functions.cpp:9]   --->   Operation 30 'specloopname' 'specloopname_ln9' <Predicate = (!icmp_ln19)> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (1.13ns)   --->   "%icmp_ln20 = icmp_ult  i3 %r_3, i3 3" [model_functions.cpp:20]   --->   Operation 31 'icmp' 'icmp_ln20' <Predicate = (!icmp_ln19)> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 32 [1/1] (1.56ns)   --->   "%add_ln20 = add i2 %empty, i2 1" [model_functions.cpp:20]   --->   Operation 32 'add' 'add_ln20' <Predicate = (!icmp_ln19)> <Delay = 1.56> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 33 [1/1] (0.99ns)   --->   "%j = select i1 %icmp_ln20, i2 %empty, i2 %add_ln20" [model_functions.cpp:20]   --->   Operation 33 'select' 'j' <Predicate = (!icmp_ln19)> <Delay = 0.99> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_1 : Operation 34 [1/1] (0.95ns)   --->   "%icmp_ln21 = icmp_eq  i2 %j, i2 0" [model_functions.cpp:21]   --->   Operation 34 'icmp' 'icmp_ln21' <Predicate = (!icmp_ln19)> <Delay = 0.95> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
@@ -135,8 +135,8 @@ State 2 <SV = 1> <Delay = 6.95>
 ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%i_4 = load i16 %i" [model_functions.cpp:24]   --->   Operation 50 'load' 'i_4' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 51 [1/1] (0.00ns)   --->   "%trunc_ln24 = trunc i16 %i_4" [model_functions.cpp:24]   --->   Operation 51 'trunc' 'trunc_ln24' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%trunc_ln24_1 = trunc i16 %i_4" [model_functions.cpp:24]   --->   Operation 52 'trunc' 'trunc_ln24_1' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 53 [1/1] (0.00ns)   --->   "%tmp_29_cast = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i7.i2, i7 %trunc_ln24_1, i2 0" [model_functions.cpp:24]   --->   Operation 53 'bitconcatenate' 'tmp_29_cast' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 54 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln24 = sub i9 %tmp_29_cast, i9 %trunc_ln24" [model_functions.cpp:24]   --->   Operation 54 'sub' 'sub_ln24' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.84> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 53 [1/1] (0.00ns)   --->   "%tmp_30_cast = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i7.i2, i7 %trunc_ln24_1, i2 0" [model_functions.cpp:24]   --->   Operation 53 'bitconcatenate' 'tmp_30_cast' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 54 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln24 = sub i9 %tmp_30_cast, i9 %trunc_ln24" [model_functions.cpp:24]   --->   Operation 54 'sub' 'sub_ln24' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.84> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_2 : Operation 55 [1/1] (0.00ns)   --->   "%zext_ln24 = zext i2 %j" [model_functions.cpp:24]   --->   Operation 55 'zext' 'zext_ln24' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 56 [1/1] (3.69ns) (root node of TernaryAdder)   --->   "%add_ln24 = add i9 %sub_ln24, i9 %zext_ln24" [model_functions.cpp:24]   --->   Operation 56 'add' 'add_ln24' <Predicate = true> <Delay = 3.69> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.84> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_2 : Operation 57 [1/1] (0.00ns)   --->   "%zext_ln24_1 = zext i9 %add_ln24" [model_functions.cpp:24]   --->   Operation 57 'zext' 'zext_ln24_1' <Predicate = true> <Delay = 0.00>
@@ -178,11 +178,11 @@ ST_3 : Operation 67 [1/1] (0.00ns)   --->   "%tmp1_V_11_6_load_1 = load i12 %tmp
 ST_3 : Operation 68 [1/1] (0.00ns)   --->   "%tmp1_V_11_4_load_1 = load i12 %tmp1_V_11_4" [model_functions.cpp:24]   --->   Operation 68 'load' 'tmp1_V_11_4_load_1' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 69 [1/1] (0.00ns)   --->   "%tmp1_V_11_11_load_1 = load i12 %tmp1_V_11_11" [model_functions.cpp:24]   --->   Operation 69 'load' 'tmp1_V_11_11_load_1' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 70 [1/1] (0.00ns)   --->   "%tmp1_V_11_13_load_1 = load i12 %tmp1_V_11_13" [model_functions.cpp:24]   --->   Operation 70 'load' 'tmp1_V_11_13_load_1' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 71 [1/1] (1.13ns)   --->   "%icmp_ln23 = icmp_eq  i3 %r_2, i3 4" [model_functions.cpp:23]   --->   Operation 71 'icmp' 'icmp_ln23' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 72 [1/1] (1.13ns)   --->   "%icmp_ln23_1 = icmp_eq  i3 %r_2, i3 3" [model_functions.cpp:23]   --->   Operation 72 'icmp' 'icmp_ln23_1' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 73 [1/1] (1.13ns)   --->   "%icmp_ln23_2 = icmp_eq  i3 %r_2, i3 2" [model_functions.cpp:23]   --->   Operation 73 'icmp' 'icmp_ln23_2' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 74 [1/1] (1.13ns)   --->   "%icmp_ln23_3 = icmp_eq  i3 %r_2, i3 1" [model_functions.cpp:23]   --->   Operation 74 'icmp' 'icmp_ln23_3' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 75 [1/1] (1.13ns)   --->   "%icmp_ln23_4 = icmp_eq  i3 %r_2, i3 0" [model_functions.cpp:23]   --->   Operation 75 'icmp' 'icmp_ln23_4' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 71 [1/1] (1.13ns)   --->   "%icmp_ln23 = icmp_eq  i3 %r_3, i3 4" [model_functions.cpp:23]   --->   Operation 71 'icmp' 'icmp_ln23' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 72 [1/1] (1.13ns)   --->   "%icmp_ln23_1 = icmp_eq  i3 %r_3, i3 3" [model_functions.cpp:23]   --->   Operation 72 'icmp' 'icmp_ln23_1' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 73 [1/1] (1.13ns)   --->   "%icmp_ln23_2 = icmp_eq  i3 %r_3, i3 2" [model_functions.cpp:23]   --->   Operation 73 'icmp' 'icmp_ln23_2' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 74 [1/1] (1.13ns)   --->   "%icmp_ln23_3 = icmp_eq  i3 %r_3, i3 1" [model_functions.cpp:23]   --->   Operation 74 'icmp' 'icmp_ln23_3' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 75 [1/1] (1.13ns)   --->   "%icmp_ln23_4 = icmp_eq  i3 %r_3, i3 0" [model_functions.cpp:23]   --->   Operation 75 'icmp' 'icmp_ln23_4' <Predicate = true> <Delay = 1.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 76 [1/1] (0.97ns)   --->   "%or_ln23 = or i1 %icmp_ln23_4, i1 %icmp_ln23_3" [model_functions.cpp:23]   --->   Operation 76 'or' 'or_ln23' <Predicate = true> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 77 [1/1] (0.00ns) (grouped into LUT with out node or_ln23_2)   --->   "%or_ln23_1 = or i1 %icmp_ln23_2, i1 %icmp_ln23_1" [model_functions.cpp:23]   --->   Operation 77 'or' 'or_ln23_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 78 [1/1] (0.00ns) (grouped into LUT with out node select_ln23_1)   --->   "%select_ln23 = select i1 %icmp_ln23, i12 %tmp1_V_5_0_load_1, i12 4089" [model_functions.cpp:23]   --->   Operation 78 'select' 'select_ln23' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
@@ -269,7 +269,7 @@ specinterface_ln0   (specinterface    ) [ 0000]
 store_ln0           (store            ) [ 0000]
 store_ln0           (store            ) [ 0000]
 br_ln0              (br               ) [ 0000]
-r_2                 (load             ) [ 0111]
+r_3                 (load             ) [ 0111]
 empty               (trunc            ) [ 0000]
 specpipeline_ln0    (specpipeline     ) [ 0000]
 icmp_ln19           (icmp             ) [ 0110]
@@ -299,7 +299,7 @@ store_ln19          (store            ) [ 0000]
 i_4                 (load             ) [ 0000]
 trunc_ln24          (trunc            ) [ 0000]
 trunc_ln24_1        (trunc            ) [ 0000]
-tmp_29_cast         (bitconcatenate   ) [ 0000]
+tmp_30_cast         (bitconcatenate   ) [ 0000]
 sub_ln24            (sub              ) [ 0000]
 zext_ln24           (zext             ) [ 0000]
 add_ln24            (add              ) [ 0000]
@@ -537,7 +537,7 @@ ret_ln0             (ret              ) [ 0000]
 <pin id="33" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_3"/></StgValue>
+<StgValue><ssdm name="empty"/></StgValue>
 </bind>
 </comp>
 
@@ -636,7 +636,7 @@ ret_ln0             (ret              ) [ 0000]
 <pin id="55" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_5"/></StgValue>
+<StgValue><ssdm name="empty_10"/></StgValue>
 </bind>
 </comp>
 
@@ -1120,14 +1120,14 @@ ret_ln0             (ret              ) [ 0000]
 </bind>
 </comp>
 
-<comp id="240" class="1004" name="r_2_load_fu_240">
+<comp id="240" class="1004" name="r_3_load_fu_240">
 <pin_list>
 <pin id="241" dir="0" index="0" bw="3" slack="0"/>
 <pin id="242" dir="1" index="1" bw="3" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="r_2/1 "/>
+<opset="r_3/1 "/>
 </bind>
 </comp>
 
@@ -1404,7 +1404,7 @@ ret_ln0             (ret              ) [ 0000]
 </bind>
 </comp>
 
-<comp id="371" class="1004" name="tmp_29_cast_fu_371">
+<comp id="371" class="1004" name="tmp_30_cast_fu_371">
 <pin_list>
 <pin id="372" dir="0" index="0" bw="9" slack="0"/>
 <pin id="373" dir="0" index="1" bw="7" slack="0"/>
@@ -1413,7 +1413,7 @@ ret_ln0             (ret              ) [ 0000]
 </pin_list>
 <bind>
 <opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
-<opset="tmp_29_cast/2 "/>
+<opset="tmp_30_cast/2 "/>
 </bind>
 </comp>
 
@@ -2347,13 +2347,13 @@ ret_ln0             (ret              ) [ 0000]
 </bind>
 </comp>
 
-<comp id="838" class="1005" name="r_2_reg_838">
+<comp id="838" class="1005" name="r_3_reg_838">
 <pin_list>
 <pin id="839" dir="0" index="0" bw="3" slack="2"/>
 <pin id="840" dir="1" index="1" bw="3" slack="2"/>
 </pin_list>
 <bind>
-<opset="r_2 "/>
+<opset="r_3 "/>
 </bind>
 </comp>
 
@@ -2912,7 +2912,7 @@ ret_ln0             (ret              ) [ 0000]
 	State 1
 		store_ln0 : 1
 		store_ln0 : 1
-		r_2 : 1
+		r_3 : 1
 		empty : 2
 		icmp_ln19 : 2
 		add_ln19 : 2
@@ -2938,7 +2938,7 @@ ret_ln0             (ret              ) [ 0000]
 	State 2
 		trunc_ln24 : 1
 		trunc_ln24_1 : 1
-		tmp_29_cast : 2
+		tmp_30_cast : 2
 		sub_ln24 : 3
 		add_ln24 : 4
 		zext_ln24_1 : 5
@@ -3074,7 +3074,7 @@ ret_ln0             (ret              ) [ 0000]
 |----------|------------------------|---------|---------|
 |          |   p_and_t_cast_fu_320  |    0    |    0    |
 |bitconcatenate|      tmp_s_fu_334      |    0    |    0    |
-|          |   tmp_29_cast_fu_371   |    0    |    0    |
+|          |   tmp_30_cast_fu_371   |    0    |    0    |
 |----------|------------------------|---------|---------|
 |   zext   |    zext_ln24_fu_385    |    0    |    0    |
 |          |   zext_ln24_1_fu_394   |    0    |    0    |
@@ -3093,7 +3093,7 @@ N/A
 |  icmp_ln19_reg_847 |    1   |
 | input_addr_reg_859 |    9   |
 |      j_reg_851     |    2   |
-|     r_2_reg_838    |    3   |
+|     r_3_reg_838    |    3   |
 |      r_reg_746     |    3   |
 | tmp1_V_0_0_reg_767 |   12   |
 |tmp1_V_11_11_reg_816|   12   |

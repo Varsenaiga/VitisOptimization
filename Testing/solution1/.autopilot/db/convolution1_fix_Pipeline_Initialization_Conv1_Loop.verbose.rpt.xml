@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'convolution1_fix_Pipeline_Initialization_Conv1_Loop'" level="0">
-<item name = "Date">Sun Aug 21 14:57:01 2022
+<item name = "Date">Wed Aug 24 16:18:38 2022
 </item>
 <item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
 <item name = "Project">Testing</item>
@@ -128,7 +128,7 @@
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
 <column name="ap_sig_allocacmp_i_load">9, 2, 16, 32</column>
-<column name="ap_sig_allocacmp_r_2">9, 2, 3, 6</column>
+<column name="ap_sig_allocacmp_r_3">9, 2, 3, 6</column>
 <column name="i_fu_136">9, 2, 16, 32</column>
 <column name="r_fu_88">9, 2, 3, 6</column>
 </table>
@@ -143,8 +143,8 @@
 <column name="i_fu_136">16, 0, 16, 0</column>
 <column name="icmp_ln19_reg_847">1, 0, 1, 0</column>
 <column name="j_reg_851">2, 0, 2, 0</column>
-<column name="r_2_reg_838">3, 0, 3, 0</column>
-<column name="r_2_reg_838_pp0_iter1_reg">3, 0, 3, 0</column>
+<column name="r_3_reg_838">3, 0, 3, 0</column>
+<column name="r_3_reg_838_pp0_iter1_reg">3, 0, 3, 0</column>
 <column name="r_fu_88">3, 0, 3, 0</column>
 <column name="tmp1_V_0_0_fu_100">12, 0, 12, 0</column>
 <column name="tmp1_V_11_11_fu_128">12, 0, 12, 0</column>

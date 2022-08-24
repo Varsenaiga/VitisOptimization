@@ -130,15 +130,18 @@ Convolution1_loop:
 	}
 }
 
-void convolution2_fix(fix_mp1 (*m)[1][FIRST_NUM_KERNELS], const fix_par (*k)[SECOND_NUM_ROWS][SECOND_NUM_COLS], const fix_par *bias, fix_mp2 (*out)[1][SECOND_NUM_KERNELS]){
+void convolution2_fix(fix_mp1 (*m)[1][FIRST_NUM_KERNELS], const fix_par (*k_c)[SECOND_NUM_ROWS][SECOND_NUM_COLS], const fix_par *bias_c, const fix_par (*k_d)[THIRD_NUM_ROWS][THIRD_NUM_COLS], const fix_par *bias_d, fix_ds1 *out){
 
 	short id, r, i = -1, d, h;
     fix_cv2 num;
     fix_par kr[32], b;
     fix_mp1 tmp1[32], tmp2[32];
+    fix_ds1 parc[16];
     fix_cv2 aux = 0;
+    fix_ds1 tmp3;
 	#pragma HLS ARRAY_PARTITION variable=tmp1 type=complete
 	#pragma HLS ARRAY_PARTITION variable=tmp2 type=complete
+	#pragma HLS ARRAY_PARTITION variable=parc type=complete
 	#pragma HLS ARRAY_PARTITION variable=kr type=complete
 
 Initialization_Conv2_Loop:
@@ -150,6 +153,7 @@ Initialization_Conv2_Loop:
     	tmp1[16+r] = m[i][0][d];
     	tmp2[r] = 0;
     	tmp2[16+r] = 0;
+    	parc[r] = bias_d[r];
     }
 
     d = -1;
@@ -181,8 +185,8 @@ Convolution2_loop:
 				kj = (r) % SECOND_NUM_COLS;
 				if(kj == 0) ki++;
 
-				kr[r] = k[d][ki][kj];
-				b = bias[d];
+				kr[r] = k_c[d][ki][kj];
+				b = bias_c[d];
 			}
 		}
 
@@ -229,35 +233,22 @@ Operations_Conv2_Loop:
 			tmp2[r] = 0;
 		}
 		if(aux < num) aux = num;
-		out[i/3][0][d] = aux;
+		//out[i/3][0][d] = aux;
 
 		if ((i+1)%3 == 0){
+
+			for(r = 0; r < THIRD_NUM_KERNELS; r++) {
+				tmp3 = k_d[r][i/3][d];
+				parc[r] += aux * tmp3;
+			}
 			aux = 0;
 		}
 	}
+	for(r = 0; r < THIRD_NUM_KERNELS; r++) {
+		if (parc[r] < 0) out[r] = 0;
+		else out[r] = parc[r];
+	}
 
-}
-
-void maxPool2_fix(fix_cv2 (*m)[1][SECOND_NUM_KERNELS], fix_mp2 (*out)[1][SECOND_NUM_KERNELS]){
-
-    int i, d;
-    short oRow = 14;
-    short kRow = 3;
-    fix_mp2 tmp1;
-
-MaxPool2_Loop:
-    for (d = 0; d < SECOND_NUM_KERNELS; d++) {
-    Operations_MaxPool2_Loop:
-        for (i = 0; i < 42; i++) {
-            if (i%kRow == 0){
-            	tmp1 = 0;
-            }
-
-            fix_mp2 tmp2 = m[i][0][d];
-			tmp1 = std::max(tmp1, tmp2);
-			out[i/kRow][0][d] = tmp1;
-        }
-    }
 }
 
 void dense1_fix(fix_mp2 (*m)[1][SECOND_NUM_KERNELS], const fix_par (*k)[THIRD_NUM_ROWS][THIRD_NUM_COLS], const fix_par *bias, fix_ds1 *out){
